@@ -1,0 +1,14 @@
+
+ucft
+{
+	REQN
+	{
+		"texture"
+		"bsm_sky"
+	}
+	REQN
+	{
+		"model"
+		"bsm_skydome"
+	}
+}

@@ -1,0 +1,1311 @@
+Animation("sprint")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("jump")
+{
+	BlendInTime(0.01);
+	BlendOutTime(1.00);
+}
+Animation("jump_forward")
+{
+	BlendInTime(0.01);
+	BlendOutTime(1.00);
+}
+Animation("jump_backward")
+{
+	BlendInTime(0.01);
+	BlendOutTime(1.00);
+}
+Animation("jump_left")
+{
+	BlendInTime(0.01);
+	BlendOutTime(1.00);
+}
+Animation("jump_right")
+{
+	BlendInTime(0.01);
+	BlendOutTime(1.00);
+}
+Animation("landsoft")
+{
+	BlendInTime(0.01);
+	BlendOutTime(0.15);
+}
+Animation("landhard")
+{
+	BlendInTime(0.01);
+	BlendOutTime(0.15);
+}
+Animation("fall")
+{
+	Loop(1);
+	BlendInTime(1.00);
+	BlendOutTime(0.01);
+}
+Animation("thrown_flail")
+{
+	Loop(1);
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("thrown_flyingfront")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("thrown_flyingback")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("thrown_flyingleft")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("thrown_flyingright")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("thrown_tumblefront")
+{
+	Loop(1);
+	BlendInTime(0.10);
+	BlendOutTime(0.10);
+}
+Animation("thrown_tumbleback")
+{
+	Loop(1);
+	BlendInTime(0.10);
+	BlendOutTime(0.10);
+}
+Animation("thrown_bouncefrontsoft")
+{
+	BlendInTime(0.10);
+	BlendOutTime(0.10);
+}
+Animation("thrown_bouncebacksoft")
+{
+	BlendInTime(0.10);
+	BlendOutTime(0.10);
+}
+Animation("thrown_landfrontsoft")
+{
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("thrown_landbacksoft")
+{
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("stand_getupfront")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.20);
+}
+Animation("stand_getupback")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.20);
+}
+Animation("thrown_restfrontsoft")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("thrown_restbacksoft")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("diveforward")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("jetpack_hover")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.25);
+}
+// no longer used - Mike Z
+//Animation("stand_getdown_prone")
+//{
+//	BlendInTime(0.15);
+//	BlendOutTime(0.15);
+//}
+Animation("prone_getup_stand")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouch_getdown_prone")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("prone_getup_crouch")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_death_forward")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_death_backward")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_death_left")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_death_right")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_idle_emote_upper")
+{
+	Loop(1);
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_idle_emote_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("standalert_idle_emote", 0.15);
+}
+Animation("stand_idle_checkweapon_upper")
+{
+	Loop(1);
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_idle_checkweapon_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("standalert_idle_checkweapon", 0.15);
+}
+Animation("stand_idle_lookaround_upper")
+{
+	Loop(1);
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_idle_lookaround_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("standalert_idle_lookaround", 0.15);
+}
+Animation("stand_turnleft_upper")
+{
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_turnleft_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_turnright_upper")
+{
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_turnright_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_walkforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_walkforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_walkforward", 0.00);
+}
+Animation("stand_runforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_runforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_runforward", 0.00);
+}
+Animation("stand_walkbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_walkbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_walkbackward", 0.00);
+}
+Animation("stand_runbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_runbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_runbackward", 0.00);
+}
+Animation("stand_walkright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_walkright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_walkright", 0.00);
+}
+Animation("stand_runright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_runright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_runright", 0.00);
+}
+Animation("stand_walkleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_walkleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_walkleft", 0.00);
+}
+Animation("stand_runleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("stand_runleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("standalert_runleft", 0.00);
+}
+Animation("crouch_idle_emote_upper")
+{
+	Loop(1);
+	AimType("Head");
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouch_idle_takeknee", 0.00);
+}
+Animation("crouch_idle_emote_lower")
+{
+	Loop(1);
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_emote", 0.15);
+	BlendTimeTo("crouch_idle_takeknee", 0.40);
+}
+Animation("crouch_idle_checkweapon_upper")
+{
+	Loop(1);
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_idle_checkweapon_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_checkweapon", 0.15);
+}
+Animation("crouch_idle_takeknee_upper")
+{
+	Loop(1);
+	AimType("Head");
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_takeknee", 0.00);
+}
+Animation("crouch_idle_takeknee_lower")
+{
+	Loop(1);
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_takeknee", 0.00);
+}
+Animation("crouch_turnleft_upper")
+{
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_turnleft_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouch_turnright_upper")
+{
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_turnright_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouch_walkforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_walkforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_walkforward", 0.00);
+}
+Animation("crouch_runforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_runforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_runforward", 0.00);
+}
+Animation("crouch_walkbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_walkbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_walkbackward", 0.00);
+}
+Animation("crouch_runbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_runbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_runbackward", 0.00);
+}
+Animation("crouch_walkright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_walkright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_walkright", 0.00);
+}
+Animation("crouch_runright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_runright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_runright", 0.00);
+}
+Animation("crouch_walkleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_walkleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_walkleft", 0.00);
+}
+Animation("crouch_runleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Head");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouch_runleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouchalert_runleft", 0.00);
+}
+Animation("prone_idle_emote")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_idle_checkweapon")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_idle_lookaround")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_turnleft")
+{
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_turnright")
+{
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_walkforward")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_runforward")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_walkbackward")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_runbackward")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_walkright")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_runright")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_walkleft")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("prone_runleft")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("standalert_idle_emote")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_idle_checkweapon_upper")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_idle_checkweapon_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_idle_lookaround_upper")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_idle_lookaround_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_turnleft_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_turnleft_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("standalert_turnright_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_turnright_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("standalert_walkforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_walkforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_walkforward", 0.00);
+}
+Animation("standalert_runforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_runforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_runforward", 0.00);
+}
+Animation("standalert_walkbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_walkbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_walkbackward", 0.00);
+}
+Animation("standalert_runbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_runbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_runbackward", 0.00);
+}
+Animation("standalert_walkright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_walkright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_walkright", 0.00);
+}
+Animation("standalert_runright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_runright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_runright", 0.00);
+}
+Animation("standalert_walkleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_walkleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_walkleft", 0.00);
+}
+Animation("standalert_runleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("standalert_runleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("stand_runleft", 0.00);
+}
+Animation("crouchalert_idle_emote_upper")
+{
+	Loop(1);
+	AimType("Torso");
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_takeknee", 0.00);
+}
+Animation("crouchalert_idle_emote_lower")
+{
+	Loop(1);
+	AimType("Torso");
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+	BlendTimeTo("crouchalert_idle_takeknee", 0.40);
+}
+Animation("crouchalert_idle_checkweapon_upper")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_idle_checkweapon_lower")
+{
+	Loop(1);
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_idle_takeknee_upper")
+{
+	Loop(1);
+	AimType("Torso");
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_idle_takeknee_lower")
+{
+	Loop(1);
+	SyncType("crouch_idle");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_turnleft_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_turnleft_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouchalert_turnright_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_turnright_lower")
+{
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouchalert_walkforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_walkforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_walkforward", 0.00);
+}
+Animation("crouchalert_runforward_upper")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_runforward_lower")
+{
+	Loop(1);
+	SyncType("forward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_runforward", 0.00);
+}
+Animation("crouchalert_walkbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_walkbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_walkbackward", 0.00);
+}
+Animation("crouchalert_runbackward_upper")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_runbackward_lower")
+{
+	Loop(1);
+	SyncType("backward");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_runbackward", 0.00);
+}
+Animation("crouchalert_walkright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_walkright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_walkright", 0.00);
+}
+Animation("crouchalert_runright_upper")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_runright_lower")
+{
+	Loop(1);
+	SyncType("left");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_runright", 0.00);
+}
+Animation("crouchalert_walkleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_walkleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_walkleft", 0.00);
+}
+Animation("crouchalert_runleft_upper")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.25);
+	BlendOutTime(0.25);
+}
+Animation("crouchalert_runleft_lower")
+{
+	Loop(1);
+	SyncType("right");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+	BlendTimeTo("crouch_runleft", 0.00);
+}
+Animation("pronealert_idle_emote")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_idle_checkweapon")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_idle_lookaround")
+{
+	Loop(1);
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_turnleft")
+{
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_turnright")
+{
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_walkforward")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_runforward")
+{
+	Loop(1);
+	SyncType("forward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_walkbackward")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_runbackward")
+{
+	Loop(1);
+	SyncType("backward");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_walkright")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_runright")
+{
+	Loop(1);
+	SyncType("left");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_walkleft")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("pronealert_runleft")
+{
+	Loop(1);
+	SyncType("right");
+	AimType("Torso");
+	BlendInTime(0.40);
+	BlendOutTime(0.40);
+}
+Animation("stand_shoot_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("stand_shoot_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("stand_shoot2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("stand_shoot2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("stand_shoot_secondary_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_shoot_secondary_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("stand_shoot_secondary2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("stand_shoot_secondary2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("stand_charge")
+{
+	AimType("Torso");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("stand_reload")
+{
+	AimType("Head");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_shoot_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("crouch_shoot_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_shoot2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("crouch_shoot2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_shoot_secondary_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouch_shoot_secondary_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_shoot_secondary2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("crouch_shoot_secondary2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_charge")
+{
+	AimType("Torso");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("crouch_reload")
+{
+	AimType("Head");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_shoot_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("prone_shoot_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_shoot2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.02);
+	BlendOutTime(0.02);
+}
+Animation("prone_shoot2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_shoot_secondary_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("prone_shoot_secondary_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_shoot_secondary2_upper")
+{
+	AimType("Torso");
+	BlendInTime(0.15);
+	BlendOutTime(0.15);
+}
+Animation("prone_shoot_secondary2_lower")
+{
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_charge")
+{
+	AimType("Torso");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}
+Animation("prone_reload")
+{
+	AimType("Torso");
+	BlendInTime(0.50);
+	BlendOutTime(0.50);
+}

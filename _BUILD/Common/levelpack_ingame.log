@@ -1,0 +1,345 @@
+Logging LevelPack
+16:30:4403/07/16
+
+=== ingame.lvl ===
+Missing file noise.texture
+    Reqd by ..\..\common\ingame.req
+Missing file redlaser_1.texture
+    Reqd by ..\..\common\ingame.req
+Missing file spray.texture
+    Reqd by ..\..\common\ingame.req
+Missing file walker_icon.texture
+    Reqd by ..\..\common\ingame.req
+Missing file thicksmoke3.texture
+    Reqd by munged\pc\com_sfx_weap_sc_exp_sm.config.req
+            munged\pc\com_sfx_weap_sc_exp_md.config.req
+            munged\pc\com_sfx_weap_sc_exp_lg.config.req
+            munged\pc\com_sfx_weap_sc_exp_xl.config.req
+            munged\pc\com_sfx_weap_remotedroid_exp.config.req
+            munged\pc\com_sfx_contrail.config.req
+            munged\pc\com_sfx_explosion_lg.config.req
+            munged\pc\com_sfx_explosion_sm.config.req
+            munged\pc\com_sfx_explosion_xl.config.req
+            munged\pc\com_sfx_explosion_xs.config.req
+            munged\pc\com_sfx_vehicle_exp.config.req
+            munged\pc\com_sfx_weap_bluebolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_bluebolt_exp_md.config.req
+            munged\pc\com_sfx_weap_bluebolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_bluebolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_bolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_bolt_exp_md.config.req
+            munged\pc\com_sfx_weap_bolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_bolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_con_exp_lg.config.req
+            munged\pc\com_sfx_weap_con_exp_md.config.req
+            munged\pc\com_sfx_weap_con_exp_sm.config.req
+            munged\pc\com_sfx_weap_con_exp_xl.config.req
+            munged\pc\com_sfx_weap_flame_exp_lg.config.req
+            munged\pc\com_sfx_weap_flame_exp_md.config.req
+            munged\pc\com_sfx_weap_flame_exp_sm.config.req
+            munged\pc\com_sfx_weap_flame_exp_xl.config.req
+            munged\pc\com_sfx_weap_greenbolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_greenbolt_exp_md.config.req
+            munged\pc\com_sfx_weap_greenbolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_greenbolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_grenade_thermal_exp.config.req
+            munged\pc\com_sfx_weap_orangebolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_orangebolt_exp_md.config.req
+            munged\pc\com_sfx_weap_orangebolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_orangebolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_purplebolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_purplebolt_exp_md.config.req
+            munged\pc\com_sfx_weap_purplebolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_purplebolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_md.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_shiplaser_exp_lg.config.req
+            munged\pc\com_sfx_weap_shiplaser_exp_md.config.req
+            munged\pc\com_sfx_weap_shiplaser_exp_sm.config.req
+            munged\pc\com_sfx_weap_yellowbolt_exp_lg.config.req
+Missing file explode3.texture
+    Reqd by munged\pc\com_sfx_weap_remotedroid_exp.config.req
+            munged\pc\com_sfx_explosion_lg.config.req
+            munged\pc\com_sfx_explosion_sm.config.req
+            munged\pc\com_sfx_explosion_xl.config.req
+            munged\pc\com_sfx_explosion_xs.config.req
+            munged\pc\com_sfx_vehicle_exp.config.req
+            munged\pc\com_sfx_weap_flame_exp_lg.config.req
+            munged\pc\com_sfx_weap_flame_exp_md.config.req
+            munged\pc\com_sfx_weap_flame_exp_sm.config.req
+            munged\pc\com_sfx_weap_flame_exp_xl.config.req
+            munged\pc\com_sfx_weap_grenade_thermal_exp.config.req
+Missing file underlitesmoke2.texture
+    Reqd by munged\pc\com_sfx_weap_remotedroidcharge2.config.req
+            munged\pc\com_sfx_chargeup.config.req
+            munged\pc\com_sfx_buffed_poison.config.req
+            munged\pc\com_sfx_buffed_offense.config.req
+            munged\pc\com_sfx_buffed_defense.config.req
+            munged\pc\com_sfx_buffed_regen.config.req
+Missing file flare0.texture
+    Reqd by munged\pc\com_sfx_timebomb.config.req
+            munged\pc\com_sfx_watersplash_ord_lg.config.req
+            munged\pc\com_sfx_watersplash_ord_md.config.req
+            munged\pc\com_sfx_watersplash_walker.config.req
+            munged\pc\com_sfx_weap_grenade_schrap_exp.config.req
+            munged\pc\com_sfx_weap_timebomb.config.req
+Missing file redlaser.texture
+    Reqd by munged\pc\com_sfx_weap_redbolt_exp_lg.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_md.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_sm.config.req
+            munged\pc\com_sfx_weap_redbolt_exp_xl.config.req
+            munged\pc\com_sfx_weap_yellowbolt_exp_lg.config.req
+Missing file thicksmoke2.texture
+    Reqd by munged\pc\com_weap_overheat.config.req
+Missing file all_weap_inf_thermaldetonator.model
+    Reqd by ..\..\common\ingame.req
+Missing file cis_weap_inf_thermaldetonator.model
+    Reqd by ..\..\common\ingame.req
+Missing file imp_weap_inf_thermaldetonator.model
+    Reqd by ..\..\common\ingame.req
+Missing file rep_weap_inf_thermaldetonator.model
+    Reqd by ..\..\common\ingame.req
+Missing file com_weap_inf_thermaldetonator.model
+    Reqd by ..\..\common\ingame.req
+Missing file all_medical_kit.texture
+    Reqd by munged\pc\com_weap_inf_medkit.model.req
+Missing file all_engineer_rifle_inf.texture
+    Reqd by munged\pc\com_weap_inf_repairkit.model.req
+Missing file com_bldg_inf_defenseturret.model
+    Reqd by ..\..\common\ingame.req
+Missing file coll_drive.model
+    Reqd by ..\..\common\ingame.req
+Missing file hud_healthbar_frame.model
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_barrier_01.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_bldg_ctfbase_greenteam.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_bldg_ctfbase_redteam.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_dropturret_rep.texture
+    Reqd by munged\pc\com_weap_inf_dropturret.model.req
+Missing file com_weap_inf_ord_hum_sm.class
+    Reqd by munged\pc\com_weap_inf_defenseturret_ord.class.req
+Missing file com_weap_inf_landmine_placed.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_weap_inf_landmine.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_barrier_02.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_cratemd_01.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_barrel.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_prop_cratelg_01.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_weap_inf_force_lightning.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_weap_inf_force_pull.class
+    Reqd by ..\..\common\ingame.req
+Missing file com_weap_inf_force_push.class
+    Reqd by ..\..\common\ingame.req
+Missing file hudtransforms.model
+    Reqd by munged\pc\hudtransforms.config.req
+Missing file 1playerhud.model
+    Reqd by munged\pc\1playerhud.config.req
+Missing file player1weapon1ammoinfinite.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1weapon2ammoinfinite.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1weapon1backdrop.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1weapon2backdrop.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1weapon1mesh.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1weapon2mesh.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1jetpack_interiorfield.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1jetpack_whiteoutsideborder.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_shape.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_bullseye.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_outline.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_hit.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_criticalhit.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1reticule_backdrop.model
+    Reqd by munged\pc\1playerhud.config.req
+            munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1hintpopuptext.model
+    Reqd by munged\pc\1playerhud.config.req
+Missing file 2playerhud.model
+    Reqd by munged\pc\2playerhud.config.req
+Missing file player1targethealth_whiteframe.model
+    Reqd by munged\pc\2playerhud.config.req
+Missing file player1shieldbar_interiorfield.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player1shieldbar_whiteoutsideborder.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file hintbackdrop.model
+    Reqd by munged\pc\2playerhud.config.req
+Missing file player2reticule_shape.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2reticule_bullseye.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2reticule_outline.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2reticule_hit.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2reticule_criticalhit.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2reticule_backdrop.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon1ammoinfinite.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon2ammoinfinite.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon1backdrop.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon2backdrop.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon1mesh.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2weapon2mesh.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2jetpack_interiorfield.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2jetpack_whiteoutsideborder.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2targethealth_whiteframe.model
+    Reqd by munged\pc\2playerhud.config.req
+Missing file player2shieldbar_interiorfield.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file player2shieldbar_whiteoutsideborder.model
+    Reqd by munged\pc\2playerhud.config.req
+            munged\pc\4playerhud.config.req
+Missing file 3playerhud.model
+    Reqd by munged\pc\3playerhud.config.req
+Missing file 4playerhud.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player1energy_blackfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player2energy_blackfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_shape.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_bullseye.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_outline.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_hit.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_criticalhit.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon1ammoinfinite.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon2ammoinfinite.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon1backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon2backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon1mesh.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3weapon2mesh.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3energy_blackfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3jetpack_interiorfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3jetpack_whiteoutsideborder.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3shieldbar_interiorfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3shieldbar_whiteoutsideborder.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player3reticule_backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_shape.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_bullseye.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_outline.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_hit.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_criticalhit.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon1ammoinfinite.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon2ammoinfinite.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon1backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon2backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon1mesh.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4weapon2mesh.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4energy_blackfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4jetpack_interiorfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4jetpack_whiteoutsideborder.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4shieldbar_interiorfield.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4shieldbar_whiteoutsideborder.model
+    Reqd by munged\pc\4playerhud.config.req
+Missing file player4reticule_backdrop.model
+    Reqd by munged\pc\4playerhud.config.req
+   0 Errors    0 Warnings
+

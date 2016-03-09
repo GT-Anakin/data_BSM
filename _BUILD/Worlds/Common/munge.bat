@@ -1,0 +1,1 @@
+@call ..\munge_world.bat COMMON %1

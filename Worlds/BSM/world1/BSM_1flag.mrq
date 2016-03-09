@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"BSM_1flag"
+	}
+	REQN
+	{
+		"world"
+		"BSM_1flag"
+	}
+}

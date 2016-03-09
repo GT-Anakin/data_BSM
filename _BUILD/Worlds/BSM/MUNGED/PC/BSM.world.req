@@ -1,0 +1,24 @@
+
+ucft
+{
+	REQN
+	{
+		"light"
+		"bsm"
+	}
+	REQN
+	{
+		"terrain"
+		"bsm"
+	}
+	REQN
+	{
+		"config"
+		"bsm"
+	}
+	REQN
+	{
+		"path"
+		""
+	}
+}

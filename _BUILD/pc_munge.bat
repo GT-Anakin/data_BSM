@@ -1,0 +1,1 @@
+@call munge.bat /platform pc %*

@@ -1,0 +1,29 @@
+
+ucft
+{
+	REQN
+	{
+		"light"
+		"bsm_eli"
+	}
+	REQN
+	{
+		"terrain"
+		""
+	}
+	REQN
+	{
+		"config"
+		""
+	}
+	REQN
+	{
+		"path"
+		""
+	}
+	REQN
+	{
+		"class"
+		"com_bldg_controlzone"
+	}
+}

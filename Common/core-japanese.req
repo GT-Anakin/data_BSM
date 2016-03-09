@@ -1,0 +1,149 @@
+ucft
+{
+	REQN
+	{
+		"bnk"
+		"align=2048"
+		"global"
+	}
+
+	REQN
+	{
+		"config"
+		"global"
+	}
+
+	REQN
+	{
+		"font"
+		"starwars_small"
+		"japanese"
+	}
+
+	REQN
+	{
+		"loc"
+		"japanese"
+	}
+
+
+	REQN
+	{
+		"texture"
+	}
+
+
+	REQN
+	{
+		"texture"
+		"platform=ps2"
+		"specular"
+		"fogspread"
+	}
+
+	REQN
+	{
+		"texture"
+		"platform=xbox"
+		"cube_normalizationmap"
+		"specularspot"
+		"attenuation_volume"
+		"specularcubemap"
+	}
+
+	REQN
+	{
+		"texture"
+		"platform=pc"
+		"cube_normalizationmap"
+		"hemisphere_normalizationmap"
+		"specularspot"
+		"attenuation_volume"
+		"linear_ramp"
+		"specularcubemap"
+	}
+
+	REQN
+	{
+		"shader"
+		"platform=xbox"
+		"transform_unskinned"
+		"transform_skinned"
+		"transform_skinned_normals"
+		"transform_skinned_binormals"
+		"transform_hardskinned"
+		"transform_hardskinned_normals"
+		"transform_hardskinned_binormals"
+		"lighting_vertex_diffuse"
+		"lighting_vertex_spec"
+		"lighting_vertex_diffuse_spec"
+		"normal_shader"
+		"stencilshadow_shader"
+		"terrain_shader"
+		"sprite_shader"
+		"interface_bitmap_shader_notexture"
+		"interface_bitmap_shader_texture"
+		"interface_maskedbitmap_shader"
+		"interface_vector_shader"
+		"particle_shader"
+		"lightbeam_shader"
+		"skysun_shader"
+		"dropshadow_shader"
+		"staticshadow_shader"
+		"water_shader"
+		"sample_shader"
+		"copy_shader"
+		"screenspace_shader"
+		"flare_shader"
+		"skyfog_shader"
+		"transparent_shader"
+		"filtercopy_shader"
+		"colorcontrol_shader"
+		"foliage_shader"
+		"prereflection_shader"
+		"normalmapadder_shader"
+		"focusblur_shader"
+		"specular_shader"
+		"ocean_shader"
+		"detail_shader"
+		"detail_transparent_shader"
+		"refraction_shader"
+		"decal_shader"
+		"shield_shader"
+		"bump_shader"
+		"zpass_shader"
+	}
+
+	REQN
+	{
+		"shader"
+		"platform=pc"
+		"normal_shader"
+		"interface_shader"
+		"particle_shader"
+		"terrain_shader"
+		"sprite_shader"
+		"skyfog_shader"
+		"foliage_shader"
+		"lightbeam_shader"
+		"scroll_shader"
+		"flare_shader"
+		"sample_shader"
+		"rain_shader"
+		"normalmapadder_shader"
+		"prereflection_shader"
+		"water_shader"
+		"stencilshadow_shader"
+		"shadowquad_shader"
+		"specular_shader"
+		"detail_shader"
+		"ocean_shader"
+		"refraction_shader"
+		"decal_shader"
+		"filtercopy_shader"
+		"shield_shader"
+		"bump_shader"
+		"zprepass_shader"
+	}
+
+}

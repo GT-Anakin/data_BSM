@@ -1,0 +1,13 @@
+
+ucft
+{
+	REQN
+	{
+		"texture"
+		"yav2_main_1"
+		"yav2_main_2"
+		"yav2_main_3"
+		"yav2_main_4"
+		"yav_detail"
+	}
+}

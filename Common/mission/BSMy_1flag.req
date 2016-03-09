@@ -1,0 +1,16 @@
+ucft
+{
+	REQN
+    	{
+
+        "config"
+        "cor_movies"	
+
+    	}
+
+	REQN
+	{
+		"script"
+		"BSMy_1flag"
+	}
+}

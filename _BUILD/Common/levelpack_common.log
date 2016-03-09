@@ -1,0 +1,32 @@
+Logging LevelPack
+16:30:4303/07/16
+
+=== common.lvl ===
+Missing file startup.script
+    Reqd by ..\..\common\common.req
+Missing file ifs_opt_mp_listtags.script
+    Reqd by ..\..\common\common.req
+Missing file ifs_opt_controller_common.script
+    Reqd by ..\..\common\common.req
+Missing file controller_presets.script
+    Reqd by ..\..\common\common.req
+Missing file pctabs_options.script
+    Reqd by ..\..\common\common.req
+Missing file btn_directional_pad_lr.texture
+    Reqd by ..\..\common\common.req
+Missing file btn_directional_pad_l.texture
+    Reqd by ..\..\common\common.req
+Missing file btn_directional_pad_r.texture
+    Reqd by ..\..\common\common.req
+Missing file btn_directional_pad_u.texture
+    Reqd by ..\..\common\common.req
+Missing file btn_directional_pad_d.texture
+    Reqd by ..\..\common\common.req
+Missing file hotspot.texture
+    Reqd by ..\..\common\common.req
+Missing file noise.texture
+    Reqd by ..\..\common\common.req
+Missing file btn_l1.texture
+    Reqd by ..\..\common\common.req
+   0 Errors    0 Warnings
+

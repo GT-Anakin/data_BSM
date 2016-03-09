@@ -1,0 +1,31 @@
+SkyInfo()
+{
+	Enable(1);
+	PC()
+	{
+		NearSceneRange(30.0, 160.0, 40.0, 200.0);
+		FarSceneRange(5000.0, 5000.0);
+	}
+	
+}
+
+
+DomeInfo()
+{
+	Texture("BSM_sky");
+	Angle(-90.000000);
+	Ambient(255.000000, 255.000000, 255.000000);
+	Filter(1);
+	Threshold(150);	
+	Intensity(50);
+
+	Softness(1);
+	SoftnessParam(60);
+
+	DomeModel()
+	{	
+		Geometry("BSM_skydome");
+	}
+
+
+}

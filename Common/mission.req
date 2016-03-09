@@ -1,0 +1,37 @@
+ucft
+{
+    REQN
+    {
+        "script"
+        "setup_teams"
+        "gametype_conquest"
+        "gametype_capture"
+        "Objective"
+        "MultiObjectiveContainer"
+        "ObjectiveCTF"
+        "ObjectiveAssault"
+        "ObjectiveSpaceAssault"
+        "ObjectiveConquest" 
+        "ObjectiveTDM"
+        "ObjectiveOneFlagCTF"
+		"SoundEvent_ctf"
+        "ObjectiveGoto"        
+        "LinkedShields"
+        "LinkedDestroyables"
+        "LinkedTurrets"
+        "Ambush"
+        "PlayMovieWithTransition"
+    }
+
+    REQN
+    {
+        "lvl"
+        "BSMy_con"
+        "BSMx_con"
+        "BSMy_ctf"
+        "BSMx_ctf"
+        "BSMy_1flag"
+        "BSMx_1flag"
+        "BSMy_eli"
+    }
+}
