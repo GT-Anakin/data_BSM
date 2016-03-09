@@ -7,6 +7,8 @@ side mod and recreate the SBWF3 maps. Since now we only plan to recreate Corusca
 If you want to join our team, contact me (Anakin) or thelegent on www.gametoast.com. You may need a 
 web proxy depending on your country.
 
+ONLY ADD WHAT YOU NEED!! Do not copy a whole folder from the stock assets, if you don't need every file
+from it.
 
 Credits:
 Free Radical
