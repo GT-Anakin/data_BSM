@@ -1,14 +1,6 @@
 ucft
 {
 	REQN
-    	{
-
-        "config"
-        "cor_movies"	
-
-    	}
-
-	REQN
 	{
 		"script"
 		"BSMx_con"
