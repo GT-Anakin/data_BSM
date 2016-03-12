@@ -1,4 +1,5 @@
 Anakin
+- first unit ingame test
 - fixed munge errors
 - added all effects, tga, odf,... needed by the rifleman, rifle, thermaldet.
 - added republic rifleman with thermaldet and rifle

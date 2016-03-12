@@ -1,0 +1,22 @@
+[GameObjectClass]
+ClassParent         = "republic_inf_default"
+
+[Properties]
+GeometryName        = "rep_bf3_sharpshooter"
+SkeletonName		= "bf3clones"
+FirstPerson         = "REP\reptroop;rep_1st_trooper"
+
+ClothODF			= "cloth_sharpshooter_kama"
+
+WEAPONSECTION = 1
+WeaponName         = "rep_weap_inf_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+
+VOUnitType        	= 121
+
