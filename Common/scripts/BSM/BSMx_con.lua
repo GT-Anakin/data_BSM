@@ -71,6 +71,9 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
     
     ReadDataFile("sound\\yav.lvl;yav1cw")
+	
+	ReadDataFile("dc:SIDE\\Republic.lvl",
+							"republic_inf_rifleman")
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -101,7 +104,7 @@ function ScriptInit()
 			team = REP,
 			units = 20,
 			reinforcements = 150,
-			soldier  = { "rep_inf_ep3_rifleman",9, 25},
+			soldier  = { "republic_inf_rifleman",9, 25},
 			assault  = { "rep_inf_ep3_rocketeer",1, 4},
 			engineer = { "rep_inf_ep3_engineer",1, 4},
 			sniper   = { "rep_inf_ep3_sniper",1, 4},
