@@ -73,7 +73,11 @@ function ScriptInit()
     ReadDataFile("sound\\yav.lvl;yav1cw")
 	
 	ReadDataFile("dc:SIDE\\Republic.lvl",
-							"republic_inf_rifleman")
+							"republic_inf_rifleman",
+							"republic_inf_heavytrooper",
+							"republic_inf_sniper",
+							"republic_inf_engineer",
+							"republic_inf_officer")
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -104,24 +108,23 @@ function ScriptInit()
 			team = REP,
 			units = 20,
 			reinforcements = 150,
-			soldier  = { "republic_inf_rifleman",9, 25},
-			assault  = { "rep_inf_ep3_rocketeer",1, 4},
-			engineer = { "rep_inf_ep3_engineer",1, 4},
-			sniper   = { "rep_inf_ep3_sniper",1, 4},
-			officer = {"rep_inf_ep3_officer",1, 4},
-			special = { "rep_inf_ep3_jettrooper",1, 4},
+			soldier  = { "republic_inf_rifleman",		9, 25},
+			assault  = { "republic_inf_heavytrooper",	1, 4 },
+			engineer = { "republic_inf_engineer",		1, 4 },
+			sniper   = { "republic_inf_sniper",			1, 4 },
+			officer  = { "republic_inf_officer",		1, 4 },
 	        
 		},
 		cis = {
 			team = CIS,
 			units = 20,
 			reinforcements = 150,
-			soldier  = { "cis_inf_rifleman",9, 25},
-			assault  = { "cis_inf_rocketeer",1, 4},
-			engineer = { "cis_inf_engineer",1, 4},
-			sniper   = { "cis_inf_sniper",1, 4},
-			officer = {"cis_inf_officer",1, 4},
-			special = { "cis_inf_droideka",1, 4},
+			soldier  = { "cis_inf_rifleman",	9, 25},
+			assault  = { "cis_inf_rocketeer",	1, 4 },
+			engineer = { "cis_inf_engineer",	1, 4 },
+			sniper   = { "cis_inf_sniper",		1, 4 },
+			officer  = { "cis_inf_officer",		1, 4 },
+			special  = { "cis_inf_droideka",	1, 4 },
 		}
 	}
      
