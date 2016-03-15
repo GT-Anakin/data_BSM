@@ -1,1 +1,1 @@
--format bump
+-bumpmap -format bump_alpha -bumpscale 7.0

@@ -1,0 +1,8 @@
+*.log
+/_LVL_PC
+/_BUILD/Common/MUNGED
+/_BUILD/Sides/COMMON/MUNGED
+/_BUILD/Sides/REPUBLIC/MUNGED
+/_BUILD/Worlds/BSM/MUNGED
+/_BUILD/Worlds/BSM/BSM.lvl
+/_BUILD/PC_MungeLog.txt
