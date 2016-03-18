@@ -1,0 +1,24 @@
+Version(1);
+NextID(1);
+
+Layer("[Base]", 0, 0)
+{
+	Description("Base layer, always loaded");
+}
+
+Layer("conquest", 1, 0)
+{
+	Description("Loaded in conquest mode");
+}
+
+
+GameMode("Common")
+{
+	Layer(0);
+}
+
+GameMode("conquest")
+{
+	Layer(1);
+}
+

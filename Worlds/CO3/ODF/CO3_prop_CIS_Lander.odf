@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel			= "prop"
+GeometryName			= "CO3_prop_CIS_Lander.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_CIS_Lander"
+
+FoleyFXGroup    =   "metal_foley"

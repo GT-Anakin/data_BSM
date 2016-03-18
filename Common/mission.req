@@ -26,12 +26,7 @@ ucft
     REQN
     {
         "lvl"
-        "BSMy_con"
-        "BSMx_con"
-        "BSMy_ctf"
-        "BSMx_ctf"
-        "BSMy_1flag"
-        "BSMx_1flag"
-        "BSMy_eli"
+        "CO3x_con"
+
     }
 }
