@@ -1,0 +1,20 @@
+[WeaponClass]
+ClassParent             = "com_weap_inf_fusioncutter"
+GeometryName            = "rep_weap_inf_rifle.msh"
+
+[Properties]
+GeometryName            = "rep_weap_inf_rifle"
+HighResGeometry         = "rep_1st_weap_inf_rifle"
+
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+
+
+
+

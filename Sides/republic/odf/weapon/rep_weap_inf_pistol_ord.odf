@@ -1,0 +1,10 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_inf_pistol_ord"
+
+[Properties]
+LaserTexture		= "com_sfx_laser_blue"
+LaserGlowColor		= "92 136 250 100"
+LightColor			= "92 136 250 100"
+LightRadius			= "4.0"
+
+

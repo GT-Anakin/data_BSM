@@ -1,0 +1,62 @@
+[WeaponClass]
+ClassLabel              = "repair"
+
+[Properties]
+ScoreForMedalsType = 3
+
+MuzzleFlashEffect       = "com_sfx_repair"
+Discharge               = "small_smoke_effect"
+
+RoundsPerClip           = "-1"
+ReloadTime              = "0.0"
+HeatRecoverRate         = "0.16"
+HeatThreshold           = "0.7"
+
+AnimationBank           = "tool"
+FirePointName           = "hp_fire"
+
+ShotDelay               = 0.5
+TriggerSingle           = "0"
+HeatPerShot             = "0.060"
+
+TargetEnemy             = "1"
+TargetNeutral           = "1"
+TargetFriendly          = "1"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid             = "0"
+TargetVehicle           = "1"
+TargetBuilding          = "1"
+TargetMine              = "1"
+
+LockOnRange             = 4.0
+LockOnAngle             = 90.0
+
+VehicleHealth           = 200
+BuildingHealth          = 100
+BuildingBuild           = 50
+BuildingRebuild         = 50
+DroidHealth             = 0
+MineHealth              = -1000
+
+//*****************************************************
+//********************  SOUND  ************************
+//*****************************************************
+
+FireEmptySound      = "com_weap_inf_weapon_empty"
+FireLoopSound       = "com_weap_inf_fusioncutter_fire"
+ReloadSound         = ""
+ChargeSound         = ""
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = ""
+ChangeModeSound     = ""
+WeaponChangeSound   = ""
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"
+
