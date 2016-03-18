@@ -9,7 +9,7 @@ FirstPerson         = "REP\reptroop;rep_1st_trooper"
 ClothODF			= "cloth_sharpshooter_kama"
 
 WEAPONSECTION = 1
-WeaponName         = "rep_weap_inf_rifle"
+WeaponName         = "rep_weap_inf_sniper_rifle"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2

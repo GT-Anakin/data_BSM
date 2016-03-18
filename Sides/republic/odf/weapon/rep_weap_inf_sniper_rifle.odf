@@ -1,0 +1,28 @@
+[WeaponClass]
+ClassParent			= "com_weap_inf_sniper_rifle"
+GeometryName        = "rep_weap_inf_rifle.msh"
+
+[Properties]
+GeometryName        = "rep_weap_inf_rifle"
+HighResGeometry		= "rep_1st_weap_inf_rifle"
+
+OrdnanceName        = "rep_weap_inf_sniper_rifle_ord"
+FirePointName       = "hp_fire"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "rep_weap_inf_sniper_rifle_fire"
+ReloadSound         = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_blaster_rifle_modechange"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+
+
