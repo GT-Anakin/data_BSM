@@ -5,8 +5,8 @@
 -- load the gametype script
 ScriptCB_DoFile("ObjectiveConquest")
 ScriptCB_DoFile("setup_teams") 
-	
-	--  REP Attacking (attacker is always #1)
+   
+   --  REP Attacking (attacker is always #1)
     REP = 1;
     CIS = 2;
     --  These variables do not change
@@ -14,14 +14,13 @@ ScriptCB_DoFile("setup_teams")
     DEF = CIS;
 
 
-function ScriptPostLoad()	   
+function ScriptPostLoad()      
     
-    
+  
+
     --This defines the CPs.  These need to happen first
     cp1 = CommandPost:New{name = "cp1"}
     cp2 = CommandPost:New{name = "cp2"}
-    cp3 = CommandPost:New{name = "cp3"}
-    cp4 = CommandPost:New{name = "cp4"}
     
     
     
@@ -33,9 +32,7 @@ function ScriptPostLoad()
     
     --This adds the CPs to the objective.  This needs to happen after the objective is set up
     conquest:AddCommandPost(cp1)
-    conquest:AddCommandPost(cp2)
-    conquest:AddCommandPost(cp3)
-    conquest:AddCommandPost(cp4)    
+    conquest:AddCommandPost(cp2)   
     
     conquest:Start()
 
@@ -58,8 +55,10 @@ function ScriptInit()
     ReadDataFile("ingame.lvl")
     
    
-    SetMaxFlyHeight(30)
-    SetMaxPlayerFlyHeight (30)
+    SetMaxFlyHeight(3000)
+    SetMaxPlayerFlyHeight (3000)
+       SetMinFlyHeight(-3000)
+    SetMinPlayerFlyHeight (-3000)
     
     SetMemoryPoolSize ("ClothData",20)
     SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
@@ -71,13 +70,13 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
     
     ReadDataFile("sound\\yav.lvl;yav1cw")
-	
-	ReadDataFile("dc:SIDE\\Republic.lvl",
-							"republic_inf_rifleman",
-							"republic_inf_heavytrooper",
-							"republic_inf_sniper",
-							"republic_inf_engineer",
-							"republic_inf_officer")
+   
+   ReadDataFile("dc:SIDE\\Republic.lvl",
+                     "republic_inf_rifleman",
+      "republic_inf_heavytrooper",
+      "republic_inf_sniper",
+      "republic_inf_engineer",
+      "republic_inf_officer")
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -87,7 +86,8 @@ function ScriptInit()
                              "rep_inf_ep3_jettrooper",
                              "rep_hover_fightertank",
                              "rep_hero_anakin",
-                             "rep_hover_barcspeeder")
+                             "rep_hover_barcspeeder",
+                      "rep_fly_anakinstarfighter_sc")
     ReadDataFile("SIDE\\cis.lvl",
                              "cis_inf_rifleman",
                              "cis_inf_rocketeer",
@@ -100,33 +100,36 @@ function ScriptInit()
                              
                              
     ReadDataFile("SIDE\\tur.lvl", 
-    			"tur_bldg_laser",
-    			"tur_bldg_tower")          
-                             
-	SetupTeams{
-		rep = {
-			team = REP,
-			units = 20,
-			reinforcements = 150,
-			soldier  = { "republic_inf_rifleman",		9, 25},
-			assault  = { "republic_inf_heavytrooper",	1, 4 },
-			engineer = { "republic_inf_engineer",		1, 4 },
-			sniper   = { "republic_inf_sniper",			1, 4 },
-			officer  = { "republic_inf_officer",		1, 4 },
-	        
-		},
-		cis = {
-			team = CIS,
-			units = 20,
-			reinforcements = 150,
-			soldier  = { "cis_inf_rifleman",	9, 25},
-			assault  = { "cis_inf_rocketeer",	1, 4 },
-			engineer = { "cis_inf_engineer",	1, 4 },
-			sniper   = { "cis_inf_sniper",		1, 4 },
-			officer  = { "cis_inf_officer",		1, 4 },
-			special  = { "cis_inf_droideka",	1, 4 },
-		}
-	}
+             "tur_bldg_laser",
+             "tur_bldg_tower")          
+                   
+
+   SetupTeams{
+      rep = {
+         team = REP,
+         units = 20,
+         reinforcements = -1,
+         soldier  = { "republic_inf_rifleman",9, 25},
+         assault  = { "republic_inf_heavytrooper",1, 4},
+         engineer = { "republic_inf_snipern",1, 4},
+         sniper   = { "republic_inf_engineer",1, 4},
+         officer = {"republic_inf_officer",1, 4},
+         special = { "rep_inf_ep3_jettrooper",1, 4},
+           
+      },
+      
+      cis = {
+         team = CIS,
+         units = 20,
+         reinforcements = -1,
+         soldier  = { "cis_inf_rifleman",9, 25},
+         assault  = { "cis_inf_rocketeer",1, 4},
+         engineer = { "cis_inf_engineer",1, 4},
+         sniper   = { "cis_inf_sniper",1, 4},
+         officer = {"cis_inf_officer",1, 4},
+         special = { "cis_inf_droideka",1, 4},
+      }
+   }
      
     SetHeroClass(CIS, "cis_hero_darthmaul")
     SetHeroClass(REP, "rep_hero_anakin")
@@ -143,25 +146,25 @@ function ScriptInit()
     SetMemoryPoolSize("AmmoCounter", weaponCnt)
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
-	SetMemoryPoolSize("EntityCloth", 32)
-	SetMemoryPoolSize("EntityFlyer", 32)
+   SetMemoryPoolSize("EntityCloth", 32)
+   SetMemoryPoolSize("EntityFlyer", 32)
     SetMemoryPoolSize("EntityHover", 32)
     SetMemoryPoolSize("EntityLight", 200)
     SetMemoryPoolSize("EntitySoundStream", 4)
     SetMemoryPoolSize("EntitySoundStatic", 32)
     SetMemoryPoolSize("MountedTurret", 32)
-	SetMemoryPoolSize("Navigator", 128)
+   SetMemoryPoolSize("Navigator", 128)
     SetMemoryPoolSize("Obstacle", 1024)
-	SetMemoryPoolSize("PathNode", 1024)
+   SetMemoryPoolSize("PathNode", 1024)
     SetMemoryPoolSize("SoundSpaceRegion", 64)
     SetMemoryPoolSize("TreeGridStack", 1024)
-	SetMemoryPoolSize("UnitAgent", 128)
-	SetMemoryPoolSize("UnitController", 128)
-	SetMemoryPoolSize("Weapon", weaponCnt)
+   SetMemoryPoolSize("UnitAgent", 128)
+   SetMemoryPoolSize("UnitController", 128)
+   SetMemoryPoolSize("Weapon", weaponCnt)
     
     SetSpawnDelay(10.0, 0.25)
-    --ReadDataFile("dc:BSM\\BSM.lvl", "BSM_conquest")
-    ReadDataFile("dc:BSM\\BSM.lvl", "BSM_conquest")
+    --ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
     SetDenseEnvironment("false")
 
 
@@ -231,4 +234,3 @@ function ScriptInit()
     AddCameraShot(0.264032, -0.015285, -0.962782, -0.055734, -16.681797, -42.902290, 129.553268);
     AddCameraShot(-0.382320, 0.022132, -0.922222, -0.053386, 20.670977, -42.902290, 135.513001);
 end
-
