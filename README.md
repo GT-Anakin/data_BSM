@@ -19,7 +19,6 @@ We are still looking for some full time member for our Team.
 If you want to join our team, contact me (Anakin) or thelegent on www.gametoast.com. You may  
 need a web proxy depending on your country. I can recommend proxy-us.hide.me
 
-
-Credits:
-Free Radical
-clonetrooper163 alias Corra_Ashu
+#### Credits
+* Free Radical
+* clonetrooper163 alias Corra_Ashu
