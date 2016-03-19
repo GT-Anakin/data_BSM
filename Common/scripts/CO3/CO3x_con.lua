@@ -111,8 +111,8 @@ function ScriptInit()
          reinforcements = -1,
          soldier  = { "republic_inf_rifleman",9, 25},
          assault  = { "republic_inf_heavytrooper",1, 4},
-         engineer = { "republic_inf_snipern",1, 4},
-         sniper   = { "republic_inf_engineer",1, 4},
+         engineer = { "republic_inf_engineer",1, 4},
+         sniper   = { "republic_inf_sniper",1, 4},
          officer = {"republic_inf_officer",1, 4},
          special = { "rep_inf_ep3_jettrooper",1, 4},
            
