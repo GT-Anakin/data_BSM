@@ -1,10 +1,10 @@
 [WeaponClass]
 ClassParent         = "com_weap_inf_pistol"
-GeometryName        = "rep_weap_inf_rifle.msh"
+GeometryName        = "rep_weap_hq_inf_dc17p.msh"
 
 [Properties]
-GeometryName        = "rep_weap_inf_rifle"
-HighResGeometry		= "rep_1st_weap_inf_rifle"
+GeometryName        = "rep_weap_hq_inf_dc17p"
+HighResGeometry		= "rep_weap_hq_inf_dc17p"
 OrdnanceName        = "rep_weap_inf_pistol_ord"
 
 
