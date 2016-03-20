@@ -3,4 +3,7 @@ ClassLabel          = "cloth"
 
 [Properties]
 attachedmesh	= "rep_bf3_sharpshooter"
+ParticleMass 	= "8.0"
+MaxAcceleration	= "40"
+Drag			= "-4.0"
 
