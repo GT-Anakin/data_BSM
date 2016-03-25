@@ -7,7 +7,7 @@ SkeletonName		= "bf3clones"
 FirstPerson         = "REP\reptroop;rep_1st_trooper"
 
 WEAPONSECTION = 1
-WeaponName         = "rep_weap_inf_rifle"
+WeaponName         = "rep_weap_inf_rocket_launcher"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2

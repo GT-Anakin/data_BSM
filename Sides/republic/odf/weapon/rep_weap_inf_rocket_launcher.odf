@@ -1,0 +1,29 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_rocket_launcher"
+GeometryName        = "rep_weap_hq_inf_rocketlauncher.msh"
+
+[Properties]
+GeometryName        = "rep_weap_hq_inf_rocketlauncher"
+HighResGeometry     = "rep_weap_hq_inf_rocketlauncher"
+
+OrdnanceName        = "rep_weap_inf_rocket_launcher_ord"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "rep_weap_inf_rocket_launcher_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_reload_lg"
+ChargeSound         = "rep_weap_inf_rocket_launcher_tracking"
+ChargeSoundPitch    = "0.0"
+ChangeModeSound     = "com_weap_inf_equip_lg"
+WeaponChangeSound   = "com_weap_inf_equip_lg"
+JumpSound           = "com_weap_inf_bazooka_mvt_jump"
+LandSound           = "com_weap_inf_bazooka_mvt_land"
+RollSound           = "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound          = "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"
+
