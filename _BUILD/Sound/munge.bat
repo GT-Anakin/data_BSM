@@ -47,6 +47,7 @@ REM )
 @rem Build a global sound bank...
 @set BANKLIST=
 @for /R %%A in (*.sfx) do @set BANKLIST=!BANKLIST! %%A
+@for /R %%A in (*.stm) do @set BANKLIST=!BANKLIST! %%A
 @if %SOUNDLOG%x==1x ( @set SOUNDOPT=-verbose & @set SOUNDLOGOUT=%LOGDIR%\SoundBankLog.txt ) else ( @set SOUNDOPT= & @set SOUNDLOGOUT=NUL )
 
 @if not %MUNGE_PLATFORM%==pc goto skipglobalbank

@@ -2,7 +2,6 @@
 ClassLabel              = "repair"
 
 [Properties]
-ScoreForMedalsType = 3
 
 MuzzleFlashEffect       = "com_sfx_repair"
 Discharge               = "small_smoke_effect"
@@ -12,7 +11,7 @@ ReloadTime              = "0.0"
 HeatRecoverRate         = "0.16"
 HeatThreshold           = "0.7"
 
-AnimationBank           = "tool"
+AnimationBank           = "rifle"
 FirePointName           = "hp_fire"
 
 ShotDelay               = 0.5

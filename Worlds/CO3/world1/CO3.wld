@@ -3,8 +3,8 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.657, 0.245, 0.668, -0.249);
-	Position(-73.026, -254.239, -48.228);
+	Rotation(0.238, 0.123, -0.856, 0.443);
+	Position(-95.498, -192.841, 141.942);
 	FieldOfView(55.400);
 	NearPlane(1.000);
 	FarPlane(5000.000);
@@ -111,15 +111,6 @@ Object("CO3_prop_pole_27", "CO3_prop_pole_01", 175715803)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-31.040, -283.186, -58.164);
 	SeqNo(175715803);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_bldg_interoir_03_COL", "CO3_bldg_interoir_03_COL", 218480697)
-{
-	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(0.000, -257.000, 0.000);
-	SeqNo(218480697);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1037,7 +1028,7 @@ Object("CO3_prop_decal_5", "CO3_prop_decal_01", 1988118008)
 
 Object("CO3_prop_box_02", "CO3_prop_box_02", 1996631154)
 {
-	ChildRotation(-0.000, 0.000, -1.000, 0.000);
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
 	ChildPosition(-156.200, -283.186, 89.834);
 	SeqNo(1996631154);
 	Team(0);

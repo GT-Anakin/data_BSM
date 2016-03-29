@@ -1,10 +1,13 @@
 [WeaponClass]
 ClassParent             = "com_weap_inf_fusioncutter"
-GeometryName            = "rep_weap_inf_rifle.msh"
+GeometryName            = "rep_weap_hq_inf_fusioncutter.msh"
 
 [Properties]
-GeometryName            = "rep_weap_inf_rifle"
-HighResGeometry         = "rep_1st_weap_inf_rifle"
+GeometryName            = "rep_weap_hq_inf_fusioncutter"
+HighResGeometry         = "rep_weap_hq_inf_fusioncutter"
+
+TargetDroid             = "1"
+DroidHealth             = -150
 
 ChangeModeSound     = "com_weap_inf_equip_med"
 WeaponChangeSound   = "com_weap_inf_equip_med"

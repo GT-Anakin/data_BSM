@@ -5,8 +5,8 @@
 -- load the gametype script
 ScriptCB_DoFile("ObjectiveConquest")
 ScriptCB_DoFile("setup_teams") 
-   
-   --  REP Attacking (attacker is always #1)
+	
+	--  REP Attacking (attacker is always #1)
     REP = 1;
     CIS = 2;
     --  These variables do not change
@@ -14,14 +14,17 @@ ScriptCB_DoFile("setup_teams")
     DEF = CIS;
 
 
-function ScriptPostLoad()      
+function ScriptPostLoad()	   
     
-  
-
+	--AllowAISpawn(CIS, false)
+  SetMapNorthAngle(180, 1)
+SetClassProperty("rep_inf_ep3_jettrooper", "AISizeType", "Soldier")
     --This defines the CPs.  These need to happen first
     cp1 = CommandPost:New{name = "cp1"}
     cp2 = CommandPost:New{name = "cp2"}
-    
+    cp3 = CommandPost:New{name = "cp3"}
+    cp4 = CommandPost:New{name = "cp4"}
+	cp5 = CommandPost:New{name = "cp5"}
     
     
     --This sets up the actual objective.  This needs to happen after cp's are defined
@@ -32,10 +35,14 @@ function ScriptPostLoad()
     
     --This adds the CPs to the objective.  This needs to happen after the objective is set up
     conquest:AddCommandPost(cp1)
-    conquest:AddCommandPost(cp2)   
+    conquest:AddCommandPost(cp2)  
+    conquest:AddCommandPost(cp3)
+    conquest:AddCommandPost(cp4)
+    conquest:AddCommandPost(cp5)	
     
     conquest:Start()
 
+	SetUberMode(1);
     EnableSPHeroRules()
     
  end
@@ -57,8 +64,8 @@ function ScriptInit()
    
     SetMaxFlyHeight(3000)
     SetMaxPlayerFlyHeight (3000)
-       SetMinFlyHeight(-3000)
-    SetMinPlayerFlyHeight (-3000)
+	    SetMinFlyHeight(-550)
+    SetMinPlayerFlyHeight (-550)
     
     SetMemoryPoolSize ("ClothData",20)
     SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
@@ -68,15 +75,19 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Attack",550)     -- should be ~8-12x #Combo
     SetMemoryPoolSize ("Combo::DamageSample",6000)  -- should be ~8-12x #Combo::Attack
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
-    
+	
+	
+    	ReadDataFile("dc:Sound\\co3.lvl")
     ReadDataFile("sound\\yav.lvl;yav1cw")
-   
-   ReadDataFile("dc:SIDE\\Republic.lvl",
-                     "republic_inf_rifleman",
-      "republic_inf_heavytrooper",
-      "republic_inf_sniper",
-      "republic_inf_engineer",
-      "republic_inf_officer")
+
+	ReadDataFile("dc:SIDE\\Republic.lvl",
+		"republic_inf_rifleman",
+		"republic_inf_heavytrooper",
+		"republic_inf_sniper",
+		"republic_inf_engineer",
+		"republic_inf_officer")
+			ReadDataFile("dc:SIDE\\vehicles.lvl",
+		"republic_fly_eta2_red")
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -87,7 +98,10 @@ function ScriptInit()
                              "rep_hover_fightertank",
                              "rep_hero_anakin",
                              "rep_hover_barcspeeder",
-                      "rep_fly_anakinstarfighter_sc")
+							 "rep_fly_vwing",
+							  "rep_walk_atte",
+							 "rep_fly_arc170fighter_sc")
+
     ReadDataFile("SIDE\\cis.lvl",
                              "cis_inf_rifleman",
                              "cis_inf_rocketeer",
@@ -96,40 +110,45 @@ function ScriptInit()
                              "cis_inf_officer",
                              "cis_inf_droideka",
                              "cis_hero_darthmaul",
-                             "cis_hover_aat")
+                             "cis_hover_aat",
+							 "cis_hover_stap",
+							 "cis_walk_spider",
+							 "cis_fly_droidfighter_sc",
+							 "cis_fly_tridroidfighter",
+							 "cis_fly_greviousfighter")
                              
                              
     ReadDataFile("SIDE\\tur.lvl", 
-             "tur_bldg_laser",
-             "tur_bldg_tower")          
+    			"tur_bldg_laser",
+    			"tur_bldg_tower")          
                    
 
-   SetupTeams{
-      rep = {
-         team = REP,
-         units = 20,
-         reinforcements = -1,
-         soldier  = { "republic_inf_rifleman",9, 25},
-         assault  = { "republic_inf_heavytrooper",1, 4},
-         engineer = { "republic_inf_snipern",1, 4},
-         sniper   = { "republic_inf_engineer",1, 4},
-         officer = {"republic_inf_officer",1, 4},
-         special = { "rep_inf_ep3_jettrooper",1, 4},
-           
-      },
-      
-      cis = {
-         team = CIS,
-         units = 20,
-         reinforcements = -1,
-         soldier  = { "cis_inf_rifleman",9, 25},
-         assault  = { "cis_inf_rocketeer",1, 4},
-         engineer = { "cis_inf_engineer",1, 4},
-         sniper   = { "cis_inf_sniper",1, 4},
-         officer = {"cis_inf_officer",1, 4},
-         special = { "cis_inf_droideka",1, 4},
-      }
-   }
+	SetupTeams{
+		rep = {
+			team = REP,
+			units = 60,
+			reinforcements = -1,
+			soldier  = { "republic_inf_rifleman",12, 20},
+			assault  = { "republic_inf_heavytrooper",5, 10},
+			engineer = { "republic_inf_sniper",5, 10},
+			sniper   = { "republic_inf_engineer",5, 10},
+			officer = {"republic_inf_officer",5, 10},
+			special = { "rep_inf_ep3_jettrooper",5, 10},
+	        
+		},
+		
+		cis = {
+			team = CIS,
+			units = 60,
+			reinforcements = -1,
+			soldier  = { "cis_inf_rifleman",12, 20},
+			assault  = { "cis_inf_rocketeer",5, 10},
+			engineer = { "cis_inf_engineer",5, 10},
+			sniper   = { "cis_inf_sniper",5, 10},
+			officer = {"cis_inf_officer",5, 10},
+			special = { "cis_inf_droideka",5, 10},
+		}
+	}
      
     SetHeroClass(CIS, "cis_hero_darthmaul")
     SetHeroClass(REP, "rep_hero_anakin")
@@ -137,34 +156,35 @@ function ScriptInit()
 
     --  Level Stats
     --  ClearWalkers()
-    AddWalkerType(0, 4) -- special -> droidekas
+    AddWalkerType(0, 10) -- special -> droidekas
     AddWalkerType(1, 0) -- 1x2 (1 pair of legs)
-    AddWalkerType(2, 0) -- 2x2 (2 pairs of legs)
-    AddWalkerType(3, 0) -- 3x2 (3 pairs of legs)
+    AddWalkerType(2, 4) -- 2x2 (2 pairs of legs)
+    AddWalkerType(3, 3) -- 3x2 (3 pairs of legs)
     local weaponCnt = 1024
     SetMemoryPoolSize("Aimer", 75)
     SetMemoryPoolSize("AmmoCounter", weaponCnt)
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
-   SetMemoryPoolSize("EntityCloth", 32)
-   SetMemoryPoolSize("EntityFlyer", 32)
+	SetMemoryPoolSize("EntityCloth", 32)
+	SetMemoryPoolSize("EntityFlyer", 32)
     SetMemoryPoolSize("EntityHover", 32)
+	  SetMemoryPoolSize("CommandWalker", 1)
     SetMemoryPoolSize("EntityLight", 200)
-    SetMemoryPoolSize("EntitySoundStream", 4)
+    SetMemoryPoolSize("EntitySoundStream", 12)
     SetMemoryPoolSize("EntitySoundStatic", 32)
     SetMemoryPoolSize("MountedTurret", 32)
-   SetMemoryPoolSize("Navigator", 128)
+	SetMemoryPoolSize("Navigator", 128)
     SetMemoryPoolSize("Obstacle", 1024)
-   SetMemoryPoolSize("PathNode", 1024)
+	SetMemoryPoolSize("PathNode", 1024)
     SetMemoryPoolSize("SoundSpaceRegion", 64)
     SetMemoryPoolSize("TreeGridStack", 1024)
-   SetMemoryPoolSize("UnitAgent", 128)
-   SetMemoryPoolSize("UnitController", 128)
-   SetMemoryPoolSize("Weapon", weaponCnt)
+	SetMemoryPoolSize("UnitAgent", 128)
+	SetMemoryPoolSize("UnitController", 128)
+	SetMemoryPoolSize("Weapon", weaponCnt)
     
     SetSpawnDelay(10.0, 0.25)
     --ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships")
     SetDenseEnvironment("false")
 
 
@@ -185,9 +205,10 @@ function ScriptInit()
     OpenAudioStream("sound\\global.lvl",  "cw_music")
     -- OpenAudioStream("sound\\global.lvl",  "global_vo_quick")
     -- OpenAudioStream("sound\\global.lvl",  "global_vo_slow")
-    OpenAudioStream("sound\\yav.lvl",  "yav1")
-    OpenAudioStream("sound\\yav.lvl",  "yav1")
-    OpenAudioStream("sound\\yav.lvl",  "yav1_emt")
+   -- OpenAudioStream("sound\\yav.lvl",  "yav1")
+    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+    -- OpenAudioStream("sound\\yav.lvl",  "yav1_emt")
 
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)

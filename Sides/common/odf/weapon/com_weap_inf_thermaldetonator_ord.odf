@@ -4,6 +4,8 @@ ClassLabel          = "sticky"
 [Properties]
 GeometryName        = "com_1st_weap_inf_grenadethermal"
 
+ExplosionExpire		= "com_weap_inf_thermaldetonator_exp"
+
 LightColor          = "252 67 67 150"
 LightRadius         = "4.0"
 

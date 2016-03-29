@@ -17,7 +17,20 @@ for %%A in (%*) do (
   )
 )
 
-
+REM see if NOTHING was specified then just exit the script
+set FOR_PARAMETER=
+for %%A in (%*) do ( 
+  if /i "%%A"=="NOTHING" ( 
+    goto END 
+  ) else if /i "%%A"=="EVERYTHING" (
+	set MUNGE_SIDE_DIRS=*
+	set FOR_PARAMETER=/D
+  ) else if /i "%%A"=="GCW" (
+  	set MUNGE_SIDE_DIRS=ALL IMP
+  ) else if /i "%%A"=="CW" (
+  	set MUNGE_SIDE_DIRS=CIS REP
+  )
+)
 
 REM Munge common files first
 echo munge_side Common %MUNGE_PLATFORM%

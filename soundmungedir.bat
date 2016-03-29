@@ -73,7 +73,7 @@
 
 @rem Munge sound banks
 @for /R %%A in (*.sfx) do @echo Munging %%~nA%%~xA & @soundflmunge -platform %4 -banklistinput %%A -bankoutput %MUNGEDIR%\ %CHECKDATE% -resample %CHECKID% noabort %SOUNDOPT% %BANKOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
-
+@for /R %%A in (*.stm) do @echo Munging %%~nA%%~xA & @soundflmunge -platform %4 -banklistinput %%A -bankoutput %MUNGEDIR%\ %CHECKDATE% -resample -checkid noabort %SOUNDOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
 @rem Munge streams
 
 @rem Localization
