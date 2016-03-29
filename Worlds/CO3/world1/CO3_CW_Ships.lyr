@@ -3,8 +3,8 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.653, 0.181, 0.709, -0.196);
-	Position(-1886.830, 534.106, -286.808);
+	Rotation(0.657, 0.245, 0.668, -0.249);
+	Position(-73.026, -254.239, -48.228);
 	FieldOfView(55.400);
 	NearPlane(1.000);
 	FarPlane(5000.000);

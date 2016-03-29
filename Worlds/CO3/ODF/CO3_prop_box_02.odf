@@ -1,0 +1,13 @@
+[GameObjectClass]		
+
+ClassLabel		=	"animatedprop"
+GeometryName	=	"CO3_prop_box_02.msh"
+
+[Properties]	
+
+GeometryName	=	"CO3_prop_box_02"
+
+AnimationName   =   "box2"
+Animation       =   "box2_idle"
+
+FoleyFXGroup    = "metal_foley"

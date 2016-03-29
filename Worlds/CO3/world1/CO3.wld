@@ -3,8 +3,8 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.653, 0.181, 0.709, -0.196);
-	Position(-1886.830, 534.106, -286.808);
+	Rotation(0.657, 0.245, 0.668, -0.249);
+	Position(-73.026, -254.239, -48.228);
 	FieldOfView(55.400);
 	NearPlane(1.000);
 	FarPlane(5000.000);
@@ -566,6 +566,15 @@ Object("CO3_prop_pole_380", "CO3_prop_pole_01", 1254064175)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_decal_40", "CO3_prop_decal_06", 1267960378)
+{
+	ChildRotation(0.755, 0.483, 0.374, 0.240);
+	ChildPosition(-120.319, -260.505, -22.510);
+	SeqNo(1267960378);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_pole_24", "CO3_prop_pole_01", 1277672910)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -721,6 +730,15 @@ Object("ad_ring1", "CO3_prop_advert_ring_01", 1515742665)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_5", "CO3_prop_box_01", 1521768573)
+{
+	ChildRotation(0.691, 0.000, 0.723, 0.000);
+	ChildPosition(52.284, -283.160, 19.550);
+	SeqNo(1521768573);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_pole_30", "CO3_prop_pole_01", 1530504907)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -780,6 +798,15 @@ Object("CO3_bldg_building_group_4", "CO3_bldg_building_group_01", 1611997593)
 	ChildRotation(0.958, 0.000, 0.285, 0.000);
 	ChildPosition(-1394.203, -421.638, -1233.376);
 	SeqNo(1611997593);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_decal_41", "CO3_prop_decal_06", 1624146648)
+{
+	ChildRotation(0.786, 0.000, -0.618, 0.000);
+	ChildPosition(-154.094, -265.620, -29.983);
+	SeqNo(1624146648);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1008,6 +1035,15 @@ Object("CO3_prop_decal_5", "CO3_prop_decal_01", 1988118008)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_02", "CO3_prop_box_02", 1996631154)
+{
+	ChildRotation(-0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-156.200, -283.186, 89.834);
+	SeqNo(1996631154);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_32", "CO3_prop_decal_06", 2009315359)
 {
 	ChildRotation(0.650, 0.000, -0.760, 0.000);
@@ -1040,6 +1076,24 @@ Object("CO3_prop_pole_39", "CO3_prop_pole_01", 2091572748)
 	ChildRotation(0.708, 0.000, 0.706, 0.000);
 	ChildPosition(121.112, -294.732, -62.987);
 	SeqNo(2091572748);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_decal_43", "CO3_prop_decal_06", 2094181851)
+{
+	ChildRotation(-0.341, -0.622, 0.619, -0.338);
+	ChildPosition(-94.746, -262.467, 40.778);
+	SeqNo(2094181851);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_box_10", "CO3_prop_box_02", 2117644720)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-151.999, -291.970, 161.165);
+	SeqNo(2117644720);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1192,6 +1246,24 @@ Object("CO3_bldg_building_02", "CO3_bldg_building_02", -1939223153)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_11", "CO3_prop_box_02", -1938223008)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-131.765, -265.597, -36.016);
+	SeqNo(-1938223008);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_decal_38", "CO3_prop_decal_06", -1936586957)
+{
+	ChildRotation(0.852, 0.000, -0.523, 0.000);
+	ChildPosition(71.350, -300.000, -10.743);
+	SeqNo(-1936586957);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_05", "CO3_prop_decal_05", -1931577799)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -1282,11 +1354,29 @@ Object("CO3_prop_adbox_2", "CO3_prop_adbox_01", -1817582282)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_8", "CO3_prop_box_01", -1814108948)
+{
+	ChildRotation(0.688, 0.000, 0.725, 0.000);
+	ChildPosition(135.248, -300.000, 14.639);
+	SeqNo(-1814108948);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_pole_431", "CO3_prop_pole_01", -1811671763)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
 	ChildPosition(178.476, -294.731, -103.307);
 	SeqNo(-1811671763);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_box_3", "CO3_prop_box_01", -1810088703)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-41.353, -283.160, -37.608);
+	SeqNo(-1810088703);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1401,6 +1491,15 @@ Object("CO3_bldg_block1_building3", "CO3_bldg_block1_building3", -1638584129)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_2", "CO3_prop_box_01", -1637562650)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-81.651, -277.273, -36.754);
+	SeqNo(-1637562650);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_28", "CO3_prop_decal_05", -1635440563)
 {
 	ChildRotation(0.854, 0.000, -0.521, 0.000);
@@ -1424,6 +1523,15 @@ Object("CO3_prop_pole_43", "CO3_prop_pole_01", -1585455904)
 	ChildRotation(0.708, 0.000, 0.706, 0.000);
 	ChildPosition(121.040, -294.732, -93.543);
 	SeqNo(-1585455904);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_box_4", "CO3_prop_box_01", -1566005077)
+{
+	ChildRotation(0.727, 0.000, -0.686, 0.000);
+	ChildPosition(-41.714, -283.160, -40.209);
+	SeqNo(-1566005077);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1500,6 +1608,15 @@ Object("CO3_bldg_building_7", "CO3_bldg_building_03", -1467060091)
 	ChildRotation(0.878, 0.000, 0.479, 0.000);
 	ChildPosition(-107.273, -417.218, -1000.247);
 	SeqNo(-1467060091);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_decal_42", "CO3_prop_decal_06", -1464728053)
+{
+	ChildRotation(0.985, 0.000, -0.173, 0.000);
+	ChildPosition(-140.882, -265.619, -51.987);
+	SeqNo(-1464728053);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1614,6 +1731,15 @@ Object("CO3_prop_pole_23", "CO3_prop_pole_01", -1257945874)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_decal_44", "CO3_prop_decal_06", -1239921808)
+{
+	ChildRotation(1.000, 0.000, -0.006, 0.000);
+	ChildPosition(-45.893, -280.000, -50.811);
+	SeqNo(-1239921808);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_15", "CO3_prop_decal_03", -1234373031)
 {
 	ChildRotation(0.981, 0.000, -0.194, 0.000);
@@ -1628,6 +1754,15 @@ Object("CO3_bldg_building_group_02", "CO3_bldg_building_group_02", -1214628682)
 	ChildRotation(0.992, 0.000, -0.129, 0.000);
 	ChildPosition(-811.648, -382.772, -1698.331);
 	SeqNo(-1214628682);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_box_6", "CO3_prop_box_01", -1191689251)
+{
+	ChildRotation(0.692, 0.000, 0.722, 0.000);
+	ChildPosition(36.530, -283.160, -39.907);
+	SeqNo(-1191689251);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1820,6 +1955,15 @@ Object("CO3_prop_decal_14", "CO3_prop_decal_03", -957563058)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_01", "CO3_prop_box_01", -948113842)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-52.400, -283.163, 42.423);
+	SeqNo(-948113842);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_pole_441", "CO3_prop_pole_01", -940180188)
 {
 	ChildRotation(0.881, 0.000, 0.473, 0.000);
@@ -1867,6 +2011,15 @@ Object("CO3_bldg_building_group_10", "CO3_bldg_building_group_01", -827416911)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_box_9", "CO3_prop_box_01", -818919109)
+{
+	ChildRotation(0.857, 0.000, 0.516, 0.000);
+	ChildPosition(144.146, -300.000, 7.454);
+	SeqNo(-818919109);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_03", "CO3_bldg_building_03", -813727828)
 {
 	ChildRotation(0.887, 0.000, -0.462, 0.000);
@@ -1890,6 +2043,15 @@ Object("CO3_bldg_block2_building1", "CO3_bldg_block2_building1", -780225650)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(0.000, -257.000, 0.000);
 	SeqNo(-780225650);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_decal_39", "CO3_prop_decal_06", -780194830)
+{
+	ChildRotation(0.999, 0.000, 0.042, 0.000);
+	ChildPosition(-70.024, -220.556, 46.465);
+	SeqNo(-780194830);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2007,6 +2169,15 @@ Object("CO3_prop_pole_420", "CO3_prop_pole_01", -608461976)
 	ChildRotation(0.711, 0.000, 0.703, 0.000);
 	ChildPosition(178.474, -294.732, -95.461);
 	SeqNo(-608461976);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_box_7", "CO3_prop_box_01", -580269800)
+{
+	ChildRotation(0.692, 0.000, 0.722, 0.000);
+	ChildPosition(130.738, -300.000, -85.834);
+	SeqNo(-580269800);
 	Team(0);
 	NetworkId(-1);
 }
