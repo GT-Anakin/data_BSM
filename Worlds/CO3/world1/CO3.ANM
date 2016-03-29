@@ -1,0 +1,18 @@
+Animation("ring_1", 30.00, 1, 0)
+{
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(15.00, 0.00, -180.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(30.00, 0.00, -360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+AnimationGroup("ad_rings", 1, 0)
+{
+	Animation("ring_1", "ad_ring1");
+	Animation("ring_1", "ad_ring2");
+	Animation("ring_1", "ad_ring3");
+	Animation("ring_1", "ad_ring4");
+	Animation("ring_1", "ad_ring5");
+	Animation("ring_1", "ad_ring6");
+	Animation("ring_1", "ad_ring7");
+}
+

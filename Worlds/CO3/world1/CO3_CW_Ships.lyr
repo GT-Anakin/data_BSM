@@ -1,0 +1,52 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.653, 0.181, 0.709, -0.196);
+	Position(-1886.830, 534.106, -286.808);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(48.603, -284.393, -20.816,  0.702, 0.087, -0.701, 0.087);
+}
+LightName("CO3_CW_Ships.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-10515896);
+
+Object("CIS_Frigate_ext", "CIS_Frigate_ext", 282470471)
+{
+	ChildRotation(-0.229, -0.027, -0.973, 0.017);
+	ChildPosition(-432.000, 314.000, -138.000);
+	SeqNo(282470471);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Rep_Frigate_ext", "Rep_Frigate_ext", 1307973687)
+{
+	ChildRotation(0.966, 0.005, -0.257, 0.019);
+	ChildPosition(739.000, 199.000, 92.000);
+	SeqNo(1307973687);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}

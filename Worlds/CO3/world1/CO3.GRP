@@ -5,5 +5,7 @@ Group("[Base]", 0, 8)
 {
 	Layer("[Base]", 0);
 	Layer("conquest", 1);
+	Layer("SoundStreams", 2);
+	Layer("CW_Ships", 3);
 }
 

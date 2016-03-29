@@ -1,0 +1,20 @@
+Version(1);
+RegionCount(2);
+
+Region("soundstream co3_amb_bar 1.5", 1)
+{
+	Layer(2);
+	Position(-67.307922, -279.789185, 45.539593);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(40.000000, 40.000000, 40.000000);
+	Name("amb_bar");
+}
+
+Region("soundstream co3_amb_exterior 1", 1)
+{
+	Layer(2);
+	Position(0.000000, 0.000000, 0.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2000.000000, 2000.000000, 2000.000000);
+	Name("amb_exterior");
+}

@@ -1,0 +1,8 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_advert_ring_02.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_advert_ring_02"

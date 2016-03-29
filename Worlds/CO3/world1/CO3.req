@@ -17,6 +17,11 @@ ucft
 	}
 	REQN
 	{
+		"boundary"
+		"CO3"
+	}
+	REQN
+	{
 		"congraph"
 		"CO3"
 	}
@@ -29,6 +34,7 @@ ucft
 	{
 		"world"
 		"CO3"
+		"CO3_SoundStreams"
 	}
 	REQN
 	{
@@ -54,5 +60,6 @@ ucft
 	{
 		"lvl"
 		"CO3_conquest"
+		"CO3_CW_Ships"
 	}
 }

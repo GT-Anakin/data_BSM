@@ -11,14 +11,30 @@ Layer("conquest", 1, 0)
 	Description("Loaded in conquest mode");
 }
 
+Layer("SoundStreams", 2, 0)
+{
+	Description("");
+}
+
+Layer("CW_Ships", 3, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
 	Layer(0);
+	Layer(2);
 }
 
 GameMode("conquest")
 {
 	Layer(1);
+}
+
+GameMode("CW_Ships")
+{
+	Layer(3);
 }
 

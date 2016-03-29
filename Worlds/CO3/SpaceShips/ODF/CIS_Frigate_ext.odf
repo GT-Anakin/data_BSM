@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CIS_Frigate_ext.msh"
+GeometryScale	=	0.15
+
+[Properties]
+
+GeometryName	=	"CIS_Frigate_ext"
+FoleyFXGroup    =   "metal_foley"

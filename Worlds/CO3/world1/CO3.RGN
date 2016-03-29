@@ -1,2 +1,34 @@
 Version(1);
-RegionCount(0);
+RegionCount(4);
+
+Region("DamageRegion damagerate=250 personscale=1 animalscale=1 droidscale=1 vehiclescale=6 buildingscale=0", 0)
+{
+	Position(-111.465065, -277.171570, 172.029099);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 8.000000, 0.500000);
+	Name("damage_power");
+}
+
+Region("DamageRegion damagerate=500 personscale=1 animalscale=1 droidscale=1 vehiclescale=0 buildingscale=0", 0)
+{
+	Position(-15.359356, -432.966278, 27.662678);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(400.000000, 120.000000, 300.000000);
+	Name("damage_base");
+}
+
+Region("shadow directional=0 directional1=0 colortop=80,80,80 colorbottom=0,0,0", 0)
+{
+	Position(35.077446, -287.426117, -22.287617);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 4.000000, 2.500000);
+	Name("shadow1");
+}
+
+Region("shadow directional=0 directional1=0 colortop=80,80,80 colorbottom=0,0,0", 0)
+{
+	Position(35.045277, -287.523254, 20.846714);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 4.000000, 2.500000);
+	Name("shadow2");
+}
