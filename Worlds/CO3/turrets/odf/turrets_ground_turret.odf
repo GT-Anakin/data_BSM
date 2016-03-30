@@ -15,7 +15,8 @@ MapScale            = "1.2"
 HealthTexture           = "HUD_kam_turret_icon"
 
 GeometryName            = "turrets_ground_turret"
-
+DestroyedGeometryName   = "turrets_ground_turret_dest"
+ExplosionDestruct       = "turrets_ground_turret_exp"
 MaxHealth           = "3000.0"
 
 

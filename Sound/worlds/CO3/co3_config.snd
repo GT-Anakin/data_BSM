@@ -1,0 +1,28 @@
+SoundStream()
+{
+    Name("co3_amb_exterior");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(1.0);
+    RandomPlayPos(1);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_exterior", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_bar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(1.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_bar", 1.0);
+    }
+}

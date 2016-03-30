@@ -1,0 +1,14 @@
+ucft
+{
+	REQN
+	{
+		"str"
+		"align=2048"
+		"co3_stm"
+	}
+	REQN
+	{
+		"config"
+		"co3_config"
+	}
+ }
