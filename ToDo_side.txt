@@ -1,11 +1,9 @@
 improve hp_active positions,
 some more 2ndary weapons,
--rifle: grenade
--heavy: mine (EA like without red warning maybe with sound)
 -sniper: autoturret (EA like max 180 degree)
 -tech: health&ammo pack (or auto heal in that case shield)
 -officer: airstrike/termalimploder (depend on the map)
-
+modify weapons script + msh
 add glow to shotgun,
 new animationset,
 imp,

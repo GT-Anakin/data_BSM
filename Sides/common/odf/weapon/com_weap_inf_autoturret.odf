@@ -1,0 +1,59 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+OrdnanceName		= "com_weap_inf_autoturret_ord"
+
+MuzzleFlash         = "med_muzzle_flash"
+Discharge           = "med_smoke_effect"
+
+RoundsPerClip		= "0"
+
+HeatPerShot         = "0.0"
+HeatRecoverRate		= "0.0"
+HeatThreshold		= "0.0"
+
+MinRange            = "0"
+OptimalRange		= "15"
+MaxRange            = "40"
+
+RecoilLengthLight	= "0.1"
+RecoilStrengthLight	= "1"
+RecoilLengthHeavy	= "0.05"
+RecoilStrengthHeavy	= "1"
+
+ZoomMin             = "2.0"
+ZoomMax             = "8.0"
+ZoomRate            = "2.0"
+
+ShotDelay           = "1.7"
+
+LockOnRange         = "20.0"
+LockTime            = "0.5"
+MinSpread           = "0.1"
+MaxSpread           = "0.35"
+AutoAimSize         = "30.0"
+
+TargetEnemy         = "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "0"
+TargetDroid			= "1"
+TargetVehicle		= "1"
+TargetBuilding		= "1"
+
+SalvoCount          = "4"
+SalvoDelay          = ".15 .3"
+
+//**********************************************
+//****************** SOUND *********************
+//**********************************************
+
+FireSound			= "com_weap_turret_fire_mini"
+
+
+FoleyFXGroup		= "metal_foley"
+
+
