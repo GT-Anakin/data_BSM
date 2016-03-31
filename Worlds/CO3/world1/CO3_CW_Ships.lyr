@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.880, 0.470, -0.058, 0.031);
-	Position(-112.406, -233.140, 86.522);
+	Rotation(0.164, 0.075, -0.894, 0.411);
+	Position(156.012, 953.512, 624.884);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(1000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -34,8 +34,28 @@ NextSequence(-10515896);
 Object("CIS_Frigate_ext", "CIS_Frigate_ext", 282470471)
 {
 	ChildRotation(-0.229, -0.027, -0.973, 0.017);
-	ChildPosition(-432.000, 314.000, -138.000);
+	ChildPosition(-1044.607, 594.549, 151.382);
 	SeqNo(282470471);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_030", "Ven_Cap_03", 345746216)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.562);
+	SeqNo(345746216);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_02", "Ven_Cap_02", 586568612)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.172, 635.666, 926.425);
+	SeqNo(586568612);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
@@ -44,8 +64,118 @@ Object("CIS_Frigate_ext", "CIS_Frigate_ext", 282470471)
 Object("Rep_Frigate_ext", "Rep_Frigate_ext", 1307973687)
 {
 	ChildRotation(0.966, 0.005, -0.257, 0.019);
-	ChildPosition(739.000, 199.000, 92.000);
+	ChildPosition(471.856, 199.000, -1651.164);
 	SeqNo(1307973687);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_06", "Ven_Cap_06", 1580521974)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.172, 635.666, 926.425);
+	SeqNo(1580521974);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_040", "Ven_Cap_04", 1928712294)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.560);
+	SeqNo(1928712294);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_060", "Ven_Cap_06", -1863488647)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.563);
+	SeqNo(-1863488647);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_020", "Ven_Cap_02", -925525115)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.565);
+	SeqNo(-925525115);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_03", "Ven_Cap_03", -912428681)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.172, 635.666, 926.424);
+	SeqNo(-912428681);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_010", "Ven_Cap_01", -786401843)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.565);
+	SeqNo(-786401843);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_01", "Ven_Cap_01", -779077609)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.172, 635.666, 926.426);
+	SeqNo(-779077609);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_04", "Ven_Cap_04", -641940586)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.171, 635.666, 926.422);
+	SeqNo(-641940586);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("CIS_Frigate_ext1", "CIS_Frigate_ext", -405618256)
+{
+	ChildRotation(0.047, 0.000, -0.999, 0.000);
+	ChildPosition(685.846, 664.133, 873.928);
+	SeqNo(-405618256);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_05", "Ven_Cap_05", -176892870)
+{
+	ChildRotation(-0.218, 0.000, -0.976, 0.000);
+	ChildPosition(-436.172, 635.666, 926.425);
+	SeqNo(-176892870);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Ven_Cap_050", "Ven_Cap_05", -124015306)
+{
+	ChildRotation(0.968, 0.015, -0.207, 0.139);
+	ChildPosition(1432.660, 715.195, -792.564);
+	SeqNo(-124015306);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);

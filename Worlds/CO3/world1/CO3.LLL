@@ -191,5 +191,14 @@ Group("Last Loaded")
 	Layer("conquest");
 	Layer("CW_Ships");
 	Layer("SoundStreams");
+	Layer("conquest");
+	Layer("CW_Ships");
+	Layer("SoundStreams");
+	Layer("conquest");
+	Layer("CW_Ships");
+	Layer("SoundStreams");
+	Layer("conquest");
+	Layer("CW_Ships");
+	Layer("SoundStreams");
 }
 

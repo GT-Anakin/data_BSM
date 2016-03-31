@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"Ven_Cap_01.msh"
+GeometryScale	=	0.5
+[Properties]
+
+GeometryName	=	"Ven_Cap_01"
+
+FoleyFXGroup    =   "metal_foley"
