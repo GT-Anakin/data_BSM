@@ -14,5 +14,8 @@ AnimationGroup("ad_rings", 1, 0)
 	Animation("ring_1", "ad_ring5");
 	Animation("ring_1", "ad_ring6");
 	Animation("ring_1", "ad_ring7");
+	Animation("ring_1", "ad_ring8");
+	Animation("ring_1", "ad_ring9");
+	Animation("ring_1", "ad_ring10");
 }
 

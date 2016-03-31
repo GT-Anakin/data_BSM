@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.164, 0.075, -0.894, 0.411);
-	Position(156.012, 953.512, 624.884);
+	Rotation(0.933, 0.356, 0.047, -0.018);
+	Position(124.587, -171.523, 22.701);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(5000.000);
+	FarPlane(500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -39,6 +39,15 @@ Object("CO3_prop_pole_390", "CO3_prop_pole_01", 2426354)
 	ChildRotation(0.710, 0.000, 0.704, 0.000);
 	ChildPosition(178.531, -294.732, -63.904);
 	SeqNo(2426354);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("ad_ring8", "CO3_prop_advert_ring_01", 5338729)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(127.223, -204.000, 74.993);
+	SeqNo(5338729);
 	Team(0);
 	NetworkId(-1);
 }
@@ -185,6 +194,15 @@ Object("CO3_bldg_building_01", "CO3_bldg_building_01", 312994500)
 	ChildRotation(0.987, 0.000, 0.159, 0.000);
 	ChildPosition(-178.120, -376.988, 780.681);
 	SeqNo(312994500);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_advert_circle_3", "CO3_prop_advert_circle_01", 317544196)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(156.815, -281.304, -84.424);
+	SeqNo(317544196);
 	Team(0);
 	NetworkId(-1);
 }
@@ -476,6 +494,15 @@ Object("CO3_prop_adsign_04", "CO3_prop_adsign_04", 1008288813)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_advert_circle_2", "CO3_prop_advert_circle_01", 1045874273)
+{
+	ChildRotation(-0.000, 0.000, -1.000, 0.000);
+	ChildPosition(150.491, -281.304, -90.615);
+	SeqNo(1045874273);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("ad_ring6", "CO3_prop_advert_ring_03", 1065699028)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -753,6 +780,15 @@ Object("CO3_prop_pole_30", "CO3_prop_pole_01", 1530504907)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(23.514, -283.160, -58.400);
 	SeqNo(1530504907);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_advert_circle_4", "CO3_prop_advert_circle_01", 1537798044)
+{
+	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildPosition(144.366, -281.304, -84.520);
+	SeqNo(1537798044);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1143,6 +1179,15 @@ Object("CO3_prop_adsign_3", "CO3_prop_adsign_02", 2140155121)
 	NetworkId(-1);
 }
 
+Object("ad_ring9", "CO3_prop_advert_ring_02", 2145037154)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(127.223, -213.000, 74.993);
+	SeqNo(2145037154);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("com_item_weaponrecharge6", "com_item_weaponrecharge", -2123956634)
 {
 	ChildRotation(0.931, 0.000, 0.366, 0.000);
@@ -1152,6 +1197,15 @@ Object("com_item_weaponrecharge6", "com_item_weaponrecharge", -2123956634)
 	NetworkId(-1);
 	EffectRegion("");
 	Radius("5.0");
+}
+
+Object("ad_ring10", "CO3_prop_advert_ring_02", -2091408398)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(127.223, -195.000, 74.993);
+	SeqNo(-2091408398);
+	Team(0);
+	NetworkId(-1);
 }
 
 Object("CO3_bldg_block1_building5", "CO3_bldg_block1_building5", -2081773324)
@@ -1855,6 +1909,15 @@ Object("CO3_prop_pole_400", "CO3_prop_pole_01", -1139789098)
 	ChildRotation(0.710, 0.000, 0.704, 0.000);
 	ChildPosition(178.533, -294.732, -71.121);
 	SeqNo(-1139789098);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_advert_circle_1", "CO3_prop_advert_circle_01", -1111014752)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(150.459, -281.336, -78.056);
+	SeqNo(-1111014752);
 	Team(0);
 	NetworkId(-1);
 }

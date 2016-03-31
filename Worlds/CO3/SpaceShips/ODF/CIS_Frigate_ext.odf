@@ -2,7 +2,7 @@
 
 ClassLabel		=	"prop"
 GeometryName	=	"CIS_Frigate_ext.msh"
-GeometryScale	=	0.15
+GeometryScale	=	0.1
 
 [Properties]
 
