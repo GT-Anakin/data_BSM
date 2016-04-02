@@ -1,0 +1,15 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "rep_cap_assultship3.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_cap_assultship3"
+MaxHealth       = "999999.0"
+AddHealth       = "50000.0"
+RespawnTime		= "999999"
+
+FoleyFXGroup  = "metal_foley"
+BuildingSound   = "sd_engine_amb"

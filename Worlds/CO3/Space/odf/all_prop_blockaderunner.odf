@@ -1,0 +1,86 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "all_prop_blockaderunner.msh"
+
+
+[Properties]        
+
+GeometryName    	= "all_prop_blockaderunner"
+
+MaxHealth       	= "90000.0"
+
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+//DestroyedGeometryName   = "all_prop_blockaderunner_chunk2"
+
+MapTexture              = "icon_all_blockaderunner"
+MapScale                = 5
+RemoveFromMapWhenDead = "1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 40.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 75.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 50.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 55.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+//DamageStartPercent      = 35.0
+//DamageStopPercent           = 30.0
+//DamageEffect            = "spa1_sfx_shipflames_lg"
+//DamageEffectScale           = 85.1
+//DamageInheritVelocity       = 0.0
+//DamageAttachPoint           = "hp_damage_3"
+
+//DamageStartPercent      = 20.0
+//DamageStopPercent           = 5.0
+//DamageEffect            = "spa1_sfx_shipflames_lg"
+//DamageEffectScale           = 85.2
+//DamageInheritVelocity       = 0.0
+//DamageAttachPoint           = "hp_damage_4"
+
+//DamageStartPercent      = 10.0
+//DamageStopPercent           = 70.0
+//DamageEffect            = "spa1_sfx_shipflames_lg"
+//DamageEffectScale           = 95.1
+//DamageInheritVelocity       = 0.0
+//DamageAttachPoint           = "hp_damage_5"
+
+VehicleCollision    =   "CollisionMesh"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "all_prop_blockaderunner_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.06 0.01 0.01"
+ChunkSpeed      = "0.05"
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "all_prop_blockaderunner_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.05 0.01 0.01"
+ChunkSpeed      = "0.04"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"
+

@@ -1,0 +1,98 @@
+[GameObjectClass]
+ClassLabel              = "armedbuilding"
+GeometryName            = "rep_bldg_boxturret.msh"
+
+[Properties]
+
+BUILDINGSECTION         = "BODY"
+
+MapTexture         	= "turret_icon"
+IconTexture         	= "HUD_all_lascannon_icon"
+
+MapScale            	= "0.0"
+HealthTexture           = "HUD_kam_turret_icon"
+
+GeometryName            = "rep_bldg_boxturret"
+ExplosionName       = "imp_bldg_boxturret_exp"
+
+MaxHealth               = "2500.0"
+RespawnTime				= "999999"
+
+BUILDINGSECTION         = "TURRET1"
+
+Pilottype		= "self"
+
+TurretNodeName          = "aimer_head"
+
+PitchLimits             = "-15 40"
+YawLimits           	= "-180 180"
+
+PitchTurnFactor    	 = "0.0"
+
+//FirstPerson           = "com\comviewf;com_1st_cockpit_viewfinder"
+ThirdPersonFOV	    	= "65"
+WeaponName           	= "imp_weap_bldg_boxturret"
+WeaponAmmo          	= "0"
+
+MaxTurnSpeed            = "90.8"
+MaxPitchSpeed           = "90.8"
+PitchRate               = "90.0"
+TurnRate                = "90.5"
+PCMaxPitchSpeed         = "90.0"
+PCMaxTurnSpeed          = "90.0"       
+EyePointOffset          = "0.0 6.2 -8.3"
+TrackCenter		= "0.0 8.0 5.0"
+TrackOffset             = "0.0 -3.0 10.0"
+
+TURRETSECTION       = "TURRET1"
+
+AimerNodeName           = "aimer_barrels"
+AimerPitchLimits         = "-15 40"
+AimerYawLimits           = "0 0"
+
+
+BarrelNodeName          = "barrel1"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire1"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "barrel2"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire2"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.6"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.6"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+FoleyFXGroup    	= "metal_foley"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageAttachPoint       = "hp_spark_1"
+
+//////  Chunks  //////////
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "rep_bldg_boxturret_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "6"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 2.5 3.0"
+ChunkBounciness     = 0.45
+ChunkStickiness     = 0.25
+ChunkSpeed      = "18.0"
+ChunkUpFactor       = "20.00"
+ChunkTrailEffect    = "com_sfx_chunktrail_sm"

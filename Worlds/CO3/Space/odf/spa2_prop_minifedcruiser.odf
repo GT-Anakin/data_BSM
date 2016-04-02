@@ -1,0 +1,73 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa2_prop_minifedcruiser.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_prop_minifedcruiser"
+
+FoleyFXGroup    = "metal_foley"
+
+
+MaxHealth       	= "90000.0"
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+
+MapTexture              = "icon_cis_minifedcruiser"
+MapScale                = 8
+RemoveFromMapWhenDead = "1"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "spa2_prop_minifedcruiser_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.04 0.01 -0.03"
+ChunkSpeed      = "4 .00" 
+ChunkUpFactor       = "5.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "spa2_prop_minifedcruiser_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.04 0.01 0.04"
+ChunkSpeed      = "5.0"
+ChunkUpFactor       = "0.05"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "spa2_prop_minifedcruiser_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.10 -0.01 0.03"
+ChunkSpeed      = "5.0"
+ChunkUpFactor       = "0.5 "
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "spa2_prop_minifedcruiser_chunk4"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.30 0.04 0.03"
+ChunkSpeed      = "3.0"
+ChunkUpFactor       = "-1.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+
+

@@ -1,0 +1,15 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_fedcruiser_door2.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_door2"
+
+OpenSound = "door_open"
+CloseSound = "door_close"
+LockedSound = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"
+

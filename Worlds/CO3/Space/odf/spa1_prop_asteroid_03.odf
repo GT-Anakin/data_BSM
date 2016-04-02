@@ -1,0 +1,27 @@
+[GameObjectClass]       
+
+ClassLabel      =   "asteroid"
+GeometryName    =   "spa1_prop_asteroidLG_03.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_asteroidLG_03"
+
+MinSpeed	=   5.0
+MaxSpeed	=   15.0
+MinOmega	=   0.0
+MaxOmega	=   0.5
+
+MaxHealth	= 50.0
+
+
+// explosions
+ExplosionDestruct = "spa1_sfx_asteroid_destroy_exp"
+ExplosionBreak	  = "spa1_sfx_asteroid_break_exp"
+
+// children asteroids
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_1"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_2"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_3"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_4"

@@ -1,0 +1,85 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "cis_fedcruiser_commandroom_SG_blender.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_commandroom_SG_blender"
+MaxHealth           = "9000.0"
+ExplosionName           = "spa_prop_blender_exp"
+DestroyedGeometryName       = "cis_fedcruiser_commandroom_SG_blender_dam1"
+
+
+// DAMAGE STATES
+// No Damage energy only
+DamageStartPercent  = 100.0
+DamageStopPercent   = 85.0
+DamageEffect        = "spa_sfx_blender"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_weap_inf_ord_hum_sm"
+
+// smoke
+DamageStartPercent  = 85.0
+DamageStopPercent   = 70.0
+DamageEffect        = "spa_sfx_blender_destruct1"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_weap_inf_ord_hum_sm"
+
+DamageStartPercent  = 70.0
+DamageStopPercent   = 55.0
+DamageEffect        = "spa_sfx_blender_destruct2"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_weap_inf_ord_hum_sm"
+
+// Green ball
+DamageStartPercent  = 55.0
+DamageStopPercent   = 40.0
+DamageEffect        = "spa_sfx_blender_destruct3"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "energy_loop"
+
+
+//Fire kicks in
+DamageStartPercent  = 40.0
+DamageStopPercent   = 25.0
+DamageEffect        = "spa_sfx_blender_destruct4"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_amb_fire_large"
+
+DamageStartPercent  = 25.0
+DamageStopPercent   = 10.0
+DamageEffect        = "spa_sfx_blender_destruct5"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_amb_fire_large"
+
+DamageStartPercent  = 10.0
+DamageStopPercent   = 0.01
+DamageEffect        = "spa_sfx_blender_destruct6"
+DamageEffectScale   = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint   = "hp_effect"
+DamageEffectSound   = "com_amb_fire_large"
+
+// DAMAGE STATES
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+BuildingSound = ""
+

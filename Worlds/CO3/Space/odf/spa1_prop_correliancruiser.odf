@@ -1,0 +1,70 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa1_prop_correliancruiser.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_correliancruiser"
+
+MaxHealth       	= "90000.0"
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+//DestroyedGeometryName   = "spa1_prop_correliancruiser"
+
+
+MapTexture              = "icon_all_correllian_cruiser"
+MapScale                = 5
+RemoveFromMapWhenDead = "1"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "spa1_prop_correliancruiser_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.03 0.01 0.01"
+ChunkSpeed      = "0.03"
+ChunkUpFactor       = "0.03"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "spa1_prop_correliancruiser_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.01 0.01 -0.02"
+ChunkSpeed      = "1"
+ChunkUpFactor       = "-20.0"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "spa1_prop_correliancruiser_chunk3"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.05 0.00 0.02"
+ChunkSpeed      = "0.04"
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "spa1_prop_correliancruiser_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.07 0.01 -0.02"
+ChunkSpeed      = "1"
+ChunkUpFactor       = "18.0"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+BuildingSound = "sd_engine_amb"

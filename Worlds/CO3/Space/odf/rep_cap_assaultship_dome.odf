@@ -1,0 +1,9 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "rep_cap_assaultship_dome.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_cap_assaultship_dome"

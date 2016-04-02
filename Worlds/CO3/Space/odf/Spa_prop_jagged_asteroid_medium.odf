@@ -1,0 +1,27 @@
+[GameObjectClass]       
+
+ClassLabel      =   "asteroid"
+GeometryName    =   "spa_prop_jagged_asteroid_medium.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa_prop_jagged_asteroid_medium"
+
+MinSpeed	=   5.0
+MaxSpeed	=   0.5
+MinOmega	=   0.0
+MaxOmega	=   0.5
+
+MaxHealth	= 7000.0
+
+
+// explosions
+ExplosionDestruct = "spa1_sfx_asteroid_destroy_exp"
+ExplosionBreak	  = "spa1_sfx_asteroid_break_exp"
+
+// children asteroids
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_1"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_2"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_3"
+ChildAsteroid	  = "spa1_prop_asteroidMD_02 hp_4"

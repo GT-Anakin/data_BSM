@@ -1,0 +1,17 @@
+[GameObjectClass]       
+ClassLabel         	 = "Light"
+
+[Properties]
+Color               	= "75 75 255"
+ConeLength			= 0
+ConeWidth			= "15.0 15.0"
+DrawDistance		= 1000
+ConeInitialWidth		= "15.0 15.0"
+ConeFadeFactor		= 0.0
+ConeFadeLength		= 0.0
+FlareIntensity      	= 1.0
+FlickerType         	= 0
+FlickerPeriod       	= 0.0
+OmniRadius          	= 0.0
+
+

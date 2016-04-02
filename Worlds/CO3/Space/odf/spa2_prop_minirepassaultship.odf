@@ -1,0 +1,87 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa2_prop_minirepassault.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_prop_minirepassault"
+
+MaxHealth       	= "90000.0"
+
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+
+
+MapTexture              = "icon_rep_minirepassaultship"
+MapScale                = 9
+RemoveFromMapWhenDead = "1"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "spa2_prop_minirepassault_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.03 0.01 0.01"
+ChunkSpeed      = "2.05" 
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "spa2_prop_minirepassault_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.01 0.01 -0.04"
+ChunkSpeed      = "2.03"
+ChunkUpFactor       = "0.05"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "spa2_prop_minirepassault_chunk3"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.01 -0.01 0.04"
+ChunkSpeed      = "2.04"
+ChunkUpFactor       = "0.03"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "spa2_prop_minirepassault_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.04 0.04 0.03"
+ChunkSpeed      = "5.0"
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK5"
+ChunkGeometryName   = "spa2_prop_minirepassault_chunk5"
+ChunkTrailEffect	= ""
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.01 -0.01 0.04"
+ChunkSpeed      = "2.04"
+ChunkUpFactor       = "0.03"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"
+
+

@@ -1,0 +1,50 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "spa_prop_liquidgen.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa_prop_liquidgen"
+MaxHealth           = "4500.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa_prop_blender_exp"
+DestroyedGeometryName       = "spa_prop_liquidgen_dam"
+MapScale            = 0.5
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 0.3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 0.2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage4"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 0.3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage5"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+
+

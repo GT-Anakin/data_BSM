@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer_SG.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_SG"
+
+AttachOdf = "spa_light_impservlt"
+AttachToHardPoint = "hp_lightserv_1"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam1"
+AttachToHardPoint = "hp_steam2"
+AttachToHardPoint = "hp_steam3"
+
+FoleyFXGroup    = "metal_foley"
+

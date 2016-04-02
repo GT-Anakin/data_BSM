@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "rep_assultship_commandcenter.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_assultship_commandcenter"
+
+FoleyFXGroup    = "metal_foley"
+

@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(9);
+RegionCount(10);
 
 Region("cp1_capture", 2)
 {
@@ -22,9 +22,9 @@ Region("cp2_capture", 2)
 Region("cp1_control", 0)
 {
 	Layer(1);
-	Position(-126.682045, -287.557495, 145.935699);
+	Position(-126.682045, -283.583649, 141.792084);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
-	Size(70.000000, 10.000000, 40.000000);
+	Size(70.000000, 20.000000, 40.000000);
 	Name("cp1_control");
 }
 
@@ -80,4 +80,13 @@ Region("cp5_capture", 2)
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(4.000000, 4.000000, 4.000000);
 	Name("cp5_capture");
+}
+
+Region("cp3_control", 0)
+{
+	Layer(1);
+	Position(42.189018, -275.496307, -2.476829);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.000000, 10.000000, 15.000000);
+	Name("cp3_control");
 }

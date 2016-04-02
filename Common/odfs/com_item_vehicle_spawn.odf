@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "vehiclespawn"
+geometryName = "item_pointer.msh"	//hack for now
+geometryScale = 0.8
+
+[Properties]
+
+[InstanceProperties]
+ControlZone = ""
+SpawnCount = 1
+SpawnTime = 45.0
+ExpireTimeEnemy = 20.0
+ExpireTimeField = 40.0
+DecayTime = 10.0
+ClassNeutral = ""
+ClassAllATK = ""
+ClassCISATK = ""
+ClassImpATK = ""
+ClassRepATK = ""
+ClassLocATK = ""
+ClassHisATK = ""
+ClassAllDEF = ""
+ClassCISDEF = ""
+ClassImpDEF = ""
+ClassRepDEF = ""
+ClassLocDEF = ""
+ClassHisDEF = ""
+ClassLocals = ""

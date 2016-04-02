@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_fedcruiser_commandroom_shieldgen.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_commandroom_shieldgen"
+
+AttachOdf = "spa_light_cissglt"
+AttachToHardPoint = "hp_lightsg_1"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam1"
+AttachToHardPoint = "hp_steam2"
+AttachToHardPoint = "hp_steam3"
+
+FoleyFXGroup    = "metal_foley"
+
+SoundProperty = "shieldgen_fanmotor"

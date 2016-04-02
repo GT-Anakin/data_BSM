@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "asteroid"
+GeometryName    =   "all_cap_rebelcruiser_debris1.msh"
+
+
+[Properties]        
+//all_cap_rebelcruiser_damaged3
+GeometryName    =   "all_cap_rebelcruiser_debris1"
+
+MinSpeed	=   0
+MaxSpeed	=   5.0
+MinOmega	=   0.0
+MaxOmega	=   0.1
+
+MaxHealth	= 30000.0
+
+
+// explosions
+ExplosionDestruct = "spa1_sfx_junkengine_exp"

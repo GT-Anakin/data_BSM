@@ -1,0 +1,32 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_fedcruiser_commandroom_engine.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_commandroom_engine"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam_1"
+AttachToHardPoint = "hp_steam_2"
+AttachToHardPoint = "hp_steam_3"
+AttachToHardPoint = "hp_steam_4"
+
+AttachOdf = "spa_light_cisengblu"
+AttachToHardPoint = "hp_enginelt2_1"
+AttachToHardPoint = "hp_enginelt2_2"
+AttachToHardPoint = "hp_enginelt2_3"
+AttachToHardPoint = "hp_enginelt2_4"
+
+AttachOdf = "spa_light_impenglt"
+AttachToHardPoint = "hp_enginelt1_1"
+
+AttachEffect = "empire_halo2"
+AttachToHardPoint = "hp_enginelt3_2"
+AttachToHardPoint = "hp_enginelt3_3"
+
+
+FoleyFXGroup    = "metal_foley"
+

@@ -1,0 +1,34 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa1_prop_minidestroyer1.msh"
+
+
+[Properties]        
+GeometryName    =   "spa1_prop_minidestroyer1"
+MaxHealth       	= "90000.0"
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+DestroyedGeometryName   = "spa1_prop_minidestroyer1_dest"
+
+MapTexture              = "hud_ministardestroyer_icon"
+MapScale                = 5
+RemoveFromMapWhenDead = "1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 40.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 75.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 50.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 55.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+VehicleCollision    =   "CollisionMesh"
+
+FoleyFXGroup    = "metal_foley"
+SoundProperty    = "sm_engine_amb"

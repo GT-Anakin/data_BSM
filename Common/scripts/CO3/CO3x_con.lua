@@ -80,14 +80,19 @@ function ScriptInit()
     	ReadDataFile("dc:Sound\\co3.lvl")
     ReadDataFile("sound\\yav.lvl;yav1cw")
 
-	ReadDataFile("dc:SIDE\\Republic.lvl",
+		ReadDataFile("dc:SIDE\\Republic.lvl",
 		"republic_inf_rifleman",
 		"republic_inf_heavytrooper",
 		"republic_inf_sniper",
 		"republic_inf_engineer",
 		"republic_inf_officer")
-			ReadDataFile("dc:SIDE\\vehicles.lvl",
+		
+		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"republic_fly_eta2_red")
+		
+		ReadDataFile("dc:SIDE\\turrets.lvl",
+		"turrets_ground_turret")
+		
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",

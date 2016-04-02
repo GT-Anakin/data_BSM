@@ -1,0 +1,61 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "spa1_prop_imp_shipturret.msh"
+
+[Properties]
+
+BUILDINGSECTION         = "BODY"
+GeometryName    =   "spa1_prop_imp_shipturret"
+MapTexture         	= "shipturret_icon"
+IconTexture         	= "HUD_all_lascannon_icon"
+MapScale            	= "1.8"
+HealthTexture           = "HUD_kam_turret_icon"
+ExplosionName           = "spa2_prop_antenna_descruct_exp"
+DestroyedGeometryName   = "spa1_prop_imp_shipturret_dam1"
+
+MaxHealth               = "20000.0"
+RespawnTime				= "999999"
+
+BUILDINGSECTION         = "TURRET1"
+
+Pilottype		      = "self"
+
+TurretNodeName          = "aimer_y"
+
+PitchLimits             = "-20 20"
+YawLimits           	= "-30 30"
+
+PitchTurnFactor    	 = "0.0"
+
+//FirstPerson           = "com\comviewf;com_1st_cockpit_viewfinder"
+ThirdPersonFOV	    	= "65"
+WeaponName           	= "spa1_weap_imp_shipturret"
+WeaponAmmo          	= "0"
+
+MaxTurnSpeed            = "0.04"
+MaxPitchSpeed           = "0.04"
+PitchRate           	= "0.04"
+TurnRate            	= "0.04"
+PCMaxPitchSpeed         = "0.2"
+PCMaxTurnSpeed          = "0.2"    
+EyePointOffset          = "0.0 6.2 -8.3"
+TrackCenter		= "0.0 15.0 -5.0"
+TrackOffset             = "0.0 -3.0 10.0"
+
+TURRETSECTION       = "TURRET1"
+
+AimerNodeName           = "aimer_x"
+AimerPitchLimits         = "-20 20"
+AimerYawLimits           = "-30 30"
+
+
+BarrelNodeName          = "spa2_prop_shipturret1_L_GunBarrel_ZaxisRecoil"
+BarrelRecoil            = "2.5"
+FirePointName           = "hp_LGun"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "spa2_prop_shipturret1_R_GunBarrel_ZaxisRecoil"
+BarrelRecoil            = "2.5"
+FirePointName           = "hp_RGun"

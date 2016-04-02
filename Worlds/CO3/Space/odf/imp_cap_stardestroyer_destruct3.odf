@@ -1,0 +1,142 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "imp_cap_stardestroyer_destruct2.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_destruct2"
+MaxHealth           = "60000.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa2_prop_antenna_descruct_exp"
+
+DamageStartPercent      = 95.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 10.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 12.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 8.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_5"
+
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound        = "sd_belly_amb"
+
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct2_chunk1"
+ChunkNodeName       = ""
+ChunkPhysics        = "STATIC"
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct2_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-1.0 1.5 -2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "28.0"
+ChunkUpFactor       = "40.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct2_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.2 -1.0 0.5"
+ChunkSpeed      = "30.0"
+ChunkUpFactor       = "27.00"
+
+CHUNKSECTION        = "CHUNK4"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct2_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.0 -0.5 -2.0"
+ChunkUpFactor       = "64.00"
+ChunkSpeed      = "18.0"
+
+[InstanceProperties]
+
+CaptureRegion = ""
+ControlRegion = ""
+KillRegion = ""
+SpawnPath = ""
+AllyPath = ""
+AllyCount = 65536
+Radius = 0.0
+ValueBleed = 10
+Value_ATK_Alliance = 20
+Value_ATK_CIS = 10
+Value_ATK_Empire = 10
+Value_ATK_Republic = 10
+Value_DEF_Alliance = 20
+Value_DEF_CIS = 10
+Value_DEF_Empire = 10
+Value_DEF_Republic = 10
+Value_DEF_Locals = 10
+VO_All_AllCapture = ""
+VO_All_AllLost = ""
+VO_All_AllInDispute = ""
+VO_All_AllSaved = ""
+VO_All_AllInfo = ""
+VO_All_ImpCapture = ""
+VO_All_ImpLost = ""
+VO_All_ImpInDispute = ""
+VO_All_ImpSaved = ""
+VO_All_ImpInfo = ""
+VO_Imp_AllCapture = ""
+VO_Imp_AllLost = ""
+VO_Imp_AllInDispute = ""
+VO_Imp_AllSaved = ""
+VO_Imp_AllInfo = ""
+VO_Imp_ImpCapture = ""
+VO_Imp_ImpLost = ""
+VO_Imp_ImpInDispute = ""
+VO_Imp_ImpSaved = ""
+VO_Imp_ImpInfo = ""
+VO_Rep_RepCapture = ""
+VO_Rep_RepLost = ""
+VO_Rep_RepInDispute = ""
+VO_Rep_RepSaved = ""
+VO_Rep_RepInfo = ""
+VO_Rep_CISCapture = ""
+
+

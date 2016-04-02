@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_door.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_door"
+
+SoundProperty = "shield_amb"
+

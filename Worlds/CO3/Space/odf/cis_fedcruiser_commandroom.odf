@@ -1,0 +1,27 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_fedcruiser_commandroom.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_commandroom"
+
+AttachOdf = "spa_light_impcommblue"
+AttachToHardPoint = "hp_lightblue_1"
+AttachToHardPoint = "hp_lightblue_2"
+AttachToHardPoint = "hp_lightblue_3"
+AttachToHardPoint = "hp_lightblue_4"
+AttachToHardPoint = "hp_lightblue_5"
+AttachToHardPoint = "hp_lightblue_6"
+AttachToHardPoint = "hp_lightblue_7"
+AttachToHardPoint = "hp_lightblue_8"
+AttachToHardPoint = "hp_lightblue_9"
+AttachToHardPoint = "hp_lightblue_10"
+
+AttachOdf = "spa_light_impcommlt"
+AttachToHardPoint = "hp_commandlt_1"
+
+FoleyFXGroup    = "metal_foley"
+

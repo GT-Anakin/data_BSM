@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_impterminal.msh"
+
+
+[Properties]        
+RespawnTime				= "999999"
+
+GeometryName    =   "spa1_prop_impterminal"
+MaxHealth           = "5.0"
+ExplosionName           = "spa2_prop_crate1_exp"
+DestroyedGeometryName       = "spa1_prop_impterminal_dam1"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+

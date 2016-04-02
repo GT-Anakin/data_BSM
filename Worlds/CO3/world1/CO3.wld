@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.933, 0.356, 0.047, -0.018);
-	Position(124.587, -171.523, 22.701);
+	Rotation(-0.462, -0.282, -0.717, 0.438);
+	Position(-1337.932, 839.020, 355.171);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(500.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -32,7 +32,7 @@ WorldExtents()
 	Max(0.000000, 0.000000, 0.000000);
 }
 
-NextSequence(-10515896);
+NextSequence(-3513770);
 
 Object("CO3_prop_pole_390", "CO3_prop_pole_01", 2426354)
 {
@@ -496,7 +496,7 @@ Object("CO3_prop_adsign_04", "CO3_prop_adsign_04", 1008288813)
 
 Object("CO3_prop_advert_circle_2", "CO3_prop_advert_circle_01", 1045874273)
 {
-	ChildRotation(-0.000, 0.000, -1.000, 0.000);
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
 	ChildPosition(150.491, -281.304, -90.615);
 	SeqNo(1045874273);
 	Team(0);

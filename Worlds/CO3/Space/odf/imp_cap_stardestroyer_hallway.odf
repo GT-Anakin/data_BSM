@@ -1,0 +1,53 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer_hallway.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_hallway"
+
+FoleyFXGroup    = "metal_foley"
+
+AttachEffect = "empire_halo"
+AttachToHardPoint = "hp_light1"
+AttachToHardPoint = "hp_light2"
+AttachToHardPoint = "hp_light3"
+AttachToHardPoint = "hp_light4"
+AttachToHardPoint = "hp_light5"
+AttachToHardPoint = "hp_light6"
+
+AttachOdf = "spa1_light_stardestroyer2"
+AttachToHardPoint = "hp_light2_a"
+AttachToHardPoint = "hp_light2_b"
+AttachToHardPoint = "hp_light2_c"
+AttachToHardPoint = "hp_light2_d"
+AttachToHardPoint = "hp_light2_e"
+AttachToHardPoint = "hp_light2_f"
+
+AttachOdf = "spa1_light_stardestroyer1"
+AttachToHardPoint = "hp_light1_a"
+AttachToHardPoint = "hp_light1_b"
+AttachToHardPoint = "hp_light1_c"
+AttachToHardPoint = "hp_light1_d"
+AttachToHardPoint = "hp_light1_e"
+AttachToHardPoint = "hp_light1_f"
+AttachToHardPoint = "hp_light1_g"
+AttachToHardPoint = "hp_light1_h"
+AttachToHardPoint = "hp_light1_i"
+AttachToHardPoint = "hp_light1_j"
+AttachToHardPoint = "hp_light1_k"
+AttachToHardPoint = "hp_light1_l"
+AttachToHardPoint = "hp_light1_m"
+AttachToHardPoint = "hp_light1_n"
+AttachToHardPoint = "hp_light1_o"
+AttachToHardPoint = "hp_light1_p"
+AttachToHardPoint = "hp_light1_q"
+AttachToHardPoint = "hp_light1_r"
+AttachToHardPoint = "hp_light1_s"
+AttachToHardPoint = "hp_light1_t"
+
+
+
+

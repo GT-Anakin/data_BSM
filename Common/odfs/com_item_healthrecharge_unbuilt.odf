@@ -1,0 +1,37 @@
+[GameObjectClass]
+ClassLabel      = "powerupstation"
+GeometryName        = "com_item_healthrecharge.msh"
+
+[Properties]
+Lighting = "Dynamic"
+
+MapTexture = "rechargedroid_icon"
+MapScale        = "0.75"
+UnbuiltHoloOdf = "com_holo_health"
+
+GeometryName        = "com_item_healthrecharge"
+UnbuiltGeometryName   = "com_prop_buildzone"
+DestroyedGeometryName   = "com_item_healthrecharge_dst"
+ExplosionName       = "com_inf_rechargedroid_exp"
+MaxHealth       = 80
+//HealthType        = "person"
+
+PowerupDelay        = "1.0"  //<delay time, default 0.5>
+SoldierHealth       =  "15.0"  //<health to add, default 0.0>
+Powerupsound        = "health_recharge defer"
+AmbientSound        = "droid_fx7_idle_chatter defer"
+BuiltSound          = ""
+
+AutoBarrierEnable   = "1"
+AutoBarrierRemoveOnDeath = "0"
+AutoBarrierSize     = "0.8 0.8"
+
+IdleRotateSpeed = "1.5"
+IdleWaitTime = "1.75"
+ActiveRotateNode = "pH_tester_arm10"
+ActiveRotateNode = "pH_tester_arm6"
+ActiveSpinNode = "Equipment_Operator_Arm_Socket"
+
+[InstanceProperties]
+EffectRegion        = ""
+Radius          = 5.0

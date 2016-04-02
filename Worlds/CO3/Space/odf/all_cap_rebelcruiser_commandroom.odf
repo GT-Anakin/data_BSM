@@ -1,0 +1,27 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_commandroom.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_commandroom"
+
+AttachOdf = "spa_light_allcommred"
+AttachToHardPoint = "hp_lightred_1"
+AttachToHardPoint = "hp_lightred_2"
+AttachToHardPoint = "hp_lightred_3"
+AttachToHardPoint = "hp_lightred_4"
+AttachToHardPoint = "hp_lightred_5"
+AttachToHardPoint = "hp_lightred_6"
+AttachToHardPoint = "hp_lightred_7"
+AttachToHardPoint = "hp_lightred_8"
+AttachToHardPoint = "hp_lightred_9"
+AttachToHardPoint = "hp_lightred_10"
+
+AttachOdf = "spa_light_allcommlt"
+AttachToHardPoint = "hp_commandlt_1"
+
+FoleyFXGroup    = "metal_foley"
+

@@ -1,0 +1,107 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa1_prop_fuelpod"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_fuelpod"
+DestroyedGeometryName   = "spa1_prop_fuelpod_dam"
+ExplosionName       = "spa2_prop_crate1_exp"
+MaxHealth       = 400
+MapScale            = 0.0
+//--1
+
+DamageStartPercent      = 35
+DamageStopPercent           = 0
+DamageEffect            = "spa_sfx_lightningballs"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 51
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+//--1
+
+DamageStartPercent      = 11
+DamageStopPercent           = 0
+DamageEffect            = "spa_sfx_lightningballs"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 50
+DamageStopPercent           = 12
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+//--1
+
+DamageStartPercent      = 18
+DamageStopPercent           = 0
+DamageEffect            = "spa_sfx_lightningballs"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 76
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+//--4
+
+DamageStartPercent      = 24
+DamageStopPercent           = 0
+DamageEffect            = "spa_sfx_lightningballs"
+DamageEffectScale           = .6
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+DamageStartPercent      = 90
+DamageStopPercent           = 25.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+DamageStartPercent      = 100
+DamageStopPercent           = 51
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 1.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+
+
+
+

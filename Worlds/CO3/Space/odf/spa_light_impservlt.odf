@@ -1,0 +1,14 @@
+[GameObjectClass]		
+ClassLabel			= "Light"
+
+[Properties]
+Color				= "155 142 249"
+ConeLength			= 0
+ConeWidth			= 0
+ConeInitialWidth	= 1.0
+ConeFadeFactor		= 0
+FlareIntensity		= 0
+FlickerType			= 0
+FlickerPeriod		= 1.0
+OmniRadius			= 15.5
+Static			= 0

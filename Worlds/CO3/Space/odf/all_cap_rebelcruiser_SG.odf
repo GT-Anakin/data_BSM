@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_SG.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_SG"
+
+AttachOdf = "spa_light_repservlt"
+AttachToHardPoint = "hp_lightserv_1"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam1"
+AttachToHardPoint = "hp_steam2"
+AttachToHardPoint = "hp_steam3"
+
+FoleyFXGroup    = "metal_foley"
+

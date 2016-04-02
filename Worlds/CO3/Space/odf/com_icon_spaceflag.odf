@@ -1,0 +1,28 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "com_icon_spaceflag.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+IconTexture			= "flag_icon"
+MapTexture			= "flag_icon"
+MapScale			= "0.75"
+
+GeometryName		= "com_icon_spaceflag"
+CarriedGeometryName = "com_icon_spaceflag_carried"
+DroppedInLandingZoneGeometryName = "com_icon_spaceflag_carried"
+CarriedOffset		= "0 1.5 -1.5"
+//CarriedColorize		= 1
+//DroppedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 15.0
+
+//LightODF			= "flaglight"com_icon_neutral_cloth"
+
+
+[InstanceProperties]

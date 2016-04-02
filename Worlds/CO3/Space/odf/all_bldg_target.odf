@@ -1,0 +1,17 @@
+[GameObjectClass]
+ClassLabel              = "destructablebuilding"
+GeometryName            = "spa_prop_dummy.msh"
+
+[Properties]
+
+GeometryName            = "spa_prop_dummy"
+ExplosionName           = "all_bldg_moncal_roundturret_exp"
+
+MapTexture         	= "turret_icon"
+MapScale            	= "0.0"
+
+MaxHealth           	= "1000.0"
+
+RespawnTime             = "20.0"
+
+IsNotTargetableByPlayer = "1"

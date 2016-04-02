@@ -1,0 +1,69 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "cis_fedcruiser_destruct1.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_destruct1"
+MaxHealth           = "30000.0"
+RespawnTime				= "999999"
+ExplosionName           = "cis_fedcruiser_destruct1_2_exp"
+ExplosionOffset      		= "0.0 0.0 60.0"
+DestroyedGeometryName       = "cis_fedcruiser_damaged1"
+
+DamageStartPercent      = 80.0
+DamageStopPercent       = 60.0
+DamageEffect            = "spa2_sfx_cis_fedcruiser_descruct1a"
+DamageEffectScale	= 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent      = 60.0
+DamageStopPercent       = 40.0
+DamageEffect            = "spa2_sfx_cis_fedcruiser_descruct1b"
+DamageEffectScale	= 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent      = 40.0
+DamageStopPercent       = 20.0
+DamageEffect            = "spa2_sfx_cis_fedcruiser_descruct1c"
+DamageEffectScale	= 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent      = 20.0
+DamageStopPercent       = 1.0
+DamageEffect            = "spa2_sfx_cis_fedcruiser_descruct1d"
+DamageEffectScale	= 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "cis_fedcruiser_damaged2_chunk1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.3 0.2 0.1"
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "cis_fedcruiser_damaged2_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.1 0.1 0.3"
+ChunkSpeed      = "10.0"
+ChunkGravity 	    = "0.0 0.0 0.0"

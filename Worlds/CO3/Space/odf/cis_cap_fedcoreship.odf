@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_cap_fedcoreship.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_cap_fedcoreship"
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"

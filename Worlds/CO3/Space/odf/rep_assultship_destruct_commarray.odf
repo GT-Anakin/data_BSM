@@ -1,0 +1,44 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "rep_assultship_destruct_commarray.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_assultship_destruct_commarray"
+MaxHealth           = "64000.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa2_prop_antenna_descruct_exp"
+DestroyedGeometryName       = "rep_assultship_destruct_commarray_dam"
+
+DamageStartPercent	= 80.0
+DamageStopPercent       = 60.0
+DamageEffect            = "spa2_sfx_prop_antenna_descruct1a"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+
+DamageStartPercent	= 60.0
+DamageStopPercent       = 40.0
+DamageEffect            = "spa2_sfx_prop_antenna_descruct1b"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+
+DamageStartPercent	= 40.0
+DamageStopPercent       = 20.0
+DamageEffect            = "spa2_sfx_prop_antenna_descruct1c"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+
+DamageStartPercent	= 20.0
+DamageStopPercent       = 1.0
+DamageEffect            = "spa2_sfx_prop_antenna_descruct1d"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+

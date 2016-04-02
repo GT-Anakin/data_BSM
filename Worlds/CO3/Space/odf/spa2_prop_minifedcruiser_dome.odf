@@ -1,0 +1,10 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa2_prop_minifedcruiser_dome.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_prop_minifedcruiser_dome"
+

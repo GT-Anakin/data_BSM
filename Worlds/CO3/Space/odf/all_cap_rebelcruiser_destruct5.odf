@@ -1,0 +1,55 @@
+[GameObjectClass]       
+
+// was destructablebuilding.  needs to be armed in order to regen health/shields.
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "all_cap_rebelcruiser_destruct5.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_destruct5"
+MaxHealth           = "10000.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa_prop_engine_descruct_exp"
+DestroyedGeometryName       = "all_cap_rebelcruiser_damaged5"
+
+DamageStartPercent      = 95.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage22"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage21"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 8.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage23"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 12.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage24"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 8.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage25"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"

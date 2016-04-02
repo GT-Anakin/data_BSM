@@ -1,0 +1,17 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer_shield.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_shield"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+
+VehicleCollision = "CLEAR"
+UseVCollForFlyers = 1
+
+SoundProperty = "shield_amb"

@@ -1,0 +1,13 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa_prop_doorwaysignR.msh"
+MapScale            = 0.0
+
+[Properties]        
+
+GeometryName    =   "spa_prop_doorwaysignR"
+
+
+FoleyFXGroup    = "metal_foley"
+

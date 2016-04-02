@@ -1,0 +1,66 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa_prop_engine_tankB.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa_prop_engine_tankB"
+MaxHealth           = "3000.0"
+ExplosionName           = "spa_prop_blender_exp"
+DestroyedGeometryName       = "spa_prop_engine_tankBdamaged"
+
+DamageStartPercent      = 100.0
+DamageStopPercent           = 95.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect1"
+DamageEffectSound       ="liquidgen"
+
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect2"
+//DamageEffectSound       ="liquidgen"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect5"
+//DamageEffectSound       ="liquidgen"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 2.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect6"
+//DamageEffectSound       ="liquidgen"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 30.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = .4
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect3"
+DamageEffectSound       ="liquidgen"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 5.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = .5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_effect4"
+DamageEffectSound       ="liquidgen"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+BuildingSound ="liquidgen"

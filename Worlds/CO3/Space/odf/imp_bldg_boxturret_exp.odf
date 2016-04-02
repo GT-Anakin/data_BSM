@@ -1,0 +1,14 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "1.0"
+Damage = "50.0"
+DamageRadius = "4.0"
+Shake = "4.0"
+ShakeRadius = "4.0"
+Effect = "spa_sfx_turret_exp"
+ArmorScale =    "1.0"
+HealthScale =   "1.0"
+ShieldScale =   "0.5"
+SoundProperty = "com_weap_obj_small_exp"

@@ -1,0 +1,16 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa2_bldg_shield_blue.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_bldg_shield_blue"
+
+
+VehicleCollision = "CLEAR"
+SoldierCollision = "CLEAR"
+
+
+FoleyFXGroup    = "metal_foley"

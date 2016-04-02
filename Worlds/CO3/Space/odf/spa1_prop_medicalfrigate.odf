@@ -1,0 +1,14 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "spa1_prop_medicalfrigate.msh"
+
+
+[Properties]        
+GeometryName    	= "spa1_prop_medicalfrigate"
+MaxHealth           = "90000.0"
+ExplosionName       = "spa_prop_frigate_destruct_exp"
+DestroyedGeometryName   = "spa1_prop_medicalfrigate"
+
+AttachOdf = "spa1_prop_engine_light"
+

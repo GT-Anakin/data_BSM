@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel      =   "door"
+GeometryName    =   "cis_fedcruiser_door1.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_door1"
+AnimationName     = "spa2_prop_cisdoor"
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 4.0"
+
+OpenSound = "door_open"
+CloseSound = "door_close"
+LockedSound = "vehicle_equip"
+
+FoleyFXGroup    = "metal_foley"
+

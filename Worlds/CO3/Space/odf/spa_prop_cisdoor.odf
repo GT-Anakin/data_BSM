@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa_prop_cisdoor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa_prop_cisdoor"
+
+
+SoundProperty = "shield_amb"

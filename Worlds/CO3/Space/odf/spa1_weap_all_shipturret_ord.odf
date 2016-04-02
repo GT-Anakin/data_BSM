@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel 		= "beam"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_md"
+
+LaserTexture		= "com_sfx_laser_green"
+ImpactEffect		= "com_sfx_ord_exp"
+LaserWidth			= "10.0"
+LaserGlowColor			= "50 250 50 100"
+Range	 			= "6000.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage			= "3000"
+
+LifeSpan			= "1.0"
+
+PassThrough			= "1"
+
+VehicleScale		= "1"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale		= "1.0"
+
+OrdnanceSound		= "" // No Ordnance Sound on Beams

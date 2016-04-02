@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_interdictorcruiser.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_interdictorcruiser"
+
+AttachOdf = "tat3_prop_static_light"
+
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_b"
+
+FoleyFXGroup    = "metal_foley"
+SoundProperty    = "sm_engine_amb"
+

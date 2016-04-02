@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_allterminal.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_allterminal"
+MaxHealth           = "5.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa2_prop_crate1_exp"
+DestroyedGeometryName       = "spa1_prop_allterminal_dam1"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+

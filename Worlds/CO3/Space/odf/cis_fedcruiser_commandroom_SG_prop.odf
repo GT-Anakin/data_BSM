@@ -1,0 +1,14 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "cis_fedcruiser_commandroom_SG_prop.msh"
+
+
+[Properties]        
+RespawnTime             = "999999"
+GeometryName    =   "cis_fedcruiser_commandroom_SG_prop"
+MapScale            = 0.0
+FoleyFXGroup    = "metal_foley"
+
+
+BuildingSound = "shieldgen_fanmotor"

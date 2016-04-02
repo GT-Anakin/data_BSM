@@ -1,0 +1,11 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_servicetruck.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_servicetruck"
+
+FoleyFXGroup    = "metal_foley"

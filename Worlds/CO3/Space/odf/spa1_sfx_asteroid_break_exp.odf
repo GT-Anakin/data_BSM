@@ -1,0 +1,13 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "0.3"
+Damage = "0.0"
+Shake = "3.0"
+ShakeRadius = "10.0"
+Effect = "spa1_sfx_asteroid_shatter"
+//Effect = "spa_sfx_asteroidexplosion"
+VisibleRadius = "1000.0"
+
+SoundProperty = "com_asteroid_break defer"

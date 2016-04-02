@@ -1,0 +1,29 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_engine.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_engine"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam_1"
+AttachToHardPoint = "hp_steam_2"
+AttachToHardPoint = "hp_steam_3"
+AttachToHardPoint = "hp_steam_4"
+
+AttachOdf = "spa_light_allengred"
+AttachToHardPoint = "hp_enginelt2_2"
+AttachToHardPoint = "hp_enginelt2_3"
+
+AttachOdf = "spa_light_impenglt"
+AttachToHardPoint = "hp_enginelt1_1"
+
+AttachEffect = "empire_halo2"
+AttachToHardPoint = "hp_enginelt3_2"
+AttachToHardPoint = "hp_enginelt3_3"
+
+FoleyFXGroup    = "metal_foley"
+

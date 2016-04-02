@@ -1,0 +1,13 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "Corridor_01.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Corridor_01"
+
+
+FoleyFXGroup    = "metal_foley"
+

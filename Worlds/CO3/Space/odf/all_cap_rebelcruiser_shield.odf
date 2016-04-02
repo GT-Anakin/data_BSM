@@ -1,0 +1,14 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_shield.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_shield"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+
+SoundProperty = "shield_amb"
+

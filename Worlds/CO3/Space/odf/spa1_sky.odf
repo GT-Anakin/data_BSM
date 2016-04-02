@@ -1,0 +1,10 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_sky.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_sky"
+

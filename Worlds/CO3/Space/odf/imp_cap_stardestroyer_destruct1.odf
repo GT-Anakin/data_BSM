@@ -1,0 +1,78 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "imp_cap_stardestroyer_destruct1.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_destruct1"
+MaxHealth           = "60.0"
+RespawnTime				= "999999"
+ExplosionName           = "spa2_prop_antenna_descruct_exp"
+DestroyedGeometryName       = "imp_cap_stardestroyer_destruct1_chunk1"
+
+
+DamageStartPercent      = 95.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 30.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 10.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 12.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 8.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_5"
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound        = "sd_belly_amb"
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct1_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-1.0 1.5 -2.0"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed      = "28.0"
+ChunkUpFactor       = "-40.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "imp_cap_stardestroyer_destruct1_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "1.2 -1.0 0.5"
+ChunkSpeed      = "-30.0"
+ChunkUpFactor       = "27.00"
+

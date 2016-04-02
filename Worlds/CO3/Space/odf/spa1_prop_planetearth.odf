@@ -1,0 +1,15 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_planetearth.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_planetearth"
+
+AttachOdf = "tat3_prop_static_light"
+
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_b"
+

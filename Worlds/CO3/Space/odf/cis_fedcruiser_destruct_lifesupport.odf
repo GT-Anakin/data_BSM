@@ -1,0 +1,63 @@
+[GameObjectClass]       
+
+// was armedbuilding.  needs to be armed in order to regen health/shields.
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "cis_fedcruiser_destruct_lifesupport.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_destruct_lifesupport"
+MaxHealth           = "64000.0"
+RespawnTime				= "999999"
+ExplosionName           = "all_cap_rebelcruiser_destruct_exp"
+DestroyedGeometryName       = "cis_fedcruiser_destruct_lifesupport_dam"
+
+DamageStartPercent      = 90.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclespark"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_2"
+
+DamageStartPercent      = 30.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_1"
+
+DamageStartPercent      = 70.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_3"
+
+DamageStartPercent      = 40.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_4"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "com_sfx_vehiclesmoke"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_5"
+
+DamageStartPercent      = 10.0
+DamageStopPercent           = 0.0
+DamageEffect            = "spa1_sfx_shipflames_lg"
+DamageEffectScale           = 3.5
+DamageInheritVelocity       = 0.0
+DamageAttachPoint           = "hp_damage_6"
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+
+

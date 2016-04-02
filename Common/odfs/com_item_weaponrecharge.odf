@@ -1,0 +1,38 @@
+[GameObjectClass]
+ClassLabel = "powerupstation"
+GeometryName = "com_item_weaponrecharge.msh"
+
+
+[Properties]
+Label = "Ammo Dispenser"
+MapTexture = "rechargedroid_icon"
+MapScale 		= "0.75"
+//UnbuiltHoloOdf = "com_holo_ammo"
+
+GeometryName = "com_item_weaponrecharge"
+//UnbuiltGeometryName	= "com_prop_buildzone"
+DestroyedGeometryName	= "com_item_weaponrecharge_dst"
+ExplosionName		= "com_inf_rechargedroid_exp"
+MaxHealth	=	80
+//HealthType	= 	"person"
+
+PowerupDelay = "2.0"  //<delay time, default 0.5>
+SoldierAmmo = "1.0"//<ammo to add, default 0>
+//Powerupsound = "com_item_weaponrecharge"
+Powerupsound = "com_item_gonkrecharge defer"
+
+AutoBarrierEnable   = "1"
+AutoBarrierRemoveOnDeath = "0"
+AutoBarrierSize     = "0.8 0.8"
+
+IdleRotateSpeed = "0.5"
+IdleWaitTime = "3.0"
+IdleWobbleNode = "gonk1"
+IdleWobbleFactor = "0.08"
+IdleWobbleLeftFoot = "foot_l2"
+IdleWobbleRightFoot = "foot_r1"
+Lighting = "dynamic"
+
+[InstanceProperties]
+EffectRegion = ""
+Radius = 5.0

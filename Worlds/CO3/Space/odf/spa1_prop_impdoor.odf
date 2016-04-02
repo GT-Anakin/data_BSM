@@ -1,0 +1,26 @@
+[GameObjectClass]       
+
+ClassLabel  =   "door"
+GeometryName    =   "spa1_prop_impdoor.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_impdoor"
+AnimationName     = "spa1_prop_impdoor"
+
+
+Animation         =     "open"
+
+AnimationTrigger  =     "hp_door 4.0"
+
+OrdnanceCollision = "p_leftdoor"
+OrdnanceCollision = "p_rightdoor"
+
+SoldierCollision = "p_leftdoor"
+SoldierCollision = "p_rightdoor"
+
+OpenSound = "door_open"
+CloseSound = "door_close"
+LockedSound = "vehicle_equip"
+FoleyFXGroup    = "metal_foley"

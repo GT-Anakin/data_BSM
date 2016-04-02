@@ -1,0 +1,14 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "cis_fly_fedcruiser3.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fly_fedcruiser3"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+FoleyFXGroup  = "metal_foley"
+BuildingSound   = "sd_engine_amb"

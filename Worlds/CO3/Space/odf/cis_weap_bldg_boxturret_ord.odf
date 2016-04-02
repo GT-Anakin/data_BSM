@@ -1,0 +1,37 @@
+[OrdnanceClass]
+ClassLabel 			= "bolt"
+
+[Properties]
+
+
+LaserTexture			= "com_sfx_laser_red"
+ImpactEffect			= "com_sfx_explosion_sm"
+
+ExplosionName			= "cis_weap_bldg_boxturret_exp"
+ExplosionExpire			= "cis_weap_bldg_boxturret_exp"
+
+LaserLength			= "25.5"
+LaserWidth			= "0.65"
+LaserGlowColor			= "253 43 43 100"
+LightColor              	= "253 43 43 150"
+LightRadius             	= "0.0"
+GlowLength			= "2400"
+BlurLength			= "3200"
+FadeOutTime			= "3"
+
+
+LifeSpan 			= ".60"
+Velocity 			= "1300.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+MaxDamage 			= "200.0"
+
+VehicleScale			= "1.0"
+ShieldScale			= "0.2"
+PersonScale			= "1.0"
+AnimalScale			= "0.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.1"
+
+OrdnanceSound			= "com_weap_inf_ord_hum_lg"

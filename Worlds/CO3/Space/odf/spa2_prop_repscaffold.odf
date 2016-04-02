@@ -1,0 +1,17 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa2_prop_repscaffold.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_prop_repscaffold"
+
+AttachOdf = "tat3_prop_static_light"
+
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_b"
+
+FoleyFXGroup    = "metal_foley"
+

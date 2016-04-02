@@ -1,0 +1,25 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer_server.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_server"
+
+AttachOdf = "spa_light_impcommblue"
+AttachToHardPoint = "hp_lightblue_1"
+AttachToHardPoint = "hp_lightblue_2"
+AttachToHardPoint = "hp_lightblue_3"
+AttachToHardPoint = "hp_lightblue_4"
+AttachToHardPoint = "hp_lightblue_5"
+AttachToHardPoint = "hp_lightblue_6"
+AttachToHardPoint = "hp_lightblue_7"
+AttachToHardPoint = "hp_lightblue_8"
+
+AttachOdf = "spa_light_impservlt"
+AttachToHardPoint = "hp_lightserv_1"
+
+FoleyFXGroup    = "metal_foley"
+

@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "cis_fedcruiser_shield_blue.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_shield_blue"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+
+VehicleCollision = "CLEAR"
+
+UseVCollForFlyers = 1
+
+SoundProperty = "shield_amb"

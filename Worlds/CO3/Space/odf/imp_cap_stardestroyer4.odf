@@ -1,0 +1,14 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "imp_cap_stardestroyer4.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer4"
+MaxHealth      = "999999.0"
+AddHealth      = "50000.0"
+RespawnTime				= "999999"
+FoleyFXGroup    = "metal_foley"
+

@@ -1,0 +1,11 @@
+[GameObjectClass]       
+ClassLabel          = "Light"
+
+[Properties]
+Color               = "255 255 255"
+FlareIntensity      = 1.0
+FlickerType         = 0
+FlickerPeriod       = 1.0
+OmniRadius          = 0.0
+
+

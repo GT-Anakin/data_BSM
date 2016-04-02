@@ -1,0 +1,13 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "Main_Reactor_Room.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Main_Reactor_Room"
+
+
+FoleyFXGroup    = "metal_foley"
+

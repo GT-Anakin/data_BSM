@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.933, 0.356, 0.047, -0.018);
-	Position(124.587, -171.523, 22.701);
+	Rotation(-0.462, -0.282, -0.717, 0.438);
+	Position(-1337.932, 839.020, 355.171);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(500.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -29,4 +29,4 @@ WorldExtents()
 	Max(0.000000, 0.000000, 0.000000);
 }
 
-NextSequence(-10515896);
+NextSequence(-3513770);

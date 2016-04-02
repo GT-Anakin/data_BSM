@@ -1,0 +1,17 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "spa2_bldg_shield_red.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa2_bldg_shield_red"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+VehicleCollision = "CLEAR"
+SoldierCollision = "CLEAR"
+
+
+SoundProperty = "shield_amb"

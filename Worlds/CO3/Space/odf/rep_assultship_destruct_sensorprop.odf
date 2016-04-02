@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "rep_assultship_destruct_sensorprop.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_assultship_destruct_sensorprop"
+ExplosionName           = "all_cap_rebelcruiser_destruct_exp"
+DestroyedGeometryName       = "rep_assultship_destruct_sensorprop_dam"
+
+
+VehicleCollision    =   "CollisionMesh"
+VehicleCollisionOnly    =   "p_vehicle"
+
+FoleyFXGroup    = "metal_foley"
+

@@ -1,0 +1,17 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "spa1_prop_pipeage.msh"
+
+
+[Properties]        
+
+GeometryName    =   "spa1_prop_pipeage"
+
+AttachOdf = "tat3_prop_static_light"
+
+AttachToHardPoint = "hp_light_a"
+AttachToHardPoint = "hp_light_b"
+
+FoleyFXGroup    = "metal_foley"
+

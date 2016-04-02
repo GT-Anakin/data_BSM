@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer"
+
+FoleyFXGroup    = "metal_foley"
+

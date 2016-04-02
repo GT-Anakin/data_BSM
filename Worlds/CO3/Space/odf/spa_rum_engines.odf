@@ -1,0 +1,42 @@
+[GameObjectClass]
+
+ClassLabel      ="rumbleeffect"
+GeometryName 	="editor_grasspatch.msh"
+
+[Properties]
+
+MinLight = "1.0"
+MaxLight = "1.0"
+
+MinHeavy = "0.5"
+MaxHeavy = "0.8"
+
+MinHeavyDecay = ".5"
+MaxHeavyDecay = "1.5"
+
+MinLightDecay = "0.1" //pointless in reality, as the ps2 is either on off, not sure bout the xbox
+MaxLightDecay = "0.1"
+
+MinDelayLight = "0.0"
+MaxDelayLight = "0.0"
+
+MinDelayHeavy = "0.0"
+MaxDelayHeavy = "0.5"
+
+MinTimeLeftHeavy = "0.5" //how long each rumble lasts
+MaxTimeLeftHeavy = "2.1" //how long each rumble lasts
+
+MinTimeLeftLight = "0.1"
+MaxTimeLeftLight = "0.1"
+
+MinInterval = "0.1"  //how often the rumble gets set off
+MaxInterval = "0.2"  //how often the rumble gets set off
+
+MinShakeAmt = "0.1"
+MaxShakeAmt = "0.3"
+
+MinShakeLen = "0.1" //Camera shake length
+MaxShakeLen = "0.6" //Camera shake length
+
+SoundName 	= "" //is read in, triggers the sound at the center  Commented out due to Engines having their own sound
+FXName 		= "" //commented out for now

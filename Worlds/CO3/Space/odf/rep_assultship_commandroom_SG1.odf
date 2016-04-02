@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "rep_assultship_commandroom_SG1.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_assultship_commandroom_SG1"
+
+AttachOdf = "spa_light_repservlt"
+AttachToHardPoint = "hp_lightserv_1"
+
+AttachEffect = "spa_steamgrate"
+AttachToHardPoint = "hp_steam1"
+AttachToHardPoint = "hp_steam2"
+AttachToHardPoint = "hp_steam3"
+
+FoleyFXGroup    = "metal_foley"
+

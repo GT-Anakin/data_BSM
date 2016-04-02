@@ -1,0 +1,9 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "imp_cap_stardestroyer_dome.msh"
+
+
+[Properties]        
+
+GeometryName    =   "imp_cap_stardestroyer_dome"

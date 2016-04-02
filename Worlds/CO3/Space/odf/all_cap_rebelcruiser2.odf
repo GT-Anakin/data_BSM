@@ -1,0 +1,15 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "all_cap_rebelcruiser2.msh"
+
+
+[Properties]        
+
+GeometryName   =   "all_cap_rebelcruiser2"
+MaxHealth      = "999999.0"
+AddHealth      = "50000.0"
+RespawnTime				= "999999"
+FoleyFXGroup   = "metal_foley"
+SoundProperty  = "sm_engine_amb"
+

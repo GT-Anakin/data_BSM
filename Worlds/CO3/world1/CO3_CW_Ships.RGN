@@ -1,2 +1,20 @@
 Version(1);
-RegionCount(0);
+RegionCount(2);
+
+Region("cp_rep_control", 0)
+{
+	Layer(3);
+	Position(-1287.738281, 780.002258, 329.161621);
+	Rotation(0.976114, 0.000000, 0.217359, 0.000000);
+	Size(20.000000, 10.000000, 60.000000);
+	Name("cp_rep_control");
+}
+
+Region("deathregion", 2)
+{
+	Layer(3);
+	Position(-1527.716675, 764.999084, 272.686615);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(45.000000, 5.000000, 45.000000);
+	Name("rep_death");
+}

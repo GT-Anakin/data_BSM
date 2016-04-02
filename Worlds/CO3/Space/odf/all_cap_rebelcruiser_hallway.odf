@@ -1,0 +1,63 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "all_cap_rebelcruiser_hallway.msh"
+
+
+[Properties]        
+
+GeometryName    =   "all_cap_rebelcruiser_hallway"
+
+
+FoleyFXGroup    = "metal_foley"
+
+AttachEffect = "all_halo"
+AttachToHardPoint = "hp_light1_1"
+AttachToHardPoint = "hp_light1_2"
+AttachToHardPoint = "hp_light1_3"
+AttachToHardPoint = "hp_light1_4"
+AttachToHardPoint = "hp_light1_5"
+AttachToHardPoint = "hp_light1_6"
+AttachToHardPoint = "hp_light1_7"
+AttachToHardPoint = "hp_light1_8"
+AttachToHardPoint = "hp_light1_12"
+AttachToHardPoint = "hp_light1_13"
+
+
+
+AttachOdf = "spa1_light_rebelcruiser2"
+AttachToHardPoint = "hp_light2_1"
+AttachToHardPoint = "hp_light2_2"
+AttachToHardPoint = "hp_light2_3"
+AttachToHardPoint = "hp_light2_4"
+AttachToHardPoint = "hp_light2_5"
+AttachToHardPoint = "hp_light2_6"
+AttachToHardPoint = "hp_light2_7"
+AttachToHardPoint = "hp_light2_8"
+AttachToHardPoint = "hp_light2_9"
+AttachToHardPoint = "hp_light2_10"
+AttachToHardPoint = "hp_light2_11"
+AttachToHardPoint = "hp_light2_12"
+AttachToHardPoint = "hp_light2_13"
+
+AttachOdf = "spa1_light_rebelcruiser3"
+AttachToHardPoint = "hp_light3_1"
+AttachToHardPoint = "hp_light3_2"
+AttachToHardPoint = "hp_light3_3"
+AttachToHardPoint = "hp_light3_4"
+AttachToHardPoint = "hp_light3_5"
+AttachToHardPoint = "hp_light3_6"
+AttachToHardPoint = "hp_light3_7"
+AttachToHardPoint = "hp_light3_8"
+AttachToHardPoint = "hp_light3_12"
+AttachToHardPoint = "hp_light3_13"
+
+
+
+
+
+
+
+
+
+

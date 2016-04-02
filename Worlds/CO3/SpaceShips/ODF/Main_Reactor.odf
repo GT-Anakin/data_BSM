@@ -1,0 +1,22 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "Main_Reactor.msh"
+
+
+[Properties]        
+
+MapTexture = ""
+MapScale 		= "0.0"
+
+GeometryName    =   "Main_Reactor"
+DestroyedGeometryName	= "Main_Reactor_Dest"
+
+MaxHealth       	= "2500.0"
+
+ExplosionName		= "com_sfx_explosion_xl"
+
+FoleyFXGroup    = "metal_foley"
+
+AINoRepair      = "1"
+
