@@ -1,6 +1,6 @@
 [GameObjectClass]       
 
-ClassLabel      =   "prop"
+ClassLabel      =   "destructablebuilding"
 GeometryName    =   "Main_Reactor_Room.msh"
 
 
@@ -11,3 +11,15 @@ GeometryName    =   "Main_Reactor_Room"
 
 FoleyFXGroup    = "metal_foley"
 
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+
+ExplosionName		= "interoir_explosion_exp"
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"

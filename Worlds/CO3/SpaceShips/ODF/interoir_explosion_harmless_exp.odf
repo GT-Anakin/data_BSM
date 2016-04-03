@@ -1,0 +1,24 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "1.0"
+Damage = "0.0"
+DamageRadius = "300.0"
+ShakeLength   = "1.5"
+Shake = "3.0"
+ShakeRadius = "400.0"
+
+Push                = "20.0"
+PushRadiusInner     = "200.0"
+PushRadiusOuter     = "300.0"
+
+
+Effect			= "com_sfx_explosion_lg"
+
+ArmorScale =    "10.0"
+HealthScale =   "10.0"
+ShieldScale =   "10.0"
+DroidScale      = "10.0"
+BuildingScale = "10.0"
+SoundProperty       = "com_weap_obj_large_exp"

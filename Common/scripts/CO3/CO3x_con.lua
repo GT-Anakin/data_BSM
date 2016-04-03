@@ -3,8 +3,12 @@
 --
 
 -- load the gametype script
+ScriptCB_DoFile("ObjectiveAssault")
 ScriptCB_DoFile("ObjectiveConquest")
-ScriptCB_DoFile("setup_teams") 
+ScriptCB_DoFile("setup_teams")
+ScriptCB_DoFile("LinkedDestroyables")
+ScriptCB_DoFile("LinkedShields") 
+ScriptCB_DoFile("LinkedTurrets")
 	
 	--  REP Attacking (attacker is always #1)
     REP = 1;
@@ -15,17 +19,26 @@ ScriptCB_DoFile("setup_teams")
 
 
 function ScriptPostLoad()	   
-    
-	--AllowAISpawn(CIS, false)
-  SetMapNorthAngle(180, 1)
+    DisableSmallMapMiniMap()
+	SetMapNorthAngle(180, 1)
+	SetupTurrets()  
+	SetAIDifficulty(6, 6, "hard")
+	SetupDestroyables()
+	  
+	--SetProperty("rep_cor_1", "CurHealth", "0")
+	--SetProperty("rep_cor_1", "MaxHealth", "0")
+	
+--Function Properties
 SetClassProperty("rep_inf_ep3_jettrooper", "AISizeType", "Soldier")
-    --This defines the CPs.  These need to happen first
+SetProperty("rep_door_reactor", "IsLocked", 1)
+
+
+--Function Conquest
     cp1 = CommandPost:New{name = "cp1"}
     cp2 = CommandPost:New{name = "cp2"}
     cp3 = CommandPost:New{name = "cp3"}
     cp4 = CommandPost:New{name = "cp4"}
 	cp5 = CommandPost:New{name = "cp5"}
-    
     
     --This sets up the actual objective.  This needs to happen after cp's are defined
     conquest = ObjectiveConquest:New{teamATT = ATT, teamDEF = DEF, 
@@ -42,11 +55,174 @@ SetClassProperty("rep_inf_ep3_jettrooper", "AISizeType", "Soldier")
     
     conquest:Start()
 
+	
+	
 	SetUberMode(1);
     EnableSPHeroRules()
+	AddDeathRegion("rep_death")
     
  end
+ 
+ function SetupDestroyables()
+ 
+    --REP Door 
+    Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_shield_console_1", "rep_shield_console_2"}, {"rep_door_exp_cube"}} }
+    Rep_Reactor_Room_DoorREPUBLIC:Init() 
+	
+	--Main Reactor REPUBLIC
+    Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_reactor_console_1", "rep_reactor_console_2", "rep_reactor_console_3", "rep_reactor_console_4", "rep_reactor_console_5", "rep_reactor_console_6"}, {"rep_reactor"}} }
+    Rep_Reactor_Room_DoorREPUBLIC:Init() 
+	
+	
+    --Door Function REPUBLIC
+	Rep_Reactor_Room_Door_Function = OnObjectKill(
+	function(object, killer)
+      if GetEntityName(object) == "rep_door_exp_cube" then
+	SetProperty("rep_door_reactor", "IsLocked", 0)
+      end
+   end
+)
 
+--BOOM Function
+Rep_Capital_Ship = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_reactor" then
+	  
+   rep_countdown = CreateTimer("rep_countdown")
+   SetTimerValue(rep_countdown, (10.0))
+   
+   StartTimer(rep_countdown)
+   OnTimerElapse(
+function(timer)
+
+
+KillObject("cp_rep")
+
+SetProperty("rep_cor_1", "CurHealth", "0")
+SetProperty("rep_cor_1", "MaxHealth", "0")
+SetProperty("rep_cor_2", "CurHealth", "0")
+SetProperty("rep_cor_2", "MaxHealth", "0")
+SetProperty("rep_cor_3", "CurHealth", "0")
+SetProperty("rep_cor_3", "MaxHealth", "0")
+SetProperty("rep_cor_4", "CurHealth", "0")
+SetProperty("rep_cor_4", "MaxHealth", "0")
+SetProperty("rep_cor_5", "CurHealth", "0")
+SetProperty("rep_cor_5", "MaxHealth", "0")
+SetProperty("rep_cor_6", "CurHealth", "0")
+SetProperty("rep_cor_6", "MaxHealth", "0")
+SetProperty("rep_cor_7", "CurHealth", "0")
+SetProperty("rep_cor_7", "MaxHealth", "0")
+SetProperty("rep_cor_8", "CurHealth", "0")
+SetProperty("rep_cor_8", "MaxHealth", "0")
+SetProperty("rep_cor_9", "CurHealth", "0")
+SetProperty("rep_cor_9", "MaxHealth", "0")
+SetProperty("rep_cor_10", "CurHealth", "0")
+SetProperty("rep_cor_10", "MaxHealth", "0")
+SetProperty("rep_cor_11", "CurHealth", "0")
+SetProperty("rep_cor_11", "MaxHealth", "0")
+SetProperty("rep_cor_12", "CurHealth", "0")
+SetProperty("rep_cor_12", "MaxHealth", "0")
+SetProperty("rep_cor_13", "CurHealth", "0")
+SetProperty("rep_cor_13", "MaxHealth", "0")
+SetProperty("rep_cor_14", "CurHealth", "0")
+SetProperty("rep_cor_14", "MaxHealth", "0")
+SetProperty("rep_cor_15", "CurHealth", "0")
+SetProperty("rep_cor_15", "MaxHealth", "0")
+SetProperty("rep_cor_16", "CurHealth", "0")
+SetProperty("rep_cor_16", "MaxHealth", "0")
+SetProperty("rep_cor_17", "CurHealth", "0")
+SetProperty("rep_cor_17", "MaxHealth", "0")
+SetProperty("rep_cor_18", "CurHealth", "0")
+SetProperty("rep_cor_18", "MaxHealth", "0")
+SetProperty("rep_cor_19", "CurHealth", "0")
+SetProperty("rep_cor_19", "MaxHealth", "0")
+SetProperty("rep_cor_20", "CurHealth", "0")
+SetProperty("rep_cor_20", "MaxHealth", "0")
+SetProperty("rep_cor_21", "CurHealth", "0")
+SetProperty("rep_cor_21", "MaxHealth", "0")
+SetProperty("rep_cor_22", "CurHealth", "0")
+SetProperty("rep_cor_22", "MaxHealth", "0")
+SetProperty("rep_cor_23", "CurHealth", "0")
+SetProperty("rep_cor_23", "MaxHealth", "0")
+SetProperty("rep_cor_24", "CurHealth", "0")
+SetProperty("rep_cor_24", "MaxHealth", "0")
+
+SetProperty("rep_reactor_room", "CurHealth", "0")
+SetProperty("rep_reactor_room", "MaxHealth", "0")
+
+SetProperty("rep_comm_room_1", "CurHealth", "0")
+SetProperty("rep_comm_room_1", "MaxHealth", "0")
+
+SetProperty("rep_comm_room_2", "CurHealth", "0")
+SetProperty("rep_comm_room_2", "MaxHealth", "0")
+
+SetProperty("rep_comm_room_3", "CurHealth", "0")
+SetProperty("rep_comm_room_3", "MaxHealth", "0")
+
+SetProperty("rep_assultship_hallway", "CurHealth", "0")
+SetProperty("rep_assultship_hallway", "MaxHealth", "0")
+
+SetProperty("rep_turret_console", "CurHealth", "0")
+SetProperty("rep_turret_console", "MaxHealth", "0")
+
+SetProperty("rep_bridge", "CurHealth", "0")
+SetProperty("rep_bridge", "MaxHealth", "0")
+
+SetProperty("rep_engines", "CurHealth", "0")
+SetProperty("rep_engines", "MaxHealth", "0")
+
+SetProperty("rep_cap_assultship1", "CurHealth", "0")
+SetProperty("rep_cap_assultship1", "MaxHealth", "0")
+SetProperty("rep_cap_assultship2", "CurHealth", "0")
+SetProperty("rep_cap_assultship2", "MaxHealth", "0")
+SetProperty("rep_cap_assultship3", "CurHealth", "0")
+SetProperty("rep_cap_assultship3", "MaxHealth", "0")
+SetProperty("rep_cap_assultship4", "CurHealth", "0")
+SetProperty("rep_cap_assultship4", "MaxHealth", "0")
+
+PlayAnimation("republic_countdown_1")
+PlayAnimation("republic_countdown_2")
+
+SetClassProperty("rep_death", "None")
+
+      DestroyTimer(timer)
+                 end,
+              rep_countdown
+              ) 
+		 
+
+      end
+   end
+)
+
+end
+
+ function SetupTurrets() 
+
+--Function Auto Turrets REPUBLIC
+     turretLinkageREPUBLIC = LinkedTurrets:New{ team = REP, mainframe = "rep_turret_console", 
+	turrets = {"rep_auto_tur_1", "rep_auto_tur_2", "rep_auto_tur_3", "rep_auto_tur_4", "rep_auto_tur_5", "rep_auto_tur_6", "rep_h_tur_1", "rep_h_tur_2", "rep_h_tur_3", "rep_h_tur_4" } }
+    turretLinkageREPUBLIC:Init()
+    
+    function turretLinkageREPUBLIC:OnDisableMainframe()
+        ShowMessageText("level.spa.hangar.mainframe.atk.down", CIS)
+        ShowMessageText("level.spa.hangar.mainframe.def.down", REP)
+
+        BroadcastVoiceOver( "ROSMP_obj_21", REP )
+        BroadcastVoiceOver( "COSMP_obj_20", CIS )
+    end
+	
+    function turretLinkageREPUBLIC:OnEnableMainframe()
+        ShowMessageText("level.spa.hangar.mainframe.atk.up", CIS)
+        ShowMessageText("level.spa.hangar.mainframe.def.up", REP)
+
+        BroadcastVoiceOver( "ROSMP_obj_23", REP )
+        BroadcastVoiceOver( "COSMP_obj_22", CIS )       
+    end
+	
+	end  --Temporary End
+	
+--Function Auto Turrets CIS
 
 ---------------------------------------------------------------------------
 -- FUNCTION:    ScriptInit
@@ -62,8 +238,8 @@ function ScriptInit()
     ReadDataFile("ingame.lvl")
     
    
-    SetMaxFlyHeight(3000)
-    SetMaxPlayerFlyHeight (3000)
+    SetMaxFlyHeight(1400)
+    SetMaxPlayerFlyHeight (1400)
 	    SetMinFlyHeight(-550)
     SetMinPlayerFlyHeight (-550)
     
@@ -92,6 +268,12 @@ function ScriptInit()
 		
 		ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret")
+		
+				ReadDataFile("SIDE\\tur.lvl",
+		"tur_bldg_spa_rep_chaingun",
+		"tur_bldg_spa_rep_cannon",
+		"tur_bldg_chaingun_roof",
+        "tur_bldg_chaingun_tripod")
 		
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
@@ -122,10 +304,7 @@ function ScriptInit()
 							 "cis_fly_tridroidfighter",
 							 "cis_fly_greviousfighter")
                              
-                             
-    ReadDataFile("SIDE\\tur.lvl", 
-    			"tur_bldg_laser",
-    			"tur_bldg_tower")          
+                                     
                    
 
 	SetupTeams{
@@ -185,6 +364,7 @@ function ScriptInit()
     SetMemoryPoolSize("TreeGridStack", 1024)
 	SetMemoryPoolSize("UnitAgent", 128)
 	SetMemoryPoolSize("UnitController", 128)
+	SetMemoryPoolSize("EntityRemoteTerminal",20)
 	SetMemoryPoolSize("Weapon", weaponCnt)
     
     SetSpawnDelay(10.0, 0.25)

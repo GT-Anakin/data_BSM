@@ -3,7 +3,7 @@ PathCount(1);
 
 Path("cp_rep_spawn")
 {
-	Data(1);
+	Data(0);
 	PathType(0);
 	PathSpeedType(0);
 	PathTime(0.000000);

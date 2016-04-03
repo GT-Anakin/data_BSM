@@ -5,22 +5,24 @@ GeometryName        = "shared_turret_chair.msh"
 
 [Properties]
 VehicleType         = "remoteterminal"
-MapTexture          = "rechargedroid_icon"
+
 HealthTexture       = "hud_all_turret_icon"
 VehiclePosition     = "common.vehiclepositions.pilot"
-MapScale            = 0.5
 
 GeometryName            = "shared_turret_chair"
 CollisionScale          = "1.5"
 CollisionThreshold      = "5.0"
 HealthType              = "vehicle"
-MaxHealth		= 900.0
 
 PilotSkillRepairScale = 0.04
 
 PilotPosition       = "hp_active"
 PilotAnimation      = "drive"
 IsPilotExposed      = "1"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
 
 CockpitTension          = 22

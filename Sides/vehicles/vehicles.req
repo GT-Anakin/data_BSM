@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"lvl"
+		"republic_fly_eta2_red"
+	}
+	REQN
+	{
+		"model"
+		"republic_fly_eta2_red_cockpit"
+	}
+}

@@ -1,0 +1,8 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_scoutlasers"
+
+
+[Properties]
+OrdnanceName = "republic_weap_fly_eta2_cannon_ord"
+FireSound = "rep_weap_fly_anakinfighter_cannon_fire"
+FireSoundStop   = "0"

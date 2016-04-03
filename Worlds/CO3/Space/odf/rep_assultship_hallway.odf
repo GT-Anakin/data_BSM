@@ -1,47 +1,25 @@
 [GameObjectClass]       
 
-ClassLabel      =   "armedbuilding"
+ClassLabel      =   "destructablebuilding"
 GeometryName    =   "rep_assultship_hallway.msh"
 
 
 [Properties]        
 
 GeometryName    =   "rep_assultship_hallway"
-MaxHealth           = "999999.0"
-AddHealth         = "50000.0"
-RespawnTime				= "999999"
 
-AttachEffect = "rep_halo"
-AttachToHardPoint = "hp_light1"
-AttachToHardPoint = "hp_light2"
-AttachToHardPoint = "hp_light3"
-AttachToHardPoint = "hp_light4"
-AttachToHardPoint = "hp_light5"
-AttachToHardPoint = "hp_light6"
-AttachToHardPoint = "hp_light7"
-AttachToHardPoint = "hp_light8"
-AttachToHardPoint = "hp_light9"
-AttachToHardPoint = "hp_light10"
-AttachToHardPoint = "hp_light11"
-
-AttachOdf = "spa_light_repassult1"
-AttachToHardPoint = "hp_light12"
-AttachToHardPoint = "hp_light13"
-AttachToHardPoint = "hp_light14"
-AttachToHardPoint = "hp_light15"
-AttachToHardPoint = "hp_light16"
-AttachToHardPoint = "hp_light17"
-AttachToHardPoint = "hp_light18"
-AttachToHardPoint = "hp_light19"
-AttachToHardPoint = "hp_light20"
-AttachToHardPoint = "hp_light21"
-AttachToHardPoint = "hp_light22"
-
-AttachOdf = "spa_light_repassult2"
-AttachToHardPoint = "hp_lightred1"
-AttachToHardPoint = "hp_lightred2"
-AttachToHardPoint = "hp_lightred3"
-AttachToHardPoint = "hp_lightred4"
 
 FoleyFXGroup    = "metal_foley"
 
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+
+ExplosionName		= "interoir_explosion_exp"
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"

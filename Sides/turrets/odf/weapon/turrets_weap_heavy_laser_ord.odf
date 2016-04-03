@@ -1,0 +1,6 @@
+[OrdnanceClass]
+ClassParent 			= "com_weap_veh_laser_ord"
+
+[Properties]
+MaxDamage 			= "180.0"
+Velocity = "400"

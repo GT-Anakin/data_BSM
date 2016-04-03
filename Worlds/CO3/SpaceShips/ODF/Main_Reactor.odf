@@ -12,11 +12,12 @@ MapScale 		= "0.0"
 GeometryName    =   "Main_Reactor"
 DestroyedGeometryName	= "Main_Reactor_Dest"
 
-MaxHealth       	= "2500.0"
+MaxHealth       	= "1e+37"
 
-ExplosionName		= "com_sfx_explosion_xl"
+ExplosionName		= "interoir_explosion_harmless_exp"
 
 FoleyFXGroup    = "metal_foley"
 
 AINoRepair      = "1"
+HideHealthBar = "1"
 

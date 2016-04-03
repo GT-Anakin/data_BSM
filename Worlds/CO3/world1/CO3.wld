@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(-0.462, -0.282, -0.717, 0.438);
-	Position(-1337.932, 839.020, 355.171);
+	Rotation(0.955, 0.178, 0.231, -0.043);
+	Position(-1058.408, 807.414, 787.426);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(5000.000);
+	FarPlane(2500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -667,7 +667,7 @@ Object("CO3_prop_pole_2", "CO3_prop_pole_01", 1340839340)
 
 Object("CO3_prop_lamp_4", "CO3_prop_lamp_01", 1356894392)
 {
-	ChildRotation(0.709, 0.000, -0.706, 0.000);
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
 	ChildPosition(-151.856, -283.160, 52.585);
 	SeqNo(1356894392);
 	Team(0);
@@ -786,7 +786,7 @@ Object("CO3_prop_pole_30", "CO3_prop_pole_01", 1530504907)
 
 Object("CO3_prop_advert_circle_4", "CO3_prop_advert_circle_01", 1537798044)
 {
-	ChildRotation(0.708, 0.000, -0.707, 0.000);
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
 	ChildPosition(144.366, -281.304, -84.520);
 	SeqNo(1537798044);
 	Team(0);
@@ -885,7 +885,7 @@ Object("CO3_prop_adsign_13", "CO3_prop_adsign_04", 1663243221)
 
 Object("com_item_weaponrecharge12", "com_item_weaponrecharge", 1663833470)
 {
-	ChildRotation(0.811, 0.000, 0.586, 0.000);
+	ChildRotation(0.811, 0.000, 0.585, 0.000);
 	ChildPosition(-86.285, -283.160, 122.238);
 	SeqNo(1663833470);
 	Team(0);
@@ -1428,7 +1428,7 @@ Object("CO3_prop_adbox_2", "CO3_prop_adbox_01", -1817582282)
 
 Object("CO3_prop_box_8", "CO3_prop_box_01", -1814108948)
 {
-	ChildRotation(0.688, 0.000, 0.725, 0.000);
+	ChildRotation(0.688, 0.000, 0.726, 0.000);
 	ChildPosition(135.248, -300.000, 14.639);
 	SeqNo(-1814108948);
 	Team(0);
@@ -1610,7 +1610,7 @@ Object("CO3_prop_pole_43", "CO3_prop_pole_01", -1585455904)
 
 Object("CO3_prop_box_4", "CO3_prop_box_01", -1566005077)
 {
-	ChildRotation(0.727, 0.000, -0.686, 0.000);
+	ChildRotation(0.727, 0.000, -0.687, 0.000);
 	ChildPosition(-41.714, -283.160, -40.209);
 	SeqNo(-1566005077);
 	Team(0);
@@ -1824,7 +1824,7 @@ Object("CO3_prop_pole_23", "CO3_prop_pole_01", -1257945874)
 Object("CO3_prop_decal_44", "CO3_prop_decal_06", -1239921808)
 {
 	ChildRotation(1.000, 0.000, -0.006, 0.000);
-	ChildPosition(-45.893, -280.000, -50.811);
+	ChildPosition(-46.344, -283.148, -48.275);
 	SeqNo(-1239921808);
 	Team(0);
 	NetworkId(-1);

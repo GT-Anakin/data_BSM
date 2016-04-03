@@ -4,12 +4,18 @@ ClassLabel      =   "destructablebuilding"
 GeometryName    =   "spa_prop_console.msh"
 
 
-[Properties]        
+[Properties]   
+
+MapTexture = ""
+MapScale 		= "0.0"
+
+
+AINoRepair      = "1"     
 
 GeometryName    =   "spa_prop_console"
 DestroyedGeometryName   = "spa_prop_console_damaged"
 ExplosionName       = "spa_prop_blender_exp"
-MaxHealth       = 7000
+MaxHealth       = 5500
 
 //--1
 
@@ -102,3 +108,4 @@ DamageInheritVelocity       = 0.0
 DamageAttachPoint           = "hp_damage4"
 
 
+FoleyFXGroup    = "metal_foley"

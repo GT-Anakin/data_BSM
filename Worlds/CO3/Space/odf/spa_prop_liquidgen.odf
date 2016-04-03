@@ -7,11 +7,15 @@ GeometryName    =   "spa_prop_liquidgen.msh"
 [Properties]        
 
 GeometryName    =   "spa_prop_liquidgen"
-MaxHealth           = "4500.0"
+MaxHealth           = "5500.0"
 RespawnTime				= "999999"
 ExplosionName           = "spa_prop_blender_exp"
 DestroyedGeometryName       = "spa_prop_liquidgen_dam"
-MapScale            = 0.5
+MapTexture = ""
+MapScale 		= "0.0"
+
+
+AINoRepair      = "1"
 
 DamageStartPercent      = 90.0
 DamageStopPercent           = 0.0

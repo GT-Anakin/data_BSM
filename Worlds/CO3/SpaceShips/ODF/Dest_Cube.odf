@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "Dest_Cube.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Dest_Cube"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+
+AINoRepair      = "1"
+HideHealthBar = "1"
