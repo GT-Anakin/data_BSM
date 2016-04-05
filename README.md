@@ -4,11 +4,15 @@ This project is about porting parts from the cancled Free Radical SBWF3 to good 
 We will not do it 100% the same but we will try to use as many extracted assets for the  
 sides as possible. Furthermore we will rebuild the SWBF3 Coruscant map.
 
+#### Presentation
+Check out [El Fabricio's YouTube channel](https://www.youtube.com/channel/UCTrS2o6ZcHBXEIsQVfUaJnQ/videos "YouTube") for the latest videos
+
 #### Our Team
 thelegend - 1st Leader and mapper  
 Anakin - 2nd Leader and side porting/scripting
 
-DarthDio - HUD Artist
+DarthDio - HUD Artist  
+jedimoose32 - Interface Artist
 
 #### Jobs
 We are still looking for some full time member for our Team.
@@ -19,7 +23,6 @@ We are still looking for some full time member for our Team.
 If you want to join our team, contact me (Anakin) or thelegent on www.gametoast.com. You may  
 need a web proxy depending on your country. I can recommend proxy-us.hide.me
 
-
-Credits:
-Free Radical
-clonetrooper163 alias Corra_Ashu
+#### Credits
+* Free Radical
+* clonetrooper163 alias Corra_Ashu
