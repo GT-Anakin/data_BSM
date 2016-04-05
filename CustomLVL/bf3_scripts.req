@@ -1,0 +1,16 @@
+ucft
+{
+    
+    REQN
+    {
+        "script"
+		"bf3_scripts"
+		"ifs_bf3_legal"
+    }
+	
+	REQN
+	{
+		"texture"
+		"bf3_legal"		
+	}
+}

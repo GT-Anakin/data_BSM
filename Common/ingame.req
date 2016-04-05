@@ -1,4 +1,26 @@
 ucft
 {
-
+	REQN
+    {
+        "texture"
+		"PickUp"
+	}
+		
+	REQN
+    {
+        "model"
+		"PickUpAmmo"
+		"PickUpHealthAmmo"
+		"PickUpHealthOne"
+		"PickUpHealthTwo"
+	}
+	
+	REQN
+    {
+        "class"
+		"com_item_powerup_ammo2"
+		"com_item_powerup_dual2"
+		"com_item_powerup_health252"
+		"com_item_powerup_health1002"
+	}
 }
