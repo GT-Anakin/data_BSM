@@ -1,0 +1,18 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "cis_fedcruiser_crashing.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fedcruiser_crashing"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= 1e+37
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"

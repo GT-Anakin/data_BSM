@@ -15,7 +15,7 @@ AINoRepair      = "1"
 GeometryName    =   "spa_prop_console"
 DestroyedGeometryName   = "spa_prop_console_damaged"
 ExplosionName       = "spa_prop_blender_exp"
-MaxHealth       = 5500
+MaxHealth       = "50" //5500 
 
 //--1
 

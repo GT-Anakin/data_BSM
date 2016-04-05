@@ -4,14 +4,14 @@ ClassLabel = "explosion"
 [Properties]
 LifeSpan = "2.0"
 Damage = "999999.0"
-DamageRadius = "300.0"
+DamageRadius = "100.0"
 ShakeLength   = "3.5"
 Shake = "3.0"
-ShakeRadius = "400.0"
+ShakeRadius = "800.0"
 
 Push                = "20.0"
-PushRadiusInner     = "200.0"
-PushRadiusOuter     = "300.0"
+PushRadiusInner     = "50.0"
+PushRadiusOuter     = "100.0"
 
 
 Effect			= "spa2_sfx_prop_antenna_descruct_exp"

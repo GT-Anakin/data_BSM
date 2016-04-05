@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_bldg_senate.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_bldg_senate"
+
+FoleyFXGroup    =   "metal_foley"

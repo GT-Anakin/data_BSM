@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_gcw_ships"
+	}
+	REQN
+	{
+		"world"
+		"CO3_GCW_Ships"
+	}
+}

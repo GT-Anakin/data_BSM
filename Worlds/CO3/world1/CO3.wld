@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.955, 0.178, 0.231, -0.043);
-	Position(-1058.408, 807.414, 787.426);
+	Rotation(0.100, 0.023, -0.970, 0.221);
+	Position(96.250, -276.973, -33.593);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2500.000);
+	FarPlane(3000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -285,8 +285,8 @@ Object("CO3_prop_pole_437", "CO3_prop_pole_01", 557958726)
 
 Object("CO3_bldg_building_12", "CO3_bldg_building_02", 595799700)
 {
-	ChildRotation(0.964, 0.000, 0.266, 0.000);
-	ChildPosition(-350.008, -396.663, 1315.774);
+	ChildRotation(0.993, 0.000, 0.119, 0.000);
+	ChildPosition(-621.318, -383.036, 1685.991);
 	SeqNo(595799700);
 	Team(0);
 	NetworkId(-1);
@@ -589,6 +589,15 @@ Object("CO3_prop_decal_26", "CO3_prop_decal_05", 1227773941)
 	ChildRotation(0.902, 0.000, -0.432, 0.000);
 	ChildPosition(-70.995, -291.962, 151.359);
 	SeqNo(1227773941);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_bldg_building_23", "CO3_bldg_building_05", 1236920966)
+{
+	ChildRotation(0.919, 0.000, -0.395, 0.000);
+	ChildPosition(85.630, -413.916, -1613.089);
+	SeqNo(1236920966);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1026,6 +1035,15 @@ Object("CO3_prop_adbox_13", "CO3_prop_adbox_01", 1860963292)
 	NetworkId(-1);
 }
 
+Object("CO3_bldg_senate", "CO3_bldg_senate", 1874499322)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(-2299.120, -192.122, -2652.044);
+	SeqNo(1874499322);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_adverts", "CO3_prop_adverts", 1876899920)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -1103,6 +1121,15 @@ Object("CO3_prop_decal_32", "CO3_prop_decal_06", 2009315359)
 	ChildRotation(0.650, 0.000, -0.760, 0.000);
 	ChildPosition(-113.268, -291.962, 109.678);
 	SeqNo(2009315359);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_bldg_building_24", "CO3_bldg_building_05", 2012636263)
+{
+	ChildRotation(0.992, 0.000, -0.130, 0.000);
+	ChildPosition(-3922.178, -463.897, -3129.973);
+	SeqNo(2012636263);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1581,6 +1608,15 @@ Object("CO3_prop_decal_28", "CO3_prop_decal_05", -1635440563)
 	NetworkId(-1);
 }
 
+Object("CO3_bldg_building_group_19", "CO3_bldg_building_group_01", -1618919827)
+{
+	ChildRotation(0.514, 0.000, 0.858, 0.000);
+	ChildPosition(797.116, -447.539, -1438.285);
+	SeqNo(-1618919827);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_group_9", "CO3_bldg_building_group_01", -1598092365)
 {
 	ChildRotation(0.994, 0.000, 0.110, 0.000);
@@ -1613,6 +1649,15 @@ Object("CO3_prop_box_4", "CO3_prop_box_01", -1566005077)
 	ChildRotation(0.727, 0.000, -0.687, 0.000);
 	ChildPosition(-41.714, -283.160, -40.209);
 	SeqNo(-1566005077);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_bldg_building_26", "CO3_bldg_building_05", -1555450375)
+{
+	ChildRotation(0.929, 0.000, -0.371, 0.000);
+	ChildPosition(581.121, -411.109, -760.596);
+	SeqNo(-1555450375);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2205,6 +2250,15 @@ Object("CO3_bldg_building_group_7", "CO3_bldg_building_group_01", -705453932)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-2316.316, -386.123, -1012.542);
 	SeqNo(-705453932);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_bldg_building_25", "CO3_bldg_building_05", -696099860)
+{
+	ChildRotation(0.435, 0.000, -0.900, 0.000);
+	ChildPosition(3137.462, -479.419, -376.647);
+	SeqNo(-696099860);
 	Team(0);
 	NetworkId(-1);
 }

@@ -7,9 +7,15 @@ GeometryName    =   "rep_cap_assultship2.msh"
 [Properties]        
 
 GeometryName    =   "rep_cap_assultship2"
-MaxHealth       = "999999.0"
-AddHealth       = "50000.0"
-RespawnTime		= "999999"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
-FoleyFXGroup  = "metal_foley"
+DestroyedGeometryName	= ""
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"
 BuildingSound   = "sd_engine_amb"

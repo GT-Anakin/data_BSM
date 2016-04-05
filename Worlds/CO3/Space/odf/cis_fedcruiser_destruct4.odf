@@ -7,81 +7,14 @@ GeometryName    =   "cis_fedcruiser_destruct4.msh"
 [Properties]        
 
 GeometryName    =   "cis_fedcruiser_destruct4"
-MaxHealth           = "64000.0"
-RespawnTime             = "999999"
-ExplosionName           = "imp_cap_stardestroyer_destruct_exp"
-DestroyedGeometryName       = "cis_fedcruiser_damaged4"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
-DamageStartPercent      = 95.0
-DamageStopPercent           = 0.0
-DamageEffect            = "com_sfx_vehiclespark"
-DamageEffectScale           = 30.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_2"
+DestroyedGeometryName	= ""
 
-DamageStartPercent      = 90.0
-DamageStopPercent           = 0.0
-DamageEffect            = "com_sfx_vehiclesmoke"
-DamageEffectScale           = 30.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_1"
 
-DamageStartPercent      = 70.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 10.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_3"
-
-DamageStartPercent      = 40.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 12.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_4"
-
-DamageStartPercent      = 10.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 8.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_5"
-
-VehicleCollision    =   "CollisionMesh"
-VehicleCollisionOnly    =   "p_vehicle"
+AINoRepair      = "1"
+HideHealthBar = "1"
 
 FoleyFXGroup    = "metal_foley"
-AmbientSound        = "imp sd_belly_amb"
-
-CHUNKSECTION        = "CHUNK1"
-ChunkGeometryName   = "cis_fedcruiser_damaged4_chunk1"
-ChunkNodeName       = ""
-ChunkTerrainCollisions  = "0"
-ChunkTerrainEffect  = "com_sfx_explosion_lg"
-ChunkPhysics        = "FULL"
-ChunkOmega      = "0.3 0.2 0.1"
-ChunkSpeed      = "22.0"
-ChunkUpFactor       = "0.00"
-ChunkGravity 	    = "0.0 0.0 0.0"
-
-
-
-CHUNKSECTION        = "CHUNK2"
-ChunkGeometryName   = "cis_fedcruiser_damaged4_chunk2"
-ChunkNodeName       = ""
-ChunkTerrainCollisions  = "0"
-ChunkTerrainEffect  = "com_sfx_explosion_lg"
-ChunkPhysics        = "FULL"
-ChunkOmega      = "0.1 0.1 0.3"
-ChunkSpeed      = "20.0"
-ChunkGravity 	    = "0.0 0.0 0.0"
-
-CHUNKSECTION        = "CHUNK3"
-ChunkGeometryName   = "cis_fedcruiser_damaged4_chunk3"
-ChunkNodeName       = ""
-ChunkTerrainCollisions  = "0"
-ChunkTerrainEffect  = "com_sfx_explosion_lg"
-ChunkPhysics        = "FULL"
-ChunkOmega      = "0.1 0.1 0.3"
-ChunkSpeed      = "18.0"
-ChunkGravity 	    = "0.0 0.0 0.0"

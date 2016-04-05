@@ -1,3 +1,4 @@
 Boundary()
 {
+	Path("boundary1");
 }

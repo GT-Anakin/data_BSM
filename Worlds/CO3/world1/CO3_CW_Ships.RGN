@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(2);
+RegionCount(6);
 
 Region("cp_rep_control", 0)
 {
@@ -10,11 +10,47 @@ Region("cp_rep_control", 0)
 	Name("cp_rep_control");
 }
 
-Region("deathregion", 2)
+Region("deathregion_REP", 2)
 {
 	Layer(3);
 	Position(-1527.716675, 764.999084, 272.686615);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(45.000000, 5.000000, 45.000000);
-	Name("rep_death");
+	Name("deathregion_REP");
+}
+
+Region("deathregion_CIS", 2)
+{
+	Layer(3);
+	Position(54.066914, 614.262085, -397.362244);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(45.000000, 5.000000, 45.000000);
+	Name("deathregion_CIS");
+}
+
+Region("cp_cis_control", 0)
+{
+	Layer(3);
+	Position(362.788635, 622.205261, -387.971375);
+	Rotation(0.999205, 0.000000, -0.039873, 0.000000);
+	Size(45.000000, 20.000000, 65.000000);
+	Name("cp_cis_control");
+}
+
+Region("cis_landing", 0)
+{
+	Layer(3);
+	Position(362.006775, 637.073425, -387.790405);
+	Rotation(0.999231, 0.000000, -0.039470, 0.000000);
+	Size(65.000000, 15.000000, 110.000000);
+	Name("cis_landing");
+}
+
+Region("rep_landing", 0)
+{
+	Layer(3);
+	Position(-1314.515259, 789.046265, 340.103760);
+	Rotation(0.980030, 0.000000, 0.198851, 0.000000);
+	Size(45.000000, 18.000000, 52.000000);
+	Name("rep_landing");
 }

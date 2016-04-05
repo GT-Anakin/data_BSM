@@ -8,55 +8,15 @@ GeometryName    =   "rep_assultship_destruct_engines.msh"
 [Properties]        
 
 GeometryName    =   "rep_assultship_destruct_engines"
-MaxHealth           = "60000.0"
-RespawnTime				= "999999"
-ExplosionName           = "all_cap_rebelcruiser_destruct_exp"
-DestroyedGeometryName       = "rep_assultship_destruct_engines_dam"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
-DamageStartPercent      = 95.0
-DamageStopPercent           = 0.0
-DamageEffect            = "com_sfx_vehiclespark"
-DamageEffectScale           = 30.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_2"
+DestroyedGeometryName	= ""
 
-DamageStartPercent      = 90.0
-DamageStopPercent           = 0.0
-DamageEffect            = "com_sfx_vehiclesmoke"
-DamageEffectScale           = 30.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_1"
 
-DamageStartPercent      = 70.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 10.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_3"
-
-DamageStartPercent      = 40.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 12.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_4"
-
-DamageStartPercent      = 10.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 8.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_5"
-
-DamageStartPercent      = 10.0
-DamageStopPercent           = 0.0
-DamageEffect            = "spa1_sfx_shipflames_lg"
-DamageEffectScale           = 8.5
-DamageInheritVelocity       = 0.0
-DamageAttachPoint           = "hp_damage_6"
-
-VehicleCollision    =   "CollisionMesh"
-VehicleCollisionOnly    =   "p_vehicle"
+AINoRepair      = "1"
+HideHealthBar = "1"
 
 FoleyFXGroup    = "metal_foley"
 BuildingSound        = "sd_belly_amb"

@@ -21,6 +21,11 @@ Layer("CW_Ships", 3, 0)
 	Description("");
 }
 
+Layer("GCW_Ships", 4, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -36,5 +41,10 @@ GameMode("conquest")
 GameMode("CW_Ships")
 {
 	Layer(3);
+}
+
+GameMode("gcw_ships")
+{
+	Layer(4);
 }
 

@@ -1,0 +1,21 @@
+[GameObjectClass]       
+
+ClassLabel      =   "armedbuilding"
+GeometryName    =   "cis_fly_fedcruiser1.msh"
+
+
+[Properties]        
+
+GeometryName    =   "cis_fly_fedcruiser1"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+ExplosionName		= "interoir_explosion_exp"
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"
+BuildingSound   = "sd_engine_amb"

@@ -1,5 +1,5 @@
 Version(10);
-PathCount(1);
+PathCount(2);
 
 Path("cp_rep_spawn")
 {
@@ -21,7 +21,7 @@ Path("cp_rep_spawn")
 		{
 			Position(-1294.979126, 776.369995, 369.112640);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
@@ -34,7 +34,7 @@ Path("cp_rep_spawn")
 		{
 			Position(-1299.052734, 776.369995, 346.749847);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
@@ -47,7 +47,7 @@ Path("cp_rep_spawn")
 		{
 			Position(-1307.154297, 776.369995, 328.870453);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
@@ -60,7 +60,7 @@ Path("cp_rep_spawn")
 		{
 			Position(-1322.187378, 776.369995, 311.554291);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
@@ -73,7 +73,7 @@ Path("cp_rep_spawn")
 		{
 			Position(-1323.315918, 776.369995, 337.830780);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
@@ -86,10 +86,108 @@ Path("cp_rep_spawn")
 		{
 			Position(-1315.622070, 776.369995, 353.036621);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.532312, 0.000000, 0.846548, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+	}
+
+}
+
+Path("cp_cis_spawn")
+{
+	Data(0);
+	PathType(0);
+	PathSpeedType(0);
+	PathTime(0.000000);
+	OffsetPath(0);
+	Layer(3);
+	SplineType("Hermite");
+
+	Properties(0)
+	{
+	}
+
+	Nodes(6)
+	{
+		Node()
+		{
+			Position(339.240936, 624.886169, -371.372467);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.999973, 0.000000, -0.009963, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(360.144287, 624.886169, -371.034668);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.999973, 0.000000, -0.009963, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(384.684937, 624.886169, -369.066620);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(0.999973, 0.000000, -0.009963, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(343.283508, 624.886169, -408.124176);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(-0.070884, 0.000000, -0.997484, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(363.210480, 624.886169, -407.067535);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(-0.050598, 0.000000, -0.998719, 0.000000);
+			Properties(0)
+			{
+			}
+		}
+
+		Node()
+		{
+			Position(386.167053, 624.886169, -404.761078);
+			Knot(0.000000);
+			Data(1);
+			Time(1.000000);
+			PauseTime(0.000000);
+			Rotation(-0.050598, 0.000000, -0.998719, 0.000000);
 			Properties(0)
 			{
 			}

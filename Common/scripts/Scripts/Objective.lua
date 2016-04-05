@@ -168,7 +168,7 @@ function Objective:Start()
         --start ticking down the time
         SetTimerValue(self.loseTimer, self.timeLimit)
         StartTimer(self.loseTimer)
-        ShowTimer(self.loseTimer)
+      --  ShowTimer(self.loseTimer)
     end
     
     --=================================

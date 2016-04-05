@@ -1,0 +1,20 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "rep_cap_assultship_crashing.msh"
+
+
+[Properties]        
+
+GeometryName    =   "rep_cap_assultship_crashing"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= 1e+37
+
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"

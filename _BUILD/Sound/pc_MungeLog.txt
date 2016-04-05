@@ -1,0 +1,3 @@
+soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
+soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx

@@ -1,0 +1,472 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.100, 0.023, -0.970, 0.221);
+	Position(96.250, -276.973, -33.593);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(3000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(48.603, -284.393, -20.816,  0.702, 0.087, -0.701, 0.087);
+}
+LightName("CO3_GCW_Ships.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3513770);
+
+Object("cis_reactor0", "Main_Reactor", 139071627)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(139071627);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1800", "Corridor_01", 262653170)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1967.487, -298.194, 1701.783);
+	SeqNo(262653170);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_shield_console_100", "spa_prop_console", 321611900)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1919.304, -297.992, 1829.793);
+	SeqNo(321611900);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_41", "Main_Reactor_Console", 498342746)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(498342746);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_2000", "Corridor_03", 507050602)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.739, -298.194, 1685.225);
+	SeqNo(507050602);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door500", "cis_fedcruiser_door1", 859564517)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1954.163, -297.981, 1820.100);
+	SeqNo(859564517);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_reactor_room_GCW", "Main_Reactor_Room", 982468273)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(982468273);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_600", "Corridor_03", 1063622035)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1951.931, -298.194, 1781.757);
+	SeqNo(1063622035);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door400", "cis_fedcruiser_door1", 1106929974)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1970.466, -297.981, 1820.080);
+	SeqNo(1106929974);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_turret_console00", "spa_prop_liquidgen", 1424021505)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.489, -297.745, 1824.549);
+	SeqNo(1424021505);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1900", "Corridor_03", 1582297963)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1967.790, -298.194, 1685.807);
+	SeqNo(1582297963);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_0200", "Corridor_02", 1598600569)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.487, -298.194, 1765.783);
+	SeqNo(1598600569);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_300", "Corridor_02", 1601122854)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1951.487, -298.194, 1765.783);
+	SeqNo(1601122854);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_500", "Corridor_02", 1741343881)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.512, -298.194, 1749.863);
+	SeqNo(1741343881);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_0100", "Corridor_01", 1765597266)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.487, -298.194, 1781.783);
+	SeqNo(1765597266);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_400", "Corridor_02", 1919001139)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1951.487, -298.194, 1749.783);
+	SeqNo(1919001139);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_51", "Main_Reactor_Console", -2087462701)
+{
+	ChildRotation(0.505, 0.000, -0.863, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(-2087462701);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_61", "Main_Reactor_Console", -1957293759)
+{
+	ChildRotation(0.869, 0.000, -0.495, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(-1957293759);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1600", "Corridor_03", -1955988765)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1983.352, -298.194, 1717.783);
+	SeqNo(-1955988765);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door700", "cis_fedcruiser_door1", -1944734498)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1916.930, -297.985, 1820.106);
+	SeqNo(-1944734498);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_assultship_commandroom_server100", "rep_assultship_commandroom_server", -1922914858)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1951.908, -298.194, 1810.430);
+	SeqNo(-1922914858);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_0300", "Corridor_03", -1681487079)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1967.629, -298.194, 1781.620);
+	SeqNo(-1681487079);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_assultship_commandroom00", "rep_assultship_commandroom", -1675817811)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.487, -298.194, 1829.783);
+	SeqNo(-1675817811);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_31", "Main_Reactor_Console", -1674275123)
+{
+	ChildRotation(0.505, 0.000, 0.863, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(-1674275123);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1200", "Corridor_03", -1594317452)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1935.786, -298.194, 1733.912);
+	SeqNo(-1594317452);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_800", "Corridor_03", -1574183422)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1967.487, -298.194, 1749.345);
+	SeqNo(-1574183422);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_700", "Corridor_03", -1396431732)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1967.487, -298.194, 1765.783);
+	SeqNo(-1396431732);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_shield_console_200", "spa_prop_console", -1245733709)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1951.914, -297.992, 1810.396);
+	SeqNo(-1245733709);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_21", "Main_Reactor_Console", -1195091443)
+{
+	ChildRotation(0.869, 0.000, 0.495, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(-1195091443);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_main_reactor_console_11", "Main_Reactor_Console", -1073592916)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.715, -308.454, 1601.515);
+	SeqNo(-1073592916);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1000", "Corridor_03", -1016036238)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1919.487, -298.194, 1749.922);
+	SeqNo(-1016036238);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_2100", "Corridor_01", -1003582863)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.744, -298.194, 1669.300);
+	SeqNo(-1003582863);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door710", "cis_fedcruiser_door1", -998983762)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.884, -298.002, 1661.050);
+	SeqNo(-998983762);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door600", "cis_fedcruiser_door1", -954129274)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1900.543, -297.981, 1820.106);
+	SeqNo(-954129274);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1700", "Corridor_02", -865054541)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1967.487, -298.194, 1717.783);
+	SeqNo(-865054541);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1300", "Corridor_03", -443977847)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-1951.780, -298.194, 1717.919);
+	SeqNo(-443977847);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door100", "cis_fedcruiser_door1", -441547809)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1947.149, -297.947, 1847.893);
+	SeqNo(-441547809);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_900", "Corridor_03", -437352387)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1919.639, -298.194, 1765.489);
+	SeqNo(-437352387);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1100", "Corridor_02", -343537606)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1951.487, -298.194, 1733.783);
+	SeqNo(-343537606);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("rep_assultship_commandroom_server00", "rep_assultship_commandroom_server", -189017952)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1919.037, -298.194, 1829.805);
+	SeqNo(-189017952);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1400", "Corridor_02", -165172827)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1967.487, -298.194, 1733.783);
+	SeqNo(-165172827);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door300", "cis_fedcruiser_door1", -125926496)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1935.629, -297.959, 1806.555);
+	SeqNo(-125926496);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("cis_fedcruiser_door200", "cis_fedcruiser_door1", -76555528)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1925.605, -297.947, 1847.895);
+	SeqNo(-76555528);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}
+
+Object("Corridor_1500", "Corridor_03", -20655158)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1983.487, -298.194, 1733.341);
+	SeqNo(-20655158);
+	Team(0);
+	NetworkId(-1);
+	Layer(4);
+}

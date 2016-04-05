@@ -3,7 +3,9 @@
 --
 
 -- load the gametype script
+ScriptCB_DoFile("Objective")
 ScriptCB_DoFile("ObjectiveAssault")
+ScriptCB_DoFile("ObjectiveSpaceAssault")
 ScriptCB_DoFile("ObjectiveConquest")
 ScriptCB_DoFile("setup_teams")
 ScriptCB_DoFile("LinkedDestroyables")
@@ -19,52 +21,126 @@ ScriptCB_DoFile("LinkedTurrets")
 
 
 function ScriptPostLoad()	   
-    DisableSmallMapMiniMap()
+   -- DisableSmallMapMiniMap()
 	SetMapNorthAngle(180, 1)
 	SetupTurrets()  
-	SetAIDifficulty(6, 6, "hard")
 	SetupDestroyables()
-	  
-	--SetProperty("rep_cor_1", "CurHealth", "0")
-	--SetProperty("rep_cor_1", "MaxHealth", "0")
+	SetAIDifficulty(4, 4, "hard")
+	SetAIDifficulty(3, 3, "medium")
+	SetAIDifficulty(2, 2, "easy")
+
 	
 --Function Properties
 SetClassProperty("rep_inf_ep3_jettrooper", "AISizeType", "Soldier")
 SetProperty("rep_door_reactor", "IsLocked", 1)
+SetProperty("cis_door_reactor", "IsLocked", 1)
+
+ActivateRegion(deathregion_CIS)
+ActivateRegion(deathregion_REP)
+
+SetProperty("cis_fedcruiser_crashing", "IsVisible", 0)
+SetProperty("cis_fedcruiser_crashing", "CurHealth", 0)
+SetProperty("cis_fedcruiser_crashing", "MaxHealth", 0)
 
 
---Function Conquest
+SetProperty("rep_cap_assultship_crashing", "IsVisible", 0)
+SetProperty("rep_cap_assultship_crashing", "CurHealth", 0)
+SetProperty("rep_cap_assultship_crashing", "MaxHealth", 0)
+
+
+--CW VICTORY DEFEAT FUNCTIONS
+
+function victoryCheckFn(team)
+
+  local tReactor
+  if team == 1 then
+    tReactor = "cis_reactor_cube"
+  elseif team == 2 then
+    tReactor = "rep_reactor_cube" 
+  else print("No team for the reactor??")
+    return
+  end
+
+  if (GetObjectTeam("cp1") == team and GetObjectTeam("cp2") == team and GetObjectTeam("cp3") == team and GetObjectTeam("cp4") == team and GetObjectTeam("cp5") == team and GetObjectTeam("cp6") == team and GetObjectTeam("cp7") == team and GetObjectTeam("cp8") == team and IsObjectAlive(tReactor) == false) then 
+    
+   victory = CreateTimer("victory")
+   SetTimerValue(victory, (30.0))
+   
+   StartTimer(victory)
+   ShowTimer(victory)
+   OnTimerElapse(
+function(timer)
+
+MissionVictory(team)  
+  
+  DestroyTimer(timer)
+                 end,
+              victory
+              ) 
+  else return
+  end
+end
+
+
+OnFinishCapture(
+  function(postPtr)
+    local capTeam = GetObjectTeam(GetEntityName(postPtr))
+    victoryCheckFn(capTeam)
+  end
+)
+
+OnObjectKill(
+  function(object, killer)
+    local reactorName = GetEntityName(object)
+    if reactorName == "cis_reactor_cube" then
+      victoryCheckFn(1)
+    elseif reactorName == "rep_reactor_cube" then
+      victoryCheckFn(2)
+    end
+  end
+)
+
+
+
+--Function Conquest and Assault
     cp1 = CommandPost:New{name = "cp1"}
     cp2 = CommandPost:New{name = "cp2"}
     cp3 = CommandPost:New{name = "cp3"}
     cp4 = CommandPost:New{name = "cp4"}
 	cp5 = CommandPost:New{name = "cp5"}
+	cp6 = CommandPost:New{name = "cp6"}	
+	cp7 = CommandPost:New{name = "cp7"}
+	cp8 = CommandPost:New{name = "cp8"}
     
     --This sets up the actual objective.  This needs to happen after cp's are defined
     conquest = ObjectiveConquest:New{teamATT = ATT, teamDEF = DEF, 
                                      textATT = "game.modes.con", 
                                      textDEF = "game.modes.con2",
                                      multiplayerRules = true}
-    
+
     --This adds the CPs to the objective.  This needs to happen after the objective is set up
     conquest:AddCommandPost(cp1)
     conquest:AddCommandPost(cp2)  
     conquest:AddCommandPost(cp3)
     conquest:AddCommandPost(cp4)
     conquest:AddCommandPost(cp5)	
-    
+	conquest:AddCommandPost(cp6)
+    conquest:AddCommandPost(cp7)
+    conquest:AddCommandPost(cp8)
+
     conquest:Start()
 
 	
 	
 	SetUberMode(1);
     EnableSPHeroRules()
-	AddDeathRegion("rep_death")
-    
+	AddDeathRegion("deathregion_REP")
+	AddDeathRegion("deathregion_CIS")
  end
  
  function SetupDestroyables()
  
+ --REPUBLIC
     --REP Door 
     Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_shield_console_1", "rep_shield_console_2"}, {"rep_door_exp_cube"}} }
     Rep_Reactor_Room_DoorREPUBLIC:Init() 
@@ -83,17 +159,46 @@ SetProperty("rep_door_reactor", "IsLocked", 1)
    end
 )
 
---BOOM Function
+	--BOOM Function
 Rep_Capital_Ship = OnObjectKill(
    function(object, killer)
       if GetEntityName(object) == "rep_reactor" then
 	  
    rep_countdown = CreateTimer("rep_countdown")
-   SetTimerValue(rep_countdown, (10.0))
+   SetTimerValue(rep_countdown, (60.0))
    
+RemoveRegion("deathregion_REP")
+DeactivateRegion("deathregion_REP")
+
+SetProperty("rep_tri_tur_3", "CurHealth", "0")
+SetProperty("rep_tri_tur_3", "MaxHealth", "0")
+SetProperty("rep_tri_tur_4", "CurHealth", "0")
+SetProperty("rep_tri_tur_4", "MaxHealth", "0")
+SetProperty("rep_tri_tur_5", "CurHealth", "0")
+SetProperty("rep_tri_tur_5", "MaxHealth", "0")
+SetProperty("rep_tri_tur_6", "CurHealth", "0")
+SetProperty("rep_tri_tur_6", "MaxHealth", "0")
+SetProperty("rep_tri_tur_7", "CurHealth", "0")
+SetProperty("rep_tri_tur_7", "MaxHealth", "0")
+SetProperty("rep_tri_tur_8", "CurHealth", "0")
+SetProperty("rep_tri_tur_8", "MaxHealth", "0")
+SetProperty("rep_tri_tur_9", "CurHealth", "0")
+SetProperty("rep_tri_tur_9", "MaxHealth", "0")
+SetProperty("rep_tri_tur_10", "CurHealth", "0")
+SetProperty("rep_tri_tur_10", "MaxHealth", "0")
+SetProperty("rep_tri_tur_11", "CurHealth", "0")
+SetProperty("rep_tri_tur_11", "MaxHealth", "0")
+SetProperty("rep_tri_tur_12", "CurHealth", "0")
+SetProperty("rep_tri_tur_12", "MaxHealth", "0")
+  
    StartTimer(rep_countdown)
    OnTimerElapse(
 function(timer)
+
+SetProperty("rep_cap_assultship_crashing", "IsVisible", 1)
+SetProperty("rep_cap_assultship_crashing", "MaxHealth", 1e+37)
+SetProperty("rep_cap_assultship_crashing", "CurHealth", 1e+37)
+
 
 
 KillObject("cp_rep")
@@ -180,14 +285,202 @@ SetProperty("rep_cap_assultship3", "MaxHealth", "0")
 SetProperty("rep_cap_assultship4", "CurHealth", "0")
 SetProperty("rep_cap_assultship4", "MaxHealth", "0")
 
+PlayAnimation("rep_crashing")
 PlayAnimation("republic_countdown_1")
 PlayAnimation("republic_countdown_2")
 
-SetClassProperty("rep_death", "None")
+RemoveRegion("rep_landing")
+DeactivateRegion("rep_landing")
+
+SetProperty("rep_reactor_cube", "CurHealth", "0")
+SetProperty("rep_reactor_cube", "MaxHealth", "0")
 
       DestroyTimer(timer)
                  end,
               rep_countdown
+              ) 
+		 
+
+      end
+   end
+)
+
+--CIS
+    --CIS Door 
+    CIS_Reactor_Room_DoorCIS = LinkedDestroyables:New{ objectSets = {{"cis_shield_console_1", "cis_shield_console_2"}, {"cis_door_exp_cube"}} }
+    CIS_Reactor_Room_DoorCIS:Init() 
+	
+	--Main Reactor CIS
+    CIS_Reactor_Room_DoorCIS = LinkedDestroyables:New{ objectSets = {{"cis_reactor_console_1", "cis_reactor_console_2", "cis_reactor_console_3", "cis_reactor_console_4", "cis_reactor_console_5", "cis_reactor_console_6"}, {"cis_reactor"}} }
+    CIS_Reactor_Room_DoorCIS:Init() 
+	
+	
+    --Door Function CIS
+	CIS_Reactor_Room_Door_Function = OnObjectKill(
+	function(object, killer)
+      if GetEntityName(object) == "cis_door_exp_cube" then
+	SetProperty("cis_door_reactor", "IsLocked", 0)
+      end
+   end
+)
+
+	--BOOM Function
+CIS_Capital_Ship = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_reactor" then
+	  
+   cis_countdown = CreateTimer("rep_countdown")
+   SetTimerValue(cis_countdown, (60.0))
+   
+RemoveRegion("deathregion_CIS")
+DeactivateRegion("deathregion_CIS")
+
+SetProperty("cis_tri_tur_3", "CurHealth", "0")
+SetProperty("cis_tri_tur_3", "MaxHealth", "0")
+SetProperty("cis_tri_tur_4", "CurHealth", "0")
+SetProperty("cis_tri_tur_4", "MaxHealth", "0")
+SetProperty("cis_tri_tur_5", "CurHealth", "0")
+SetProperty("cis_tri_tur_5", "MaxHealth", "0")
+SetProperty("cis_tri_tur_6", "CurHealth", "0")
+SetProperty("cis_tri_tur_6", "MaxHealth", "0")
+SetProperty("cis_tri_tur_7", "CurHealth", "0")
+SetProperty("cis_tri_tur_7", "MaxHealth", "0")
+SetProperty("cis_tri_tur_8", "CurHealth", "0")
+SetProperty("cis_tri_tur_8", "MaxHealth", "0")
+SetProperty("cis_tri_tur_9", "CurHealth", "0")
+SetProperty("cis_tri_tur_9", "MaxHealth", "0")
+SetProperty("cis_tri_tur_10", "CurHealth", "0")
+SetProperty("cis_tri_tur_10", "MaxHealth", "0")
+SetProperty("cis_tri_tur_11", "CurHealth", "0")
+SetProperty("cis_tri_tur_11", "MaxHealth", "0")
+SetProperty("cis_tri_tur_12", "CurHealth", "0")
+SetProperty("cis_tri_tur_12", "MaxHealth", "0")
+
+   
+   StartTimer(cis_countdown)
+   OnTimerElapse(
+function(timer)
+
+SetProperty("cis_fedcruiser_crashing", "IsVisible", 1)
+SetProperty("cis_fedcruiser_crashing", "MaxHealth", 1e+37)
+SetProperty("cis_fedcruiser_crashing", "CurHealth", 1e+37)
+
+KillObject("cp_cis")
+
+SetProperty("cis_cor_1", "CurHealth", "0")
+SetProperty("cis_cor_1", "MaxHealth", "0")
+SetProperty("cis_cor_2", "CurHealth", "0")
+SetProperty("cis_cor_2", "MaxHealth", "0")
+SetProperty("cis_cor_3", "CurHealth", "0")
+SetProperty("cis_cor_3", "MaxHealth", "0")
+SetProperty("cis_cor_4", "CurHealth", "0")
+SetProperty("cis_cor_4", "MaxHealth", "0")
+SetProperty("cis_cor_5", "CurHealth", "0")
+SetProperty("cis_cor_5", "MaxHealth", "0")
+SetProperty("cis_cor_6", "CurHealth", "0")
+SetProperty("cis_cor_6", "MaxHealth", "0")
+SetProperty("cis_cor_7", "CurHealth", "0")
+SetProperty("cis_cor_7", "MaxHealth", "0")
+SetProperty("cis_cor_8", "CurHealth", "0")
+SetProperty("cis_cor_8", "MaxHealth", "0")
+SetProperty("cis_cor_9", "CurHealth", "0")
+SetProperty("cis_cor_9", "MaxHealth", "0")
+SetProperty("cis_cor10", "CurHealth", "0")
+SetProperty("cis_cor10", "MaxHealth", "0")
+SetProperty("cis_cor11", "CurHealth", "0")
+SetProperty("cis_cor11", "MaxHealth", "0")
+SetProperty("cis_cor12", "CurHealth", "0")
+SetProperty("cis_cor12", "MaxHealth", "0")
+SetProperty("cis_cor13", "CurHealth", "0")
+SetProperty("cis_cor13", "MaxHealth", "0")
+SetProperty("cis_cor14", "CurHealth", "0")
+SetProperty("cis_cor14", "MaxHealth", "0")
+SetProperty("cis_cor15", "CurHealth", "0")
+SetProperty("cis_cor15", "MaxHealth", "0")
+SetProperty("cis_cor16", "CurHealth", "0")
+SetProperty("cis_cor16", "MaxHealth", "0")
+SetProperty("cis_cor17", "CurHealth", "0")
+SetProperty("cis_cor17", "MaxHealth", "0")
+SetProperty("cis_cor_18", "CurHealth", "0")
+SetProperty("cis_cor_18", "MaxHealth", "0")
+SetProperty("cis_cor_19", "CurHealth", "0")
+SetProperty("cis_cor_19", "MaxHealth", "0")
+SetProperty("cis_cor20", "CurHealth", "0")
+SetProperty("cis_cor20", "MaxHealth", "0")
+SetProperty("cis_cor21", "CurHealth", "0")
+SetProperty("cis_cor21", "MaxHealth", "0")
+SetProperty("cis_cor22", "CurHealth", "0")
+SetProperty("cis_cor22", "MaxHealth", "0")
+
+SetProperty("cis_ammo_1", "CurHealth", "0")
+SetProperty("cis_ammo_1", "MaxHealth", "0")
+SetProperty("cis_ammo_2", "CurHealth", "0")
+SetProperty("cis_ammo_2", "MaxHealth", "0")
+SetProperty("rep_ammo_1", "CurHealth", "0")
+SetProperty("rep_ammo_1", "MaxHealth", "0")
+SetProperty("rep_ammo_2", "CurHealth", "0")
+SetProperty("rep_ammo_2", "MaxHealth", "0")
+
+SetProperty("cis_health_1", "CurHealth", "0")
+SetProperty("cis_health_1", "MaxHealth", "0")
+SetProperty("cis_health_2", "CurHealth", "0")
+SetProperty("cis_health_2", "MaxHealth", "0")
+SetProperty("rep_health_1", "CurHealth", "0")
+SetProperty("rep_health_1", "MaxHealth", "0")
+SetProperty("rep_health_2", "CurHealth", "0")
+SetProperty("rep_health_2", "MaxHealth", "0")
+
+SetProperty("cis_reactor_room", "CurHealth", "0")
+SetProperty("cis_reactor_room", "MaxHealth", "0")
+
+SetProperty("cis_assultship_commandroom_1", "CurHealth", "0")
+SetProperty("cis_assultship_commandroom_1", "MaxHealth", "0")
+
+SetProperty("cis_assultship_commandroom_2", "CurHealth", "0")
+SetProperty("cis_assultship_commandroom_2", "MaxHealth", "0")
+
+SetProperty("cis_assultship_commandroom_3", "CurHealth", "0")
+SetProperty("cis_assultship_commandroom_3", "MaxHealth", "0")
+
+SetProperty("cis_fedcruiser_hallway", "CurHealth", "0")
+SetProperty("cis_fedcruiser_hallway", "MaxHealth", "0")
+
+SetProperty("cis_turret_console", "CurHealth", "0")
+SetProperty("cis_turret_console", "MaxHealth", "0")
+
+
+SetProperty("cis_bridge", "CurHealth", "0")
+SetProperty("cis_bridge", "MaxHealth", "0")
+
+SetProperty("cis_engines_1", "CurHealth", "0")
+SetProperty("cis_engines_1", "MaxHealth", "0")
+SetProperty("cis_engines_2", "CurHealth", "0")
+SetProperty("cis_engines_2", "MaxHealth", "0")
+
+SetProperty("cis_fly_fedcruiser1", "CurHealth", "0")
+SetProperty("cis_fly_fedcruiser1", "MaxHealth", "0")
+SetProperty("cis_fly_fedcruiser2", "CurHealth", "0")
+SetProperty("cis_fly_fedcruiser2", "MaxHealth", "0")
+SetProperty("cis_fly_fedcruiser3", "CurHealth", "0")
+SetProperty("cis_fly_fedcruiser3", "MaxHealth", "0")
+SetProperty("cis_fly_fedcruiser4", "CurHealth", "0")
+SetProperty("cis_fly_fedcruiser4", "MaxHealth", "0")
+
+
+PlayAnimation("cis_crashing")
+PlayAnimation("cis_countdown_1")
+PlayAnimation("cis_countdown_2")
+
+
+RemoveRegion("cis_landing")
+DeactivateRegion("cis_landing")
+
+SetProperty("cis_reactor_cube", "CurHealth", "0")
+SetProperty("cis_reactor_cube", "MaxHealth", "0")
+
+      DestroyTimer(timer)
+                 end,
+              cis_countdown
               ) 
 		 
 
@@ -220,10 +513,29 @@ end
         BroadcastVoiceOver( "COSMP_obj_22", CIS )       
     end
 	
-	end  --Temporary End
-	
 --Function Auto Turrets CIS
+     turretLinkageCIS = LinkedTurrets:New{ team = CIS, mainframe = "cis_turret_console", 
+	turrets = {"cis_auto_tur_1", "cis_auto_tur_2", "cis_auto_tur_3", "cis_auto_tur_4", "cis_auto_tur_5", "cis_auto_tur_6", "cis_h_tur_1", "cis_h_tur_2" } }
+    turretLinkageCIS:Init()
+    
+    function turretLinkageCIS:OnDisableMainframe()
+        ShowMessageText("level.spa.hangar.mainframe.atk.down", REP)
+        ShowMessageText("level.spa.hangar.mainframe.def.down", CIS)
 
+        BroadcastVoiceOver( "ROSMP_obj_21", CIS )
+        BroadcastVoiceOver( "COSMP_obj_20", REP )
+    end
+	
+    function turretLinkageCIS:OnEnableMainframe()
+        ShowMessageText("level.spa.hangar.mainframe.atk.up", REP)
+        ShowMessageText("level.spa.hangar.mainframe.def.up", CIS)
+
+        BroadcastVoiceOver( "ROSMP_obj_23", CIS )
+        BroadcastVoiceOver( "COSMP_obj_22", REP )       
+    end
+	
+	end  
+	
 ---------------------------------------------------------------------------
 -- FUNCTION:    ScriptInit
 -- PURPOSE:     This function is only run once
@@ -272,6 +584,8 @@ function ScriptInit()
 				ReadDataFile("SIDE\\tur.lvl",
 		"tur_bldg_spa_rep_chaingun",
 		"tur_bldg_spa_rep_cannon",
+		"tur_bldg_spa_cis_chaingun",
+		"tur_bldg_spa_cis_recoilless",
 		"tur_bldg_chaingun_roof",
         "tur_bldg_chaingun_tripod")
 		
@@ -310,7 +624,7 @@ function ScriptInit()
 	SetupTeams{
 		rep = {
 			team = REP,
-			units = 60,
+			units = 65,
 			reinforcements = -1,
 			soldier  = { "republic_inf_rifleman",12, 20},
 			assault  = { "republic_inf_heavytrooper",5, 10},
@@ -323,7 +637,7 @@ function ScriptInit()
 		
 		cis = {
 			team = CIS,
-			units = 60,
+			units = 65,
 			reinforcements = -1,
 			soldier  = { "cis_inf_rifleman",12, 20},
 			assault  = { "cis_inf_rocketeer",5, 10},
@@ -430,13 +744,13 @@ function ScriptInit()
 --OpeningSateliteShot
     AddCameraShot(0.908386, -0.209095, -0.352873, -0.081226, -45.922508, -19.114113, 77.022636);
 
-    AddCameraShot(-0.481173, 0.024248, -0.875181, -0.044103, 14.767292, -30.602322, -144.506851);
-    AddCameraShot(0.999914, -0.012495, -0.004416, -0.000055, 1.143253, -33.602314, -76.884430);
-    AddCameraShot(0.839161, 0.012048, -0.543698, 0.007806, 19.152437, -49.802273, 24.337317);
-    AddCameraShot(0.467324, 0.006709, -0.883972, 0.012691, 11.825212, -49.802273, -7.000720);
-    AddCameraShot(0.861797, 0.001786, -0.507253, 0.001051, -11.986043, -59.702248, 23.263165);
-    AddCameraShot(0.628546, -0.042609, -0.774831, -0.052525, 20.429928, -48.302277, 9.771714);
-    AddCameraShot(0.765213, -0.051873, 0.640215, 0.043400, 57.692474, -48.302277, 16.540724);
-    AddCameraShot(0.264032, -0.015285, -0.962782, -0.055734, -16.681797, -42.902290, 129.553268);
-    AddCameraShot(-0.382320, 0.022132, -0.922222, -0.053386, 20.670977, -42.902290, 135.513001);
+	
+	AddLandingRegion("landing_1")
+	AddLandingRegion("landing_2")
+	AddLandingRegion("landing_3")
+	AddLandingRegion("landing_4")
+	AddLandingRegion("landing_5")
+	AddLandingRegion("landing_6")
+	AddLandingRegion("rep_landing")
+	AddLandingRegion("cis_landing")
 end

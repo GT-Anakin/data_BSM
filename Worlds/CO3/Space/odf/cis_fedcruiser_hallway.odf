@@ -1,43 +1,24 @@
 [GameObjectClass]       
 
-ClassLabel      =   "armedbuilding"
+ClassLabel      =   "destructablebuilding"
 GeometryName    =   "cis_fedcruiser_hallway.msh"
 
 
 [Properties]        
 
 GeometryName    =   "cis_fedcruiser_hallway"
-MaxHealth           = "999999.0"
-AddHealth         = "50000.0"
-RespawnTime				= "999999"
 
-AttachEffect = "cis_halo"
-AttachToHardPoint = "hp_light1"
-AttachToHardPoint = "hp_light2"
-AttachToHardPoint = "hp_light3"
-AttachToHardPoint = "hp_light4"
-AttachToHardPoint = "hp_light5"
-AttachToHardPoint = "hp_light6"
-AttachToHardPoint = "hp_light7"
-AttachToHardPoint = "hp_light8"
-AttachToHardPoint = "hp_light9"
-AttachToHardPoint = "hp_light10"
-AttachToHardPoint = "hp_light11"
-AttachToHardPoint = "hp_light12"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
-AttachOdf = "spa1_light_stardestroyer2"
-AttachToHardPoint = "hp_lighta_1"
-AttachToHardPoint = "hp_lighta_2"
-AttachToHardPoint = "hp_lighta_3"
-AttachToHardPoint = "hp_lighta_4"
-AttachToHardPoint = "hp_lighta_5"
-AttachToHardPoint = "hp_lighta_6"
-AttachToHardPoint = "hp_lighta_7"
-AttachToHardPoint = "hp_lighta_8"
-AttachToHardPoint = "hp_lighta_9"
-AttachToHardPoint = "hp_lighta_10"
-AttachToHardPoint = "hp_lighta_11"
-AttachToHardPoint = "hp_lighta_12"
+DestroyedGeometryName	= ""
+
+ExplosionName		= "interoir_explosion_exp"
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"
 
 FoleyFXGroup    = "metal_foley"
 

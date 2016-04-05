@@ -7,8 +7,15 @@ GeometryName    =   "cis_fly_fedcruiser4.msh"
 [Properties]        
 
 GeometryName    =   "cis_fly_fedcruiser4"
-MaxHealth           = "999999.0"
-AddHealth         = "50000.0"
-RespawnTime				= "999999"
-FoleyFXGroup  = "metal_foley"
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+ExplosionName		= "interoir_explosion_exp"
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"
 BuildingSound   = "sd_engine_amb"

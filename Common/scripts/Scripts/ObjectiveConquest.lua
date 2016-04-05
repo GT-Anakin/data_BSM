@@ -38,7 +38,7 @@ ObjectiveConquest = Objective:New
 	
 	-- internal values
 	defaultBleedRate = 0.3333333333,			--how many units will be lost per second
-	defeatTimerSeconds = 20,		--how long the defeat timer lasts after capping the all the CPs
+	defeatTimerSeconds = 30,		--how long the defeat timer lasts after capping the all the CPs
 }
 
 function ObjectiveConquest:GetOpposingTeam(team)
@@ -208,7 +208,7 @@ function ObjectiveConquest:Start()
 			if self.multiplayerRules then
 				--start the defeat timer to end the game in a few seconds
 				SetTimerValue(self.defeatTimer, self.defeatTimerSeconds)
-				StartTimer(self.defeatTimer)
+				--StartTimer(self.defeatTimer)
 				
 				--tell the C++ code about the defeat/victory timer (which will display it on the HUD)
 				SetDefeatTimer(self.defeatTimer, self:GetOpposingTeam(self.winningTeam))

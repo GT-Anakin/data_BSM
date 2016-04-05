@@ -11,6 +11,42 @@ Animation("republic_countdown", 0.01, 0, 0)
 	AddPositionKey(0.01, 0.00, -100000.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
+Animation("cis_countdown", 0.01, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.01, 0.00, -100000.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("cis_crashing", 65.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(5.00, 0.00, -15.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(25.00, -150.00, -200.00, 200.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(60.00, -850.00, -955.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(65.00, -850.00, -960.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(2.00, 1.00, 0.00, -2.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(5.00, 3.00, 1.00, -7.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(25.00, 5.00, 15.00, -12.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(60.00, 5.00, 25.00, -20.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(65.00, 0.00, 25.00, -25.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("rep_crashing", 70.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(5.00, 0.00, -10.00, -5.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(25.00, 0.00, -180.00, -350.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(65.00, 380.00, -1145.00, -2360.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(70.00, 445.00, -1180.00, -2580.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(10.00, 1.00, 0.00, -5.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(20.00, 1.00, -2.00, -8.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(65.00, 2.00, -20.00, -13.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(70.00, -5.00, -30.00, -15.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
 AnimationGroup("ad_rings", 1, 0)
 {
 	Animation("ring_1", "ad_ring1");
@@ -60,6 +96,10 @@ AnimationGroup("republic_countdown_1", 0, 0)
 	Animation("republic_countdown", "rep_turret_3");
 	Animation("republic_countdown", "rep_turret_4");
 	Animation("republic_countdown", "rep_turret_5");
+	Animation("republic_countdown", "rep_ammo_1");
+	Animation("republic_countdown", "rep_ammo_2");
+	Animation("republic_countdown", "rep_health_1");
+	Animation("republic_countdown", "rep_health_2");
 }
 
 AnimationGroup("republic_countdown_2", 0, 0)
@@ -95,5 +135,92 @@ AnimationGroup("republic_countdown_2", 0, 0)
 	Animation("republic_countdown", "rep_reactor_console_5");
 	Animation("republic_countdown", "rep_reactor_console_6");
 	Animation("republic_countdown", "rep_reactor");
+}
+
+AnimationGroup("cis_countdown_1", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_countdown", "cis_door_1");
+	Animation("cis_countdown", "cis_door_2");
+	Animation("cis_countdown", "cis_door_3");
+	Animation("cis_countdown", "cis_door_4");
+	Animation("cis_countdown", "cis_door_5");
+	Animation("cis_countdown", "cis_door_6");
+	Animation("cis_countdown", "cis_door_7");
+	Animation("cis_countdown", "cis_door_reactor");
+	Animation("cis_countdown", "cis_tur_1");
+	Animation("cis_countdown", "cis_tur_2");
+	Animation("cis_countdown", "cis_tur_3");
+	Animation("cis_countdown", "cis_tur_4");
+	Animation("cis_countdown", "cis_tur_5");
+	Animation("cis_countdown", "cis_auto_tur_1");
+	Animation("cis_countdown", "cis_auto_tur_2");
+	Animation("cis_countdown", "cis_auto_tur_3");
+	Animation("cis_countdown", "cis_auto_tur_4");
+	Animation("cis_countdown", "cis_auto_tur_5");
+	Animation("cis_countdown", "cis_auto_tur_6");
+	Animation("cis_countdown", "cis_h_tur_1");
+	Animation("cis_countdown", "cis_h_tur_2");
+	Animation("cis_countdown", "cis_fedcruiser_shield");
+	Animation("cis_countdown", "cis_turret_console");
+	Animation("cis_countdown", "cis_turret_1");
+	Animation("cis_countdown", "cis_turret_2");
+	Animation("cis_countdown", "cis_turret_3");
+	Animation("cis_countdown", "cis_turret_4");
+	Animation("cis_countdown", "cis_turret_5");
+	Animation("cis_countdown", "cis_bridge");
+	Animation("cis_countdown", "cis_engines_1");
+	Animation("cis_countdown", "cis_engines_2");
+	Animation("cis_countdown", "cis_ammo_1");
+	Animation("cis_countdown", "cis_ammo_2");
+	Animation("cis_countdown", "cis_health_1");
+	Animation("cis_countdown", "cis_health_2");
+}
+
+AnimationGroup("cis_countdown_2", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_countdown", "cis_shield_console_1");
+	Animation("cis_countdown", "cis_shield_console_2");
+	Animation("cis_countdown", "cis_roof_tur_1");
+	Animation("cis_countdown", "cis_roof_tur_2");
+	Animation("cis_countdown", "cis_roof_tur_3");
+	Animation("cis_countdown", "cis_roof_tur_4");
+	Animation("cis_countdown", "cis_roof_tur_5");
+	Animation("cis_countdown", "cis_roof_tur_6");
+	Animation("cis_countdown", "cis_roof_tur_7");
+	Animation("cis_countdown", "cis_tri_tur_1");
+	Animation("cis_countdown", "cis_tri_tur_2");
+	Animation("cis_countdown", "cis_tri_tur_3");
+	Animation("cis_countdown", "cis_tri_tur_4");
+	Animation("cis_countdown", "cis_tri_tur_5");
+	Animation("cis_countdown", "cis_tri_tur_6");
+	Animation("cis_countdown", "cis_tri_tur_7");
+	Animation("cis_countdown", "cis_tri_tur_8");
+	Animation("cis_countdown", "cis_tri_tur_9");
+	Animation("cis_countdown", "cis_tri_tur_10");
+	Animation("cis_countdown", "cis_tri_tur_11");
+	Animation("cis_countdown", "cis_tri_tur_12");
+	Animation("cis_countdown", "cis_tri_tur_13");
+	Animation("cis_countdown", "cis_tri_tur_14");
+	Animation("cis_countdown", "cis_reactor_console_1");
+	Animation("cis_countdown", "cis_reactor_console_2");
+	Animation("cis_countdown", "cis_reactor_console_3");
+	Animation("cis_countdown", "cis_reactor_console_4");
+	Animation("cis_countdown", "cis_reactor_console_5");
+	Animation("cis_countdown", "cis_reactor_console_6");
+	Animation("cis_countdown", "cis_reactor");
+}
+
+AnimationGroup("cis_crashing", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_crashing", "cis_fedcruiser_crashing");
+}
+
+AnimationGroup("rep_crashing", 0, 0)
+{
+	DisableHierarchies();
+	Animation("rep_crashing", "rep_cap_assultship_crashing");
 }
 
