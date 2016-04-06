@@ -62,10 +62,10 @@ AimFactorMove           = 70
 
 AISizeType              = "SOLDIER"
 
-DropItemClass           = "com_item_powerup_ammo2"
+DropItemClass           = "com_item_powerup_ammo"
 DropItemProbability     = 0.25
 NextDropItem            = "-"
-DropItemClass           = "com_item_powerup_health252"
+DropItemClass           = "com_item_powerup_health25"
 DropItemProbability     = 0.15
 NextDropItem            = "-"
 DropItemClass           = "com_item_powerup_offense"
@@ -74,10 +74,10 @@ NextDropItem            = "-"
 DropItemClass           = "com_item_powerup_defense"
 DropItemProbability     = 0.02
 NextDropItem            = "-"
-DropItemClass           = "com_item_powerup_health1002"
+DropItemClass           = "com_item_powerup_health100"
 DropItemProbability     = 0.08
 NextDropItem            = "-"
-DropItemClass           = "com_item_powerup_dual2"
+DropItemClass           = "com_item_powerup_dual"
 DropItemProbability     = 0.08
 NextDropItem            = "-"
 DropItemClass           = "com_item_powerup_energy"
