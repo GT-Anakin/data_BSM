@@ -1,10 +1,22 @@
-[GameObjectClass]
+[GameObjectClass]       
 
-ClassLabel		=	"prop"
-GeometryName	=	"CIS_Frigate_ext.msh"
-GeometryScale	=	0.1
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "CIS_Frigate_ext.msh"
 
-[Properties]
 
-GeometryName	=	"CIS_Frigate_ext"
-FoleyFXGroup    =   "metal_foley"
+[Properties]        
+
+GeometryName    =   "CIS_Frigate_ext"
+
+MaxHealth       	= "750000.0"
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+
+
+MapTexture = ""
+MapScale 		= "0.0"
+
+MaxShield	= "300000"
+AddShield	= "0"
+
+FoleyFXGroup    = "metal_foley"
+AINoRepair      = "1"

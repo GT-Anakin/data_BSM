@@ -47,6 +47,12 @@ Animation("rep_crashing", 70.00, 0, 0)
 	AddRotationKey(70.00, -5.00, -30.00, -15.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
+Animation("cis_frigate_countdown", 0.01, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.01, 0.00, -100000.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
 AnimationGroup("ad_rings", 1, 0)
 {
 	Animation("ring_1", "ad_ring1");
@@ -222,5 +228,18 @@ AnimationGroup("rep_crashing", 0, 0)
 {
 	DisableHierarchies();
 	Animation("rep_crashing", "rep_cap_assultship_crashing");
+}
+
+AnimationGroup("cis_frigate_countdown", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_fri_auto_1", "cis_fri_auto_1");
+	Animation("cis_fri_auto_1", "cis_fri_auto_2");
+	Animation("cis_fri_auto_1", "cis_fri_auto_3");
+	Animation("cis_fri_auto_1", "cis_fri_auto_4");
+	Animation("cis_fri_auto_1", "cis_fri_auto_5");
+	Animation("cis_fri_auto_1", "cis_frigate_ext_shields");
+	Animation("cis_fri_auto_1", "cis_health_frigate");
+	Animation("cis_fri_auto_1", "cis_ammo_frigate");
 }
 

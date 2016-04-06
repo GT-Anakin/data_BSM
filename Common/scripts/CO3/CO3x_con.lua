@@ -25,9 +25,7 @@ function ScriptPostLoad()
 	SetMapNorthAngle(180, 1)
 	SetupTurrets()  
 	SetupDestroyables()
-	SetAIDifficulty(4, 4, "hard")
-	SetAIDifficulty(3, 3, "medium")
-	SetAIDifficulty(2, 2, "easy")
+	--SetAIDifficulty(2 , 2 )
 
 	
 --Function Properties
@@ -100,6 +98,36 @@ OnObjectKill(
   end
 )
 
+ --CIS Frigate
+ cis_frigate = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_frigate_ext" then
+	  
+SetProperty("cis_frigate_ext_hallways", "CurHealth", "0")
+SetProperty("cis_frigate_ext_hallways", "MaxHealth", "0")
+
+SetProperty("cis_fri_auto_1", "CurHealth", "0")
+SetProperty("cis_fri_auto_1", "MaxHealth", "0")
+SetProperty("cis_fri_auto_2", "CurHealth", "0")
+SetProperty("cis_fri_auto_2", "MaxHealth", "0")
+SetProperty("cis_fri_auto_3", "CurHealth", "0")
+SetProperty("cis_fri_auto_3", "MaxHealth", "0")
+SetProperty("cis_fri_auto_4", "CurHealth", "0")
+SetProperty("cis_fri_auto_4", "MaxHealth", "0")
+SetProperty("cis_fri_auto_5", "CurHealth", "0")
+SetProperty("cis_fri_auto_5", "MaxHealth", "0")
+
+SetProperty("cp_cis_frigate", "CurHealth", "0")
+SetProperty("cp_cis_frigate", "MaxHealth", "0")
+
+RemoveRegion("cis_landing_frigate")
+DeactivateRegion("cis_landing_frigate")
+
+PlayAnimation("cis_frigate_countdown")
+	  
+      end
+   end
+)
 
 
 --Function Conquest and Assault
@@ -140,6 +168,7 @@ OnObjectKill(
  
  function SetupDestroyables()
  
+
  --REPUBLIC
     --REP Door 
     Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_shield_console_1", "rep_shield_console_2"}, {"rep_door_exp_cube"}} }
@@ -294,6 +323,8 @@ DeactivateRegion("rep_landing")
 
 SetProperty("rep_reactor_cube", "CurHealth", "0")
 SetProperty("rep_reactor_cube", "MaxHealth", "0")
+
+SetReinforcementCount(ATT, 150)
 
       DestroyTimer(timer)
                  end,
@@ -478,6 +509,8 @@ DeactivateRegion("cis_landing")
 SetProperty("cis_reactor_cube", "CurHealth", "0")
 SetProperty("cis_reactor_cube", "MaxHealth", "0")
 
+SetReinforcementCount(ATT, 150)
+
       DestroyTimer(timer)
                  end,
               cis_countdown
@@ -600,7 +633,7 @@ function ScriptInit()
                              "rep_hero_anakin",
                              "rep_hover_barcspeeder",
 							 "rep_fly_vwing",
-							  "rep_walk_atte",
+							--  "rep_walk_atte",
 							 "rep_fly_arc170fighter_sc")
 
     ReadDataFile("SIDE\\cis.lvl",
@@ -664,8 +697,8 @@ function ScriptInit()
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
 	SetMemoryPoolSize("EntityCloth", 32)
-	SetMemoryPoolSize("EntityFlyer", 32)
-    SetMemoryPoolSize("EntityHover", 32)
+	SetMemoryPoolSize("EntityFlyer", 52)
+    SetMemoryPoolSize("EntityHover", 8)
 	  SetMemoryPoolSize("CommandWalker", 1)
     SetMemoryPoolSize("EntityLight", 200)
     SetMemoryPoolSize("EntitySoundStream", 12)
@@ -753,4 +786,5 @@ function ScriptInit()
 	AddLandingRegion("landing_6")
 	AddLandingRegion("rep_landing")
 	AddLandingRegion("cis_landing")
+	AddLandingRegion("cis_landing_frigate")
 end

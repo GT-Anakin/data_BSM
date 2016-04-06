@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(5);
+RegionCount(6);
 
 Region("DamageRegion damagerate=250 personscale=1 animalscale=1 droidscale=1 vehiclescale=6 buildingscale=0", 0)
 {
@@ -39,4 +39,12 @@ Region("DamageRegion damagerate=1000 personscale=0 animalscale=0 droidscale=0 ve
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(170.000000, 15.000000, 105.000000);
 	Name("damage_base_veh");
+}
+
+Region("mapbounds", 0)
+{
+	Position(0.000000, -344.764679, 0.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(300.000000, 50.000000, 300.000000);
+	Name("mapbounds");
 }

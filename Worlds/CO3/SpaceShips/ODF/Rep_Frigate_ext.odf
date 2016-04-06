@@ -2,7 +2,7 @@
 
 ClassLabel		=	"prop"
 GeometryName	=	"Rep_Frigate_ext.msh"
-GeometryScale	=	0.1
+GeometryScale	=	0.15
 [Properties]
 
 GeometryName	=	"Rep_Frigate_ext"

@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.100, 0.023, -0.970, 0.221);
-	Position(96.250, -276.973, -33.593);
+	Rotation(0.815, 0.320, -0.450, 0.177);
+	Position(1707.594, 1422.698, 404.983);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(3000.000);
+	FarPlane(2500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -802,6 +802,15 @@ Object("CO3_prop_advert_circle_4", "CO3_prop_advert_circle_01", 1537798044)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_advert_circle_7", "CO3_prop_advert_circle_01", 1553579528)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-150.016, -259.369, 126.278);
+	SeqNo(1553579528);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_group_8", "CO3_bldg_building_group_01", 1558520070)
 {
 	ChildRotation(0.842, 0.000, 0.539, 0.000);
@@ -1422,6 +1431,15 @@ Object("CO3_prop_pole_5", "CO3_prop_pole_01", -1846708553)
 	ChildRotation(0.707, 0.000, -0.707, 0.000);
 	ChildPosition(-159.671, -278.098, 73.092);
 	SeqNo(-1846708553);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_advert_circle_8", "CO3_prop_advert_circle_01", -1839775198)
+{
+	ChildRotation(0.707, 0.000, 0.707, 0.000);
+	ChildPosition(-138.090, -259.369, 126.577);
+	SeqNo(-1839775198);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2146,6 +2164,15 @@ Object("CO3_prop_pole_38", "CO3_prop_pole_01", -877441777)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_advert_circle_6", "CO3_prop_advert_circle_01", -851694792)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-144.097, -259.369, 120.470);
+	SeqNo(-851694792);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_group_10", "CO3_bldg_building_group_01", -827416911)
 {
 	ChildRotation(1.000, 0.000, -0.020, 0.000);
@@ -2627,6 +2654,15 @@ Object("CO3_bldg_building_group_2", "CO3_bldg_building_group_01", -67233232)
 	ChildRotation(0.972, 0.000, -0.236, 0.000);
 	ChildPosition(223.186, -380.009, -669.827);
 	SeqNo(-67233232);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_advert_circle_5", "CO3_prop_advert_circle_01", -60187974)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-144.201, -259.369, 132.629);
+	SeqNo(-60187974);
 	Team(0);
 	NetworkId(-1);
 }

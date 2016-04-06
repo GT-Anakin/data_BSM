@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.100, 0.023, -0.970, 0.221);
-	Position(96.250, -276.973, -33.593);
+	Rotation(0.815, 0.320, -0.450, 0.177);
+	Position(1707.594, 1422.698, 404.983);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(3000.000);
+	FarPlane(2500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -143,12 +143,24 @@ Object("rep_cap_assultship4", "rep_cap_assultship4", 138868894)
 
 Object("rep_cor_15", "Corridor_02", 146604590)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1459.183, 779.558, 386.984);
 	SeqNo(146604590);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_ammo_frigate", "com_item_weaponrecharge", 161364654)
+{
+	ChildRotation(0.104, 0.000, -0.995, 0.000);
+	ChildPosition(835.963, 484.425, 818.558);
+	SeqNo(161364654);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
 }
 
 Object("rep_reactor_cube", "Dest_Cube", 176289678)
@@ -176,7 +188,7 @@ Object("rep_turret_3", "spa_veh_turret_chair", 185007411)
 
 Object("rep_assultship_shield", "rep_assultship_shield", 222092083)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1296.231, 775.960, 334.468);
 	SeqNo(222092083);
 	Team(0);
@@ -206,7 +218,7 @@ Object("cis_auto_tur_2", "cis_bldg_frigateturret", 259212137)
 
 Object("rep_cor_18", "Corridor_02", 308862806)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1486.514, 779.558, 364.170);
 	SeqNo(308862806);
 	Team(0);
@@ -246,7 +258,7 @@ Object("cis_reactor_cube", "Dest_Cube", 323444866)
 
 Object("rep_tur_5", "tur_bldg_spa_rep_cannon", 345174681)
 {
-	ChildRotation(0.557, 0.000, 0.830, 0.000);
+	ChildRotation(0.557, 0.000, 0.831, 0.000);
 	ChildPosition(-1286.225, 820.142, 287.581);
 	SeqNo(345174681);
 	Team(0);
@@ -356,6 +368,16 @@ Object("cis_health_1", "com_item_healthrecharge", 432332371)
 	Radius("5.0");
 }
 
+Object("cis_fri_auto_3", "cis_bldg_frigateturret", 452287842)
+{
+	ChildRotation(0.114, 0.000, -0.993, 0.000);
+	ChildPosition(818.790, 510.954, 1069.897);
+	SeqNo(452287842);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
 Object("cis_reactor_console_4", "Main_Reactor_Console", 481722916)
 {
 	ChildRotation(0.958, 0.000, -0.286, 0.000);
@@ -366,21 +388,21 @@ Object("cis_reactor_console_4", "Main_Reactor_Console", 481722916)
 	Layer(3);
 }
 
-Object("cis_roof_tur_5", "tur_bldg_chaingun_roof", 531964189)
+Object("cis_fri_auto_1", "cis_bldg_frigateturret", 506080780)
 {
-	ChildRotation(0.066, 0.000, -0.998, 0.000);
-	ChildPosition(273.386, 633.095, -338.889);
-	SeqNo(531964189);
+	ChildRotation(0.095, 0.000, -0.995, 0.000);
+	ChildPosition(901.850, 634.625, 1159.410);
+	SeqNo(506080780);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
 }
 
-Object("cis_frigate", "CIS_Frigate_ext", 535209490)
+Object("cis_roof_tur_5", "tur_bldg_chaingun_roof", 531964189)
 {
-	ChildRotation(0.631, 0.000, -0.776, 0.000);
-	ChildPosition(623.190, 424.823, 371.052);
-	SeqNo(535209490);
+	ChildRotation(0.066, 0.000, -0.998, 0.000);
+	ChildPosition(273.386, 633.095, -338.889);
+	SeqNo(531964189);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
@@ -428,12 +450,42 @@ Object("rep_roof_tur_6", "tur_bldg_chaingun_roof", 589756089)
 
 Object("rep_cor_20", "Corridor_02", 597298142)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1492.883, 779.558, 349.619);
 	SeqNo(597298142);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle13", "com_item_vehicle_spawn", 597676542)
+{
+	ChildRotation(0.621, 0.000, 0.784, 0.000);
+	ChildPosition(824.685, 484.687, 707.463);
+	SeqNo(597676542);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_droidfighter_sc");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_arc170fighter_sc");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_arc170fighter_sc");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("cis_tur_2", "tur_bldg_spa_cis_chaingun", 615668427)
@@ -696,7 +748,7 @@ Object("cis_tur_1", "tur_bldg_spa_cis_chaingun", 1122936333)
 
 Object("rep_cor_5", "Corridor_03", 1123554336)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1396.231, 779.558, 411.884);
 	SeqNo(1123554336);
 	Team(0);
@@ -716,7 +768,7 @@ Object("rep_reactor_console_1", "Main_Reactor_Console", 1136903760)
 
 Object("rep_comm_room_1", "rep_assultship_commandroom", 1150797081)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1365.001, 779.559, 363.127);
 	SeqNo(1150797081);
 	Team(0);
@@ -726,7 +778,7 @@ Object("rep_comm_room_1", "rep_assultship_commandroom", 1150797081)
 
 Object("rep_cor_13", "Corridor_02", 1171082037)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1471.972, 779.558, 357.788);
 	SeqNo(1171082037);
 	Team(0);
@@ -758,7 +810,7 @@ Object("cis_ammo_1", "com_item_weaponrecharge", 1204301486)
 
 Object("rep_turret_console", "spa_prop_liquidgen", 1208727145)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1369.794, 780.007, 365.228);
 	SeqNo(1208727145);
 	Team(1);
@@ -777,6 +829,16 @@ Object("rep_turret_2", "spa_veh_turret_chair", 1216867488)
 	RemoteGameObject("rep_tur_3");
 	NextLinkedTerminal("");
 	PrevLinkedTerminal("");
+}
+
+Object("cis_fri_auto_5", "cis_bldg_frigateturret", 1224364181)
+{
+	ChildRotation(0.994, 0.000, 0.105, 0.000);
+	ChildPosition(913.942, 635.083, 1217.781);
+	SeqNo(1224364181);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
 }
 
 Object("cp_rep", "com_bldg_controlzone_CTF", 1229339482)
@@ -873,7 +935,7 @@ Object("rep_h_tur_1", "rep_prop_shipturret", 1269249874)
 
 Object("rep_cor_8", "Corridor_02", 1323176429)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1438.200, 779.558, 395.199);
 	SeqNo(1323176429);
 	Team(0);
@@ -883,7 +945,7 @@ Object("rep_cor_8", "Corridor_02", 1323176429)
 
 Object("rep_comm_room_3", "rep_assultship_commandroom_server", 1337252348)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1371.578, 779.558, 348.049);
 	SeqNo(1337252348);
 	Team(0);
@@ -893,7 +955,7 @@ Object("rep_comm_room_3", "rep_assultship_commandroom_server", 1337252348)
 
 Object("rep_cor_9", "Corridor_02", 1353755204)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1444.588, 779.558, 380.581);
 	SeqNo(1353755204);
 	Team(0);
@@ -949,6 +1011,36 @@ Object("rep_tri_tur_10", "tur_bldg_chaingun_tripod", 1449820193)
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle7", "com_item_vehicle_spawn", 1453598344)
+{
+	ChildRotation(0.771, 0.000, -0.637, 0.000);
+	ChildPosition(786.745, 484.816, 792.067);
+	SeqNo(1453598344);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_greviousfighter");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_vwing");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_greviousfighter");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_vwing");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("rep_roof_tur_4", "tur_bldg_chaingun_roof", 1497950609)
@@ -1093,7 +1185,7 @@ Object("rep_cor_7", "Corridor_03", 1561622801)
 	Layer(3);
 }
 
-Object("cis_cor21", "Corridor_01", 1571305763)
+Object("cis_cor21", "Corridor_04", 1571305763)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
 	ChildPosition(120.982, 628.507, -393.873);
@@ -1101,6 +1193,88 @@ Object("cis_cor21", "Corridor_01", 1571305763)
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cp_cis_frigate", "com_bldg_controlzone_CTF", 1580561566)
+{
+	ChildRotation(0.993, 0.000, 0.120, 0.000);
+	ChildPosition(818.719, 484.442, 807.304);
+	SeqNo(1580561566);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+	CaptureRegion("");
+	ControlRegion("cp_cis_frigate_control");
+	SpawnPath("cp_cis_frigate_spawn");
+	TurretPath("");
+	AllyPath("");
+	AllyCount("65536");
+	Radius("0.0");
+	ValueBleed_Alliance("0");
+	ValueBleed_CIS("0");
+	ValueBleed_Empire("0");
+	ValueBleed_Republic("0");
+	ValueBleed_Neutral("0");
+	ValueBleed_Locals("0");
+	Value_ATK_Alliance("0");
+	Value_ATK_CIS("0");
+	Value_ATK_Empire("0");
+	Value_ATK_Republic("0");
+	Value_ATK_Locals("0");
+	Value_DEF_Alliance("0");
+	Value_DEF_CIS("0");
+	Value_DEF_Empire("0");
+	Value_DEF_Republic("0");
+	Value_DEF_Locals("0");
+	VO_All_AllCapture("all_off_com_report_captured_commandpost");
+	VO_All_AllLost("all_off_com_report_lost_commandpost");
+	VO_All_AllInDispute("");
+	VO_All_AllSaved("");
+	VO_All_AllInfo("");
+	VO_All_ImpCapture("all_off_com_report_enemyCaptured_commandpost");
+	VO_All_ImpLost("");
+	VO_All_ImpInDispute("");
+	VO_All_ImpSaved("");
+	VO_All_ImpInfo("");
+	VO_Imp_AllCapture("imp_off_com_report_enemyCaptured_commandpost");
+	VO_Imp_AllLost("");
+	VO_Imp_AllInDispute("");
+	VO_Imp_AllSaved("");
+	VO_Imp_AllInfo("");
+	VO_Imp_ImpCapture("imp_off_com_report_captured_commandpost");
+	VO_Imp_ImpLost("imp_off_com_report_lost_commandpost");
+	VO_Imp_ImpInDispute("");
+	VO_Imp_ImpSaved("");
+	VO_Imp_ImpInfo("");
+	VO_Rep_RepCapture("rep_off_com_report_captured_commandpost");
+	VO_Rep_RepLost("rep_off_com_report_lost_commandpost");
+	VO_Rep_RepInDispute("");
+	VO_Rep_RepSaved("");
+	VO_Rep_RepInfo("");
+	VO_Rep_CISCapture("rep_off_com_report_enemyCaptured_commandpost");
+	VO_Rep_CISLost("");
+	VO_Rep_CISInDispute("");
+	VO_Rep_CISSaved("");
+	VO_Rep_CISInfo("");
+	VO_CIS_RepCapture("cis_off_com_report_enemyCaptured_commandpost");
+	VO_CIS_RepLost("");
+	VO_CIS_RepInDispute("");
+	VO_CIS_RepSaved("");
+	VO_CIS_RepInfo("");
+	VO_CIS_CISCapture("cis_off_com_report_captured_commandpost");
+	VO_CIS_CISLost("cis_off_com_report_lost_commandpost");
+	VO_CIS_CISInDispute("");
+	VO_CIS_CISSaved("");
+	VO_CIS_CISInfo("");
+	SoldierBan("");
+	HoverBan("");
+	SmallBan("");
+	MediumBan("");
+	HugeBan("");
+	FlyerBan("");
+	AISpawnWeight("10.0");
+	HUDIndex("");
+	HUDIndexDisplay("0");
 }
 
 Object("rep_tur_2", "tur_bldg_spa_rep_chaingun", 1589840694)
@@ -1145,12 +1319,42 @@ Object("rep_h_tur_3", "rep_prop_shipturret", 1609479063)
 
 Object("rep_cor_2", "Corridor_02", 1637176505)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1423.627, 779.558, 388.792);
 	SeqNo(1637176505);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle10", "com_item_vehicle_spawn", 1641092955)
+{
+	ChildRotation(0.773, 0.000, -0.635, 0.000);
+	ChildPosition(764.976, 484.954, 689.395);
+	SeqNo(1641092955);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fy_tridroidfighter");
+	ClassImpATK("");
+	ClassRepATK("republic_fly_eta2_red");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("republic_fly_eta2_red");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("cis_tur_3", "tur_bldg_spa_cis_chaingun", 1645417279)
@@ -1175,7 +1379,7 @@ Object("cis_cor_4", "Corridor_03", 1673561269)
 
 Object("rep_cor_3", "Corridor_02", 1673837163)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1417.212, 779.558, 403.448);
 	SeqNo(1673837163);
 	Team(0);
@@ -1235,7 +1439,7 @@ Object("cis_cor13", "Corridor_03", 1793402882)
 
 Object("rep_assultship_hallway", "rep_assultship_hallway", 1820558820)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1296.235, 775.960, 334.192);
 	SeqNo(1820558820);
 	Team(0);
@@ -1425,7 +1629,7 @@ Object("cis_tri_tur_4", "tur_bldg_chaingun_tripod", 2088576147)
 
 Object("rep_door_3", "cis_fedcruiser_door1", 2100525092)
 {
-	ChildRotation(0.548, 0.000, 0.837, 0.000);
+	ChildRotation(0.548, 0.000, 0.836, 0.000);
 	ChildPosition(-1352.469, 779.805, 346.677);
 	SeqNo(2100525092);
 	Team(0);
@@ -1476,16 +1680,6 @@ Object("cis_door_exp_cube", "Dest_Cube", -2112219907)
 	Layer(3);
 }
 
-Object("rep_frigate", "Rep_Frigate_ext", -2075862056)
-{
-	ChildRotation(0.787, 0.000, 0.617, 0.000);
-	ChildPosition(-17.470, 457.878, 1168.697);
-	SeqNo(-2075862056);
-	Team(1);
-	NetworkId(-1);
-	Layer(3);
-}
-
 Object("cis_cor_7", "Corridor_03", -2048319284)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
@@ -1494,6 +1688,66 @@ Object("cis_cor_7", "Corridor_03", -2048319284)
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle9", "com_item_vehicle_spawn", -2040029654)
+{
+	ChildRotation(0.772, 0.000, -0.636, 0.000);
+	ChildPosition(772.726, 484.783, 725.439);
+	SeqNo(-2040029654);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_droidfighter_sc");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_arc170fighter_sc");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_arc170fighter_sc");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("cis_vehicle11", "com_item_vehicle_spawn", -2037742949)
+{
+	ChildRotation(0.621, 0.000, 0.784, 0.000);
+	ChildPosition(843.024, 484.776, 779.310);
+	SeqNo(-2037742949);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_greviousfighter");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_vwing");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_greviousfighter");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_vwing");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod", -2026904790)
@@ -1589,12 +1843,32 @@ Object("cis_vehicle3", "com_item_vehicle_spawn", -1847684110)
 	ClassLocals("");
 }
 
+Object("cis_fri_auto_2", "cis_bldg_frigateturret", -1833022432)
+{
+	ChildRotation(0.114, 0.000, -0.993, 0.000);
+	ChildPosition(939.125, 510.954, 1042.847);
+	SeqNo(-1833022432);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
 Object("cis_roof_tur_3", "tur_bldg_chaingun_roof", -1827224186)
 {
 	ChildRotation(0.727, 0.000, 0.687, 0.000);
 	ChildPosition(266.469, 631.988, -408.046);
 	SeqNo(-1827224186);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("CIS_Frigate_ext_Shields", "CIS_Frigate_ext_Shields", -1799462956)
+{
+	ChildRotation(0.111, 0.000, -0.994, 0.000);
+	ChildPosition(847.649, 442.389, 916.432);
+	SeqNo(-1799462956);
+	Team(0);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -1759,6 +2033,18 @@ Object("cis_vehicle2", "com_item_vehicle_spawn", -1553658072)
 	ClassLocals("");
 }
 
+Object("cis_health_frigate", "com_item_healthrecharge", -1550128542)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(838.263, 484.425, 818.821);
+	SeqNo(-1550128542);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	EffectRegion("");
+	Radius("5.0");
+}
+
 Object("rep_health_2", "com_item_healthrecharge", -1542175313)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -1862,6 +2148,16 @@ Object("cis_roof_tur_4", "tur_bldg_chaingun_roof", -1286313666)
 	ChildRotation(-0.143, 0.000, -0.990, 0.000);
 	ChildPosition(263.105, 633.127, -339.767);
 	SeqNo(-1286313666);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_fri_auto_4", "cis_bldg_frigateturret", -1231956644)
+{
+	ChildRotation(0.993, 0.000, 0.116, 0.000);
+	ChildPosition(824.612, 550.630, 827.059);
+	SeqNo(-1231956644);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
@@ -2009,7 +2305,7 @@ Object("cis_tri_tur_2", "tur_bldg_chaingun_tripod", -1021995781)
 
 Object("rep_door_4", "cis_fedcruiser_door1", -1011629168)
 {
-	ChildRotation(0.548, 0.000, 0.837, 0.000);
+	ChildRotation(0.548, 0.000, 0.836, 0.000);
 	ChildPosition(-1343.799, 779.805, 366.420);
 	SeqNo(-1011629168);
 	Team(0);
@@ -2059,7 +2355,7 @@ Object("rep_reactor_console_2", "Main_Reactor_Console", -948765627)
 
 Object("rep_roof_tur_2", "tur_bldg_chaingun_roof", -901388819)
 {
-	ChildRotation(0.557, 0.000, 0.831, 0.000);
+	ChildRotation(0.557, 0.000, 0.830, 0.000);
 	ChildPosition(-1383.572, 783.056, 360.610);
 	SeqNo(-901388819);
 	Team(1);
@@ -2073,6 +2369,46 @@ Object("cis_reactor_console_6", "Main_Reactor_Console", -899745810)
 	ChildPosition(53.373, 618.247, -398.733);
 	SeqNo(-899745810);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_vehicle14", "com_item_vehicle_spawn", -897296231)
+{
+	ChildRotation(0.622, 0.000, 0.783, 0.000);
+	ChildPosition(817.330, 484.767, 677.551);
+	SeqNo(-897296231);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fy_tridroidfighter");
+	ClassImpATK("");
+	ClassRepATK("republic_fly_eta2_red");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_tridroidfighter");
+	ClassImpDEF("");
+	ClassRepDEF("republic_fly_eta2_red");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("cis_frigate_ext_hallways", "CIS_Frigate_ext_Hallways", -806674646)
+{
+	ChildRotation(0.111, 0.000, -0.994, 0.000);
+	ChildPosition(847.649, 442.389, 916.432);
+	SeqNo(-806674646);
+	Team(0);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -2121,7 +2457,7 @@ Object("rep_auto_tur_6", "rep_bldg_frigateturret", -773699037)
 
 Object("rep_auto_tur_1", "rep_bldg_frigateturret", -767740253)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1141.499, 800.580, 435.057);
 	SeqNo(-767740253);
 	Team(1);
@@ -2182,6 +2518,16 @@ Object("rep_cap_assultship2", "rep_cap_assultship2", -631848406)
 	Layer(3);
 }
 
+Object("cis_frigate_ext", "CIS_Frigate_ext", -607944563)
+{
+	ChildRotation(0.111, 0.000, -0.994, 0.000);
+	ChildPosition(847.649, 442.389, 916.432);
+	SeqNo(-607944563);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
 Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod", -578745208)
 {
 	ChildRotation(-0.474, 0.000, -0.881, 0.000);
@@ -2194,7 +2540,7 @@ Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod", -578745208)
 
 Object("rep_cor_1", "Corridor_01", -564952058)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1408.971, 779.558, 382.376);
 	SeqNo(-564952058);
 	Team(0);
@@ -2210,6 +2556,36 @@ Object("rep_auto_tur_5", "rep_bldg_frigateturret", -535463628)
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle12", "com_item_vehicle_spawn", -520051744)
+{
+	ChildRotation(0.621, 0.000, 0.784, 0.000);
+	ChildPosition(833.899, 484.642, 743.586);
+	SeqNo(-520051744);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_droidfighter_sc");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_arc170fighter_sc");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_arc170fighter_sc");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("cis_cor_6", "Corridor_02", -519869953)
@@ -2244,7 +2620,7 @@ Object("rep_roof_tur_3", "tur_bldg_chaingun_roof", -504813811)
 
 Object("rep_shield_console_1", "spa_prop_console", -500066166)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1371.482, 779.760, 348.298);
 	SeqNo(-500066166);
 	Team(1);
@@ -2366,12 +2742,42 @@ Object("rep_tri_tur_9", "tur_bldg_chaingun_tripod", -296134071)
 
 Object("rep_door_7", "cis_fedcruiser_door1", -294086598)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
 	ChildPosition(-1386.222, 779.794, 372.571);
 	SeqNo(-294086598);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
+}
+
+Object("cis_vehicle8", "com_item_vehicle_spawn", -277698702)
+{
+	ChildRotation(0.772, 0.000, -0.636, 0.000);
+	ChildPosition(780.543, 484.884, 761.889);
+	SeqNo(-277698702);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis_frigate");
+	SpawnCount("3");
+	SpawnTime("20");
+	ExpireTimeEnemy("60");
+	ExpireTimeField("120");
+	DecayTime("50");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_droidfighter_sc");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_arc170fighter_sc");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_droidfighter_sc");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_arc170fighter_sc");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
 }
 
 Object("cis_door_3", "cis_fedcruiser_door1", -250498384)
@@ -2384,7 +2790,7 @@ Object("cis_door_3", "cis_fedcruiser_door1", -250498384)
 	Layer(3);
 }
 
-Object("rep_cor_23", "Corridor_01", -237530906)
+Object("rep_cor_23", "Corridor_04", -237530906)
 {
 	ChildRotation(0.979, 0.000, 0.206, 0.000);
 	ChildPosition(-1499.272, 779.558, 335.072);

@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(6);
+RegionCount(8);
 
 Region("cp_rep_control", 0)
 {
@@ -53,4 +53,22 @@ Region("rep_landing", 0)
 	Rotation(0.980030, 0.000000, 0.198851, 0.000000);
 	Size(45.000000, 18.000000, 52.000000);
 	Name("rep_landing");
+}
+
+Region("cp_cis_frigate_control", 0)
+{
+	Layer(3);
+	Position(808.015015, 485.965210, 732.875366);
+	Rotation(0.994015, 0.000000, 0.109305, 0.000000);
+	Size(90.000000, 15.000000, 75.000000);
+	Name("cp_cis_frigate_control");
+}
+
+Region("cis_landing_frigate", 0)
+{
+	Layer(3);
+	Position(807.625549, 500.016876, 733.550659);
+	Rotation(0.994540, 0.000000, 0.104689, 0.000000);
+	Size(112.000000, 25.000000, 100.000000);
+	Name("cis_landing_frigate");
 }
