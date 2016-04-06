@@ -1,0 +1,19 @@
+[GameObjectClass]
+ClassLabel      = "powerupitem"
+GeometryName        = "item_powerup_ammo.msh"
+GeometryScale       = 0.15
+
+[Properties]
+Lighting        = "Dynamic"
+
+GeometryName        = "item_powerup_ammo"
+SoldierAmmo         = 1
+Lifespan        = 30
+Powerupsound        = "com_weap_ammo_pickup defer"
+
+Velocity        = "0.0"
+Gravity         = "1.0"
+Rebound         = "0.0"
+Friction        = "1.0"
+
+//CollisionOtherSound       = "com_weap_mine_land defer"

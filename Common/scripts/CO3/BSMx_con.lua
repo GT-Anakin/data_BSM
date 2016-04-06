@@ -55,9 +55,7 @@ function ScriptPostLoad()
 ---------------------------------------------------------------------------
 function ScriptInit()
     
-	ReadDataFile("dc:ingame.lvl")
     ReadDataFile("ingame.lvl")
-	ReadDataFile("dc:ingame.lvl")
     
    
     SetMaxFlyHeight(30)
