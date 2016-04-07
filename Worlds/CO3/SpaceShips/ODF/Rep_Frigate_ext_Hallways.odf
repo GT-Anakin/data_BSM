@@ -1,0 +1,17 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "Rep_Frigate_ext_Hallways.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Rep_Frigate_ext_Hallways"
+MaxHealth           = "999999.0"
+AddHealth         = "50000.0"
+RespawnTime				= "999999"
+
+VehicleCollision = "CLEAR"
+UseVCollForFlyers = 1
+
+SoundProperty = "shield_amb"

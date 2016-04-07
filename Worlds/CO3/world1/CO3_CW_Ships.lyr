@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.815, 0.320, -0.450, 0.177);
-	Position(1707.594, 1422.698, 404.983);
+	Rotation(0.657, 0.031, -0.752, 0.035);
+	Position(1112.868, -224.898, 2061.322);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2500.000);
+	FarPlane(3500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -841,7 +841,7 @@ Object("cis_fri_auto_5", "cis_bldg_frigateturret", 1224364181)
 	Layer(3);
 }
 
-Object("cp_rep", "com_bldg_controlzone_CTF", 1229339482)
+Object("cp_rep", "common_bldg_controlzone_CTF", 1229339482)
 {
 	ChildRotation(0.536, 0.000, 0.844, 0.000);
 	ChildPosition(-1343.579, 779.774, 354.749);
@@ -1063,7 +1063,7 @@ Object("rep_h_tur_2", "rep_prop_shipturret", 1499679061)
 	Layer(3);
 }
 
-Object("cp_cis", "com_bldg_controlzone_CTF", 1505200398)
+Object("cp_cis", "common_bldg_controlzone_CTF", 1505200398)
 {
 	ChildRotation(0.720, 0.000, 0.694, 0.000);
 	ChildPosition(304.706, 628.701, -395.768);
@@ -1195,7 +1195,7 @@ Object("cis_cor21", "Corridor_04", 1571305763)
 	Layer(3);
 }
 
-Object("cp_cis_frigate", "com_bldg_controlzone_CTF", 1580561566)
+Object("cp_cis_frigate", "common_bldg_controlzone_CTF", 1580561566)
 {
 	ChildRotation(0.993, 0.000, 0.120, 0.000);
 	ChildPosition(818.719, 484.442, 807.304);
@@ -1675,6 +1675,16 @@ Object("cis_door_exp_cube", "Dest_Cube", -2112219907)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(565.015, 671.474, -374.517);
 	SeqNo(-2112219907);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Rep_Frigate_ext_Shields", "Rep_Frigate_ext_Shields", -2060575691)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(312.000, -300.000, 2143.000);
+	SeqNo(-2060575691);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
@@ -2403,7 +2413,7 @@ Object("cis_vehicle14", "com_item_vehicle_spawn", -897296231)
 	ClassLocals("");
 }
 
-Object("cis_frigate_ext_hallways", "CIS_Frigate_ext_Hallways", -806674646)
+Object("CIS_Frigate_ext_Hallways", "CIS_Frigate_ext_Hallways", -806674646)
 {
 	ChildRotation(0.111, 0.000, -0.994, 0.000);
 	ChildPosition(847.649, 442.389, 916.432);
@@ -2518,7 +2528,7 @@ Object("rep_cap_assultship2", "rep_cap_assultship2", -631848406)
 	Layer(3);
 }
 
-Object("cis_frigate_ext", "CIS_Frigate_ext", -607944563)
+Object("CIS_Frigate_ext", "CIS_Frigate_ext", -607944563)
 {
 	ChildRotation(0.111, 0.000, -0.994, 0.000);
 	ChildPosition(847.649, 442.389, 916.432);
@@ -2634,6 +2644,16 @@ Object("cis_h_tur_1", "cis_prop_shipturret", -435658208)
 	ChildPosition(232.416, 624.694, -297.218);
 	SeqNo(-435658208);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Rep_Frigate_ext_Hallways", "Rep_Frigate_ext_Hallways", -413328873)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(312.000, -300.000, 2143.000);
+	SeqNo(-413328873);
+	Team(0);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -2953,6 +2973,16 @@ Object("cis_tri_tur_10", "tur_bldg_chaingun_tripod", -105263930)
 	ChildPosition(7.255, 634.591, -433.215);
 	SeqNo(-105263930);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("Rep_Frigate_ext", "Rep_Frigate_ext", -87408112)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(311.000, -300.000, 2142.000);
+	SeqNo(-87408112);
+	Team(0);
 	NetworkId(-1);
 	Layer(3);
 }

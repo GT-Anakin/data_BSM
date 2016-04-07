@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.815, 0.320, -0.450, 0.177);
-	Position(1707.594, 1422.698, 404.983);
+	Rotation(0.657, 0.031, -0.752, 0.035);
+	Position(1112.868, -224.898, 2061.322);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2500.000);
+	FarPlane(3500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -31,7 +31,7 @@ WorldExtents()
 
 NextSequence(-3513770);
 
-Object("cp4", "com_bldg_controlzone", -652766696)
+Object("cp4", "common_bldg_controlzone", -652766696)
 {
 	ChildRotation(0.909, 0.000, 0.417, 0.000);
 	ChildPosition(142.236, -300.000, 14.290);
@@ -114,7 +114,7 @@ Object("cp4", "com_bldg_controlzone", -652766696)
 	HUDIndexDisplay("1");
 }
 
-Object("cp7", "com_bldg_controlzone", 2095192412)
+Object("cp7", "common_bldg_controlzone", 2095192412)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-67.071, -283.655, 45.439);
@@ -197,7 +197,7 @@ Object("cp7", "com_bldg_controlzone", 2095192412)
 	HUDIndexDisplay("1");
 }
 
-Object("cp6", "com_bldg_controlzone", 1920735842)
+Object("cp6", "common_bldg_controlzone", 1920735842)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-154.448, -278.098, 69.113);
@@ -280,7 +280,7 @@ Object("cp6", "com_bldg_controlzone", 1920735842)
 	HUDIndexDisplay("1");
 }
 
-Object("cp3", "com_bldg_controlzone", 1323740855)
+Object("cp3", "common_bldg_controlzone", 1323740855)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(9.635, -279.004, -1.613);
@@ -363,7 +363,7 @@ Object("cp3", "com_bldg_controlzone", 1323740855)
 	HUDIndexDisplay("1");
 }
 
-Object("cp2", "com_bldg_controlzone", 368707201)
+Object("cp2", "common_bldg_controlzone", 368707201)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-121.049, -283.141, -0.867);
@@ -446,7 +446,7 @@ Object("cp2", "com_bldg_controlzone", 368707201)
 	HUDIndexDisplay("1");
 }
 
-Object("cp8", "com_bldg_controlzone", 325108975)
+Object("cp8", "common_bldg_controlzone", 325108975)
 {
 	ChildRotation(1.000, 0.000, 0.010, 0.000);
 	ChildPosition(83.388, -291.728, -59.804);
@@ -779,7 +779,7 @@ Object("vehicle4", "com_item_vehicle_spawn", -1943074609)
 	ClassLocals("");
 }
 
-Object("cp1", "com_bldg_major_controlzone", -1776034860)
+Object("cp1", "common_bldg_major_controlzone", -1776034860)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-75.555, -291.951, 157.852);
@@ -1071,7 +1071,7 @@ Object("vehicle3", "com_item_vehicle_spawn", -460683265)
 	ClassLocals("");
 }
 
-Object("cp5", "com_bldg_major_controlzone", -406782908)
+Object("cp5", "common_bldg_major_controlzone", -406782908)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(150.971, -311.690, -84.926);

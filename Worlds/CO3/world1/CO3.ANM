@@ -238,7 +238,7 @@ AnimationGroup("cis_frigate_countdown", 0, 0)
 	Animation("cis_fri_auto_1", "cis_fri_auto_3");
 	Animation("cis_fri_auto_1", "cis_fri_auto_4");
 	Animation("cis_fri_auto_1", "cis_fri_auto_5");
-	Animation("cis_fri_auto_1", "cis_frigate_ext_shields");
+	Animation("cis_fri_auto_1", "CIS_Frigate_ext_Shields");
 	Animation("cis_fri_auto_1", "cis_health_frigate");
 	Animation("cis_fri_auto_1", "cis_ammo_frigate");
 }

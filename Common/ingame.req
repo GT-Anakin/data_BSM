@@ -1,4 +1,18 @@
 ucft
 {
+REQN
+    {
+        "model"
+        "common_bldg_controlzone"
+    }
 
+    REQN
+    {
+        "class"
+        "common_bldg_controlzone"
+        "common_bldg_controlzone_ctf"       
+        "common_bldg_untakeable_controlzone"
+        "common_bldg_invisible_controlzone"
+        "common_bldg_major_controlzone"
+    }
 }

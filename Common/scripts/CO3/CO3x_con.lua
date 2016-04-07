@@ -579,7 +579,7 @@ end
 --              it is called from C to start the mission.
 ---------------------------------------------------------------------------
 function ScriptInit()
-    
+    ReadDataFile("dc:ingame.lvl")
     ReadDataFile("ingame.lvl")
     
    
