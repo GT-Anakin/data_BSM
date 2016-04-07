@@ -1,7 +1,5 @@
 improve hp_active positions,
-some more 2ndary weapons,
--tech: health&ammo pack
--officer: airstrike/termalimploder (depend on the map)
+airstrike
 modify weapons script + msh
 add glow to shotgun,
 new animationset,
