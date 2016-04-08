@@ -1,0 +1,16 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D v2.50.42
+# URL: http://www.unwrap3d.com
+# Time: Thu Apr 07 22:41:18 2016
+# num_materials: 1
+
+newmtl Mat_0A4D6602_510B4B86_5ABCD08A
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd 0a4d6602.dds
+
+# num_materials: 1

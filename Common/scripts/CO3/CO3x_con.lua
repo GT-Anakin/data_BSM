@@ -117,13 +117,46 @@ SetProperty("cis_fri_auto_4", "MaxHealth", "0")
 SetProperty("cis_fri_auto_5", "CurHealth", "0")
 SetProperty("cis_fri_auto_5", "MaxHealth", "0")
 
-SetProperty("cp_cis_frigate", "CurHealth", "0")
-SetProperty("cp_cis_frigate", "MaxHealth", "0")
+KillObject("cp_cis_frigate")
 
 RemoveRegion("cis_landing_frigate")
 DeactivateRegion("cis_landing_frigate")
 
 PlayAnimation("cis_frigate_countdown")
+
+
+	  
+      end
+   end
+)
+
+ --REP Frigate
+ rep_frigate = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_frigate_ext" then
+	  
+SetProperty("rep_frigate_ext_hallways", "CurHealth", "0")
+SetProperty("rep_frigate_ext_hallways", "MaxHealth", "0")
+
+SetProperty("rep_fri_auto_1", "CurHealth", "0")
+SetProperty("rep_fri_auto_1", "MaxHealth", "0")
+SetProperty("rep_fri_auto_2", "CurHealth", "0")
+SetProperty("rep_fri_auto_2", "MaxHealth", "0")
+SetProperty("rep_fri_auto_3", "CurHealth", "0")
+SetProperty("rep_fri_auto_3", "MaxHealth", "0")
+SetProperty("rep_fri_auto_4", "CurHealth", "0")
+SetProperty("rep_fri_auto_4", "MaxHealth", "0")
+SetProperty("rep_fri_auto_5", "CurHealth", "0")
+SetProperty("rep_fri_auto_5", "MaxHealth", "0")
+
+KillObject("cp_rep_frigate")
+
+RemoveRegion("rep_landing_frigate")
+DeactivateRegion("rep_landing_frigate")
+
+--PlayAnimation("rep_frigate_countdown")
+
+
 	  
       end
    end
@@ -509,7 +542,7 @@ DeactivateRegion("cis_landing")
 SetProperty("cis_reactor_cube", "CurHealth", "0")
 SetProperty("cis_reactor_cube", "MaxHealth", "0")
 
-SetReinforcementCount(ATT, 150)
+SetReinforcementCount(DEF, 150)
 
       DestroyTimer(timer)
                  end,
@@ -585,8 +618,9 @@ function ScriptInit()
    
     SetMaxFlyHeight(1400)
     SetMaxPlayerFlyHeight (1400)
-	    SetMinFlyHeight(-550)
+	SetMinFlyHeight(-550)
     SetMinPlayerFlyHeight (-550)
+	SetGroundFlyerMap(1)
     
     SetMemoryPoolSize ("ClothData",20)
     SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
@@ -784,7 +818,12 @@ function ScriptInit()
 	AddLandingRegion("landing_4")
 	AddLandingRegion("landing_5")
 	AddLandingRegion("landing_6")
+	AddLandingRegion("landing_7")
+	AddLandingRegion("landing_8")
+	AddLandingRegion("landing_9")
+	AddLandingRegion("landing_10")
 	AddLandingRegion("rep_landing")
 	AddLandingRegion("cis_landing")
 	AddLandingRegion("cis_landing_frigate")
+	AddLandingRegion("rep_landing_frigate")
 end

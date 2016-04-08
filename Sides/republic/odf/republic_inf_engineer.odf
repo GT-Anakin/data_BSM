@@ -15,7 +15,7 @@ WeaponName         = "rep_weap_inf_fusioncutter"
 WeaponAmmo         = 0
 
 WEAPONSECTION = 3
-WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponName         = "com_weap_inf_powerup_dispenser"
 WeaponAmmo         = 4
 WeaponChannel      = 1
 

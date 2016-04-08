@@ -6,12 +6,19 @@ GeometryName    =   "Rep_Frigate_ext_Hallways.msh"
 
 [Properties]        
 
-GeometryName    =   "Rep_Frigate_ext_Hallways"
-MaxHealth           = "999999.0"
-AddHealth         = "50000.0"
-RespawnTime				= "999999"
+GeometryName    =   "REP_Frigate_ext_Hallways"
 
-VehicleCollision = "CLEAR"
-UseVCollForFlyers = 1
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
 
-SoundProperty = "shield_amb"
+DestroyedGeometryName	= ""
+
+ExplosionName		= "interoir_explosion_exp"
+ExplosionOffset             = "0.0 55.0 -150.0"
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"

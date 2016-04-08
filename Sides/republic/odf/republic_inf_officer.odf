@@ -17,7 +17,7 @@ WeaponName         = "rep_weap_inf_pistol"
 WeaponAmmo         = 0
 
 WEAPONSECTION = 3
-WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponName         = "com_weap_inf_thermalimploder"
 WeaponAmmo         = 4
 WeaponChannel      = 1
 

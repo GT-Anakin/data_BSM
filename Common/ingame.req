@@ -4,15 +4,19 @@ REQN
     {
         "model"
         "common_bldg_controlzone"
+	"com_item_weaponrecharge"
+	"com_item_healthrecharge"
     }
 
     REQN
     {
         "class"
-        "common_bldg_controlzone"
-        "common_bldg_controlzone_ctf"       
-        "common_bldg_untakeable_controlzone"
-        "common_bldg_invisible_controlzone"
-        "common_bldg_major_controlzone"
+        "com_bldg_controlzone"
+        "com_bldg_controlzone_ctf"       
+        "com_bldg_untakeable_controlzone"
+        "com_bldg_invisible_controlzone"
+        "com_bldg_major_controlzone"
+	"com_item_weaponrecharge"
+	"com_item_healthrecharge"
     }
 }

@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.657, 0.031, -0.752, 0.035);
-	Position(1112.868, -224.898, 2061.322);
+	Rotation(0.974, 0.113, 0.196, -0.023);
+	Position(-1379.965, 741.349, -814.211);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(3500.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -256,7 +256,7 @@ Object("CO3_bldg_building_05", "CO3_bldg_building_05", 513715446)
 
 Object("com_item_healthrecharge2", "com_item_healthrecharge", 538221829)
 {
-	ChildRotation(0.523, 0.000, 0.852, 0.000);
+	ChildRotation(0.523, 0.000, 0.853, 0.000);
 	ChildPosition(-58.311, -283.186, 40.638);
 	SeqNo(538221829);
 	Team(0);
