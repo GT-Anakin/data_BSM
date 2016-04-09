@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel          	= "missile"
+
+[Properties]
+ImpactEffectWater = "com_sfx_watersplash_md"
+TrailEffect = "com_sfx_weap_rockettrail"
+
+LifeSpan = "5"
+
+MinSpeed 	    = "300.0"
+Acceleration	    = "100.0"
+Velocity = "350"
+
+Gravity = "0.1"
+Rebound = "0"
+MaxDamage = "300"
+VehicleScale = "1"
+PersonScale = "1"
+DroidScale = "1"
+BuildingScale = "1"
+AnimalScale = "1"
+OrdnanceSound = "com_weap_inf_ord_hum_rocket"
+CollisionSound      = "com_veh_laser_imp_exp"
+
+TurnRate            = "1.75"
+
+WaverRate = "2.0"
+WaverTurn = ".25"
