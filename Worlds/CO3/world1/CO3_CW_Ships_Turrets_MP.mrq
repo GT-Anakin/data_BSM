@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_CW_Ships_Turrets_MP"
+	}
+	REQN
+	{
+		"world"
+		"CO3_CW_Ships_Turrets_MP"
+	}
+}

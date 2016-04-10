@@ -33,11 +33,11 @@ cd %1
 set MUNGE_ROOT_DIR=..\..\..
 if not "%2"=="" set MUNGE_PLATFORM=%2
 if %MUNGE_PLATFORM%x==x set MUNGE_PLATFORM=PC
-REM if "%MUNGE_BIN_DIR%"=="" (
+if "%MUNGE_BIN_DIR%"=="" (
 	set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	set PATH=%CD%\..\..\..\..\ToolsFL\Bin;%PATH%
-REM 	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-REM )
+	set "PATH=%CD%\..\..\..\..\ToolsFL\Bin;%PATH%"
+	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+)
 
 set MUNGE_ARGS=-checkdate -continue -platform %MUNGE_PLATFORM%
 set MUNGE_DIR=MUNGED\%MUNGE_PLATFORM%
@@ -72,6 +72,8 @@ configmunge -inputfile effects\*.fx %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -output
 move /y configmunge.log configmunge_fx.log
 configmunge -inputfile $*.combo %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -outputdir %MUNGE_DIR% 2>>%MUNGE_LOG%
 move /y configmunge.log configmunge_combo.log
+configmunge -inputfile $*.hud %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -outputdir %MUNGE_DIR% 2>>%MUNGE_LOG%
+move /y configmunge.log configmunge_hud.log
 %MUNGE_PLATFORM%_modelmunge -inputfile $*.msh %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -outputdir %MUNGE_DIR% 2>>%MUNGE_LOG%
 %MUNGE_PLATFORM%_texturemunge -inputfile $*.tga $*.pic %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -outputdir %MUNGE_DIR% 2>>%MUNGE_LOG%
 

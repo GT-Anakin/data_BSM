@@ -62,5 +62,7 @@ ucft
 		"CO3_conquest"
 		"CO3_CW_Ships"
 		"CO3_gcw_ships"
+		"CO3_CW_Ships_Turrets"
+		"CO3_CW_Ships_Turrets_MP"
 	}
 }

@@ -6,11 +6,11 @@
 @set MUNGE_ROOT_DIR=..\..
 @if not "%1"=="" set MUNGE_PLATFORM=%1
 @if %MUNGE_PLATFORM%x==x set MUNGE_PLATFORM=PC
-REM @if "%MUNGE_BIN_DIR%"=="" (
+@if "%MUNGE_BIN_DIR%"=="" (
 	@set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	@set PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%
-REM	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-REM )
+	@set "PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%"
+	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+)
 
 @set MUNGE_ARGS=-checkdate -continue -platform %MUNGE_PLATFORM%
 @set MUNGE_DIR=MUNGED\%MUNGE_PLATFORM%

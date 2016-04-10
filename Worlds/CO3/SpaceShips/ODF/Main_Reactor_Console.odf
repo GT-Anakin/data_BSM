@@ -12,7 +12,7 @@ MapScale 		= "0.0"
 GeometryName    =   "Main_Reactor_Console"
 DestroyedGeometryName	= "Main_Reactor_Console_Dest"
 
-MaxHealth       	= "150" //2000.0
+MaxHealth       	= "2000.0"
 
 ExplosionName		= "interoir_explosion_harmless_console_exp"
 

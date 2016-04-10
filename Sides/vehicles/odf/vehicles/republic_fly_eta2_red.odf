@@ -33,6 +33,10 @@ FirstPerson             = "VEHICLES\republic_fly_eta2_red_cockpit;republic_fly_e
 //ForceMode       = "1"
 
 MaxHealth           = 1500.0
+
+MaxShield = 1000.0
+AddShield = 25
+
 HealthType          = "vehicle"
 //HitLocation           = "p_crithit 0"
 
@@ -306,9 +310,9 @@ FOVEFFectMaxCamOffset3rd = "0.0 6.0 -18.0"
 Acceleraton             = 50.0
 MinSpeed                = 35.0
 MidSpeed                = 80
-MaxSpeed                = 105
-BoostAcceleration       = 80.0
-BoostSpeed              = 170.0
+MaxSpeed                = 100
+BoostAcceleration       = 85.0
+BoostSpeed              = 200.0
 
 TrickRollSpeed          = 6.0
 TrickFlipSpeed          = 9.0

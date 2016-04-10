@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.747, 0.165, 0.629, -0.139);
-	Position(-202.311, 520.478, 1367.172);
+	Rotation(-0.421, -0.000, -0.907, 0.001);
+	Position(33.504, 174.114, 66.989);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(3500.000);
+	FarPlane(2000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -1859,8 +1859,8 @@ Object("com_item_healthrecharge1", "com_item_healthrecharge", -1286030674)
 
 Object("ground_turret_3", "turrets_ground_turret", -1270510796)
 {
-	ChildRotation(0.707, 0.000, 0.707, 0.000);
-	ChildPosition(-155.603, -283.160, 47.644);
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-155.342, -283.160, 48.752);
 	SeqNo(-1270510796);
 	Team(0);
 	NetworkId(-1);
@@ -2068,6 +2068,15 @@ Object("com_item_weaponrecharge", "com_item_weaponrecharge", -995258628)
 	NetworkId(-1);
 	EffectRegion("");
 	Radius("5.0");
+}
+
+Object("ground_turret_5", "turrets_ground_turret", -985416853)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-141.131, -283.100, 48.738);
+	SeqNo(-985416853);
+	Team(0);
+	NetworkId(-1);
 }
 
 Object("com_item_healthrecharge6", "com_item_healthrecharge", -982593497)

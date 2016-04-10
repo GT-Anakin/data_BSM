@@ -1,0 +1,25 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "CIS_Frigate_ext_Hallways_closed.msh"
+
+
+[Properties]        
+
+GeometryName    =   "CIS_Frigate_ext_Hallways_closed"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+
+ExplosionName           = "spa_prop_frigate_destruct_exp"
+ExplosionOffset             = "0.0 52.0 180.0"
+
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"
+

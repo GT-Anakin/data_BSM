@@ -646,13 +646,16 @@ function ScriptInit()
 		"republic_fly_eta2_red")
 		
 		ReadDataFile("dc:SIDE\\turrets.lvl",
-		"turrets_ground_turret")
+		"turrets_ground_turret",
+		"turrets_anti_air")
 		
 				ReadDataFile("SIDE\\tur.lvl",
 		"tur_bldg_spa_rep_chaingun",
 		"tur_bldg_spa_rep_cannon",
+		"tur_bldg_spa_rep_beam",
 		"tur_bldg_spa_cis_chaingun",
-		"tur_bldg_spa_cis_recoilless",
+		"tur_bldg_spa_cis_cannon",
+		"tur_bldg_spa_cis_beam",
 		"tur_bldg_chaingun_roof",
         "tur_bldg_chaingun_tripod")
 		
@@ -749,8 +752,13 @@ function ScriptInit()
 	SetMemoryPoolSize("Weapon", weaponCnt)
     
     SetSpawnDelay(10.0, 0.25)
-    --ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships")
+	
+	if ScriptCB_InMultiplayer() then
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships", "CO3_CW_Ships_Turrets_MP")
+    else
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
+    end
+	
     SetDenseEnvironment("false")
 
 

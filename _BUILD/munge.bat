@@ -229,11 +229,11 @@ REM echo MUNGE_OVERRIDE_DIR=_SOURCE_%MUNGE_LANGVERSION% >> %MUNGE_LOG%
 REM echo MUNGE_LANGDIR=_SOURCE_%MUNGE_LANGDIR% >> %MUNGE_LOG%
 REM echo ********************************************************************* >> %MUNGE_LOG%
 
-REM if "%MUNGE_BIN_DIR%"=="" (
+if "%MUNGE_BIN_DIR%"=="" (
 	set MUNGE_BIN_DIR=%CD%\..\..\ToolsFL\Bin
 	REM echo MUNGE_BIN_DIR=%MUNGE_BIN_DIR%
-REM	set PATH=%CD%\..\..\ToolsFL\Bin;%PATH%
-REM )
+	set "PATH=%CD%\..\..\ToolsFL\Bin;%PATH%"
+)
 
 REM   --------------  MUNGE COMMON  -----------------------
 

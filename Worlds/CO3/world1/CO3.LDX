@@ -26,6 +26,16 @@ Layer("GCW_Ships", 4, 0)
 	Description("");
 }
 
+Layer("CW_Ships_Turrets", 5, 0)
+{
+	Description("");
+}
+
+Layer("CW_Ships_Turrets_MP", 6, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -46,5 +56,15 @@ GameMode("CW_Ships")
 GameMode("gcw_ships")
 {
 	Layer(4);
+}
+
+GameMode("CW_Ships_Turrets")
+{
+	Layer(5);
+}
+
+GameMode("CW_Ships_Turrets_MP")
+{
+	Layer(6);
 }
 

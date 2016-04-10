@@ -8,11 +8,11 @@ set MUNGE_ROOT_DIR=..\..
 if not "%1"=="" set MUNGE_PLATFORM=%1
 if %MUNGE_PLATFORM%x==x set MUNGE_PLATFORM=PC
 if %MUNGE_LANGDIR%x==x set MUNGE_LANGDIR=ENG
-REM if "%MUNGE_BIN_DIR%"=="" (
+if "%MUNGE_BIN_DIR%"=="" (
 	set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	set PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%
-REM	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-REM )
+	set "PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%"
+	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+)
 
 set MUNGE_ARGS=-checkdate -continue -platform %MUNGE_PLATFORM%
 set SHADER_MUNGE_ARGS=-continue -platform %MUNGE_PLATFORM%
@@ -86,6 +86,8 @@ REM ===== Merge and munge localization files
 
 set InputDir1=%MUNGE_ROOT_DIR%\Common\Localize\%MUNGE_PLATFORM%
 set InputDir2=%MUNGE_ROOT_DIR%\Common\Localize
+if exist %InputDir1%\japanese.cfg ( del %InputDir1%\japanese.cfg )
+if exist %InputDir2%\japanese.cfg ( del %InputDir2%\japanese.cfg )
 set MungeTemp=MungeTemp
 call MergeLocalize.bat %InputDir1% %InputDir2% %MungeTemp%
 REM Perform Munging
@@ -116,6 +118,16 @@ levelpack -inputfile MISSION.req %MUNGE_ARGS% -sourcedir %SOURCE_DIR% -inputdir 
 @echo off
 
 call munge_fpm.bat %MUNGE_PLATFORM%
+
+@set BAT_PATH=%~p0
+@set WORLD_NAME=%BAT_PATH:~-18,3%
+@for /F "tokens=2*" %%A in ('reg query "HKEY_CURRENT_USER\Software\Pandemic Studios\Visual Munge\General" /v ModToolsBattlefrontDir') do @set BF2_PATH=%%B
+@for %%A in (%MUNGE_ROOT_DIR%\%SOURCE_SUBDIR%\common.req) do @set REQ_TIME=%%~tA
+@if not "%REQ_TIME%"=="19.01.2006 18:22" xcopy %MUNGE_ROOT_DIR%\_LVL_%MUNGE_PLATFORM%\common.lvl "%BF2_PATH%\addon\%WORLD_NAME%\data\_LVL_PC\" /Y
+@for %%A in (%MUNGE_ROOT_DIR%\%SOURCE_SUBDIR%\ingame.req) do @set REQ_TIME=%%~tA
+@if not "%REQ_TIME%"=="19.01.2006 18:22" xcopy %MUNGE_ROOT_DIR%\_LVL_%MUNGE_PLATFORM%\ingame.lvl "%BF2_PATH%\addon\%WORLD_NAME%\data\_LVL_PC\" /Y
+@for %%A in (%MUNGE_ROOT_DIR%\%SOURCE_SUBDIR%\inshell.req) do @set REQ_TIME=%%~tA
+@if not "%REQ_TIME%"=="19.01.2006 18:22" xcopy %MUNGE_ROOT_DIR%\_LVL_%MUNGE_PLATFORM%\inshell.lvl "%BF2_PATH%\addon\%WORLD_NAME%\data\_LVL_PC\" /Y
 
 @REM If the munge log was created locally and has anything in it, view it
 @if not %MUNGE_LOG%x==%LOCAL_MUNGE_LOG%x goto skip_mungelog

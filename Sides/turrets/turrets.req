@@ -4,5 +4,6 @@ ucft
 	{
 		"lvl"
 		"turrets_ground_turret"
+		"turrets_anti_air"
 	}
 }
