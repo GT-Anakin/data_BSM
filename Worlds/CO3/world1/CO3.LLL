@@ -657,5 +657,17 @@ Group("Last Loaded")
 	Layer("CW_Ships_Turrets_MP");
 	Layer("GCW_Ships");
 	Layer("SoundStreams");
+	Layer("conquest");
+	Layer("CW_Ships");
+	Layer("CW_Ships_Turrets");
+	Layer("CW_Ships_Turrets_MP");
+	Layer("GCW_Ships");
+	Layer("SoundStreams");
+	Layer("conquest");
+	Layer("CW_Ships");
+	Layer("CW_Ships_Turrets");
+	Layer("CW_Ships_Turrets_MP");
+	Layer("GCW_Ships");
+	Layer("SoundStreams");
 }
 

@@ -8,14 +8,14 @@ GeometryName	=	"Rep_Frigate_ext"
 
 
 
-MaxHealth       	= "750000.0"
+MaxHealth       	= "120000.0"
 ExplosionName           = "spa_prop_frigate_destruct_exp"
 
 
 MapTexture = ""
 MapScale 		= "0.0"
 
-MaxShield	= "300000"
+MaxShield	= "650000"
 AddShield	= "0"
 
 FoleyFXGroup    = "metal_foley"
