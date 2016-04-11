@@ -77,6 +77,9 @@ function ScriptInit()
       "republic_inf_sniper",
       "republic_inf_engineer",
       "republic_inf_officer")
+	  
+	  ReadDataFile("dc:SIDE\\cis.lvl",
+						"cis_inf_rifleman")
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -89,7 +92,7 @@ function ScriptInit()
                              "rep_hover_barcspeeder",
                       "rep_fly_anakinstarfighter_sc")
     ReadDataFile("SIDE\\cis.lvl",
-                             "cis_inf_rifleman",
+   --                          "cis_inf_rifleman",
                              "cis_inf_rocketeer",
                              "cis_inf_engineer",
                              "cis_inf_sniper",

@@ -6,7 +6,7 @@
 @set MUNGE_ROOT_DIR=..\..\..
 @if "%MUNGE_BIN_DIR%"=="" (
 	@set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	@set PATH=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin;%PATH%
+	@set "PATH=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin;%PATH%"
 )
 
 zenasset /multimsh /writefiles %~1 > ZenAsset.log
