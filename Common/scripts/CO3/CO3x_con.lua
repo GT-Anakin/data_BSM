@@ -20,7 +20,79 @@ ScriptCB_DoFile("LinkedTurrets")
     DEF = CIS;
 
 
-function ScriptPostLoad()	   
+function ScriptPostLoad()	  
+
+--First Functions
+
+if not ScriptCB_InMultiplayer() then
+
+local reinfTrigger = false
+local playerTeam = 0
+local reinfTimer = CreateTimer("reinfTimer")
+SetTimerValue("reinfTimer", 0.0)
+
+local firstSpawn = OnCharacterSpawn(
+
+function(character)
+if IsCharacterHuman(character) then
+playerTeam = GetCharacterTeam(character)
+if reinfTrigger == false then
+StartTimer("reinfTimer")
+reinfTrigger = true
+end
+end
+end
+)
+
+OnTimerElapse(
+function(timer)
+if playerTeam == 1 then
+
+ForceHumansOntoTeam1()
+
+PlayAnimation("cis_console")
+
+cis_frigates_timer = CreateTimer("cis_frigates_timer")
+   --SetTimerValue(cis_frigates_timer, (480.0))
+   SetTimerValue(cis_frigates_timer, (680.0))
+StartTimer(cis_frigates_timer)
+   OnTimerElapse(
+function(timer)
+PlayAnimation("cis_frigates_arrive")
+
+      DestroyTimer(timer)
+                 end,
+              cis_frigates_timer
+              ) 
+			  
+elseif playerTeam == 2 then
+
+ForceHumansOntoTeam1(0)
+
+PlayAnimation("rep_console")
+
+rep_frigates_timer = CreateTimer("rep_frigates_timer")
+  -- SetTimerValue(rep_frigates_timer, (480.0))
+  SetTimerValue(rep_frigates_timer, (680.0))
+StartTimer(rep_frigates_timer)
+   OnTimerElapse(
+function(timer)
+PlayAnimation("rep_frigates_arrive")
+
+      DestroyTimer(timer)
+	  
+                 end,
+              rep_frigates_timer
+              ) 
+			  
+else
+print("Player team is somehow 0 or undefined...")
+end
+end, "reinfTimer"
+)
+ 
+ end
+ 
    -- DisableSmallMapMiniMap()
 	SetMapNorthAngle(180, 1)
 	SetupTurrets()  
@@ -98,6 +170,50 @@ OnObjectKill(
   end
 )
 
+
+--Call for Reinforcements Republic
+rep_frigates = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_comm_table_console" then
+	   rep_frigates_arrive_timer = CreateTimer("rep_frigates_arrive_timer")
+   SetTimerValue(rep_frigates_arrive_timer, (180.0))
+StartTimer(rep_frigates_arrive_timer)
+ShowTimer(rep_frigates_arrive_timer)
+   OnTimerElapse(
+function(timer)
+PlayAnimation("rep_frigates_arrive")
+ShowTimer(nil)
+      DestroyTimer(timer)
+                 end,
+              rep_frigates_arrive_timer
+              ) 
+			  
+      end
+   end
+)
+
+--Call for Reinforcements CIS
+cis_frigates = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_comm_table_console" then
+	   cis_frigates_arrive_timer = CreateTimer("cis_frigates_arrive_timer")
+   SetTimerValue(cis_frigates_arrive_timer, (180.0))
+StartTimer(cis_frigates_arrive_timer)
+ShowTimer(cis_frigates_arrive_timer)
+   OnTimerElapse(
+function(timer)
+PlayAnimation("cis_frigates_arrive")
+ShowTimer(nil)
+      DestroyTimer(timer)
+                 end,
+              cis_frigates_arrive_timer
+              ) 
+			  
+      end
+   end
+)
+
+
  --CIS Frigate
  cis_frigate = OnObjectKill(
    function(object, killer)
@@ -154,7 +270,7 @@ KillObject("cp_rep_frigate")
 RemoveRegion("rep_landing_frigate")
 DeactivateRegion("rep_landing_frigate")
 
---PlayAnimation("rep_frigate_countdown")
+PlayAnimation("rep_frigate_countdown")
 
 
 	  
@@ -616,8 +732,8 @@ function ScriptInit()
     ReadDataFile("ingame.lvl")
     
    
-    SetMaxFlyHeight(1400)
-    SetMaxPlayerFlyHeight (1400)
+    SetMaxFlyHeight(1800)
+    SetMaxPlayerFlyHeight (1800)
 	SetMinFlyHeight(-550)
     SetMinPlayerFlyHeight (-550)
 	SetGroundFlyerMap(1)
@@ -645,9 +761,9 @@ function ScriptInit()
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"republic_fly_eta2_red")
 		
-		ReadDataFile("dc:SIDE\\turrets.lvl",
+		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret",
-		"turrets_anti_air")
+		"turrets_anti_air")]]
 		
 				ReadDataFile("SIDE\\tur.lvl",
 		"tur_bldg_spa_rep_chaingun",

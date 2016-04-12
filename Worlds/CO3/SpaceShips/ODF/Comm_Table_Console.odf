@@ -1,0 +1,19 @@
+[GameObjectClass]       
+
+ClassLabel      =   "destructablebuilding"
+GeometryName    =   "Comm_Table_Console_Off.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Comm_Table_Console_Off"
+
+MapTexture = ""
+MapScale 		= "0.0"
+
+MaxHealth       	= "10"
+
+DestroyedGeometryName	= "Comm_Table_Console_On"
+
+AINoRepair      = "1"
+HideHealthBar = "1"

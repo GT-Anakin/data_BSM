@@ -1,0 +1,21 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+WaterEffect 		= "com_sfx_watersplash_ord_md"
+
+Damage 			= "0.0"
+DamageRadius 		= "3.0"
+Shake 		  	= "0.2"
+ShakeRadius 		= "5.0"
+Push 			= "0.5"
+PushRadius 		= "1.0"
+Effect 			= "com_sfx_weap_redbolt_exp_sm"
+
+VehicleScale		= "0.0"
+ShieldScale		= "0.0"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "0.0"
+
+SoundProperty  ="imp_weap_ord_exp_lg"

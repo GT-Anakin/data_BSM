@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(-0.421, -0.000, -0.907, 0.001);
-	Position(33.504, 174.114, 66.989);
+	Rotation(0.825, 0.064, 0.560, -0.043);
+	Position(-2611.017, 1007.498, -552.060);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -79,7 +79,7 @@ Object("CO3_bldg_building_group_12", "CO3_bldg_building_group_02", 68433693)
 	NetworkId(-1);
 }
 
-Object("ground_turret_02", "turrets_ground_turret", 84827747)
+Object("ground_turret_2", "turrets_ground_turret", 84827747)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(156.512, -300.000, -49.039);
@@ -256,7 +256,7 @@ Object("CO3_bldg_building_05", "CO3_bldg_building_05", 513715446)
 
 Object("com_item_healthrecharge2", "com_item_healthrecharge", 538221829)
 {
-	ChildRotation(0.523, 0.000, 0.853, 0.000);
+	ChildRotation(0.524, 0.000, 0.852, 0.000);
 	ChildPosition(-58.311, -283.186, 40.638);
 	SeqNo(538221829);
 	Team(0);
@@ -279,6 +279,15 @@ Object("CO3_prop_pole_437", "CO3_prop_pole_01", 557958726)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(119.098, -300.000, 28.053);
 	SeqNo(557958726);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("anti_air_turret_2", "turrets_anti_air", 569153501)
+{
+	ChildRotation(0.000, 0.000, -1.000, 0.000);
+	ChildPosition(-60.268, -277.273, -33.707);
+	SeqNo(569153501);
 	Team(0);
 	NetworkId(-1);
 }
@@ -656,6 +665,15 @@ Object("CO3_prop_pole_435", "CO3_prop_pole_01", 1293378992)
 	NetworkId(-1);
 }
 
+Object("anti_air_turret_1", "turrets_anti_air", 1300820990)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-153.744, -278.088, 77.843);
+	SeqNo(1300820990);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_group_5", "CO3_bldg_building_group_02", 1318715399)
 {
 	ChildRotation(0.798, 0.000, 0.603, 0.000);
@@ -970,7 +988,7 @@ Object("com_item_healthrecharge3", "com_item_healthrecharge", 1761037325)
 	Radius("5.0");
 }
 
-Object("ground_turret_01", "turrets_ground_turret", 1786738399)
+Object("ground_turret_1", "turrets_ground_turret", 1786738399)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(139.632, -300.000, -49.032);
@@ -1824,6 +1842,15 @@ Object("CO3_prop_adbox_7", "CO3_prop_adbox_01", -1409077817)
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
 	ChildPosition(-104.349, -283.072, -23.700);
 	SeqNo(-1409077817);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("anti_air_turret_3", "turrets_anti_air", -1353328197)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(164.113, -300.000, -22.255);
+	SeqNo(-1353328197);
 	Team(0);
 	NetworkId(-1);
 }

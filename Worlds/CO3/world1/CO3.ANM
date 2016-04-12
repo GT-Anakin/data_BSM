@@ -88,6 +88,30 @@ Animation("cis_lander_a", 120.00, 1, 0)
 	AddPositionKey(120.00, 0.00, 0.00, 15000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
+Animation("cis_frigates_arrive", 2.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, -600.00, 25000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("rep_frigates_arrive", 2.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(2.00, 0.00, -600.00, 40500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("cis_console", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -999999.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
+Animation("rep_console", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -999999.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
 AnimationGroup("ad_rings", 1, 0)
 {
 	Animation("ring_1", "ad_ring1");
@@ -297,5 +321,39 @@ AnimationGroup("cis_lander", 1, 0)
 	Animation("cis_lander_a", "cis_lander_a_2");
 	Animation("cis_lander_a", "cis_lander_a_1");
 	Animation("cis_lander_start", "cis_lander_start");
+}
+
+AnimationGroup("cis_frigates_arrive", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_frigates_arrive", "cis_frigate_ext_closed1");
+	Animation("cis_frigates_arrive", "cis_frigate_ext_closed2");
+	Animation("cis_frigates_arrive", "cis_frigate_ext_closed3");
+	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_1");
+	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_2");
+	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_3");
+}
+
+AnimationGroup("rep_frigates_arrive", 0, 0)
+{
+	DisableHierarchies();
+	Animation("rep_frigates_arrive", "rep_frigate_ext_closed1");
+	Animation("rep_frigates_arrive", "rep_frigate_ext_closed2");
+	Animation("rep_frigates_arrive", "rep_frigate_ext_closed3");
+	Animation("rep_frigates_arrive", "rep_frigate_arrive_1");
+	Animation("rep_frigates_arrive", "rep_frigate_arrive_2");
+	Animation("rep_frigates_arrive", "rep_frigate_arrive_3");
+}
+
+AnimationGroup("cis_console", 0, 0)
+{
+	DisableHierarchies();
+	Animation("cis_console", "cis_comm_table_console");
+}
+
+AnimationGroup("rep_console", 0, 0)
+{
+	DisableHierarchies();
+	Animation("rep_console", "rep_comm_table_console");
 }
 

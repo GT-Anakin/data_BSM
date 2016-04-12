@@ -1,0 +1,12 @@
+[GameObjectClass]       
+
+ClassLabel      =   "prop"
+GeometryName    =   "Comm_Table_Red.msh"
+
+
+[Properties]        
+
+GeometryName    =   "Comm_Table_Red"
+
+FoleyFXGroup    = "metal_foley"
+
