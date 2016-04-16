@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent         = "com_weap_veh_fly_stingers"
+
+[Properties]
+OrdnanceName        = "cis_weap_fly_trifighter_missile_ord"
+
+InitialSalvoDelay   = "0"
+SalvoCount          = "3"
+ShotsPerSalvo       = "1"
+SalvoDelay          = ".01"
+
+ShotDelay           = "0.3"
+RoundsPerClip       = "9"
+ReloadTime          = "9"
+
+FireSound           = "cis_weap_fly_tridroidfighter_missile_fire"

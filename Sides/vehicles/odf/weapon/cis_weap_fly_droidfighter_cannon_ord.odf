@@ -1,0 +1,10 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_veh_fly_multilasers_ord"
+
+[Properties]
+LaserTexture = "com_sfx_laser_orange"
+ExplosionName = "cis_weap_fly_droidfighter_cannon_exp"
+
+MaxDamage = "250"
+
+LaserGlowColor = "249 42 42 100"

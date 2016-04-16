@@ -1,0 +1,38 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+//***************************************
+//**********THERMAL MISSILES*************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+ImpactEffectWater 		= "com_sfx_watersplash_lg"
+
+//***************************************
+//**********DAMAGE EFFECTS***************
+//***************************************
+Damage 				= "500.0"
+DamageRadius 			= "30.0"
+
+Shake 		  	= "0.2"
+ShakeRadius 			= "2.0"
+
+Push 				= "0.5"
+PushRadius 			= "1.0"
+
+Effect 				= "com_sfx_weap_sc_exp_sm"
+
+VehicleScale		= "0.1"
+ShieldScale		= "0.1"
+PersonScale		= "0.4"
+DroidScale		= "1.0"
+BuildingScale		= "1.0"
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+
+SoundProperty = "com_weap_obj_small_exp"

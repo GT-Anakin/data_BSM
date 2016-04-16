@@ -1,0 +1,8 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_veh_fly_stingers_ord"
+
+[Properties]
+ExplosionName = "cis_weap_fly_trifighter_missile_exp"
+//ImpactEffect 			= "com_sfx_weap_sc_exp_lg"
+TrailEffect			= "spa1_sfx_lasertrail"
+//GeometryName 		= "com_weap_missile"

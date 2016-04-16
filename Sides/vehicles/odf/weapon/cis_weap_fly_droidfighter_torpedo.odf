@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent         = "com_weap_veh_fly_torpedo"
+
+[Properties]
+RoundsPerClip           = "6"
+ShotDelay           = "2.0"
+ReloadTime              = "4"
+
+SalvoCount          = "2"
+ShotsPerSalvo           = "1"
+SalvoDelay          = "0.33"
+
+OrdnanceName            = "cis_weap_fly_droidfighter_torpedo_ord"
+
+FireSound               = "cis_weap_fly_droidfighter_torpedo_fire"
+

@@ -1,0 +1,367 @@
+[GameObjectClass]
+ClassLabel          = "flyer"
+VehicleType         = "flyer"
+GeometryName            = "cis_fly_bomber.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+HUDModel            = "hud_grievousstarfighter_shape"
+Label               = "Greviousfighter"
+MapTexture          = "greviousfighter_icon"
+HealthTexture           = "HUD_cis_droidfighter_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+
+MapScale            = 1.5
+MapViewMin					= 750
+MapViewMax					= 750
+
+GeometryName            = "cis_fly_bomber"
+AnimationName           = "cis_fly_bomber"
+
+//FirstPerson               = "cis\cismafp;cis_1st_cockpit_MAF"
+
+ExplosionDestruct       = "cis_fly_bomber_exp"
+
+MaxHealth           = 5000.0
+
+MaxShield = 1400.0
+AddShield = 25
+
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 2.0"
+
+TimeRequiredToEject =   "2.5"
+EjectResistance         = "0.01"
+TimeTilReboard          = "5.0"
+
+PilotSkillRepairScale = 0.02
+
+// PathFollower Attributes
+PathFollowerClass           = "cis"
+PathFollowerClass_CTF       = "cis_flag"
+PathFollowerBranchPaths     = "6"
+PathFollowerBranchMaxAngle  = "45"
+PathFollowerMinBranchDist   = "190.0"
+PathFollowerBranchRange     = "1500"
+
+TakeoffTime             = 3.0
+TakeoffSpeed            = 2.0
+LandingTime             = 2.5
+LandingSpeed            = 4.5
+TakeoffHeight           = 1.0
+
+ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
+ThrustAttachPoint       = "bone_root"
+ThrustAttachOffset  = "-1,016 1,274 -4,261"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "1.4"
+ThrustEffectScaleStart  = "0.55"
+
+ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
+ThrustAttachPoint       = "bone_root"
+ThrustAttachOffset  = "1,016 1,274 -4,261"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "1.4"
+ThrustEffectScaleStart  = "0.55"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "boneroot"
+ContrailAttachOffset      = "0.9251 -0.0063 -3.1295"
+ContrailEffectMinScale    = "0.0"
+ContrailEffectMaxScale    = "1.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "boneroot"
+ContrailAttachOffset      = "-0.9251 -0.0063 -3.1295"
+ContrailEffectMinScale    = "0.0"
+ContrailEffectMaxScale    = "1.8"
+
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "boneroot"
+ContrailAttachOffset      = "0.9251 -0.0063 -3.1295"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale    = "1.2"
+ContrailEffectMaxScale    = "2.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "boneroot"
+ContrailAttachOffset      = "-0.9251 -0.0063 -3.1295"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale    = "1.2"
+ContrailEffectMaxScale    = "2.8"
+
+
+
+//WEAPON SYSTEMS
+
+WEAPONSECTION       = 1
+WeaponName          = "cis_weap_fly_greviousfighter_cannon"
+WeaponAmmo          = "0"
+
+AimerNodeName       = "hp_fireL1"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer           = "-"
+
+AimerNodeName       = "hp_fireR1"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer           = "-"
+
+AimerNodeName       = "hp_fireL2"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer           = "-"
+
+AimerNodeName       = "hp_fireR2"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+
+WEAPONSECTION       = 2
+WeaponName          = "cis_weap_fly_greviousfighter_bomb"
+WeaponAmmo          = "0"
+
+AimerNodeName       = "hp_cannonL"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer           = "-"
+
+AimerNodeName       = "hp_cannonR"
+AimerPitchLimits        = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+////DAMAGE///////////
+///////////////
+
+// SPARK
+
+DamageStartPercent = "85"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "75"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "65"
+DamageStopPercent = "5"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "65"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+DamageStartPercent = "55"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage3"
+
+// FLAME
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.85"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "25"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.85"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+
+
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "cis_fly_bomber_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "cis_fly_bomber_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "cis_fly_bomber_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+
+// SOUND
+
+VOUnitType              = 090
+EngineSound             = "cis_fly_grievousfighter_engine_parameterized"
+TakeoffSound            = "cis_fly_grievousfighter_take_off"
+LandSound               = "cis_fly_grievousfighter_land"
+HurtSound               = "imp_weap_ord_exp_lg"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "cis_fly_grievousfighter_turn_on" 
+TurnOffSound            = "cis_fly_grievousfighter_airbrakes_off" //Played when the flyer turns off
+TurnOffTime             = "1.5" //Time it takes to turn off the flyer (in seconds)
+TurningOffSound         = "cis_fly_grievousfighter_turn_off" // Played when a soldier leaves the flyer
+Cockpit1stPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in first person mode.
+Cockpit3rdPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in third person mode.
+BoostSound              = "cis_fly_grievousfighter_shift_up_low_property 0.11 1"
+BoostSound              = "cis_fly_grievousfighter_shift_up_property 0.47 1"
+BoostSound              = "cis_fly_grievousfighter_shift_up_high_property 0.62 1"
+BoostSound              = "cis_fly_grievousfighter_shift_down_low_property 0.11 0"
+//BoostSound              = "cis_fly_grievousfighter_shift_down_high_property 0.17 0"
+BoostSound              = "cis_fly_grievousfighter_shift_down_property 0.34 0"
+BoostSound              = "cis_fly_grievousfighter_shift_down_high_property 0.61 0"
+TrickSound              = "cis_fly_grievousfighter_roll" //Played when the flyer performs a roll 
+FlipSound               = "cis_fly_grievousfighter_flip" //Played when the flyer performs a flip
+ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.
+
+//MinSpeed            = 35.0 = .23
+//MidSpeed            = 60.0 = .4
+//MaxSpeed            = 85.0 = .57 Contrails at .62
+//BoostSpeed          = 150.0
+
+Music                   = ""
+CISMusic                ="cis_vehicle"
+RepMusic                ="rep_vehicle"
+ImpMusic                ="imp_vehicle"
+MusicSpeed              = ".15"
+MusicDelay              = "3.0"
+FoleyFXGroup            = "metal_foley"
+
+
+
+
+// ***************************************************************************************
+
+EnergyBar               = 60
+EnergyAutoRestore       = 10
+EnergyBoostDrain        = 20
+EnergyTrickDrainSingleTap = 15
+EnergyTrickDrainDoubleTap = 30
+
+FirstPersonFOV          = "52"
+CockpitTension          = "22"
+CollisionScale          = 1.5
+CollisionThreshold      = 5.0
+
+PitchRate               = 1.0
+PitchFilter             = 6.0
+PitchFilterDecel        = 6.0
+PitchBuildupMultiplier  = 1.0
+TurnRate                = 0.75
+TurnFilter              = 6.0
+TurnFilterDecel         = 6.0
+TurnBuildupMultiplier   = 1.0
+
+BankAngle               = 0.8
+BankFilter              = 3.5
+LevelFilter             = 1.5
+LevelFilterLanding      = 5.0 // LevelFilter for landing
+RollRate                = 3.15
+
+PCPitchRate             = 15.0
+PCSpinRate              = 15.0
+PCTurnRate              = 25.0
+
+EyePointOffset      = "0.0 1.5 0.0"
+TrackCenter         = "0.0 2.25 -6.0"
+TrackOffset         = "0.0 2.0 6.0"
+
+TiltValue               = "5.0"
+
+AimTension              = "20.0"
+
+MoveTensionX            = "2.8"
+MoveTensionY            = "2.0 12.0"
+MoveTensionZ            = "4.25"
+
+BlurEffect              = 0.9
+BlurStart               = 40.0
+
+FOVEffect3rd            = 90
+FOVEFFectMinCamOffset3rd = "0.0 3.0 10.0"
+FOVEFFectMaxCamOffset3rd = "0.0 7.5 -18.0"
+
+FOVEffect1st            = 90
+
+Acceleraton = "40"
+MinSpeed = "35"
+MidSpeed = "70"
+MaxSpeed = "95"
+BoostAcceleration = "60"
+BoostSpeed = "120"
+
+TrickRollSpeed = 5.0
+TrickFlipSpeed = 5.0
+TrickSideRollStrafeSpeed = 30
+TrickFlipCameraDetach = 0.24
+TrickSideRollCameraDetach = 0.48
+
+
+
+
+
+
+

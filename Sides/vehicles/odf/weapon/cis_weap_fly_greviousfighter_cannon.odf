@@ -1,0 +1,11 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_fly_recoilless"
+
+[Properties]
+OrdnanceName    = "cis_weap_fly_greviousfighter_cannon_ord"
+
+ShotDelay       = ".5"
+
+FireSound       = "cis_weap_fly_grievousfighter_cannon_fire"
+FireSoundStop   = "1"
+

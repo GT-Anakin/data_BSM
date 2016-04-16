@@ -1,0 +1,5 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_veh_fly_recoilless_ord"
+
+[Properties]
+ExplosionName = "cis_weap_fly_greviousfighter_cannon_exp"

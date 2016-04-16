@@ -1,0 +1,19 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_fly_chaingun"
+
+[Properties]
+OrdnanceName = "cis_weap_fly_trifighter_cannon_ord"
+
+
+
+//*****SOUND*****//
+//FireSound = "cis_weap_fly_tridroidfighter_cannon_fire"
+
+WarmUpSound         = "cis_weap_fly_tridroidfighter_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "cis_weap_fly_tridroidfighter_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

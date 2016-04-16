@@ -1,0 +1,359 @@
+[GameObjectClass]
+ClassLabel = "flyer"
+GeometryName = "cis_fly_droid_fighter.msh"
+VehicleType = "fighter"
+
+[Properties]
+LODPriorityMod = "2.5"
+
+FLYERSECTION = "BODY"
+Label = "Droid Starfighter"
+MapTexture = "droidfighter_icon"
+MapScale = "1.5"
+HUDModel = "hud_DroidStarfighter_vulture_shape"
+HealthTexture = "HUD_cis_droidfighter_icon"
+
+MapScale            = 1.5
+MapViewMin					= 750
+MapViewMax					= 750
+
+
+VehiclePosition = "common.vehiclepositions.pilot"
+
+GeometryName = "cis_fly_droid_fighter"
+AnimationName = "cis_fly_droid_fighter"
+//FirstPerson = "cis\cisstrft;cis_1st_cockpit_starfighter"
+
+//ForceMode = "1"
+CollisionScale = "1.5"
+CollisionThreshold = "5"
+
+MaxHealth = "2250"
+HealthType = "vehicle"
+
+MaxShield = 1200.0
+AddShield = 25
+
+PilotSkillRepairScale = 0.02
+
+TimeRequiredToEject =   "2.5"
+EjectResistance         = "0.01"
+TimeTilReboard          = "5.0"
+
+TakeoffTime             = 3.0
+TakeoffSpeed            = 2.0
+LandingTime             = 2.5
+LandingSpeed            = 4.5
+TakeoffHeight           = 1.0
+
+// PathFollower Attributes
+PathFollowerClass       = "cis"
+PathFollowerClass_CTF       = "cis_flag"
+PathFollowerBranchPaths     = "6"
+PathFollowerBranchMaxAngle  = "60"
+PathFollowerMinBranchDist   = "190.0"
+PathFollowerBranchRange       = "1500"
+
+SquadronFormation = "five-form"
+SquadronFormation = "eschleft-form"
+
+ExplosionDestruct = "cis_fly_droid_fighter_exp"
+
+
+SquadronFormation = "eschrgt-form"
+SquadronFormation = "wall-form"
+
+WEAPONSECTION   = "1"
+WeaponName      = "cis_weap_fly_droidfighter_cannon"
+WeaponAmmo      = "0"
+
+AimerNodeName       = "hp_gun1"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer   = "-"
+
+AimerNodeName       = "hp_gun2"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer   = "-"
+
+AimerNodeName       = "hp_gun3"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer = "-"
+
+AimerNodeName       = "hp_gun4"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+
+WEAPONSECTION   = "2"
+WeaponName      = "cis_weap_fly_droidfighter_torpedo"
+WeaponAmmo      = "0"
+
+AimerNodeName       = "hp_gun1"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+NextAimer   = "-"
+
+AimerNodeName       = "hp_gun2"
+AimerPitchLimits    = "-90.0 90.0"
+AimerYawLimits      = "-90.0 90.0"
+
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "cis_fly_droid_fighter_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "cis_fly_droid_fighter_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "cis_fly_droid_fighter_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK4"
+ChunkGeometryName       = "cis_fly_droid_fighter_chunk4"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK5"
+ChunkGeometryName       = "cis_fly_droid_fighter_chunk5"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+// SPARK
+
+DamageStartPercent = "85"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "75"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "65"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+// FLAME
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.85"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "25"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.85"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"
+
+
+
+VOUnitType              = 091
+EngineSound             = "cis_fly_droidfighter_engine_parameterized"
+TakeoffSound            = "cis_fly_droidfighter_take_off"
+LandSound               = "cis_fly_droidfighter_land"
+HurtSound               = "imp_weap_ord_exp_lg"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "cis_fly_droidfighter_turn_on" 
+TurnOffSound            = "cis_fly_droidfighter_turn_off" //Played when the flyer turns off
+TurnOffTime             = "1.5" //Time it takes to turn off the flyer (in seconds)
+TurningOffSound         = "cis_fly_droidfighter_airbrakes_off" // Played when a soldier leaves the flyer
+Cockpit1stPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in first person mode.
+Cockpit3rdPersonSound   = "cis_inf_com_space_chatter" // Sound which is triggered every frame when the player is in third person mode.
+BoostSound              = "cis_fly_droidfighter_shift_up_low_property 0.11 1"
+BoostSound              = "cis_fly_droidfighter_shift_up_property 0.53 1"
+BoostSound              = "cis_fly_droidfighter_shift_up_high_property 0.69 1"
+BoostSound              = "cis_fly_droidfighter_shift_down_low_property 0.11 0"
+//BoostSound              = "cis_fly_droidfighter_shift_down_high_property 0.17 0"
+BoostSound              = "cis_fly_droidfighter_shift_down_property 0.41 0"     
+BoostSound              = "cis_fly_droidfighter_shift_down_high_property 0.78 0"     
+TrickSound              = "cis_fly_droidfighter_roll" //Played when the flyer performs a roll 
+FlipSound               = "cis_fly_droidfighter_flip" //Played when the flyer performs a flip
+ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.
+//Acceleraton       = 40.0 -- Pitch Nominal
+//BoostAcceleration = 80.0 -- Pitch Max
+//MinSpeed          = 35.0  --- .23
+//MidSpeed          = 70.0  --- .47
+//MaxSpeed          = 95.0 ---  .63
+//110% MaxSpeed     = 117.5 ---  Contrails kick in .78
+//BoostSpeed        = 150.0 --- 1.0 - TrueMax                  
+Music                   = ""
+CISMusic                ="cis_vehicle"
+RepMusic                ="rep_vehicle"
+ImpMusic                ="imp_vehicle"
+MusicSpeed              = ".15"
+MusicDelay              = "3.0"
+FoleyFXGroup            = "metal_foley"
+
+
+
+EnergyBar = "80"
+EnergyAutoRestore = "7.5"
+EnergyBoostDrain = "20"
+EnergyTrickDrainSingleTap = "15"
+EnergyTrickDrainDoubleTap = "30"
+FirstPersonFOV = "52"
+CockpitTension = "22"
+
+PitchRate = 1.25
+PitchFilter = 6.0
+PitchFilterDecel = 6.0
+PitchBuildupMultiplier = 1.0
+TurnRate = 1.0
+TurnFilter = 6.0
+TurnFilterDecel = 6.0
+TurnBuildupMultiplier = 1.0
+
+BankAngle = "0.8"
+BankFilter = "3.5"
+LevelFilter = "1.5"
+LevelFilterLanding = "5"
+RollRate = "3.15"
+PCPitchRate = "15"
+PCSpinRate = "15"
+PCTurnRate = "25"
+EyePointOffset = "0.0 1.5 0.0"
+ThirdPersonFOV  = 40
+
+TiltValue = "5"
+
+AimTension              = "20.0"
+
+MoveTensionX            = "3.6"
+MoveTensionY            = "4.0 15.0"
+MoveTensionZ            = "4.25"
+
+TrackCenter = "0.0 2.0 -5.0"
+TrackOffset = "0.0 2.0 6.0"
+
+BlurEffect = "0.9"
+BlurStart = "40"
+FOVEffect3rd = "60"
+FOVEFFectMinCamOffset3rd = "0.0 2.0 10.0"
+FOVEFFectMaxCamOffset3rd = "0.0 3.0 -10.0"
+FOVEffect1st = "90"
+
+Acceleraton             = 40.0
+MinSpeed                = 35.0
+MidSpeed                = 70
+MaxSpeed                = 95.0
+BoostAcceleration       = 80.0
+BoostSpeed              = 160.0
+
+TrickRollSpeed = "6"
+TrickFlipSpeed = "6"
+TrickSideRollStrafeSpeed = "30"
+TrickFlipCameraDetach = "0.24"
+TrickSideRollCameraDetach = "0.48"
+
+
+
+ContrailEffect          = "com_sfx_contrail"
+ContrailAttachPoint     = "DummyRoot"
+ContrailAttachOffset    = "2.8626 -0.215 -0.9858"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+ContrailEffect          = "com_sfx_contrail"
+ContrailAttachPoint     = "DummyRoot"
+ContrailAttachOffset    = "-2.8626 -0.215 -0.9858"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+ContrailEffect          = "com_sfx_contrail"
+ContrailAttachPoint     = "DummyRoot"
+ContrailAttachOffset    = "2.8626 -0.215 -0.9858"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale  = "1.6"
+ContrailEffectMaxScale  = "2.8"
+
+ContrailEffect          = "com_sfx_contrail"
+ContrailAttachPoint     = "DummyRoot"
+ContrailAttachOffset    = "-2.8626 -0.215 -0.9858"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale  = "1.6"
+ContrailEffectMaxScale  = "2.8"

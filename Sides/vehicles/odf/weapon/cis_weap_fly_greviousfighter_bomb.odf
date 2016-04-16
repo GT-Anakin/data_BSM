@@ -1,0 +1,20 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_bombs"
+
+[Properties]
+OrdnanceName 			= "cis_weap_fly_greviousfighter_bomb_ord"
+
+ShotDelay			= "0.15"
+RoundsPerClip 			= "6"
+ReloadTime 			= "6"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+ShotsPerSalvo = "1"
+
+//************************************************
+//**********************SOUND*********************
+//************************************************
+
+FireSound               = "cis_weap_fly_grievousfighter_bomb_fire"
+//ReloadSound     		= "vehicle_reload"

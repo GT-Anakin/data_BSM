@@ -1,0 +1,324 @@
+[GameObjectClass]
+ClassLabel          = "flyer"
+GeometryName            = "republic_fly_170_fighter.msh"
+
+[Properties]
+HUDModel        = "hud_arc170_shape"
+FLYERSECTION            = "BODY"
+VehicleType             = "fighter"
+
+MapTexture          = "arc170_icon"
+HealthTexture           = "HUD_rep_jedistarfighter_icon"
+VehiclePosition         = "common.vehiclepositions.pilot"
+
+MapScale            = 1.5
+MapViewMin					= 750
+MapViewMax					= 750
+
+// PathFollower Attributes
+PathFollowerClass           = "rep"
+PathFollowerClass_CTF       = "rep_flag"
+PathFollowerBranchPaths     = "6"
+PathFollowerBranchMaxAngle  = "60"
+PathFollowerMinBranchDist   = "190.0"
+PathFollowerBranchRange     = "1500"
+
+SquadronFormation = "five-form"
+SquadronFormation = "eschleft-form"
+//-----------------------------------
+
+GeometryName            = "republic_fly_170_fighter"
+AnimationName           = "republic_fly_170"
+FirstPerson             = "VEHICLES\republic_fly_170_fighter_cockpit;republic_fly_170_fighter_cockpit"
+//ForceMode       = "1"
+
+MaxHealth       = "2250"
+HealthType          = "vehicle"
+
+MaxShield = 1200.0
+AddShield = 25
+
+TimeRequiredToEject =   "2.5"
+EjectResistance         = "0.01"
+TimeTilReboard          = "5.0"
+
+PilotSkillRepairScale = 0.02
+
+
+TakeoffTime             = 3.0
+TakeoffSpeed            = 2.0
+LandingTime             = 2.5
+LandingSpeed            = 4.5
+TakeoffHeight           = 1.0
+LandedHeight		= 0.0
+
+
+WEAPONSECTION           = 1
+WeaponName          = "republic_fly_170_fighter_cannon"
+WeaponAmmo          = 0
+
+AimerNodeName           = "hp_fire_l1"
+NextAimer           = "-"
+AimerNodeName           = "hp_fire_r1"
+
+
+WEAPONSECTION           = 2
+WeaponName          = "republic_fly_170_fighter_bomb"
+WeaponAmmo          = 0
+
+AimerNodeName           = "hp_fire_l2"
+NextAimer           = "-"
+AimerNodeName           = "hp_fire_r2"
+
+// CHUNCK SECTIONs
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "republic_fly_170_fighter_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "republic_fly_170_fighter_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "republic_fly_170_fighter_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK4"
+ChunkGeometryName       = "republic_fly_170_fighter_chunk4"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+// EFFECTS
+
+ThrustEffect        = "com_sfx_exhaust_xwing"
+ThrustAttachPoint       = "dummyroot"
+ThrustAttachOffset  = "1.5419 -0.2269 -4.4174"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "2.2"
+ThrustEffectScaleStart  = "0.0"
+
+ThrustEffect        = "com_sfx_exhaust_xwing"
+ThrustAttachPoint       = "dummyroot"
+ThrustAttachOffset  = "-1.5419 -0.2269 -4.4174"
+ThrustEffectMinScale    = "0.5"
+ThrustEffectMaxScale    = "2.2"
+ThrustEffectScaleStart  = "0.0"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "7.8376 -0.8179 -0.4615"
+ContrailEffectMinScale    = "0.2"
+ContrailEffectMaxScale    = "0.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "-7.8376 -0.8179 -0.4615"
+ContrailEffectMinScale    = "0.2"
+ContrailEffectMaxScale    = "0.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "7.8376 -0.8179 -0.4615"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale    = "1.2"
+ContrailEffectMaxScale    = "1.8"
+
+ContrailEffect            = "com_sfx_contrail"
+ContrailAttachPoint       = "dummyroot"
+ContrailAttachOffset      = "-7.8376 -0.8179 -0.4615"
+ContrailEffectMinSpeed    = "0.0"
+ContrailEffectMinScale    = "1.2"
+ContrailEffectMaxScale    = "1.8"
+
+
+DamageStartPercent  = 85.0
+DamageStopPercent       = 0.0
+DamageEffect        = "com_sfx_vehiclespark_sc"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent  = 75.0
+DamageStopPercent       = 0.0
+DamageEffect        = "com_sfx_vehiclespark_sc"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage2"
+
+DamageStartPercent  = 75.0
+DamageStopPercent       = 45.0
+DamageEffect        = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent    = 55.0
+DamageStopPercent     = 25.0
+DamageEffect      = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale     = 1.0
+DamageInheritVelocity = 0.0
+DamageAttachPoint     = "hp_damage2"
+
+DamageStartPercent  = 45.0
+DamageStopPercent       = 0.0
+DamageEffect        = "com_sfx_vehicleflame_sc"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage1"
+
+DamageStartPercent  = 25.0
+DamageStopPercent       = 0.0
+DamageEffect        = "com_sfx_vehicleflame_sc"
+DamageEffectScale       = 1.0
+DamageInheritVelocity   = 0.0
+DamageAttachPoint       = "hp_damage2"
+
+ExplosionDestruct       = "republic_fly_170_fighter_exp"
+
+//SOUND************************
+VOUnitType              = 129
+EngineSound             = "rep_fly_arc170_engine_parameterized"
+TakeoffSound            = "rep_fly_arc170_take_off"
+LandSound               = "rep_fly_arc170_land"
+HurtSound               = "imp_weap_ord_exp_lg"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "rep_fly_arc170_turn_on" 
+TurnOffSound            = "rep_fly_arc170_airbrakes_off" //Played when the flyer turns off
+TurnOffTime             = "1.5" //Time it takes to turn off the flyer (in seconds)
+TurningOffSound         = "rep_fly_arc170_turn_off" // Played when a soldier leaves the flyer
+Music                   = ""
+CISMusic                = "cis_vehicle"
+RepMusic                = "rep_vehicle"
+MusicSpeed              = "0.3"
+MusicDelay              = "3.0"
+AfterburnerOnSound      = ""
+AfterburnerOffSound     = ""
+AfterburnerSpeed        = ""
+Cockpit1stPersonSound   = "rep_inf_com_space_chatter"
+Cockpit3rdPersonSound   = "rep_inf_com_space_chatter"
+BoostSound              = "rep_fly_arc170_shift_up_property 0.11 1"
+BoostSound              = "rep_fly_arc170_shift_up_property 0.53 1"
+BoostSound              = "rep_fly_arc170_shift_up_high_property 0.69 1"
+BoostSound              = "rep_fly_arc170_shift_down_property 0.17 0"
+BoostSound              = "rep_fly_arc170_shift_down_property 0.69 0"
+TrickSound              = "rep_fly_arc170_roll" //Played when the flyer performs a roll 
+FlipSound               = "rep_fly_arc170_flip" //Played when the flyer performs a flip
+ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.
+FoleyFXGroup    = "metal_foley"
+
+//MinSpeed                = 35.0
+//MidSpeed                = 70
+//MaxSpeed                = 95.0
+//BoostAcceleration       = 80.0
+//BoostSpeed              = 150.0
+
+// ***************************************************************************************
+
+EnergyBar               = 180
+EnergyAutoRestore       = 10
+EnergyBoostDrain        = 20
+EnergyTrickDrainSingleTap = 15
+EnergyTrickDrainDoubleTap = 30
+
+FirstPersonFOV          = "52"
+CockpitTension          = "28"
+CollisionScale          = 1.5
+CollisionThreshold      = 5.0
+
+PitchRate               = 1.25
+PitchFilter             = 6.0
+PitchFilterDecel        = 6.0
+PitchBuildupMultiplier  = 1.0
+TurnRate                = 1.0
+TurnFilter              = 6.0
+TurnFilterDecel         = 6.0
+TurnBuildupMultiplier   = 1.0
+
+BankAngle               = 0.8
+BankFilter              = 3.5
+LevelFilter             = 1.5
+LevelFilterLanding      = 5.0 // LevelFilter for landing
+RollRate                = 3.15
+
+PCPitchRate             = 15.0
+PCSpinRate              = 15.0
+PCTurnRate              = 25.0
+
+EyePointOffset          = "0.0 1.0 -2.0"
+TrackCenter             = "0.0 3.0 -7.0"
+TiltValue               = "5.0"
+
+AimTension              = "20.0"
+
+MoveTensionX            = "2.8"
+MoveTensionY            = "2.8 12.0"
+MoveTensionZ            = "4.25"
+
+
+BlurEffect              = 0.9
+BlurStart               = 40.0
+
+FOVEffect3rd            = 90
+FOVEFFectMinCamOffset3rd = "0.0 2.0 10.0"
+FOVEFFectMaxCamOffset3rd = "0.0 4.0 -18.0"
+
+FOVEffect1st            = 90
+
+Acceleraton             = 40.0
+MinSpeed                = 35.0
+MidSpeed                = 70
+MaxSpeed                = 95.0
+BoostAcceleration       = 80.0
+BoostSpeed              = 160.0
+
+TrickRollSpeed          = 5.0
+TrickFlipSpeed          = 5.0
+TrickSideRollStrafeSpeed = 30
+TrickFlipCameraDetach   = 0.24
+TrickSideRollCameraDetach = 0.48
