@@ -3,7 +3,7 @@ ClassParent 			= "com_weap_veh_laser_ord"
 
 [Properties]
 MaxDamage 			= "250.0"
-Velocity = "2800"
+Velocity = "3500"
 
 LaserTexture		= "com_sfx_laser_blue"
 LaserGlowColor		= "5 10 255 100"

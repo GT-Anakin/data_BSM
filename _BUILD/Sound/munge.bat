@@ -6,11 +6,11 @@
 @set MUNGE_ROOT_DIR=..\..
 @if not "%1"=="" set MUNGE_PLATFORM=%1
 @if %MUNGE_PLATFORM%x==x set MUNGE_PLATFORM=PC
-@if "%MUNGE_BIN_DIR%"=="" (
+REM @if "%MUNGE_BIN_DIR%"=="" (
 	@set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	@set "PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%"
-	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-)
+	@set PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%
+REM	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+REM )
 
 @rem convert to lower case
 @if %MUNGE_PLATFORM%==PC   set MUNGE_PLATFORM=pc
@@ -32,12 +32,12 @@
 @cd ..\..
 
 @if not exist _LVL_%MUNGE_PLATFORM% mkdir _LVL_%MUNGE_PLATFORM%
-@if not exist _LVL_%MUNGE_PLATFORM%\SOUND mkdir _LVL_%MUNGE_PLATFORM%\SOUND
+@if not exist _LVL_%MUNGE_PLATFORM%\Sound mkdir _LVL_%MUNGE_PLATFORM%\Sound
 
-@if /i %MUNGE_PLATFORM%==pc @set BANKOPT=-template -stub c:\windows\media\chord.wav
+@if /i %MUNGE_PLATFORM%==pc @set BANKOPT=-template
 
 @call soundmunge.bat %MUNGE_PLATFORM%
-@if %SOUNDCLEANLVL%x==1x @del /S /Q _BUILD\Sound\*.lvl & @call soundmunge.bat %MUNGE_PLATFORM%
+@if %SOUNDCLEANLVL%x==1x @del /S /Q _BUILD\sound\*.lvl & @call soundmunge.bat %MUNGE_PLATFORM%
 
 @if /i not "%SOUNDLVL%"=="" (
 	@for %%A in (%SOUNDLVL%) do @if /i "%%A"=="global" @goto buildglobalbank
@@ -48,12 +48,11 @@
 @set BANKLIST=
 @for /R %%A in (*.sfx) do @set BANKLIST=!BANKLIST! %%A
 @for /R %%A in (*.stm) do @set BANKLIST=!BANKLIST! %%A
-@for /R %%A in (*.asfx) do @set BANKLIST=!BANKLIST! %%A
 @if %SOUNDLOG%x==1x ( @set SOUNDOPT=-verbose & @set SOUNDLOGOUT=%LOGDIR%\SoundBankLog.txt ) else ( @set SOUNDOPT= & @set SOUNDLOGOUT=NUL )
 
 @if not %MUNGE_PLATFORM%==pc goto skipglobalbank
 @echo Munging common.bnk, this could take a while...
-@soundflmunge -platform %MUNGE_PLATFORM% -banklistinput %BANKLIST% -bankoutput _LVL_%MUNGE_PLATFORM%\SOUND\common.bnk -checkdate -resample -compact nowarning -checkid noabort -relativepath %SOUNDOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
+@soundflmunge -platform %MUNGE_PLATFORM% -banklistinput %BANKLIST% -bankoutput _LVL_%MUNGE_PLATFORM%\Sound\common.bnk -checkdate -resample -compact nowarning -checkid noabort -relativepath %SOUNDOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
 
 :skipglobalbank
 

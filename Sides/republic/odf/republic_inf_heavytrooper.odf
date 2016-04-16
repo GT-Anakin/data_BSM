@@ -3,7 +3,9 @@ ClassParent         = "republic_inf_default"
 
 [Properties]
 GeometryName        = "rep_bf3_heavytrooper"
+GeometryLowRes		= "rep_bf3_heavytrooper_low"
 SkeletonName		= "bf3clones"
+//SkeletonLowRes		= "bf3clones"
 FirstPerson         = "REP\reptroop;rep_1st_trooper"
 
 WEAPONSECTION = 1

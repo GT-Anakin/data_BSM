@@ -19,10 +19,67 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    Gain(1.0);
+    Gain(2.0);
     Looping(1);
     SegmentList()
     {
         Segment("co3_amb_bar", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_crashed_spaceship");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(0.6);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_crashed_spaceship", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_exterior_flybys");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    RandomPlayPos(1);
+    Gain(0.4);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_exterior_flybys", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_holo_sign");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(0.9);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_holo_sign", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_pink_shield");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(2.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_pink_shield", 1.0);
     }
 }

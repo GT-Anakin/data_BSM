@@ -1,12 +1,12 @@
 Version(1);
-RegionCount(2);
+RegionCount(6);
 
 Region("soundstream co3_amb_bar 1.5", 1)
 {
 	Layer(2);
 	Position(-67.307922, -279.789185, 45.539593);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
-	Size(40.000000, 40.000000, 40.000000);
+	Size(35.000000, 35.000000, 35.000000);
 	Name("amb_bar");
 }
 
@@ -17,4 +17,40 @@ Region("soundstream co3_amb_exterior 1", 1)
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(2000.000000, 2000.000000, 2000.000000);
 	Name("amb_exterior");
+}
+
+Region("soundstream co3_amb_pink_shield 2", 1)
+{
+	Layer(2);
+	Position(-111.565681, -279.774170, 172.065109);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(25.000000, 25.000000, 25.000000);
+	Name("amb_pink_shield");
+}
+
+Region("soundstream co3_amb_holo_sign 1.8", 1)
+{
+	Layer(2);
+	Position(-143.430283, -257.469788, 125.900955);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 20.000000, 20.000000);
+	Name("amb_holo_1");
+}
+
+Region("soundstream co3_amb_holo_sign 1.8", 1)
+{
+	Layer(2);
+	Position(150.324478, -281.271667, -84.569595);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 20.000000, 20.000000);
+	Name("amb_holo_2");
+}
+
+Region("soundstream co3_amb_exterior_flybys 1.6", 1)
+{
+	Layer(2);
+	Position(-17.036642, -300.389526, -0.326289);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(190.000000, 190.000000, 190.000000);
+	Name("amb_exterior_flybys");
 }

@@ -9,7 +9,7 @@ ExplosionExpire		= "turrets_weap_anti_air_exp"
 
 
 
-ShotDelay           = "0.25"
+ShotDelay           = "0.18"
 
 RoundsPerClip 			= "0"
 ReloadTime 			= "0.0"

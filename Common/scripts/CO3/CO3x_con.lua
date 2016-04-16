@@ -21,6 +21,8 @@ ScriptCB_DoFile("LinkedTurrets")
 
 
 function ScriptPostLoad()	  
+AllowAISpawn(1, false)
+AllowAISpawn(2, false)
 
 --First Functions
 
@@ -53,8 +55,7 @@ ForceHumansOntoTeam1()
 PlayAnimation("cis_console")
 
 cis_frigates_timer = CreateTimer("cis_frigates_timer")
-   --SetTimerValue(cis_frigates_timer, (480.0))
-   SetTimerValue(cis_frigates_timer, (680.0))
+   SetTimerValue(cis_frigates_timer, (480.0))
 StartTimer(cis_frigates_timer)
    OnTimerElapse(
 function(timer)
@@ -73,7 +74,7 @@ PlayAnimation("rep_console")
 
 rep_frigates_timer = CreateTimer("rep_frigates_timer")
   -- SetTimerValue(rep_frigates_timer, (480.0))
-  SetTimerValue(rep_frigates_timer, (680.0))
+  SetTimerValue(rep_frigates_timer, (480.0))
 StartTimer(rep_frigates_timer)
    OnTimerElapse(
 function(timer)
@@ -759,7 +760,12 @@ function ScriptInit()
 		"republic_inf_officer")
 		
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
-		"republic_fly_eta2_red")
+		"republic_fly_eta2_red",
+		"republic_fly_170_fighter",
+		"republic_fly_vwing",
+		"cis_fly_tri_fighter",
+		"cis_fly_droid_fighter",
+		"cis_fly_bomber")
 		
 		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret",
@@ -785,9 +791,9 @@ function ScriptInit()
                              "rep_hover_fightertank",
                              "rep_hero_anakin",
                              "rep_hover_barcspeeder",
-							 "rep_fly_vwing",
+							 "rep_fly_vwing")
 							--  "rep_walk_atte",
-							 "rep_fly_arc170fighter_sc")
+							-- "rep_fly_arc170fighter_sc"
 
     ReadDataFile("SIDE\\cis.lvl",
                              "cis_inf_rifleman",
@@ -897,6 +903,10 @@ function ScriptInit()
     -- OpenAudioStream("sound\\global.lvl",  "global_vo_slow")
    -- OpenAudioStream("sound\\yav.lvl",  "yav1")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     -- OpenAudioStream("sound\\yav.lvl",  "yav1_emt")
 

@@ -1,8 +1,8 @@
 SunFlare()
 {
-	Angle(93.000000, 180.000000);
+	Angle(92.000000, 180.000000);
 	Color(255, 220, 116);
-	Size(5.0);
+	Size(6.0);
 	InitialFlareOutAlpha(70);
 	SpikeColor(255,190,0,128);
 	SpikeSize(20.0);

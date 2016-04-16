@@ -46,12 +46,12 @@ TimeTilReboard			= "5.0"
 
 PilotSkillRepairScale = 0.02
 
-TakeoffTime             = 4.0
+TakeoffTime             = 3.0
 TakeoffSpeed            = 2.0
 LandingTime             = 2.5
-LandingSpeed            = 3.5
+LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
-LandedHeight            = 1.0
+LandedHeight            = 0.8
 
 
 //PilotPosition           = "hp_pilot"
@@ -85,7 +85,7 @@ AimerNodeName           = "hp_fire_r"
 // CHUNCK SECTIONs
 
 CHUNKSECTION            = "CHUNK1"
-ChunkGeometryName       = "republic_fly_eta2_red"
+ChunkGeometryName       = "republic_fly_eta2_red_chunk1"
 ChunkNodeName           = ""
 ChunkTerrainCollisions      = "1"
 ChunkTerrainEffect      = "com_sfx_explosion_lg"
@@ -93,7 +93,37 @@ ChunkPhysics            = "FULL"
 ChunkOmega          = "2.0 2.0 1.5"
 ChunkBounciness         = 0.45
 ChunkStickiness         = 0.25
-ChunkSpeed          = "8.0"
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "republic_fly_eta2_red_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "republic_fly_eta2_red_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "12.0"
 ChunkUpFactor           = "2.00"
 ChunkTrailEffect        = "com_sfx_chunktrail_sm"
 ChunkGravity            = "0.0 0.0 0.0"
@@ -256,7 +286,7 @@ ProximityMaxDist        = "100" // Distance from target where proximity paramete
 
 // ***************************************************************************************
 
-EnergyBar               = 100
+EnergyBar               = 200
 EnergyAutoRestore       = 10
 EnergyBoostDrain        = 20
 EnergyTrickDrainSingleTap = 15
@@ -301,11 +331,11 @@ MoveTensionZ            = "4.25"
 BlurEffect              = 0.9
 BlurStart               = 40.0
 
-//FOVEffect1st            = 90
-
 FOVEffect3rd            = 90
 FOVEFFectMinCamOffset3rd = "0.0 3.0 12.0"
 FOVEFFectMaxCamOffset3rd = "0.0 6.0 -18.0"
+
+FOVEffect1st            = 90
 
 Acceleraton             = 50.0
 MinSpeed                = 35.0

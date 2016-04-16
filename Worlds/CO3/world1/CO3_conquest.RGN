@@ -118,7 +118,7 @@ Region("cp8_capture", 0)
 	Name("cp8_capture");
 }
 
-Region("", 0)
+Region("landing_1", 0)
 {
 	Layer(1);
 	Position(-10.641563, -288.375275, 3.456442);
