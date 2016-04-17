@@ -1,0 +1,94 @@
+[WeaponClass]
+ClassLabel      	= "cannon"
+
+[Properties]
+AnimationBank           = "rifle"
+
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+AITargetPerson      = "1"
+AITargetAnimal      = "1"
+AITargetDroid       = "1"
+AITargetVehicle     = "0"
+AITargetBuilding    = "0"
+
+MinRange            = "0"
+OptimalRange        = "48"
+MaxRange            = "80"
+
+LockOnRange         = "48.0"
+LockTime            = "0.1"
+lockOnAngle         = "1.0"
+
+ZoomMin             = "2.5"
+ZoomMax             = "2.5"
+ZoomRate            = "0.0"
+
+YawSpread           = "0.25"
+PitchSpread         = "0.25"
+
+SpreadPerShot       = "0.125"
+SpreadRecoverRate   = "1.0"
+SpreadThreshold     = "1.5"
+SpreadLimit         = "2.5"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "0"
+ShotDelay 		= "0.05"
+ReloadTime 		= "0"
+HeatRecoverRate 	= "0.25"
+HeatThreshold 		= "0.2"
+HeatPerShot 		= "0.020"
+
+WarmUpTime 		= 0.5
+CoolDownTime 		= 1.5
+
+SalvoCount          	= "1"
+SalvoDelay          	= "0.0"
+InitialSalvoDelay   	= "0.0"
+SalvoTime           	= "0.0"
+
+DisplayRefire 		= "0"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+MuzzleFlash         	= "small_muzzle_flash"
+FlashColor          	= "80 80 255 255"
+FlashLength         	= "0.025"
+FlashLightColor     	= "220 220 255 175"
+FlashLightRadius    	= "2.0"
+FlashLightDuration  	= "0.25"
+Discharge               = "small_smoke_effect"
+
+RecoilLengthLight   	= "0.1"
+RecoilLengthHeavy   	= "0.1"
+RecoilStrengthLight 	= "1"
+RecoilStrengthHeavy 	= "1"
+RecoilDecayLight    	= "0.0"
+RecoilDecayHeavy    	= "0.0"
+

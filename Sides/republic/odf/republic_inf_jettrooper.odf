@@ -13,6 +13,10 @@ WeaponName         = "rep_weap_inf_rifle"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2
+WeaponName         = "rep_weap_inf_pistol"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 3
 WeaponName         = "com_weap_inf_thermaldetonator"
 WeaponAmmo         = 4
 WeaponChannel      = 1
