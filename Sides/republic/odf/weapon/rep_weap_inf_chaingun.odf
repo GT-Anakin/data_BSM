@@ -1,11 +1,11 @@
 [WeaponClass]
 ClassParent				= "com_weap_inf_chaingun"
-GeometryName            = "rep_weap_inf_rifle.msh"
+GeometryName            = "rep_weap_hq_inf_chaingun.msh"
 
 [Properties]
 
-GeometryName            = "rep_weap_inf_rifle"
-HighResGeometry         = "rep_weap_inf_rifle"
+GeometryName            = "rep_weap_hq_inf_chaingun"
+HighResGeometry         = "rep_weap_hq_inf_chaingun"
 
 OrdnanceName			= "rep_weap_inf_chaingun_ord"
 
