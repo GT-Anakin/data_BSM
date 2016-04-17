@@ -72,11 +72,12 @@ function ScriptInit()
     ReadDataFile("sound\\yav.lvl;yav1cw")
    
    ReadDataFile("dc:SIDE\\Republic.lvl",
-                     "republic_inf_rifleman",
-      "republic_inf_heavytrooper",
-      "republic_inf_sniper",
-      "republic_inf_engineer",
-      "republic_inf_officer")
+					"republic_inf_rifleman",
+					"republic_inf_heavytrooper",
+					"republic_inf_sniper",
+					"republic_inf_engineer",
+					"republic_inf_officer",
+					"republic_inf_jettrooper")
 	  
 	  ReadDataFile("dc:SIDE\\cis.lvl",
 						"cis_inf_rifleman")
@@ -116,8 +117,8 @@ function ScriptInit()
          assault  = { "republic_inf_heavytrooper",1, 4},
          engineer = { "republic_inf_engineer",1, 4},
          sniper   = { "republic_inf_sniper",1, 4},
-         officer = {"republic_inf_officer",1, 4},
-         special = { "rep_inf_ep3_jettrooper",1, 4},
+         officer  = { "republic_inf_officer",1, 4},
+         special  = { "republic_inf_jettrooper",1, 4},
            
       },
       

@@ -1,0 +1,57 @@
+[GameObjectClass]
+ClassParent         = "republic_inf_default"
+
+[Properties]
+GeometryName        = "rep_bf3_jettrooper"
+GeometryLowRes		= "rep_bf3_jettrooper_low"
+SkeletonName		= "bf3clones"
+//SkeletonLowRes	= "bf3clones"
+FirstPerson         = "REP\reptroop;rep_1st_trooper"
+
+WEAPONSECTION = 1
+WeaponName         = "rep_weap_inf_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+
+VOUnitType        	= 121
+
+
+AISizeType          = "HOVER"
+
+ControlSpeed        = "jet    1.50 1.25 1.25"
+
+JetJump             = "5.0" //7 //The initial jump-push given when enabling the jet
+JetPush             = "8.0" //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "30.0" //Acceleration while hovering.
+JetEffect           = "rep_sfx_jetpack"
+JetType             = "hover"
+JetFuelRechargeRate = "0.12" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.16" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.25" //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.24" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+CAMERASECTION       = "STAND"
+
+EyePointOffset      = "0.0 1.8 0.0"
+TrackCenter         = "0.0 1.8 0.0
+TrackOffset         = "0.0 0.0 3.5"
+TiltValue           = "7.5"
+
+CAMERASECTION       = "CROUCH"
+
+EyePointOffset      = "0.0 1.3 0.0"
+TrackCenter         = "0.0 1.3 0.0
+TrackOffset         = "0.0 0.15 3.5"
+TiltValue           = "7.5"
+
+CollisionScale      = "0.0 0.0 0.0"
+
+EngineSound         = "rep_inf_Jetpack_engine_parameterized"
+TurnOnSound         = "rep_weap_jetpack_turnon"
+TurnOffSound        = "rep_weap_jetpack_turnoff"
+TurnOffTime         = 0.0

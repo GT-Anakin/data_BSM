@@ -4,6 +4,9 @@ ClassParent             	= "com_inf_default"
 
 
 [Properties]
+
+UnitType            = "trooper"
+
 // Mostly sound and general VO in this file
 
 HurtSound               	= "rep_inf_com_chatter_wound"
