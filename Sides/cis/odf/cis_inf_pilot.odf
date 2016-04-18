@@ -1,0 +1,20 @@
+[GameObjectClass]
+ClassParent         = "cis_inf_default"
+
+[Properties]
+GeometryName        = "cis_bf3_pilot"
+SkeletonName		= "bf3droids"
+FirstPerson			= "CIS\cisbdrd;cis_1st_bdroid"
+
+WEAPONSECTION = 1
+WeaponName         = "cis_weap_inf_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+
+VOUnitType        	= 121
+

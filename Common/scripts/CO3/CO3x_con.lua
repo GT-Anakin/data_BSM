@@ -80,7 +80,10 @@ function ScriptInit()
 					"republic_inf_jettrooper")
 	  
 	  ReadDataFile("dc:SIDE\\cis.lvl",
-						"cis_inf_rifleman")
+						"cis_inf_rifleman",
+						"cis_inf_sniper",
+						"cis_inf_pilot")
+						
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
                              "rep_inf_ep3_rocketeer",
@@ -96,7 +99,7 @@ function ScriptInit()
    --                          "cis_inf_rifleman",
                              "cis_inf_rocketeer",
                              "cis_inf_engineer",
-                             "cis_inf_sniper",
+         --                    "cis_inf_sniper",
                              "cis_inf_officer",
                              "cis_inf_droideka",
                              "cis_hero_darthmaul",
@@ -128,7 +131,7 @@ function ScriptInit()
          reinforcements = -1,
          soldier  = { "cis_inf_rifleman",9, 25},
          assault  = { "cis_inf_rocketeer",1, 4},
-         engineer = { "cis_inf_engineer",1, 4},
+         engineer = { "cis_inf_pilot",1, 4},
          sniper   = { "cis_inf_sniper",1, 4},
          officer = {"cis_inf_officer",1, 4},
          special = { "cis_inf_droideka",1, 4},

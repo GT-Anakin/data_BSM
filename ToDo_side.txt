@@ -1,8 +1,16 @@
+cis_inf_default (chunks),
 improve hp_active positions,
-airstrike
-modify weapons script + msh
-add glow to shotgun,
+modify weapons script + msh (glow,...)
+fix low_res rep units
+
+airstrike,
 new animationset,
-imp,
-cis,
+cis weapon,
+sbd,
+droideka,
+magnaguard,
+cis spec and normal
+
 all,
+imp,
+
