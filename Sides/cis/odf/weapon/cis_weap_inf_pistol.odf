@@ -1,0 +1,34 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_pistol"
+GeometryName        = "rep_weap_inf_rifle.msh"
+
+[Properties]
+GeometryName        = "rep_weap_inf_rifle"
+HighResGeometry		= "rep_1st_weap_inf_rifle"
+OrdnanceName        = "rep_weap_inf_pistol_ord"
+
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+
+FireSound           = "cis_weap_inf_pistol_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = ""
+ChargeSound         = ""
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"
+
+
+
