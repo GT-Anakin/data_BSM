@@ -1,10 +1,10 @@
 [WeaponClass]
 ClassParent			= "com_weap_inf_sniper_rifle"
-GeometryName        = "rep_weap_inf_rifle.msh"
+GeometryName        = "cis_weap_hq_inf_e5s.msh"
 
 [Properties]
-GeometryName        = "rep_weap_inf_rifle"
-HighResGeometry		= "rep_1st_weap_inf_rifle"
+GeometryName        = "cis_weap_hq_inf_e5s"
+HighResGeometry		= "cis_weap_hq_inf_e5s"
 
 OrdnanceName        = "rep_weap_inf_sniper_rifle_ord"
 FirePointName       = "hp_fire"

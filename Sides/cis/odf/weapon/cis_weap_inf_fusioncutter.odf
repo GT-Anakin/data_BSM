@@ -1,10 +1,10 @@
 [WeaponClass]
 ClassParent             = "com_weap_inf_fusioncutter"
-GeometryName            = "rep_weap_inf_rifle.msh"
+GeometryName            = "cis_weap_hq_inf_fusioncutter.msh"
 
 [Properties]
-GeometryName            = "rep_weap_inf_rifle"
-HighResGeometry         = "rep_1st_weap_inf_rifle"
+GeometryName            = "cis_weap_hq_inf_fusioncutter"
+HighResGeometry         = "cis_weap_hq_inf_fusioncutter"
 
 TargetDroid             = "1"
 DroidHealth             = 150
