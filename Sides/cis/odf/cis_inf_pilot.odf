@@ -7,7 +7,7 @@ SkeletonName		= "bf3droids"
 FirstPerson			= "CIS\cisbdrd;cis_1st_bdroid"
 
 WEAPONSECTION = 1
-WeaponName         = "cis_weap_inf_pistol"
+WeaponName         = "cis_weap_inf_shotgun"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2
