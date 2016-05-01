@@ -17,7 +17,7 @@ MapViewMin					= 750
 MapViewMax					= 750
 
 // PathFollower Attributes
-PathFollowerClass       	= "rep"
+PathFollowerClass       	= "team1_fly"
 PathFollowerClass_CTF		= "rep_flag"
 PathFollowerBranchPaths     = "6"
 PathFollowerBranchMaxAngle  = "60"

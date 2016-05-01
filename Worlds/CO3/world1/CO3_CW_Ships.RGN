@@ -1,11 +1,11 @@
 Version(1);
-RegionCount(10);
+RegionCount(12);
 
 Region("cp_rep_control", 0)
 {
 	Layer(3);
-	Position(-1287.738281, 780.002258, 329.161621);
-	Rotation(0.976114, 0.000000, 0.217359, 0.000000);
+	Position(-1287.738281, 846.183289, 329.161621);
+	Rotation(0.976281, 0.000000, 0.216658, 0.000000);
 	Size(20.000000, 10.000000, 60.000000);
 	Name("cp_rep_control");
 }
@@ -13,7 +13,7 @@ Region("cp_rep_control", 0)
 Region("deathregion_REP", 2)
 {
 	Layer(3);
-	Position(-1527.716675, 764.999084, 272.686615);
+	Position(-1527.716675, 830.565247, 272.686615);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(45.000000, 5.000000, 45.000000);
 	Name("deathregion_REP");
@@ -22,7 +22,7 @@ Region("deathregion_REP", 2)
 Region("deathregion_CIS", 2)
 {
 	Layer(3);
-	Position(54.066914, 614.262085, -397.362244);
+	Position(54.066914, 828.698242, -397.362244);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(45.000000, 5.000000, 45.000000);
 	Name("deathregion_CIS");
@@ -31,8 +31,8 @@ Region("deathregion_CIS", 2)
 Region("cp_cis_control", 0)
 {
 	Layer(3);
-	Position(362.788635, 622.205261, -387.971375);
-	Rotation(0.999205, 0.000000, -0.039873, 0.000000);
+	Position(362.788635, 841.028076, -387.971375);
+	Rotation(0.999220, 0.000000, -0.039751, 0.000000);
 	Size(45.000000, 20.000000, 65.000000);
 	Name("cp_cis_control");
 }
@@ -40,8 +40,8 @@ Region("cp_cis_control", 0)
 Region("cis_landing", 0)
 {
 	Layer(3);
-	Position(362.006775, 637.073425, -387.790405);
-	Rotation(0.999231, 0.000000, -0.039470, 0.000000);
+	Position(362.006775, 851.023071, -387.790405);
+	Rotation(0.999242, 0.000000, -0.039323, 0.000000);
 	Size(65.000000, 15.000000, 110.000000);
 	Name("cis_landing");
 }
@@ -49,8 +49,8 @@ Region("cis_landing", 0)
 Region("rep_landing", 0)
 {
 	Layer(3);
-	Position(-1314.515259, 789.046265, 340.103760);
-	Rotation(0.980030, 0.000000, 0.198851, 0.000000);
+	Position(-1314.515259, 857.748047, 340.103760);
+	Rotation(0.980264, 0.000000, 0.197727, 0.000000);
 	Size(45.000000, 18.000000, 52.000000);
 	Name("rep_landing");
 }
@@ -58,8 +58,8 @@ Region("rep_landing", 0)
 Region("cp_cis_frigate_control", 0)
 {
 	Layer(3);
-	Position(808.015015, 485.965210, 732.875366);
-	Rotation(0.994015, 0.000000, 0.109305, 0.000000);
+	Position(808.015015, 811.126831, 732.875366);
+	Rotation(0.994233, 0.000000, 0.107558, 0.000000);
 	Size(90.000000, 15.000000, 75.000000);
 	Name("cp_cis_frigate_control");
 }
@@ -67,8 +67,8 @@ Region("cp_cis_frigate_control", 0)
 Region("cis_landing_frigate", 0)
 {
 	Layer(3);
-	Position(807.625549, 500.016876, 733.550659);
-	Rotation(0.994540, 0.000000, 0.104689, 0.000000);
+	Position(807.625549, 824.571350, 733.550659);
+	Rotation(0.994682, 0.000000, 0.103092, 0.000000);
 	Size(112.000000, 25.000000, 100.000000);
 	Name("cis_landing_frigate");
 }
@@ -76,8 +76,8 @@ Region("cis_landing_frigate", 0)
 Region("rep_landing_frigate", 0)
 {
 	Layer(3);
-	Position(-199.065887, 535.045471, 1419.076538);
-	Rotation(0.999553, 0.000000, 0.029908, 0.000000);
+	Position(-199.065887, 834.398804, 1419.076538);
+	Rotation(0.999567, 0.000000, 0.029587, 0.000000);
 	Size(172.000000, 30.000000, 130.000000);
 	Name("rep_landing_frigate");
 }
@@ -85,8 +85,26 @@ Region("rep_landing_frigate", 0)
 Region("cp_rep_frigate_control", 0)
 {
 	Layer(3);
-	Position(-202.689377, 525.880249, 1424.352417);
-	Rotation(0.999553, 0.000000, 0.029908, 0.000000);
+	Position(-202.689377, 809.579224, 1424.352417);
+	Rotation(0.999565, 0.000000, 0.029727, 0.000000);
 	Size(80.000000, 20.000000, 100.000000);
 	Name("cp_rep_frigate_control");
+}
+
+Region("soundstream co3_amb_crashed_spaceship 1.5", 1)
+{
+	Layer(3);
+	Position(104.083641, -296.390839, -7.837300);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.000000, 15.000000, 15.000000);
+	Name("cw_crashed_ship_stream1");
+}
+
+Region("soundstream co3_amb_crashed_spaceship 1.5", 1)
+{
+	Layer(3);
+	Position(-117.799820, -289.055634, 130.009750);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(15.000000, 15.000000, 15.000000);
+	Name("cw_crashed_ship_stream2");
 }

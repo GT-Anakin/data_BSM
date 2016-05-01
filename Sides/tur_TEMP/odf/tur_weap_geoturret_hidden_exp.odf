@@ -1,0 +1,20 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan 		= "0.0"
+Damage			= "0.0"
+DamageRadiusInner 	= "0.0"
+DamageRadiusOuter 	= "0.0"
+Push 			= "0.0"
+PushRadius 		= "0.0"
+
+Effect 			= "com_sfx_weap_rad_exp_md"
+
+VehicleScale	= "0.0"
+PersonScale 	= "0.0"
+DroidScale 	= "0.0"
+BuildingScale	= "0.0"
+AnimalScale	= "0.0"
+
+SoundProperty   = "cis_weap_inf_sonicblaster_fire"

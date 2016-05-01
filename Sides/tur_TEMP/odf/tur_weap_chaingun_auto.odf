@@ -1,0 +1,20 @@
+[WeaponClass]
+ClassParent             = "com_weap_inf_chaingun"
+
+[Properties]
+OrdnanceName            = "tur_weap_chaingun_auto_ord"
+SecondaryOrdnanceName   = "com_weap_inf_chaingun_tracer"
+SecondaryOrdnancePeriod = 5
+
+OverheatSound           = "com_weap_energy_depleted"
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = "com_weap_energy_refilled"
+
+WarmUpSound             = "tur_weap_veh_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound             = "tur_weap_veh_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

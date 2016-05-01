@@ -1,0 +1,25 @@
+[GameObjectClass]
+ClassLabel = "hologram"
+
+[Properties]
+Color 				= "0 0 0"
+NeutralColor		= "255 255 255"
+FriendlyColor 		= "30 220 30"
+EnemyColor 			= "240 30 30"
+LocalsColor 		= "240 220 30"
+HoloType 			= "aligned"
+//HoloImageGeometry 	= "com_icon_alliance"
+HoloVisibleDistance = 200.0
+HoloHeight 			= 3.5
+HoloSize 			= 2.5
+HoloBeamIntensity 	= 1.0
+HoloLightIntensity 	= 1.0
+HoloImageIntensity 	= 0.5
+HoloFlareIntensity 	= 1.0
+HoloLightRadius 	= 8.0
+HoloRotateRate 		= 0.2
+HoloPopRate 		= 0.01
+HoloFlickerRate 	= 0.01
+HoloFlickerAlphaMin = 0.4
+HoloFlickerAlphaMax = 0.8
+HoloFadeInTime 		= 2.0

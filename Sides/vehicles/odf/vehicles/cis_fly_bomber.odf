@@ -37,7 +37,7 @@ TimeTilReboard          = "5.0"
 PilotSkillRepairScale = 0.02
 
 // PathFollower Attributes
-PathFollowerClass           = "cis"
+PathFollowerClass           = "team2_fly"
 PathFollowerClass_CTF       = "cis_flag"
 PathFollowerBranchPaths     = "6"
 PathFollowerBranchMaxAngle  = "45"

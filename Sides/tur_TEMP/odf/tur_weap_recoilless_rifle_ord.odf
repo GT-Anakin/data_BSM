@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_recoilless_ord"
+
+[Properties]
+ExplosionName = "tur_weap_recoilless_rifle_exp"
+
+MaxDamage = "2000"

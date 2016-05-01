@@ -1,0 +1,9 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_guided_rocket"
+
+[Properties]
+OrdnanceName = "tur_weap_guided_rocket_ord"
+
+FireSound = "com_weap_turret_fire_torpedo"
+
+ScopeTexture        = "weapon_scope4"

@@ -1,0 +1,22 @@
+[WeaponClass]
+ClassParent         = "com_weap_veh_beam"
+
+[Properties]
+HUDTag          = "hud_vehicle_beam_cannon"
+OrdnanceName        = "tur_weap_beam_ord"
+
+RoundsPerClip       = "1"
+//ShotDelay           = "0.0"
+//MaxPressedTime      = "1.5"
+ReloadTime                  = "1.0"
+
+ZoomFirstPerson     = 1
+ZoomMin         = "2.0"
+ZoomMax         = "6.0"
+ZoomRate        = "0.75"
+
+ScopeTexture        = "weapon_scope4"
+
+//*****SOUND*****//
+FireSound           = "com_weap_ground_beam_fire"
+FireLoopSound       = "com_weap_ground_beam_loop"

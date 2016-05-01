@@ -1,0 +1,88 @@
+[GameObjectClass]
+ClassLabel      = "armedbuilding"
+GeometryName        = "hoth_bldg_hoth_turret.msh"
+
+[Properties]
+
+BUILDINGSECTION     = "BODY"
+
+Label           = "Hoth Turret"
+MapTexture      = "turret_icon"
+IconTexture     = "HUD_all_lascannon_icon"
+MapScale        = "1.2"
+HealthTexture       = "HUD_all_turret_icon"
+
+GeometryName        = "hoth_bldg_hoth_turret"
+ExplosionName       = "tur_bldg_hoth_lasermortar_exp"
+DestroyedGeometryName   = "hoth_bldg_hoth_turret_destroyed"
+
+MaxHealth       = "3000.0"
+RespawnTime		= "999999.9"
+
+
+BUILDINGSECTION     = "TURRET1"
+
+ForceMode = 1
+
+PitchLimits         = "-5 15"
+
+EyePointOffset      = "0.0 0.0 0.0"
+TrackOffset         = "0.0 1.2 4.0"
+TurretNodeName      = "turret_y"
+
+PCPitchTurnFactor   = "20.0"
+PCYawTurnFactor     = "20.0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+TURRETSECTION       = "TURRET1"
+FirstPerson             = "com\comhview;com_1st_cockpit_hothviewfinder"
+
+PCPitchTurnFactor   = "20.0"
+PCYawTurnFactor     = "20.0"
+
+WeaponName      = "tur_weap_hoth_lasermortar_laser"
+WeaponAmmo      = "0"   //"2"
+
+WEAPONSECTION		= 1
+
+AimerNodeName       = "turret_x"
+MaxTurnSpeed        = "1"
+MaxPitchSpeed       = "1"
+PitchTurnFactor     = "0.0"
+AimerYawLimits      = "-0.0 0.0"
+
+BarrelNodeName      = "lgun"
+BarrelLength        = "2.0"
+
+//WEAPONSECTION		= 2
+//
+//AimerNodeName       = "turret_x"
+//MaxTurnSpeed        = "1"
+//MaxPitchSpeed       = "1"
+//PitchTurnFactor     = "0.0"
+//
+//BarrelNodeName      = "lgun"
+//BarrelLength        = "2.0"
+//
+//WeaponName      = "tur_weap_hoth_lasermortar_mortar"
+//WeaponAmmo      = "0"
+
+FoleyFXGroup    = "metal_foley"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"

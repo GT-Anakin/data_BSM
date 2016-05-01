@@ -1,0 +1,24 @@
+[GameObjectClass]		
+
+ClassLabel		=	"dusteffect"
+GeometryName	=	"CO3_prop_dust.msh"
+
+
+[Properties]		
+
+MinPos = "-120 -120 -120"
+MaxPos = "120 120 120"
+MinVel = "1 -1.5 1"
+MaxVel = "7 1.5 7"
+MinSize = "150"
+MaxSize = "250"
+MinLifeTime = "35"
+MaxLifeTime = "55"
+Alpha = "0.45"
+NumParticles = "15"
+MaxDistance = "400"
+Texture = "CO3_Cloud"
+RadiusFadeMin = "100"
+RadiusFadeMax = "150"
+HeightScale = "0.35"
+SpawnSound = ""

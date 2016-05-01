@@ -1,20 +1,4 @@
-SunFlare()
-{
-	Angle(92.000000, 180.000000);
-	Color(255, 220, 116);
-	Size(6.0);
-	InitialFlareOutAlpha(70);
-	SpikeColor(255,190,0,128);
-	SpikeSize(20.0);
-	PC()
-	{
-		FlareOutSize(6.0);
-		NumFlareOuts(80);
-		HaloInnerRing(0.0, 255, 255, 255, 255);
-		HaloMiddleRing(3.0, 255, 200, 0, 255);
-		HaloOutterRing(8.0, 255, 127, 0, 0);
-	}
-}
+
 
 Effect("SpaceDust")
 {
@@ -22,7 +6,7 @@ Effect("SpaceDust")
 
 	Texture("spacedust1");
 
-	SpawnDistance(150.0);
+	SpawnDistance(250.0);
 	MaxRandomSideOffset(70.0);
 	CenterDeadZoneRadius(20.0);
 

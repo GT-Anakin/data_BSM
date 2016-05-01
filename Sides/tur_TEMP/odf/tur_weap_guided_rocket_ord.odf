@@ -1,0 +1,6 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_guided_rocket_ord"
+
+[Properties]
+ExplosionName = "tur_weap_guided_rocket_exp"
+GeometryName = "com_weap_missile"

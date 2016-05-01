@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.919, 0.225, 0.313, -0.077);
-	Position(-792.394, 93.080, -687.042);
+	Rotation(0.785, 0.160, -0.586, 0.119);
+	Position(852.820, 2180.748, -18.272);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -18,7 +18,7 @@ Camera("camera")
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
-	Bookmark(48.603, -284.393, -20.816,  0.702, 0.087, -0.701, 0.087);
+	Bookmark(-3697.846, 59898.125, -499.109,  0.725, 0.687, -0.032, 0.031);
 }
 LightName("CO3_conquest.LGT");
 ControllerManager("StandardCtrlMgr");
@@ -283,7 +283,7 @@ Object("cp6", "com_bldg_controlzone", 1920735842)
 Object("cp3", "com_bldg_controlzone", 1323740855)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(9.635, -279.004, -1.613);
+	ChildPosition(11.297, -279.025, -1.613);
 	SeqNo(1323740855);
 	Team(0);
 	NetworkId(-1);
@@ -617,6 +617,19 @@ Object("vehicle9", "com_item_vehicle_spawn", 361610129)
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
+}
+
+Object("ion_cannon_chair", "spa_veh_turret_chair", 882445862)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(6.472, -279.017, -1.550);
+	SeqNo(882445862);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+	RemoteGameObject("");
+	NextLinkedTerminal("");
+	PrevLinkedTerminal("");
 }
 
 Object("vehicle7", "com_item_vehicle_spawn", 1068108471)

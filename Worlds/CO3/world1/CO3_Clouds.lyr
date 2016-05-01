@@ -1,0 +1,1712 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.785, 0.160, -0.586, 0.119);
+	Position(852.820, 2180.748, -18.272);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-3697.846, 59898.125, -499.109,  0.725, 0.687, -0.032, 0.031);
+}
+LightName("CO3_Clouds.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3513770);
+
+Object("CO3_Cloud00", "CO3_Cloud", 85142065)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-581.389, 152.612, 127.842);
+	SeqNo(85142065);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud142", "CO3_Cloud", 97026179)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-838.322, 393.445, 485.481);
+	SeqNo(97026179);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud3", "CO3_Cloud", 143737599)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-468.046, 176.272, 458.999);
+	SeqNo(143737599);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud19", "CO3_Cloud", 202283953)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(48.318, 220.417, 410.220);
+	SeqNo(202283953);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1700", "CO3_Cloud", 230065171)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-1033.986, 196.758, -377.660);
+	SeqNo(230065171);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1120", "CO3_Cloud", 233758641)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(2.402, 380.496, -784.177);
+	SeqNo(233758641);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud113", "CO3_Cloud", 257773696)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(284.632, 163.319, 63.358);
+	SeqNo(257773696);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud11000", "CO3_Cloud", 267515225)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1129.265, 266.070, -296.831);
+	SeqNo(267515225);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud90", "CO3_Cloud", 301038372)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(25.047, 258.797, 421.588);
+	SeqNo(301038372);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud16000", "CO3_Cloud", 324594810)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1509.370, 310.216, -609.310);
+	SeqNo(324594810);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud191", "CO3_Cloud", 365240422)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-188.518, 207.465, 7.290);
+	SeqNo(365240422);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud19000", "CO3_Cloud", 392562615)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1602.177, 310.216, -238.791);
+	SeqNo(392562615);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud190", "CO3_Cloud", 398859832)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(839.173, 209.710, 230.260);
+	SeqNo(398859832);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud132", "CO3_Cloud", 438636621)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1005.728, 393.445, 446.929);
+	SeqNo(438636621);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud401", "CO3_Cloud", 443382091)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(154.142, 279.023, 39.885);
+	SeqNo(443382091);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1701", "CO3_Cloud", 456343709)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(520.585, 323.167, 181.728);
+	SeqNo(456343709);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud18", "CO3_Cloud", 483676064)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-134.448, 176.272, 474.657);
+	SeqNo(483676064);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud160", "CO3_Cloud", 501389174)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(138.366, 209.709, 1025.502);
+	SeqNo(501389174);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud501", "CO3_Cloud", 558718835)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(177.122, 279.023, -210.080);
+	SeqNo(558718835);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud500", "CO3_Cloud", 574490067)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-767.008, 152.612, 69.788);
+	SeqNo(574490067);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1610", "CO3_Cloud", 614400145)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-613.574, 320.923, -749.616);
+	SeqNo(614400145);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud801", "CO3_Cloud", 617921181)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-269.125, 372.255, -169.355);
+	SeqNo(617921181);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud110", "CO3_Cloud", 701472104)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(476.699, 165.565, 455.896);
+	SeqNo(701472104);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1601", "CO3_Cloud", 701652110)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(407.674, 323.167, 232.565);
+	SeqNo(701652110);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1410", "CO3_Cloud", 735596123)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-280.216, 380.496, -934.389);
+	SeqNo(735596123);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1", "CO3_Cloud", 755779727)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-420.759, 176.272, 326.683);
+	SeqNo(755779727);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud41", "CO3_Cloud", 774573119)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(204.250, 163.319, -95.197);
+	SeqNo(774573119);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud181", "CO3_Cloud", 780841681)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-9.816, 163.319, -67.685);
+	SeqNo(780841681);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud5", "CO3_Cloud", 814043094)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-267.996, 176.272, 252.317);
+	SeqNo(814043094);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud152", "CO3_Cloud", 829385458)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-706.320, 333.874, 398.768);
+	SeqNo(829385458);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud901", "CO3_Cloud", 891573825)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-400.434, 372.255, -27.461);
+	SeqNo(891573825);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud2100", "CO3_Cloud", 1043125769)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1030.921, 359.304, -267.835);
+	SeqNo(1043125769);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1710", "CO3_Cloud", 1051652725)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-723.333, 320.923, -692.287);
+	SeqNo(1051652725);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud5000", "CO3_Cloud", 1052776770)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1253.419, 266.070, -180.845);
+	SeqNo(1052776770);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud51", "CO3_Cloud", 1058978531)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(136.459, 163.319, 146.498);
+	SeqNo(1058978531);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud100", "CO3_Cloud", 1083385827)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(186.751, 269.281, 573.853);
+	SeqNo(1083385827);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud114", "CO3_Cloud", 1104449209)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1111.708, 393.445, 319.063);
+	SeqNo(1104449209);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud12", "CO3_Cloud", 1117395723)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-603.605, 279.988, 617.840);
+	SeqNo(1117395723);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1111", "CO3_Cloud", 1118455297)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-209.266, 382.738, 231.184);
+	SeqNo(1118455297);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud40", "CO3_Cloud", 1141219238)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(441.105, 165.565, 309.690);
+	SeqNo(1141219238);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud81", "CO3_Cloud", 1163530954)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(582.720, 256.555, 187.116);
+	SeqNo(1163530954);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud4", "CO3_Cloud", 1199839341)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-349.750, 176.272, 489.650);
+	SeqNo(1199839341);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud122", "CO3_Cloud", 1212767929)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-964.393, 393.445, 312.636);
+	SeqNo(1212767929);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud14000", "CO3_Cloud", 1233063392)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1176.011, 369.789, -794.083);
+	SeqNo(1233063392);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud42", "CO3_Cloud", 1264859502)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-748.299, 289.730, 127.765);
+	SeqNo(1264859502);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud121", "CO3_Cloud", 1268753583)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(450.205, 267.038, -237.958);
+	SeqNo(1268753583);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud230", "CO3_Cloud", 1291480711)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-163.526, 276.777, -308.896);
+	SeqNo(1291480711);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud13", "CO3_Cloud", 1334335696)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-675.685, 279.988, 738.454);
+	SeqNo(1334335696);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud810", "CO3_Cloud", 1362511936)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(85.495, 370.012, -387.805);
+	SeqNo(1362511936);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud130", "CO3_Cloud", 1371827635)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(221.774, 269.281, 867.667);
+	SeqNo(1371827635);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud150", "CO3_Cloud", 1437688215)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-85.743, 209.709, 1051.279);
+	SeqNo(1437688215);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud", "CO3_Cloud", 1438321866)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-449.917, 176.272, 183.548);
+	SeqNo(1438321866);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud900", "CO3_Cloud", 1439026808)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-165.949, 245.846, -5.414);
+	SeqNo(1439026808);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud25", "CO3_Cloud", 1460011526)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-952.507, 382.962, -48.320);
+	SeqNo(1460011526);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud300", "CO3_Cloud", 1460755772)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-579.338, 152.612, -148.200);
+	SeqNo(1460755772);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1800", "CO3_Cloud", 1488971750)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-913.282, 152.612, -144.396);
+	SeqNo(1488971750);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud141", "CO3_Cloud", 1509460397)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(357.458, 267.038, -430.749);
+	SeqNo(1509460397);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1801", "CO3_Cloud", 1530272873)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(359.705, 279.023, -25.870);
+	SeqNo(1530272873);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1600", "CO3_Cloud", 1586278845)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-913.743, 196.758, -407.248);
+	SeqNo(1586278845);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud30", "CO3_Cloud", 1631681892)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(429.413, 165.565, 588.213);
+	SeqNo(1631681892);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud14", "CO3_Cloud", 1701451584)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-522.247, 279.988, 815.704);
+	SeqNo(1701451584);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud0", "CO3_Cloud", 1734468428)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(447.542, 165.565, 312.761);
+	SeqNo(1734468428);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud115", "CO3_Cloud", 1750702870)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-856.020, 289.730, -13.645);
+	SeqNo(1750702870);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud9000", "CO3_Cloud", 1760237573)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-687.479, 359.304, -396.803);
+	SeqNo(1760237573);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud50", "CO3_Cloud", 1785197572)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(629.463, 165.565, 381.530);
+	SeqNo(1785197572);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1010", "CO3_Cloud", 1791916826)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(8.995, 380.496, -635.114);
+	SeqNo(1791916826);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud62", "CO3_Cloud", 1813887021)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-939.119, 333.874, -291.308);
+	SeqNo(1813887021);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud2010", "CO3_Cloud", 1821693069)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-371.249, 320.923, -102.941);
+	SeqNo(1821693069);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud171", "CO3_Cloud", 1826252784)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-130.517, 207.465, -300.950);
+	SeqNo(1826252784);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud82", "CO3_Cloud", 1842124103)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1171.566, 382.962, -81.475);
+	SeqNo(1842124103);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud15000", "CO3_Cloud", 1876172229)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1302.738, 310.216, -699.825);
+	SeqNo(1876172229);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud72", "CO3_Cloud", 1887217100)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1319.593, 382.962, -169.097);
+	SeqNo(1887217100);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud52", "CO3_Cloud", 1913729987)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-725.319, 289.730, -122.200);
+	SeqNo(1913729987);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud6", "CO3_Cloud", 1915548372)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-435.456, 220.417, 37.223);
+	SeqNo(1915548372);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud220", "CO3_Cloud", 1938664459)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-135.126, 370.012, -408.141);
+	SeqNo(1938664459);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud131", "CO3_Cloud", 1939415453)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(515.137, 267.038, -362.568);
+	SeqNo(1939415453);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud10000", "CO3_Cloud", 1945411196)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-886.799, 369.789, -494.808);
+	SeqNo(1945411196);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1100", "CO3_Cloud", 2000662857)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-618.836, 152.612, -13.352);
+	SeqNo(2000662857);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud10", "CO3_Cloud", 2003218871)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-710.708, 279.988, 444.640);
+	SeqNo(2003218871);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud21", "CO3_Cloud", 2029083512)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(284.621, 258.797, 90.100);
+	SeqNo(2029083512);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud32", "CO3_Cloud", 2059910521)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-870.489, 289.730, 126.120);
+	SeqNo(2059910521);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud11", "CO3_Cloud", 2085396080)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-748.223, 279.988, 589.055);
+	SeqNo(2085396080);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud210", "CO3_Cloud", 2113924652)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-530.207, 245.846, 38.195);
+	SeqNo(2113924652);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud700", "CO3_Cloud", 2115016280)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-190.999, 245.846, 223.345);
+	SeqNo(2115016280);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1001", "CO3_Cloud", 2142097997)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-207.164, 382.738, 81.990);
+	SeqNo(2142097997);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1101", "CO3_Cloud", -2083729883)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(46.421, 279.023, -101.525);
+	SeqNo(-2083729883);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud800", "CO3_Cloud", -2056794922)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-320.748, 245.846, 110.405);
+	SeqNo(-2056794922);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1900", "CO3_Cloud", -2025655473)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-1091.987, 196.758, -69.421);
+	SeqNo(-2025655473);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud16", "CO3_Cloud", -2020058165)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-149.302, 220.417, 737.087);
+	SeqNo(-2020058165);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud211", "CO3_Cloud", -1985752021)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-50.065, 372.255, -136.200);
+	SeqNo(-1985752021);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud17000", "CO3_Cloud", -1964747072)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1619.129, 310.216, -551.981);
+	SeqNo(-1964747072);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud92", "CO3_Cloud", -1938622127)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1302.876, 382.962, 60.419);
+	SeqNo(-1938622127);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud8000", "CO3_Cloud", -1900063250)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-810.301, 359.304, -247.499);
+	SeqNo(-1900063250);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud710", "CO3_Cloud", -1898550338)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(238.375, 370.012, -308.954);
+	SeqNo(-1898550338);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud11100", "CO3_Cloud", -1878170956)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-893.392, 369.789, -643.873);
+	SeqNo(-1878170956);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1000", "CO3_Cloud", -1741104132)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-336.251, 256.331, -148.001);
+	SeqNo(-1741104132);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud80", "CO3_Cloud", -1685568229)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(186.329, 258.797, 314.984);
+	SeqNo(-1685568229);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud91", "CO3_Cloud", -1669938844)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(737.520, 256.555, 71.296);
+	SeqNo(-1669938844);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud112", "CO3_Cloud", -1666695166)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(596.256, 267.038, -217.648);
+	SeqNo(-1666695166);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud111", "CO3_Cloud", -1661365854)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(149.235, 269.281, 718.269);
+	SeqNo(-1661365854);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1200", "CO3_Cloud", -1640876194)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-453.262, 256.331, -314.670);
+	SeqNo(-1640876194);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1301", "CO3_Cloud", -1636183003)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-103.286, 382.738, 359.050);
+	SeqNo(-1636183003);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud7000", "CO3_Cloud", -1603772372)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-657.420, 359.304, -168.649);
+	SeqNo(-1603772372);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1401", "CO3_Cloud", -1603080250)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(64.119, 382.738, 397.602);
+	SeqNo(-1603080250);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud000", "CO3_Cloud", -1564932863)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1059.320, 266.070, -168.590);
+	SeqNo(-1564932863);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1810", "CO3_Cloud", -1468217694)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-550.630, 276.777, -494.412);
+	SeqNo(-1468217694);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud20000", "CO3_Cloud", -1446657221)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1267.043, 310.216, 37.364);
+	SeqNo(-1446657221);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud4000", "CO3_Cloud", -1421526982)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1245.041, 266.070, -431.726);
+	SeqNo(-1421526982);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud600", "CO3_Cloud", -1413386264)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-587.300, 196.758, 274.761);
+	SeqNo(-1413386264);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1310", "CO3_Cloud", -1403451104)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-110.848, 380.496, -905.654);
+	SeqNo(-1403451104);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1110", "CO3_Cloud", -1399702137)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-307.211, 256.331, -294.359);
+	SeqNo(-1399702137);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud170", "CO3_Cloud", -1380612308)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(260.127, 209.709, 1002.970);
+	SeqNo(-1380612308);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud6000", "CO3_Cloud", -1368745154)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1030.129, 310.216, -24.480);
+	SeqNo(-1368745154);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud7", "CO3_Cloud", -1288179886)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-834.077, 269.504, 65.465);
+	SeqNo(-1288179886);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud01", "CO3_Cloud", -1269984427)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-15.932, 279.023, -233.622);
+	SeqNo(-1269984427);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud701", "CO3_Cloud", -1230746909)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-417.151, 372.255, -256.977);
+	SeqNo(-1230746909);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud23", "CO3_Cloud", -1198867978)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(322.079, 163.319, 204.552);
+	SeqNo(-1198867978);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud20", "CO3_Cloud", -1192222353)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-190.830, 220.417, 47.753);
+	SeqNo(-1192222353);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud70", "CO3_Cloud", -1156064733)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(63.382, 258.797, 194.678);
+	SeqNo(-1156064733);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1210", "CO3_Cloud", -1145433977)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-144.289, 380.496, -769.179);
+	SeqNo(-1145433977);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud140", "CO3_Cloud", -1134478333)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(375.212, 269.281, 944.918);
+	SeqNo(-1134478333);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud172", "CO3_Cloud", -1094447498)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-381.856, 333.874, 269.608);
+	SeqNo(-1094447498);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud180", "CO3_Cloud", -1059279414)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(656.408, 165.565, 294.698);
+	SeqNo(-1059279414);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud12000", "CO3_Cloud", -1003462538)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1040.083, 369.789, -628.875);
+	SeqNo(-1003462538);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud2001", "CO3_Cloud", -990874032)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(203.435, 323.167, -427.124);
+	SeqNo(-990874032);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud31", "CO3_Cloud", -987187808)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(324.130, 163.319, -71.489);
+	SeqNo(-987187808);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud8", "CO3_Cloud", -959815659)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-711.130, 269.504, 185.770);
+	SeqNo(-959815659);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud201", "CO3_Cloud", -954540767)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(71.342, 207.465, 355.211);
+	SeqNo(-954540767);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud192", "CO3_Cloud", -938138125)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-380.534, 333.874, -44.035);
+	SeqNo(-938138125);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud13000", "CO3_Cloud", -918071794)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1006.643, 369.789, -765.349);
+	SeqNo(-918071794);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud601", "CO3_Cloud", -897015579)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-36.678, 323.167, -379.188);
+	SeqNo(-897015579);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud510", "CO3_Cloud", -891431629)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-357.625, 276.777, -321.150);
+	SeqNo(-891431629);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud910", "CO3_Cloud", -871580720)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(208.316, 370.012, -537.109);
+	SeqNo(-871580720);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud151", "CO3_Cloud", -870680500)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(211.954, 207.465, -369.327);
+	SeqNo(-870680500);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1510", "CO3_Cloud", -818336207)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-406.943, 320.923, -840.131);
+	SeqNo(-818336207);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud24", "CO3_Cloud", -799596449)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-918.373, 289.730, -145.742);
+	SeqNo(-799596449);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud162", "CO3_Cloud", -793600310)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-494.768, 333.874, 320.445);
+	SeqNo(-793600310);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud3000", "CO3_Cloud", -793411213)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1122.962, 266.070, -437.203);
+	SeqNo(-793411213);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud410", "CO3_Cloud", -718659601)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-349.246, 276.777, -572.032);
+	SeqNo(-718659601);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1400", "CO3_Cloud", -678066643)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-546.010, 256.331, -507.459);
+	SeqNo(-678066643);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1201", "CO3_Cloud", -653512398)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-61.952, 382.738, 224.756);
+	SeqNo(-653512398);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud71", "CO3_Cloud", -632154230)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(712.469, 256.555, 300.055);
+	SeqNo(-632154230);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud60", "CO3_Cloud", -596736335)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(462.002, 209.710, 166.437);
+	SeqNo(-596736335);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1901", "CO3_Cloud", -590154535)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(521.907, 323.167, -131.915);
+	SeqNo(-590154535);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud15", "CO3_Cloud", -590087215)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-373.411, 220.417, 762.864);
+	SeqNo(-590087215);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud610", "CO3_Cloud", -476696770)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-134.335, 320.923, -164.785);
+	SeqNo(-476696770);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud102", "CO3_Cloud", -464244608)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-1109.606, 393.445, 169.869);
+	SeqNo(-464244608);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud2", "CO3_Cloud", -460405593)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-506.235, 269.504, 270.060);
+	SeqNo(-460405593);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud202", "CO3_Cloud", -449052760)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-699.006, 333.874, -339.244);
+	SeqNo(-449052760);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud182", "CO3_Cloud", -443087251)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(-542.736, 289.730, 62.009);
+	SeqNo(-443087251);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud17", "CO3_Cloud", -381401850)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-27.541, 220.417, 714.554);
+	SeqNo(-381401850);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud101", "CO3_Cloud", -380773118)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(567.217, 267.038, -71.291);
+	SeqNo(-380773118);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1130", "CO3_Cloud", -355268342)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-233.470, 276.777, -437.137);
+	SeqNo(-355268342);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud2000", "CO3_Cloud", -331895773)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-832.125, 196.758, 278.500);
+	SeqNo(-331895773);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud161", "CO3_Cloud", -321592964)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-10.275, 207.465, -330.537);
+	SeqNo(-321592964);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud301", "CO3_Cloud", -306547453)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(31.952, 279.023, 38.241);
+	SeqNo(-306547453);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud120", "CO3_Cloud", -278855866)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(293.854, 269.281, 747.053);
+	SeqNo(-278855866);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1501", "CO3_Cloud", -252637379)
+{
+	ChildRotation(0.985, 0.000, 0.174, 0.000);
+	ChildPosition(196.121, 323.167, 310.889);
+	SeqNo(-252637379);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud200", "CO3_Cloud", -240513788)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(706.628, 209.710, 176.967);
+	SeqNo(-240513788);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud400", "CO3_Cloud", -231389643)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-699.219, 152.612, -171.907);
+	SeqNo(-231389643);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1500", "CO3_Cloud", -187413313)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-691.515, 196.758, -446.037);
+	SeqNo(-187413313);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1300", "CO3_Cloud", -146242451)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(-388.331, 256.331, -439.279);
+	SeqNo(-146242451);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud18000", "CO3_Cloud", -103102541)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-1446.423, 266.070, -354.106);
+	SeqNo(-103102541);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud9", "CO3_Cloud", -28625518)
+{
+	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildPosition(-872.412, 269.504, 292.374);
+	SeqNo(-28625518);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud1910", "CO3_Cloud", -26765095)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-706.381, 320.923, -379.097);
+	SeqNo(-26765095);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud310", "CO3_Cloud", -24931698)
+{
+	ChildRotation(0.203, 0.000, -0.979, 0.000);
+	ChildPosition(-227.167, 276.777, -577.509);
+	SeqNo(-24931698);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud61", "CO3_Cloud", -21552355)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(316.168, 207.465, 351.472);
+	SeqNo(-21552355);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}
+
+Object("CO3_Cloud22", "CO3_Cloud", -16871935)
+{
+	ChildRotation(0.084, 0.000, -0.996, 0.000);
+	ChildPosition(373.262, 256.555, 114.906);
+	SeqNo(-16871935);
+	Team(0);
+	NetworkId(-1);
+	Layer(8);
+}

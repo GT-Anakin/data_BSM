@@ -1,0 +1,60 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_recoilless_ord"
+
+[Properties]
+ExplosionName = "tur_weap_recoilless_rifle_exp"
+
+OrdnanceSound           = "com_weap_inf_ord_hum_lg"
+
+VehicleScale            = "1.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale           = "1.0"
+
+Damage              = "1000.0"
+ExplosionName           = "tur_weap_recoilless_rifle_exp"
+LaserTexture            = "com_sfx_laser_yellow"
+LaserGlowColor          = "128 128 32 100"
+LaserLength         = "3.0"
+LaserWidth          = "0.3"
+LightColor                  = "128 128 32 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "0.5"
+
+Damage              = "1250.0"
+ExplosionName           = "tur_weap_recoilless_rifle_exp"
+LaserTexture            = "com_sfx_laser_yellow"
+LaserGlowColor          = "160 160 32 100"
+LaserLength         = "4.0"
+LaserWidth          = "0.4"
+LightColor                  = "160 160 32 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "0.75"
+
+
+Damage              = "1500.0"
+ExplosionName           = "tur_weap_recoilless_rifle_exp"
+LaserTexture            = "com_sfx_laser_yellow"
+LaserGlowColor          = "192 192 64 100"
+LaserLength         = "5.0"
+LaserWidth          = "0.5"
+LightColor                  = "192 192 64 150"
+LightRadius                 = "6.0"
+
+NEXTCHARGE          = "2.0"
+
+Damage              = "3000.0"
+ExplosionName           = "tur_weap_recoilless_rifle_exp"
+LaserTexture            = "com_sfx_laser_yellow"
+LaserGlowColor          = "224 224 128 100"
+LaserLength         = "6.0"
+LaserWidth          = "0.6"
+LightColor                  = "224 224 128 150"
+LightRadius                 = "6.0"
+
+OrdnanceSound  = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp_lg"

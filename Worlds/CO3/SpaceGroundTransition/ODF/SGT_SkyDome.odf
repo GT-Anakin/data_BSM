@@ -1,0 +1,8 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"SGT_SkyDome.msh"
+
+[Properties]
+
+GeometryName	=	"SGT_SkyDome"

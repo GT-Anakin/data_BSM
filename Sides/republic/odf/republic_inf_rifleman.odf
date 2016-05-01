@@ -5,6 +5,7 @@ ClassParent         = "republic_inf_default"
 GeometryName        = "rep_bf3_trooper"
 GeometryLowRes		= "rep_bf3_trooper_low"
 SkeletonName		= "bf3clones"
+AnimationName		= "bf3clones"
 //SkeletonLowRes		= "bf3clones"
 FirstPerson         = "REP\reptroop;rep_1st_trooper"
 
@@ -13,6 +14,10 @@ WeaponName         = "rep_weap_inf_rifle"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2
+WeaponName         = "rep_weap_inf_pistol"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 3
 WeaponName         = "com_weap_inf_thermaldetonator"
 WeaponAmmo         = 4
 WeaponChannel      = 1

@@ -1,0 +1,15 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_chaingun"
+
+[Properties]
+HUDTag	     = "hud_vehicle_chaingun"
+OrdnanceName = "tur_weap_chaingun_ord"
+
+FireSound = "rep_weap_fly_jedifighter_cannon_fire"
+
+ZoomFirstPerson		= 1
+ZoomMin			= "2.0"
+ZoomMax			= "8.0"
+ZoomRate		= "1.0"
+
+ScopeTexture        = "weapon_scope4"

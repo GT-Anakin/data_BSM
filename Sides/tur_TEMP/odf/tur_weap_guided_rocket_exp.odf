@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan 		= "0.2"
+Damage			= "100.0"
+DamageRadiusInner 	= "2.0"
+DamageRadiusOuter 	= "4.0"
+Push 			= "10.0"
+PushRadius 		= "2.0"
+
+
+//Shake 		  = "0.5"
+//ShakeLength	  	= "0.75"
+//ShakeRadiusInner  	= "8.0"
+//ShakeRadiusOuter  	= "15.0"
+Effect 			= "com_sfx_weap_redbolt_exp_md"
+
+VehicleScale	= "0.0"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "0.0"
+AnimalScale	= "1.0"
+
+SoundProperty = "com_weap_obj_small_exp"

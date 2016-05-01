@@ -26,7 +26,7 @@ ForceMode = 1
 
 TurretNodeName          = "aimer_y"
 
-PitchLimits             = "-50 50"
+PitchLimits             = "-65 15"
 YawLimits           = "-180 180"
 
 PitchTurnFactor     = "0.0"

@@ -5,7 +5,6 @@ SoundStream()
     Inherit("ambientfx_template");
     Stream("co3_stm");
     Gain(1.0);
-    RandomPlayPos(1);
     Looping(1);
     SegmentList()
     {
@@ -47,7 +46,6 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    RandomPlayPos(1);
     Gain(0.4);
     Looping(1);
     SegmentList()

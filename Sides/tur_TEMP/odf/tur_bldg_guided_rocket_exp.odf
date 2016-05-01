@@ -1,0 +1,23 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "0.3"
+Damage = "30.0"
+DamageRadius = "3.0"
+Shake = "1.0"
+ShakeRadius = "2.0"
+Effect = "com_sfx_explosion_lg"
+ArmorScale =    "5.0"
+HealthScale =   "1.0"
+ShieldScale =   "0.5"
+
+NumChunks = "9"
+ChunkGeometryName = "com_smallchunk1"
+ChunkTerrainCollisions = "8"
+ChunkTrailEffect = "com_sfx_chunktrail_xs"
+ChunkPhysics = "FULL"
+ChunkOmega = "4.0 3.0 4.0"
+ChunkSpeed = "6.0 10.0"
+ChunkStartDistance = "2.0"
+SoundProperty = "com_weap_obj_med_exp defer"

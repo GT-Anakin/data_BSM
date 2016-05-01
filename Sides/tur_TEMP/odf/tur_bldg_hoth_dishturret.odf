@@ -1,0 +1,81 @@
+[GameObjectClass]
+ClassLabel      = "armedbuilding"
+GeometryName        = "hoth_bldg_dish_turret.msh"
+
+[Properties]
+BUILDINGSECTION     = "BODY"
+
+Label           = "Hoth Turret"
+MapTexture      = "turret_icon"
+IconTexture     = "HUD_all_lascannon_icon"
+MapScale        = "1.2"
+HealthTexture       = "HUD_all_dishturret_icon"
+
+GeometryName        = "hoth_bldg_dish_turret"
+ExplosionName       = "tur_bldg_hoth_dishturret_exp"
+DestroyedGeometryName   = "hoth_bldg_dish_turret_destroyed"
+
+MaxHealth       = "3000.0"
+RespawnTime		= "999999.9"
+
+BUILDINGSECTION     = "TURRET1"
+
+PCMaxTurnSpeed      = "20.0"
+PCMaxPitchSpeed     = "20.0"
+
+PitchLimits         = "-10.0 35.0"
+YawLimits       = "-180.0 180.0"
+
+PitchTurnFactor     = "0.0"
+
+EyePointOffset      = "0.0 1.5.0 -2.0"
+TrackOffset         = "0.0 1.7 5.0"
+TiltValue 					= "5"
+TurretNodeName      = "turret_y"
+
+PilotPosition       = "hp_active"
+//PilotAnimation        = "man_gun"
+Pilot9Pose      = "dishcannon_9pose"
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+TURRETSECTION       = "TURRET1"
+//FirstPerson             = "com\comviewf;com_1st_cockpit_viewfinder"
+
+ForceMode = 1
+
+WeaponName      = "tur_weap_hoth_dishturret"
+WeaponAmmo      = "0"   //"2"
+MaxTurnSpeed        = "1"
+MaxPitchSpeed       = "1"
+
+
+
+AimerNodeName       = "turret_x"
+AimerPitchLimits        = "-15.0 40.0"
+AimerYawLimits      = "0.0 0.0"
+
+BarrelNodeName      = "barrel"
+BarrelLength        = "2.0"
+BarrelRecoil        = "0.18"
+
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+FoleyFXGroup    = "metal_foley"

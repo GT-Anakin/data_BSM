@@ -1,0 +1,9 @@
+[WeaponClass]
+ClassParent          = "com_weap_veh_fly_guided_rocket"
+
+[Properties]
+FirePointExtraOffset = "0 10 10"
+
+Firesound = "imp_weap_fly_guided_rocket_fire"
+
+ScopeTexture        = "weapon_scope4"s

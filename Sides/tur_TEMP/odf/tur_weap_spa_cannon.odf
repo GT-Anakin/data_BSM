@@ -1,0 +1,61 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_fly_chaingun"
+
+[Properties]
+HUDTag 		= "hud_vehicle_flak"
+OrdnanceName = "tur_weap_spa_cannon_ord"
+
+SecondaryOrdnancePeriod = 0
+
+TargetLockMaxDistance = "2500"
+TargetLockMaxDistanceLose = "3500" 
+
+RoundsPerClip           = "10"
+ShotDelay           = "0.75"
+ReloadTime              = "3.0"
+
+InitialSalvoDelay = "0.1"
+SalvoCount            = "1"
+ShotsPerSalvo           = "5
+SalvoDelay              = "0.0"
+
+HeatRecoverRate = "0.0"
+HeatThreshold = "0.0"
+HeatPerShot = "0.0"
+
+SpreadPerShot       = "0"
+SpreadRecoverRate   = "0"
+SpreadThreshold     = "0"
+SpreadLimit         = "0"
+
+YawSpread           = "0.6"
+PitchSpread         = "0.3"
+
+WarmUpTime      = 0.0
+CoolDownTime        = 0.0
+
+ZoomFirstPerson     = 1
+ZoomMin         = "2.0"
+ZoomMax         = "8.0"
+ZoomRate        = "1.25"
+
+ScopeTexture        = "weapon_scope4"
+
+RecoilLengthLight           = "0.5"
+RecoilStrengthLight         = "1"
+RecoilDelayHeavy            = "0"
+RecoilLengthHeavy           = "0.35"
+RecoilStrengthHeavy         = "1"
+
+
+//*****SOUND*****//
+//FireSound = "tur_weap_spa_cannon_fire"
+
+WarmUpSound         = "tur_weap_fly_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "tur_weap_fly_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

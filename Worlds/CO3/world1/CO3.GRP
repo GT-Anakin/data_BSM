@@ -10,5 +10,7 @@ Group("[Base]", 0, 8)
 	Layer("GCW_Ships", 4);
 	Layer("CW_Ships_Turrets", 5);
 	Layer("CW_Ships_Turrets_MP", 6);
+	Layer("SpaceGroundTransition", 7);
+	Layer("Clouds", 8);
 }
 

@@ -23,8 +23,8 @@ Animation("cis_crashing", 65.00, 0, 0)
 	AddPositionKey(2.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(5.00, 0.00, -15.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(25.00, -150.00, -200.00, 200.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(60.00, -850.00, -955.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(65.00, -850.00, -960.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(60.00, -850.00, -1250.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(65.00, -850.00, -1260.00, 650.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(2.00, 1.00, 0.00, -2.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(5.00, 3.00, 1.00, -7.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
@@ -43,8 +43,8 @@ Animation("rep_crashing", 70.00, 0, 0)
 	AddPositionKey(5.00, 0.00, -10.00, -5.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(25.00, 0.00, -180.00, -350.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(40.00, 50.00, -600.00, -800.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(65.00, 380.00, -1145.00, -2360.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(70.00, 445.00, -1180.00, -2580.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(65.00, 380.00, -1245.00, -2360.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(70.00, 445.00, -1280.00, -2580.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(3.00, 1.00, 0.00, 2.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(6.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
@@ -76,28 +76,30 @@ Animation("cis_lander_start", 80.00, 0, 0)
 	AddPositionKey(15.00, 0.00, 260.00, 10.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(18.00, 0.00, 350.00, 45.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(60.00, 0.00, 900.00, 3500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(80.00, 0.00, 6500.00, 9500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(80.00, 0.00, 8000.00, 12000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(15.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(17.00, 3.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
-Animation("cis_lander_a", 120.00, 1, 0)
+Animation("cis_lander_a", 100.00, 1, 0)
 {
 	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(120.00, 0.00, 0.00, 15000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(100.00, 0.00, 0.00, 13000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
-Animation("cis_frigates_arrive", 2.00, 0, 0)
+Animation("cis_frigate_arrive", 1.00, 0, 0)
 {
 	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(2.00, 0.00, -600.00, 25000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.10, 0.00, -50650.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -50650.00, 3500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
-Animation("rep_frigates_arrive", 2.00, 0, 0)
+Animation("rep_frigate_arrive", 1.00, 0, 0)
 {
 	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(2.00, 0.00, -600.00, 40500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(0.10, 0.00, -58400.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -58400.00, 3200.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
 Animation("cis_console", 1.00, 0, 0)
@@ -129,6 +131,8 @@ AnimationGroup("ad_rings", 1, 0)
 AnimationGroup("republic_countdown_1", 0, 0)
 {
 	DisableHierarchies();
+	Animation("republic_countdown", "rep_comm_table_console");
+	Animation("republic_countdown", "rep_comm_table");
 	Animation("republic_countdown", "rep_door_1");
 	Animation("republic_countdown", "rep_door_2");
 	Animation("republic_countdown", "rep_door_3");
@@ -205,6 +209,8 @@ AnimationGroup("republic_countdown_2", 0, 0)
 AnimationGroup("cis_countdown_1", 0, 0)
 {
 	DisableHierarchies();
+	Animation("cis_countdown", "cis_comm_table_console");
+	Animation("cis_countdown", "cis_comm_table");
 	Animation("cis_countdown", "cis_door_1");
 	Animation("cis_countdown", "cis_door_2");
 	Animation("cis_countdown", "cis_door_3");
@@ -323,26 +329,26 @@ AnimationGroup("cis_lander", 1, 0)
 	Animation("cis_lander_start", "cis_lander_start");
 }
 
-AnimationGroup("cis_frigates_arrive", 0, 0)
+AnimationGroup("cis_frigate_arrive", 0, 0)
 {
 	DisableHierarchies();
-	Animation("cis_frigates_arrive", "cis_frigate_ext_closed1");
-	Animation("cis_frigates_arrive", "cis_frigate_ext_closed2");
-	Animation("cis_frigates_arrive", "cis_frigate_ext_closed3");
-	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_1");
-	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_2");
-	Animation("cis_frigates_arrive", "CIS_Frigate_arrive_3");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive_closed");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret1");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret2");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret3");
+	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret4");
 }
 
-AnimationGroup("rep_frigates_arrive", 0, 0)
+AnimationGroup("rep_frigate_arrive", 0, 0)
 {
 	DisableHierarchies();
-	Animation("rep_frigates_arrive", "rep_frigate_ext_closed1");
-	Animation("rep_frigates_arrive", "rep_frigate_ext_closed2");
-	Animation("rep_frigates_arrive", "rep_frigate_ext_closed3");
-	Animation("rep_frigates_arrive", "rep_frigate_arrive_1");
-	Animation("rep_frigates_arrive", "rep_frigate_arrive_2");
-	Animation("rep_frigates_arrive", "rep_frigate_arrive_3");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive_closed");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret1");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret2");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret3");
+	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret4");
 }
 
 AnimationGroup("cis_console", 0, 0)

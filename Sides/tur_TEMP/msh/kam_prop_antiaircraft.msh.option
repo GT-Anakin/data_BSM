@@ -1,0 +1,1 @@
+-keep aimer_y aimer_x barrel1 barrel2 -boundingboxscale 2.0 -boundingboxoffsetx 0.0 -boundingboxoffsety 0.0 -boundingboxoffsetz 0.0

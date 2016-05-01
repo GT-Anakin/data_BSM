@@ -1,0 +1,118 @@
+[GameObjectClass]
+ClassLabel      = "armedbuilding"
+GeometryName        = "com_weap_gunturret.msh"
+
+[Properties]
+
+BUILDINGSECTION     = "BODY"
+
+RespawnTime		= "999999.9"
+
+Label           = "Minigun Turret"
+MapTexture      = "turret_icon"
+\\IconTexture       = "HUD_all_lascannon_icon"
+MapScale        = "1.2"
+
+HealthTexture       = "HUD_enclosedturret_icon"
+
+GeometryName        = "com_weap_gunturret"
+ExplosionName       = "tur_bldg_mortar_exp"
+
+
+MaxHealth       = "800.0"
+
+--UnbuiltHoloOdf      = "com_holo_turret"
+--UnbuiltGeometryName = "com_prop_buildzone"
+
+BUILDINGSECTION     = "TURRET1"
+TurretNodeName      = "main_cylinder"
+
+PitchLimits     = "-45.0 45.0"
+YawLimits       = "-180.0 180.0"
+
+PitchTurnFactor     = "0.0"
+
+EyePointOffset      = "0.0 2.5 1"
+TrackCenter     = "0.0 1.5 -2.0"
+TrackOffset         = "0.0 0.75 2.0"
+TiltValue       = "5"
+
+PilotPosition       = "hp_active"
+Pilot9Pose      = "minigun_9pose"
+
+TURRETSECTION       = "TURRET1"
+//FirstPerson             = "com\comgntrt;com_1st_weap_gunturret"
+
+ForceMode = 1
+
+WeaponName      = "tur_weap_mortar"
+WeaponAmmo      = "0"   //"2"
+
+//EyePointOffset        = "0.0 0.0 0.0"
+
+AimerNodeName       = "turret_main"
+MaxTurnSpeed        = "2.85"
+MaxPitchSpeed       = "0.75"
+AimerPitchLimits        = "-45.0 45.0"
+AimerYawLimits      = "-5.0 5.0"
+
+FirePointName       = "hp_fire"
+
+
+TurretYawSound         = "turret_whir_yaw_lp defer"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp defer"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip defer"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+\\ ----- COLLISION -----
+
+vehiclecollision    = "p_base"
+
+Soldiercollision    = "p_armor1"
+Soldiercollision    = "p_armor2"
+Soldiercollision    = "p_wall1"
+Soldiercollision    = "p_wall2"
+Soldiercollision    = "p_wall3"
+Soldiercollision    = "p_wall4"
+Soldiercollision    = "p_wall5"
+Soldiercollision    = "p_wall6"
+Soldiercollision    = "p_wall7"
+Soldiercollision    = "p_wall8"
+Soldiercollision    = "p_wall9"
+Soldiercollision    = "p_cylindergun"
+Soldiercollision    = "CollisionMesh"
+Soldiercollision    = "p_spawn"
+
+Ordnancecollision   = "p_armor1"
+Ordnancecollision   = "p_armor2"
+Ordnancecollision   = "p_wall1"
+Ordnancecollision   = "p_wall2"
+Ordnancecollision   = "p_wall3"
+Ordnancecollision   = "p_wall4"
+Ordnancecollision   = "p_wall5"
+Ordnancecollision   = "p_wall6"
+Ordnancecollision   = "p_wall7"
+Ordnancecollision   = "p_wall8"
+Ordnancecollision   = "p_wall9"
+Ordnancecollision    = "CollisionMesh"
+
+
+
+
+[InstanceProperties]
+NoAIBoard = ""
+

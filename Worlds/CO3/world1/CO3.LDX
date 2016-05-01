@@ -36,11 +36,23 @@ Layer("CW_Ships_Turrets_MP", 6, 0)
 	Description("");
 }
 
+Layer("SpaceGroundTransition", 7, 0)
+{
+	Description("");
+}
+
+Layer("Clouds", 8, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
 	Layer(0);
 	Layer(2);
+	Layer(7);
+	Layer(8);
 }
 
 GameMode("conquest")

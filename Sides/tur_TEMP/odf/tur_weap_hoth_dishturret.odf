@@ -1,0 +1,74 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_recoilless"
+
+[Properties]
+HUDTag       = "hud_vehicle_recoiless"
+OrdnanceName = "tur_weap_hoth_dishturret_ord"
+
+SalvoCount = "1"
+ShotDelay = ".70"
+
+FireSound = "com_weap_turret_fire_big"
+
+ZoomMin             = "2.0"
+ZoomMax             = "4.0"
+ZoomRate            = "1.0"
+
+
+WEAPONSECTION           = 1
+
+FireSound           = "hot_weap_dish_fire"
+//ReloadSound           = "laserreload"
+//ChangeModeSound       = "com_weap_inf_blaster_rifle_modechange"
+//FireEmptySound        = "com_weap_inf_weapon_empty"
+//WeaponChangeSound         = "com_weap_inf_laser_weaponchange"
+ChargeSound                 = "com_weap_charge"
+ChargeSoundPitch            = "0.3"
+//ChargeSoundStop     ="0"
+
+OrdnanceName            = "tur_weap_hoth_dishturret_ord"
+
+ScopeTexture        = "weapon_scope4"
+
+TriggerSingle           = "1"
+ShotDelay           = "0.5"
+HeatPerShot         = "0.0"
+MaxPressedTime          = "2.0"
+
+PitchSpread         = "0.0"
+YawSpread           = "0.0"
+
+KickSpread          = "0.0"
+SpreadRecover           = "0.0"
+
+KickStrength            = "0.0"
+KickBuildup         = "0.0"
+
+LockOnRange         = "0.0"
+LockTime            = "0.0"
+//AutoAimSize           = "1.0"
+
+SalvoCount          = "1"
+RoundsPerSalvo          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay       = "0.2"
+SalvoTime           = "0.0"
+
+MinRange            = "0"
+OptimalRange        = "150"
+MaxRange            = "300"
+
+TargetEnemy         = "1"
+TargetNeutral           = "0"
+TargetFriendly          = "0"
+
+TargetVehicle           = "1"
+
+AITargetPerson      = "0"
+
+ChargeRateLight             = "1.0"
+MaxChargeStrengthLight      = "1.0"
+ChargeDelayLight            = "0.0"
+ChargeRateHeavy             = "1.0"
+MaxChargeStrengthHeavy      = "0.75"
+ChargeDelayHeavy            = "2.0"

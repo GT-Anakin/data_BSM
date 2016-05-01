@@ -1,0 +1,4 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_inf_chaingun_ord"
+
+[Properties]

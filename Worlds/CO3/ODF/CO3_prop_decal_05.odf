@@ -6,3 +6,5 @@ GeometryName	=	"CO3_prop_decal_05.msh"
 [Properties]
 
 GeometryName	=	"CO3_prop_decal_05"
+
+FoleyFXGroup    =   "metal_foley"

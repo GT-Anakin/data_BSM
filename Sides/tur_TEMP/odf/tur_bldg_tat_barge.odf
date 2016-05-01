@@ -1,0 +1,79 @@
+[GameObjectClass]
+ClassLabel 		= "armedbuilding"
+GeometryName 		= "tat_bldg_barge_turret.msh"
+
+[Properties]
+
+BUILDINGSECTION 	= "BODY"
+
+RespawnTime		= "999999.9"
+
+Label 			= "Minigun Turret"
+MapTexture 		= "turret_icon"
+IconTexture		= "HUD_all_lascannon_icon"
+MapScale 			= "1.2"
+StatusTexture 		= "HUD_all_minigun_icon"
+
+GeometryName 		= "tat_bldg_barge_turret"
+ExplosionName		= "com_weap_bldg_gunturret_exp"
+//DestroyedGeometryName = "com_weap_gunturret_hulk"
+
+
+MaxHealth 		= "400.0"
+
+//UnbuiltHoloOdf 		= "com_holo_turret"
+//UnbuiltGeometryName	= "com_prop_buildzone"
+
+BUILDINGSECTION 	= "TURRET1"
+TurretNodeName 		= "aimer_01"
+
+ForceMode = 1
+
+PitchLimits		= "-45.0 45.0"
+YawLimits		= "-70.0 70.0"
+
+PitchTurnFactor		= "0.0"
+
+EyePointOffset 		= "0.0 1.5 1"
+TrackCenter		= "0.0 1.5 -2.0"
+TrackOffset 		= "0.0 0.5 1.5"
+TiltValue		= "5"
+
+PilotPosition 		= "hp_active_01"
+Pilot9Pose 		= "minigun_9pose"
+
+TURRETSECTION 		= "TURRET1"
+FirstPerson       		= "com\comgntrt;com_1st_weap_gunturret"
+
+WeaponName 		= "tur_weap_laser"
+WeaponAmmo 		= "1"	//"2"
+
+//EyePointOffset 		= "0.0 0.0 0.0"
+
+AimerNodeName		= "turret_01"
+MaxTurnSpeed 		= "0.85"
+MaxPitchSpeed 		= "0.75"
+AimerPitchLimits 		= "-45.0 45.0"
+AimerYawLimits 		= "-70.0 70.0"
+
+FirePointName		= "hp_fire_01"
+
+//TurretAmbientSound      = "com_weap_gunturret_ambience"
+//TurretActivateSound     = "com_weap_gunturret_start"
+//TurretDeactivateSound   = "com_weap_gunturret_stop"
+//TurretYawSound          = "turretcreak"
+//TurretYawSoundPitch     = "0.9"
+//TurretPitchSound        = "turretcreak2"
+//TurretPitchoundPitch    = "0.9"
+
+DamageStartPercent		= 50.0
+DamageStopPercent		= 30.0
+DamageEffect			= "com_sfx_vehiclespark"
+
+DamageStartPercent		= 30.0
+DamageStopPercent		= 0.0
+DamageEffect			= "com_sfx_smokeplume"
+DamageAttachPoint		= "hp_smoke_1"
+
+\\ ----- COLLISION -----
+

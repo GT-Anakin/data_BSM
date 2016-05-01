@@ -1,0 +1,19 @@
+[WeaponClass]
+ClassParent             = "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName            = "tur_weap_hoth_lasermortar_laser_ord"
+
+HeatRecoverRate         = "0.25"
+HeatThreshold           = "0.2"
+HeatPerShot         = "0.12"
+
+ShotDelay           = "0.22"
+
+FireSound           = "tur_weap_hoth_lasermortar_laser_fire"
+FireSoundStop       = "0"
+ZoomMin             = "2.0"
+ZoomMax             = "4.0"
+ZoomRate            = "1.0"
+
+ScopeTexture        = "weapon_scope4"

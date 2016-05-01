@@ -1,0 +1,11 @@
+[OrdnanceClass]
+ClassParent 			= "com_weap_veh_laser_ord"
+
+[Properties]
+LightRadius         	= "4.0"
+LaserLength         	= "1.0"
+LaserWidth          	= "0.1"
+GlowLength          	= "3"
+BlurLength          	= "5"
+
+MaxDamage 			= "50.0"

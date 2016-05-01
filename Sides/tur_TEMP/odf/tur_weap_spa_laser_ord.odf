@@ -1,0 +1,10 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_fly_multilasers_ord"
+
+[Properties]
+ExplosionName = "spa_laser_turret_exp"
+
+MaxDamage = "350"
+
+LaserTexture = "com_sfx_laser_orange"
+LaserGlowColor = "249 42 42 100"

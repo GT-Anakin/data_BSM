@@ -1,0 +1,19 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_crashed_rep_gunship_EDITOR.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_crashed_rep_gunship"
+
+FoleyFXGroup    =   "metal_foley"
+
+AttachEffect = "sfx_fire"
+AttachToHardPoint = "hp_fire_1"
+AttachToHardPoint = "hp_fire_2"
+AttachToHardPoint = "hp_fire_3"
+AttachToHardPoint = "hp_fire_4"
+AttachToHardPoint = "hp_fire_5"
+AttachToHardPoint = "hp_fire_6"
+AttachToHardPoint = "hp_fire_7"

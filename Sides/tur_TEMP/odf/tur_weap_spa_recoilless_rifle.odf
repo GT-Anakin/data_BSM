@@ -1,0 +1,21 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_fly_recoilless"
+
+[Properties]
+OrdnanceName = "tur_weap_spa_recoilless_rifle_ord"
+
+ShotDelay = ".33"
+
+TargetLockMaxDistance = "2500"
+TargetLockMaxDistanceLose = "3500" 
+
+ScopeTexture        = "weapon_scope4"
+
+FireSound = "com_weap_turret_fire_big"
+
+LockOnRange = "1500"
+LockTime = "0.1"
+
+ZoomMin             = "2.0"
+ZoomMax             = "8.0"
+ZoomRate            = "2.0"

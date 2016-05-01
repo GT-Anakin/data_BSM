@@ -1,0 +1,13 @@
+[WeaponClass]
+ClassParent          = "com_weap_veh_mortar"
+
+[Properties]
+HUDTag          = "hud_vehicle_mortar"
+OrdnanceName        = "tur_weap_mortar_ord"
+
+RoundsPerClip       = "1"
+ReloadTime          = "1"
+
+FireSound           = "com_weap_turret_mortar_fire"
+
+ScopeTexture        = "weapon_scope4"

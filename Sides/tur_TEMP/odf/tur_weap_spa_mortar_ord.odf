@@ -1,0 +1,85 @@
+[OrdnanceClass]
+ClassLabel          = "shell"
+
+[Properties]
+//***************************************
+//*************PROTON BOMBS**************
+//***************************************
+
+//***************************************
+//**********VISUAL EFFECTS***************
+//***************************************
+ImpactEffectWater       = "com_sfx_watersplash_sm"
+
+GeometryName            = "com_weap_inf_grenadethermal_ord"
+ExplosionName           = "spa_shiptoship_turret_exp"
+ExplosionExpire         = "spa_shiptoship_turret_exp"
+TrailEffect         = "com_sfx_protontorpedo"
+
+//***************************************
+//**********RANGE AND DAMAGE*************
+//***************************************
+LifeSpan            = "28.0"   
+Velocity            = "350.0"  
+Gravity             = "2.25"    
+Rebound             = "0.0"    
+                         
+MaxDamage           = "3000.0
+                         
+VehicleScale            = "2.0"
+ShieldScale         = "1.0"  
+PersonScale         = "1.0"  
+AnimalScale         = "1.0"  
+DroidScale          = "1.0"  
+BuildingScale           = "1.0"
+
+DamageTransitionDelay = "2.0"
+DamageTransitionPeriod = "28.0"
+DamageFinalDamage = "4000.0"
+FadeLightColor = "0"
+EndLightColor = "249 42 42 100"
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+OrdnanceSound           = "com_weap_inf_ord_hum_lg"
+//LockedOnSound         = "com_weap_launcher_missile_guided"
+CollisionSound   =   "imp_weap_ord_exp_lg"
+
+
+
+
+////OLD VERSION
+//[OrdnanceClass]
+//ClassLabel            = "bolt"
+//
+//[Properties]
+//
+//
+//LaserTexture          = "com_sfx_laser_green"
+//ImpactEffect          = "com_sfx_explosion_sm"
+//
+//ExplosionName         = "spa1_weap_imp_shipturret_exp"
+//ExplosionExpire           = "spa1_weap_imp_shipturret_exp"
+//
+//LaserLength           = "45.5"
+//LaserWidth            = "5"
+//LaserGlowColor            = "91 247 70 75"
+//LightColor                = "91 247 70 150"
+//LightRadius               = "3.0"
+//
+//LifeSpan          = "28.0"
+//Velocity          = "350.0"
+//Gravity               = "1.0"
+//Rebound               = "0.0"
+//
+//MaxDamage             = "4000.0"
+//
+//VehicleScale          = "1.0"
+//ShieldScale           = "1.0"
+//PersonScale           = "1.0"
+//AnimalScale           = "1.0"
+//DroidScale            = "1.0"
+//BuildingScale         = "0.1"
+//
+//OrdnanceSound         = "com_weap_inf_ord_hum_lg"

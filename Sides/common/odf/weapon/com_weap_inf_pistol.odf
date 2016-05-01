@@ -54,7 +54,7 @@ HeatThreshold       = "0.25"
 //*********** WEAPON PERFORMANCE VALUES *********
 //***********************************************
 
-RoundsPerClip       = "0"
+RoundsPerClip       = "25"
 ReloadTime          = "2.0"
 ShotDelay           = "0.2"
 TriggerSingle       = "1"

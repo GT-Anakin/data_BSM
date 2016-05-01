@@ -1,0 +1,68 @@
+[WeaponClass]
+
+ClassLabel      = "cannon"
+
+
+[Properties]
+
+SecondaryOrdnanceName 	= "tur_weap_geoturret_hidden"
+SecondaryOrdnancePeriod = 1
+
+Label           = "LR1K Cannon"
+ReticuleTexture		= "reticule_rifle"
+
+OrdnanceName    = "tur_weap_geoturret_ord"
+MuzzleFlash     = "med_muzzle_flash"
+Discharge       = "med_smoke_effect"
+
+RoundsPerClip   = "0"
+ShotDelay       = "1.0"
+ReloadTime      = "2.0"
+
+MinRange            = "0"
+OptimalRange            = "50"
+MaxRange            = "100"
+
+LockOnRange     = "100.0"
+LockTime        = "0.0"
+MinSpread       = "0.0"
+MaxSpread       = "0.0"
+//AutoAimSize       = "0.1"
+
+SalvoCount      = "1"
+SalvoDelay      = "0.17"
+InitialSalvoDelay   = "0.0"
+
+FireSound         = "cis_weap_inf_sonicblaster_fire"
+FireLoopSound     = ""
+ChargeSound       = ""
+ChangeModeSound   = ""
+WeaponChangeSound = ""
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "1"
+TargetAnimal			= "0"
+TargetDroid			= "1"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+AITargetPerson			= "1"
+AITargetAnimal			= "1"
+AITargetDroid			= "1"
+AITargetVehicle			= "1"
+AITargetBuilding			= "1"
+
+RecoilLengthLight           = "0.2"
+RecoilStrengthLight         = "1"
+
+RecoilLengthHeavy           = "0.1"
+RecoilStrengthHeavy         = ".6"
+
+ZoomMin		= "2.0"
+ZoomMax		= "4.0"
+ZoomRate	= "1.0"
+
+ScopeTexture        = "weapon_scope4"

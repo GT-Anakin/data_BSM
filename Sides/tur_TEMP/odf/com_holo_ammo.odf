@@ -1,0 +1,22 @@
+[GameObjectClass]
+ClassLabel = "hologram"
+ 
+[Properties]
+Color                                         = "0 225 98"
+HoloType = "build"
+HoloImageGeometry       = "com_icon_ammo"
+HoloVisibleDistance = 35.0
+HoloHeight                                = 0.75
+HoloSize                                   = 1.0
+HoloBeamIntensity         = 0.3
+HoloLightIntensity          = 0.0
+HoloImageIntensity         = 0.5
+HoloFlareIntensity          = 0.0
+HoloLightRadius             = 0.0
+HoloRotateRate                         = 0.2
+HoloPopRate                 = 0.01
+HoloFlickerRate             = 0.01
+HoloFlickerAlphaMin = 0.4
+HoloFlickerAlphaMax = 0.8
+HoloFadeInTime                         = 2.0
+

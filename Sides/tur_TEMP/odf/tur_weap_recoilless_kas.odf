@@ -1,0 +1,19 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_recoilless"
+
+[Properties]
+HUDTag	     = "hud_vehicle_recoiless"
+OrdnanceName = "tur_weap_recoilless_kas_ord"
+
+SalvoCount = "2"
+SalvoDelay = "0.1"
+ShotDelay = "2.5"
+
+
+ZoomMin             = "3.0"
+ZoomMax             = "4.5"
+ZoomRate            = "1.0"
+
+ScopeTexture        = "weapon_scope4"
+
+FireSound = "com_weap_turret_fire_big"

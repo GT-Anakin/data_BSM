@@ -1,0 +1,8 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"SGT_Planet.msh"
+
+[Properties]
+
+GeometryName	=	"SGT_Planet"

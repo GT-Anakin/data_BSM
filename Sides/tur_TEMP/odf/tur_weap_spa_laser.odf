@@ -1,0 +1,17 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_fly_multilasers"
+
+[Properties]
+OrdnanceName = "spa_laser_turret_ord"
+
+FireSound = "com_weap_turret_fire_big"
+
+FlashLightColor = "255 220 220 175"
+FlashLightRadius = "30"
+FlashLightDuration = "0.5"
+
+ZoomMin             = "2.0"
+ZoomMax             = "8.0"
+ZoomRate            = "1.0"
+
+ScopeTexture        = "weapon_scope4"

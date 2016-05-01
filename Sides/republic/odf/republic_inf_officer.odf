@@ -11,8 +11,8 @@ FirstPerson         = "REP\reptroop;rep_1st_trooper"
 ClothODF			= "cloth_commander_kama"
 
 WEAPONSECTION = 1
-WeaponName         = "rep_weap_inf_rifle"
-WeaponAmmo         = 4
+WeaponName         = "rep_weap_inf_chaingun"
+WeaponAmmo         = 0
 
 WEAPONSECTION = 2
 WeaponName         = "rep_weap_inf_pistol"

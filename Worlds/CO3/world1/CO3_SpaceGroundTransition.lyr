@@ -1,0 +1,62 @@
+Version(3);
+SaveType(0);
+
+Camera("camera")
+{
+	Rotation(0.785, 0.160, -0.586, 0.119);
+	Position(852.820, 2180.748, -18.272);
+	FieldOfView(55.400);
+	NearPlane(1.000);
+	FarPlane(5000.000);
+	ZoomFactor(1.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
+	Bookmark(-3697.846, 59898.125, -499.109,  0.725, 0.687, -0.032, 0.031);
+}
+LightName("CO3_SpaceGroundTransition.LGT");
+ControllerManager("StandardCtrlMgr");
+
+WorldExtents()
+{
+	Min(0.000000, 0.000000, 0.000000);
+	Max(0.000000, 0.000000, 0.000000);
+}
+
+NextSequence(-3513770);
+
+Object("SGT_SkyDome", "SGT_SkyDome", 361360948)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.000, -300.000, 0.000);
+	SeqNo(361360948);
+	Team(0);
+	NetworkId(-1);
+	Layer(7);
+}
+
+Object("SGT_Planet", "SGT_Planet", 1155832064)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.000, -300.000, 0.000);
+	SeqNo(1155832064);
+	Team(0);
+	NetworkId(-1);
+	Layer(7);
+}
+
+Object("SGT_Layers", "SGT_Layers", -929692482)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(0.000, -300.000, 0.000);
+	SeqNo(-929692482);
+	Team(0);
+	NetworkId(-1);
+	Layer(7);
+}

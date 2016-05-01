@@ -6,9 +6,11 @@ ucft
 		"republic_fly_eta2_red"
 		"republic_fly_170_fighter"
 		"republic_fly_vwing"
+		"republic_fly_gunship"
 		"cis_fly_tri_fighter"
 		"cis_fly_droid_fighter"
 		"cis_fly_bomber"
+		"cis_fly_gunship"
 	}
 	REQN
 	{
@@ -16,5 +18,6 @@ ucft
 		"republic_fly_eta2_red_cockpit"
 		"republic_fly_170_fighter_cockpit"
 		"republic_fly_vwing_cockpit"
+		"republic_fly_gunship_cockpit"
 	}
 }

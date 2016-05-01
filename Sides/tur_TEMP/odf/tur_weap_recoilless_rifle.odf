@@ -1,0 +1,17 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_recoilless"
+
+[Properties]
+OrdnanceName = "tur_weap_recoilless_rifle_ord"
+
+SalvoCount = "1"
+ShotDelay = "1.5"
+
+
+ZoomMin             = "3.0"
+ZoomMax             = "4.5"
+ZoomRate            = "1.0"
+
+ScopeTexture        = "weapon_scope4"
+
+FireSound = "com_weap_turret_fire_big"

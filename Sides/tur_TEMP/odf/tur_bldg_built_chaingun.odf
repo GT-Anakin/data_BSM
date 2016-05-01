@@ -1,0 +1,111 @@
+[GameObjectClass]
+ClassLabel      = "armedbuilding"
+GeometryName        = "com_bldg_chaingun_tripod.msh"
+
+[Properties]
+
+BUILDINGSECTION     = "BODY"
+
+
+RespawnTime		= "999999.9"
+
+MapScale        = "1.2"
+
+HealthTexture       = "HUD_enclosedturret_icon"
+
+GeometryName        = "com_bldg_chaingun_tripod"
+ExplosionName       = "tur_bldg_chaingun_exp"
+
+MaxHealth       = "300.0"
+
+
+BUILDINGSECTION     = "TURRET1"
+
+ForceMode = 1
+
+TurretNodeName          = "aimer_gun"
+
+PitchLimits             = "-30 20"
+YawLimits               = "-180 180"
+
+PitchTurnFactor      = "0.0"
+
+EyePointOffset      = "0.0 1.5 1"
+TrackCenter     = "0.0 0.65 -2.0"
+TrackOffset         = "0.0 0.5 1.5"
+TiltValue       = "5"
+
+ThirdPersonFOV          = "65"
+WeaponName              = "tur_weap_chaingun"
+WeaponAmmo              = "0"
+
+MaxTurnSpeed            = "5.0"
+MaxPitchSpeed           = "5.0"
+//PitchRate               = "2.0"
+//TurnRate                = "5.0"
+PCMaxPitchSpeed         = "5.0"
+PCMaxTurnSpeed          = "5.0" 
+
+PilotPosition       = "hp_active"
+Pilot9Pose      = "minigun_9pose"
+//FirstPerson             = "com\comgntrt;com_1st_weap_gunturret"
+
+AimerNodeName       = "aimer_gun"
+MaxTurnSpeed        = "2.85"
+MaxPitchSpeed       = "0.75"
+AimerPitchLimits        = "-45.0 45.0"
+AimerYawLimits      = "-5.0 5.0"
+
+FirePointName       = "hp_fire"
+
+
+TurretYawSound         = "turret_whir_yaw_lp defer"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp defer"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip defer"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+\\ ----- COLLISION -----
+
+vehiclecollision    = "p_base"
+
+Soldiercollision    = "p_armor1"
+Soldiercollision    = "p_armor2"
+Soldiercollision    = "p_wall1"
+Soldiercollision    = "p_wall2"
+Soldiercollision    = "p_wall3"
+Soldiercollision    = "p_wall4"
+Soldiercollision    = "p_wall5"
+Soldiercollision    = "p_wall6"
+Soldiercollision    = "p_wall7"
+Soldiercollision    = "p_wall8"
+Soldiercollision    = "p_wall9"
+Soldiercollision    = "p_cylindergun"
+Soldiercollision    = "CollisionMesh"
+Soldiercollision    = "p_spawn"
+
+Ordnancecollision   = "p_armor1"
+Ordnancecollision   = "p_armor2"
+Ordnancecollision   = "p_wall1"
+Ordnancecollision   = "p_wall2"
+Ordnancecollision   = "p_wall3"
+Ordnancecollision   = "p_wall4"
+Ordnancecollision   = "p_wall5"
+Ordnancecollision   = "p_wall6"
+Ordnancecollision   = "p_wall7"
+Ordnancecollision   = "p_wall8"
+Ordnancecollision   = "p_wall9"
+Ordnancecollision    = "CollisionMesh"

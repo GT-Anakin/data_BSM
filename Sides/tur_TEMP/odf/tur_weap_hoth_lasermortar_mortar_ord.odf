@@ -1,0 +1,6 @@
+[OrdnanceClass]
+ClassLabel 		= "com_weap_veh_mortar_ord"
+
+[Properties]
+ExplosionName		= "hoth_weap_bldg_hothturret_mortar_exp"
+GeometryName 		= "com_weap_inf_grenadethermal_ord"

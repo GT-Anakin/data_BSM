@@ -1,0 +1,19 @@
+[WeaponClass]
+ClassParent             = "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName            = "tur_weap_laser_auto_ord"
+
+HeatRecoverRate         = "0.25"
+HeatThreshold           = "0.2"
+HeatPerShot         = "0.12"
+
+ShotDelay           = "0.22"
+
+FireSound   = "com_weap_turret_fire_mini"
+
+ZoomMin             = "2.0"
+ZoomMax             = "8.0"
+ZoomRate            = "1.0"
+
+AIBubbleSizeMultiplier  = "0.4"

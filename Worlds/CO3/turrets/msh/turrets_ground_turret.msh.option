@@ -1,1 +1,1 @@
--keep aimer_y aimer_x barrel1 barrel2
+-keep aimer_y aimer_x barrel1 barrel2 -nocollision

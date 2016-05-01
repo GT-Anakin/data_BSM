@@ -1,0 +1,36 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_fly_chaingun"
+
+[Properties]
+HUDTag	     = "hud_vehicle_chaingun"
+OrdnanceName = "tur_weap_spa_chaingun_ord"
+
+
+HeatPerShot = "0.05"
+
+SpreadPerShot       = "0.1"
+SpreadRecoverRate   = "0.75"
+
+TargetLockMaxDistance = "2500"
+TargetLockMaxDistanceLose = "3500" 
+
+PitchSpread         = "0.30"
+YawSpread           = "0.30"
+
+ZoomFirstPerson     = 1
+ZoomMin         = "2.0"
+ZoomMax         = "4.0"
+ZoomRate        = "1.0"
+
+ScopeTexture        = "weapon_scope4"
+
+//FireSound = "tur_weap_spa_chaingun_fire"
+
+WarmUpSound         = "tur_weap_fly_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "tur_weap_fly_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

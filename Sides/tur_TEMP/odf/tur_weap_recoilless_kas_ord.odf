@@ -1,0 +1,12 @@
+[OrdnanceClass]
+ClassParent 			= "com_weap_veh_mortar_ord"
+
+[Properties]
+//GeometryName 		= "com_weap_inf_grenadethermal_ord"
+
+Velocity 			= "300.0"
+Gravity				= "2.5"
+
+MaxDamage 			= "1000.0"
+
+ExplosionName		= "tur_weap_recoilless_kas_exp"

@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.919, 0.225, 0.313, -0.077);
-	Position(-792.394, 93.080, -687.042);
+	Rotation(0.785, 0.160, -0.586, 0.119);
+	Position(852.820, 2180.748, -18.272);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -18,7 +18,7 @@ Camera("camera")
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
-	Bookmark(48.603, -284.393, -20.816,  0.702, 0.087, -0.701, 0.087);
+	Bookmark(-3697.846, 59898.125, -499.109,  0.725, 0.687, -0.032, 0.031);
 }
 LightName("CO3_CW_Ships.LGT");
 ControllerManager("StandardCtrlMgr");
@@ -34,7 +34,7 @@ NextSequence(-3513770);
 Object("cis_reactor", "Main_Reactor", 2342125)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(2342125);
 	Team(2);
 	NetworkId(-1);
@@ -44,7 +44,7 @@ Object("cis_reactor", "Main_Reactor", 2342125)
 Object("rep_reactor_console_5", "Main_Reactor_Console", 6316483)
 {
 	ChildRotation(0.199, 0.000, -0.980, 0.000);
-	ChildPosition(-1526.997, 769.300, 273.279);
+	ChildPosition(-1526.997, 836.012, 273.279);
 	SeqNo(6316483);
 	Team(1);
 	NetworkId(-1);
@@ -54,7 +54,7 @@ Object("rep_reactor_console_5", "Main_Reactor_Console", 6316483)
 Object("rep_door_1", "cis_fedcruiser_door1", 6908767)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1387.879, 779.772, 334.997);
+	ChildPosition(-1387.879, 846.484, 334.997);
 	SeqNo(6908767);
 	Team(0);
 	NetworkId(-1);
@@ -64,7 +64,7 @@ Object("rep_door_1", "cis_fedcruiser_door1", 6908767)
 Object("rep_cap_assultship1", "rep_cap_assultship1", 15681018)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1310.829, 776.475, 491.449);
+	ChildPosition(-1310.829, 843.187, 491.449);
 	SeqNo(15681018);
 	Team(1);
 	NetworkId(-1);
@@ -74,9 +74,19 @@ Object("rep_cap_assultship1", "rep_cap_assultship1", 15681018)
 Object("cis_auto_tur_1", "cis_bldg_frigateturret", 24595418)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(-250.486, 695.357, -431.247);
+	ChildPosition(-250.486, 910.377, -431.247);
 	SeqNo(24595418);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("rep_frigate_arrive_turret4", "rep_bldg_frigateturret_down", 68320825)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-3307.756, 59843.629, 598.714);
+	SeqNo(68320825);
+	Team(1);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -84,7 +94,7 @@ Object("cis_auto_tur_1", "cis_bldg_frigateturret", 24595418)
 Object("cis_cor22", "Corridor_03", 75327421)
 {
 	ChildRotation(0.999, 0.000, -0.040, 0.000);
-	ChildPosition(136.006, 628.507, -376.433);
+	ChildPosition(136.006, 843.527, -376.433);
 	SeqNo(75327421);
 	Team(0);
 	NetworkId(-1);
@@ -94,7 +104,7 @@ Object("cis_cor22", "Corridor_03", 75327421)
 Object("rep_door_reactor", "cis_fedcruiser_door1", 75376357)
 {
 	ChildRotation(0.978, 0.000, 0.207, 0.000);
-	ChildPosition(-1502.692, 779.772, 327.717);
+	ChildPosition(-1502.692, 846.484, 327.717);
 	SeqNo(75376357);
 	Team(0);
 	NetworkId(-1);
@@ -104,7 +114,7 @@ Object("rep_door_reactor", "cis_fedcruiser_door1", 75376357)
 Object("cis_engines_1", "cis_fedcruiser_destruct1", 80672798)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(713.125, 620.131, -311.858);
+	ChildPosition(713.125, 835.151, -311.858);
 	SeqNo(80672798);
 	Team(2);
 	NetworkId(-1);
@@ -114,7 +124,7 @@ Object("cis_engines_1", "cis_fedcruiser_destruct1", 80672798)
 Object("rep_cor_6", "Corridor_03", 85022331)
 {
 	ChildRotation(0.979, 0.000, 0.205, 0.000);
-	ChildPosition(-1410.795, 779.558, 418.105);
+	ChildPosition(-1410.795, 846.270, 418.105);
 	SeqNo(85022331);
 	Team(0);
 	NetworkId(-1);
@@ -124,7 +134,7 @@ Object("rep_cor_6", "Corridor_03", 85022331)
 Object("rep_roof_tur_1", "tur_bldg_chaingun_roof", 104226929)
 {
 	ChildRotation(0.532, 0.000, 0.847, 0.000);
-	ChildPosition(-1375.999, 783.070, 377.897);
+	ChildPosition(-1375.999, 849.782, 377.897);
 	SeqNo(104226929);
 	Team(1);
 	NetworkId(-1);
@@ -134,7 +144,7 @@ Object("rep_roof_tur_1", "tur_bldg_chaingun_roof", 104226929)
 Object("cis_cor20", "Corridor_03", 110765549)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(182.268, 628.507, -356.848);
+	ChildPosition(182.268, 843.527, -356.848);
 	SeqNo(110765549);
 	Team(0);
 	NetworkId(-1);
@@ -144,7 +154,7 @@ Object("cis_cor20", "Corridor_03", 110765549)
 Object("rep_cap_assultship4", "rep_cap_assultship4", 138868894)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1310.829, 776.475, 491.450);
+	ChildPosition(-1310.829, 843.187, 491.450);
 	SeqNo(138868894);
 	Team(1);
 	NetworkId(-1);
@@ -154,7 +164,7 @@ Object("rep_cap_assultship4", "rep_cap_assultship4", 138868894)
 Object("rep_cor_15", "Corridor_02", 146604590)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1459.183, 779.558, 386.984);
+	ChildPosition(-1459.183, 846.270, 386.984);
 	SeqNo(146604590);
 	Team(0);
 	NetworkId(-1);
@@ -164,7 +174,7 @@ Object("rep_cor_15", "Corridor_02", 146604590)
 Object("cis_ammo_frigate", "com_item_weaponrecharge", 161364654)
 {
 	ChildRotation(0.104, 0.000, -0.995, 0.000);
-	ChildPosition(835.963, 484.381, 818.558);
+	ChildPosition(835.963, 805.710, 818.558);
 	SeqNo(161364654);
 	Team(0);
 	NetworkId(-1);
@@ -176,7 +186,7 @@ Object("cis_ammo_frigate", "com_item_weaponrecharge", 161364654)
 Object("rep_reactor_cube", "Dest_Cube", 176289678)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-1134.859, 788.412, 729.391);
+	ChildPosition(-1134.859, 855.124, 729.391);
 	SeqNo(176289678);
 	Team(0);
 	NetworkId(-1);
@@ -186,7 +196,7 @@ Object("rep_reactor_cube", "Dest_Cube", 176289678)
 Object("rep_turret_3", "spa_veh_turret_chair", 185007411)
 {
 	ChildRotation(0.981, 0.000, 0.196, 0.000);
-	ChildPosition(-1395.267, 780.977, 318.440);
+	ChildPosition(-1395.267, 847.689, 318.440);
 	SeqNo(185007411);
 	Team(0);
 	NetworkId(-1);
@@ -199,7 +209,7 @@ Object("rep_turret_3", "spa_veh_turret_chair", 185007411)
 Object("rep_assultship_shield", "rep_assultship_shield", 222092083)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1296.231, 775.960, 334.468);
+	ChildPosition(-1296.231, 842.672, 334.468);
 	SeqNo(222092083);
 	Team(0);
 	NetworkId(-1);
@@ -209,7 +219,7 @@ Object("rep_assultship_shield", "rep_assultship_shield", 222092083)
 Object("cis_reactor_room", "Main_Reactor_Room", 222513003)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(222513003);
 	Team(0);
 	NetworkId(-1);
@@ -229,7 +239,7 @@ Object("Rep_Frigate_ext_Hallways_closed100", "Rep_Frigate_ext_Hallways_closed", 
 Object("rep_cor_18", "Corridor_02", 308862806)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1486.514, 779.558, 364.170);
+	ChildPosition(-1486.514, 846.270, 364.170);
 	SeqNo(308862806);
 	Team(0);
 	NetworkId(-1);
@@ -239,7 +249,7 @@ Object("rep_cor_18", "Corridor_02", 308862806)
 Object("cis_door_reactor", "cis_fedcruiser_door1", 313730614)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(112.743, 628.699, -394.322);
+	ChildPosition(112.743, 843.719, -394.322);
 	SeqNo(313730614);
 	Team(0);
 	NetworkId(-1);
@@ -249,7 +259,7 @@ Object("cis_door_reactor", "cis_fedcruiser_door1", 313730614)
 Object("cis_reactor_cube", "Dest_Cube", 323444866)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-225.925, 625.579, -430.480);
+	ChildPosition(-225.925, 840.599, -430.480);
 	SeqNo(323444866);
 	Team(0);
 	NetworkId(-1);
@@ -259,7 +269,7 @@ Object("cis_reactor_cube", "Dest_Cube", 323444866)
 Object("cis_fly_fedcruiser4", "cis_fly_fedcruiser4", 345754976)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(95.289, 564.132, -406.131);
+	ChildPosition(95.293, 779.152, -406.131);
 	SeqNo(345754976);
 	Team(2);
 	NetworkId(-1);
@@ -269,28 +279,28 @@ Object("cis_fly_fedcruiser4", "cis_fly_fedcruiser4", 345754976)
 Object("rep_vehicle1", "com_item_vehicle_spawn", 346940228)
 {
 	ChildRotation(0.549, 0.000, 0.836, 0.000);
-	ChildPosition(-1273.149, 776.470, 364.746);
+	ChildPosition(-1273.149, 843.182, 364.746);
 	SeqNo(346940228);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
-	ControlZone("");
-	SpawnCount("1");
-	SpawnTime("45.0");
+	ControlZone("cp_rep");
+	SpawnCount("2");
+	SpawnTime("45");
 	ExpireTimeEnemy("20.0");
 	ExpireTimeField("40.0");
 	DecayTime("10.0");
 	ClassNeutral("");
 	ClassAllATK("");
-	ClassCISATK("");
+	ClassCISATK("cis_fly_gunship");
 	ClassImpATK("");
-	ClassRepATK("");
+	ClassRepATK("republic_fly_gunship");
 	ClassLocATK("");
 	ClassHisATK("");
 	ClassAllDEF("");
-	ClassCISDEF("");
+	ClassCISDEF("cis_fly_gunship");
 	ClassImpDEF("");
-	ClassRepDEF("");
+	ClassRepDEF("republic_fly_gunship");
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
@@ -299,7 +309,7 @@ Object("rep_vehicle1", "com_item_vehicle_spawn", 346940228)
 Object("cis_cor_19", "Corridor_02", 354358862)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(184.989, 628.507, -388.734);
+	ChildPosition(184.989, 843.527, -388.734);
 	SeqNo(354358862);
 	Team(0);
 	NetworkId(-1);
@@ -309,7 +319,7 @@ Object("cis_cor_19", "Corridor_02", 354358862)
 Object("rep_auto_tur_4", "rep_bldg_frigateturret", 412876887)
 {
 	ChildRotation(0.537, 0.000, 0.843, 0.000);
-	ChildPosition(-1291.453, 821.744, 285.419);
+	ChildPosition(-1291.453, 888.456, 285.419);
 	SeqNo(412876887);
 	Team(1);
 	NetworkId(-1);
@@ -319,7 +329,7 @@ Object("rep_auto_tur_4", "rep_bldg_frigateturret", 412876887)
 Object("rep_tri_tur_5", "tur_bldg_chaingun_tripod", 423872313)
 {
 	ChildRotation(0.998, 0.000, 0.063, 0.000);
-	ChildPosition(-1576.349, 785.606, 242.751);
+	ChildPosition(-1576.349, 852.318, 242.751);
 	SeqNo(423872313);
 	Team(1);
 	NetworkId(-1);
@@ -329,7 +339,7 @@ Object("rep_tri_tur_5", "tur_bldg_chaingun_tripod", 423872313)
 Object("rep_vehicle4", "com_item_vehicle_spawn", 429923213)
 {
 	ChildRotation(0.549, 0.000, 0.836, 0.000);
-	ChildPosition(-1302.486, 776.470, 297.473);
+	ChildPosition(-1302.486, 843.182, 297.473);
 	SeqNo(429923213);
 	Team(0);
 	NetworkId(-1);
@@ -359,7 +369,7 @@ Object("rep_vehicle4", "com_item_vehicle_spawn", 429923213)
 Object("cis_health_1", "com_item_healthrecharge", 432332371)
 {
 	ChildRotation(0.927, 0.000, 0.374, 0.000);
-	ChildPosition(291.707, 628.720, -392.069);
+	ChildPosition(291.707, 843.740, -392.069);
 	SeqNo(432332371);
 	Team(0);
 	NetworkId(-1);
@@ -378,10 +388,20 @@ Object("rep_frigate_ext_closed3", "Rep_Frigate_ext_Hallways_closed", 445660163)
 	Layer(3);
 }
 
+Object("cis_frigate_arrive_turret2", "cis_bldg_frigateturret_down", 467306690)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(4005.322, 51875.125, 19.214);
+	SeqNo(467306690);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
 Object("rep_tur_5", "tur_bldg_spa_rep_beam", 473287000)
 {
 	ChildRotation(0.944, 0.000, 0.329, 0.000);
-	ChildPosition(-1305.262, 842.204, 503.973);
+	ChildPosition(-1305.262, 908.916, 503.973);
 	SeqNo(473287000);
 	Team(0);
 	NetworkId(-1);
@@ -391,7 +411,7 @@ Object("rep_tur_5", "tur_bldg_spa_rep_beam", 473287000)
 Object("CIS_Frigate_ext3", "CIS_Frigate_ext", 474801594)
 {
 	ChildRotation(0.917, 0.000, 0.398, 0.000);
-	ChildPosition(-1512.168, 252.604, 1604.063);
+	ChildPosition(-1512.168, 969.733, 1604.063);
 	SeqNo(474801594);
 	Team(2);
 	NetworkId(-1);
@@ -401,7 +421,7 @@ Object("CIS_Frigate_ext3", "CIS_Frigate_ext", 474801594)
 Object("cis_reactor_console_4", "Main_Reactor_Console", 481722916)
 {
 	ChildRotation(0.958, 0.000, -0.286, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(481722916);
 	Team(2);
 	NetworkId(-1);
@@ -411,7 +431,7 @@ Object("cis_reactor_console_4", "Main_Reactor_Console", 481722916)
 Object("cp_rep_frigate", "com_bldg_controlzone_CTF", 503878149)
 {
 	ChildRotation(0.036, 0.000, -0.999, 0.000);
-	ChildPosition(-192.429, 508.049, 1472.350);
+	ChildPosition(-192.429, 808.278, 1472.350);
 	SeqNo(503878149);
 	Team(1);
 	NetworkId(-1);
@@ -485,7 +505,7 @@ Object("cp_rep_frigate", "com_bldg_controlzone_CTF", 503878149)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("10.0");
+	AISpawnWeight("3.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
 }
@@ -493,7 +513,7 @@ Object("cp_rep_frigate", "com_bldg_controlzone_CTF", 503878149)
 Object("cis_roof_tur_5", "tur_bldg_chaingun_roof", 531964189)
 {
 	ChildRotation(0.066, 0.000, -0.998, 0.000);
-	ChildPosition(273.386, 633.095, -338.889);
+	ChildPosition(273.386, 848.115, -338.889);
 	SeqNo(531964189);
 	Team(2);
 	NetworkId(-1);
@@ -503,7 +523,7 @@ Object("cis_roof_tur_5", "tur_bldg_chaingun_roof", 531964189)
 Object("rep_vehicle2", "com_item_vehicle_spawn", 553552175)
 {
 	ChildRotation(0.550, 0.000, 0.835, 0.000);
-	ChildPosition(-1282.935, 776.470, 342.239);
+	ChildPosition(-1282.935, 843.182, 342.239);
 	SeqNo(553552175);
 	Team(0);
 	NetworkId(-1);
@@ -533,7 +553,7 @@ Object("rep_vehicle2", "com_item_vehicle_spawn", 553552175)
 Object("rep_roof_tur_6", "tur_bldg_chaingun_roof", 589756089)
 {
 	ChildRotation(-0.029, 0.000, -1.000, 0.000);
-	ChildPosition(-1356.676, 784.154, 424.066);
+	ChildPosition(-1356.676, 850.866, 424.066);
 	SeqNo(589756089);
 	Team(1);
 	NetworkId(-1);
@@ -543,7 +563,7 @@ Object("rep_roof_tur_6", "tur_bldg_chaingun_roof", 589756089)
 Object("rep_cor_20", "Corridor_02", 597298142)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1492.883, 779.558, 349.619);
+	ChildPosition(-1492.883, 846.270, 349.619);
 	SeqNo(597298142);
 	Team(0);
 	NetworkId(-1);
@@ -553,7 +573,7 @@ Object("rep_cor_20", "Corridor_02", 597298142)
 Object("cis_vehicle13", "com_item_vehicle_spawn", 597676542)
 {
 	ChildRotation(0.621, 0.000, 0.784, 0.000);
-	ChildPosition(824.685, 484.687, 707.463);
+	ChildPosition(824.685, 806.016, 707.463);
 	SeqNo(597676542);
 	Team(0);
 	NetworkId(-1);
@@ -582,8 +602,8 @@ Object("cis_vehicle13", "com_item_vehicle_spawn", 597676542)
 
 Object("cis_tri_tur_5", "tur_bldg_chaingun_tripod", 628655318)
 {
-	ChildRotation(-0.460, 0.000, -0.888, 0.000);
-	ChildPosition(52.859, 634.590, -341.244);
+	ChildRotation(-0.461, 0.000, -0.887, 0.000);
+	ChildPosition(52.859, 849.610, -341.244);
 	SeqNo(628655318);
 	Team(2);
 	NetworkId(-1);
@@ -593,7 +613,7 @@ Object("cis_tri_tur_5", "tur_bldg_chaingun_tripod", 628655318)
 Object("cis_comm_table_console", "Comm_Table_Console", 632135284)
 {
 	ChildRotation(-0.041, 0.000, -0.999, 0.000);
-	ChildPosition(275.808, 629.849, -447.343);
+	ChildPosition(275.808, 844.869, -447.343);
 	SeqNo(632135284);
 	Team(0);
 	NetworkId(-1);
@@ -603,7 +623,7 @@ Object("cis_comm_table_console", "Comm_Table_Console", 632135284)
 Object("rep_cor_10", "Corridor_03", 641710293)
 {
 	ChildRotation(0.202, 0.000, -0.979, 0.000);
-	ChildPosition(-1430.112, 779.558, 374.713);
+	ChildPosition(-1430.112, 846.270, 374.713);
 	SeqNo(641710293);
 	Team(0);
 	NetworkId(-1);
@@ -612,8 +632,8 @@ Object("rep_cor_10", "Corridor_03", 641710293)
 
 Object("rep_auto_tur_1", "rep_bldg_frigateturret", 661649982)
 {
-	ChildRotation(0.545, 0.000, 0.838, 0.000);
-	ChildPosition(-1060.041, 799.151, 636.743);
+	ChildRotation(0.545, 0.000, 0.839, 0.000);
+	ChildPosition(-1060.041, 865.863, 636.743);
 	SeqNo(661649982);
 	Team(1);
 	NetworkId(-1);
@@ -623,7 +643,7 @@ Object("rep_auto_tur_1", "rep_bldg_frigateturret", 661649982)
 Object("rep_vehicle3", "com_item_vehicle_spawn", 663845954)
 {
 	ChildRotation(0.549, 0.000, 0.836, 0.000);
-	ChildPosition(-1292.710, 776.470, 319.578);
+	ChildPosition(-1292.710, 843.182, 319.578);
 	SeqNo(663845954);
 	Team(0);
 	NetworkId(-1);
@@ -653,7 +673,7 @@ Object("rep_vehicle3", "com_item_vehicle_spawn", 663845954)
 Object("rep_cor_19", "Corridor_03", 672261385)
 {
 	ChildRotation(0.202, 0.000, -0.979, 0.000);
-	ChildPosition(-1478.404, 779.558, 343.789);
+	ChildPosition(-1478.404, 846.270, 343.789);
 	SeqNo(672261385);
 	Team(0);
 	NetworkId(-1);
@@ -673,7 +693,7 @@ Object("cis_frigate_ext_closed3", "CIS_Frigate_ext_Hallways_closed", 673484106)
 Object("Rep_Frigate_ext_Hallways_closed1", "Rep_Frigate_ext_Hallways_closed", 708571414)
 {
 	ChildRotation(0.751, 0.022, -0.660, -0.020);
-	ChildPosition(756.101, 314.019, -1395.815);
+	ChildPosition(756.101, 994.857, -1395.815);
 	SeqNo(708571414);
 	Team(1);
 	NetworkId(-1);
@@ -682,8 +702,8 @@ Object("Rep_Frigate_ext_Hallways_closed1", "Rep_Frigate_ext_Hallways_closed", 70
 
 Object("rep_shield_console_2", "spa_prop_console", 730331424)
 {
-	ChildRotation(0.837, 0.000, -0.548, 0.000);
-	ChildPosition(-1376.173, 779.760, 385.948);
+	ChildRotation(0.837, 0.000, -0.547, 0.000);
+	ChildPosition(-1376.173, 846.472, 385.948);
 	SeqNo(730331424);
 	Team(1);
 	NetworkId(-1);
@@ -693,7 +713,7 @@ Object("rep_shield_console_2", "spa_prop_console", 730331424)
 Object("cis_door_6", "cis_fedcruiser_door1", 732444988)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(269.713, 628.720, -363.653);
+	ChildPosition(269.713, 843.740, -363.653);
 	SeqNo(732444988);
 	Team(0);
 	NetworkId(-1);
@@ -703,7 +723,7 @@ Object("cis_door_6", "cis_fedcruiser_door1", 732444988)
 Object("cis_turret_4", "spa_veh_turret_chair", 796727180)
 {
 	ChildRotation(0.688, 0.000, -0.726, 0.000);
-	ChildPosition(274.691, 629.925, -354.509);
+	ChildPosition(274.691, 844.945, -354.509);
 	SeqNo(796727180);
 	Team(0);
 	NetworkId(-1);
@@ -716,7 +736,7 @@ Object("cis_turret_4", "spa_veh_turret_chair", 796727180)
 Object("cis_fedcruiser_hallway", "cis_fedcruiser_hallway", 798190761)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(362.343, 620.234, -387.932);
+	ChildPosition(362.343, 835.254, -387.932);
 	SeqNo(798190761);
 	Team(0);
 	NetworkId(-1);
@@ -726,7 +746,7 @@ Object("cis_fedcruiser_hallway", "cis_fedcruiser_hallway", 798190761)
 Object("cis_fly_fedcruiser3", "cis_fly_fedcruiser3", 814950267)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(95.288, 564.134, -406.131);
+	ChildPosition(95.288, 779.154, -406.131);
 	SeqNo(814950267);
 	Team(2);
 	NetworkId(-1);
@@ -736,7 +756,7 @@ Object("cis_fly_fedcruiser3", "cis_fly_fedcruiser3", 814950267)
 Object("cis_bridge", "cis_fedcruiser_destruct4", 851842194)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(180.576, 720.127, -400.431);
+	ChildPosition(180.576, 935.147, -400.431);
 	SeqNo(851842194);
 	Team(2);
 	NetworkId(-1);
@@ -746,7 +766,7 @@ Object("cis_bridge", "cis_fedcruiser_destruct4", 851842194)
 Object("cis_tri_tur_1", "tur_bldg_chaingun_tripod", 879632137)
 {
 	ChildRotation(-0.228, 0.000, -0.974, 0.000);
-	ChildPosition(305.198, 628.791, -365.862);
+	ChildPosition(305.198, 843.811, -365.862);
 	SeqNo(879632137);
 	Team(2);
 	NetworkId(-1);
@@ -766,18 +786,8 @@ Object("cis_frigate_ext_closed1", "CIS_Frigate_ext_Hallways_closed", 895781072)
 Object("cis_door_7", "cis_fedcruiser_door1", 902330102)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(258.704, 628.742, -399.366);
+	ChildPosition(258.704, 843.762, -399.366);
 	SeqNo(902330102);
-	Team(0);
-	NetworkId(-1);
-	Layer(3);
-}
-
-Object("cis_lander_a_3", "CO3_prop_CIS_Lander", 903669308)
-{
-	ChildRotation(0.709, 0.000, -0.705, 0.000);
-	ChildPosition(5557.667, 580.763, 201.526);
-	SeqNo(903669308);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
@@ -786,7 +796,7 @@ Object("cis_lander_a_3", "CO3_prop_CIS_Lander", 903669308)
 Object("rep_ammo_1", "com_item_weaponrecharge", 1002226552)
 {
 	ChildRotation(0.679, 0.000, 0.734, 0.000);
-	ChildPosition(-1346.059, 775.937, 338.293);
+	ChildPosition(-1346.059, 842.649, 338.293);
 	SeqNo(1002226552);
 	Team(0);
 	NetworkId(-1);
@@ -798,7 +808,7 @@ Object("rep_ammo_1", "com_item_weaponrecharge", 1002226552)
 Object("cis_auto_tur_3", "cis_bldg_frigateturret", 1011449481)
 {
 	ChildRotation(0.699, 0.000, -0.715, 0.000);
-	ChildPosition(450.517, 737.162, -362.000);
+	ChildPosition(450.517, 952.182, -362.000);
 	SeqNo(1011449481);
 	Team(2);
 	NetworkId(-1);
@@ -808,7 +818,7 @@ Object("cis_auto_tur_3", "cis_bldg_frigateturret", 1011449481)
 Object("rep_reactor_console_3", "Main_Reactor_Console", 1015719427)
 {
 	ChildRotation(0.954, 0.000, -0.301, 0.000);
-	ChildPosition(-1526.996, 769.300, 273.278);
+	ChildPosition(-1526.996, 836.012, 273.278);
 	SeqNo(1015719427);
 	Team(1);
 	NetworkId(-1);
@@ -818,19 +828,9 @@ Object("rep_reactor_console_3", "Main_Reactor_Console", 1015719427)
 Object("cis_cor_1", "Corridor_01", 1024199857)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(234.007, 628.507, -401.272);
+	ChildPosition(234.007, 843.527, -401.272);
 	SeqNo(1024199857);
 	Team(0);
-	NetworkId(-1);
-	Layer(3);
-}
-
-Object("rep_frigate_arrive_2", "Rep_Frigate_ext", 1037444061)
-{
-	ChildRotation(0.714, 0.000, 0.700, 0.000);
-	ChildPosition(-41412.012, 1936.986, -1261.135);
-	SeqNo(1037444061);
-	Team(1);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -838,7 +838,7 @@ Object("rep_frigate_arrive_2", "Rep_Frigate_ext", 1037444061)
 Object("rep_cor_4", "Corridor_03", 1066833321)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1402.401, 779.558, 397.449);
+	ChildPosition(-1402.401, 846.270, 397.449);
 	SeqNo(1066833321);
 	Team(0);
 	NetworkId(-1);
@@ -848,7 +848,7 @@ Object("rep_cor_4", "Corridor_03", 1066833321)
 Object("cis_fedcruiser_shield", "cis_fedcruiser_shield_blue", 1068418124)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(362.156, 620.234, -387.887);
+	ChildPosition(362.156, 835.254, -387.887);
 	SeqNo(1068418124);
 	Team(0);
 	NetworkId(-1);
@@ -858,7 +858,7 @@ Object("cis_fedcruiser_shield", "cis_fedcruiser_shield_blue", 1068418124)
 Object("rep_turret_5", "spa_veh_turret_chair", 1095643526)
 {
 	ChildRotation(0.977, 0.000, 0.213, 0.000);
-	ChildPosition(-1396.244, 780.977, 331.830);
+	ChildPosition(-1396.244, 847.689, 331.830);
 	SeqNo(1095643526);
 	Team(0);
 	NetworkId(-1);
@@ -871,7 +871,7 @@ Object("rep_turret_5", "spa_veh_turret_chair", 1095643526)
 Object("cis_door_2", "cis_fedcruiser_door1", 1100099882)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(274.721, 628.720, -433.396);
+	ChildPosition(274.721, 843.740, -433.396);
 	SeqNo(1100099882);
 	Team(0);
 	NetworkId(-1);
@@ -881,7 +881,7 @@ Object("cis_door_2", "cis_fedcruiser_door1", 1100099882)
 Object("rep_cor_17", "Corridor_01", 1108038544)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1480.439, 779.558, 378.819);
+	ChildPosition(-1480.439, 846.270, 378.819);
 	SeqNo(1108038544);
 	Team(0);
 	NetworkId(-1);
@@ -891,7 +891,7 @@ Object("rep_cor_17", "Corridor_01", 1108038544)
 Object("rep_cor_5", "Corridor_03", 1123554336)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1396.231, 779.558, 411.884);
+	ChildPosition(-1396.231, 846.270, 411.884);
 	SeqNo(1123554336);
 	Team(0);
 	NetworkId(-1);
@@ -901,7 +901,7 @@ Object("rep_cor_5", "Corridor_03", 1123554336)
 Object("rep_reactor_console_1", "Main_Reactor_Console", 1136903760)
 {
 	ChildRotation(0.747, 0.000, 0.665, 0.000);
-	ChildPosition(-1526.981, 769.300, 273.314);
+	ChildPosition(-1526.981, 836.012, 273.314);
 	SeqNo(1136903760);
 	Team(1);
 	NetworkId(-1);
@@ -911,18 +911,8 @@ Object("rep_reactor_console_1", "Main_Reactor_Console", 1136903760)
 Object("rep_comm_room_1", "rep_assultship_commandroom", 1150797081)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1365.001, 779.559, 363.127);
+	ChildPosition(-1365.001, 846.271, 363.127);
 	SeqNo(1150797081);
-	Team(0);
-	NetworkId(-1);
-	Layer(3);
-}
-
-Object("cis_lander_a_2", "CO3_prop_CIS_Lander", 1161357894)
-{
-	ChildRotation(0.708, 0.000, -0.706, 0.000);
-	ChildPosition(5251.487, 350.740, -282.675);
-	SeqNo(1161357894);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);
@@ -941,7 +931,7 @@ Object("CIS_Frigate_ext1", "CIS_Frigate_ext", 1165906998)
 Object("rep_cor_13", "Corridor_02", 1171082037)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1471.972, 779.558, 357.788);
+	ChildPosition(-1471.972, 846.270, 357.788);
 	SeqNo(1171082037);
 	Team(0);
 	NetworkId(-1);
@@ -951,7 +941,7 @@ Object("rep_cor_13", "Corridor_02", 1171082037)
 Object("cis_ammo_1", "com_item_weaponrecharge", 1204301486)
 {
 	ChildRotation(0.401, 0.000, -0.916, 0.000);
-	ChildPosition(292.098, 628.720, -400.556);
+	ChildPosition(292.098, 843.740, -400.556);
 	SeqNo(1204301486);
 	Team(0);
 	NetworkId(-1);
@@ -973,7 +963,7 @@ Object("cis_frigate_ext_closed2", "CIS_Frigate_ext_Hallways_closed", 1204990005)
 Object("rep_turret_console", "spa_prop_liquidgen", 1208727145)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1369.794, 780.007, 365.228);
+	ChildPosition(-1369.794, 846.719, 365.228);
 	SeqNo(1208727145);
 	Team(1);
 	NetworkId(-1);
@@ -983,7 +973,7 @@ Object("rep_turret_console", "spa_prop_liquidgen", 1208727145)
 Object("rep_turret_2", "spa_veh_turret_chair", 1216867488)
 {
 	ChildRotation(0.981, 0.000, 0.196, 0.000);
-	ChildPosition(-1391.237, 780.977, 316.708);
+	ChildPosition(-1391.237, 847.689, 316.708);
 	SeqNo(1216867488);
 	Team(0);
 	NetworkId(-1);
@@ -996,7 +986,7 @@ Object("rep_turret_2", "spa_veh_turret_chair", 1216867488)
 Object("cp_rep", "com_bldg_controlzone_CTF", 1229339482)
 {
 	ChildRotation(0.536, 0.000, 0.844, 0.000);
-	ChildPosition(-1343.579, 779.774, 354.749);
+	ChildPosition(-1343.579, 846.486, 354.749);
 	SeqNo(1229339482);
 	Team(1);
 	NetworkId(-1);
@@ -1070,15 +1060,25 @@ Object("cp_rep", "com_bldg_controlzone_CTF", 1229339482)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("35.0");
+	AISpawnWeight("3.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
+}
+
+Object("cis_frigate_arrive_turret4", "cis_bldg_frigateturret_down", 1255509135)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(4000.631, 51877.070, -354.403);
+	SeqNo(1255509135);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
 }
 
 Object("rep_auto_tur_6", "rep_bldg_frigateturret", 1278878318)
 {
 	ChildRotation(0.949, 0.000, 0.315, 0.000);
-	ChildPosition(-1276.097, 842.518, 484.536);
+	ChildPosition(-1276.097, 909.230, 484.536);
 	SeqNo(1278878318);
 	Team(1);
 	NetworkId(-1);
@@ -1088,7 +1088,7 @@ Object("rep_auto_tur_6", "rep_bldg_frigateturret", 1278878318)
 Object("rep_cor_8", "Corridor_02", 1323176429)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1438.200, 779.558, 395.199);
+	ChildPosition(-1438.200, 846.270, 395.199);
 	SeqNo(1323176429);
 	Team(0);
 	NetworkId(-1);
@@ -1098,7 +1098,7 @@ Object("rep_cor_8", "Corridor_02", 1323176429)
 Object("rep_comm_room_3", "rep_assultship_commandroom_server", 1337252348)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1371.578, 779.558, 348.049);
+	ChildPosition(-1371.578, 846.270, 348.049);
 	SeqNo(1337252348);
 	Team(0);
 	NetworkId(-1);
@@ -1108,7 +1108,7 @@ Object("rep_comm_room_3", "rep_assultship_commandroom_server", 1337252348)
 Object("rep_cor_9", "Corridor_02", 1353755204)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1444.588, 779.558, 380.581);
+	ChildPosition(-1444.588, 846.270, 380.581);
 	SeqNo(1353755204);
 	Team(0);
 	NetworkId(-1);
@@ -1118,7 +1118,7 @@ Object("rep_cor_9", "Corridor_02", 1353755204)
 Object("cis_door_1", "cis_fedcruiser_door1", 1373059213)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(273.553, 628.716, -417.051);
+	ChildPosition(273.553, 843.736, -417.051);
 	SeqNo(1373059213);
 	Team(0);
 	NetworkId(-1);
@@ -1128,7 +1128,7 @@ Object("cis_door_1", "cis_fedcruiser_door1", 1373059213)
 Object("cis_auto_tur_2", "cis_bldg_frigateturret", 1376145779)
 {
 	ChildRotation(0.699, 0.000, -0.715, 0.000);
-	ChildPosition(451.905, 737.163, -404.363);
+	ChildPosition(451.905, 952.183, -404.363);
 	SeqNo(1376145779);
 	Team(2);
 	NetworkId(-1);
@@ -1138,7 +1138,7 @@ Object("cis_auto_tur_2", "cis_bldg_frigateturret", 1376145779)
 Object("cis_reactor_console_5", "Main_Reactor_Console", 1386621412)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(1386621412);
 	Team(2);
 	NetworkId(-1);
@@ -1148,7 +1148,7 @@ Object("cis_reactor_console_5", "Main_Reactor_Console", 1386621412)
 Object("rep_vehicle8", "com_item_vehicle_spawn", 1388614796)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
-	ChildPosition(-170.189, 508.299, 1383.634);
+	ChildPosition(-170.189, 808.528, 1383.634);
 	SeqNo(1388614796);
 	Team(0);
 	NetworkId(-1);
@@ -1178,7 +1178,7 @@ Object("rep_vehicle8", "com_item_vehicle_spawn", 1388614796)
 Object("rep_comm_table_console", "Comm_Table_Console", 1412768109)
 {
 	ChildRotation(0.978, 0.000, 0.208, 0.000);
-	ChildPosition(-1354.155, 780.949, 412.437);
+	ChildPosition(-1354.155, 847.661, 412.437);
 	SeqNo(1412768109);
 	Team(0);
 	NetworkId(-1);
@@ -1188,7 +1188,7 @@ Object("rep_comm_table_console", "Comm_Table_Console", 1412768109)
 Object("cis_assultship_commandroom_2", "rep_assultship_commandroom_server", 1425368400)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(261.409, 628.507, -382.852);
+	ChildPosition(261.409, 843.527, -382.852);
 	SeqNo(1425368400);
 	Team(0);
 	NetworkId(-1);
@@ -1198,7 +1198,7 @@ Object("cis_assultship_commandroom_2", "rep_assultship_commandroom_server", 1425
 Object("rep_tri_tur_10", "tur_bldg_chaingun_tripod", 1449820193)
 {
 	ChildRotation(0.984, 0.000, -0.179, 0.000);
-	ChildPosition(-1472.306, 785.630, 253.746);
+	ChildPosition(-1472.306, 852.342, 253.746);
 	SeqNo(1449820193);
 	Team(1);
 	NetworkId(-1);
@@ -1208,7 +1208,7 @@ Object("rep_tri_tur_10", "tur_bldg_chaingun_tripod", 1449820193)
 Object("cis_vehicle7", "com_item_vehicle_spawn", 1453598344)
 {
 	ChildRotation(0.771, 0.000, -0.637, 0.000);
-	ChildPosition(786.745, 484.816, 792.067);
+	ChildPosition(786.745, 806.145, 792.067);
 	SeqNo(1453598344);
 	Team(0);
 	NetworkId(-1);
@@ -1238,7 +1238,7 @@ Object("cis_vehicle7", "com_item_vehicle_spawn", 1453598344)
 Object("rep_roof_tur_4", "tur_bldg_chaingun_roof", 1497950609)
 {
 	ChildRotation(0.925, 0.000, 0.380, 0.000);
-	ChildPosition(-1401.424, 784.091, 321.570);
+	ChildPosition(-1401.424, 850.803, 321.570);
 	SeqNo(1497950609);
 	Team(1);
 	NetworkId(-1);
@@ -1248,7 +1248,7 @@ Object("rep_roof_tur_4", "tur_bldg_chaingun_roof", 1497950609)
 Object("cp_cis", "com_bldg_controlzone_CTF", 1505200398)
 {
 	ChildRotation(0.720, 0.000, 0.694, 0.000);
-	ChildPosition(304.706, 628.701, -395.768);
+	ChildPosition(304.706, 843.721, -395.768);
 	SeqNo(1505200398);
 	Team(2);
 	NetworkId(-1);
@@ -1322,17 +1322,27 @@ Object("cp_cis", "com_bldg_controlzone_CTF", 1505200398)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("35.0");
+	AISpawnWeight("3.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
 }
 
-Object("CIS_Frigate_arrive_1", "CIS_Frigate_ext", 1515680716)
+Object("rep_frigate_arrive_turret3", "rep_bldg_frigateturret_down", 1526040524)
 {
-	ChildRotation(0.711, 0.000, -0.703, 0.000);
-	ChildPosition(26535.332, 1590.019, 315.212);
-	SeqNo(1515680716);
-	Team(2);
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-3507.402, 59818.770, 598.591);
+	SeqNo(1526040524);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("rep_frigate_arrive", "Rep_Frigate_ext", 1532693134)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-4009.067, 59740.730, 599.392);
+	SeqNo(1532693134);
+	Team(1);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -1340,7 +1350,7 @@ Object("CIS_Frigate_arrive_1", "CIS_Frigate_ext", 1515680716)
 Object("cis_tur_3", "tur_bldg_spa_cis_chaingun", 1539245036)
 {
 	ChildRotation(0.733, 0.000, 0.680, 0.000);
-	ChildPosition(658.995, 737.244, -365.578);
+	ChildPosition(658.995, 952.264, -365.578);
 	SeqNo(1539245036);
 	Team(0);
 	NetworkId(-1);
@@ -1350,7 +1360,7 @@ Object("cis_tur_3", "tur_bldg_spa_cis_chaingun", 1539245036)
 Object("rep_tri_tur_12", "tur_bldg_chaingun_tripod", 1543913264)
 {
 	ChildRotation(0.782, 0.000, -0.623, 0.000);
-	ChildPosition(-1483.027, 785.594, 311.052);
+	ChildPosition(-1483.027, 852.306, 311.052);
 	SeqNo(1543913264);
 	Team(1);
 	NetworkId(-1);
@@ -1360,7 +1370,7 @@ Object("rep_tri_tur_12", "tur_bldg_chaingun_tripod", 1543913264)
 Object("CIS_Frigate_ext2", "CIS_Frigate_ext", 1551118910)
 {
 	ChildRotation(0.952, 0.000, 0.305, 0.000);
-	ChildPosition(-1570.260, 542.653, -973.576);
+	ChildPosition(-1570.260, 857.868, -973.576);
 	SeqNo(1551118910);
 	Team(2);
 	NetworkId(-1);
@@ -1370,7 +1380,7 @@ Object("CIS_Frigate_ext2", "CIS_Frigate_ext", 1551118910)
 Object("rep_reactor_console_6", "Main_Reactor_Console", 1551614081)
 {
 	ChildRotation(-0.320, 0.000, -0.947, 0.000);
-	ChildPosition(-1526.979, 769.300, 273.319);
+	ChildPosition(-1526.979, 836.012, 273.319);
 	SeqNo(1551614081);
 	Team(1);
 	NetworkId(-1);
@@ -1380,7 +1390,7 @@ Object("rep_reactor_console_6", "Main_Reactor_Console", 1551614081)
 Object("rep_cor_7", "Corridor_03", 1561622801)
 {
 	ChildRotation(0.979, 0.000, 0.206, 0.000);
-	ChildPosition(-1431.828, 779.558, 409.704);
+	ChildPosition(-1431.828, 846.270, 409.704);
 	SeqNo(1561622801);
 	Team(0);
 	NetworkId(-1);
@@ -1390,7 +1400,7 @@ Object("rep_cor_7", "Corridor_03", 1561622801)
 Object("cis_cor21", "Corridor_04", 1571305763)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(120.982, 628.507, -393.873);
+	ChildPosition(120.982, 843.527, -393.873);
 	SeqNo(1571305763);
 	Team(0);
 	NetworkId(-1);
@@ -1400,7 +1410,7 @@ Object("cis_cor21", "Corridor_04", 1571305763)
 Object("cp_cis_frigate", "com_bldg_controlzone_CTF", 1580561566)
 {
 	ChildRotation(0.993, 0.000, 0.120, 0.000);
-	ChildPosition(818.719, 484.392, 807.304);
+	ChildPosition(818.719, 805.721, 807.304);
 	SeqNo(1580561566);
 	Team(2);
 	NetworkId(-1);
@@ -1474,26 +1484,26 @@ Object("cp_cis_frigate", "com_bldg_controlzone_CTF", 1580561566)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("10.0");
+	AISpawnWeight("3.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
+}
+
+Object("cis_lander_a_2", "CO3_prop_CIS_Lander", 1586800906)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(7265.495, 158.155, -24.530);
+	SeqNo(1586800906);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
 }
 
 Object("rep_cap_assultship_crashing", "rep_cap_assultship_crashing", 1599258091)
 {
 	ChildRotation(0.315, 0.000, -0.949, 0.000);
-	ChildPosition(-1312.697, 777.293, 494.096);
+	ChildPosition(-1312.697, 844.005, 494.096);
 	SeqNo(1599258091);
-	Team(1);
-	NetworkId(-1);
-	Layer(3);
-}
-
-Object("rep_frigate_arrive_1", "Rep_Frigate_ext", 1622018522)
-{
-	ChildRotation(0.714, 0.000, 0.700, 0.000);
-	ChildPosition(-41374.281, 1666.208, 1033.251);
-	SeqNo(1622018522);
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
@@ -1502,7 +1512,7 @@ Object("rep_frigate_arrive_1", "Rep_Frigate_ext", 1622018522)
 Object("rep_cor_2", "Corridor_02", 1637176505)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1423.627, 779.558, 388.792);
+	ChildPosition(-1423.627, 846.270, 388.792);
 	SeqNo(1637176505);
 	Team(0);
 	NetworkId(-1);
@@ -1511,8 +1521,8 @@ Object("rep_cor_2", "Corridor_02", 1637176505)
 
 Object("cis_vehicle10", "com_item_vehicle_spawn", 1641092955)
 {
-	ChildRotation(0.773, 0.000, -0.635, 0.000);
-	ChildPosition(764.976, 484.954, 689.395);
+	ChildRotation(0.774, 0.000, -0.633, 0.000);
+	ChildPosition(764.976, 806.206, 689.395);
 	SeqNo(1641092955);
 	Team(0);
 	NetworkId(-1);
@@ -1542,7 +1552,7 @@ Object("cis_vehicle10", "com_item_vehicle_spawn", 1641092955)
 Object("cis_cor_4", "Corridor_03", 1673561269)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(203.368, 628.507, -419.502);
+	ChildPosition(203.368, 843.527, -419.502);
 	SeqNo(1673561269);
 	Team(0);
 	NetworkId(-1);
@@ -1552,7 +1562,7 @@ Object("cis_cor_4", "Corridor_03", 1673561269)
 Object("rep_cor_3", "Corridor_02", 1673837163)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1417.212, 779.558, 403.448);
+	ChildPosition(-1417.212, 846.270, 403.448);
 	SeqNo(1673837163);
 	Team(0);
 	NetworkId(-1);
@@ -1562,7 +1572,7 @@ Object("rep_cor_3", "Corridor_02", 1673837163)
 Object("CIS_Frigate_ext_Hallways_closed2", "CIS_Frigate_ext_Hallways_closed", 1679296959)
 {
 	ChildRotation(0.917, 0.000, 0.398, 0.000);
-	ChildPosition(-1512.900, 252.604, 1603.380);
+	ChildPosition(-1512.900, 969.733, 1603.380);
 	SeqNo(1679296959);
 	Team(2);
 	NetworkId(-1);
@@ -1572,7 +1582,7 @@ Object("CIS_Frigate_ext_Hallways_closed2", "CIS_Frigate_ext_Hallways_closed", 16
 Object("cis_tri_tur_12", "tur_bldg_chaingun_tripod", 1686604816)
 {
 	ChildRotation(0.944, 0.000, 0.329, 0.000);
-	ChildPosition(60.964, 634.546, -455.983);
+	ChildPosition(60.964, 849.566, -455.983);
 	SeqNo(1686604816);
 	Team(2);
 	NetworkId(-1);
@@ -1582,9 +1592,19 @@ Object("cis_tri_tur_12", "tur_bldg_chaingun_tripod", 1686604816)
 Object("cis_cor16", "Corridor_02", 1702403409)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(218.048, 628.507, -402.413);
+	ChildPosition(218.048, 843.527, -402.413);
 	SeqNo(1702403409);
 	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_frigate_arrive_turret1", "cis_bldg_frigateturret_down", 1719708779)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(4001.175, 51877.125, 131.828);
+	SeqNo(1719708779);
+	Team(2);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -1602,7 +1622,7 @@ Object("Rep_Frigate_ext2", "Rep_Frigate_ext", 1721503639)
 Object("rep_tri_tur_14", "tur_bldg_chaingun_tripod", 1728026486)
 {
 	ChildRotation(0.347, 0.000, -0.938, 0.000);
-	ChildPosition(-1536.990, 785.665, 330.295);
+	ChildPosition(-1536.990, 852.377, 330.295);
 	SeqNo(1728026486);
 	Team(1);
 	NetworkId(-1);
@@ -1612,7 +1632,7 @@ Object("rep_tri_tur_14", "tur_bldg_chaingun_tripod", 1728026486)
 Object("rep_cor_16", "Corridor_03", 1735414843)
 {
 	ChildRotation(0.979, 0.000, 0.206, 0.000);
-	ChildPosition(-1473.804, 779.558, 393.244);
+	ChildPosition(-1473.804, 846.270, 393.244);
 	SeqNo(1735414843);
 	Team(0);
 	NetworkId(-1);
@@ -1632,7 +1652,7 @@ Object("rep_frigate_ext_closed2", "Rep_Frigate_ext_Hallways_closed", 1742319020)
 Object("rep_tur_2", "tur_bldg_spa_rep_chaingun", 1748118805)
 {
 	ChildRotation(0.541, 0.000, 0.841, 0.000);
-	ChildPosition(-1272.594, 820.667, 326.385);
+	ChildPosition(-1272.594, 887.379, 326.385);
 	SeqNo(1748118805);
 	Team(0);
 	NetworkId(-1);
@@ -1642,7 +1662,7 @@ Object("rep_tur_2", "tur_bldg_spa_rep_chaingun", 1748118805)
 Object("cis_cor13", "Corridor_03", 1793402882)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(136.853, 628.507, -392.279);
+	ChildPosition(136.853, 843.527, -392.279);
 	SeqNo(1793402882);
 	Team(0);
 	NetworkId(-1);
@@ -1652,7 +1672,7 @@ Object("cis_cor13", "Corridor_03", 1793402882)
 Object("rep_auto_tur_5", "rep_bldg_frigateturret", 1810172809)
 {
 	ChildRotation(0.949, 0.000, 0.315, 0.000);
-	ChildPosition(-1330.031, 842.495, 525.958);
+	ChildPosition(-1330.031, 909.207, 525.958);
 	SeqNo(1810172809);
 	Team(1);
 	NetworkId(-1);
@@ -1662,7 +1682,7 @@ Object("rep_auto_tur_5", "rep_bldg_frigateturret", 1810172809)
 Object("rep_assultship_hallway", "rep_assultship_hallway", 1820558820)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1296.235, 775.960, 334.192);
+	ChildPosition(-1296.235, 842.672, 334.192);
 	SeqNo(1820558820);
 	Team(0);
 	NetworkId(-1);
@@ -1672,7 +1692,7 @@ Object("rep_assultship_hallway", "rep_assultship_hallway", 1820558820)
 Object("cis_vehicle4", "com_item_vehicle_spawn", 1837981535)
 {
 	ChildRotation(-0.034, 0.000, -0.999, 0.000);
-	ChildPosition(338.134, 624.996, -443.687);
+	ChildPosition(338.134, 840.016, -443.687);
 	SeqNo(1837981535);
 	Team(0);
 	NetworkId(-1);
@@ -1702,8 +1722,18 @@ Object("cis_vehicle4", "com_item_vehicle_spawn", 1837981535)
 Object("cis_auto_tur_4", "cis_bldg_frigateturret", 1852235987)
 {
 	ChildRotation(0.688, 0.000, -0.726, 0.000);
-	ChildPosition(622.308, 932.716, -368.448);
+	ChildPosition(622.308, 1147.736, -368.448);
 	SeqNo(1852235987);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_frigate_arrive_closed", "CIS_Frigate_ext_Hallways_closed", 1853050881)
+{
+	ChildRotation(0.714, 0.000, -0.700, 0.000);
+	ChildPosition(3922.636, 51818.051, -115.240);
+	SeqNo(1853050881);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
@@ -1712,7 +1742,7 @@ Object("cis_auto_tur_4", "cis_bldg_frigateturret", 1852235987)
 Object("cis_tri_tur_13", "tur_bldg_chaingun_tripod", 1870685224)
 {
 	ChildRotation(0.527, 0.000, -0.850, 0.000);
-	ChildPosition(103.884, 634.573, -426.333);
+	ChildPosition(103.884, 849.593, -426.333);
 	SeqNo(1870685224);
 	Team(2);
 	NetworkId(-1);
@@ -1722,7 +1752,7 @@ Object("cis_tri_tur_13", "tur_bldg_chaingun_tripod", 1870685224)
 Object("cis_tri_tur_14", "tur_bldg_chaingun_tripod", 1904781163)
 {
 	ChildRotation(0.985, 0.000, -0.170, 0.000);
-	ChildPosition(106.906, 634.573, -419.839);
+	ChildPosition(106.906, 849.593, -419.839);
 	SeqNo(1904781163);
 	Team(2);
 	NetworkId(-1);
@@ -1732,8 +1762,18 @@ Object("cis_tri_tur_14", "tur_bldg_chaingun_tripod", 1904781163)
 Object("cis_roof_tur_1", "tur_bldg_chaingun_roof", 1907024720)
 {
 	ChildRotation(0.725, 0.000, 0.689, 0.000);
-	ChildPosition(265.301, 631.991, -389.524);
+	ChildPosition(265.301, 847.011, -389.524);
 	SeqNo(1907024720);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_lander_a_3", "CO3_prop_CIS_Lander", 1920868517)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(6949.026, 125.905, -188.692);
+	SeqNo(1920868517);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
@@ -1742,7 +1782,7 @@ Object("cis_roof_tur_1", "tur_bldg_chaingun_roof", 1907024720)
 Object("cis_cor11", "Corridor_02", 1930938360)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(167.891, 628.507, -373.916);
+	ChildPosition(167.891, 843.527, -373.916);
 	SeqNo(1930938360);
 	Team(0);
 	NetworkId(-1);
@@ -1752,7 +1792,7 @@ Object("cis_cor11", "Corridor_02", 1930938360)
 Object("cis_door_4", "cis_fedcruiser_door1", 1952209560)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(299.116, 628.754, -384.929);
+	ChildPosition(299.116, 843.774, -384.929);
 	SeqNo(1952209560);
 	Team(0);
 	NetworkId(-1);
@@ -1762,7 +1802,7 @@ Object("cis_door_4", "cis_fedcruiser_door1", 1952209560)
 Object("rep_reactor", "Main_Reactor", 1956513984)
 {
 	ChildRotation(0.978, 0.000, 0.210, 0.000);
-	ChildPosition(-1526.996, 769.300, 273.278);
+	ChildPosition(-1526.996, 836.012, 273.278);
 	SeqNo(1956513984);
 	Team(1);
 	NetworkId(-1);
@@ -1772,7 +1812,7 @@ Object("rep_reactor", "Main_Reactor", 1956513984)
 Object("cis_fly_fedcruiser1", "cis_fly_fedcruiser1", 1963000827)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(95.288, 564.134, -406.131);
+	ChildPosition(95.289, 779.154, -406.131);
 	SeqNo(1963000827);
 	Team(2);
 	NetworkId(-1);
@@ -1782,7 +1822,7 @@ Object("cis_fly_fedcruiser1", "cis_fly_fedcruiser1", 1963000827)
 Object("cis_comm_table", "Comm_Table_Red", 1978759629)
 {
 	ChildRotation(-0.041, 0.000, -0.999, 0.000);
-	ChildPosition(275.808, 629.920, -447.343);
+	ChildPosition(275.808, 844.940, -447.343);
 	SeqNo(1978759629);
 	Team(0);
 	NetworkId(-1);
@@ -1792,7 +1832,7 @@ Object("cis_comm_table", "Comm_Table_Red", 1978759629)
 Object("rep_engines", "rep_assultship_destruct_engines", 1981817513)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1311.834, 776.475, 490.105);
+	ChildPosition(-1311.834, 843.187, 490.105);
 	SeqNo(1981817513);
 	Team(1);
 	NetworkId(-1);
@@ -1802,7 +1842,7 @@ Object("rep_engines", "rep_assultship_destruct_engines", 1981817513)
 Object("Rep_Frigate_ext_Hallways_closed10", "Rep_Frigate_ext_Hallways_closed", 1988856024)
 {
 	ChildRotation(0.909, -0.009, 0.416, -0.028);
-	ChildPosition(-1716.377, 879.161, -421.881);
+	ChildPosition(-1716.377, 1148.465, -421.881);
 	SeqNo(1988856024);
 	Team(1);
 	NetworkId(-1);
@@ -1812,7 +1852,7 @@ Object("Rep_Frigate_ext_Hallways_closed10", "Rep_Frigate_ext_Hallways_closed", 1
 Object("rep_tri_tur_6", "tur_bldg_chaingun_tripod", 1990758263)
 {
 	ChildRotation(0.633, 0.000, 0.774, 0.000);
-	ChildPosition(-1572.678, 785.606, 237.417);
+	ChildPosition(-1572.678, 852.318, 237.417);
 	SeqNo(1990758263);
 	Team(1);
 	NetworkId(-1);
@@ -1822,7 +1862,7 @@ Object("rep_tri_tur_6", "tur_bldg_chaingun_tripod", 1990758263)
 Object("rep_vehicle10", "com_item_vehicle_spawn", 2015291016)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
-	ChildPosition(-164.373, 508.174, 1451.465);
+	ChildPosition(-164.373, 808.403, 1451.465);
 	SeqNo(2015291016);
 	Team(0);
 	NetworkId(-1);
@@ -1852,7 +1892,7 @@ Object("rep_vehicle10", "com_item_vehicle_spawn", 2015291016)
 Object("rep_vehicle7", "com_item_vehicle_spawn", 2029714871)
 {
 	ChildRotation(0.734, 0.000, -0.679, 0.000);
-	ChildPosition(-225.355, 508.486, 1387.053);
+	ChildPosition(-225.355, 808.715, 1387.053);
 	SeqNo(2029714871);
 	Team(0);
 	NetworkId(-1);
@@ -1882,7 +1922,7 @@ Object("rep_vehicle7", "com_item_vehicle_spawn", 2029714871)
 Object("cis_tur_1", "tur_bldg_spa_cis_chaingun", 2031625207)
 {
 	ChildRotation(0.677, 0.000, -0.736, 0.000);
-	ChildPosition(-75.188, 695.474, -417.288);
+	ChildPosition(-75.188, 910.494, -417.288);
 	SeqNo(2031625207);
 	Team(0);
 	NetworkId(-1);
@@ -1892,7 +1932,7 @@ Object("cis_tur_1", "tur_bldg_spa_cis_chaingun", 2031625207)
 Object("cis_cor_9", "Corridor_03", 2032101173)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(232.809, 628.507, -384.872);
+	ChildPosition(232.809, 843.527, -384.872);
 	SeqNo(2032101173);
 	Team(0);
 	NetworkId(-1);
@@ -1902,7 +1942,7 @@ Object("cis_cor_9", "Corridor_03", 2032101173)
 Object("cis_shield_console_1", "spa_prop_console", 2038719330)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(283.046, 628.709, -413.993);
+	ChildPosition(283.046, 843.729, -413.993);
 	SeqNo(2038719330);
 	Team(2);
 	NetworkId(-1);
@@ -1912,7 +1952,7 @@ Object("cis_shield_console_1", "spa_prop_console", 2038719330)
 Object("cis_tri_tur_7", "tur_bldg_chaingun_tripod", 2056396878)
 {
 	ChildRotation(0.816, 0.000, 0.578, 0.000);
-	ChildPosition(3.642, 634.589, -369.795);
+	ChildPosition(3.642, 849.609, -369.795);
 	SeqNo(2056396878);
 	Team(2);
 	NetworkId(-1);
@@ -1922,7 +1962,7 @@ Object("cis_tri_tur_7", "tur_bldg_chaingun_tripod", 2056396878)
 Object("cis_tri_tur_4", "tur_bldg_chaingun_tripod", 2088576147)
 {
 	ChildRotation(0.748, 0.000, -0.664, 0.000);
-	ChildPosition(98.416, 634.573, -362.796);
+	ChildPosition(98.416, 849.593, -362.796);
 	SeqNo(2088576147);
 	Team(2);
 	NetworkId(-1);
@@ -1931,8 +1971,8 @@ Object("cis_tri_tur_4", "tur_bldg_chaingun_tripod", 2088576147)
 
 Object("rep_door_3", "cis_fedcruiser_door1", 2100525092)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
-	ChildPosition(-1352.469, 779.805, 346.677);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
+	ChildPosition(-1352.469, 846.517, 346.677);
 	SeqNo(2100525092);
 	Team(0);
 	NetworkId(-1);
@@ -1942,7 +1982,7 @@ Object("rep_door_3", "cis_fedcruiser_door1", 2100525092)
 Object("cis_cor14", "Corridor_03", 2137639888)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(231.553, 628.507, -369.224);
+	ChildPosition(231.553, 843.527, -369.224);
 	SeqNo(2137639888);
 	Team(0);
 	NetworkId(-1);
@@ -1952,7 +1992,7 @@ Object("cis_cor14", "Corridor_03", 2137639888)
 Object("cis_turret_3", "spa_veh_turret_chair", -2122116205)
 {
 	ChildRotation(0.687, 0.000, -0.727, 0.000);
-	ChildPosition(274.482, 629.926, -349.812);
+	ChildPosition(274.482, 844.946, -349.812);
 	SeqNo(-2122116205);
 	Team(0);
 	NetworkId(-1);
@@ -1965,7 +2005,7 @@ Object("cis_turret_3", "spa_veh_turret_chair", -2122116205)
 Object("rep_door_5", "cis_fedcruiser_door1", -2115539638)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1366.382, 779.772, 384.118);
+	ChildPosition(-1366.382, 846.484, 384.118);
 	SeqNo(-2115539638);
 	Team(0);
 	NetworkId(-1);
@@ -1975,9 +2015,19 @@ Object("rep_door_5", "cis_fedcruiser_door1", -2115539638)
 Object("cis_door_exp_cube", "Dest_Cube", -2112219907)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(565.015, 671.474, -374.517);
+	ChildPosition(565.015, 886.494, -374.517);
 	SeqNo(-2112219907);
 	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("rep_frigate_arrive_turret1", "rep_bldg_frigateturret_down", -2066341340)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-4061.948, 59849.645, 1013.214);
+	SeqNo(-2066341340);
+	Team(1);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -1985,7 +2035,7 @@ Object("cis_door_exp_cube", "Dest_Cube", -2112219907)
 Object("Rep_Frigate_ext_Shields", "Rep_Frigate_ext_Shields", -2060575691)
 {
 	ChildRotation(0.030, 0.000, -1.000, 0.000);
-	ChildPosition(-207.938, 464.716, 1259.769);
+	ChildPosition(-207.938, 764.946, 1259.769);
 	SeqNo(-2060575691);
 	Team(0);
 	NetworkId(-1);
@@ -1995,7 +2045,7 @@ Object("Rep_Frigate_ext_Shields", "Rep_Frigate_ext_Shields", -2060575691)
 Object("rep_tur_4", "tur_bldg_spa_rep_cannon", -2053132404)
 {
 	ChildRotation(0.308, 0.000, -0.951, 0.000);
-	ChildPosition(-1566.552, 877.525, 153.632);
+	ChildPosition(-1566.552, 944.237, 153.632);
 	SeqNo(-2053132404);
 	Team(0);
 	NetworkId(-1);
@@ -2005,7 +2055,7 @@ Object("rep_tur_4", "tur_bldg_spa_rep_cannon", -2053132404)
 Object("cis_cor_7", "Corridor_03", -2048319284)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(199.370, 628.507, -371.666);
+	ChildPosition(199.370, 843.527, -371.666);
 	SeqNo(-2048319284);
 	Team(0);
 	NetworkId(-1);
@@ -2015,7 +2065,7 @@ Object("cis_cor_7", "Corridor_03", -2048319284)
 Object("Rep_Frigate_ext1", "Rep_Frigate_ext", -2045841349)
 {
 	ChildRotation(0.751, 0.022, -0.660, -0.020);
-	ChildPosition(756.099, 314.022, -1395.814);
+	ChildPosition(756.099, 994.858, -1395.814);
 	SeqNo(-2045841349);
 	Team(1);
 	NetworkId(-1);
@@ -2025,7 +2075,7 @@ Object("Rep_Frigate_ext1", "Rep_Frigate_ext", -2045841349)
 Object("cis_vehicle9", "com_item_vehicle_spawn", -2040029654)
 {
 	ChildRotation(0.772, 0.000, -0.636, 0.000);
-	ChildPosition(772.726, 484.783, 725.439);
+	ChildPosition(772.726, 806.112, 725.439);
 	SeqNo(-2040029654);
 	Team(0);
 	NetworkId(-1);
@@ -2055,7 +2105,7 @@ Object("cis_vehicle9", "com_item_vehicle_spawn", -2040029654)
 Object("cis_vehicle11", "com_item_vehicle_spawn", -2037742949)
 {
 	ChildRotation(0.621, 0.000, 0.784, 0.000);
-	ChildPosition(843.024, 484.776, 779.310);
+	ChildPosition(843.024, 806.105, 779.310);
 	SeqNo(-2037742949);
 	Team(0);
 	NetworkId(-1);
@@ -2085,7 +2135,7 @@ Object("cis_vehicle11", "com_item_vehicle_spawn", -2037742949)
 Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod", -2026904790)
 {
 	ChildRotation(0.051, 0.000, -0.999, 0.000);
-	ChildPosition(102.511, 634.573, -368.804);
+	ChildPosition(102.511, 849.593, -368.804);
 	SeqNo(-2026904790);
 	Team(2);
 	NetworkId(-1);
@@ -2095,7 +2145,7 @@ Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod", -2026904790)
 Object("rep_roof_tur_7", "tur_bldg_chaingun_roof", -2024535158)
 {
 	ChildRotation(0.400, 0.000, -0.917, 0.000);
-	ChildPosition(-1343.529, 784.193, 418.506);
+	ChildPosition(-1343.529, 850.905, 418.506);
 	SeqNo(-2024535158);
 	Team(1);
 	NetworkId(-1);
@@ -2105,7 +2155,7 @@ Object("rep_roof_tur_7", "tur_bldg_chaingun_roof", -2024535158)
 Object("rep_vehicle7", "com_item_vehicle_spawn", -2005607395)
 {
 	ChildRotation(0.734, 0.000, -0.679, 0.000);
-	ChildPosition(-225.355, 508.486, 1387.053);
+	ChildPosition(-225.355, 808.715, 1387.053);
 	SeqNo(-2005607395);
 	Team(0);
 	NetworkId(-1);
@@ -2135,7 +2185,7 @@ Object("rep_vehicle7", "com_item_vehicle_spawn", -2005607395)
 Object("cis_roof_tur_6", "tur_bldg_chaingun_roof", -1949117353)
 {
 	ChildRotation(0.987, 0.000, -0.160, 0.000);
-	ChildPosition(281.840, 633.129, -457.164);
+	ChildPosition(281.840, 848.149, -457.164);
 	SeqNo(-1949117353);
 	Team(2);
 	NetworkId(-1);
@@ -2145,7 +2195,7 @@ Object("cis_roof_tur_6", "tur_bldg_chaingun_roof", -1949117353)
 Object("cis_tur_4", "tur_bldg_spa_cis_cannon", -1937202551)
 {
 	ChildRotation(0.680, 0.000, -0.733, 0.000);
-	ChildPosition(-147.824, 696.808, -423.475);
+	ChildPosition(-147.824, 911.828, -423.475);
 	SeqNo(-1937202551);
 	Team(0);
 	NetworkId(-1);
@@ -2155,7 +2205,7 @@ Object("cis_tur_4", "tur_bldg_spa_cis_cannon", -1937202551)
 Object("cis_cor_18", "Corridor_03", -1922162634)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(169.145, 628.507, -389.572);
+	ChildPosition(169.145, 843.527, -389.572);
 	SeqNo(-1922162634);
 	Team(0);
 	NetworkId(-1);
@@ -2165,7 +2215,7 @@ Object("cis_cor_18", "Corridor_03", -1922162634)
 Object("cis_auto_tur_6", "cis_bldg_frigateturret", -1918971578)
 {
 	ChildRotation(0.687, 0.000, -0.727, 0.000);
-	ChildPosition(107.525, 698.449, -388.219);
+	ChildPosition(107.525, 913.469, -388.219);
 	SeqNo(-1918971578);
 	Team(2);
 	NetworkId(-1);
@@ -2175,7 +2225,7 @@ Object("cis_auto_tur_6", "cis_bldg_frigateturret", -1918971578)
 Object("cis_tur_5", "tur_bldg_spa_cis_beam", -1888966113)
 {
 	ChildRotation(0.674, 0.000, -0.739, 0.000);
-	ChildPosition(-634.075, 628.119, -458.736);
+	ChildPosition(-634.075, 843.139, -458.736);
 	SeqNo(-1888966113);
 	Team(0);
 	NetworkId(-1);
@@ -2184,8 +2234,8 @@ Object("cis_tur_5", "tur_bldg_spa_cis_beam", -1888966113)
 
 Object("cis_turret_1", "spa_veh_turret_chair", -1858385500)
 {
-	ChildRotation(0.729, 0.000, 0.685, 0.000);
-	ChildPosition(263.270, 629.926, -355.105);
+	ChildRotation(0.729, 0.000, 0.684, 0.000);
+	ChildPosition(263.270, 844.946, -355.105);
 	SeqNo(-1858385500);
 	Team(0);
 	NetworkId(-1);
@@ -2198,7 +2248,7 @@ Object("cis_turret_1", "spa_veh_turret_chair", -1858385500)
 Object("cis_vehicle3", "com_item_vehicle_spawn", -1847684110)
 {
 	ChildRotation(0.999, 0.000, -0.033, 0.000);
-	ChildPosition(386.750, 624.950, -332.737);
+	ChildPosition(368.443, 839.970, -320.615);
 	SeqNo(-1847684110);
 	Team(0);
 	NetworkId(-1);
@@ -2228,7 +2278,7 @@ Object("cis_vehicle3", "com_item_vehicle_spawn", -1847684110)
 Object("cis_roof_tur_3", "tur_bldg_chaingun_roof", -1827224186)
 {
 	ChildRotation(0.727, 0.000, 0.687, 0.000);
-	ChildPosition(266.469, 631.988, -408.046);
+	ChildPosition(266.469, 847.008, -408.046);
 	SeqNo(-1827224186);
 	Team(2);
 	NetworkId(-1);
@@ -2238,7 +2288,7 @@ Object("cis_roof_tur_3", "tur_bldg_chaingun_roof", -1827224186)
 Object("cis_tur_2", "tur_bldg_spa_cis_chaingun", -1807198363)
 {
 	ChildRotation(0.679, 0.000, -0.734, 0.000);
-	ChildPosition(-320.230, 693.411, -435.026);
+	ChildPosition(-320.230, 908.431, -435.026);
 	SeqNo(-1807198363);
 	Team(0);
 	NetworkId(-1);
@@ -2248,7 +2298,7 @@ Object("cis_tur_2", "tur_bldg_spa_cis_chaingun", -1807198363)
 Object("CIS_Frigate_ext_Shields", "CIS_Frigate_ext_Shields", -1799462956)
 {
 	ChildRotation(0.111, 0.000, -0.994, 0.000);
-	ChildPosition(847.649, 442.389, 916.432);
+	ChildPosition(847.649, 763.718, 916.432);
 	SeqNo(-1799462956);
 	Team(0);
 	NetworkId(-1);
@@ -2258,7 +2308,7 @@ Object("CIS_Frigate_ext_Shields", "CIS_Frigate_ext_Shields", -1799462956)
 Object("cis_cor_8", "Corridor_02", -1794988152)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(216.907, 628.507, -386.454);
+	ChildPosition(216.907, 843.527, -386.454);
 	SeqNo(-1794988152);
 	Team(0);
 	NetworkId(-1);
@@ -2268,7 +2318,7 @@ Object("cis_cor_8", "Corridor_02", -1794988152)
 Object("cis_vehicle6", "com_item_vehicle_spawn", -1791106069)
 {
 	ChildRotation(-0.036, 0.000, -0.999, 0.000);
-	ChildPosition(394.437, 625.027, -439.543);
+	ChildPosition(394.437, 840.047, -439.543);
 	SeqNo(-1791106069);
 	Team(0);
 	NetworkId(-1);
@@ -2298,7 +2348,7 @@ Object("cis_vehicle6", "com_item_vehicle_spawn", -1791106069)
 Object("rep_health_frigate", "com_item_healthrecharge", -1774411412)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-189.185, 508.130, 1498.830);
+	ChildPosition(-189.185, 808.359, 1498.830);
 	SeqNo(-1774411412);
 	Team(0);
 	NetworkId(-1);
@@ -2310,7 +2360,7 @@ Object("rep_health_frigate", "com_item_healthrecharge", -1774411412)
 Object("CIS_Frigate_ext_Hallways_closed1", "CIS_Frigate_ext_Hallways_closed", -1762270016)
 {
 	ChildRotation(0.952, 0.000, 0.305, 0.000);
-	ChildPosition(-1570.840, 542.653, -974.390);
+	ChildPosition(-1570.840, 857.868, -974.390);
 	SeqNo(-1762270016);
 	Team(2);
 	NetworkId(-1);
@@ -2320,7 +2370,7 @@ Object("CIS_Frigate_ext_Hallways_closed1", "CIS_Frigate_ext_Hallways_closed", -1
 Object("cis_cor12", "Corridor_01", -1738311088)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(151.930, 628.507, -375.056);
+	ChildPosition(151.930, 843.527, -375.056);
 	SeqNo(-1738311088);
 	Team(0);
 	NetworkId(-1);
@@ -2330,7 +2380,7 @@ Object("cis_cor12", "Corridor_01", -1738311088)
 Object("cis_cor10", "Corridor_03", -1728374961)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(186.237, 628.507, -404.386);
+	ChildPosition(186.237, 843.527, -404.386);
 	SeqNo(-1728374961);
 	Team(0);
 	NetworkId(-1);
@@ -2340,7 +2390,7 @@ Object("cis_cor10", "Corridor_03", -1728374961)
 Object("rep_vehicle5", "com_item_vehicle_spawn", -1679780082)
 {
 	ChildRotation(0.734, 0.000, -0.679, 0.000);
-	ChildPosition(-220.254, 508.348, 1491.881);
+	ChildPosition(-220.254, 808.577, 1491.881);
 	SeqNo(-1679780082);
 	Team(0);
 	NetworkId(-1);
@@ -2370,7 +2420,7 @@ Object("rep_vehicle5", "com_item_vehicle_spawn", -1679780082)
 Object("rep_tri_tur_3", "tur_bldg_chaingun_tripod", -1672493105)
 {
 	ChildRotation(0.836, 0.000, 0.549, 0.000);
-	ChildPosition(-1578.509, 785.610, 299.968);
+	ChildPosition(-1578.509, 852.322, 299.968);
 	SeqNo(-1672493105);
 	Team(1);
 	NetworkId(-1);
@@ -2380,7 +2430,7 @@ Object("rep_tri_tur_3", "tur_bldg_chaingun_tripod", -1672493105)
 Object("cis_tri_tur_11", "tur_bldg_chaingun_tripod", -1649641535)
 {
 	ChildRotation(0.888, 0.000, -0.460, 0.000);
-	ChildPosition(53.996, 634.546, -456.414);
+	ChildPosition(53.996, 849.566, -456.414);
 	SeqNo(-1649641535);
 	Team(2);
 	NetworkId(-1);
@@ -2390,7 +2440,7 @@ Object("cis_tri_tur_11", "tur_bldg_chaingun_tripod", -1649641535)
 Object("rep_tri_tur_4", "tur_bldg_chaingun_tripod", -1645703895)
 {
 	ChildRotation(-0.196, 0.000, -0.981, 0.000);
-	ChildPosition(-1581.132, 785.610, 294.334);
+	ChildPosition(-1581.132, 852.322, 294.334);
 	SeqNo(-1645703895);
 	Team(1);
 	NetworkId(-1);
@@ -2400,7 +2450,7 @@ Object("rep_tri_tur_4", "tur_bldg_chaingun_tripod", -1645703895)
 Object("cis_shield_console_2", "spa_prop_console", -1629736556)
 {
 	ChildRotation(0.682, 0.000, -0.731, 0.000);
-	ChildPosition(261.375, 628.709, -382.848);
+	ChildPosition(261.375, 843.729, -382.848);
 	SeqNo(-1629736556);
 	Team(2);
 	NetworkId(-1);
@@ -2410,7 +2460,7 @@ Object("cis_shield_console_2", "spa_prop_console", -1629736556)
 Object("rep_cor_12", "Corridor_03", -1609592007)
 {
 	ChildRotation(0.202, 0.000, -0.979, 0.000);
-	ChildPosition(-1457.434, 779.558, 351.920);
+	ChildPosition(-1457.434, 846.270, 351.920);
 	SeqNo(-1609592007);
 	Team(0);
 	NetworkId(-1);
@@ -2420,7 +2470,7 @@ Object("rep_cor_12", "Corridor_03", -1609592007)
 Object("rep_auto_tur_2", "rep_bldg_frigateturret", -1579068788)
 {
 	ChildRotation(-0.447, 0.000, -0.895, 0.000);
-	ChildPosition(-1313.205, 848.132, 392.610);
+	ChildPosition(-1313.205, 914.844, 392.610);
 	SeqNo(-1579068788);
 	Team(1);
 	NetworkId(-1);
@@ -2430,7 +2480,7 @@ Object("rep_auto_tur_2", "rep_bldg_frigateturret", -1579068788)
 Object("rep_cap_assultship3", "rep_cap_assultship3", -1577247991)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1310.829, 776.475, 491.450);
+	ChildPosition(-1310.829, 843.187, 491.450);
 	SeqNo(-1577247991);
 	Team(1);
 	NetworkId(-1);
@@ -2440,7 +2490,7 @@ Object("rep_cap_assultship3", "rep_cap_assultship3", -1577247991)
 Object("cis_vehicle2", "com_item_vehicle_spawn", -1553658072)
 {
 	ChildRotation(0.999, 0.000, -0.034, 0.000);
-	ChildPosition(358.622, 624.967, -334.719);
+	ChildPosition(347.939, 839.987, -322.104);
 	SeqNo(-1553658072);
 	Team(0);
 	NetworkId(-1);
@@ -2470,7 +2520,7 @@ Object("cis_vehicle2", "com_item_vehicle_spawn", -1553658072)
 Object("cis_health_frigate", "com_item_healthrecharge", -1550128542)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(838.263, 484.368, 818.821);
+	ChildPosition(838.263, 805.697, 818.821);
 	SeqNo(-1550128542);
 	Team(0);
 	NetworkId(-1);
@@ -2482,7 +2532,7 @@ Object("cis_health_frigate", "com_item_healthrecharge", -1550128542)
 Object("rep_health_2", "com_item_healthrecharge", -1542175313)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-1334.947, 775.916, 368.816);
+	ChildPosition(-1334.947, 842.628, 368.816);
 	SeqNo(-1542175313);
 	Team(0);
 	NetworkId(-1);
@@ -2494,7 +2544,7 @@ Object("rep_health_2", "com_item_healthrecharge", -1542175313)
 Object("cis_cor_3", "Corridor_03", -1524865448)
 {
 	ChildRotation(0.999, 0.000, -0.036, 0.000);
-	ChildPosition(215.767, 628.507, -370.495);
+	ChildPosition(215.767, 843.527, -370.495);
 	SeqNo(-1524865448);
 	Team(0);
 	NetworkId(-1);
@@ -2504,7 +2554,7 @@ Object("cis_cor_3", "Corridor_03", -1524865448)
 Object("rep_reactor_room", "Main_Reactor_Room", -1518800566)
 {
 	ChildRotation(0.978, 0.000, 0.210, 0.000);
-	ChildPosition(-1526.996, 769.300, 273.278);
+	ChildPosition(-1526.996, 836.012, 273.278);
 	SeqNo(-1518800566);
 	Team(0);
 	NetworkId(-1);
@@ -2514,7 +2564,7 @@ Object("rep_reactor_room", "Main_Reactor_Room", -1518800566)
 Object("rep_reactor_console_4", "Main_Reactor_Console", -1479547129)
 {
 	ChildRotation(0.667, 0.000, -0.745, 0.000);
-	ChildPosition(-1526.997, 769.300, 273.279);
+	ChildPosition(-1526.997, 836.012, 273.279);
 	SeqNo(-1479547129);
 	Team(1);
 	NetworkId(-1);
@@ -2524,7 +2574,7 @@ Object("rep_reactor_console_4", "Main_Reactor_Console", -1479547129)
 Object("cis_roof_tur_2", "tur_bldg_chaingun_roof", -1478246000)
 {
 	ChildRotation(0.727, 0.000, 0.687, 0.000);
-	ChildPosition(265.921, 632.014, -399.080);
+	ChildPosition(265.921, 847.034, -399.080);
 	SeqNo(-1478246000);
 	Team(2);
 	NetworkId(-1);
@@ -2534,7 +2584,7 @@ Object("cis_roof_tur_2", "tur_bldg_chaingun_roof", -1478246000)
 Object("rep_tur_1", "tur_bldg_spa_rep_chaingun", -1468495909)
 {
 	ChildRotation(-0.465, 0.000, -0.885, 0.000);
-	ChildPosition(-1288.859, 805.907, 50.538);
+	ChildPosition(-1288.859, 872.619, 50.538);
 	SeqNo(-1468495909);
 	Team(0);
 	NetworkId(-1);
@@ -2544,7 +2594,7 @@ Object("rep_tur_1", "tur_bldg_spa_rep_chaingun", -1468495909)
 Object("rep_vehicle11", "com_item_vehicle_spawn", -1459704419)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
-	ChildPosition(-161.067, 508.308, 1488.191);
+	ChildPosition(-161.067, 808.537, 1488.191);
 	SeqNo(-1459704419);
 	Team(0);
 	NetworkId(-1);
@@ -2574,7 +2624,7 @@ Object("rep_vehicle11", "com_item_vehicle_spawn", -1459704419)
 Object("rep_tur_3", "tur_bldg_spa_rep_chaingun", -1401005382)
 {
 	ChildRotation(0.550, 0.000, 0.835, 0.000);
-	ChildPosition(-1153.653, 801.920, 414.595);
+	ChildPosition(-1153.653, 868.632, 414.595);
 	SeqNo(-1401005382);
 	Team(0);
 	NetworkId(-1);
@@ -2584,7 +2634,7 @@ Object("rep_tur_3", "tur_bldg_spa_rep_chaingun", -1401005382)
 Object("rep_tri_tur_2", "tur_bldg_chaingun_tripod", -1399953209)
 {
 	ChildRotation(-0.267, 0.000, -0.964, 0.000);
-	ChildPosition(-1320.984, 775.937, 395.812);
+	ChildPosition(-1320.984, 842.649, 395.812);
 	SeqNo(-1399953209);
 	Team(1);
 	NetworkId(-1);
@@ -2593,8 +2643,8 @@ Object("rep_tri_tur_2", "tur_bldg_chaingun_tripod", -1399953209)
 
 Object("cis_turret_2", "spa_veh_turret_chair", -1394338712)
 {
-	ChildRotation(0.729, 0.000, 0.685, 0.000);
-	ChildPosition(263.023, 629.925, -350.636);
+	ChildRotation(0.729, 0.000, 0.684, 0.000);
+	ChildPosition(263.023, 844.945, -350.636);
 	SeqNo(-1394338712);
 	Team(0);
 	NetworkId(-1);
@@ -2604,20 +2654,10 @@ Object("cis_turret_2", "spa_veh_turret_chair", -1394338712)
 	PrevLinkedTerminal("");
 }
 
-Object("cis_lander_a_1", "CO3_prop_CIS_Lander", -1384269184)
-{
-	ChildRotation(0.708, 0.000, -0.706, 0.000);
-	ChildPosition(4870.192, 279.541, -49.518);
-	SeqNo(-1384269184);
-	Team(0);
-	NetworkId(-1);
-	Layer(3);
-}
-
 Object("rep_vehicle9", "com_item_vehicle_spawn", -1329005012)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
-	ChildPosition(-167.703, 508.219, 1414.335);
+	ChildPosition(-167.703, 808.448, 1414.335);
 	SeqNo(-1329005012);
 	Team(0);
 	NetworkId(-1);
@@ -2647,7 +2687,7 @@ Object("rep_vehicle9", "com_item_vehicle_spawn", -1329005012)
 Object("cis_door_5", "cis_fedcruiser_door1", -1308918999)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(270.894, 628.720, -379.913);
+	ChildPosition(270.894, 843.740, -379.913);
 	SeqNo(-1308918999);
 	Team(0);
 	NetworkId(-1);
@@ -2657,7 +2697,7 @@ Object("cis_door_5", "cis_fedcruiser_door1", -1308918999)
 Object("rep_turret_4", "spa_veh_turret_chair", -1295235823)
 {
 	ChildRotation(0.981, 0.000, 0.196, 0.000);
-	ChildPosition(-1399.190, 780.977, 320.173);
+	ChildPosition(-1399.190, 847.689, 320.173);
 	SeqNo(-1295235823);
 	Team(0);
 	NetworkId(-1);
@@ -2670,7 +2710,7 @@ Object("rep_turret_4", "spa_veh_turret_chair", -1295235823)
 Object("cis_roof_tur_4", "tur_bldg_chaingun_roof", -1286313666)
 {
 	ChildRotation(-0.143, 0.000, -0.990, 0.000);
-	ChildPosition(263.105, 633.127, -339.767);
+	ChildPosition(263.105, 848.147, -339.767);
 	SeqNo(-1286313666);
 	Team(2);
 	NetworkId(-1);
@@ -2680,7 +2720,7 @@ Object("cis_roof_tur_4", "tur_bldg_chaingun_roof", -1286313666)
 Object("rep_tri_tur_11", "tur_bldg_chaingun_tripod", -1216223508)
 {
 	ChildRotation(0.008, 0.000, -1.000, 0.000);
-	ChildPosition(-1478.947, 785.594, 305.802);
+	ChildPosition(-1478.947, 852.306, 305.802);
 	SeqNo(-1216223508);
 	Team(1);
 	NetworkId(-1);
@@ -2700,7 +2740,7 @@ Object("CIS_Frigate_ext_Hallways_closed3", "CIS_Frigate_ext_Hallways_closed", -1
 Object("cis_reactor_console_2", "Main_Reactor_Console", -1211427273)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(-1211427273);
 	Team(2);
 	NetworkId(-1);
@@ -2710,7 +2750,7 @@ Object("cis_reactor_console_2", "Main_Reactor_Console", -1211427273)
 Object("rep_bridge", "rep_assultship_destruct_towers", -1205616494)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1458.113, 952.454, 294.448);
+	ChildPosition(-1458.113, 1019.166, 294.448);
 	SeqNo(-1205616494);
 	Team(1);
 	NetworkId(-1);
@@ -2720,7 +2760,7 @@ Object("rep_bridge", "rep_assultship_destruct_towers", -1205616494)
 Object("cis_vehicle5", "com_item_vehicle_spawn", -1186794472)
 {
 	ChildRotation(-0.036, 0.000, -0.999, 0.000);
-	ChildPosition(366.278, 624.988, -441.538);
+	ChildPosition(366.278, 840.008, -441.538);
 	SeqNo(-1186794472);
 	Team(0);
 	NetworkId(-1);
@@ -2750,7 +2790,7 @@ Object("cis_vehicle5", "com_item_vehicle_spawn", -1186794472)
 Object("rep_tri_tur_8", "tur_bldg_chaingun_tripod", -1176597686)
 {
 	ChildRotation(0.933, 0.000, 0.359, 0.000);
-	ChildPosition(-1517.387, 785.632, 216.197);
+	ChildPosition(-1517.387, 852.344, 216.197);
 	SeqNo(-1176597686);
 	Team(1);
 	NetworkId(-1);
@@ -2759,8 +2799,8 @@ Object("rep_tri_tur_8", "tur_bldg_chaingun_tripod", -1176597686)
 
 Object("rep_comm_room_2", "rep_assultship_commandroom_server", -1097733853)
 {
-	ChildRotation(0.837, 0.000, -0.548, 0.000);
-	ChildPosition(-1376.144, 779.558, 385.929);
+	ChildRotation(0.837, 0.000, -0.547, 0.000);
+	ChildPosition(-1376.144, 846.270, 385.929);
 	SeqNo(-1097733853);
 	Team(0);
 	NetworkId(-1);
@@ -2770,7 +2810,7 @@ Object("rep_comm_room_2", "rep_assultship_commandroom_server", -1097733853)
 Object("rep_auto_tur_3", "rep_bldg_frigateturret", -1091357454)
 {
 	ChildRotation(-0.406, 0.000, -0.914, 0.000);
-	ChildPosition(-1401.729, 857.137, 254.924);
+	ChildPosition(-1401.729, 923.849, 254.924);
 	SeqNo(-1091357454);
 	Team(1);
 	NetworkId(-1);
@@ -2779,8 +2819,8 @@ Object("rep_auto_tur_3", "rep_bldg_frigateturret", -1091357454)
 
 Object("rep_cor_21", "Corridor_03", -1084588421)
 {
-	ChildRotation(0.837, 0.000, -0.548, 0.000);
-	ChildPosition(-1507.231, 779.558, 356.234);
+	ChildRotation(0.837, 0.000, -0.547, 0.000);
+	ChildPosition(-1507.231, 846.270, 356.234);
 	SeqNo(-1084588421);
 	Team(0);
 	NetworkId(-1);
@@ -2790,7 +2830,7 @@ Object("rep_cor_21", "Corridor_03", -1084588421)
 Object("Rep_Frigate_ext3", "Rep_Frigate_ext", -1049147289)
 {
 	ChildRotation(0.909, -0.009, 0.416, -0.028);
-	ChildPosition(-1716.376, 879.163, -421.880);
+	ChildPosition(-1716.376, 1148.467, -421.880);
 	SeqNo(-1049147289);
 	Team(1);
 	NetworkId(-1);
@@ -2800,7 +2840,7 @@ Object("Rep_Frigate_ext3", "Rep_Frigate_ext", -1049147289)
 Object("cis_tri_tur_9", "tur_bldg_chaingun_tripod", -1047119458)
 {
 	ChildRotation(0.998, 0.000, 0.056, 0.000);
-	ChildPosition(3.442, 634.591, -427.254);
+	ChildPosition(3.442, 849.611, -427.254);
 	SeqNo(-1047119458);
 	Team(2);
 	NetworkId(-1);
@@ -2810,7 +2850,7 @@ Object("cis_tri_tur_9", "tur_bldg_chaingun_tripod", -1047119458)
 Object("rep_door_6", "cis_fedcruiser_door1", -1045451311)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1359.863, 779.772, 399.059);
+	ChildPosition(-1359.863, 846.484, 399.059);
 	SeqNo(-1045451311);
 	Team(0);
 	NetworkId(-1);
@@ -2820,7 +2860,7 @@ Object("rep_door_6", "cis_fedcruiser_door1", -1045451311)
 Object("cis_cor_5", "Corridor_02", -1039301559)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(202.166, 628.507, -403.523);
+	ChildPosition(202.166, 843.527, -403.523);
 	SeqNo(-1039301559);
 	Team(0);
 	NetworkId(-1);
@@ -2830,7 +2870,7 @@ Object("cis_cor_5", "Corridor_02", -1039301559)
 Object("cis_tri_tur_2", "tur_bldg_chaingun_tripod", -1021995781)
 {
 	ChildRotation(0.978, 0.000, 0.207, 0.000);
-	ChildPosition(309.153, 628.758, -419.695);
+	ChildPosition(309.153, 843.778, -419.695);
 	SeqNo(-1021995781);
 	Team(2);
 	NetworkId(-1);
@@ -2839,8 +2879,8 @@ Object("cis_tri_tur_2", "tur_bldg_chaingun_tripod", -1021995781)
 
 Object("rep_door_4", "cis_fedcruiser_door1", -1011629168)
 {
-	ChildRotation(0.548, 0.000, 0.836, 0.000);
-	ChildPosition(-1343.799, 779.805, 366.420);
+	ChildRotation(0.548, 0.000, 0.837, 0.000);
+	ChildPosition(-1343.799, 846.517, 366.420);
 	SeqNo(-1011629168);
 	Team(0);
 	NetworkId(-1);
@@ -2850,7 +2890,7 @@ Object("rep_door_4", "cis_fedcruiser_door1", -1011629168)
 Object("cis_tri_tur_8", "tur_bldg_chaingun_tripod", -1006551818)
 {
 	ChildRotation(-0.153, 0.000, -0.988, 0.000);
-	ChildPosition(0.379, 634.589, -376.259);
+	ChildPosition(0.379, 849.609, -376.259);
 	SeqNo(-1006551818);
 	Team(2);
 	NetworkId(-1);
@@ -2860,7 +2900,7 @@ Object("cis_tri_tur_8", "tur_bldg_chaingun_tripod", -1006551818)
 Object("rep_cor_14", "Corridor_01", -949755446)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1465.861, 779.558, 372.500);
+	ChildPosition(-1465.861, 846.270, 372.500);
 	SeqNo(-949755446);
 	Team(0);
 	NetworkId(-1);
@@ -2870,7 +2910,7 @@ Object("rep_cor_14", "Corridor_01", -949755446)
 Object("rep_reactor_console_2", "Main_Reactor_Console", -948765627)
 {
 	ChildRotation(0.978, 0.000, 0.210, 0.000);
-	ChildPosition(-1526.997, 769.300, 273.279);
+	ChildPosition(-1526.997, 836.012, 273.279);
 	SeqNo(-948765627);
 	Team(1);
 	NetworkId(-1);
@@ -2879,8 +2919,8 @@ Object("rep_reactor_console_2", "Main_Reactor_Console", -948765627)
 
 Object("rep_roof_tur_2", "tur_bldg_chaingun_roof", -901388819)
 {
-	ChildRotation(0.557, 0.000, 0.830, 0.000);
-	ChildPosition(-1383.572, 783.056, 360.610);
+	ChildRotation(0.557, 0.000, 0.831, 0.000);
+	ChildPosition(-1383.572, 849.768, 360.610);
 	SeqNo(-901388819);
 	Team(1);
 	NetworkId(-1);
@@ -2890,7 +2930,7 @@ Object("rep_roof_tur_2", "tur_bldg_chaingun_roof", -901388819)
 Object("rep_vehicle6", "com_item_vehicle_spawn", -900702719)
 {
 	ChildRotation(0.734, 0.000, -0.679, 0.000);
-	ChildPosition(-221.559, 508.416, 1461.099);
+	ChildPosition(-221.559, 808.645, 1461.099);
 	SeqNo(-900702719);
 	Team(0);
 	NetworkId(-1);
@@ -2920,7 +2960,7 @@ Object("rep_vehicle6", "com_item_vehicle_spawn", -900702719)
 Object("cis_reactor_console_6", "Main_Reactor_Console", -899745810)
 {
 	ChildRotation(0.218, 0.000, -0.976, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(-899745810);
 	Team(2);
 	NetworkId(-1);
@@ -2929,8 +2969,8 @@ Object("cis_reactor_console_6", "Main_Reactor_Console", -899745810)
 
 Object("cis_vehicle14", "com_item_vehicle_spawn", -897296231)
 {
-	ChildRotation(0.622, 0.000, 0.783, 0.000);
-	ChildPosition(817.330, 484.767, 677.551);
+	ChildRotation(0.623, 0.000, 0.782, 0.000);
+	ChildPosition(817.330, 806.019, 677.551);
 	SeqNo(-897296231);
 	Team(0);
 	NetworkId(-1);
@@ -2957,20 +2997,10 @@ Object("cis_vehicle14", "com_item_vehicle_spawn", -897296231)
 	ClassLocals("");
 }
 
-Object("CIS_Frigate_arrive_3", "CIS_Frigate_ext", -863152425)
-{
-	ChildRotation(0.711, 0.000, -0.703, 0.000);
-	ChildPosition(26232.080, 1946.737, -357.282);
-	SeqNo(-863152425);
-	Team(2);
-	NetworkId(-1);
-	Layer(3);
-}
-
 Object("CIS_Frigate_ext_Hallways", "CIS_Frigate_ext_Hallways", -806674646)
 {
 	ChildRotation(0.112, 0.000, -0.994, 0.000);
-	ChildPosition(847.649, 442.338, 916.432);
+	ChildPosition(847.649, 763.667, 916.432);
 	SeqNo(-806674646);
 	Team(0);
 	NetworkId(-1);
@@ -2980,7 +3010,7 @@ Object("CIS_Frigate_ext_Hallways", "CIS_Frigate_ext_Hallways", -806674646)
 Object("cis_ammo_2", "com_item_weaponrecharge", -790160973)
 {
 	ChildRotation(0.596, 0.000, 0.803, 0.000);
-	ChildPosition(308.039, 624.691, -373.804);
+	ChildPosition(308.039, 839.711, -373.804);
 	SeqNo(-790160973);
 	Team(0);
 	NetworkId(-1);
@@ -2992,7 +3022,7 @@ Object("cis_ammo_2", "com_item_weaponrecharge", -790160973)
 Object("cis_cor15", "Corridor_02", -776264745)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(183.849, 628.507, -372.776);
+	ChildPosition(183.849, 843.527, -372.776);
 	SeqNo(-776264745);
 	Team(0);
 	NetworkId(-1);
@@ -3002,7 +3032,7 @@ Object("cis_cor15", "Corridor_02", -776264745)
 Object("rep_cor_22", "Corridor_03", -773786097)
 {
 	ChildRotation(0.979, 0.000, 0.206, 0.000);
-	ChildPosition(-1501.146, 779.558, 370.424);
+	ChildPosition(-1501.146, 846.270, 370.424);
 	SeqNo(-773786097);
 	Team(0);
 	NetworkId(-1);
@@ -3012,7 +3042,7 @@ Object("rep_cor_22", "Corridor_03", -773786097)
 Object("cis_fedcruiser_crashing", "cis_fedcruiser_crashing", -733182766)
 {
 	ChildRotation(0.733, 0.000, 0.680, 0.000);
-	ChildPosition(95.292, 564.098, -406.785);
+	ChildPosition(95.292, 779.118, -406.785);
 	SeqNo(-733182766);
 	Team(2);
 	NetworkId(-1);
@@ -3022,8 +3052,18 @@ Object("cis_fedcruiser_crashing", "cis_fedcruiser_crashing", -733182766)
 Object("rep_roof_tur_5", "tur_bldg_chaingun_roof", -709786404)
 {
 	ChildRotation(1.000, 0.000, -0.010, 0.000);
-	ChildPosition(-1388.774, 784.132, 316.064);
+	ChildPosition(-1388.774, 850.844, 316.064);
 	SeqNo(-709786404);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("rep_frigate_arrive_turret2", "rep_bldg_frigateturret_down", -688041492)
+{
+	ChildRotation(0.000, -0.707, 0.000, -0.707);
+	ChildPosition(-4062.676, 59848.789, 185.745);
+	SeqNo(-688041492);
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
@@ -3032,7 +3072,7 @@ Object("rep_roof_tur_5", "tur_bldg_chaingun_roof", -709786404)
 Object("rep_turret_1", "spa_veh_turret_chair", -675846195)
 {
 	ChildRotation(0.977, 0.000, 0.213, 0.000);
-	ChildPosition(-1384.546, 780.977, 326.662);
+	ChildPosition(-1384.546, 847.689, 326.662);
 	SeqNo(-675846195);
 	Team(0);
 	NetworkId(-1);
@@ -3045,7 +3085,7 @@ Object("rep_turret_1", "spa_veh_turret_chair", -675846195)
 Object("cis_auto_tur_5", "cis_bldg_frigateturret", -669640646)
 {
 	ChildRotation(0.693, 0.000, -0.721, 0.000);
-	ChildPosition(110.402, 698.441, -424.670);
+	ChildPosition(110.402, 913.461, -424.670);
 	SeqNo(-669640646);
 	Team(2);
 	NetworkId(-1);
@@ -3055,7 +3095,7 @@ Object("cis_auto_tur_5", "cis_bldg_frigateturret", -669640646)
 Object("rep_cor_11", "Corridor_01", -633835804)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1451.236, 779.558, 366.126);
+	ChildPosition(-1451.236, 846.270, 366.126);
 	SeqNo(-633835804);
 	Team(0);
 	NetworkId(-1);
@@ -3065,7 +3105,7 @@ Object("rep_cor_11", "Corridor_01", -633835804)
 Object("rep_cap_assultship2", "rep_cap_assultship2", -631848406)
 {
 	ChildRotation(0.312, 0.000, -0.950, 0.000);
-	ChildPosition(-1310.829, 776.475, 491.449);
+	ChildPosition(-1310.829, 843.187, 491.447);
 	SeqNo(-631848406);
 	Team(1);
 	NetworkId(-1);
@@ -3075,7 +3115,7 @@ Object("rep_cap_assultship2", "rep_cap_assultship2", -631848406)
 Object("CIS_Frigate_ext", "CIS_Frigate_ext", -607944563)
 {
 	ChildRotation(0.111, 0.000, -0.994, 0.000);
-	ChildPosition(847.649, 442.389, 916.432);
+	ChildPosition(847.649, 763.718, 916.432);
 	SeqNo(-607944563);
 	Team(2);
 	NetworkId(-1);
@@ -3085,7 +3125,7 @@ Object("CIS_Frigate_ext", "CIS_Frigate_ext", -607944563)
 Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod", -578745208)
 {
 	ChildRotation(-0.474, 0.000, -0.881, 0.000);
-	ChildPosition(-1530.522, 785.665, 331.065);
+	ChildPosition(-1530.522, 852.377, 331.065);
 	SeqNo(-578745208);
 	Team(1);
 	NetworkId(-1);
@@ -3095,7 +3135,7 @@ Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod", -578745208)
 Object("rep_cor_1", "Corridor_01", -564952058)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1408.971, 779.558, 382.376);
+	ChildPosition(-1408.971, 846.270, 382.376);
 	SeqNo(-564952058);
 	Team(0);
 	NetworkId(-1);
@@ -3105,7 +3145,7 @@ Object("rep_cor_1", "Corridor_01", -564952058)
 Object("cis_vehicle12", "com_item_vehicle_spawn", -520051744)
 {
 	ChildRotation(0.621, 0.000, 0.784, 0.000);
-	ChildPosition(833.899, 484.642, 743.586);
+	ChildPosition(833.899, 805.971, 743.586);
 	SeqNo(-520051744);
 	Team(0);
 	NetworkId(-1);
@@ -3135,7 +3175,7 @@ Object("cis_vehicle12", "com_item_vehicle_spawn", -520051744)
 Object("cis_cor_6", "Corridor_02", -519869953)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(200.948, 628.507, -387.594);
+	ChildPosition(200.948, 843.527, -387.594);
 	SeqNo(-519869953);
 	Team(0);
 	NetworkId(-1);
@@ -3145,7 +3185,7 @@ Object("cis_cor_6", "Corridor_02", -519869953)
 Object("cis_cor_2", "Corridor_03", -513065723)
 {
 	ChildRotation(-0.037, 0.000, -0.999, 0.000);
-	ChildPosition(218.883, 628.507, -418.241);
+	ChildPosition(218.883, 843.527, -418.241);
 	SeqNo(-513065723);
 	Team(0);
 	NetworkId(-1);
@@ -3155,7 +3195,7 @@ Object("cis_cor_2", "Corridor_03", -513065723)
 Object("rep_roof_tur_3", "tur_bldg_chaingun_roof", -504813811)
 {
 	ChildRotation(0.549, 0.000, 0.836, 0.000);
-	ChildPosition(-1379.517, 783.066, 369.493);
+	ChildPosition(-1379.517, 849.778, 369.493);
 	SeqNo(-504813811);
 	Team(1);
 	NetworkId(-1);
@@ -3165,8 +3205,58 @@ Object("rep_roof_tur_3", "tur_bldg_chaingun_roof", -504813811)
 Object("rep_shield_console_1", "spa_prop_console", -500066166)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1371.482, 779.760, 348.298);
+	ChildPosition(-1371.482, 846.472, 348.298);
 	SeqNo(-500066166);
+	Team(1);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_vehicle15", "com_item_vehicle_spawn", -473270035)
+{
+	ChildRotation(1.000, 0.000, -0.026, 0.000);
+	ChildPosition(390.892, 839.866, -319.029);
+	SeqNo(-473270035);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+	ControlZone("cp_cis");
+	SpawnCount("2");
+	SpawnTime("45");
+	ExpireTimeEnemy("20.0");
+	ExpireTimeField("40.0");
+	DecayTime("10.0");
+	ClassNeutral("");
+	ClassAllATK("");
+	ClassCISATK("cis_fly_gunship");
+	ClassImpATK("");
+	ClassRepATK("rep_fly_gunship");
+	ClassLocATK("");
+	ClassHisATK("");
+	ClassAllDEF("");
+	ClassCISDEF("cis_fly_gunship");
+	ClassImpDEF("");
+	ClassRepDEF("rep_fly_gunship");
+	ClassLocDEF("");
+	ClassHisDEF("");
+	ClassLocals("");
+}
+
+Object("cis_lander_a_1", "CO3_prop_CIS_Lander", -430977154)
+{
+	ChildRotation(0.709, 0.000, -0.705, 0.000);
+	ChildPosition(6605.664, 89.863, -80.481);
+	SeqNo(-430977154);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("rep_frigate_arrive_closed", "Rep_Frigate_ext_Hallways_closed", -429286778)
+{
+	ChildRotation(0.713, 0.000, 0.701, 0.000);
+	ChildPosition(-4007.089, 59740.727, 598.392);
+	SeqNo(-429286778);
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
@@ -3175,7 +3265,7 @@ Object("rep_shield_console_1", "spa_prop_console", -500066166)
 Object("Rep_Frigate_ext_Hallways", "Rep_Frigate_ext_Hallways", -413328873)
 {
 	ChildRotation(0.030, 0.000, -1.000, 0.000);
-	ChildPosition(-207.938, 464.715, 1259.769);
+	ChildPosition(-207.938, 764.944, 1259.769);
 	SeqNo(-413328873);
 	Team(0);
 	NetworkId(-1);
@@ -3185,7 +3275,7 @@ Object("Rep_Frigate_ext_Hallways", "Rep_Frigate_ext_Hallways", -413328873)
 Object("cis_reactor_console_3", "Main_Reactor_Console", -404018795)
 {
 	ChildRotation(0.973, 0.000, 0.230, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(-404018795);
 	Team(2);
 	NetworkId(-1);
@@ -3195,7 +3285,7 @@ Object("cis_reactor_console_3", "Main_Reactor_Console", -404018795)
 Object("cis_cor17", "Corridor_03", -395915647)
 {
 	ChildRotation(0.999, 0.000, -0.036, 0.000);
-	ChildPosition(166.759, 628.507, -358.092);
+	ChildPosition(166.759, 843.527, -358.092);
 	SeqNo(-395915647);
 	Team(0);
 	NetworkId(-1);
@@ -3205,7 +3295,7 @@ Object("cis_cor17", "Corridor_03", -395915647)
 Object("cis_assultship_commandroom_1", "rep_assultship_commandroom", -388230943)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(281.882, 628.507, -397.851);
+	ChildPosition(281.882, 843.527, -397.851);
 	SeqNo(-388230943);
 	Team(0);
 	NetworkId(-1);
@@ -3215,7 +3305,7 @@ Object("cis_assultship_commandroom_1", "rep_assultship_commandroom", -388230943)
 Object("rep_door_exp_cube", "Dest_Cube", -382320698)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-1039.000, 784.000, 835.000);
+	ChildPosition(-1039.000, 850.712, 835.000);
 	SeqNo(-382320698);
 	Team(0);
 	NetworkId(-1);
@@ -3225,7 +3315,7 @@ Object("rep_door_exp_cube", "Dest_Cube", -382320698)
 Object("rep_tri_tur_7", "tur_bldg_chaingun_tripod", -364333926)
 {
 	ChildRotation(0.881, 0.000, -0.473, 0.000);
-	ChildPosition(-1523.791, 785.632, 215.434);
+	ChildPosition(-1523.791, 852.344, 215.434);
 	SeqNo(-364333926);
 	Team(1);
 	NetworkId(-1);
@@ -3235,7 +3325,7 @@ Object("rep_tri_tur_7", "tur_bldg_chaingun_tripod", -364333926)
 Object("rep_cor_24", "Corridor_03", -324511560)
 {
 	ChildRotation(0.978, 0.000, 0.207, 0.000);
-	ChildPosition(-1452.799, 779.558, 401.478);
+	ChildPosition(-1452.799, 846.270, 401.478);
 	SeqNo(-324511560);
 	Team(0);
 	NetworkId(-1);
@@ -3245,7 +3335,7 @@ Object("rep_cor_24", "Corridor_03", -324511560)
 Object("cis_tri_tur_6", "tur_bldg_chaingun_tripod", -323050455)
 {
 	ChildRotation(0.360, 0.000, -0.933, 0.000);
-	ChildPosition(45.689, 634.590, -341.635);
+	ChildPosition(45.689, 849.610, -341.635);
 	SeqNo(-323050455);
 	Team(2);
 	NetworkId(-1);
@@ -3255,7 +3345,7 @@ Object("cis_tri_tur_6", "tur_bldg_chaingun_tripod", -323050455)
 Object("rep_ammo_2", "com_item_weaponrecharge", -302791739)
 {
 	ChildRotation(0.947, 0.000, -0.322, 0.000);
-	ChildPosition(-1353.644, 779.772, 363.740);
+	ChildPosition(-1353.644, 846.484, 363.740);
 	SeqNo(-302791739);
 	Team(0);
 	NetworkId(-1);
@@ -3267,7 +3357,7 @@ Object("rep_ammo_2", "com_item_weaponrecharge", -302791739)
 Object("rep_tri_tur_9", "tur_bldg_chaingun_tripod", -296134071)
 {
 	ChildRotation(0.510, 0.000, -0.860, 0.000);
-	ChildPosition(-1474.842, 785.630, 247.808);
+	ChildPosition(-1474.842, 852.342, 247.808);
 	SeqNo(-296134071);
 	Team(1);
 	NetworkId(-1);
@@ -3277,7 +3367,7 @@ Object("rep_tri_tur_9", "tur_bldg_chaingun_tripod", -296134071)
 Object("rep_door_7", "cis_fedcruiser_door1", -294086598)
 {
 	ChildRotation(0.548, 0.000, 0.837, 0.000);
-	ChildPosition(-1386.222, 779.794, 372.571);
+	ChildPosition(-1386.222, 846.506, 372.571);
 	SeqNo(-294086598);
 	Team(0);
 	NetworkId(-1);
@@ -3287,7 +3377,7 @@ Object("rep_door_7", "cis_fedcruiser_door1", -294086598)
 Object("cis_vehicle8", "com_item_vehicle_spawn", -277698702)
 {
 	ChildRotation(0.772, 0.000, -0.636, 0.000);
-	ChildPosition(780.543, 484.884, 761.889);
+	ChildPosition(780.543, 806.213, 761.889);
 	SeqNo(-277698702);
 	Team(0);
 	NetworkId(-1);
@@ -3314,10 +3404,20 @@ Object("cis_vehicle8", "com_item_vehicle_spawn", -277698702)
 	ClassLocals("");
 }
 
+Object("cis_frigate_arrive_turret3", "cis_bldg_frigateturret_down", -256499570)
+{
+	ChildRotation(0.000, -0.707, 0.000, 0.707);
+	ChildPosition(4007.108, 51874.961, -228.951);
+	SeqNo(-256499570);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
 Object("cis_door_3", "cis_fedcruiser_door1", -250498384)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(300.653, 628.754, -406.418);
+	ChildPosition(300.653, 843.774, -406.418);
 	SeqNo(-250498384);
 	Team(0);
 	NetworkId(-1);
@@ -3327,7 +3427,7 @@ Object("cis_door_3", "cis_fedcruiser_door1", -250498384)
 Object("cis_lander_start", "CO3_prop_CIS_Lander", -242269793)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(206.000, -308.000, -287.000);
+	ChildPosition(206.000, -277.449, -287.000);
 	SeqNo(-242269793);
 	Team(0);
 	NetworkId(-1);
@@ -3337,7 +3437,7 @@ Object("cis_lander_start", "CO3_prop_CIS_Lander", -242269793)
 Object("rep_ammo_frigate", "com_item_weaponrecharge", -237683797)
 {
 	ChildRotation(0.023, 0.000, -1.000, 0.000);
-	ChildPosition(-186.634, 508.163, 1499.140);
+	ChildPosition(-186.634, 808.392, 1499.140);
 	SeqNo(-237683797);
 	Team(0);
 	NetworkId(-1);
@@ -3349,7 +3449,7 @@ Object("rep_ammo_frigate", "com_item_weaponrecharge", -237683797)
 Object("rep_cor_23", "Corridor_04", -237530906)
 {
 	ChildRotation(0.979, 0.000, 0.206, 0.000);
-	ChildPosition(-1499.272, 779.558, 335.072);
+	ChildPosition(-1499.272, 846.270, 335.072);
 	SeqNo(-237530906);
 	Team(0);
 	NetworkId(-1);
@@ -3359,7 +3459,7 @@ Object("rep_cor_23", "Corridor_04", -237530906)
 Object("rep_health_1", "com_item_healthrecharge", -214305764)
 {
 	ChildRotation(0.980, 0.000, 0.199, 0.000);
-	ChildPosition(-1357.199, 779.772, 355.556);
+	ChildPosition(-1357.199, 846.484, 355.556);
 	SeqNo(-214305764);
 	Team(0);
 	NetworkId(-1);
@@ -3371,7 +3471,7 @@ Object("rep_health_1", "com_item_healthrecharge", -214305764)
 Object("cis_reactor_console_1", "Main_Reactor_Console", -206862008)
 {
 	ChildRotation(-0.300, 0.000, -0.954, 0.000);
-	ChildPosition(53.373, 618.247, -398.733);
+	ChildPosition(53.373, 833.267, -398.733);
 	SeqNo(-206862008);
 	Team(2);
 	NetworkId(-1);
@@ -3381,7 +3481,7 @@ Object("cis_reactor_console_1", "Main_Reactor_Console", -206862008)
 Object("cis_health_2", "com_item_healthrecharge", -205643168)
 {
 	ChildRotation(0.885, 0.000, 0.465, 0.000);
-	ChildPosition(310.353, 624.691, -410.075);
+	ChildPosition(310.353, 839.711, -410.075);
 	SeqNo(-205643168);
 	Team(0);
 	NetworkId(-1);
@@ -3393,7 +3493,7 @@ Object("cis_health_2", "com_item_healthrecharge", -205643168)
 Object("rep_door_2", "cis_fedcruiser_door1", -197557658)
 {
 	ChildRotation(0.205, 0.000, -0.979, 0.000);
-	ChildPosition(-1381.308, 779.767, 350.009);
+	ChildPosition(-1381.308, 846.479, 350.009);
 	SeqNo(-197557658);
 	Team(0);
 	NetworkId(-1);
@@ -3402,19 +3502,9 @@ Object("rep_door_2", "cis_fedcruiser_door1", -197557658)
 
 Object("rep_tri_tur_1", "tur_bldg_chaingun_tripod", -193438902)
 {
-	ChildRotation(0.810, 0.000, 0.587, 0.000);
-	ChildPosition(-1356.732, 775.938, 311.180);
+	ChildRotation(0.810, 0.000, 0.586, 0.000);
+	ChildPosition(-1356.732, 842.650, 311.180);
 	SeqNo(-193438902);
-	Team(1);
-	NetworkId(-1);
-	Layer(3);
-}
-
-Object("rep_frigate_arrive_3", "Rep_Frigate_ext", -185714954)
-{
-	ChildRotation(0.714, 0.000, 0.700, 0.000);
-	ChildPosition(-42160.691, 1686.238, -162.589);
-	SeqNo(-185714954);
 	Team(1);
 	NetworkId(-1);
 	Layer(3);
@@ -3423,7 +3513,7 @@ Object("rep_frigate_arrive_3", "Rep_Frigate_ext", -185714954)
 Object("cis_turret_5", "spa_veh_turret_chair", -182322760)
 {
 	ChildRotation(-0.033, 0.000, -0.999, 0.000);
-	ChildPosition(268.592, 629.926, -344.875);
+	ChildPosition(268.592, 844.946, -344.875);
 	SeqNo(-182322760);
 	Team(0);
 	NetworkId(-1);
@@ -3436,7 +3526,7 @@ Object("cis_turret_5", "spa_veh_turret_chair", -182322760)
 Object("cis_assultship_commandroom_3", "rep_assultship_commandroom_server", -178349901)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(283.077, 628.507, -414.258);
+	ChildPosition(283.077, 843.527, -414.258);
 	SeqNo(-178349901);
 	Team(0);
 	NetworkId(-1);
@@ -3453,20 +3543,10 @@ Object("rep_frigate_ext_closed1", "Rep_Frigate_ext_Hallways_closed", -174439354)
 	Layer(3);
 }
 
-Object("CIS_Frigate_arrive_2", "CIS_Frigate_ext", -169183360)
-{
-	ChildRotation(0.711, 0.000, -0.703, 0.000);
-	ChildPosition(26703.736, 1883.997, -1031.429);
-	SeqNo(-169183360);
-	Team(2);
-	NetworkId(-1);
-	Layer(3);
-}
-
 Object("cis_vehicle1", "com_item_vehicle_spawn", -149888954)
 {
 	ChildRotation(0.999, 0.000, -0.034, 0.000);
-	ChildPosition(330.526, 624.967, -336.832);
+	ChildPosition(325.415, 839.987, -323.860);
 	SeqNo(-149888954);
 	Team(0);
 	NetworkId(-1);
@@ -3496,9 +3576,19 @@ Object("cis_vehicle1", "com_item_vehicle_spawn", -149888954)
 Object("cis_fly_fedcruiser2", "cis_fly_fedcruiser2", -138116479)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(95.288, 564.134, -406.130);
+	ChildPosition(95.288, 779.154, -406.130);
 	SeqNo(-138116479);
 	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("CO3_prop_crashed_rep_gunship1", "CO3_prop_crashed_rep_gunship", -126492144)
+{
+	ChildRotation(0.838, 0.000, -0.546, 0.000);
+	ChildPosition(-121.258, -291.856, 126.025);
+	SeqNo(-126492144);
+	Team(0);
 	NetworkId(-1);
 	Layer(3);
 }
@@ -3506,7 +3596,7 @@ Object("cis_fly_fedcruiser2", "cis_fly_fedcruiser2", -138116479)
 Object("cis_engines_2", "cis_fedcruiser_destruct2", -121540633)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(720.323, 620.131, -412.599);
+	ChildPosition(720.323, 835.151, -412.599);
 	SeqNo(-121540633);
 	Team(2);
 	NetworkId(-1);
@@ -3516,7 +3606,7 @@ Object("cis_engines_2", "cis_fedcruiser_destruct2", -121540633)
 Object("cis_tri_tur_10", "tur_bldg_chaingun_tripod", -105263930)
 {
 	ChildRotation(0.627, 0.000, 0.779, 0.000);
-	ChildPosition(7.255, 634.591, -433.215);
+	ChildPosition(7.255, 849.611, -433.215);
 	SeqNo(-105263930);
 	Team(2);
 	NetworkId(-1);
@@ -3526,7 +3616,7 @@ Object("cis_tri_tur_10", "tur_bldg_chaingun_tripod", -105263930)
 Object("Rep_Frigate_ext", "Rep_Frigate_ext", -87408112)
 {
 	ChildRotation(0.030, 0.000, -1.000, 0.000);
-	ChildPosition(-206.881, 464.716, 1260.708);
+	ChildPosition(-206.881, 764.945, 1260.708);
 	SeqNo(-87408112);
 	Team(1);
 	NetworkId(-1);
@@ -3536,7 +3626,7 @@ Object("Rep_Frigate_ext", "Rep_Frigate_ext", -87408112)
 Object("cis_roof_tur_7", "tur_bldg_chaingun_roof", -45827492)
 {
 	ChildRotation(0.998, 0.000, 0.068, 0.000);
-	ChildPosition(271.347, 633.083, -457.935);
+	ChildPosition(271.347, 848.103, -457.935);
 	SeqNo(-45827492);
 	Team(2);
 	NetworkId(-1);
@@ -3546,8 +3636,18 @@ Object("cis_roof_tur_7", "tur_bldg_chaingun_roof", -45827492)
 Object("cis_turret_console", "spa_prop_liquidgen", -42977426)
 {
 	ChildRotation(0.732, 0.000, 0.681, 0.000);
-	ChildPosition(276.663, 628.956, -398.222);
+	ChildPosition(276.663, 843.976, -398.222);
 	SeqNo(-42977426);
+	Team(2);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("cis_frigate_arrive", "CIS_Frigate_ext", -38006070)
+{
+	ChildRotation(0.714, 0.000, -0.700, 0.000);
+	ChildPosition(3922.636, 51818.047, -115.240);
+	SeqNo(-38006070);
 	Team(2);
 	NetworkId(-1);
 	Layer(3);
@@ -3556,8 +3656,18 @@ Object("cis_turret_console", "spa_prop_liquidgen", -42977426)
 Object("rep_comm_table", "Comm_Table_Blue", -35052894)
 {
 	ChildRotation(0.978, 0.000, 0.208, 0.000);
-	ChildPosition(-1354.155, 780.949, 412.437);
+	ChildPosition(-1354.155, 847.661, 412.437);
 	SeqNo(-35052894);
+	Team(0);
+	NetworkId(-1);
+	Layer(3);
+}
+
+Object("CO3_prop_crashed_rep_gunship", "CO3_prop_crashed_rep_gunship", -26654635)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(102.594, -299.899, -6.740);
+	SeqNo(-26654635);
 	Team(0);
 	NetworkId(-1);
 	Layer(3);

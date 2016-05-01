@@ -3,14 +3,14 @@ SkyInfo()
 	//FogColor(133, 66, 0);
 	//FogRange(2700, 3600);
 	//WorldFogRange(-1000.0, -1200.0);
-		NearSceneRange(400.0, 580.0, 430.0, 650.0)
+		NearSceneRange(500.0, 680.0, 530.0, 750.0)
 		FarSceneRange(5000.0, 5000.0);
 }
 
 
 DomeInfo()
 {
-	Texture("CO3_SkyTexture");
+	Texture("CO3_Space");
 	Angle(-90.000000);
 	Ambient(128.0000, 128.0000, 128.0000);
 	Filter(1);
@@ -22,11 +22,7 @@ DomeInfo()
 
 	DomeModel()
 	{	
-		Geometry("CO3_SkyDome");
-	}
-	DomeModel()
-	{	
-		Geometry("CO3_SkyDome_Ground");
+		Geometry("CO3_SkySphere");
 	}
 	DomeModel()
 	{	
@@ -45,7 +41,7 @@ DomeInfo()
 		EnableBottom(1);
 		PC()
 		{
-			NumStars(1200);
+			NumStars(8600);
 			BrightStarPercent(90.0);
 			AlphaMin(90);
 			ColorSaturation(.75);

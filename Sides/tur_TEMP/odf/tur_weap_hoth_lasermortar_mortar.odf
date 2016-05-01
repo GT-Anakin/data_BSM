@@ -1,0 +1,6 @@
+[WeaponClass]
+ClassParent 		= "com_weap_veh_mortar"
+
+[Properties]
+OrdnanceName        = "hoth_weap_bldg_hothturret_mortar_ord"
+FireSound           = "rep_weap_walk_atst_cannon_head_fire"

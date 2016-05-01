@@ -1,0 +1,140 @@
+[GameObjectClass]
+ClassLabel              = "armedbuilding"
+GeometryName            = "fel1_weap_prop_turret.msh"
+
+[Properties]
+
+BUILDINGSECTION             = "BODY"
+
+MapTexture          = "turret_icon"
+IconTexture         = "HUD_all_lascannon_icon"
+
+MapScale            = "1.2"
+HealthTexture           = "HUD_kam_turret_icon"
+
+GeometryName            = "fel1_weap_prop_turret"
+DestroyedGeometryName       = "fel1_weap_prop_turret_chunk"
+
+TargetableCollision	 = "p_collision14"
+
+MaxHealth           = "3000.0"
+RespawnTime		= "999999.9"
+
+
+BUILDINGSECTION         = "TURRET1"
+
+ForceMode = 1
+
+Pilottype       = "self"
+
+
+TurretNodeName          = "aimer_y"
+
+PitchLimits             = "-30 20"
+YawLimits           = "-180 180"
+
+PitchTurnFactor     = "0.0"
+//FirstPerson             = "com\comviewf;com_1st_cockpit_viewfinder"
+ThirdPersonFOV		= "65"
+WeaponName          = "tur_weap_recoilless_rifle"
+WeaponAmmo          = "0"
+
+
+
+
+MaxTurnSpeed            = "3.8"
+MaxPitchSpeed           = "3.8"
+PitchRate           	= "1.0"
+TurnRate            	= "1.5"
+PCMaxPitchSpeed         = "3.0"
+PCMaxTurnSpeed          = "3.0"    
+EyePointOffset          = "0.0 6.2 -8.3"
+TrackCenter		= "0.0 8.0 5.0"
+TrackOffset             = "-0.9 -3.4 7.5"
+
+TURRETSECTION       = "TURRET1"
+
+AimerNodeName           = "aimer_x"
+AimerPitchLimits             = "-30 20"
+AimerYawLimits           = "0 0"
+
+
+BarrelNodeName          = "barrel1"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire1"
+
+NextBarrel              = "-"
+
+BarrelNodeName          = "barrel2"
+BarrelRecoil            = "0.5"
+FirePointName           = "hp_fire2"
+
+
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch   = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = "vehicle_equip"
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+PilotPosition           = "hp_main_gunner"
+PilotAnimation          = "drive"
+
+FoleyFXGroup    = "metal_foley"
+
+DamageStartPercent      = 50.0
+DamageStopPercent       = 30.0
+DamageEffect            = "com_sfx_vehiclespark"
+
+DamageStartPercent      = 30.0
+DamageStopPercent       = 0.0
+DamageEffect            = "com_sfx_smokeplume"
+DamageAttachPoint       = "hp_smoke_1"
+
+//////  Chunks  //////////
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "antiaircraft_chunk2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "com_sfx_explosion_lg"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "2.0 0.5 2.0"
+ChunkBounciness         = 0.4
+ChunkStickiness         = 0.25
+ChunkSpeed      = "8.0"
+ChunkUpFactor       = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "antiaircraft_chunk3"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "5"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "3.0 2.0 2.0"
+ChunkSpeed      = "14.0"
+ChunkBounciness         = 0.5
+ChunkStickiness         = 0.25
+
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "antiaircraft_chunk4"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "3"
+ChunkTerrainEffect  = "dirtspray"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkPhysics        = "FULL"
+ChunkOmega      = "3.0 1.0 2.0"
+ChunkSpeed      = "9.0"
+ChunkBounciness         = 0.3
+ChunkStickiness         = 0.45
+
+ExplosionCritical       = "tur_myg_recoilless_md_exp"
+ExplosionDestruct       = "tur_myg_recoilless_md_exp"

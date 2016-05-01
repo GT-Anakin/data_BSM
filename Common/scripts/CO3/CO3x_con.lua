@@ -21,8 +21,8 @@ ScriptCB_DoFile("LinkedTurrets")
 
 
 function ScriptPostLoad()	  
-AllowAISpawn(1, false)
-AllowAISpawn(2, false)
+--AllowAISpawn(1, false)
+--AllowAISpawn(2, false)
 
 --First Functions
 
@@ -182,7 +182,7 @@ StartTimer(rep_frigates_arrive_timer)
 ShowTimer(rep_frigates_arrive_timer)
    OnTimerElapse(
 function(timer)
-PlayAnimation("rep_frigates_arrive")
+PlayAnimation("rep_frigate_arrive")
 ShowTimer(nil)
       DestroyTimer(timer)
                  end,
@@ -203,7 +203,7 @@ StartTimer(cis_frigates_arrive_timer)
 ShowTimer(cis_frigates_arrive_timer)
    OnTimerElapse(
 function(timer)
-PlayAnimation("cis_frigates_arrive")
+PlayAnimation("cis_frigate_arrive")
 ShowTimer(nil)
       DestroyTimer(timer)
                  end,
@@ -312,6 +312,8 @@ PlayAnimation("rep_frigate_countdown")
 	
 	SetUberMode(1);
     EnableSPHeroRules()
+	EnableFlyerPath(team1_fly,1)
+	EnableFlyerPath(team2_fly,1)
 	AddDeathRegion("deathregion_REP")
 	AddDeathRegion("deathregion_CIS")
  end
@@ -661,6 +663,10 @@ SetProperty("cis_reactor_cube", "MaxHealth", "0")
 
 SetReinforcementCount(DEF, 150)
 
+--SetProperty("cis_fedcruiser_crashing", "IsVisible", 1)
+--SetProperty("cis_fedcruiser_crashing", "MaxHealth", 1e+37)
+--SetProperty("cis_fedcruiser_crashing", "CurHealth", 1e+37)
+
       DestroyTimer(timer)
                  end,
               cis_countdown
@@ -733,8 +739,10 @@ function ScriptInit()
     ReadDataFile("ingame.lvl")
     
    
-    SetMaxFlyHeight(1800)
-    SetMaxPlayerFlyHeight (1800)
+    --SetMaxFlyHeight(1800)
+    --SetMaxPlayerFlyHeight (1800)
+	SetMaxFlyHeight(2000)
+    SetMaxPlayerFlyHeight (2000)
 	SetMinFlyHeight(-550)
     SetMinPlayerFlyHeight (-550)
 	SetGroundFlyerMap(1)
@@ -750,7 +758,8 @@ function ScriptInit()
 	
 	
     	ReadDataFile("dc:Sound\\co3.lvl")
-    ReadDataFile("sound\\yav.lvl;yav1cw")
+    --ReadDataFile("sound\\yav.lvl;yav1cw")
+	ReadDataFile("sound\\spa.lvl;spa2cw")
 
 		ReadDataFile("dc:SIDE\\Republic.lvl",
 		"republic_inf_rifleman",
@@ -759,13 +768,22 @@ function ScriptInit()
 		"republic_inf_engineer",
 		"republic_inf_officer")
 		
+		ReadDataFile("dc:SIDE\\cis.lvl",
+                    "cis_inf_rifleman",
+					"cis_inf_pilot",
+					"cis_inf_sniper")
+			
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"republic_fly_eta2_red",
 		"republic_fly_170_fighter",
 		"republic_fly_vwing",
+		"republic_fly_gunship",
 		"cis_fly_tri_fighter",
 		"cis_fly_droid_fighter",
-		"cis_fly_bomber")
+		"cis_fly_bomber",
+		"cis_fly_gunship")
+		
+
 		
 		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret",
@@ -796,16 +814,14 @@ function ScriptInit()
 							-- "rep_fly_arc170fighter_sc"
 
     ReadDataFile("SIDE\\cis.lvl",
-                             "cis_inf_rifleman",
                              "cis_inf_rocketeer",
                              "cis_inf_engineer",
-                             "cis_inf_sniper",
                              "cis_inf_officer",
                              "cis_inf_droideka",
                              "cis_hero_darthmaul",
                              "cis_hover_aat",
 							 "cis_hover_stap",
-							 "cis_walk_spider",
+							-- "cis_walk_spider",
 							 "cis_fly_droidfighter_sc",
 							 "cis_fly_tridroidfighter",
 							 "cis_fly_greviousfighter")
@@ -816,7 +832,7 @@ function ScriptInit()
 	SetupTeams{
 		rep = {
 			team = REP,
-			units = 65,
+			units = 55,
 			reinforcements = -1,
 			soldier  = { "republic_inf_rifleman",12, 20},
 			assault  = { "republic_inf_heavytrooper",5, 10},
@@ -829,7 +845,7 @@ function ScriptInit()
 		
 		cis = {
 			team = CIS,
-			units = 65,
+			units = 55,
 			reinforcements = -1,
 			soldier  = { "cis_inf_rifleman",12, 20},
 			assault  = { "cis_inf_rocketeer",5, 10},
@@ -856,9 +872,10 @@ function ScriptInit()
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
 	SetMemoryPoolSize("EntityCloth", 32)
-	SetMemoryPoolSize("EntityFlyer", 52)
+	SetMemoryPoolSize("EntityFlyer", 64)
     SetMemoryPoolSize("EntityHover", 8)
-	  SetMemoryPoolSize("CommandWalker", 1)
+	SetMemoryPoolSize("CommandWalker", 1)
+	SetMemoryPoolSize("CommandFlyer", 4)
     SetMemoryPoolSize("EntityLight", 200)
     SetMemoryPoolSize("EntitySoundStream", 12)
     SetMemoryPoolSize("EntitySoundStatic", 32)
@@ -908,6 +925,8 @@ function ScriptInit()
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     -- OpenAudioStream("sound\\yav.lvl",  "yav1_emt")
 
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
@@ -918,17 +937,29 @@ function ScriptInit()
     SetOutOfBoundsVoiceOver(2, "cisleaving")
     SetOutOfBoundsVoiceOver(1, "repleaving")
 
-    SetAmbientMusic(REP, 1.0, "rep_yav_amb_start",  0,1)
+  --[[  SetAmbientMusic(REP, 1.0, "rep_yav_amb_start",  0,1)
     SetAmbientMusic(REP, 0.8, "rep_yav_amb_middle", 1,1)
     SetAmbientMusic(REP, 0.2, "rep_yav_amb_end",    2,1)
     SetAmbientMusic(CIS, 1.0, "cis_yav_amb_start",  0,1)
     SetAmbientMusic(CIS, 0.8, "cis_yav_amb_middle", 1,1)
-    SetAmbientMusic(CIS, 0.2, "cis_yav_amb_end",    2,1)
+    SetAmbientMusic(CIS, 0.2, "cis_yav_amb_end",    2,1)]]
+	
+	SetAmbientMusic(REP, 1.0, "rep_spa2_amb_start",  0,1)
+       SetAmbientMusic(REP, 0.99, "rep_spa2_Amb01", 1,1)
+       SetAmbientMusic(REP, 0.1,"rep_spa_amb_end",    2,1)
+       SetAmbientMusic(CIS, 1.0, "cis_spa_amb_start",  0,1)
+       SetAmbientMusic(CIS, 0.99, "cis_spa_amb_middle", 1,1)
+       SetAmbientMusic(CIS, 0.1,"cis_spa_amb_end",    2,1)
 
-    SetVictoryMusic(REP, "rep_yav_amb_victory")
-    SetDefeatMusic (REP, "rep_yav_amb_defeat")
-    SetVictoryMusic(CIS, "cis_yav_amb_victory")
-    SetDefeatMusic (CIS, "cis_yav_amb_defeat")
+  --  SetVictoryMusic(REP, "rep_yav_amb_victory")
+ --  SetDefeatMusic (REP, "rep_yav_amb_defeat")
+  --  SetVictoryMusic(CIS, "cis_yav_amb_victory")
+  --  SetDefeatMusic (CIS, "cis_yav_amb_defeat")
+	
+	SetVictoryMusic(REP, "rep_spa_amb_victory")
+       SetDefeatMusic (REP, "rep_spa_amb_defeat")
+       SetVictoryMusic(CIS, "cis_spa_amb_victory")
+       SetDefeatMusic (CIS, "cis_spa_amb_defeat")
 
     SetSoundEffect("ScopeDisplayZoomIn",      "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut",     "binocularzoomout")

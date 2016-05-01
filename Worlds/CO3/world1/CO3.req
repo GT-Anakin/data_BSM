@@ -35,6 +35,8 @@ ucft
 		"world"
 		"CO3"
 		"CO3_SoundStreams"
+		"CO3_SpaceGroundTransition"
+		"CO3_Clouds"
 	}
 	REQN
 	{

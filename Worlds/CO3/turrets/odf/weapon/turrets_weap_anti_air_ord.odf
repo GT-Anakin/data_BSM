@@ -22,8 +22,8 @@ LightRadius         = "6.0"
 
 
 VehicleScale = "1.0"
-ShieldScale = "1"
+ShieldScale = "2"
 PersonScale = "1"
 AnimalScale = "1"
 DroidScale = "1"
-BuildingScale = "0.5"
+BuildingScale = "0.3"

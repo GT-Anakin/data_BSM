@@ -1,0 +1,27 @@
+[OrdnanceClass]
+ClassLabel 		= "bolt"
+
+[Properties]
+
+LaserTexture = ""
+ImpactEffect = "com_sfx_weap_emp_exp_sm"
+ExplosionName = "tur_weap_geoturret_hidden_exp"
+
+LaserWidth = "0"
+LaserGlowColor = "0 0 0 0"
+LaserLength = "0"
+LightRadius = "0"
+
+Gravity = "0"
+Rebound = "0"
+LifeSpan = "0.5"
+Velocity = "500"
+
+MaxDamage = "1000"
+
+VehicleScale = "1"
+ShieldScale = "0.1"
+PersonScale = "0.2"
+AnimalScale = "0.2"
+DroidScale = "0.2"
+BuildingScale = "1"

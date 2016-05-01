@@ -1,0 +1,16 @@
+[GameObjectClass]
+ClassParent = "com_weap_veh_fly_guided_rocket_ord"
+
+[Properties]
+//ExplosionName = "tur_weap_spa_stinge_exp"
+GeometryName = "com_weap_missile"
+TrailEffect  = "com_sfx_protontorpedo"
+
+Acceleraton = "100"
+MinSpeed = "40000"
+MidSpeed = "40000"
+MaxSpeed = "40000"
+BoostAcceleration = "99"
+BoostSpeed = "50000"
+
+TurnRate = "0"

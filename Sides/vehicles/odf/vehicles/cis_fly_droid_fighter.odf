@@ -47,7 +47,7 @@ LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
 
 // PathFollower Attributes
-PathFollowerClass       = "cis"
+PathFollowerClass       = "team2_fly"
 PathFollowerClass_CTF       = "cis_flag"
 PathFollowerBranchPaths     = "6"
 PathFollowerBranchMaxAngle  = "60"

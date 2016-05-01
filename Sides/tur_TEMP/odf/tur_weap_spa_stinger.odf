@@ -1,0 +1,15 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_fly_guided_rocket"
+
+[Properties]
+OrdnanceName = "tur_weap_spa_stinger_ord"
+
+FireSound = "tur_weap_spa_stinger_fire"
+
+ZoomRate = "2"
+ZoomMin  = "2"
+ZoomMax  = "10"
+
+ScopeTexture        = "weapon_scope4"
+
+FirePointExtraOffset = "0 10 -15"
