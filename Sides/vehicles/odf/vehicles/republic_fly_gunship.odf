@@ -1,0 +1,532 @@
+[GameObjectClass]
+ClassLabel          = "commandflyer"
+GeometryName            = "republic_fly_gunship.msh"
+
+[Properties]
+FLYERSECTION            = "BODY"
+
+ReserveOneForPlayer     = "1"
+
+VehicleType         = "transport"
+MapTexture          = "gunship_icon"
+HealthTexture           = "HUD_rep_gunship_icon"
+
+MapScale            = 1.5
+MapViewMin					= 750
+MapViewMax					= 750
+
+GeometryName            = "republic_fly_gunship"
+SkeletonName            = "republic_fly_gunship"
+AnimationName               = "republic_fly_gunship"
+FirstPerson = "VEHICLES\republic_fly_gunship_cockpit;republic_fly_gunship_cockpit"
+FirstPersonFOV          = "60"
+CockpitTension              = "12"
+ThirdPersonFOV          = "55"
+
+// PathFollower Attributes
+PathFollowerClass           = "team1_fly"
+PathFollowerBranchPaths     = "5"
+PathFollowerBranchMaxAngle  = "45
+PathFollowerMinBranchDist   = "250.0"
+PathFollowerBranchRange     = "1000"
+
+SpawnPointCount         = "6"
+SpawnPointLocation      = "-6.0 -3.0 8.0 0"
+SpawnPointLocation      = "6.0 -3.0 8.0 0"
+SpawnPointLocation      = "-7.0 -3.0 0.0 0"
+SpawnPointLocation      = "7.0 -3.0 0.0 0"
+SpawnPointLocation      = "-6.0 -3.0 -8.0 0"
+SpawnPointLocation      = "6.0 -3.0 -8.0 0"
+AllyCount           = 65536
+Radius              = 0.0
+ValueBleed          = 10
+Value_ATK_Alliance      = 10
+Value_ATK_CIS           = 10
+Value_ATK_Empire        = 10
+Value_ATK_Republic      = 10
+Value_ATK_Locals        = 0
+Value_DEF_Alliance      = 0
+Value_DEF_CIS           = 0
+Value_DEF_Empire        = 0
+Value_DEF_Republic      = 0
+Value_DEF_Locals        = 0
+HUDIndexDisplay     = 0
+
+CollisionScale          = "2.5"
+CollisionThreshold      = "5.0"
+
+CollisionInflict = "0.1"
+
+MaxHealth           = 10000.0
+HealthType          = "vehicle"
+//HitLocation           = "p_crithit 0"
+
+MaxShield = 5000.0
+AddShield = 75
+
+TakeoffTime             = 4.5
+TakeoffSpeed            = 5.0
+LandingTime             = 3.5
+LandingSpeed            = 6.0
+TakeoffHeight           = 1.5
+
+PilotSkillRepairScale = 0.015
+
+Acceleraton             = 30.0
+MinSpeed            = 20.0
+MidSpeed            = 40.0
+MaxSpeed            = 60.0
+
+EnergyBar = "150"
+EnergyAutoRestore = "12.5"
+EnergyBoostDrain = "20"
+EnergyTrickDrainSingleTap = "0"
+EnergyTrickDrainDoubleTap = "0"
+
+BoostAcceleration = "30"
+BoostSpeed = "100"
+TrickRollSpeed = "0"
+TrickFlipSpeed = "0"
+TrickSideRollStrafeSpeed = "0"
+
+FOVEffect3rd             = 90
+
+//PCPitchRate       = 15.0
+//PCSpinRate        = 15.0
+//PCTurnRate        = 25.0
+
+PitchRate           = .65
+PitchFilter             = 2.75
+TurnRate            = .35
+TurnFilter          = 2.75
+BankAngle           = 2.5
+BankFilter          = 2.5
+LevelFilter             = 5.0
+LevelFilter             = 1.5
+LevelFilterLanding      = 5.0 // LevelFilter for landing
+RollRate                = 1
+
+
+EyePointOffset          = "0.0 0.0 10.0"
+TrackCenter         = "0.0 0.0 0.0"
+TrackOffset         = "0.0 0.0 0.0"
+TiltValue           = "5.0"
+
+FOVEFFectMinCamOffset3rd = "0.0 8.0 20.0"
+FOVEFFectMaxCamOffset3rd = "0.0 13.0 15.0"
+
+AimTension          = "30.0"
+
+MoveTensionX            = "1.0"
+MoveTensionY            = "1.0 10.0"
+MoveTensionZ            = "4.25"
+
+WEAPONSECTION           = "1"
+
+WeaponName          = "republic_weap_fly_gunship_cannon"
+WeaponAmmo          = "0"
+
+AimerNodeName           = "hp_gun_1"
+AimerYawLimits          = "-20.0 20.0"
+AimerPitchLimits        = "-20.0 20.0"
+BarrelLength            = "1.0"
+FireOutsideLimits       = "1"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_gun_2"
+AimerYawLimits          = "-20.0 20.0"
+AimerPitchLimits        = "-20.0 20.0"
+BarrelLength            = "1.0"
+FireOutsideLimits       = "1"
+
+WEAPONSECTION           = "2"
+
+WeaponName          = "republic_weap_fly_gunship_missile"
+WeaponAmmo          = "6"
+
+AimerNodeName           = "hp_cannon_1"
+AimerYawLimits          = "-0.0 0.0"
+AimerPitchLimits        = "-0.0 0.0"
+BarrelLength            = "1.0"
+
+NextAimer           = "-"
+
+AimerNodeName           = "hp_cannon_2"
+AimerYawLimits          = "-0.0 0.0"
+AimerPitchLimits        = "-0.0 0.0"
+BarrelLength            = "1.0"
+
+VehiclePosition         = "common.vehiclepositions.pilot"
+
+//********************************
+//********  R BALL TURRET  *******
+//********************************
+
+FLYERSECTION            = "TURRET1"
+
+PitchRate           = 3.0
+//PitchFilter         = 2.75
+TurnRate            = 3.0
+//TurnFilter          = 2.75
+
+
+//FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
+YawLimits           = "-115.0 0.0"
+PitchLimits         = "-30.0 70.0"
+
+PCPitchTurnFactor       = "20.0"
+PCYawTurnFactor         = "20.0"
+
+
+EyePointOffset          = "0.0 0.3 0.25"
+TrackOffset             = "0.0 0.0 0.0"
+TrackCenter         = "0.0 1.2 -1.0"
+ThirdPersonFOV          = "55"
+TiltValue           = "0.0"
+TurretNodeName          = "bone_turret_ball_right_aimer_y"
+FirePointName           = "hp_turret_right"
+
+ForceMode = 1
+
+
+WeaponName          = "republic_weap_fly_gunship_ball"
+WeaponAmmo          = "0"
+
+BarrelLength            = "0.0"
+
+PilotPosition           = "hp_gunner2"
+PilotAnimation          = "drive"
+IsPilotExposed          = "0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+VehiclePosition         = "common.vehiclepositions.rightturret"
+
+//********************************
+//********  L BALL TURRET  *******
+//********************************
+FLYERSECTION        = "TURRET2"
+
+PitchRate           = 3.0
+//PitchFilter         = 2.75
+TurnRate            = 3.0
+//TurnFilter          = 2.75
+
+
+
+//FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
+YawLimits           = "0.0 115.0"
+PitchLimits         = "-30.0 70.0"
+
+//YawLimits         = "0.0 170.0"
+//PitchLimits       = "10.0 70.0"
+
+PCPitchTurnFactor   = "20.0"
+PCYawTurnFactor     = "20.0"
+
+//PitchTurnFactor   = "1.0"
+//YawTurnFactor         = "1.0"
+
+EyePointOffset      = "0.0 0.3 0.25"
+TrackOffset         = "0.0 0.0 0.0"
+TrackCenter     = "0.0 1.2 -1.0"
+ThirdPersonFOV      = "55"
+TiltValue       = "0.0"
+TurretNodeName      = "bone_turret_ball_left_aimer_y"
+FireNodeName        = "hp_turret_left"
+
+ForceMode = 1
+
+WeaponName          = "republic_weap_fly_gunship_ball"
+WeaponAmmo          = "0"
+
+BarrelLength        = "0.0"
+
+PilotPosition       = "hp_gunner1"
+PilotAnimation      = "drive"
+IsPilotExposed      = "0"
+
+TurretYawSound         = "turret_whir_yaw_lp"
+TurretYawSoundPitch    = "0.7"
+TurretPitchSound       = "turret_whir_pitch_lp"
+TurretPitchSoundPitch  = "0.7"
+TurretAmbientSound     = ""
+TurretActivateSound    = "vehicle_equip"
+TurretDeactivateSound  = ""
+TurretStartSound       = ""
+TurretStopSound        = ""
+
+VehiclePosition     = "common.vehiclepositions.leftturret"
+
+
+// CHUNCK SECTIONs
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "republic_fly_gunship_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "republic_fly_gunship_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "republic_fly_gunship_chunk3"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK4"
+ChunkGeometryName       = "republic_fly_gunship_chunk4"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK5"
+ChunkGeometryName       = "republic_fly_gunship_chunk5"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK6"
+ChunkGeometryName       = "republic_fly_gunship_chunk6"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK7"
+ChunkGeometryName       = "republic_fly_gunship_chunk7"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK8"
+ChunkGeometryName       = "republic_fly_gunship_chunk8"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK9"
+ChunkGeometryName       = "republic_fly_gunship_chunk9"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK10"
+ChunkGeometryName       = "republic_fly_gunship_chunk10"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "8.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+ContrailEffect = "com_sfx_contrail"
+ContrailAttachPoint = "dummyroot"
+ContrailAttachOffset  = "-10.0 -0.75 -4.7162"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+ContrailEffect = "com_sfx_contrail"
+ContrailAttachPoint = "dummyroot"
+ContrailAttachOffset  = "10.0 -0.75 -4.7162"
+ContrailEffectMinScale  = "0.0"
+ContrailEffectMaxScale  = "0.8"
+
+//////////////////////////
+////DAMAGE///////////
+///////////////
+// SPARK
+
+DamageStartPercent = "85"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_1"
+
+DamageStartPercent = "75"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_2"
+
+DamageStartPercent = "65"
+DamageStopPercent = "5"
+DamageEffect = "com_sfx_vehiclespark_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_3"
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_1"
+
+DamageStartPercent = "65"
+DamageStopPercent = "25"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_2"
+
+DamageStartPercent = "55"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehiclesmoke_sc"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_3"
+
+// FLAME
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_1"
+
+DamageStartPercent = "25"
+DamageStopPercent = "0.1"
+DamageEffect = "com_sfx_vehicleflame_sc"
+DamageEffectScale = "0.75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_2"
+
+
+
+//ExplosionCritical = "rep_fly_gunship_exp"
+//ExplosionDestruct   = "rep_fly_gunship_exp"
+
+
+VOUnitType          = 131
+EngineSound             = "rep_fly_gunship_engine_parameterized"
+TakeoffSound            = "rep_fly_gunship_take_off"
+LandSound               = "rep_fly_gunship_land"
+HurtSound               = "imp_weap_ord_exp_lg"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+TurnOnSound             = "rep_fly_gunship_turn_on"
+TurnOffSound            = "rep_fly_gunship_turn_off"
+TurningOffSound         = "rep_fly_gunship_airbrakes_off"
+TurnOffTime             = "1.5"
+CISMusic                = "cis_vehicle"
+RepMusic                = "rep_vehicle"
+MusicSpeed              = ".30"
+MusicDelay              = "3.0"
+FoleyFXGroup            = "metal_foley"
+Cockpit1stPersonSound   = "rep_inf_com_space_chatter"
+Cockpit3rdPersonSound   = "rep_inf_com_space_chatter"
+BoostSound              = "rep_fly_gunship_shift_up_property 0.11 1"
+BoostSound              = "rep_fly_gunship_shift_up_property 0.53 1"
+BoostSound              = "rep_fly_gunship_shift_up_high_property 0.66 1"
+BoostSound              = "rep_fly_gunship_shift_down_property 0.17 0"
+BoostSound              = "rep_fly_gunship_shift_down_property 0.9 0"
+TrickSound              = "rep_fly_gunship_roll" //Played when the flyer performs a roll 
+FlipSound               = "rep_fly_gunship_flip" //Played when the flyer performs a flip
+ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.

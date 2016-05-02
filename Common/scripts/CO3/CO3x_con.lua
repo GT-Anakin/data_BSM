@@ -21,8 +21,8 @@ ScriptCB_DoFile("LinkedTurrets")
 
 
 function ScriptPostLoad()	  
---AllowAISpawn(1, false)
---AllowAISpawn(2, false)
+AllowAISpawn(1, false)
+AllowAISpawn(2, false)
 
 --First Functions
 
