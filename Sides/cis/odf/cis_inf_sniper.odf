@@ -15,5 +15,58 @@ WeaponName         = "cis_weap_inf_pistol"
 WeaponAmmo         = 0
 
 
+ChunkFrequency              = 0.6
+
+CHUNKSECTION                = "CHUNK1"
+ChunkGeometryName           = "cis_bf3_sniper_chunk1"
+ChunkNodeName               = "bone_neck"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK2"
+ChunkGeometryName           = "cis_bf3_sniper_chunk2"
+ChunkNodeName               = "bone_l_upperarm"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK3"
+ChunkGeometryName           = "cis_bf3_sniper_chunk3"
+ChunkNodeName               = "bone_l_calf"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK4"
+ChunkGeometryName           = "cis_bf3_sniper_chunk4"
+ChunkNodeName               = "bone_r_thigh"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK5"
+ChunkGeometryName           = "cis_bf3_sniper_chunk5"
+ChunkNodeName               = "bone_a_spine"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+
 VOUnitType        	= 121
 

@@ -1,4 +1,3 @@
-cis_inf_default (chunks),
 improve hp_active positions,
 modify weapons script + msh (glow,...)
 fix low_res rep units
