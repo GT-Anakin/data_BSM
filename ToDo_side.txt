@@ -3,6 +3,7 @@ modify weapons script + msh (glow,...)
 fix low_res rep units
 cis laser color,
 cis/rep fusioncutter animated texture improvements
+rep_shotgun texture broken
 
 airstrike,
 new animationset,
