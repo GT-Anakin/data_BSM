@@ -1,0 +1,14 @@
+ucft
+{
+    REQN
+    {
+        "class"
+        "rep_walk_oneman_atst"
+    }
+    
+    REQN
+    {
+        "model"
+        "hud_ATRT_shape"
+    }
+}
