@@ -9,5 +9,7 @@ ucft
 		"republic_inf_engineer"
 		"republic_inf_officer"
 		"republic_inf_jettrooper"
+		"rep_hover_fightertank"
+		"rep_walk_oneman_atst"
 	}
 }
