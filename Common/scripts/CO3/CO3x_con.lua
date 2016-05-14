@@ -51,7 +51,11 @@ function ScriptPostLoad()
 --              it is called from C to start the mission.
 ---------------------------------------------------------------------------
 function ScriptInit()
-    
+
+    SetMemoryPoolSize ("ClothData",20)
+	SetMemoryPoolSize ("ParticleTransformer::SizeTransf",1100)
+   SetMemoryPoolSize ("ParticleTransformer::ColorTrans",1600)
+	
     ReadDataFile("ingame.lvl")
     
    
@@ -60,7 +64,7 @@ function ScriptInit()
        SetMinFlyHeight(-3000)
     SetMinPlayerFlyHeight (-3000)
     
-    SetMemoryPoolSize ("ClothData",20)
+    
     SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
     SetMemoryPoolSize ("Combo::State",650)      -- should be ~12x #Combo
     SetMemoryPoolSize ("Combo::Transition",650) -- should be a bit bigger than #Combo::State
@@ -82,7 +86,8 @@ function ScriptInit()
 	  ReadDataFile("dc:SIDE\\cis.lvl",
 						"cis_inf_rifleman",
 						"cis_inf_sniper",
-						"cis_inf_pilot")
+						"cis_inf_pilot",
+						"cis_inf_sbd")
 						
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
@@ -130,7 +135,7 @@ function ScriptInit()
          units = 20,
          reinforcements = -1,
          soldier  = { "cis_inf_rifleman",9, 25},
-         assault  = { "cis_inf_rocketeer",1, 4},
+         assault  = { "cis_inf_sbd",1, 4},
          engineer = { "cis_inf_pilot",1, 4},
          sniper   = { "cis_inf_sniper",1, 4},
          officer = {"cis_inf_officer",1, 4},
@@ -168,6 +173,8 @@ function ScriptInit()
    SetMemoryPoolSize("UnitAgent", 128)
    SetMemoryPoolSize("UnitController", 128)
    SetMemoryPoolSize("Weapon", weaponCnt)
+   SetMemoryPoolSize ("SoldierAnimation",380)
+   
     
     SetSpawnDelay(10.0, 0.25)
     --ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest")
