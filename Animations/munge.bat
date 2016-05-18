@@ -2,4 +2,4 @@
 @REM Calls %1\munge.bat for all animation subdirectories
 
 @REM soldier animation banks
-@call munge_subdir.bat SoldierAnimationBank\bf3sbd
+@call munge_subdir.bat SoldierAnimationBank\bf3magna

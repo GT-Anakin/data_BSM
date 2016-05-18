@@ -87,7 +87,8 @@ function ScriptInit()
 						"cis_inf_rifleman",
 						"cis_inf_sniper",
 						"cis_inf_pilot",
-						"cis_inf_sbd")
+						"cis_inf_sbd",
+						"cis_inf_magna")
 						
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
@@ -134,12 +135,12 @@ function ScriptInit()
          team = CIS,
          units = 20,
          reinforcements = -1,
-         soldier  = { "cis_inf_rifleman",9, 25},
-         assault  = { "cis_inf_sbd",1, 4},
-         engineer = { "cis_inf_pilot",1, 4},
-         sniper   = { "cis_inf_sniper",1, 4},
-         officer = {"cis_inf_officer",1, 4},
-         special = { "cis_inf_droideka",1, 4},
+         soldier	= { "cis_inf_rifleman",9, 25},
+         assault	= { "cis_inf_sbd",1, 4},
+         engineer	= { "cis_inf_pilot",1, 4},
+         sniper		= { "cis_inf_sniper",1, 4},
+         officer	= { "cis_inf_magna",1, 4},
+         special	= { "cis_inf_droideka",1, 4},
       }
    }
      

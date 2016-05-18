@@ -4,7 +4,7 @@ ClassParent         = "cis_inf_default"
 [Properties]
 GeometryName        = "cis_bf3_sbd"
 SkeletonName		= "bf3sbd"
-FirstPerson			= "CIS\cisbdrd;cis_1st_sbdroid"
+FirstPerson         	= "CIS\cissbdrd;cis_1st_sbdroid"
 
 WEAPONSECTION = 1
 WeaponName         = "cis_weap_inf_rifle"
