@@ -14,6 +14,11 @@ WEAPONSECTION = 2
 WeaponName         = "cis_weap_inf_fusioncutter"
 WeaponAmmo         = 0
 
+WEAPONSECTION = 3
+WeaponName         = "com_weap_inf_powerup_dispenser"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
 ChunkFrequency              = 0.6
 
 CHUNKSECTION                = "CHUNK1"
