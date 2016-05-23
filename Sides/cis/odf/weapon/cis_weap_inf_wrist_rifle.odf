@@ -1,0 +1,26 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_rifle"
+GeometryName        = "cis_weap_dummy_wrist.msh"
+
+[Properties]
+GeometryName        = "cis_weap_dummy_wrist"
+HighResGeometry		= "cis_weap_dummy_wrist"
+OrdnanceName        = "cis_weap_inf_rifle_ord"
+FirePointName       = "hp_fire"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+
+FireSound           = "cis_weap_inf_rifle_fire"
+ReloadSound         = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
