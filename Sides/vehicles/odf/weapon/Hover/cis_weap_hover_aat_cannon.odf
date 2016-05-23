@@ -1,0 +1,14 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName = "cis_weap_hover_aat_cannon_ord"
+
+HeatRecoverRate = "0.25"
+HeatThreshold = "0.2"
+HeatPerShot = "0.15"
+
+ShotDelay = "0.22"
+
+FireSound = "cis_weap_hover_aat_cannon_fire"
+

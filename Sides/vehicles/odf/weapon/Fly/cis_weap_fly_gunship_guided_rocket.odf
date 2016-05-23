@@ -1,0 +1,8 @@
+[WeaponClass]
+ClassParent          = "com_weap_veh_fly_guided_rocket"
+
+[Properties]
+FirePointExtraOffset = "0 -3 20"
+
+FireSound = "cis_weap_fly_droidfighter_torpedo_fire"
+

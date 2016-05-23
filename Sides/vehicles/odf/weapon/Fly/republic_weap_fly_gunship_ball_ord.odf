@@ -1,0 +1,5 @@
+[OrdnanceClass]
+ClassParent     = "com_weap_veh_fly_beam_ord"
+
+[Properties]
+MaxDamage 			= "5000"

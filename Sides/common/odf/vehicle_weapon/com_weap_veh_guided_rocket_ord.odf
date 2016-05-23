@@ -1,0 +1,130 @@
+[GameObjectClass]
+ClassLabel = "flyer"
+GeometryName = "com_weap_missile.msh"
+[Properties]
+VehicleType = "fighter"
+MapTexture = "x-wing_icon"
+HealthTexture = "HUD_all_xwing_icon"
+//VehiclePosition = "common.vehiclepositions.pilot"
+
+MapScale            = 1.5
+MapViewMin                  = 300
+MapViewMax                  = 300
+
+PathFollowerClass = "Fighter"
+GeometryName = "com_weap_missile"
+//AnimationName = "com_weap_missile"
+ForceMode = "1"
+CollisionScale = "1.5"
+CollisionThreshold = "5"
+MaxHealth = "1"
+HealthType = "droid"
+PathFollowerBranchPaths = "5"
+PilotSkillRepairScale = "0.00"
+TakeoffTime = "1"
+TakeoffSpeed = "3"
+LandingTime = "2"
+LandingSpeed = "5"
+TakeoffHeight = "2.5"
+PathFollowerBranchMaxAngle = "60"
+
+WeaponName = "com_weap_null"
+WeaponAmmo = "0"
+
+TerrainCollision = "p_front_sphere"
+ExplosionDestruct = "com_weap_veh_guided_rocket_noncrit_exp"
+ExplosionCritical = "com_weap_veh_guided_rocket_exp"
+VehicleCollision = "p_front_sphere"
+BuildingCollision = "p_front_sphere"
+
+
+
+ThrustEffect = "com_sfx_exhaust_jedistarfighter"
+ThrustAttachPoint = "xwing_br_hatch3"
+ThrustAttachOffset = "0.0 0.0 0.0"
+
+ThrustEffectMinScale = "0.25"
+ThrustEffectMaxScale = "0.75"
+ThrustEffectScaleStart = "0"
+
+ContrailEffect = "com_sfx_contrail"
+//ContrailAttachPoint = "xwing_bl_hatch3"
+ContrailAttachOffset = "0.0 0.0 0.0"
+ContrailEffectMinScale = "0.0"
+ContrailEffectMaxScale = "0.2"
+
+
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.75"
+
+
+
+EnergyBar = "200"
+EnergyBoostDrain = "20"
+EnergyTrickDrainSingleTap = "10"
+EnergyTrickDrainDoubleTap = "20"
+EnergyAutoRestore = "-5.0"
+
+FirstPersonFOV = "52"
+CockpitTension = "22"
+PitchRate = "1.2"
+PitchFilter = "6"
+PitchFilterDecel = "6"
+PitchBuildupMultiplier = "1.5"
+TurnRate = "1.2"
+TurnFilter = "6"
+TurnFilterDecel = "6"
+TurnBuildupMultiplier = "1.25"
+BankAngle = "0.1"
+BankFilter = "3.5"
+LevelFilter = "1.5"
+LevelFilterLanding = "5"
+RollRate = "3.15"
+PCPitchRate = "15"
+PCSpinRate = "15"
+PCTurnRate = "25"
+EyePointOffset = "0.0 3.0 2.0"
+TrackCenter = "0.0 1.0 -3.0"
+TiltValue = "0"
+AimTension = "20"
+MoveTensionX = "8"
+MoveTensionY = "20 10"
+MoveTensionZ = "4.25"
+BlurEffect = "0.9"
+BlurStart = "50"
+FOVEffect3rd = "90"
+FOVEFFectMinCamOffset3rd = "0.0 -1.75 -3.0"
+FOVEFFectMaxCamOffset3rd = "0.0 -1.0 -14"
+FOVEffect1st = "90"
+
+Acceleraton = "80"
+MinSpeed = "29.8"
+MidSpeed = "30"
+MaxSpeed = "35"
+BoostAcceleration = "50"
+BoostSpeed = "80"
+
+MomentumFilter = 9.0
+TrickRollSpeed = "7.0"
+TrickFlipSpeed = "10.0"
+TrickSideRollStrafeSpeed = "8.0"
+TrickFlipCameraDetach = "0.24"
+TrickSideRollCameraDetach = "1.0"
+TrackOffset = "0.0 2.0 6.0"
+
+TargetableCollision = "CollisionMesh"
+
+GuidedMissile = 1
+GuidedMissileDamage = 1000.0
+GuidedMissileDamageBoost = 2000.0
+GuidedMissileDeathCamPause = 1.0
+GuidedMissileDeathCamPullbackSpeed = 60.0
+GuidedMissileDeathCamMinDistance = 20.0
+GuidedMissileBoostExplosionSpeedThreshold = 0.8
+
+EngineSound             = "rep_inf_grocket_engine_parameterized"
+DeathSound              = "imp_weap_ord_exp_lg"
+VehicleCollisionSound   = "com_veh_collision_lg"
+ProximityMinDist        = "50" // Distance from target where proximity parameter of engine is 0.
+ProximityMaxDist        = "200" // Distance from target where proximity parameter of engine is 1.
+FoleyFXGroup            = "metal_foley"

@@ -1,0 +1,34 @@
+[OrdnanceClass]
+ClassLabel          = "missile"
+
+[Properties]
+ImpactEffectWater   = "com_sfx_watersplash_sm"
+
+LifeSpan            = "10.0"
+
+MinSpeed 	    = "20.0"
+Acceleration	    = "80.0"
+Velocity            = "100.0"
+Gravity             = "0.0"
+Rebound             = "0.0"
+TurnRate            = "2.0"
+
+WaverRate           = "0.0"
+WaverTurn           = "0.0"
+
+
+
+MaxDamage           	= "500.0"
+DamageTransitionDelay   = "0.0"     //How long in seconds before the damage change begins.
+DamageTransitionPeriod  = "0.5"     //How long in seconds the damage change lasts.
+DamageFinalDamage       = "1500.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+
+VehicleScale        = "1.0"
+PersonScale         = "1.0"
+DroidScale          = "1.0"
+AnimalScale         = "1.0"
+BuildingScale       = "1.0"
+
+OrdnanceSound       = "com_weap_inf_ord_hum_rocket"
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on

@@ -1,0 +1,11 @@
+-- Processing directory E:\BF2_ModTools\data_BSM\Animations\SoldierAnimationBank\HanSolo
+	Processing file basepose.msh, will save in .\\\HanSolo.zaf
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+.*** WARNING: Animation <hansolo_pistol_standalert_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <hansolo_pistol_standalert_runforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <hansolo_pistol_standalert_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <hansolo_pistol_stand_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <hansolo_pistol_stand_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+

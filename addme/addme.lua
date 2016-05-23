@@ -18,11 +18,12 @@ local sp_n = 0
 local mp_n = 0
 sp_n = table.getn(sp_missionselect_listbox_contents)
 
-sp_missionselect_listbox_contents[sp_n+1] = { isModLevel = 1, mapluafile = "CO3%s_%s", era_x = 1, mode_con_x = 1}
+sp_missionselect_listbox_contents[sp_n+1] = { isModLevel = 1, mapluafile = "CO3%s_%s", era_x = 1, era_y = 1, mode_con_x = 1, mode_eli_y = 1}
 mp_n = table.getn(mp_missionselect_listbox_contents)
 mp_missionselect_listbox_contents[mp_n+1] = sp_missionselect_listbox_contents[sp_n+1]
 
 AddDownloadableContent("CO3","CO3x_con",4)
+AddDownloadableContent("CO3","CO3y_eli",4)
 
 --AddDownloadableContent("BSM","BSMy_con",4)
 --AddDownloadableContent("BSM","BSMx_con",4)

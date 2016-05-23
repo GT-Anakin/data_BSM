@@ -1,0 +1,53 @@
+-- Processing directory E:\BF2_ModTools\data_BSM\Animations\SoldierAnimationBank\human_3
+	Processing file basepose.msh, will save in .\\\human_3.zaf
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+.*** WARNING: Animation <human_pistol_crouchalert_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_crouchalert_walkbackward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_crouchalert_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_crouch_reload> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_crouch_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_crouch_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_jetpack_hover> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_sprint> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_standalert_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_standalert_runbackward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_standalert_runforward_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_standalert_walkforward_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_stand_reload> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_stand_runforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_stand_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_pistol_stand_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_crouch_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_crouch_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_crouch_walkbackward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_crouch_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_diveforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_fall> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_jump> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_jumpfall> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_landhard> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_landsoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_sprint> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_idle_checkweapon_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_idle_emote> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_idle_lookaround> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_runbackward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_runforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_shoot_secondary> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_shoot_secondary2> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_tool_stand_walkforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+

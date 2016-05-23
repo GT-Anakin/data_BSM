@@ -12,5 +12,6 @@ Group("[Base]", 0, 8)
 	Layer("CW_Ships_Turrets_MP", 6);
 	Layer("SpaceGroundTransition", 7);
 	Layer("Clouds", 8);
+	Layer("eli", 9);
 }
 

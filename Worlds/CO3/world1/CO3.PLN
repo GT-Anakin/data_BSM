@@ -1037,6 +1037,30 @@ Hub("Hub178")
 	Radius(2.235644);
 }
 
+Hub("Hub179")
+{
+	Pos(-94.270813, -280.000000, -26.569393);
+	Radius(1.157335);
+}
+
+Hub("Hub180")
+{
+	Pos(-94.264458, -280.000000, -32.163689);
+	Radius(1.793241);
+}
+
+Hub("Hub181")
+{
+	Pos(-91.475761, -280.000000, -36.749264);
+	Radius(1.051891);
+}
+
+Hub("Hub182")
+{
+	Pos(-92.857964, -280.000000, -43.844196);
+	Radius(2.033983);
+}
+
 Connection("Connection0")
 {
 	Start("Hub2");
@@ -2206,13 +2230,6 @@ Connection("Connection182")
 	Flag(1);
 }
 
-Connection("Connection183")
-{
-	Start("Hub113");
-	End("Hub115");
-	Flag(1);
-}
-
 Connection("Connection184")
 {
 	Start("Hub112");
@@ -2595,5 +2612,40 @@ Connection("Connection238")
 {
 	Start("Hub178");
 	End("Hub173");
+	Flag(1);
+}
+
+Connection("Connection239")
+{
+	Start("Hub113");
+	End("Hub182");
+	Flag(1);
+}
+
+Connection("Connection240")
+{
+	Start("Hub182");
+	End("Hub181");
+	Flag(1);
+}
+
+Connection("Connection241")
+{
+	Start("Hub181");
+	End("Hub180");
+	Flag(1);
+}
+
+Connection("Connection242")
+{
+	Start("Hub180");
+	End("Hub179");
+	Flag(1);
+}
+
+Connection("Connection243")
+{
+	Start("Hub179");
+	End("Hub115");
 	Flag(1);
 }

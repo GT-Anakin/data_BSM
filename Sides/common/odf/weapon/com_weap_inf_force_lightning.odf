@@ -1,0 +1,86 @@
+[WeaponClass]
+
+ClassLabel          = "cannon"
+
+[Properties]
+HUDTag              = "hud_force_lightning"
+GeometryName        = ""
+HighResGeometry     = ""
+
+FlashColor          = "80 80 255 255"
+FlashLength         = 0.025
+FlashLightColor     = "220 220 255 175"
+Discharge           = "med_smoke_effect"
+
+RoundsPerClip       = "0"
+ReloadTime          = "0.3"
+HeatRecoverRate     = "0.3"
+HeatThreshold       = "0.25"
+
+OrdnanceName        = "com_weap_inf_force_lightning_ord"
+
+TriggerSingle       = "0"
+ShotDelay           = "0.1"
+HeatPerShot         = "0.1"
+
+EnergyDrain  		=  20.0
+
+InstantPlayFireAnim 	= 1
+OffhandWeapon 		= 1
+
+PitchSpread         = "0.0"
+YawSpread           = "0.0"
+
+SpreadPerShot       = "0.0"//1.2
+SpreadRecoverRate   = "0.0"//0.08
+SpreadThreshold     = "0.0"//0.03
+SpreadLimit         = "0.0"
+
+StandStillSpread    = "0.0"//0.4
+StandMoveSpread     = "0.0"//0.9
+CrouchStillSpread   = "0.0"//0.1
+CrouchMoveSpread    = "0.0"//0.6
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+LockOnRange         = "64.0"
+LockTime            = "0.0"
+AutoAimSize         = "2.0"
+
+SalvoCount          = "1"
+ShotsPerSalvo       = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.5" // must have one or no animation - Mike Z
+SalvoTime           = "0.0"
+
+//ChargeRateLight             = "1.0"
+//MaxChargeStrengthLight      = "1.0"
+//ChargeDelayLight            = "0.0"
+//ChargeRateHeavy             = "1.0"
+//MaxChargeStrengthHeavy      = "0.5"
+//ChargeDelayHeavy            = "2.2"
+
+//RecoilLengthHeavy           = "0.25"
+//RecoilStrengthHeavy         = "2"
+//RecoilDecayHeavy            = "0.0"
+
+FireSound               = "force_lightning_fire"
+ReloadSound             = ""
+WeaponChangeSound       = ""
+ChangeModeSound         = ""
+FireEmptySound          = ""
+ChargeSound             = ""
+ChargeSoundPitch        = "0.05"
+OverheatSound           = ""
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = ""
+
+TargetEnemy         = "1"
+TargetNeutral       = "1"
+TargetFriendly      = "1"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "1"
+TargetBuilding      = "0"

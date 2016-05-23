@@ -8,14 +8,18 @@ LODPriorityMod = "2.5"
 
 FLYERSECTION = "BODY"
 Label = "Droid Starfighter"
-MapTexture = "droidfighter_icon"
 MapScale = "1.5"
 HUDModel = "hud_DroidStarfighter_vulture_shape"
 HealthTexture = "HUD_cis_droidfighter_icon"
 
+
+MapTexture          = "cis_fly_droid_fighter_icon"
 MapScale            = 1.5
-MapViewMin					= 750
-MapViewMax					= 750
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
+
 
 
 VehiclePosition = "common.vehiclepositions.pilot"
@@ -30,6 +34,8 @@ CollisionThreshold = "5"
 
 MaxHealth = "2250"
 HealthType = "vehicle"
+
+TargetableCollision = "target_cube"
 
 MaxShield = 1200.0
 AddShield = 25

@@ -1,0 +1,98 @@
+[WeaponClass]
+ClassLabel      = "launcher"
+
+[Properties]
+ScoreForMedalsType = 2
+
+AnimationBank   = "bazooka"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid         = "0"
+TargetVehicle       = "1"
+TargetBuilding      = "0"
+
+AITargetPerson        = "0"
+AITargetAnimal        = "1"
+AITargetDroid         = "0"
+AITargetVehicle       = "1"
+AITargetBuilding      = "1"
+
+MinRange            = "15"
+OptimalRange        = "75"
+MaxRange            = "300"
+
+LockOnRange         = "250.0"
+LockOnAngle         = "6.0"
+LockOffAngle        = "10.0"
+LockTime            = "1.0"
+
+ZoomMin             = "2.0"
+ZoomMax             = "2.0"
+ZoomRate            = "0.0"
+
+PitchSpread         = "0.0"
+YawSpread           = "0.0"
+
+SpreadPerShot       = "1.1"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit         = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "1"
+ReloadTime          = "4.0"
+ShotDelay           = "0.0"
+TriggerSingle       = "1"
+MaxPressedTime      = "0.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.25"
+SalvoTime           = "0.0"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+    
+ScopeTexture            = "com_scope_rocketlauncher"
+
+MuzzleFlash             = "small_muzzle_flash"
+FlashColor              = "255 198 62"
+FlashLength             = "0.075"
+FlashLightColor         = "255 198 62 175"
+
+FlashLightRadius        = "5.0"
+FlashLightDuration      = "0.25"
+Discharge               = "small_smoke_effect"
+
+ChargeRateLight         = "0.0"
+MaxChargeStrengthLight  = "0.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "0.0"
+MaxChargeStrengthHeavy  = "0.0"
+ChargeDelayHeavy        = "0.0"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = "0.75"
+
+ChargeSound = "com_weap_inf_rocket_launcher_tracking"

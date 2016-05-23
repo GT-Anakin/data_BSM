@@ -1,0 +1,2 @@
+-keep aimer_x aimer_y -keepmaterial override_texture -ShadowOn
+

@@ -7,13 +7,16 @@ GeometryName            = "cis_fly_bomber.msh"
 FLYERSECTION            = "BODY"
 HUDModel            = "hud_grievousstarfighter_shape"
 Label               = "Greviousfighter"
-MapTexture          = "greviousfighter_icon"
 HealthTexture           = "HUD_cis_droidfighter_icon"
 VehiclePosition         = "common.vehiclepositions.pilot"
 
+MapTexture          = "cis_fly_bomber_icon"
 MapScale            = 1.5
-MapViewMin					= 750
-MapViewMax					= 750
+
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
 
 GeometryName            = "cis_fly_bomber"
 AnimationName           = "cis_fly_bomber"
@@ -26,6 +29,8 @@ MaxHealth           = 5000.0
 
 MaxShield = 1400.0
 AddShield = 25
+
+TargetableCollision = "target_cube"
 
 HealthType          = "vehicle"
 //HitLocation           = "p_crithit 2.0"
@@ -52,44 +57,31 @@ TakeoffHeight           = 1.0
 
 ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
 ThrustAttachPoint       = "bone_root"
-ThrustAttachOffset  = "-1,016 1,274 -4,261"
+ThrustAttachOffset  = "-1.016 1.274 -4.261"
 ThrustEffectMinScale    = "0.5"
 ThrustEffectMaxScale    = "1.4"
 ThrustEffectScaleStart  = "0.55"
 
 ThrustEffect        = "com_sfx_exhaust_jedistarfighter"
 ThrustAttachPoint       = "bone_root"
-ThrustAttachOffset  = "1,016 1,274 -4,261"
+ThrustAttachOffset  = "1.016 1.274 -4.261"
 ThrustEffectMinScale    = "0.5"
 ThrustEffectMaxScale    = "1.4"
 ThrustEffectScaleStart  = "0.55"
 
 ContrailEffect            = "com_sfx_contrail"
-ContrailAttachPoint       = "boneroot"
-ContrailAttachOffset      = "0.9251 -0.0063 -3.1295"
+ContrailAttachPoint       = "bone_root"
+ContrailAttachOffset      = "-1.016 1.274 -4.261"
 ContrailEffectMinScale    = "0.0"
-ContrailEffectMaxScale    = "1.8"
+ContrailEffectMaxScale    = "1.2"
 
 ContrailEffect            = "com_sfx_contrail"
-ContrailAttachPoint       = "boneroot"
-ContrailAttachOffset      = "-0.9251 -0.0063 -3.1295"
+ContrailAttachPoint       = "bone_root"
+ContrailAttachOffset      = "1.016 1.274 -4.261"
 ContrailEffectMinScale    = "0.0"
-ContrailEffectMaxScale    = "1.8"
+ContrailEffectMaxScale    = "1.2"
 
 
-ContrailEffect            = "com_sfx_contrail"
-ContrailAttachPoint       = "boneroot"
-ContrailAttachOffset      = "0.9251 -0.0063 -3.1295"
-ContrailEffectMinSpeed    = "0.0"
-ContrailEffectMinScale    = "1.2"
-ContrailEffectMaxScale    = "2.8"
-
-ContrailEffect            = "com_sfx_contrail"
-ContrailAttachPoint       = "boneroot"
-ContrailAttachOffset      = "-0.9251 -0.0063 -3.1295"
-ContrailEffectMinSpeed    = "0.0"
-ContrailEffectMinScale    = "1.2"
-ContrailEffectMaxScale    = "2.8"
 
 
 
@@ -358,10 +350,3 @@ TrickFlipSpeed = 5.0
 TrickSideRollStrafeSpeed = 30
 TrickFlipCameraDetach = 0.24
 TrickSideRollCameraDetach = 0.48
-
-
-
-
-
-
-

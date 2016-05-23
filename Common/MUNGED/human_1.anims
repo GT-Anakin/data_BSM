@@ -1,0 +1,26 @@
+ucft
+{
+	ANIM
+	{
+		"human_rifle_diveforward"
+		"human_rifle_fall"
+		"human_rifle_jetpack_hover"
+		"human_rifle_jump"
+		"human_rifle_landhard"
+		"human_rifle_landsoft"
+		"human_rifle_sprint_full"
+		"human_rifle_thrown_bouncebacksoft"
+		"human_rifle_thrown_bouncefrontsoft"
+		"human_rifle_thrown_flail"
+		"human_rifle_thrown_flyingback"
+		"human_rifle_thrown_flyingfront"
+		"human_rifle_thrown_flyingleft"
+		"human_rifle_thrown_flyingright"
+		"human_rifle_thrown_landbacksoft"
+		"human_rifle_thrown_landfrontsoft"
+		"human_rifle_thrown_restbacksoft"
+		"human_rifle_thrown_restfrontsoft"
+		"human_rifle_thrown_tumbleback"
+		"human_rifle_thrown_tumblefront"
+	}
+}

@@ -1,0 +1,28 @@
+[OrdnanceClass]
+ClassLabel              = "bolt"
+
+[Properties]
+
+LifeSpan = "1.5"
+Velocity = "2000"
+Gravity = "0.1"
+Rebound = "0"
+
+MaxDamage = "500"
+
+ShieldScale = "0.1"
+BuildingScale = "0.1"
+
+GlowLength = "15"
+LaserLength = "45"
+LaserWidth = "1"
+
+OrdnanceSound = "com_weap_inf_ord_hum_lg"
+CollisionSound = "com_veh_laser_imp_exp"
+
+ImpactEffectStatic  = "com_sfx_explosion_sm"
+ImpactEffectRigid   = "com_sfx_explosion_sm"
+ImpactEffectSoft    = "com_sfx_explosion_sm"
+ImpactEffectTerrain = "com_sfx_ord_exp"
+ImpactEffectWater   = "com_sfx_watersplash_ord"
+ImpactEffectShield  = "com_sfx_ord_exp"

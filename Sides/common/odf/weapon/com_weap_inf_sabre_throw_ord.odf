@@ -1,0 +1,28 @@
+[OrdnanceClass]
+
+ClassLabel 		= "meleethrowordnance"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_ord"
+
+Damage				= "400.0"
+Velocity			= "30.0"
+LifeSpan			= "1.333"		// time before returning
+ReturnDuration		= "0.8"
+RotationRate		= "4"		// rotations per second
+DamageWidth			= "0.75"
+DamageLength		= "1.2 FromEdge"
+
+OrdnanceSound			= "saber_twirl"
+//OnSound				= "com_inf_saber_ambient"
+
+VehicleScale		= "1.0"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale		= "1.0"
+
+Push 				= "0.0"
+
+

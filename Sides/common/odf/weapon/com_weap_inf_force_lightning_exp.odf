@@ -1,0 +1,22 @@
+[ExplosionClass]
+
+ClassLabel 			= "explosion"    
+
+[Properties]
+WaterEffect 			= "com_sfx_watersplash_md"
+
+Effect 				= "com_sfx_weap_emp_exp_sm"  
+
+Push				= "0.0"
+PushRadius			= "0.0"
+
+Damage 				= "10.0"
+DamageRadius 			= "0.3"
+
+VehicleScale			= "1.0"
+ShieldScale			= "0.1"
+PersonScale			= "0.75"
+DroidScale			= "1.0"
+AnimalScale			= "0.75"
+
+SoundProperty           = "force_lightning_impact"

@@ -1,0 +1,71 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+HUDTag 				= "hud_vehicle_recoiless"
+Discharge			= "large_smoke_effect"
+MuzzleFlash			= "large_muzzle_flash"
+
+FlashLightColor 		= "255 192 192 175"
+FlashLightRadius 		= "4.0"
+FlashLightDuration 		= "0.25"
+
+RoundsPerClip 			= "2"
+ShotDelay 			= "4.0"
+ReloadTime			= "0.0"
+
+ZoomMin			= "2.0"
+ZoomMax			= "2.0"
+ZoomRate		= "0.00"
+
+ScopeTexture        = "weapon_scope4"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+TriggerSingle			= "0"
+
+YawSpread			= "0.0"
+PitchSpread			= "0.0"
+KickSpread			= "0.0"
+SpreadRecover			= "1.0"
+
+KickStrength			= "0.1"
+KickBuildup			= "100.0"
+
+LockOnRange			= "100.0"
+LockTime 			= "0.4"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "2"
+RoundsPerSalvo		= "1"
+SalvoDelay			= "0.1"
+InitialSalvoDelay		= "0.2"
+SalvoTime			= "0.0"
+
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "1"
+TargetBuilding			= "0"
+
+AITargetPerson			= "0"
+AITargetAnimal			= "0"
+AITargetDroid			= "0"
+AITargetVehicle			= "1"
+AITargetBuilding			= "1"
+
+RecoilLengthHeavy       	= "2.5"
+RecoilStrengthLight     	= "1"
+RecoilLengthLight      	 	= "0.5"
+RecoilStrengthHeavy    	 	= "0.7"
+RecoilDecayHeavy 					= "0.25"
+
+MinRange = "0"
+OptimalRange = "150"
+MaxRange = "300"

@@ -7,13 +7,16 @@ GeometryName            = "republic_fly_eta2_red.msh"
 FLYERSECTION            = "BODY"
 VehicleType             = "fighter"
 
-MapTexture          = "anistarfighter_icon"
 HealthTexture           = "HUD_rep_jedistarfighter_icon"
 VehiclePosition         = "common.vehiclepositions.pilot"
 
+MapTexture          = "republic_fly_eta2_icon"
 MapScale            = 1.5
-MapViewMin					= 750
-MapViewMax					= 750
+
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
 
 // PathFollower Attributes
 PathFollowerClass       	= "team1_fly"
@@ -36,6 +39,8 @@ MaxHealth           = 1500.0
 
 MaxShield = 1000.0
 AddShield = 25
+
+//TargetableCollision = "target_cube"
 
 HealthType          = "vehicle"
 //HitLocation           = "p_crithit 0"

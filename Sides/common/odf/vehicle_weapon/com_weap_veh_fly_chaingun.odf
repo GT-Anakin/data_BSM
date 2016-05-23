@@ -1,0 +1,86 @@
+[WeaponClass]
+ClassLabel      = "cannon"
+
+[Properties]
+HUDTag					= "hud_vehicle_chaingun"
+SecondaryOrdnanceName   = "com_weap_veh_fly_chaingun_tracer"
+SecondaryOrdnancePeriod = 3
+
+Discharge = "med_smoke_effect"
+
+RoundsPerClip = "0"
+ShotDelay = "0.09"
+ReloadTime = "0"
+
+HeatRecoverRate = "0.35"
+HeatThreshold = "0.2"
+HeatPerShot = "0.05"
+
+LockOnRange = "1500"
+LockTime = "0.1"
+
+WarmUpTime      = 0.25
+CoolDownTime        = 1.25
+
+ScopeTexture        = "weapon_scope4"
+
+SalvoCount = "1"
+SalvoDelay = "0"
+
+SpreadPerShot       = "0.1"
+SpreadRecoverRate   = "1.0"
+SpreadThreshold     = "1.0"
+SpreadLimit         = "1.5"
+
+AutoAimSize = "0.1"
+InitialSalvoDelay = "0"
+RecoilLengthLight = "0.1"
+RecoilLengthHeavy = "0.1"
+RecoilStrengthLight = "1"
+RecoilStrengthHeavy = "1"
+
+MinRange = "0"
+OptimalRange = "200"
+MaxRange = "400"
+BarrageMin = "10"
+BarrageMax = "20"
+BarrageDelay = "0.5"
+
+PitchSpread         = "0.25"
+YawSpread           = "0.25"
+
+TargetEnemy         = "1"
+TargetNeutral           = "0"
+TargetFriendly          = "0"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid         = "0"
+TargetVehicle           = "1"
+TargetBuilding          = "0"
+
+AITargetPerson          = "1"
+AITargetAnimal          = "1"
+AITargetDroid           = "1"
+AITargetVehicle         = "1"
+AITargetBuilding            = "1"
+
+DisplayRefire       = "0"
+
+TargetLockMaxDistance = "20000"
+TargetLockMaxDistanceLose = "25000" 
+
+
+//*****SOUND*****//
+OverheatSound = "com_weap_energy_depleted"
+OverheatSoundPitch = "0.5"
+OverheatStopSound = "com_weap_energy_refilled"
+
+WarmUpSound         = "tur_weap_fly_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound         = "tur_weap_fly_chaingun_fire"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

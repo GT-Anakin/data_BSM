@@ -46,16 +46,16 @@ CrouchMoveSpread    = "0.0"
 ProneStillSpread    = "0.0"
 ProneMoveSpread     = "0.0"
 
-HeatPerShot         = "0.175"
-HeatRecoverRate     = "0.3"
-HeatThreshold       = "0.25"
+//HeatPerShot         = "0.175"
+//HeatRecoverRate     = "0.3"
+//HeatThreshold       = "0.25"
 
 //***********************************************
 //*********** WEAPON PERFORMANCE VALUES *********
 //***********************************************
 
-RoundsPerClip       = "25"
-ReloadTime          = "2.0"
+//RoundsPerClip       = "0"
+//ReloadTime          = "2.0"
 ShotDelay           = "0.2"
 TriggerSingle       = "1"
 MaxPressedTime      = "0.0"

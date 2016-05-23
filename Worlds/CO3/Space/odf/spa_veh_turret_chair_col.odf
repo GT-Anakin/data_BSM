@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel          = "prop"
+GeometryName        = "shared_turret_chair_col.msh"
+
+[Properties]
+
+GeometryName            = "shared_turret_chair_col"
+
+FoleyFXGroup    = "metal_foley"

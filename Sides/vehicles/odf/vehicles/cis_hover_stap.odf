@@ -1,0 +1,162 @@
+[GameObjectClass]
+ClassLabel 		= "hover"
+GeometryName 		= "cis_hover_stap.msh"
+
+[Properties]
+
+HUDModel 		= "hud_stap_shape"
+FLYERSECTION 		= "BODY"
+VehicleType 		= "light"
+
+MapTexture 		= "stap_icon"
+HealthTexture		= "HUD_cis_stap_icon"
+VehiclePosition		= "common.vehiclepositions.pilot"
+MapScale 		= 1.5
+
+ExplosionName		= "cis_hover_stap_exp"
+GeometryName 		= "cis_hover_stap"
+FirstPerson       		= "VEHICLES\cis_hover_stap_cockpit;cis_hover_stap_cockpit"
+CollisionThreshold		= 15
+MaxHealth 			= 200.0
+HealthType			= "vehicle"
+//HitLocation		= "p_crithit 0"
+
+TimeRequiredToEject	=	"1.0"
+EjectResistance			= "0.01"
+TimeTilReboard			= "5.0"
+
+Forcemode = 1
+
+CockpitTension		= 25
+
+// SMOKE
+
+DamageStartPercent = "75"
+DamageStopPercent = "35"
+DamageEffect = "com_sfx_vehiclesmoke_speeder"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_1"
+
+DamageStartPercent = "55"
+DamageStopPercent = "15"
+DamageEffect = "com_sfx_vehiclesmoke_speeder"
+DamageEffectScale = "1"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_2"
+
+// FIRE
+
+DamageStartPercent = "35"
+DamageStopPercent = "0.01"
+DamageEffect = "com_sfx_vehicleflame_speeder"
+DamageEffectScale = ".75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_1"
+
+DamageStartPercent = "15"
+DamageStopPercent = "0.01"
+DamageEffect = "com_sfx_vehicleflame_speeder"
+DamageEffectScale = ".75"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage_2"
+
+SetAltitude		= 1.5
+GravityScale		= 4.0//2
+LiftSpring		= 10.0  //10 Lighter the veh the high the number
+LiftDamp		= 3.0
+
+Acceleration 		= 25.0
+Deceleration		= 35.0
+Traction		= 70.0
+ForwardSpeed		= 20.0
+ReverseSpeed		= 6.0
+StrafeSpeed		= 5.5
+
+EnergyBar						= 40
+EnergyAutoRestore		= 10
+EnergyBoostDrain		= 20
+BoostSpeed					= 30
+BoostAcceleration		= 100.0
+BoostFOV						= 60
+
+AddSpringBody = "0.0 0.6 0.8 1.175"
+BodySpringLength = 1.0
+//BodyOmegaXSpringFactor = -2.0
+
+AddSpringBody = "-0.3 0.6 -0.7 1.175"
+BodySpringLength = 1.0
+
+AddSpringBody = "0.3 0.6 -0.7 1.175"
+BodySpringLength = 1.0
+
+//VelocitySpring = 7
+//VelocityDamp = 2.0
+//OmegaXSpring = 3.0
+//OmegaXDamp = 2.5
+//OmegaZSpring = 5.0
+//OmegaZDamp = 1.8
+
+SpinRate		= 1.5
+TurnRate		= 2.0
+TurnFilter		= 15.0
+PitchRate		= 1.0
+StrafeRollAngle		= 0.001
+ThrustPitchAngle	= 0.002
+BankAngle		= 0.001
+BankFilter		= 5
+LevelSpring		= 10.0
+LevelDamp		= 5.0
+
+PCPitchRate 		= 15.0
+PCSpinRate		= 15.0
+PCTurnRate 		= 25.0
+
+PilotPosition 		= "hp_active"
+PilotAnimation 		= "stap_ride"
+
+WeaponName 		= "cis_weap_hover_stap_cannon"
+WeaponAmmo 		= "0"
+
+
+EyePointOffset 		= "0.0 3.0 0.0"
+TrackCenter		= "0.0 3.0 0.0"
+TrackOffset 		= "0.0 0.0 5.0"
+TiltValue		= "5.0"
+
+PitchLimits		= "-15.0 15.0"
+YawLimits		= "-15.0 15.0"
+
+
+
+AimerNodeName 		= "hp_gun_2"
+AimerPitchLimits		= "-90.0 90.0"
+AimerYawLimits		= "-90.0 90.0"
+
+
+NextAimer 		= "-"
+
+AimerNodeName 		= "hp_gun_1"
+AimerPitchLimits		= "-90.0 90.0"
+AimerYawLimits		= "-90.0 90.0"
+
+
+AISizeType		= "SMALL"
+
+
+
+VOUnitType              = 085
+EngineSound 		= "cis_hover_stap_engine_parameterized"
+HurtSound     		= ""
+DeathSound   		= "com_weap_obj_small_exp"
+VehicleCollisionSound   ="com_veh_collision_sm"
+TurnOnSound    		= ""
+TurnOffSound   		= ""
+Music          		= ""
+RepMusic 		= "rep_vehicle"
+CISMusic 		= "cis_vehicle"
+ImpMusic 		= "imp_vehicle"
+MusicSpeed     		= ".15"
+MusicDelay     		= "3.0"
+GroundedSound  		= ""
+GroundedHeight 		= ""

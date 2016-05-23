@@ -46,6 +46,11 @@ Layer("Clouds", 8, 0)
 	Description("");
 }
 
+Layer("eli", 9, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -78,5 +83,10 @@ GameMode("CW_Ships_Turrets")
 GameMode("CW_Ships_Turrets_MP")
 {
 	Layer(6);
+}
+
+GameMode("eli")
+{
+	Layer(9);
 }
 

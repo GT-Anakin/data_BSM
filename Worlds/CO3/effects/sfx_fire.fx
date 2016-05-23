@@ -121,7 +121,7 @@ ParticleEmitter("BlackSmoke")
             Size(0)
             {
                 LifeTime(0.3000)
-                Scale(0.5000);
+                Scale(1.5000);
             }
             Color(0)
             {
@@ -193,7 +193,7 @@ ParticleEmitter("BlackSmoke")
                 Size(0)
                 {
                     LifeTime(0.3000)
-                    Scale(0.5000);
+                    Scale(1.5000);
                 }
                 Color(0)
                 {
@@ -265,7 +265,7 @@ ParticleEmitter("BlackSmoke")
                     Size(0)
                     {
                         LifeTime(0.3000)
-                        Scale(0.5000);
+                        Scale(1.5000);
                     }
                     Color(0)
                     {

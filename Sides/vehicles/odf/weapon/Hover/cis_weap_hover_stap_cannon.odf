@@ -1,0 +1,17 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName 			= "cis_weap_hover_stap_cannon_ord"
+
+HeatRecoverRate			= "0.28"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.15"
+
+ShotDelay 			= "0.25"
+
+FireSound       		= "cis_weap_hover_stap_cannon_fire"
+
+MinRange		= "0"
+OptimalRange		= "20"
+MaxRange		= "60"

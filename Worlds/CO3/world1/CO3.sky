@@ -50,3 +50,60 @@ DomeInfo()
 
 
 }
+
+
+SkyObject()
+{
+	Geometry("AirSpeeder_speeder_01");
+	NumObjects(15);
+	Height(-20, 50);
+	VelocityZ(65, 100);
+	VelocityY(0, 0);
+	Distance(250);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("AirSpeeder_speeder_02");
+	NumObjects(15);
+	Height(-20, 50);
+	VelocityZ(65, 100);
+	VelocityY(0, 0);
+	Distance(800);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("AirSpeeder_speeder_03");
+	NumObjects(15);
+	Height(-20, 50);
+	VelocityZ(65, 100);
+	VelocityY(0, 0);
+	Distance(800);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("AirSpeeder_speeder_04");
+	NumObjects(15);
+	Height(-20, 50);
+	VelocityZ(65, 100);
+	VelocityY(0, 0);
+	Distance(800);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("AirSpeeder_speeder_05");
+	NumObjects(15);
+	Height(-20, 50);
+	VelocityZ(65, 100);
+	VelocityY(0, 0);
+	Distance(800);
+	InDirectionFactor(0.0);
+}
+

@@ -1,0 +1,107 @@
+[WeaponClass]
+
+ClassLabel          = "meleethrow"
+
+[Properties]
+HUDTag              = "hud_force_saberthrow"
+IconTexture         = "IMP_blasterrifle_icon"
+
+GeometryName        = ""
+HighResGeometry     = ""
+
+//ChargeUpEffect    = "com_sfx_chargeup"
+//MuzzleFlash       = "med_muzzle_flash"
+FlashColor          = "80 80 255 255"
+FlashLength         = 0.025
+FlashLightColor     = "220 220 255 175"
+Discharge           = "med_smoke_effect"
+
+OrdnanceName        = "com_weap_inf_sabre_throw_ord"
+
+//RoundsPerClip     = "32"
+RoundsPerClip       = "0"
+ReloadTime          = "0.0"
+
+HeatPerShot         = "0.0"     // only allow player to fire every 5 seconds
+HeatRecoverRate     = "1.0"
+HeatThreshold       = "0.01"
+
+EnergyDrain         = "60.0"
+PrimaryWeaponIndex  = "0"
+InitialSalvoDelay   = "0.28"
+
+InstantPlayFireAnim = 1
+TriggerSingle       = "1"
+
+//ZoomMin           = "2.0"
+//ZoomMax           = "2.0"
+//ZoomRate          = "0.0"
+
+//FirePointName     = "hp_fire"
+
+ModeTexture         = "HUD_weap_semiauto"
+//ModeTextureColor  = "42 235 42 100"
+ReticuleTexture     = "reticule_rifle"
+ScopeTexture        = "weapon_scope2"
+
+LockOnRange         = "64.0"
+LockTime            = "0.0"
+AutoAimSize         = "2.0"
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+AITargetPerson      = "1"
+AITargetAnimal      = "1"
+AITargetDroid       = "1"
+AITargetVehicle     = "0"
+AITargetBuilding    = "0"
+MinRange	= "4"
+OptimalRange	= "20"
+MaxRange	= "40"
+
+ChargeRateLight             = "1.0"
+MaxChargeStrengthLight      = "1.0"
+ChargeDelayLight            = "0.0"
+ChargeRateHeavy             = "1.0"
+MaxChargeStrengthHeavy      = "0.5"
+ChargeDelayHeavy            = "2.2"
+
+RecoilLengthHeavy           = "0.25"
+RecoilStrengthHeavy         = "2"
+RecoilDecayHeavy            = "0.0"
+
+FireSound               = "saber_throw"
+//ReloadSound           = ""
+WeaponChangeSound       = ""
+ChangeModeSound         = ""
+FireEmptySound          = ""
+ChargeSound             = ""
+ChargeSoundPitch        = "0.05"
+OverheatSound           = ""
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = ""
+
+
+//NextCharge            = 0.25
+//HeatPerShot           = "0.6"
+//AmmoPerShot           = 1
+
+//NextCharge            = 0.5
+//HeatPerShot           = "0.65"
+//AmmoPerShot           = 2
+
+//NextCharge            = 0.75
+//HeatPerShot           = "0.8"
+//AmmoPerShot           = 3
+
+//NextCharge            = 0.99
+//HeatPerShot           = "1.0"
+//AmmoPerShot           = 4

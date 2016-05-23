@@ -8,13 +8,16 @@ LODPriorityMod = "2.5"
 VehicleType = "fighter"
 FLYERSECTION = "BODY"
 HUDModel = "hud_Vwing_shape"
-MapTexture = "v-wing_icon"
 HealthTexture = "HUD_rep_jedistarfighter_icon"
 VehiclePosition = "common.vehiclepositions.pilot"
 
+MapTexture          = "republic_fly_vwing_icon"
 MapScale            = 1.5
-MapViewMin					= 750
-MapViewMax					= 750
+
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
 
 // PathFollower Attributes
 PathFollowerClass       	= "team1_fly"
@@ -36,6 +39,8 @@ MaxHealth = "5000"
 
 MaxShield = 1400.0
 AddShield = 25
+
+TargetableCollision = "target_cube"
 
 HealthType = "vehicle"
 PilotSkillRepairScale = "0.04"

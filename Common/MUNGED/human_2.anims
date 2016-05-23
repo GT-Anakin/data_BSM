@@ -1,0 +1,34 @@
+ucft
+{
+	ANIM
+	{
+		"human_bazooka_crouchalert_idle_emote"
+		"human_bazooka_crouchalert_walkbackward"
+		"human_bazooka_crouchalert_walkforward"
+		"human_bazooka_crouch_idle_emote"
+		"human_bazooka_crouch_reload"
+		"human_bazooka_crouch_shoot"
+		"human_bazooka_crouch_walkbackward"
+		"human_bazooka_crouch_walkforward"
+		"human_bazooka_fall"
+		"human_bazooka_jump"
+		"human_bazooka_landhard"
+		"human_bazooka_landsoft"
+		"human_bazooka_sprint"
+		"human_bazooka_standalert_idle_emote"
+		"human_bazooka_standalert_runbackward"
+		"human_bazooka_standalert_runforward"
+		"human_bazooka_standalert_walkforward"
+		"human_bazooka_stand_diveroll_forward"
+		"human_bazooka_stand_idle_checkweapon_full"
+		"human_bazooka_stand_idle_emote"
+		"human_bazooka_stand_idle_lookaround"
+		"human_bazooka_stand_reload_full"
+		"human_bazooka_stand_runbackward"
+		"human_bazooka_stand_runforward"
+		"human_bazooka_stand_shoot_full"
+		"human_bazooka_stand_shoot_secondary"
+		"human_bazooka_stand_shoot_secondary2"
+		"human_bazooka_stand_walkforward"
+	}
+}

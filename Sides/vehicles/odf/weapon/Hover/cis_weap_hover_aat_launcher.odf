@@ -1,0 +1,14 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_recoilless"
+
+[Properties]
+OrdnanceName = "cis_weap_hover_aat_launcher_ord"
+
+FireSound = "cis_weap_hover_aat_launcher_fire"
+
+SalvoCount			= "1"
+
+ZoomFirstPerson		= 1
+ZoomMin			= "2.0"
+ZoomMax			= "4.0"
+ZoomRate		= "0.50"

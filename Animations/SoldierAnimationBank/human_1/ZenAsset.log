@@ -1,0 +1,37 @@
+-- Processing directory E:\BF2_ModTools\data_BSM\Animations\SoldierAnimationBank\human_1
+	Processing file basepose.msh, will save in .\\\human_1.zaf
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+.*** WARNING: Animation <human_rifle_diveforward> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_fall> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_jetpack_hover> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_jump> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_landhard> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_landsoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_sprint_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_bouncebacksoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_bouncefrontsoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_flail> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_flyingback> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_flyingfront> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_flyingleft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_flyingright> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_landbacksoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_landfrontsoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_restbacksoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_restfrontsoft> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_tumbleback> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_rifle_thrown_tumblefront> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+

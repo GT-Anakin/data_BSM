@@ -1,6 +1,6 @@
 --
 -- Copyright (c) 2005 Pandemic Studios, LLC. All rights reserved.
---
+-- BF3: Coruscant - Supremacy Mode
 
 -- load the gametype script
 ScriptCB_DoFile("Objective")
@@ -20,9 +20,36 @@ ScriptCB_DoFile("LinkedTurrets")
     DEF = CIS;
 
 
-function ScriptPostLoad()	  
-AllowAISpawn(1, false)
-AllowAISpawn(2, false)
+function ScriptPostLoad()	 
+ 
+--AllowAISpawn(1, false) --Both commands are for debug purposes
+--AllowAISpawn(2, false)
+
+--The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
+---
+---
+SupportsCustomFCCommands = true
+
+local moreCommands = nil
+if AddFCCommands ~= nil then
+moreCommands = AddFCCommands
+end
+
+AddFCCommands = function()
+
+ff_AddCommand(
+"Reduce Texture Resolutions", -- name of the new fake console button
+"This function will load smaller texture resolutions to make the map run more smooth. Note: Once activated the original resolutions can no longer be loaded again UNLESS you restart the map", -- description
+function()
+ReadDataFile("dc:SIDE\\low_textures.lvl", "low_textures")
+
+return moreCommands()
+
+end
+)
+end
+---
+---
 
 --First Functions
 
@@ -59,7 +86,7 @@ cis_frigates_timer = CreateTimer("cis_frigates_timer")
 StartTimer(cis_frigates_timer)
    OnTimerElapse(
 function(timer)
-PlayAnimation("cis_frigates_arrive")
+PlayAnimation("cis_frigate_arrive")
 
       DestroyTimer(timer)
                  end,
@@ -78,7 +105,7 @@ rep_frigates_timer = CreateTimer("rep_frigates_timer")
 StartTimer(rep_frigates_timer)
    OnTimerElapse(
 function(timer)
-PlayAnimation("rep_frigates_arrive")
+PlayAnimation("rep_frigate_arrive")
 
       DestroyTimer(timer)
 	  
@@ -102,7 +129,6 @@ end, "reinfTimer"
 
 	
 --Function Properties
-SetClassProperty("rep_inf_ep3_jettrooper", "AISizeType", "Soldier")
 SetProperty("rep_door_reactor", "IsLocked", 1)
 SetProperty("cis_door_reactor", "IsLocked", 1)
 
@@ -119,7 +145,14 @@ SetProperty("rep_cap_assultship_crashing", "CurHealth", 0)
 SetProperty("rep_cap_assultship_crashing", "MaxHealth", 0)
 
 
+SetClassProperty("tur_bldg_chaingun_tripod", "MapScale", 0.0)
+SetClassProperty("tur_bldg_chaingun_roof", "MapScale", 0.0)
+SetProperty("tur_bldg_chaingun_tripod", "MapScale", 0.0)
+SetProperty("tur_bldg_chaingun_roof", "MapScale", 0.0)
+
 --CW VICTORY DEFEAT FUNCTIONS
+
+if not ScriptCB_InMultiplayer() then
 
 function victoryCheckFn(team)
 
@@ -128,7 +161,7 @@ function victoryCheckFn(team)
     tReactor = "cis_reactor_cube"
   elseif team == 2 then
     tReactor = "rep_reactor_cube" 
-  else print("No team for the reactor??")
+ -- else print("No team for the reactor??")
     return
   end
 
@@ -152,8 +185,7 @@ MissionVictory(team)
   end
 end
 
-
-OnFinishCapture(
+ OnFinishCapture(
   function(postPtr)
     local capTeam = GetObjectTeam(GetEntityName(postPtr))
     victoryCheckFn(capTeam)
@@ -171,6 +203,20 @@ OnObjectKill(
   end
 )
 
+end
+
+--[[--When all your CP's are lost you are still able to win. But only with a limit reinforcement count. If all your teammates died you lose the match.
+function friendlyteamcpstaken(team)
+
+ if (GetObjectTeam("cp1") == team and GetObjectTeam("cp2") == team and GetObjectTeam("cp3") == team and GetObjectTeam("cp4") == team and GetObjectTeam("cp5") == team and GetObjectTeam("cp6") == team and GetObjectTeam("cp7") == team and GetObjectTeam("cp8") == false) then 
+local otherteam
+if team == 1 then
+otherteam = 2 else otherteam = 1
+end
+SetReinforcementCount(otherteam, 3)
+end
+end
+]]
 
 --Call for Reinforcements Republic
 rep_frigates = OnObjectKill(
@@ -280,7 +326,7 @@ PlayAnimation("rep_frigate_countdown")
 )
 
 
---Function Conquest and Assault
+--Function Conquest
     cp1 = CommandPost:New{name = "cp1"}
     cp2 = CommandPost:New{name = "cp2"}
     cp3 = CommandPost:New{name = "cp3"}
@@ -476,8 +522,15 @@ DeactivateRegion("rep_landing")
 SetProperty("rep_reactor_cube", "CurHealth", "0")
 SetProperty("rep_reactor_cube", "MaxHealth", "0")
 
-SetReinforcementCount(ATT, 150)
+SetProperty("rep_turret_1", "IsVisible", "0")
+SetProperty("rep_turret_2", "IsVisible", "0")
+SetProperty("rep_turret_3", "IsVisible", "0")
+SetProperty("rep_turret_4", "IsVisible", "0")
+SetProperty("rep_turret_5", "IsVisible", "0")
 
+if not ScriptCB_InMultiplayer() then
+SetReinforcementCount(ATT, 150)
+end
       DestroyTimer(timer)
                  end,
               rep_countdown
@@ -661,7 +714,15 @@ DeactivateRegion("cis_landing")
 SetProperty("cis_reactor_cube", "CurHealth", "0")
 SetProperty("cis_reactor_cube", "MaxHealth", "0")
 
+SetProperty("cis_turret_1", "IsVisible", "0")
+SetProperty("cis_turret_2", "IsVisible", "0")
+SetProperty("cis_turret_3", "IsVisible", "0")
+SetProperty("cis_turret_4", "IsVisible", "0")
+SetProperty("cis_turret_5", "IsVisible", "0")
+
+if not ScriptCB_InMultiplayer() then
 SetReinforcementCount(DEF, 150)
+end
 
 --SetProperty("cis_fedcruiser_crashing", "IsVisible", 1)
 --SetProperty("cis_fedcruiser_crashing", "MaxHealth", 1e+37)
@@ -741,37 +802,46 @@ function ScriptInit()
    
     --SetMaxFlyHeight(1800)
     --SetMaxPlayerFlyHeight (1800)
-	SetMaxFlyHeight(2000)
-    SetMaxPlayerFlyHeight (2000)
+	SetMaxFlyHeight(1400)
+    SetMaxPlayerFlyHeight (1400)
 	SetMinFlyHeight(-550)
     SetMinPlayerFlyHeight (-550)
 	SetGroundFlyerMap(1)
     
     SetMemoryPoolSize ("ClothData",20)
-    SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
-    SetMemoryPoolSize ("Combo::State",650)      -- should be ~12x #Combo
-    SetMemoryPoolSize ("Combo::Transition",650) -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Condition",650)  -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Attack",550)     -- should be ~8-12x #Combo
-    SetMemoryPoolSize ("Combo::DamageSample",6000)  -- should be ~8-12x #Combo::Attack
-    SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
+    SetMemoryPoolSize ("Combo",70)              -- should be ~ 2x number of jedi classes
+    SetMemoryPoolSize ("Combo::State",850)      -- should be ~12x #Combo
+    SetMemoryPoolSize ("Combo::Transition",850) -- should be a bit bigger than #Combo::State
+    SetMemoryPoolSize ("Combo::Condition",850)  -- should be a bit bigger than #Combo::State
+    SetMemoryPoolSize ("Combo::Attack",750)     -- should be ~8-12x #Combo
+    SetMemoryPoolSize ("Combo::DamageSample",8000)  -- should be ~8-12x #Combo::Attack
+    SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
 	
 	
     	ReadDataFile("dc:Sound\\co3.lvl")
-    --ReadDataFile("sound\\yav.lvl;yav1cw")
-	ReadDataFile("sound\\spa.lvl;spa2cw")
+        ReadDataFile("sound\\yav.lvl;yav1cw")
 
+		ReadDataFile("dc:SIDE\\airspeeder.lvl",
+		"AirSpeeder_speeder_01",
+		"AirSpeeder_speeder_02",
+		"AirSpeeder_speeder_03",
+		"AirSpeeder_speeder_04",
+		"AirSpeeder_speeder_05")
+		
 		ReadDataFile("dc:SIDE\\Republic.lvl",
 		"republic_inf_rifleman",
 		"republic_inf_heavytrooper",
 		"republic_inf_sniper",
 		"republic_inf_engineer",
-		"republic_inf_officer")
+		"republic_inf_officer",
+		"republic_inf_jettrooper")
 		
 		ReadDataFile("dc:SIDE\\cis.lvl",
                     "cis_inf_rifleman",
 					"cis_inf_pilot",
-					"cis_inf_sniper")
+					"cis_inf_sniper",
+					"cis_inf_sbd",
+					"cis_inf_magna")
 			
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"republic_fly_eta2_red",
@@ -781,7 +851,9 @@ function ScriptInit()
 		"cis_fly_tri_fighter",
 		"cis_fly_droid_fighter",
 		"cis_fly_bomber",
-		"cis_fly_gunship")
+		"cis_fly_gunship",
+		"cis_hover_stap",
+		"cis_hover_aat")
 		
 
 		
@@ -798,6 +870,8 @@ function ScriptInit()
 		"tur_bldg_spa_cis_beam",
 		"tur_bldg_chaingun_roof",
         "tur_bldg_chaingun_tripod")
+		
+		
 		
     ReadDataFile("SIDE\\rep.lvl",
                              "rep_inf_ep3_rifleman",
@@ -819,8 +893,6 @@ function ScriptInit()
                              "cis_inf_officer",
                              "cis_inf_droideka",
                              "cis_hero_darthmaul",
-                             "cis_hover_aat",
-							 "cis_hover_stap",
 							-- "cis_walk_spider",
 							 "cis_fly_droidfighter_sc",
 							 "cis_fly_tridroidfighter",
@@ -828,33 +900,62 @@ function ScriptInit()
                              
                                      
                    
+if not ScriptCB_InMultiplayer() then
 
 	SetupTeams{
 		rep = {
 			team = REP,
 			units = 55,
-			reinforcements = -1,
+			reinforcements = 800,
 			soldier  = { "republic_inf_rifleman",12, 20},
 			assault  = { "republic_inf_heavytrooper",5, 10},
 			engineer = { "republic_inf_sniper",5, 10},
 			sniper   = { "republic_inf_engineer",5, 10},
 			officer = {"republic_inf_officer",5, 10},
-			special = { "rep_inf_ep3_jettrooper",5, 10},
+			special = { "republic_inf_jettrooper",5, 10},
 	        
 		},
 		
 		cis = {
 			team = CIS,
 			units = 55,
-			reinforcements = -1,
+			reinforcements = 800,
 			soldier  = { "cis_inf_rifleman",12, 20},
 			assault  = { "cis_inf_rocketeer",5, 10},
-			engineer = { "cis_inf_engineer",5, 10},
-			sniper   = { "cis_inf_sniper",5, 10},
+			engineer = { "cis_inf_sniper",5, 10},
+			sniper   = { "cis_inf_pilot",5, 10},
+			officer = {"cis_inf_magna",5, 10},
+			special = { "cis_inf_sbd",5, 10},
+		}
+	}
+	else
+		SetupTeams{
+		rep = {
+			team = REP,
+			units = 45,
+			reinforcements = 450,
+			soldier  = { "republic_inf_rifleman",12, 18},
+			assault  = { "republic_inf_heavytrooper",3, 8},
+			engineer = { "republic_inf_sniper",3, 8},
+			sniper   = { "republic_inf_engineer",3, 8},
+			officer = {"republic_inf_officer",5, 10},
+			special = { "republic_inf_jettrooper",5, 10},
+	        
+		},
+		
+		cis = {
+			team = CIS,
+			units = 45,
+			reinforcements = 450,
+			soldier  = { "cis_inf_rifleman",12, 18},
+			assault  = { "cis_inf_rocketeer",3, 8},
+			engineer = { "cis_inf_sniper",3, 8},
+			sniper   = { "cis_inf_pilot",3, 8},
 			officer = {"cis_inf_officer",5, 10},
 			special = { "cis_inf_droideka",5, 10},
 		}
 	}
+	end
      
     SetHeroClass(CIS, "cis_hero_darthmaul")
     SetHeroClass(REP, "rep_hero_anakin")
@@ -872,12 +973,16 @@ function ScriptInit()
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
 	SetMemoryPoolSize("EntityCloth", 32)
+	if not ScriptCB_InMultiplayer() then
 	SetMemoryPoolSize("EntityFlyer", 64)
+	else
+	SetMemoryPoolSize("EntityFlyer", 32)
+	end
     SetMemoryPoolSize("EntityHover", 8)
-	SetMemoryPoolSize("CommandWalker", 1)
+	--SetMemoryPoolSize("CommandWalker", 1)
 	SetMemoryPoolSize("CommandFlyer", 4)
     SetMemoryPoolSize("EntityLight", 200)
-    SetMemoryPoolSize("EntitySoundStream", 12)
+    SetMemoryPoolSize("EntitySoundStream", 16)
     SetMemoryPoolSize("EntitySoundStatic", 32)
     SetMemoryPoolSize("MountedTurret", 32)
 	SetMemoryPoolSize("Navigator", 128)
@@ -897,7 +1002,7 @@ function ScriptInit()
     else
     ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
     end
-	
+		  
     SetDenseEnvironment("false")
 
 
@@ -916,9 +1021,6 @@ function ScriptInit()
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)
     
     OpenAudioStream("sound\\global.lvl",  "cw_music")
-    -- OpenAudioStream("sound\\global.lvl",  "global_vo_quick")
-    -- OpenAudioStream("sound\\global.lvl",  "global_vo_slow")
-   -- OpenAudioStream("sound\\yav.lvl",  "yav1")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
@@ -927,7 +1029,6 @@ function ScriptInit()
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-    -- OpenAudioStream("sound\\yav.lvl",  "yav1_emt")
 
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)
@@ -937,29 +1038,19 @@ function ScriptInit()
     SetOutOfBoundsVoiceOver(2, "cisleaving")
     SetOutOfBoundsVoiceOver(1, "repleaving")
 
-  --[[  SetAmbientMusic(REP, 1.0, "rep_yav_amb_start",  0,1)
+    SetAmbientMusic(REP, 1.0, "rep_yav_amb_start",  0,1)
     SetAmbientMusic(REP, 0.8, "rep_yav_amb_middle", 1,1)
     SetAmbientMusic(REP, 0.2, "rep_yav_amb_end",    2,1)
     SetAmbientMusic(CIS, 1.0, "cis_yav_amb_start",  0,1)
     SetAmbientMusic(CIS, 0.8, "cis_yav_amb_middle", 1,1)
-    SetAmbientMusic(CIS, 0.2, "cis_yav_amb_end",    2,1)]]
+    SetAmbientMusic(CIS, 0.2, "cis_yav_amb_end",    2,1)
 	
-	SetAmbientMusic(REP, 1.0, "rep_spa2_amb_start",  0,1)
-       SetAmbientMusic(REP, 0.99, "rep_spa2_Amb01", 1,1)
-       SetAmbientMusic(REP, 0.1,"rep_spa_amb_end",    2,1)
-       SetAmbientMusic(CIS, 1.0, "cis_spa_amb_start",  0,1)
-       SetAmbientMusic(CIS, 0.99, "cis_spa_amb_middle", 1,1)
-       SetAmbientMusic(CIS, 0.1,"cis_spa_amb_end",    2,1)
 
-  --  SetVictoryMusic(REP, "rep_yav_amb_victory")
- --  SetDefeatMusic (REP, "rep_yav_amb_defeat")
-  --  SetVictoryMusic(CIS, "cis_yav_amb_victory")
-  --  SetDefeatMusic (CIS, "cis_yav_amb_defeat")
+    SetVictoryMusic(REP, "rep_yav_amb_victory")
+    SetDefeatMusic (REP, "rep_yav_amb_defeat")
+    SetVictoryMusic(CIS, "cis_yav_amb_victory")
+    SetDefeatMusic (CIS, "cis_yav_amb_defeat")
 	
-	SetVictoryMusic(REP, "rep_spa_amb_victory")
-       SetDefeatMusic (REP, "rep_spa_amb_defeat")
-       SetVictoryMusic(CIS, "cis_spa_amb_victory")
-       SetDefeatMusic (CIS, "cis_spa_amb_defeat")
 
     SetSoundEffect("ScopeDisplayZoomIn",      "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut",     "binocularzoomout")
@@ -972,9 +1063,13 @@ function ScriptInit()
     SetSoundEffect("SpawnDisplaySpawnPointAccept", "shell_menu_enter")
     SetSoundEffect("SpawnDisplayBack",             "shell_menu_exit")
 
-
---OpeningSateliteShot
-    AddCameraShot(0.908386, -0.209095, -0.352873, -0.081226, -45.922508, -19.114113, 77.022636);
+	
+    AddCameraShot(0.982204, -0.132888, -0.131524, -0.017795, 102.451683, -248.963608, 117.954056); --opening shot
+	AddCameraShot(0.706555, -0.027765, -0.706567, -0.027766, 1.175141, -293.920898, 0.094850); --tunnel
+	AddCameraShot(0.361071, 0.106505, -0.888586, 0.262105, -171.654434, -278.825104, -155.103256); --building
+	AddCameraShot(0.002745, -0.000022, -0.999965, -0.007855, -67.152054, -281.399109, -55.667088); --Interior Bar
+	AddCameraShot(-0.302795, 0.044057, -0.942116, -0.137081, 19.078167, -274.236206, -7.283313); --Interior Middle
+	AddCameraShot(0.222218, -0.003227, -0.974889, -0.014157, 80.102913, -288.778595, 48.925350); --Bridge
 
 	
 	AddLandingRegion("landing_1")

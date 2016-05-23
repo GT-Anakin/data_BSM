@@ -1,0 +1,35 @@
+ucft
+{
+	ANIM
+	{
+		"human_barc_9pose"
+		"human_choking"
+		"human_dishcannon_9pose"
+		"human_drive"
+		"human_drivesnowspeeder"
+		"human_drivesnowspeedergunner"
+		"human_drive_1manatst"
+		"human_gallop"
+		"human_man_gun"
+		"human_man_minigun"
+		"human_melee_stand_attack1a"
+		"human_melee_stand_attack1b"
+		"human_melee_stand_block_front1"
+		"human_melee_stand_block_front2"
+		"human_melee_stand_block_left1"
+		"human_melee_stand_block_left2"
+		"human_melee_stand_block_rear1"
+		"human_melee_stand_block_rear2"
+		"human_melee_stand_block_right1"
+		"human_melee_stand_block_right2"
+		"human_minigun_9pose"
+		"human_observeinstruments"
+		"human_ride"
+		"human_ride_shoot"
+		"human_speederbike_9pose"
+		"human_speederbike_sit"
+		"human_standing"
+		"human_stapOLD_ride"
+		"human_stap_ride"
+	}
+}

@@ -1,0 +1,35 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+HUDTag					= "hud_vehicle_bombs"
+TargetEnemy			= "1"
+TargetNeutral			= "0"
+TargetFriendly			= "0"
+
+TargetLockMaxDistance = "20000"
+TargetLockMaxDistanceLose = "25000" 
+
+TargetPerson			= "0"
+TargetAnimal			= "0"
+TargetDroid			= "0"
+TargetVehicle			= "0"
+TargetBuilding			= "1"
+
+AITargetPerson			= "0"
+AITargetAnimal			= "0"
+AITargetDroid			= "0"
+AITargetVehicle			= "0"
+AITargetBuilding			= "1"
+
+MinRange			= "25"
+OptimalRange			= "150"
+MaxRange			= "300"
+
+MuzzleFlash			= ""
+Discharge			= ""
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+RecoilLengthHeavy      		= "0.3"
+RecoilStrengthHeavy     	= "1"

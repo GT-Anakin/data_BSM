@@ -1,0 +1,4 @@
+[ExplosionClass]
+ClassParent = "com_weap_veh_guided_rocket_exp"
+
+[Properties]

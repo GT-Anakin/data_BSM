@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_recoilless_ord"
+
+[Properties]
+ExplosionName = "cis_weap_hover_aat_launcher_exp"
+
+MaxDamage = "2000"

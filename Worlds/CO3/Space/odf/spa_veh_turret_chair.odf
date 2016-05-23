@@ -10,8 +10,6 @@ HealthTexture       = "hud_all_turret_icon"
 VehiclePosition     = "common.vehiclepositions.pilot"
 
 GeometryName            = "shared_turret_chair"
-CollisionScale          = "1.5"
-CollisionThreshold      = "5.0"
 HealthType              = "vehicle"
 
 PilotSkillRepairScale = 0.04
@@ -22,7 +20,7 @@ IsPilotExposed      = "1"
 
 MapTexture = ""
 MapScale 		= "0.0"
-MaxHealth       	= "1e+37"
+MaxHealth       	= "5"
 
 
 CockpitTension          = 22

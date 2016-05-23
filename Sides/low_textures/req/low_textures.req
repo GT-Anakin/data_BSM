@@ -1,0 +1,32 @@
+ucft
+{
+    REQN
+    {
+        "texture"
+"CO3_Bars"
+"CO3_Bars_Interoir"
+"CO3_CIS_Lander_01"
+"CO3_column_01"
+"CO3_Decals"
+"CO3_Detail"
+"CO3_mansion_room"
+"CO3_metal_01"
+"CO3_metal_02"
+"CO3_metal_03"
+"CO3_metal_04"
+"CO3_metal_05"
+"CO3_metal_06"
+"CO3_metal_floor_01"
+"CO3_metal_floor_02"
+"CO3_power_01"
+"CO3_rubbers"
+"CO3_Tower_01"
+"CO3_Tower_02"
+"CO3_Tower_02_blue"
+"CO3_Tower_02_brown"
+"CO3_Tower_02_red"
+"CO3_Tower_03"
+"CO3_wall_01"
+"CO3_wall_02"
+    }
+}

@@ -1,0 +1,29 @@
+[OrdnanceClass]
+ClassLabel 		= "shell"
+
+[Properties]
+ImpactEffectWater 		= "com_sfx_watersplash_sm"
+TrailEffect			= "com_sfx_protontorpedo"
+
+LifeSpan 			= "10.0"
+
+VehicleScale			= "2.0"
+BuildingScale			=	"1.0"
+
+Rebound				= "0.0"
+
+MaxDamage 			= "3000.0"
+
+DamageTransitionDelay = "0.75"
+DamageTransitionPeriod = "10.0"
+DamageFinalDamage = "4000.0"
+FadeLightColor = "0"
+EndLightColor = "249 42 42 100"
+
+
+
+//***************************************
+//**********SOUNDS***********************
+//***************************************
+OrdnanceSound			= "com_weap_inf_ord_hum_rocket"
+//LockedOnSound			= "com_weap_launcher_missile_guided"

@@ -1,0 +1,10 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_recoilless"
+
+[Properties]
+OrdnanceName = "republic_weap_fly_gunship_cannon_ord"
+
+ShotDelay = ".33"
+
+FireSound = "republic_weap_fly_gunship_cannon_fire"
+FireSoundStop   = "0"

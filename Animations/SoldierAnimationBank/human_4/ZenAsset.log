@@ -1,0 +1,47 @@
+-- Processing directory E:\BF2_ModTools\data_BSM\Animations\SoldierAnimationBank\human_4
+	Processing file basepose.msh, will save in .\\\human_4.zaf
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few UVs?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+*** WARNING: Skin model segment 0 has too many/few vert weights?
+*** WARNING: Skin model segment 0 has too many/few vert colors?
+.*** WARNING: Animation <human_barc_9pose> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_choking> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_dishcannon_9pose> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_drive> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_drivesnowspeeder> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_drivesnowspeedergunner> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_drive_1manatst> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_gallop> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_man_gun> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_man_minigun> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_attack1a> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_attack1b> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_front1> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_front2> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_left1> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_left2> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_rear1> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_rear2> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_right1> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_melee_stand_block_right2> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_minigun_9pose> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_observeinstruments> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_ride> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_ride_shoot> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_speederbike_9pose> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_speederbike_sit> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_standing> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <human_stapOLD_ride> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.
+WARNING: IntRangeCheck(): value for "UnitFloatToInt()" out of range. Range is 12 bits [-2048,2047], value is 2128.
+WARNING: DiffCompQuat(): out of range value (above) is for anim="human_melee_stand_attack1a", joint="bone_r_clavicle", frame=30, dim=2

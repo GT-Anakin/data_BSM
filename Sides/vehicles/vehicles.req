@@ -11,6 +11,8 @@ ucft
 		"cis_fly_droid_fighter"
 		"cis_fly_bomber"
 		"cis_fly_gunship"
+		"cis_hover_stap"
+		"cis_hover_aat"
 	}
 	REQN
 	{
@@ -19,5 +21,6 @@ ucft
 		"republic_fly_170_fighter_cockpit"
 		"republic_fly_vwing_cockpit"
 		"republic_fly_gunship_cockpit"
+		"cis_hover_stap_cockpit"
 	}
 }

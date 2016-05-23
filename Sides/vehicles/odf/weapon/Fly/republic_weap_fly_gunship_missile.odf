@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_torpedo"
+
+[Properties]
+RoundsPerClip 			= "6"
+ShotDelay           = "1.25"
+ReloadTime      		= "4"
+
+SalvoCount			= "2"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.08"
+
+OrdnanceName 			= "republic_weap_fly_gunship_missile_ord"
+
+FireSound       		= "rep_weap_fly_gunship_missile_fire"
+FireSoundStop   = "0"

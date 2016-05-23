@@ -1,1 +1,1 @@
-@call ..\munge_world.bat BSM %1
+@call ..\munge_world.bat CO3 %1

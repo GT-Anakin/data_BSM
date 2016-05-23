@@ -8,12 +8,16 @@ FLYERSECTION            = "BODY"
 ReserveOneForPlayer     = "1"
 
 VehicleType         = "transport"
-MapTexture          = "gunship_icon"
 HealthTexture           = "HUD_rep_gunship_icon"
 
+
+MapTexture          = "republic_fly_gunship_icon"
 MapScale            = 1.5
-MapViewMin					= 750
-MapViewMax					= 750
+
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
 
 GeometryName            = "republic_fly_gunship"
 SkeletonName            = "republic_fly_gunship"
@@ -64,10 +68,12 @@ HealthType          = "vehicle"
 MaxShield = 5000.0
 AddShield = 75
 
-TakeoffTime             = 4.5
-TakeoffSpeed            = 5.0
+TargetableCollision = "target_cube"
+
+TakeoffTime             = 3.5
+TakeoffSpeed            = 3.0
 LandingTime             = 3.5
-LandingSpeed            = 6.0
+LandingSpeed            = 4.0
 TakeoffHeight           = 1.5
 
 PilotSkillRepairScale = 0.015
@@ -160,40 +166,74 @@ BarrelLength            = "1.0"
 VehiclePosition         = "common.vehiclepositions.pilot"
 
 //********************************
+//**********   CO PILOT  *********
+//********************************
+FLYERSECTION            = "TURRET1"
+
+//FirstPerson             = "rep\repsccam;rep_1st_cockpit_securitycam"
+PitchRate           = 0.8
+PitchFilter         = 2.75
+TurnRate            = 1.3
+TurnFilter          = 2.75
+
+
+PitchLimits         = "-0 0"
+YawLimits           = "-0 0"
+EyePointOffset          = "0.0 10.0 0.0"
+TrackCenter         = "0.0 7.0 -10.0"
+TrackOffset         = "0.0 -1.0 20.0"
+TiltValue           = "7.0"
+
+ForceMode = 1
+
+WEAPONSECTION           = "1"
+WeaponName          = "republic_weap_fly_gunship_guided_rocket"
+WeaponAmmo          = "0"
+
+VehiclePosition         = "common.vehiclepositions.copilot"
+
+//********************************
 //********  R BALL TURRET  *******
 //********************************
 
-FLYERSECTION            = "TURRET1"
+FLYERSECTION            = "TURRET2"
 
-PitchRate           = 3.0
-//PitchFilter         = 2.75
-TurnRate            = 3.0
-//TurnFilter          = 2.75
+ForceMode = 1
+
+TurretNodeName          = "bone_turret_ball_right_aimer_y"
+
+MaxTurnSpeed            = "3.8"
+MaxPitchSpeed           = "3.8"
+PitchRate                = "3.0"
+TurnRate                 = "3.0"
+PCMaxPitchSpeed         = "3.0"
+PCMaxTurnSpeed          = "3.0"    
 
 
-//FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
+PitchLimits         = "-35.0 70.0"
 YawLimits           = "-115.0 0.0"
-PitchLimits         = "-30.0 70.0"
 
 PCPitchTurnFactor       = "20.0"
 PCYawTurnFactor         = "20.0"
 
+WeaponName          = "republic_weap_fly_gunship_ball"
+WeaponAmmo          = "0"
+
+TURRETSECTION       = "TURRET2"
+
+
+AimerNodeName           = "bone_turret_ball_right_aimer_x"
+AimerPitchLimits        = "-30 70"
+AimerYawLimits          = "0 0"
 
 EyePointOffset          = "0.0 0.3 0.25"
 TrackOffset             = "0.0 0.0 0.0"
 TrackCenter         = "0.0 1.2 -1.0"
 ThirdPersonFOV          = "55"
 TiltValue           = "0.0"
-TurretNodeName          = "bone_turret_ball_right_aimer_y"
-FirePointName           = "hp_turret_right"
-
-ForceMode = 1
-
-
-WeaponName          = "republic_weap_fly_gunship_ball"
-WeaponAmmo          = "0"
 
 BarrelLength            = "0.0"
+FirePointName           = "hp_turret_right"
 
 PilotPosition           = "hp_gunner2"
 PilotAnimation          = "drive"
@@ -214,46 +254,48 @@ VehiclePosition         = "common.vehiclepositions.rightturret"
 //********************************
 //********  L BALL TURRET  *******
 //********************************
-FLYERSECTION        = "TURRET2"
-
-PitchRate           = 3.0
-//PitchFilter         = 2.75
-TurnRate            = 3.0
-//TurnFilter          = 2.75
-
-
-
-//FirstPerson         = "REP\repguntr;rep_1st_cockpit_gunshipgnr"
-YawLimits           = "0.0 115.0"
-PitchLimits         = "-30.0 70.0"
-
-//YawLimits         = "0.0 170.0"
-//PitchLimits       = "10.0 70.0"
-
-PCPitchTurnFactor   = "20.0"
-PCYawTurnFactor     = "20.0"
-
-//PitchTurnFactor   = "1.0"
-//YawTurnFactor         = "1.0"
-
-EyePointOffset      = "0.0 0.3 0.25"
-TrackOffset         = "0.0 0.0 0.0"
-TrackCenter     = "0.0 1.2 -1.0"
-ThirdPersonFOV      = "55"
-TiltValue       = "0.0"
-TurretNodeName      = "bone_turret_ball_left_aimer_y"
-FireNodeName        = "hp_turret_left"
+FLYERSECTION            = "TURRET3"
 
 ForceMode = 1
+
+TurretNodeName          = "bone_turret_ball_left_aimer_y"
+
+MaxTurnSpeed            = "3.8"
+MaxPitchSpeed           = "3.8"
+PitchRate                = "3.0"
+TurnRate                 = "3.0"
+PCMaxPitchSpeed         = "3.0"
+PCMaxTurnSpeed          = "3.0"    
+
+
+PitchLimits         = "-35.0 70.0"
+YawLimits           = "0.0 115.0"
+
+PCPitchTurnFactor       = "20.0"
+PCYawTurnFactor         = "20.0"
 
 WeaponName          = "republic_weap_fly_gunship_ball"
 WeaponAmmo          = "0"
 
-BarrelLength        = "0.0"
+TURRETSECTION       = "TURRET3"
 
-PilotPosition       = "hp_gunner1"
-PilotAnimation      = "drive"
-IsPilotExposed      = "0"
+
+AimerNodeName           = "bone_turret_ball_left_aimer_x"
+AimerPitchLimits        = "-30 70"
+AimerYawLimits          = "0 0"
+
+EyePointOffset          = "0.0 0.3 0.25"
+TrackOffset             = "0.0 0.0 0.0"
+TrackCenter         = "0.0 1.2 -1.0"
+ThirdPersonFOV          = "55"
+TiltValue           = "0.0"
+
+BarrelLength            = "0.0"
+FirePointName           = "hp_turret_right"
+
+PilotPosition           = "hp_gunner2"
+PilotAnimation          = "drive"
+IsPilotExposed          = "0"
 
 TurretYawSound         = "turret_whir_yaw_lp"
 TurretYawSoundPitch    = "0.7"
@@ -265,10 +307,77 @@ TurretDeactivateSound  = ""
 TurretStartSound       = ""
 TurretStopSound        = ""
 
-VehiclePosition     = "common.vehiclepositions.leftturret"
+VehiclePosition         = "common.vehiclepositions.rightturret"
 
+FLYERSECTION            = "TURRET4"
 
-// CHUNCK SECTIONs
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 20"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+FLYERSECTION            = "TURRET5"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 20"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+FLYERSECTION            = "TURRET6"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 20"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+FLYERSECTION            = "TURRET7"
+
+//FirstPerson             = "all\allsccam;all_1st_cockpit_securitycam"
+EyePointOffset          = "0.0 2.5 4.0"
+TrackCenter             = "0.0 0.0 0.0"
+TrackOffset             = "0 3 20"
+TiltValue               = "5"
+FirstPersonFOV          = "50"
+ForceMode               = "1"
+
+VehiclePosition         = "common.vehiclepositions.passenger"
+
+PitchLimits             = "-20.0 10.0"
+YawLimits               = "-180.0 180.0"
+
+PitchTurnFactor         = "0.0"
+
+// CHUNCK SECTIONS
 
 CHUNKSECTION            = "CHUNK1"
 ChunkGeometryName       = "republic_fly_gunship_chunk1"
@@ -422,13 +531,13 @@ ChunkVelocityFactor         =   "0.15"
 
 ContrailEffect = "com_sfx_contrail"
 ContrailAttachPoint = "dummyroot"
-ContrailAttachOffset  = "-10.0 -0.75 -4.7162"
+ContrailAttachOffset  = "-12.6 -0.48 -4.08"
 ContrailEffectMinScale  = "0.0"
 ContrailEffectMaxScale  = "0.8"
 
 ContrailEffect = "com_sfx_contrail"
 ContrailAttachPoint = "dummyroot"
-ContrailAttachOffset  = "10.0 -0.75 -4.7162"
+ContrailAttachOffset  = "12.6 -0.48 -4.08"
 ContrailEffectMinScale  = "0.0"
 ContrailEffectMaxScale  = "0.8"
 
@@ -500,7 +609,7 @@ DamageAttachPoint = "hp_damage_2"
 
 
 //ExplosionCritical = "rep_fly_gunship_exp"
-//ExplosionDestruct   = "rep_fly_gunship_exp"
+ExplosionDestruct   = "republic_fly_gunship_exp"
 
 
 VOUnitType          = 131

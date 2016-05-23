@@ -11,3 +11,5 @@ AnimationName   =   "box2"
 Animation       =   "box2_idle"
 
 FoleyFXGroup    = "metal_foley"
+
+SoundProperty = "co3_amb_fan"

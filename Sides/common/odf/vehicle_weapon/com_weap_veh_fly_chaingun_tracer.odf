@@ -1,0 +1,37 @@
+[OrdnanceClass]
+ClassLabel 		= "beam"
+
+[Properties]
+
+LaserTexture		= "com_sfx_laser_orange"
+LaserGlowColor		= "255 224 160 100"
+LightColor              = "255 224 160 150"
+LightRadius             = "0.0"
+
+LaserWidth		= "0.05"
+FadeOutTime		= "0.15"
+
+//ImpactEffectSoft	= "com_sfx_ord_exp"
+//ImpactEffectRigid	= "com_sfx_ord_exp"
+//ImpactEffectStatic	= "com_sfx_ord_exp"
+//ImpactEffectTerrain	= "com_sfx_ord_exp"
+//ImpactEffectWater 	= "com_sfx_watersplash_ord"
+//ImpactEffectShield	= "com_sfx_ord_exp"
+//ExpireEffect		= "com_sfx_ord_exp"
+
+LifeSpan 		= "0.1"
+Range	 		= "200.0"
+Gravity			= "1.0"
+Rebound			= "0.0"
+
+MaxDamage 		= "0.0"
+
+PassThrough		= "0"
+
+VehicleScale		= "0.0"
+ShieldScale		= "0.0"
+PersonScale		= "0.0"
+DroidScale		= "0.0"
+BuildingScale		= "0.0"
+
+//OrdnanceSound		= "com_weap_inf_ord_hum_sm"

@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent     = "com_weap_veh_fly_beam"
+
+[Properties]
+OrdnanceName 		= "republic_weap_fly_gunship_ball_ord"
+
+FireSound      		= "rep_weap_fly_gunship_ball_fire"
+FireLoopSound       = "rep_weap_fly_gunship_ball_fire_loop"
+
+TargetLockMaxDistance = "2500"
+TargetLockMaxDistanceLose = "3500" 
+
+ZoomFirstPerson		= 1
+ZoomMin			= "2.0"
+ZoomMax			= "8.0"
+ZoomRate		= "0.75"

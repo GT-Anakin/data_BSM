@@ -6,7 +6,7 @@ GeometryName        = "com_item_healthrecharge.msh"
 Lighting = "Dynamic"
 
 MapTexture = "rechargedroid_icon"
-MapScale        = "0.75"
+MapScale        = "0.0"
 //UnbuiltHoloOdf = "com_holo_health"
 
 GeometryName        = "com_item_healthrecharge"

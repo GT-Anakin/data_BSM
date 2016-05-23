@@ -1,0 +1,27 @@
+[OrdnanceClass]
+ClassLabel          	= "missile"
+
+[Properties]
+ImpactEffect			= "large_cannon_impacts"
+OrdnanceEffect          = "all_proton_torpedo"
+ImpactEffectWater       = "com_sfx_watersplash_lg"
+TrailEffect         = "com_sfx_protontorpedo"
+
+LifeSpan            = "5.0"
+
+MinSpeed 	    = "300.0"
+Acceleration	    = "100.0"
+Velocity            = "350.0"
+
+Gravity             = "1.2"
+Rebound             = "0.0"
+TurnRate            = "1.75"
+
+DamageRadius            = "5.0"
+
+VehicleScale            = "1.0"
+BuildingScale						= "3.25"
+
+OrdnanceSound       = "com_weap_inf_ord_hum_rocket"
+CollisionSound      = "com_veh_laser_imp_exp"
+//LockedOnSound     = "com_weap_launcher_missile_guided"

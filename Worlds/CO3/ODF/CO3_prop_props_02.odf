@@ -1,0 +1,18 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_props_02.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_props_02"
+
+FoleyFXGroup    =   "metal_foley"
+
+AttachEffect = "prop_steampipe"
+AttachToHardPoint = "hp_steam_1"
+AttachToHardPoint = "hp_steam_2"
+AttachToHardPoint = "hp_steam_3"
+AttachToHardPoint = "hp_steam_4"
+
+SoundProperty = "co3_amb_gas_pipe"

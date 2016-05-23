@@ -1,0 +1,34 @@
+[OrdnanceClass]
+ClassLabel 		= "bolt"
+
+[Properties]
+
+LaserTexture	    = "com_sfx_laser_orange"
+LaserLength	    = "35"
+GlowLength 	    = 15
+LaserWidth	    = "0.2"
+
+LaserGlowColor      = "255 224 160 100"
+LightColor          = "255 224 160 150"
+LightRadius         = "3.0"
+
+GlowLength          = "15"
+BlurLength          = "25"
+FadeOutTime         = ".25"
+
+LifeSpan            = "0.1"
+Velocity            = "20000"
+Gravity             = "0.1"
+Rebound             = "0"
+
+MaxDamage           = "270"
+
+VehicleScale        = "1"
+ShieldScale         = "0.1"
+BuildingScale       = "0.1"
+PersonScale         = "1"
+HealthScale         = "1"
+
+//*****SOUND*****//
+OrdnanceSound = "com_weap_inf_ord_hum_lg"
+CollisionSound = "imp_weap_ord_exp"

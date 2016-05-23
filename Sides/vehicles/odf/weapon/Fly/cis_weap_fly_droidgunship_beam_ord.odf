@@ -1,0 +1,8 @@
+[OrdnanceClass]
+ClassParent     = "com_weap_veh_fly_beam_ord"
+
+[Properties]
+MaxDamage 			= "4000"
+
+ShieldScale         = "0.5"
+BuildingScale       = "0.5"

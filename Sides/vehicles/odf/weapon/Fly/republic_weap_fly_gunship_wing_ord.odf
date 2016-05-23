@@ -1,0 +1,24 @@
+[OrdnanceClass]
+ClassLabel 			= "beam"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+LaserTexture			= "com_sfx_laser_green"
+ImpactEffect			= "com_sfx_explosion_sm"
+LaserWidth			= "0.3"
+LaserGlowColor			= "61 252 56 100"
+
+LifeSpan			= "0.4"
+
+Range	 			= "400.0"
+
+MaxDamage 			= "450.0"
+VehicleScale			= "1.0"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.5"
+
+ImpactEffect 			= "cis_sfx_weap_spiderdroid_ord_exp"
