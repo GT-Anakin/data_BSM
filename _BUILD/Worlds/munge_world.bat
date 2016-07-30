@@ -33,11 +33,11 @@ cd %1
 set MUNGE_ROOT_DIR=..\..\..
 if not "%2"=="" set MUNGE_PLATFORM=%2
 if %MUNGE_PLATFORM%x==x set MUNGE_PLATFORM=PC
-if "%MUNGE_BIN_DIR%"=="" (
+REM if "%MUNGE_BIN_DIR%"=="" (
 	set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
-	set "PATH=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin;%PATH%"
-	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-)
+	set PATH=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin;%PATH%
+REM 	echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+REM )
 
 set MUNGE_ARGS=-checkdate -continue -platform %MUNGE_PLATFORM%
 set MUNGE_DIR=MUNGED\%MUNGE_PLATFORM%

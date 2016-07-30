@@ -1,0 +1,36 @@
+[ExplosionClass]
+ClassLabel 			= "explosion"
+
+[Properties]
+LifeSpan 			= "0.3"
+Damage 			= "400.0"
+
+DamageRadiusInner = "4.5"
+DamageRadiusOuter = "6.5"
+
+Push 		  = "10.0"
+PushRadiusInner   = "4.5"
+PushRadiusOuter   = "4.5"
+
+Shake 		  = "0.5"
+ShakeLength	  = "0.75"
+ShakeRadiusInner  = "8.0"
+ShakeRadiusOuter  = "15.0"
+
+Effect 			= "com_sfx_explosion_lg"
+VehicleScale	= "0.0"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "0.0"
+AnimalScale	= "1.0"
+
+//SoundProperty		= "com_weap_obj_med_exp"
+
+NumChunks = "12"
+ChunkGeometryName = "com_smallchunk1"
+ChunkTerrainCollisions = "10"
+ChunkTrailEffect = "com_sfx_chunktrail_xs"
+ChunkPhysics = "FULL"
+ChunkOmega = "4.0 4.0 4.0"
+ChunkSpeed = "8.0 14.0"
+ChunkStartDistance = "1.5"

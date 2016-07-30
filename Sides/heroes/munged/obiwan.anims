@@ -1,0 +1,15 @@
+ucft
+{
+	ANIM
+	{
+		"obiwan_sabre_jumpattack_end_full"
+		"obiwan_sabre_jumpattack_fall_full"
+		"obiwan_sabre_jumpattack_land_full"
+		"obiwan_sabre_stand_attack1a_end_full"
+		"obiwan_sabre_stand_attack1a_full"
+		"obiwan_sabre_stand_attack1b_end_full"
+		"obiwan_sabre_stand_attack1b_full"
+		"obiwan_sabre_stand_attack1c_full"
+		"obiwan_sabre_stand_dashattack_full"
+	}
+}

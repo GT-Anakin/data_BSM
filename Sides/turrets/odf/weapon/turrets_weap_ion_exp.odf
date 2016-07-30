@@ -1,0 +1,22 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+WaterEffect 		= "com_sfx_watersplash_ord_md"
+
+
+Damage 			= "20000.0"
+DamageRadius 		= "20.0"
+Shake 		  	= "1.0"
+ShakeRadius 		= "35.0"
+Push 			= "0.0"
+PushRadius 		= "0.0"
+Effect 			= "com_sfx_weap_detpack_exp"
+
+VehicleScale		= "1.0"
+ShieldScale		= "1.0"
+PersonScale		= "1.0"
+DroidScale		= "1.0"
+BuildingScale		= "0.0"
+
+SoundProperty  ="imp_weap_ord_exp_lg"

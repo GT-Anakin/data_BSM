@@ -11,7 +11,10 @@ ScriptCB_DoFile("setup_teams")
 ScriptCB_DoFile("LinkedDestroyables")
 ScriptCB_DoFile("LinkedShields") 
 ScriptCB_DoFile("LinkedTurrets")
-	
+if not ScriptCB_InMultiplayer() then
+ScriptCB_DoFile("AIHeroSupport")
+end
+
 	--  REP Attacking (attacker is always #1)
     REP = 1;
     CIS = 2;
@@ -25,6 +28,7 @@ function ScriptPostLoad()
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
 
+if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
 ---
 ---
@@ -47,9 +51,33 @@ return moreCommands()
 
 end
 )
+
+ff_AddCommand(
+"Destroy CIS Ship DEBUG", -- name of the new fake console button
+"Debug Command: Destroy CIS Reactor", -- description
+function()
+KillObject("cis_reactor")
+
+return moreCommands()
+
 end
+)
+
+ff_AddCommand(
+"Destroy REP Ship DEBUG", -- name of the new fake console button
+"Debug Command: Destroy REP Reactor", -- description
+function()
+KillObject("rep_reactor")
+
+return moreCommands()
+
+end
+)
+end
+
 ---
 ---
+end
 
 --First Functions
 
@@ -87,6 +115,10 @@ StartTimer(cis_frigates_timer)
    OnTimerElapse(
 function(timer)
 PlayAnimation("cis_frigate_arrive")
+ShowMessageText("level.co3.supremacy.events.frigates.cis.arrival.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.cis.arrival.rep", ATT)
+
+AddReinforcements(DEF, 150)
 
       DestroyTimer(timer)
                  end,
@@ -100,12 +132,15 @@ ForceHumansOntoTeam1(0)
 PlayAnimation("rep_console")
 
 rep_frigates_timer = CreateTimer("rep_frigates_timer")
-  -- SetTimerValue(rep_frigates_timer, (480.0))
   SetTimerValue(rep_frigates_timer, (480.0))
 StartTimer(rep_frigates_timer)
    OnTimerElapse(
 function(timer)
 PlayAnimation("rep_frigate_arrive")
+ShowMessageText("level.co3.supremacy.events.frigates.rep.arrival.rep", ATT)
+ShowMessageText("level.co3.supremacy.events.frigates.rep.arrival.cis", DEF)
+
+AddReinforcements(ATT, 150)
 
       DestroyTimer(timer)
 	  
@@ -114,7 +149,7 @@ PlayAnimation("rep_frigate_arrive")
               ) 
 			  
 else
-print("Player team is somehow 0 or undefined...")
+--print("Player team is somehow 0 or undefined...")
 end
 end, "reinfTimer"
 )
@@ -129,11 +164,8 @@ end, "reinfTimer"
 
 	
 --Function Properties
-SetProperty("rep_door_reactor", "IsLocked", 1)
-SetProperty("cis_door_reactor", "IsLocked", 1)
-
-ActivateRegion(deathregion_CIS)
-ActivateRegion(deathregion_REP)
+SetProperty("rep_door_reactor", "IsLocked", 0)
+SetProperty("cis_door_reactor", "IsLocked", 0)
 
 SetProperty("cis_fedcruiser_crashing", "IsVisible", 0)
 SetProperty("cis_fedcruiser_crashing", "CurHealth", 0)
@@ -145,10 +177,10 @@ SetProperty("rep_cap_assultship_crashing", "CurHealth", 0)
 SetProperty("rep_cap_assultship_crashing", "MaxHealth", 0)
 
 
-SetClassProperty("tur_bldg_chaingun_tripod", "MapScale", 0.0)
-SetClassProperty("tur_bldg_chaingun_roof", "MapScale", 0.0)
-SetProperty("tur_bldg_chaingun_tripod", "MapScale", 0.0)
-SetProperty("tur_bldg_chaingun_roof", "MapScale", 0.0)
+SetProperty("Comm_Table_REP_Holo", "IsVisible", 0)
+SetProperty("Comm_Table_CIS_Holo", "IsVisible", 0)
+
+
 
 --CW VICTORY DEFEAT FUNCTIONS
 
@@ -222,13 +254,22 @@ end
 rep_frigates = OnObjectKill(
    function(object, killer)
       if GetEntityName(object) == "rep_comm_table_console" then
+	  SetProperty("Comm_Table_REP_Holo", "IsVisible", 1)
+ShowMessageText("level.co3.supremacy.events.frigates.rep.coming.rep", ATT)
 	   rep_frigates_arrive_timer = CreateTimer("rep_frigates_arrive_timer")
    SetTimerValue(rep_frigates_arrive_timer, (180.0))
 StartTimer(rep_frigates_arrive_timer)
 ShowTimer(rep_frigates_arrive_timer)
    OnTimerElapse(
 function(timer)
+
 PlayAnimation("rep_frigate_arrive")
+ATTReinforcementCount = GetReinforcementCount(ATT)
+SetReinforcementCount(ATT, ATTReinforcementCount + 150)
+SetProperty("Comm_Table_REP_Holo", "IsVisible", 0)
+ShowMessageText("level.co3.supremacy.events.frigates.rep.arrival.rep", ATT)
+ShowMessageText("level.co3.supremacy.events.frigates.rep.arrival.cis", DEF)
+
 ShowTimer(nil)
       DestroyTimer(timer)
                  end,
@@ -243,13 +284,22 @@ ShowTimer(nil)
 cis_frigates = OnObjectKill(
    function(object, killer)
       if GetEntityName(object) == "cis_comm_table_console" then
+SetProperty("Comm_Table_CIS_Holo", "IsVisible", 1)
+ShowMessageText("level.co3.supremacy.events.frigates.cis.coming.cis", DEF)
 	   cis_frigates_arrive_timer = CreateTimer("cis_frigates_arrive_timer")
    SetTimerValue(cis_frigates_arrive_timer, (180.0))
 StartTimer(cis_frigates_arrive_timer)
 ShowTimer(cis_frigates_arrive_timer)
    OnTimerElapse(
 function(timer)
+
 PlayAnimation("cis_frigate_arrive")
+DEFReinforcementCount = GetReinforcementCount(DEF)
+SetReinforcementCount(DEF, DEFReinforcementCount + 150)
+SetProperty("Comm_Table_CIS_Holo", "IsVisible", 0)
+ShowMessageText("level.co3.supremacy.events.frigates.cis.arrival.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.cis.arrival.rep", ATT)
+
 ShowTimer(nil)
       DestroyTimer(timer)
                  end,
@@ -266,29 +316,33 @@ ShowTimer(nil)
    function(object, killer)
       if GetEntityName(object) == "cis_frigate_ext" then
 	  
+	  
+ShowMessageText("level.co3.supremacy.events.frigates.cis.destruction.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.cis.destruction.rep", ATT)
+
+AddReinforcements(DEF, -100)
+	  
 SetProperty("cis_frigate_ext_hallways", "CurHealth", "0")
 SetProperty("cis_frigate_ext_hallways", "MaxHealth", "0")
 
-SetProperty("cis_fri_auto_1", "CurHealth", "0")
-SetProperty("cis_fri_auto_1", "MaxHealth", "0")
-SetProperty("cis_fri_auto_2", "CurHealth", "0")
-SetProperty("cis_fri_auto_2", "MaxHealth", "0")
-SetProperty("cis_fri_auto_3", "CurHealth", "0")
-SetProperty("cis_fri_auto_3", "MaxHealth", "0")
-SetProperty("cis_fri_auto_4", "CurHealth", "0")
-SetProperty("cis_fri_auto_4", "MaxHealth", "0")
-SetProperty("cis_fri_auto_5", "CurHealth", "0")
-SetProperty("cis_fri_auto_5", "MaxHealth", "0")
+SetProperty("cis_fri_auto_tur_1", "CurHealth", "0")
+SetProperty("cis_fri_auto_tur_1", "MaxHealth", "0")
+SetProperty("cis_fri_auto_tur_2", "CurHealth", "0")
+SetProperty("cis_fri_auto_tur_2", "MaxHealth", "0")
+SetProperty("cis_fri_auto_tur_3", "CurHealth", "0")
+SetProperty("cis_fri_auto_tur_3", "MaxHealth", "0")
+SetProperty("cis_fri_auto_tur_4", "CurHealth", "0")
+SetProperty("cis_fri_auto_tur_4", "MaxHealth", "0")
+SetProperty("cis_fri_auto_tur_5", "CurHealth", "0")
+SetProperty("cis_fri_auto_tur_5", "MaxHealth", "0")
 
 KillObject("cp_cis_frigate")
+KillObject("CIS_Frigate_ext_Shields")
 
 RemoveRegion("cis_landing_frigate")
-DeactivateRegion("cis_landing_frigate")
 
-PlayAnimation("cis_frigate_countdown")
+PlayAnimation("cis_frigate_countdown")	
 
-
-	  
       end
    end
 )
@@ -298,8 +352,13 @@ PlayAnimation("cis_frigate_countdown")
    function(object, killer)
       if GetEntityName(object) == "rep_frigate_ext" then
 	  
-SetProperty("rep_frigate_ext_hallways", "CurHealth", "0")
-SetProperty("rep_frigate_ext_hallways", "MaxHealth", "0")
+ShowMessageText("level.co3.supremacy.events.frigates.rep.destruction.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.rep.destruction.rep", ATT)
+
+AddReinforcements(ATT, -100)
+
+SetProperty("rep_Frigate_ext_Hallways", "CurHealth", "0")
+SetProperty("rep_Frigate_ext_Hallways", "MaxHealth", "0")
 
 SetProperty("rep_fri_auto_1", "CurHealth", "0")
 SetProperty("rep_fri_auto_1", "MaxHealth", "0")
@@ -313,14 +372,62 @@ SetProperty("rep_fri_auto_5", "CurHealth", "0")
 SetProperty("rep_fri_auto_5", "MaxHealth", "0")
 
 KillObject("cp_rep_frigate")
+KillObject("REP_Frigate_ext_Shields")
 
 RemoveRegion("rep_landing_frigate")
-DeactivateRegion("rep_landing_frigate")
+  
+PlayAnimation("rep_frigate_countdown")	  
 
-PlayAnimation("rep_frigate_countdown")
+      end
+   end
+)
 
+--Remaining Frigates
 
-	  
+rep_frigate1 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_frigate_ext1" then
+AddReinforcements(ATT, -100)
+      end
+   end
+)
+
+rep_frigate2 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_frigate_ext2" then
+AddReinforcements(ATT, -100)
+      end
+   end
+)
+
+rep_frigate3 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_frigate_ext3" then
+AddReinforcements(ATT, -100)
+      end
+   end
+)
+
+cis_frigate1 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_frigate_ext1" then
+AddReinforcements(DEF, -100)
+      end
+   end
+)
+
+cis_frigate2 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_frigate_ext2" then
+AddReinforcements(DEF, -100)
+      end
+   end
+)
+
+cis_frigate3 = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_frigate_ext3" then
+AddReinforcements(DEF, -100)
       end
    end
 )
@@ -338,8 +445,8 @@ PlayAnimation("rep_frigate_countdown")
     
     --This sets up the actual objective.  This needs to happen after cp's are defined
     conquest = ObjectiveConquest:New{teamATT = ATT, teamDEF = DEF, 
-                                     textATT = "game.modes.con", 
-                                     textDEF = "game.modes.con2",
+                                     textATT = "game.modes.supremacy", 
+                                     textDEF = "game.modes.supremacy",
                                      multiplayerRules = true}
 
     --This adds the CPs to the objective.  This needs to happen after the objective is set up
@@ -354,20 +461,63 @@ PlayAnimation("rep_frigate_countdown")
 
     conquest:Start()
 
-	
+	if not ScriptCB_InMultiplayer() then
+	herosupport = AIHeroSupport:New{gameMode = "UberConquest",}
+	herosupport:SetHeroClass(REP, "heroes_republic_x2")
+	herosupport:SetHeroClass(CIS, "heroes_cis_grievous")
+	herosupport:AddSpawnCP("cp1","cp1_spawn")
+	herosupport:AddSpawnCP("cp2","cp2_spawn")
+	herosupport:AddSpawnCP("cp3","cp3_spawn")
+	herosupport:AddSpawnCP("cp4","cp4_spawn")
+	herosupport:AddSpawnCP("cp5","cp5_spawn")
+	herosupport:AddSpawnCP("cp6","cp6_spawn")
+	herosupport:AddSpawnCP("cp7","cp7_spawn")
+	herosupport:AddSpawnCP("cp8","cp8_spawn")
+	herosupport:Start()
+	end
 	
 	SetUberMode(1);
+	SetAIDifficulty(2 , 2 )
     EnableSPHeroRules()
-	EnableFlyerPath(team1_fly,1)
-	EnableFlyerPath(team2_fly,1)
-	AddDeathRegion("deathregion_REP")
-	AddDeathRegion("deathregion_CIS")
+	EnableFlyerPath("team1_fly",1)
+	EnableFlyerPath("team2_fly",1)
+	AddDeathRegion("deathregion5")
+	AddDeathRegion("deathregion6")
+	
+	AddDeathRegion("Deathregion1")
+	AddDeathRegion("Deathregion2")
+	AddDeathRegion("Deathregion3")
+	AddDeathRegion("Deathregion4")
+	 
+
+
  end
  
  function SetupDestroyables()
  
+--FRIGATES REPUBLIC 
 
- --REPUBLIC
+    Rep_Frigate_1_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_frigate_ext1"}, {"rep_Frigate_ext_Hallways_closed1", "rep_fri_tur_a_1", "rep_fri_tur_a_2", "rep_fri_tur_a_3", "rep_fri_tur_a_4", "rep_fri_tur_a_5"}} }
+    Rep_Frigate_1_REPUBLIC:Init() 
+	
+	Rep_Frigate_2_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_frigate_ext2"}, {"rep_Frigate_ext_Hallways_closed2", "rep_fri_tur_b_1", "rep_fri_tur_b_2", "rep_fri_tur_b_3", "rep_fri_tur_b_4", "rep_fri_tur_b_5"}} }
+    Rep_Frigate_2_REPUBLIC:Init() 
+	
+	Rep_Frigate_3_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_frigate_ext3"}, {"rep_Frigate_ext_Hallways_closed3", "rep_fri_tur_c_1", "rep_fri_tur_c_2", "rep_fri_tur_c_3", "rep_fri_tur_c_4", "rep_fri_tur_c_5"}} }
+    Rep_Frigate_3_REPUBLIC:Init() 
+	
+--FRIGATES CIS 
+	Cis_Frigate_1_CIS = LinkedDestroyables:New{ objectSets = {{"cis_frigate_ext1"}, {"cis_Frigate_ext_Hallways_closed1", "cis_fri_tur_a_1", "cis_fri_tur_a_2", "cis_fri_tur_a_3", "cis_fri_tur_a_4", "cis_fri_tur_a_5"}} }
+    Cis_Frigate_1_CIS:Init() 
+	
+	Cis_Frigate_2_CIS = LinkedDestroyables:New{ objectSets = {{"cis_frigate_ext2"}, {"cis_Frigate_ext_Hallways_closed2", "cis_fri_tur_b_1", "cis_fri_tur_b_2", "cis_fri_tur_b_3", "cis_fri_tur_b_4", "cis_fri_tur_b_5"}} }
+    Cis_Frigate_2_CIS:Init() 
+	
+	Cis_Frigate_3_CIS = LinkedDestroyables:New{ objectSets = {{"cis_frigate_ext3"}, {"cis_Frigate_ext_Hallways_closed3", "cis_fri_tur_c_1", "cis_fri_tur_c_2", "cis_fri_tur_c_3", "cis_fri_tur_c_4", "cis_fri_tur_c_5"}} }
+    Cis_Frigate_3_CIS:Init() 
+
+	
+--REPUBLIC
     --REP Door 
     Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_shield_console_1", "rep_shield_console_2"}, {"rep_door_exp_cube"}} }
     Rep_Reactor_Room_DoorREPUBLIC:Init() 
@@ -377,11 +527,17 @@ PlayAnimation("rep_frigate_countdown")
     Rep_Reactor_Room_DoorREPUBLIC:Init() 
 	
 	
-    --Door Function REPUBLIC
+	 --Door Function REPUBLIC
 	Rep_Reactor_Room_Door_Function = OnObjectKill(
 	function(object, killer)
       if GetEntityName(object) == "rep_door_exp_cube" then
 	SetProperty("rep_door_reactor", "IsLocked", 0)
+	SetProperty("rep_shield_console_1", "MaxHealth", 1e+37)
+	SetProperty("rep_shield_console_1", "CurHealth", 0)
+	SetProperty("rep_shield_console_2", "MaxHealth", 1e+37)
+	SetProperty("rep_shield_console_2", "CurHealth", 0)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.door.rep", ATT)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.door.cis", DEF)
       end
    end
 )
@@ -394,8 +550,10 @@ Rep_Capital_Ship = OnObjectKill(
    rep_countdown = CreateTimer("rep_countdown")
    SetTimerValue(rep_countdown, (60.0))
    
-RemoveRegion("deathregion_REP")
-DeactivateRegion("deathregion_REP")
+RemoveRegion("deathregion5")
+
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.reactor.rep", ATT)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.reactor.cis", DEF)
 
 SetProperty("rep_tri_tur_3", "CurHealth", "0")
 SetProperty("rep_tri_tur_3", "MaxHealth", "0")
@@ -479,6 +637,16 @@ SetProperty("rep_cor_23", "MaxHealth", "0")
 SetProperty("rep_cor_24", "CurHealth", "0")
 SetProperty("rep_cor_24", "MaxHealth", "0")
 
+SetProperty("rep_health_1", "CurHealth", "0")
+SetProperty("rep_health_1", "MaxHealth", "0")
+SetProperty("rep_health_2", "CurHealth", "0")
+SetProperty("rep_health_2", "MaxHealth", "0")
+
+SetProperty("rep_ammo_1", "CurHealth", "0")
+SetProperty("rep_ammo_1", "MaxHealth", "0")
+SetProperty("rep_ammo_2", "CurHealth", "0")
+SetProperty("rep_ammo_2", "MaxHealth", "0")
+
 SetProperty("rep_reactor_room", "CurHealth", "0")
 SetProperty("rep_reactor_room", "MaxHealth", "0")
 
@@ -517,7 +685,6 @@ PlayAnimation("republic_countdown_1")
 PlayAnimation("republic_countdown_2")
 
 RemoveRegion("rep_landing")
-DeactivateRegion("rep_landing")
 
 SetProperty("rep_reactor_cube", "CurHealth", "0")
 SetProperty("rep_reactor_cube", "MaxHealth", "0")
@@ -528,9 +695,12 @@ SetProperty("rep_turret_3", "IsVisible", "0")
 SetProperty("rep_turret_4", "IsVisible", "0")
 SetProperty("rep_turret_5", "IsVisible", "0")
 
-if not ScriptCB_InMultiplayer() then
-SetReinforcementCount(ATT, 150)
-end
+SetProperty("Comm_Table_REP_Holo", "IsVisible", 0)
+
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.destruction.rep", ATT)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.destruction.cis", DEF)
+AddReinforcements(ATT, -200)
+
       DestroyTimer(timer)
                  end,
               rep_countdown
@@ -540,6 +710,7 @@ end
       end
    end
 )
+  
 
 --CIS
     --CIS Door 
@@ -550,12 +721,17 @@ end
     CIS_Reactor_Room_DoorCIS = LinkedDestroyables:New{ objectSets = {{"cis_reactor_console_1", "cis_reactor_console_2", "cis_reactor_console_3", "cis_reactor_console_4", "cis_reactor_console_5", "cis_reactor_console_6"}, {"cis_reactor"}} }
     CIS_Reactor_Room_DoorCIS:Init() 
 	
-	
-    --Door Function CIS
+	--Door Function CIS
 	CIS_Reactor_Room_Door_Function = OnObjectKill(
 	function(object, killer)
       if GetEntityName(object) == "cis_door_exp_cube" then
 	SetProperty("cis_door_reactor", "IsLocked", 0)
+	SetProperty("cis_shield_console_1", "MaxHealth", 1e+37)
+	SetProperty("cis_shield_console_1", "CurHealth", 0)
+	SetProperty("cis_shield_console_2", "MaxHealth", 1e+37)
+	SetProperty("cis_shield_console_2", "CurHealth", 0)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.door.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.door.rep", ATT)
       end
    end
 )
@@ -568,8 +744,10 @@ CIS_Capital_Ship = OnObjectKill(
    cis_countdown = CreateTimer("rep_countdown")
    SetTimerValue(cis_countdown, (60.0))
    
-RemoveRegion("deathregion_CIS")
-DeactivateRegion("deathregion_CIS")
+RemoveRegion("deathregion6")
+   
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.reactor.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.reactor.rep", ATT)
 
 SetProperty("cis_tri_tur_3", "CurHealth", "0")
 SetProperty("cis_tri_tur_3", "MaxHealth", "0")
@@ -652,19 +830,11 @@ SetProperty("cis_ammo_1", "CurHealth", "0")
 SetProperty("cis_ammo_1", "MaxHealth", "0")
 SetProperty("cis_ammo_2", "CurHealth", "0")
 SetProperty("cis_ammo_2", "MaxHealth", "0")
-SetProperty("rep_ammo_1", "CurHealth", "0")
-SetProperty("rep_ammo_1", "MaxHealth", "0")
-SetProperty("rep_ammo_2", "CurHealth", "0")
-SetProperty("rep_ammo_2", "MaxHealth", "0")
 
 SetProperty("cis_health_1", "CurHealth", "0")
 SetProperty("cis_health_1", "MaxHealth", "0")
 SetProperty("cis_health_2", "CurHealth", "0")
 SetProperty("cis_health_2", "MaxHealth", "0")
-SetProperty("rep_health_1", "CurHealth", "0")
-SetProperty("rep_health_1", "MaxHealth", "0")
-SetProperty("rep_health_2", "CurHealth", "0")
-SetProperty("rep_health_2", "MaxHealth", "0")
 
 SetProperty("cis_reactor_room", "CurHealth", "0")
 SetProperty("cis_reactor_room", "MaxHealth", "0")
@@ -709,7 +879,6 @@ PlayAnimation("cis_countdown_2")
 
 
 RemoveRegion("cis_landing")
-DeactivateRegion("cis_landing")
 
 SetProperty("cis_reactor_cube", "CurHealth", "0")
 SetProperty("cis_reactor_cube", "MaxHealth", "0")
@@ -720,9 +889,13 @@ SetProperty("cis_turret_3", "IsVisible", "0")
 SetProperty("cis_turret_4", "IsVisible", "0")
 SetProperty("cis_turret_5", "IsVisible", "0")
 
-if not ScriptCB_InMultiplayer() then
-SetReinforcementCount(DEF, 150)
-end
+SetProperty("Comm_Table_CIS_Holo", "IsVisible", 0)
+
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.destruction.cis", DEF)
+ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.destruction.rep", ATT)
+AddReinforcements(DEF, -200)
+
+
 
 --SetProperty("cis_fedcruiser_crashing", "IsVisible", 1)
 --SetProperty("cis_fedcruiser_crashing", "MaxHealth", 1e+37)
@@ -737,6 +910,7 @@ end
       end
    end
 )
+    
 
 end
 
@@ -748,19 +922,19 @@ end
     turretLinkageREPUBLIC:Init()
     
     function turretLinkageREPUBLIC:OnDisableMainframe()
-        ShowMessageText("level.spa.hangar.mainframe.atk.down", CIS)
-        ShowMessageText("level.spa.hangar.mainframe.def.down", REP)
+    --    ShowMessageText("level.spa.hangar.mainframe.atk.down", CIS)
+    --    ShowMessageText("level.spa.hangar.mainframe.def.down", REP)
 
-        BroadcastVoiceOver( "ROSMP_obj_21", REP )
-        BroadcastVoiceOver( "COSMP_obj_20", CIS )
+    --    BroadcastVoiceOver( "ROSMP_obj_21", REP )
+    --    BroadcastVoiceOver( "COSMP_obj_20", CIS )
     end
 	
     function turretLinkageREPUBLIC:OnEnableMainframe()
-        ShowMessageText("level.spa.hangar.mainframe.atk.up", CIS)
-        ShowMessageText("level.spa.hangar.mainframe.def.up", REP)
+    --    ShowMessageText("level.spa.hangar.mainframe.atk.up", CIS)
+    --    ShowMessageText("level.spa.hangar.mainframe.def.up", REP)
 
-        BroadcastVoiceOver( "ROSMP_obj_23", REP )
-        BroadcastVoiceOver( "COSMP_obj_22", CIS )       
+    --    BroadcastVoiceOver( "ROSMP_obj_23", REP )
+    --    BroadcastVoiceOver( "COSMP_obj_22", CIS )       
     end
 	
 --Function Auto Turrets CIS
@@ -769,19 +943,19 @@ end
     turretLinkageCIS:Init()
     
     function turretLinkageCIS:OnDisableMainframe()
-        ShowMessageText("level.spa.hangar.mainframe.atk.down", REP)
-        ShowMessageText("level.spa.hangar.mainframe.def.down", CIS)
+    --    ShowMessageText("level.spa.hangar.mainframe.atk.down", REP)
+    --    ShowMessageText("level.spa.hangar.mainframe.def.down", CIS)
 
-        BroadcastVoiceOver( "ROSMP_obj_21", CIS )
-        BroadcastVoiceOver( "COSMP_obj_20", REP )
+    --    BroadcastVoiceOver( "ROSMP_obj_21", CIS )
+    --    BroadcastVoiceOver( "COSMP_obj_20", REP )
     end
 	
     function turretLinkageCIS:OnEnableMainframe()
-        ShowMessageText("level.spa.hangar.mainframe.atk.up", REP)
-        ShowMessageText("level.spa.hangar.mainframe.def.up", CIS)
+    --    ShowMessageText("level.spa.hangar.mainframe.atk.up", REP)
+    --    ShowMessageText("level.spa.hangar.mainframe.def.up", CIS)
 
-        BroadcastVoiceOver( "ROSMP_obj_23", CIS )
-        BroadcastVoiceOver( "COSMP_obj_22", REP )       
+    --   BroadcastVoiceOver( "ROSMP_obj_23", CIS )
+    --    BroadcastVoiceOver( "COSMP_obj_22", REP )       
     end
 	
 	end  
@@ -795,7 +969,10 @@ end
 --              mission script must contain a version of this function, as
 --              it is called from C to start the mission.
 ---------------------------------------------------------------------------
+
 function ScriptInit()
+
+	ReadDataFile("dc:SIDE\\fpanimset.lvl")
     ReadDataFile("dc:ingame.lvl")
     ReadDataFile("ingame.lvl")
     
@@ -808,19 +985,21 @@ function ScriptInit()
     SetMinPlayerFlyHeight (-550)
 	SetGroundFlyerMap(1)
     
-    SetMemoryPoolSize ("ClothData",20)
-    SetMemoryPoolSize ("Combo",70)              -- should be ~ 2x number of jedi classes
-    SetMemoryPoolSize ("Combo::State",850)      -- should be ~12x #Combo
-    SetMemoryPoolSize ("Combo::Transition",850) -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Condition",850)  -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Attack",750)     -- should be ~8-12x #Combo
-    SetMemoryPoolSize ("Combo::DamageSample",8000)  -- should be ~8-12x #Combo::Attack
-    SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
+	
+	SetMemoryPoolSize ("ClothData",20)
+    SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
+    SetMemoryPoolSize ("Combo::State",650)      -- should be ~12x #Combo
+    SetMemoryPoolSize ("Combo::Transition",650) -- should be a bit bigger than #Combo::State
+    SetMemoryPoolSize ("Combo::Condition",650)  -- should be a bit bigger than #Combo::State
+    SetMemoryPoolSize ("Combo::Attack",550)     -- should be ~8-12x #Combo
+    SetMemoryPoolSize ("Combo::DamageSample",6000)  -- should be ~8-12x #Combo::Attack
+    SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
 	
 	
-    	ReadDataFile("dc:Sound\\co3.lvl")
-        ReadDataFile("sound\\yav.lvl;yav1cw")
+    	ReadDataFile("dc:Sound\\co3.lvl;co3cw")
+        ReadDataFile("sound\\pol.lvl;pol1cw")
 
+		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
 		"AirSpeeder_speeder_01",
 		"AirSpeeder_speeder_02",
@@ -834,20 +1013,29 @@ function ScriptInit()
 		"republic_inf_sniper",
 		"republic_inf_engineer",
 		"republic_inf_officer",
-		"republic_inf_jettrooper")
+		"republic_inf_jettrooper",
+		"rep_cap_assultship_dome")
 		
 		ReadDataFile("dc:SIDE\\cis.lvl",
-                    "cis_inf_rifleman",
-					"cis_inf_pilot",
-					"cis_inf_sniper",
-					"cis_inf_sbd",
-					"cis_inf_magna")
-			
+        "cis_inf_rifleman",
+		"cis_inf_pilot",
+		"cis_inf_sniper",
+		"cis_inf_sbd",
+		"cis_inf_magna",
+		"cis_inf_droideka",
+		"cis_cap_fedcoreship_dome",
+		"cis_cap_fedcruiser_dome")
+		
+		ReadDataFile("dc:SIDE\\heroes.lvl",
+		"heroes_cis_grievous",
+		"heroes_republic_x2")
+		
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"republic_fly_eta2_red",
 		"republic_fly_170_fighter",
 		"republic_fly_vwing",
 		"republic_fly_gunship",
+		"republic_hover_fightertank",
 		"cis_fly_tri_fighter",
 		"cis_fly_droid_fighter",
 		"cis_fly_bomber",
@@ -855,13 +1043,12 @@ function ScriptInit()
 		"cis_hover_stap",
 		"cis_hover_aat")
 		
-
-		
-		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
+		ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret",
-		"turrets_anti_air")]]
+		"turrets_anti_air",
+		"turrets_ion_cannon")
 		
-				ReadDataFile("SIDE\\tur.lvl",
+				ReadDataFile("dc:SIDE\\tur.lvl",
 		"tur_bldg_spa_rep_chaingun",
 		"tur_bldg_spa_rep_cannon",
 		"tur_bldg_spa_rep_beam",
@@ -870,113 +1057,63 @@ function ScriptInit()
 		"tur_bldg_spa_cis_beam",
 		"tur_bldg_chaingun_roof",
         "tur_bldg_chaingun_tripod")
-		
-		
-		
-    ReadDataFile("SIDE\\rep.lvl",
-                             "rep_inf_ep3_rifleman",
-                             "rep_inf_ep3_rocketeer",
-                             "rep_inf_ep3_engineer",
-                             "rep_inf_ep3_sniper",
-                             "rep_inf_ep3_officer",
-                             "rep_inf_ep3_jettrooper",
-                             "rep_hover_fightertank",
-                             "rep_hero_anakin",
-                             "rep_hover_barcspeeder",
-							 "rep_fly_vwing")
-							--  "rep_walk_atte",
-							-- "rep_fly_arc170fighter_sc"
-
+	
     ReadDataFile("SIDE\\cis.lvl",
-                             "cis_inf_rocketeer",
-                             "cis_inf_engineer",
-                             "cis_inf_officer",
-                             "cis_inf_droideka",
-                             "cis_hero_darthmaul",
-							-- "cis_walk_spider",
-							 "cis_fly_droidfighter_sc",
-							 "cis_fly_tridroidfighter",
-							 "cis_fly_greviousfighter")
-                             
-                                     
-                   
-if not ScriptCB_InMultiplayer() then
+                "cis_inf_rocketeer")
+           
+
 
 	SetupTeams{
 		rep = {
 			team = REP,
-			units = 55,
+			units = 60,
 			reinforcements = 800,
-			soldier  = { "republic_inf_rifleman",12, 20},
-			assault  = { "republic_inf_heavytrooper",5, 10},
-			engineer = { "republic_inf_sniper",5, 10},
-			sniper   = { "republic_inf_engineer",5, 10},
-			officer = {"republic_inf_officer",5, 10},
-			special = { "republic_inf_jettrooper",5, 10},
+			soldier  = { "republic_inf_rifleman",10, 25},
+			assault  = { "republic_inf_heavytrooper",4, 10},
+			sniper = { "republic_inf_sniper",4, 10},
+			engineer   = { "republic_inf_engineer",4, 10},
+			officer = {"republic_inf_officer",4, 10},
+			special = { "republic_inf_jettrooper",4, 10},
 	        
 		},
 		
 		cis = {
 			team = CIS,
-			units = 55,
+			units = 60,
 			reinforcements = 800,
-			soldier  = { "cis_inf_rifleman",12, 20},
-			assault  = { "cis_inf_rocketeer",5, 10},
-			engineer = { "cis_inf_sniper",5, 10},
-			sniper   = { "cis_inf_pilot",5, 10},
-			officer = {"cis_inf_magna",5, 10},
-			special = { "cis_inf_sbd",5, 10},
+			soldier  = { "cis_inf_rifleman",10, 25},
+		--	assault  = { "",4, 10},
+			sniper = { "cis_inf_sniper",4, 10},
+			engineer   = { "cis_inf_pilot",4, 10},
+			officer = {"cis_inf_magna",4, 10},
+			special = { "cis_inf_sbd",4, 10},
 		}
 	}
-	else
-		SetupTeams{
-		rep = {
-			team = REP,
-			units = 45,
-			reinforcements = 450,
-			soldier  = { "republic_inf_rifleman",12, 18},
-			assault  = { "republic_inf_heavytrooper",3, 8},
-			engineer = { "republic_inf_sniper",3, 8},
-			sniper   = { "republic_inf_engineer",3, 8},
-			officer = {"republic_inf_officer",5, 10},
-			special = { "republic_inf_jettrooper",5, 10},
-	        
-		},
-		
-		cis = {
-			team = CIS,
-			units = 45,
-			reinforcements = 450,
-			soldier  = { "cis_inf_rifleman",12, 18},
-			assault  = { "cis_inf_rocketeer",3, 8},
-			engineer = { "cis_inf_sniper",3, 8},
-			sniper   = { "cis_inf_pilot",3, 8},
-			officer = {"cis_inf_officer",5, 10},
-			special = { "cis_inf_droideka",5, 10},
-		}
-	}
-	end
+	
+	AddUnitClass(CIS,"cis_inf_droideka",4,10)
+	
      
-    SetHeroClass(CIS, "cis_hero_darthmaul")
-    SetHeroClass(REP, "rep_hero_anakin")
+   -- SetHeroClass(CIS, "heroes_cis_grievous")
+   -- SetHeroClass(REP, "heroes_republic_x2")
    
 
     --  Level Stats
-    --  ClearWalkers()
+    ClearWalkers()
     AddWalkerType(0, 10) -- special -> droidekas
-    AddWalkerType(1, 0) -- 1x2 (1 pair of legs)
-    AddWalkerType(2, 4) -- 2x2 (2 pairs of legs)
-    AddWalkerType(3, 3) -- 3x2 (3 pairs of legs)
-    local weaponCnt = 1024
+    AddWalkerType(1, 4) -- 1x2 (1 pair of legs)
+    AddWalkerType(2, 0) -- 2x2 (2 pairs of legs)
+    AddWalkerType(3, 0) -- 3x2 (3 pairs of legs)
+	
+--[[    local weaponCnt = 1024
     SetMemoryPoolSize("Aimer", 75)
     SetMemoryPoolSize("AmmoCounter", weaponCnt)
     SetMemoryPoolSize("BaseHint", 1024)
     SetMemoryPoolSize("EnergyBar", weaponCnt)
 	SetMemoryPoolSize("EntityCloth", 32)
 	if not ScriptCB_InMultiplayer() then
-	SetMemoryPoolSize("EntityFlyer", 64)
-	else
 	SetMemoryPoolSize("EntityFlyer", 32)
+	else
+	SetMemoryPoolSize("EntityFlyer", 22)
 	end
     SetMemoryPoolSize("EntityHover", 8)
 	--SetMemoryPoolSize("CommandWalker", 1)
@@ -992,20 +1129,45 @@ if not ScriptCB_InMultiplayer() then
     SetMemoryPoolSize("TreeGridStack", 1024)
 	SetMemoryPoolSize("UnitAgent", 128)
 	SetMemoryPoolSize("UnitController", 128)
+	SetMemoryPoolSize("FLEffectObject::OffsetMatrix", 120)
 	SetMemoryPoolSize("EntityRemoteTerminal",20)
+	SetMemoryPoolSize("ParticleEmitter", 512)
+    SetMemoryPoolSize("ParticleEmitterInfoData", 512)
 	SetMemoryPoolSize("Weapon", weaponCnt)
-    
+    ]]
+	local weaponCnt = 1024 
+    SetMemoryPoolSize("Aimer", 75)
+    SetMemoryPoolSize("AmmoCounter", weaponCnt)
+    SetMemoryPoolSize("BaseHint", 1024)
+    SetMemoryPoolSize("EnergyBar", weaponCnt)
+	SetMemoryPoolSize("EntityCloth", 32)
+	SetMemoryPoolSize("EntityFlyer", 28)
+    SetMemoryPoolSize("EntityHover", 6)
+    SetMemoryPoolSize("EntityLight", 200)
+    SetMemoryPoolSize("EntitySoundStream", 12)
+    SetMemoryPoolSize("EntitySoundStatic", 32)
+	SetMemoryPoolSize("CommandFlyer", 4)
+    SetMemoryPoolSize("MountedTurret", 64)
+	SetMemoryPoolSize("Navigator", 128)
+    SetMemoryPoolSize("Obstacle", 1024)
+	SetMemoryPoolSize("PathNode", 1024)
+    SetMemoryPoolSize("SoundSpaceRegion", 64)
+    SetMemoryPoolSize("TreeGridStack", 1024)
+	SetMemoryPoolSize("UnitAgent", 128)
+	SetMemoryPoolSize("UnitController", 128)
+	SetMemoryPoolSize("Weapon", weaponCnt)
+	SetMemoryPoolSize("EntityRemoteTerminal",1)
+    SetMemoryPoolSize("FLEffectObject::OffsetMatrix", 120)
+	
     SetSpawnDelay(10.0, 0.25)
 	
 	if ScriptCB_InMultiplayer() then
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships", "CO3_CW_Ships_Turrets_MP")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_CW_Ships", "CO3_CW_Ships_Turrets_MP")
     else
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
     end
 		  
     SetDenseEnvironment("false")
-
-
 
 
     --  Sound
@@ -1029,7 +1191,7 @@ if not ScriptCB_InMultiplayer() then
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-
+	
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)
     SetBleedingVoiceOver(CIS, REP, "cis_off_com_report_enemy_losing",   1)
@@ -1037,19 +1199,18 @@ if not ScriptCB_InMultiplayer() then
 
     SetOutOfBoundsVoiceOver(2, "cisleaving")
     SetOutOfBoundsVoiceOver(1, "repleaving")
-
-    SetAmbientMusic(REP, 1.0, "rep_yav_amb_start",  0,1)
-    SetAmbientMusic(REP, 0.8, "rep_yav_amb_middle", 1,1)
-    SetAmbientMusic(REP, 0.2, "rep_yav_amb_end",    2,1)
-    SetAmbientMusic(CIS, 1.0, "cis_yav_amb_start",  0,1)
-    SetAmbientMusic(CIS, 0.8, "cis_yav_amb_middle", 1,1)
-    SetAmbientMusic(CIS, 0.2, "cis_yav_amb_end",    2,1)
 	
+    SetAmbientMusic(REP, 1.0, "rep_pol_amb_start",  0,1)
+    SetAmbientMusic(REP, 0.8, "rep_pol_amb_middle", 1,1)
+    SetAmbientMusic(REP, 0.2,"rep_pol_amb_end",    2,1)
+    SetAmbientMusic(CIS, 1.0, "cis_pol_amb_start",  0,1)
+    SetAmbientMusic(CIS, 0.8, "cis_pol_amb_middle", 1,1)
+    SetAmbientMusic(CIS, 0.2,"cis_pol_amb_end",    2,1)
 
-    SetVictoryMusic(REP, "rep_yav_amb_victory")
-    SetDefeatMusic (REP, "rep_yav_amb_defeat")
-    SetVictoryMusic(CIS, "cis_yav_amb_victory")
-    SetDefeatMusic (CIS, "cis_yav_amb_defeat")
+    SetVictoryMusic(REP, "rep_pol_amb_victory")
+    SetDefeatMusic (REP, "rep_pol_amb_defeat")
+    SetVictoryMusic(CIS, "cis_pol_amb_victory")
+    SetDefeatMusic (CIS, "cis_pol_amb_defeat")
 	
 
     SetSoundEffect("ScopeDisplayZoomIn",      "binocularzoomin")

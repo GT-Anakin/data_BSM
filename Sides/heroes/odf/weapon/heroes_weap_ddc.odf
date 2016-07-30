@@ -1,0 +1,58 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_pistol"
+GeometryName        = "heroes_weap_ddc.msh"
+
+[Properties]
+ScoreForMedalsType = -1
+MedalsTypeToUnlock = -1
+
+ChargeUpEffect          = "com_sfx_chargeup"
+
+GeometryName        = "heroes_weap_ddc"
+HighResGeometry     = "heroes_weap_ddc"
+OrdnanceName        = "heroes_weap_ddc_ord"
+
+MinRange            = "0"
+OptimalRange        = "24"
+MaxRange            = "64"
+
+ShotDelay           = "0.18"
+
+RoundsPerClip       = "25"
+
+ReloadTime          = "2.0"
+
+YawSpread           = "0.1"
+PitchSpread         = "0.1"
+
+SalvoCount          = "1"
+ShotsPerSalvo           = "1"
+SalvoDelay          = "0.0"
+MaxPressedTime          = "2.0" 
+
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+NextCharge              = 0.95
+SalvoCount          = "3"
+SalvoDelay          = "0.1"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+OrdnanceName            = "heroes_weap_ddc_ord_high"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "all_weap_inf_pistol_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+ReloadSound             = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"

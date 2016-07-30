@@ -1,0 +1,28 @@
+[WeaponClass]
+ClassParent				= "com_weap_inf_shotgun"
+GeometryName            = "rep_weap_hq_inf_shotgun.msh"
+
+[Properties]
+GeometryName            = "rep_weap_hq_inf_shotgun"
+HighResGeometry			= "rep_weap_hq_inf_shotgun"
+OrdnanceName            = "rep_weap_inf_shotgun_ord"
+SecondaryOrdnanceName 	= "rep_weap_inf_shotgun_tracer"
+
+// *************************************************
+//******************* SOUND ************************
+//**************************************************
+
+
+
+FireSound           = "rep_weap_shotgun_fire"
+ReloadSound         = "rep_weap_shotgun_reload"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_pistol_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+

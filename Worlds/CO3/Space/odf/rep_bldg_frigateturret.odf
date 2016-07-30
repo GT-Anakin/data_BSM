@@ -31,7 +31,7 @@ PitchTurnFactor    	 = "0.0"
 
 //FirstPerson           = "com\comviewf;com_1st_cockpit_viewfinder"
 ThirdPersonFOV	    	= "65"
-WeaponName           	= "imp_weap_bldg_boxturret"
+WeaponName           	= "rep_weap_bldg_boxturret"
 WeaponAmmo          	= "0"
 
 MaxTurnSpeed            = "90.8"

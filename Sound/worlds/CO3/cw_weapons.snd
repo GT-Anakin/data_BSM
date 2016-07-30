@@ -1,0 +1,271 @@
+//Republic Weapons/////////////////////////////////////////////////////////////////////////
+
+SoundProperties()
+{
+    Name("rep_weap_dc17p_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc17p_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_dc17p_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc17p_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_dc15_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc15_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_dc15_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc15_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_dc15x_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc15x_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_dc15x_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("rep_weap_dc15x_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_shotgun_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_shotgun_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_shotgun_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("rep_weap_shotgun_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_fusioncutter_repair");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_fusioncutter_repair", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_barrel");
+    Group("weapons");
+    Inherit("weapon_template");
+    Gain(1.0);
+    Looping(1);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("rep_weap_barrel", 1.0);
+    }
+}
+
+//CIS Weapons/////////////////////////////////////////////////////////////////////////
+
+
+SoundProperties()
+{
+    Name("cis_weap_e5_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_e5_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_e5_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("cis_weap_e5_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_shotgun_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_shotgun_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_shotgun_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("cis_weap_shotgun_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_e5s_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_e5s_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_e5s_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("cis_weap_e5s_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_fusioncutter_repair");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_fusioncutter_repair", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_droideka_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_droideka_fire", 1.0);
+    }
+}
+
+//CW-Turrets/////////////////////////////////////////////////////////////////////////
+
+SoundProperties()
+{
+    Name("cis_weap_turret_space");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    MinDistance(850.0);
+    MaxDistance(1000.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_turret_space", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_turret_space");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    MinDistance(850.0);
+    MaxDistance(1000.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_turret_space", 1.0);
+    }
+}

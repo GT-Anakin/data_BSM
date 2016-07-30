@@ -7,10 +7,8 @@ GeometryName	=	"Rep_Frigate_ext.msh"
 GeometryName	=	"Rep_Frigate_ext"
 
 
-
-MaxHealth       	= "120000.0"
+MaxHealth       	= "100000.0"
 ExplosionName           = "spa_prop_frigate_destruct_exp"
-
 
 MapTexture = ""
 MapScale 		= "0.0"
@@ -20,3 +18,42 @@ AddShield	= "0"
 
 FoleyFXGroup    = "metal_foley"
 AINoRepair      = "1"
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "Rep_Frigate_ext_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.03 0.01 0.01"
+ChunkSpeed      = "2.05" 
+ChunkUpFactor       = "0.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "Rep_Frigate_ext_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_1"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "0.01 0.01 -0.04"
+ChunkSpeed      = "2.03"
+ChunkUpFactor       = "0.05"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK3"
+ChunkGeometryName   = "Rep_Frigate_ext_chunk3"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.01 -0.01 0.04"
+ChunkSpeed      = "2.04"
+ChunkUpFactor       = "0.03"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1

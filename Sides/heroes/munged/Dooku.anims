@@ -1,0 +1,18 @@
+ucft
+{
+	ANIM
+	{
+		"dooku_sabre_jumpattack_fall_full"
+		"dooku_sabre_jumpattack_land_full"
+		"dooku_sabre_jumpattack_recover_full"
+		"dooku_sabre_jump_full"
+		"dooku_sabre_stand_attack1a_end_full"
+		"dooku_sabre_stand_attack1a_full"
+		"dooku_sabre_stand_attack1b_full"
+		"dooku_sabre_stand_attack1c_full"
+		"dooku_sabre_stand_attack_backwards"
+		"dooku_sabre_stand_dashattack_upper"
+		"dooku_sabre_stand_idle_emote_full"
+		"human_sabre_stand_dashattack_lower"
+	}
+}

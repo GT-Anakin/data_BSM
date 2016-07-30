@@ -1,0 +1,8 @@
+[OrdnanceClass]
+ClassParent				= "com_weap_inf_shotgun_tracer"
+
+[Properties]
+LaserTexture        = "com_sfx_laser_orange"
+
+LaserGlowColor      = "255 140 61 100"
+LightColor          = "255 140 61 100"

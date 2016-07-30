@@ -1,0 +1,49 @@
+[WeaponClass]
+ClassParent             = "com_weap_veh_laser"
+
+[Properties]
+HUDTag			= "hud_vehicle_lasers"
+OrdnanceName            = "turrets_weap_anti_air_ord"
+
+ExplosionExpire		= "turrets_weap_anti_air_exp"
+
+
+
+ShotDelay           = "0.18"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+HeatRecoverRate         = "0.25"
+HeatThreshold           = "0.30"
+HeatPerShot         = "0.04"
+
+SalvoCount          = "1"
+ShotsPerSalvo       = "2"
+SalvoDelay          = "0.2"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+FireSound           = "com_weap_turret_fire_small"
+
+ZoomMin             = "2.0"
+ZoomMax             = "4.0"
+ZoomRate            = "1.0"
+
+MinRange = "0"
+OptimalRange = "450"
+MaxRange = "2500"
+
+ScopeTexture        = "weapon_scope3"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid         = "0"
+TargetVehicle       = "1"
+TargetBuilding      = "0"
+
+AITargetPerson      = "0"
+AITargetAnimal      = "0"
+AITargetDroid       = "0"
+AITargetVehicle     = "1"
+AITargetBuilding    = "0"

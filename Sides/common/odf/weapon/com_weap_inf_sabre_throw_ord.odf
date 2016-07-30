@@ -5,11 +5,11 @@ ClassLabel 		= "meleethrowordnance"
 [Properties]
 ImpactEffectWater 	= "com_sfx_watersplash_ord"
 
-Damage				= "400.0"
-Velocity			= "30.0"
-LifeSpan			= "1.333"		// time before returning
-ReturnDuration		= "0.8"
-RotationRate		= "4"		// rotations per second
+Damage				= "420.0"
+Velocity			= "40.0"
+LifeSpan			= "0.7"		// time before returning
+ReturnDuration		= "0.5"
+RotationRate		= "10"		// rotations per second
 DamageWidth			= "0.75"
 DamageLength		= "1.2 FromEdge"
 

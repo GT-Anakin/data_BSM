@@ -1,0 +1,30 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "com_icon_neutral_flag.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+ClothODF = "com_icon_neutral_cloth"
+ClothODF = "com_icon_neutral_carried_cloth"
+
+IconTexture			= "flag_icon"
+MapTexture			= "flag_icon"
+MapScale			= "0.75"
+
+GeometryName		= "com_icon_neutral_flag"
+CarriedGeometryName = "com_icon_neutral_flag_carried"
+CarriedOffset		= "0.0 1.5 -0.5"
+CarriedColorize		= 1
+DroppedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 15.0
+
+LightODF			= "flaglight"com_icon_neutral_cloth"
+
+
+[InstanceProperties]

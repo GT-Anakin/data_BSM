@@ -4,11 +4,11 @@ ClassLabel          = "missile"
 [Properties]
 ImpactEffectWater   = "com_sfx_watersplash_sm"
 
-LifeSpan            = "10.0"
+LifeSpan            = "15.0"
 
 MinSpeed 	    = "20.0"
 Acceleration	    = "80.0"
-Velocity            = "100.0"
+Velocity            = "120.0"
 Gravity             = "0.0"
 Rebound             = "0.0"
 TurnRate            = "2.0"

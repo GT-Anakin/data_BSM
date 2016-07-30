@@ -1,0 +1,31 @@
+[GameObjectClass]
+ClassLabel          = "mine"
+
+[Properties]
+GeometryName            = "rep_weap_inf_landmine"
+//HighResGeometry         = "com_1st_weap_inf_landmine"
+
+TrailEffect             = ""
+LightColor              = "247 56 65 150"
+LightRadius             = "0.0"
+
+ExplosionTrigger        = "rep_weap_inf_landmine_exp"
+ExplosionDeath          = "rep_weap_inf_landmine_destroyed_exp"
+ExplosionExpire			= "rep_weap_inf_landmine_destroyed_exp"
+
+TriggerContact			= "1"
+TriggerRadius           = "1.0"
+//SuppressRadius        = "1.0"
+
+HealthType				= "Mine"
+
+LifeSpan				= "100.0"
+NoLifeSpanDisplay		= "1"
+
+MaxHealth               = "200"
+Velocity                = "0.0"
+Gravity                 = "1.0"
+Rebound                 = "0.0"
+Friction                = "1.0"
+
+CollisionOtherSound     = "com_weap_mine_land"

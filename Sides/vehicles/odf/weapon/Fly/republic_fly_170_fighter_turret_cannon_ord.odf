@@ -1,5 +1,0 @@
-[OrdnanceClass]
-ClassParent     	= "com_weap_veh_fly_recoilless_ord"
-
-[Properties]
-ExplosionName = "republic_fly_170_fighter_turret_cannon_exp"

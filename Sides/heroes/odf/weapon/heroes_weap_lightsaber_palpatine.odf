@@ -1,0 +1,14 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_lightsaber"
+
+[Properties]
+GeometryName        = "heroes_weap_lightsaber_vader"
+ComboAnimationBank	= "human_sabre melee heroes_republic_palpatine"
+
+FirePointName       = "hp_fire"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 	= "darkredlightsabre"
+LightSaberTrailColor = "214 0 5 128"

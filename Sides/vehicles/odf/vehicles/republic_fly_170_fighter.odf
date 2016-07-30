@@ -50,7 +50,7 @@ PilotSkillRepairScale = 0.02
 
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
@@ -58,7 +58,7 @@ LandedHeight		= 0.0
 
 
 WEAPONSECTION           = 1
-WeaponName          = "republic_fly_170_fighter_cannon"
+WeaponName          = "rep_weap_fly_arc170_cannon"
 WeaponAmmo          = 0
 
 AimerNodeName           = "hp_fire_l1"
@@ -67,7 +67,7 @@ AimerNodeName           = "hp_fire_r1"
 
 
 WEAPONSECTION           = 2
-WeaponName          = "republic_fly_170_fighter_bomb"
+WeaponName          = "rep_weap_fly_arc170_bomb"
 WeaponAmmo          = 0
 
 AimerNodeName           = "hp_fire_l2"

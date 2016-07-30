@@ -2,11 +2,16 @@
 ClassLabel          = "bolt"
 
 [Properties]
-LaserLength         = "0.75"
-LaserWidth          = "0.09"
-GlowLength          = "0.75"
-BlurLength          = "0.75"
-LightRadius         = "4.0"
+LightRadius         	= "5.0"
+
+LaserTexture        	= "com_sfx_laser_red"
+LaserGlowColor      	= "205 7 7 100"
+LightColor          	= "205 7 7 150"
+
+LaserLength         	= "3.0"
+LaserWidth          	= "0.18"
+GlowLength          	= "2.35"
+BlurLength          	= "4.35"
 
 GlowLength          = "3"
 BlurLength          = "5"
@@ -20,9 +25,9 @@ ImpactEffectShield  = "com_sfx_ord_exp"
 ExpireEffect        = "com_sfx_ord_exp"
 
 LifeSpan            = "0.8"
-Velocity            = "200.0"
+Velocity            = "450.0"
     
-MaxDamage           = "45.0"
+MaxDamage           = "80.0"
 VehicleScale        = "0.1"
 ShieldScale         = "1.0"
 PersonScale         = "1.0"
@@ -31,10 +36,10 @@ BuildingScale       = "0.1"
 
 DamageTransitionDelay   = "0.4"     //How long in seconds before the damage change begins.
 DamageTransitionPeriod  = "0.2"     //How long in seconds the damage change lasts.
-DamageFinalDamage       = "40.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+DamageFinalDamage       = "50.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
 FadeLightColor          = "0"       //Whether or not the color on the light should be faded along with the damage.
-EndLaserGlowColor       = "0 0 0 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
-EndLightColor           = "0 0 0 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
+EndLaserGlowColor       = "205 7 7 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "205 7 7 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
 
 
 OrdnanceSound       = "com_weap_inf_ord_hum_sm"

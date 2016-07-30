@@ -1,0 +1,43 @@
+[OrdnanceClass]
+
+ClassLabel      = "emitterordnance"
+
+[Properties]
+Radius             = "10" // sphere used for finding the targets
+ConeLength          = "0" // cone not used for finding the targets
+
+ConeAngle           = "120"
+FirstRadius         = "0.0"
+MaxTargets          = "10"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
+NoChaining          = "1"   // No chaining - all bolts coming from the attacker
+ApplyOnOwnerIfOnOthers = "1"
+
+VehicleScale        = "0.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale       = "0.0"
+
+//BuffDefenseTimer = "20"
+//BuffDefenseMult = "0.3"
+//BuffHealthTimer = "0"
+//BuffHealthRate = "0"
+//DebuffDamageTimer = "40"
+//DebuffDamageRate = "500"
+//BuffOffenseTimer = "20"
+//BuffOffenseMult  = "1.5"
+
+//Damage              = "0"  // This is the min damage. Even if the initial damage is split between the number of targets, it will never go below this number for each target
+//MaxDamage           = "0" // This is the max damage
+//JumpDeduction       = "0"  // No jump deduction. This is for chaining only
+//DamageThreshold     = "0"  // Always do damage (no threshold)
+//MaxJumpDistance     = "0"  // No max jump distance because the chaining is off
+//Push                = "7.0"
+
+//LightningEffect       = ""
+//LightningEffectScale = "0.25"
+//NoTargetLightningEffectCount = "5"  // The number of ligthning effects to display when the ordinance has no targets to hit
+//NoTargetLightningEffectRandomSpread = "0.4"  // The random rotation spread the ligthning effects does when the ordinance has no targets to hit
+
+

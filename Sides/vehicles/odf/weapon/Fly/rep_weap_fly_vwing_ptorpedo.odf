@@ -1,0 +1,20 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_bombs"
+
+[Properties]
+OrdnanceName 			= "rep_weap_fly_vwing_ptorpedo_ord"
+
+ShotDelay			= ".33"
+RoundsPerClip 			= "6"
+ReloadTime 			= "5"
+
+SalvoCount			= "1.0"
+ShotPerSalvo		= = "1"
+SalvoDelay			= "0"
+
+//************************************************
+//**********************SOUND*********************
+//************************************************
+
+FireSound               = "rep_weap_fly_vwing_ptorpedo_fire"
+FireSoundStop   ="0"

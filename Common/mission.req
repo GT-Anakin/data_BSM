@@ -21,6 +21,7 @@ ucft
         "LinkedTurrets"
         "Ambush"
         "PlayMovieWithTransition"
+		"AIHeroSupport"
     }
 
     REQN
@@ -28,6 +29,11 @@ ucft
         "lvl"
         "CO3x_con"
 	"CO3y_eli"
+	"CO3x_eli"
+	"CO3x_ctf"
+	"CO3x_1flag"
+	"CO3x_tdm"
+	"CO3x_space"
 
     }
 }

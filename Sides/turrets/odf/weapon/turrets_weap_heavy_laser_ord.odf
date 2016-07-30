@@ -1,0 +1,14 @@
+[OrdnanceClass]
+ClassParent 			= "com_weap_veh_laser_ord"
+
+[Properties]
+MaxDamage 			= "180.0"
+Velocity = "400"
+
+
+VehicleScale = "1.0"
+ShieldScale = "2"
+PersonScale = "1"
+AnimalScale = "1"
+DroidScale = "1"
+BuildingScale = "0.3"

@@ -8,13 +8,13 @@ Explosion	                = "com_weap_inf_force_push_exp"
 ConeLength			= "20"
 ConeAngle			= "120"
 FirstRadius			= "0.0"
-MaxTargets			= "4"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
+MaxTargets			= "5"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
 NoChaining			= "1"   // No chaining - all bolts coming from the attacker
 
 //OrdnanceSound			= "com_weap_launcher_energy_dumbfire"
 
-Damage 				= "0"  // This is the min damage. Even if the initial damage is split between the number of targets, it will never go below this number for each target
-MaxDamage			= "0" // This is the max damage
+Damage 				= "250"  // This is the min damage. Even if the initial damage is split between the number of targets, it will never go below this number for each target
+MaxDamage			= "300" // This is the max damage
 JumpDeduction		= "0"  // No jump deduction. This is for chaining only
 DamageThreshold		= "0"  // Always do damage (no threshold)
 MaxJumpDistance		= "0"  // No max jump distance because the chaining is off
@@ -26,7 +26,7 @@ AnimalScale			= "1.0"
 DroidScale			= "1.0"
 BuildingScale		        = "0.0"
 
-Push 				= "15.0"
+Push 				= "18.0"
 
 AffectFriends                   = "1"
 

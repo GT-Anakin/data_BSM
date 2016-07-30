@@ -1,5 +1,4 @@
 
-
 Effect("SpaceDust")
 {
 	Enable(1);
@@ -24,6 +23,7 @@ Effect("SpaceDust")
 	ParticleLengthMinSpeed(35.0);
 	ParticleLengthMaxSpeed(170.0);
 }
+
 
 Effect("MotionBlur")
 {

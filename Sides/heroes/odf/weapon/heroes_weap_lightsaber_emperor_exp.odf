@@ -1,0 +1,35 @@
+[ExplosionClass]
+ClassLabel 	= "explosion"
+
+[Properties]
+Damage 		= "600.0"
+
+DamageRadiusInner = "6.0"
+DamageRadiusOuter = "7.5"
+
+HurtOwner = 0
+
+Push 		  = "14.0"
+PushRadiusInner   = "4.5"
+PushRadiusOuter   = "4.5"
+
+Shake 		  = "0.35"
+ShakeLength	  = "0.60"
+ShakeRadiusInner  = "5.0"
+ShakeRadiusOuter  = "10.0"
+
+Effect 		= "com_sfx_weap_emp_exp_lg"
+Decal		= "decal_explosion"
+LightColor 	= "16 32 242"
+
+LightRadius 	= "8.0"
+
+LightDuration 	= "1.0"
+
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+BuildingScale	= "1.0"
+AnimalScale	= "0.8"
+VehicleScale	= "1.0"
+
+SoundProperty   = "force_lightning_impact"

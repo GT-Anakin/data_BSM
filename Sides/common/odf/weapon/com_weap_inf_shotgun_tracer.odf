@@ -3,17 +3,17 @@ ClassLabel          = "bolt"
 
 [Properties]
 LaserTexture        = "com_sfx_laser_green"
-LaserLength         = "6.0"
-LaserWidth          = "0.02"
-LaserGlowColor      = "192 224 18 100"
-LightColor          = "192 224 18 100"
+LaserLength         = "4.5"
+LaserWidth          = "0.025"
+LaserGlowColor      = "66 146 30 100"
+LightColor          = "66 146 30 100"
 GlowLength          = "3"
 BlurLength          = "5"
 
 FadeOutTime         = ".15"
 
 LifeSpan            = "0.15"
-Velocity            = "160.0"
+Velocity            = "200.0"
 Gravity             = "1.0"
 Rebound             = "0.0"
 

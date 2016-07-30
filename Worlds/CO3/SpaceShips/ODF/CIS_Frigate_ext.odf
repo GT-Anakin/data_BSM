@@ -8,9 +8,8 @@ GeometryName    =   "CIS_Frigate_ext.msh"
 
 GeometryName    =   "CIS_Frigate_ext"
 
-MaxHealth       	= "120000.0"
+MaxHealth       	= "100000.0"
 ExplosionName           = "spa_prop_frigate_destruct_exp"
-
 
 MapTexture = ""
 MapScale 		= "0.0"
@@ -20,3 +19,30 @@ AddShield	= "0"
 
 FoleyFXGroup    = "metal_foley"
 AINoRepair      = "1"
+
+
+CHUNKSECTION        = "CHUNK1"
+ChunkGeometryName   = "CIS_Frigate_ext_chunk1"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_5"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.04 0.01 0.04"
+ChunkSpeed      = "5.0"
+ChunkUpFactor       = "0.05"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1
+
+CHUNKSECTION        = "CHUNK2"
+ChunkGeometryName   = "CIS_Frigate_ext_chunk2"
+ChunkTrailEffect	= "spa_sfx_frigate_exp_2"
+ChunkNodeName       = ""
+ChunkTerrainCollisions  = "0"
+ChunkTerrainEffect  = ""
+ChunkPhysics        = "FULL"
+ChunkOmega      = "-0.30 0.04 0.03"
+ChunkSpeed      = "3.0"
+ChunkUpFactor       = "-1.00"
+ChunkGravity 	    = "0.0 0.0 0.0"
+ChunkKeepSoldierCollision = 1

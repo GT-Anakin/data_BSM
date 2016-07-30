@@ -41,10 +41,10 @@ DomeInfo()
 		EnableBottom(1);
 		PC()
 		{
-			NumStars(8600);
-			BrightStarPercent(90.0);
-			AlphaMin(90);
-			ColorSaturation(.75);
+			NumStars(9200);
+			BrightStarPercent(100.0);
+			AlphaMin(100);
+			ColorSaturation(1.0);
 		}
 	}
 
@@ -104,6 +104,36 @@ SkyObject()
 	VelocityZ(65, 100);
 	VelocityY(0, 0);
 	Distance(800);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("rep_cap_assultship_dome");
+	NumObjects(8);
+	Height(1100, 1600);
+	VelocityZ(30, 50);
+	Distance(4000);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("cis_cap_fedcruiser_dome");
+	NumObjects(8);
+	Height(1000, 1500);
+	VelocityZ(30, 50);
+	Distance(4000);
+	InDirectionFactor(0.0);
+}
+
+SkyObject()
+{
+	Geometry("cis_cap_fedcoreship_dome");
+	NumObjects(5);
+	Height(1200, 1800);
+	VelocityZ(30, 50);
+	Distance(4000);
 	InDirectionFactor(0.0);
 }
 

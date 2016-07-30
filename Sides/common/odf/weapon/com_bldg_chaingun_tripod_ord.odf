@@ -1,0 +1,69 @@
+[GameObjectClass]
+ClassLabel      		= "portableturret"
+GeometryName        	= "com_bldg_eweb.msh"
+
+
+[Properties]
+AvailableForAnyTeam		= "1"
+BUILDINGSECTION			= "BODY"
+
+MapTexture				= "turret_icon"
+MapScale        		= "1.2"
+
+GeometryName        	= "com_bldg_eweb"
+//ExplosionName       	= "rep_bldg_chaingun_tripod_exp"
+
+MaxHealth       		= "2000.0"
+
+BUILDINGSECTION			= "TURRET1"
+
+TurretNodeName          = "aimer_y"
+
+PitchLimits             = "-35 35"		//pitch limits for WHOLE TURRET!
+YawLimits               = "-180 180"
+
+PitchTurnFactor      	= "0.2"			// amount of pitching done by the turret, remaining pitching done by the aimer
+
+EyePointOffset			= "0.0 1.0 1"
+TrackCenter				= "0.0 1.0 -3.0"
+TrackOffset				= "0.0 1.0 1.5"
+TiltValue				= "5"
+
+FirstPerson           	= "rep\rep;rep_bldg_eweb_1stperson"
+ThirdPersonFOV          = "55"
+FirstPersonFOV          = "65"
+WeaponName              = "com_weap_e_web_laser"
+WeaponAmmo              = "0"
+
+MaxTurnSpeed            = "5.0"
+MaxPitchSpeed           = "5.0"
+//PitchRate             = "2.0"
+//TurnRate              = "5.0"
+PCMaxPitchSpeed         = "5.0"
+PCMaxTurnSpeed          = "5.0" 
+
+PilotPosition       	= "hp_pilot"
+//PilotAnimation		= "man_eweb"
+Pilot9Pose      		= "minigun_9pose"
+
+TURRETSECTION			= "TURRET1"
+
+AimerNodeName       	= "aimer_x"
+MaxTurnSpeed        	= "2.85"
+MaxPitchSpeed       	= "0.75"
+AimerPitchLimits    	= "0 0"		//overridden by turretpitchlimit
+AimerYawLimits      	= "0 0"
+
+BarrelNodeName          = "barrel"
+FirePointName           = "hp_fire"
+BarrelRecoil            = "0.1"
+
+TurretYawSound			= "turret_whir_yaw_lp defer"
+TurretYawSoundPitch		= "0.7"
+TurretPitchSound		= "turret_whir_pitch_lp defer"
+TurretPitchSoundPitch	= "0.7"
+TurretAmbientSound		= ""
+TurretActivateSound		= "vehicle_equip defer"
+TurretDeactivateSound	= ""
+TurretStartSound		= ""
+TurretStopSound			= ""

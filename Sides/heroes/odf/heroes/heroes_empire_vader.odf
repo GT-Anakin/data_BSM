@@ -1,0 +1,103 @@
+[GameObjectClass]
+ClassParent             = "com_jedi_default"
+GeometryName            = "heroes_empire_vader.msh"
+
+[Properties]
+AISizeType              = "Soldier"
+UnitType            = "pilot"
+
+GeometryName            = "heroes_empire_vader"
+GeometryLowRes          = "heroes_empire_vader_low"
+ClothODF                = "heroes_empire_vader_cape"
+ClothODF                = "heroes_empire_vader_skirt"
+SkeletonName            = "Vader"
+SkeletonRootScale       = "1.15"
+SkeletonRootScaleLowRes = "1.15"
+
+
+AnimationName            = "Vader"
+SkeletonLowRes          = "bf3cloneslz"
+
+UseDirectionalJumps     = "0"
+
+MaxHealth           = 1800.0
+
+MaxSpeed                = 6.5       // base forward speed
+MaxStrafeSpeed          = 6.5       // base right/left speed
+MaxTurnSpeed            = 3.0       // base turn speed
+JumpHeight              = 3.5       // base jump height in meters
+JumpForwardSpeedFactor  = 1.3       // boost forward part of velocity by this factor when jumping
+JumpStrafeSpeedFactor   = 1.0       // boost side/backward part of velocity by this factor when jumping
+RollSpeedFactor         = 1.7       // in forward arc, boost speed by this factor when rolling
+Acceleration            = 90.0      // accelerate to full run in about 7/70 = 0.1 seconds
+JetAcceleration         = 20.0      // for characters with jet jump, use this acceleration for in air control
+SprintAccelerateTime    = 0.05      // accelerate from run to sprint in this time
+EnergyDrainSprint       = 40.0      // energy spent per second of sprinting
+ControlSpeed            = "sprint 5.00 0.50 0.50"
+
+JetJump             = "7.0"     //The initial jump-push given when enabling the jet
+JetPush             = "7.0" //The constant push given while the jet is enabled (20 is gravity)
+JetEffect           = ""
+JetType             = "hover"
+// Vader used JetFuel to control how long he can hover, even though it's not visible in the HUD
+JetFuelRechargeRate = "0.9"     //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.3"     //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.25"    //4initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "1.0"     //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetShowHud          = 0
+JetEnergyDrain      = 30.0
+
+CollisionScale      = "0.0 0.0 0.0"
+
+
+WEAPONSECTION = 1
+WeaponName1             = "heroes_weap_lightsaber_vader"
+WeaponAmmo1             = 0
+
+WEAPONSECTION = 2
+WeaponName2             = "com_weap_inf_force_push"
+WeaponAmmo2             = 0
+WeaponChannel2		= 1
+
+WEAPONSECTION = 3
+WeaponName3             = "com_weap_inf_force_choke"
+WeaponAmmo3             = 0
+WeaponChannel3		= 1
+
+
+
+//SOUND
+VOUnitType                  = 191
+SoldierMusic                = "imp_hero_Vader_lp"
+//HurtSound                 = "imp_inf_com_chatter_wound"
+//DeathSound                = "imp_inf_com_chatter_death"
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+ApproachingTargetSound      = ""
+FleeSound                   = ""
+PreparingForDamageSound     = ""
+HeardEnemySound             = ""
+ShockFadeOutTime            = ""
+ShockFadeInTime             = ""
+ShockFadeOutGain            = ""
+ShockSound                  = ""
+ClothingRustleSound         = ""
+LowHealthSound              = "imp_inf_vo_darth_breath"
+LowHealthThreshold          = "1.0"
+AmbientSound                = ""
+FoleyFXClass                = "imp_inf_soldier"
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_vader_spawn"
+SndHeroDefeated             = "hero_vader_exhausted"
+SndHeroKiller               = "hero_vader_exhausted"
+
+VOSound = "imp_off_response_hero_command      SC_Follow"
+VOSound = "imp_off_response_hero_command      SC_StopFollow"
+VOSound = "imp_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "imp_off_response_hero_command     SC_GetIn"
+VOSound = "imp_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_vader_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_vader_KillingSpree4      KillingSpree4"
+
+

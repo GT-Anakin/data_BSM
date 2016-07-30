@@ -1,0 +1,45 @@
+[WeaponClass]
+ClassLabel			= "dispenser"
+
+[Properties]
+RoundsPerClip		= "1"
+ReloadTime			= "1.0"
+
+LockOnRange			= "80.0"
+LockTime			= "0.4"
+
+OffhandWeapon		= 1
+
+TriggerAll          = "1"
+
+TrackingSound		= ""
+
+WEAPONSECTION       = 1
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound		= "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound		= "com_weap_inf_rifle_mvt_getup"
+
+//HUDTag              = "hud_vehicle_recoiless"
+HUDTag				= "hud_rc_turret"
+OrdnanceName        = "com_bldg_chaingun_tripod_ord"
+
+ShotDelay			= "0.1"
+MaxItems			= "5.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay   = "0.5"
+
+

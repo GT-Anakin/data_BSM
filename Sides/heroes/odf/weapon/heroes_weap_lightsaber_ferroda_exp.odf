@@ -1,0 +1,30 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+
+// Important
+HurtOwner = 0
+
+Push 		  = "14.0"
+PushRadiusInner   = "0.0"
+PushRadiusOuter   = "7.5"
+
+Shake 		  = "0.85"
+ShakeLength	  = "0.60"
+ShakeRadiusInner  = "5.0"
+ShakeRadiusOuter  = "5.0"
+
+LifeSpan = "0.45"
+Damage = "650.0"
+DamageRadiusInner = "0.0"
+DamageRadiusOuter = "8.0"
+Effect = "com_sfx_groundcrack"
+//Effect = "com_sfx_jedismash"
+ArmorScale =	"1.0"
+HealthScale =	"1.0"
+ShieldScale =	"0.5"
+
+VehicleScale = "3.0"
+
+SoundProperty = "mace_quake_exp"

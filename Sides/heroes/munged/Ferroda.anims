@@ -1,0 +1,16 @@
+ucft
+{
+	ANIM
+	{
+		"Ferroda_sabre_jumpattack_fall_full"
+		"Ferroda_sabre_jumpattack_land_full"
+		"Ferroda_sabre_landhard_full"
+		"Ferroda_sabre_landsoft_full"
+		"Ferroda_sabre_stand_attack1a_end_full"
+		"Ferroda_sabre_stand_attack1a_full"
+		"Ferroda_sabre_stand_attack1b_end_full"
+		"Ferroda_sabre_stand_attack1b_full"
+		"Ferroda_sabre_stand_attack1c_full"
+		"Ferroda_sabre_stand_dashattack_full"
+	}
+}

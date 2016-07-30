@@ -51,6 +51,36 @@ Layer("eli", 9, 0)
 	Description("");
 }
 
+Layer("ctf", 10, 0)
+{
+	Description("");
+}
+
+Layer("1flag", 11, 0)
+{
+	Description("");
+}
+
+Layer("tdm", 12, 0)
+{
+	Description("");
+}
+
+Layer("CW_Space", 13, 0)
+{
+	Description("");
+}
+
+Layer("rumble", 14, 0)
+{
+	Description("");
+}
+
+Layer("Deathregions", 15, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -58,6 +88,7 @@ GameMode("Common")
 	Layer(2);
 	Layer(7);
 	Layer(8);
+	Layer(14);
 }
 
 GameMode("conquest")
@@ -88,5 +119,30 @@ GameMode("CW_Ships_Turrets_MP")
 GameMode("eli")
 {
 	Layer(9);
+}
+
+GameMode("1flag")
+{
+	Layer(11);
+}
+
+GameMode("ctf")
+{
+	Layer(10);
+}
+
+GameMode("tdm")
+{
+	Layer(12);
+}
+
+GameMode("CW_Space")
+{
+	Layer(13);
+}
+
+GameMode("Deathregions")
+{
+	Layer(15);
 }
 

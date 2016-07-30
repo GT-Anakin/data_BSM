@@ -1,0 +1,7 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh	= "rep_bf3_sharpshooter"
+
+

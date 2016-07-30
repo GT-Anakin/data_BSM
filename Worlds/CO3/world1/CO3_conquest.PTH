@@ -946,7 +946,7 @@ Path("entitypath team2_fly")
 
 		Node()
 		{
-			Position(-755.577332, 216.659012, 696.038086);
+			Position(-705.337341, 140.197052, 785.005005);
 			Knot(0.000000);
 			Data(0);
 			Time(1.000000);
@@ -1358,7 +1358,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-363.242065, -85.046539, 420.308533);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1371,7 +1371,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-549.785278, -137.550110, 188.450302);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1384,7 +1384,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-505.010559, 8.924011, -216.645782);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1397,7 +1397,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-231.832214, -84.396347, -480.564148);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1410,7 +1410,7 @@ Path("entitypath team1_fly")
 		{
 			Position(225.015991, -170.113739, -441.227173);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1423,7 +1423,7 @@ Path("entitypath team1_fly")
 		{
 			Position(614.866089, -197.390594, -286.543030);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1436,7 +1436,7 @@ Path("entitypath team1_fly")
 		{
 			Position(568.659119, -18.201599, 361.572754);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1449,7 +1449,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-719.598267, -154.913239, 690.292847);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1462,7 +1462,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1019.833374, -124.177032, 546.066284);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1475,7 +1475,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1187.222778, -127.055954, 204.421570);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1488,7 +1488,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-871.755371, 122.857788, 102.506149);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1501,7 +1501,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-808.229614, 220.005493, 339.762024);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1514,7 +1514,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1171.462280, 260.798828, 378.910828);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1527,7 +1527,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1109.100952, 358.423462, 16.004089);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1540,7 +1540,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-598.942017, 758.265381, -221.121292);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1553,7 +1553,7 @@ Path("entitypath team1_fly")
 		{
 			Position(506.359283, 891.052490, -109.032524);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1566,7 +1566,7 @@ Path("entitypath team1_fly")
 		{
 			Position(1157.013306, 1035.762573, 674.053833);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1579,7 +1579,7 @@ Path("entitypath team1_fly")
 		{
 			Position(823.686279, 933.480225, 1072.469238);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1592,7 +1592,7 @@ Path("entitypath team1_fly")
 		{
 			Position(312.502563, 751.296875, 1325.437988);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1605,7 +1605,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-926.697998, 775.621521, 1294.366577);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1618,7 +1618,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1253.816162, 978.862732, 758.239441);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1631,7 +1631,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1112.470215, 874.244263, 96.600632);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1644,7 +1644,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-197.218063, 980.977051, -492.921326);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1657,7 +1657,7 @@ Path("entitypath team1_fly")
 		{
 			Position(424.422974, 641.010010, -588.716675);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1670,7 +1670,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-79.160187, 103.109856, 833.007996);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1683,7 +1683,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-333.574463, -93.446045, 990.343201);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1694,9 +1694,9 @@ Path("entitypath team1_fly")
 
 		Node()
 		{
-			Position(-702.337952, -74.259506, 664.944092);
+			Position(-674.415894, -33.729507, 853.999512);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1709,7 +1709,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-955.922546, -94.668427, -119.932877);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1722,7 +1722,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-769.079712, -61.463646, -494.723358);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1735,7 +1735,7 @@ Path("entitypath team1_fly")
 		{
 			Position(215.728882, -76.177452, -910.175049);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1748,7 +1748,7 @@ Path("entitypath team1_fly")
 		{
 			Position(439.419861, -63.173889, -832.795044);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1761,7 +1761,7 @@ Path("entitypath team1_fly")
 		{
 			Position(676.094971, -145.085144, -547.518311);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1774,7 +1774,7 @@ Path("entitypath team1_fly")
 		{
 			Position(738.013428, -114.288330, 223.346832);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -1787,7 +1787,7 @@ Path("entitypath team1_fly")
 		{
 			Position(328.239746, -94.874481, 358.858826);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);

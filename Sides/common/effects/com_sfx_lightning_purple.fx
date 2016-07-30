@@ -1,0 +1,18 @@
+LightningBolt("com_sfx_lightning_purple")
+{
+	Texture("com_sfx_lightning_purple");
+	Width(0.5);
+	FadeTime(0.6);
+	BreakDistance(1.0);
+	SpreadFactor(0.8);
+	InterpolationSpeed(5.0);
+	MaxBranches(5);
+	NumChildren(5);
+	BranchFactor(0.15);
+	ChildWidth(0.4);
+	ChildTextureSize(2.5);
+	ChildSpreadFactor(1.0);
+	TextureSize(3.8);
+	Color(82,33,224,250);
+	ChildColor(120,78,239,100);
+}

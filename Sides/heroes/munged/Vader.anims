@@ -1,0 +1,21 @@
+ucft
+{
+	ANIM
+	{
+		"vader_sabre_jumpattack_fall_full"
+		"vader_sabre_jumpattack_land_full"
+		"vader_sabre_jumpattack_recover_full"
+		"vader_sabre_sprint_full"
+		"vader_sabre_stand_attack1a_full"
+		"vader_sabre_stand_attack1b_full"
+		"vader_sabre_stand_attack1c_full"
+		"vader_sabre_stand_attack1d_full"
+		"vader_sabre_stand_attack_backwards"
+		"vader_sabre_stand_dashattack_upper"
+		"vader_sabre_stand_idle_emote_full"
+		"vader_sabre_stand_runbackward_full"
+		"vader_sabre_stand_runforward_full"
+		"vader_sabre_stand_useforce_full"
+		"vader_sabre_stand_walkforward_full"
+	}
+}

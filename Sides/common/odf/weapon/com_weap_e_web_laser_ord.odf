@@ -1,0 +1,19 @@
+[OrdnanceClass]
+ClassParent					= "com_weap_veh_laser_ord"
+
+[Properties]
+LaserTexture				= "rc_laser_blue"
+LaserGlowColor		= "0 95 169 225"
+LightColor			= "0 95 169 225"
+LaserLength					= "6"
+LaserWidth					= "0.5"
+LightRadius					= "5"
+
+
+MaxDamage					= "450.0"
+DamageTransitionDelay       = "0.4"     //How long in seconds before the damage change begins.
+DamageTransitionPeriod      = "0.2"     //How long in seconds the damage change lasts.
+DamageFinalDamage           = "300.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+
+LaserWidth					= 0.2
+LaserLength					= 4

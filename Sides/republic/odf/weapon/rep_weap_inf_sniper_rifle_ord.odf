@@ -1,0 +1,10 @@
+[OrdnanceClass]
+ClassParent		= "com_weap_inf_sniper_rifle_ord"
+
+[Properties]
+LaserTexture		= "com_sfx_laser_blue"
+LaserGlowColor		= "11 49 147 100"
+LightColor			= "11 49 147 100"
+
+EndLaserGlowColor       = "11 49 147 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "11 49 147 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.

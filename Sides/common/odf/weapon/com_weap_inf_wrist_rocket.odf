@@ -1,0 +1,69 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+AnimationBank		= "rifle"
+
+//***********************************************
+//*************	TARGET & RANGE VALUES  **********
+//***********************************************
+TargetEnemy		= "1"
+TargetNeutral		= "0"
+TargetFriendly		= "0"
+
+TargetPerson		= "1"
+TargetAnimal		= "1"
+TargetDroid		= "1"
+TargetVehicle		= "0"
+TargetBuilding		= "0"
+
+MinRange		= "0"
+OptimalRange		= "16"
+MaxRange		= "48"
+
+LockOnRange             = "64.0"
+LockTime 		= "0.4"
+LockOnAngle		= "1.0"
+
+ZoomMin			= "2.5"
+ZoomMax			= "2.5"
+ZoomRate		= "0.0"
+
+NoFirstPersonFireAnim 	= 1
+
+YawSpread		= "0.25"
+PitchSpread		= "0.25"
+
+SpreadPerShot		= "1.1"
+SpreadRecoverRate	= "4.8"
+SpreadThreshold		= "1.6"
+SpreadLimit		= "6.0"
+
+StandStillSpread	= "0.0"
+StandMoveSpread		= "0.0"
+CrouchStillSpread	= "0.0"
+CrouchMoveSpread	= "0.0"
+ProneStillSpread	= "0.0"
+ProneMoveSpread		= "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip 		= "1"
+ReloadTime 		= "2.0"
+ShotDelay 		= "0.0"
+TriggerSingle		= "1"
+
+OffhandWeapon           = 1
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+MuzzleFlash		= "small_muzzle_flash"
+Discharge		= "small_smoke_effect"
+
+RecoilLengthHeavy       = "1.5"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"
+
+

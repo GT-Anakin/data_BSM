@@ -3,4 +3,18 @@
 *** WARNING: Skin model segment 0 has too many/few vert weights?
 *** WARNING: Skin model segment 0 has too many/few UVs?
 *** WARNING: Skin model segment 0 has too many/few vert colors?
+.*** WARNING: Animation <vader_sabre_jumpattack_fall_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_jumpattack_land_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_jumpattack_recover_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_sprint_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_attack1a_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_attack1b_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_attack1c_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_attack1d_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_attack_backwards> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_dashattack_upper> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+..*** WARNING: Animation <vader_sabre_stand_runbackward_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_runforward_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_useforce_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+.*** WARNING: Animation <vader_sabre_stand_walkforward_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
 

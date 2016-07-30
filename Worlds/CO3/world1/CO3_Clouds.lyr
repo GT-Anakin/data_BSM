@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.864, 0.370, 0.314, -0.134);
-	Position(73.812, -212.079, -154.005);
+	Rotation(0.903, 0.162, -0.393, 0.070);
+	Position(326.827, 852.480, -397.633);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(500.000);
+	FarPlane(2500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -18,7 +18,7 @@ Camera("camera")
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
-	Bookmark(156.657, -244.497, -134.940,  0.921, 0.358, -0.143, 0.056);
+	Bookmark(450.895, 2898.314, -1732.505,  0.954, 0.288, -0.081, 0.025);
 }
 LightName("CO3_Clouds.LGT");
 ControllerManager("StandardCtrlMgr");
@@ -53,7 +53,7 @@ Object("CO3_Cloud142", "CO3_Cloud", 97026179)
 
 Object("CO3_Cloud3", "CO3_Cloud", 143737599)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-468.046, 176.272, 458.999);
 	SeqNo(143737599);
 	Team(0);
@@ -63,7 +63,7 @@ Object("CO3_Cloud3", "CO3_Cloud", 143737599)
 
 Object("CO3_Cloud19", "CO3_Cloud", 202283953)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(48.318, 220.417, 410.220);
 	SeqNo(202283953);
 	Team(0);
@@ -113,7 +113,7 @@ Object("CO3_Cloud11000", "CO3_Cloud", 267515225)
 
 Object("CO3_Cloud90", "CO3_Cloud", 301038372)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(25.047, 258.797, 421.588);
 	SeqNo(301038372);
 	Team(0);
@@ -153,7 +153,7 @@ Object("CO3_Cloud19000", "CO3_Cloud", 392562615)
 
 Object("CO3_Cloud190", "CO3_Cloud", 398859832)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(839.173, 209.710, 230.260);
 	SeqNo(398859832);
 	Team(0);
@@ -193,7 +193,7 @@ Object("CO3_Cloud1701", "CO3_Cloud", 456343709)
 
 Object("CO3_Cloud18", "CO3_Cloud", 483676064)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-134.448, 176.272, 474.657);
 	SeqNo(483676064);
 	Team(0);
@@ -203,7 +203,7 @@ Object("CO3_Cloud18", "CO3_Cloud", 483676064)
 
 Object("CO3_Cloud160", "CO3_Cloud", 501389174)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(138.366, 209.709, 1025.502);
 	SeqNo(501389174);
 	Team(0);
@@ -253,7 +253,7 @@ Object("CO3_Cloud801", "CO3_Cloud", 617921181)
 
 Object("CO3_Cloud110", "CO3_Cloud", 701472104)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(476.699, 165.565, 455.896);
 	SeqNo(701472104);
 	Team(0);
@@ -283,7 +283,7 @@ Object("CO3_Cloud1410", "CO3_Cloud", 735596123)
 
 Object("CO3_Cloud1", "CO3_Cloud", 755779727)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-420.759, 176.272, 326.683);
 	SeqNo(755779727);
 	Team(0);
@@ -313,7 +313,7 @@ Object("CO3_Cloud181", "CO3_Cloud", 780841681)
 
 Object("CO3_Cloud5", "CO3_Cloud", 814043094)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-267.996, 176.272, 252.317);
 	SeqNo(814043094);
 	Team(0);
@@ -383,7 +383,7 @@ Object("CO3_Cloud51", "CO3_Cloud", 1058978531)
 
 Object("CO3_Cloud100", "CO3_Cloud", 1083385827)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(186.751, 269.281, 573.853);
 	SeqNo(1083385827);
 	Team(0);
@@ -403,7 +403,7 @@ Object("CO3_Cloud114", "CO3_Cloud", 1104449209)
 
 Object("CO3_Cloud12", "CO3_Cloud", 1117395723)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-603.605, 279.988, 617.840);
 	SeqNo(1117395723);
 	Team(0);
@@ -423,7 +423,7 @@ Object("CO3_Cloud1111", "CO3_Cloud", 1118455297)
 
 Object("CO3_Cloud40", "CO3_Cloud", 1141219238)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(441.105, 165.565, 309.690);
 	SeqNo(1141219238);
 	Team(0);
@@ -443,7 +443,7 @@ Object("CO3_Cloud81", "CO3_Cloud", 1163530954)
 
 Object("CO3_Cloud4", "CO3_Cloud", 1199839341)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-349.750, 176.272, 489.650);
 	SeqNo(1199839341);
 	Team(0);
@@ -503,7 +503,7 @@ Object("CO3_Cloud230", "CO3_Cloud", 1291480711)
 
 Object("CO3_Cloud13", "CO3_Cloud", 1334335696)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-675.685, 279.988, 738.454);
 	SeqNo(1334335696);
 	Team(0);
@@ -523,7 +523,7 @@ Object("CO3_Cloud810", "CO3_Cloud", 1362511936)
 
 Object("CO3_Cloud130", "CO3_Cloud", 1371827635)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(221.774, 269.281, 867.667);
 	SeqNo(1371827635);
 	Team(0);
@@ -533,7 +533,7 @@ Object("CO3_Cloud130", "CO3_Cloud", 1371827635)
 
 Object("CO3_Cloud150", "CO3_Cloud", 1437688215)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-85.743, 209.709, 1051.279);
 	SeqNo(1437688215);
 	Team(0);
@@ -543,7 +543,7 @@ Object("CO3_Cloud150", "CO3_Cloud", 1437688215)
 
 Object("CO3_Cloud", "CO3_Cloud", 1438321866)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-449.917, 176.272, 183.548);
 	SeqNo(1438321866);
 	Team(0);
@@ -623,7 +623,7 @@ Object("CO3_Cloud1600", "CO3_Cloud", 1586278845)
 
 Object("CO3_Cloud30", "CO3_Cloud", 1631681892)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(429.413, 165.565, 588.213);
 	SeqNo(1631681892);
 	Team(0);
@@ -633,7 +633,7 @@ Object("CO3_Cloud30", "CO3_Cloud", 1631681892)
 
 Object("CO3_Cloud14", "CO3_Cloud", 1701451584)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-522.247, 279.988, 815.704);
 	SeqNo(1701451584);
 	Team(0);
@@ -643,7 +643,7 @@ Object("CO3_Cloud14", "CO3_Cloud", 1701451584)
 
 Object("CO3_Cloud0", "CO3_Cloud", 1734468428)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(447.542, 165.565, 312.761);
 	SeqNo(1734468428);
 	Team(0);
@@ -673,7 +673,7 @@ Object("CO3_Cloud9000", "CO3_Cloud", 1760237573)
 
 Object("CO3_Cloud50", "CO3_Cloud", 1785197572)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(629.463, 165.565, 381.530);
 	SeqNo(1785197572);
 	Team(0);
@@ -763,7 +763,7 @@ Object("CO3_Cloud52", "CO3_Cloud", 1913729987)
 
 Object("CO3_Cloud6", "CO3_Cloud", 1915548372)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-435.456, 220.417, 37.223);
 	SeqNo(1915548372);
 	Team(0);
@@ -813,7 +813,7 @@ Object("CO3_Cloud1100", "CO3_Cloud", 2000662857)
 
 Object("CO3_Cloud10", "CO3_Cloud", 2003218871)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-710.708, 279.988, 444.640);
 	SeqNo(2003218871);
 	Team(0);
@@ -823,7 +823,7 @@ Object("CO3_Cloud10", "CO3_Cloud", 2003218871)
 
 Object("CO3_Cloud21", "CO3_Cloud", 2029083512)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(284.621, 258.797, 90.100);
 	SeqNo(2029083512);
 	Team(0);
@@ -843,7 +843,7 @@ Object("CO3_Cloud32", "CO3_Cloud", 2059910521)
 
 Object("CO3_Cloud11", "CO3_Cloud", 2085396080)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-748.223, 279.988, 589.055);
 	SeqNo(2085396080);
 	Team(0);
@@ -913,7 +913,7 @@ Object("CO3_Cloud1900", "CO3_Cloud", -2025655473)
 
 Object("CO3_Cloud16", "CO3_Cloud", -2020058165)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-149.302, 220.417, 737.087);
 	SeqNo(-2020058165);
 	Team(0);
@@ -993,7 +993,7 @@ Object("CO3_Cloud1000", "CO3_Cloud", -1741104132)
 
 Object("CO3_Cloud80", "CO3_Cloud", -1685568229)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(186.329, 258.797, 314.984);
 	SeqNo(-1685568229);
 	Team(0);
@@ -1023,7 +1023,7 @@ Object("CO3_Cloud112", "CO3_Cloud", -1666695166)
 
 Object("CO3_Cloud111", "CO3_Cloud", -1661365854)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(149.235, 269.281, 718.269);
 	SeqNo(-1661365854);
 	Team(0);
@@ -1143,7 +1143,7 @@ Object("CO3_Cloud1110", "CO3_Cloud", -1399702137)
 
 Object("CO3_Cloud170", "CO3_Cloud", -1380612308)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(260.127, 209.709, 1002.970);
 	SeqNo(-1380612308);
 	Team(0);
@@ -1163,7 +1163,7 @@ Object("CO3_Cloud6000", "CO3_Cloud", -1368745154)
 
 Object("CO3_Cloud7", "CO3_Cloud", -1288179886)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-834.077, 269.504, 65.465);
 	SeqNo(-1288179886);
 	Team(0);
@@ -1203,7 +1203,7 @@ Object("CO3_Cloud23", "CO3_Cloud", -1198867978)
 
 Object("CO3_Cloud20", "CO3_Cloud", -1192222353)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-190.830, 220.417, 47.753);
 	SeqNo(-1192222353);
 	Team(0);
@@ -1213,7 +1213,7 @@ Object("CO3_Cloud20", "CO3_Cloud", -1192222353)
 
 Object("CO3_Cloud70", "CO3_Cloud", -1156064733)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(63.382, 258.797, 194.678);
 	SeqNo(-1156064733);
 	Team(0);
@@ -1233,7 +1233,7 @@ Object("CO3_Cloud1210", "CO3_Cloud", -1145433977)
 
 Object("CO3_Cloud140", "CO3_Cloud", -1134478333)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(375.212, 269.281, 944.918);
 	SeqNo(-1134478333);
 	Team(0);
@@ -1253,7 +1253,7 @@ Object("CO3_Cloud172", "CO3_Cloud", -1094447498)
 
 Object("CO3_Cloud180", "CO3_Cloud", -1059279414)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(656.408, 165.565, 294.698);
 	SeqNo(-1059279414);
 	Team(0);
@@ -1293,7 +1293,7 @@ Object("CO3_Cloud31", "CO3_Cloud", -987187808)
 
 Object("CO3_Cloud8", "CO3_Cloud", -959815659)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-711.130, 269.504, 185.770);
 	SeqNo(-959815659);
 	Team(0);
@@ -1453,7 +1453,7 @@ Object("CO3_Cloud71", "CO3_Cloud", -632154230)
 
 Object("CO3_Cloud60", "CO3_Cloud", -596736335)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(462.002, 209.710, 166.437);
 	SeqNo(-596736335);
 	Team(0);
@@ -1473,7 +1473,7 @@ Object("CO3_Cloud1901", "CO3_Cloud", -590154535)
 
 Object("CO3_Cloud15", "CO3_Cloud", -590087215)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-373.411, 220.417, 762.864);
 	SeqNo(-590087215);
 	Team(0);
@@ -1503,7 +1503,7 @@ Object("CO3_Cloud102", "CO3_Cloud", -464244608)
 
 Object("CO3_Cloud2", "CO3_Cloud", -460405593)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-506.235, 269.504, 270.060);
 	SeqNo(-460405593);
 	Team(0);
@@ -1533,7 +1533,7 @@ Object("CO3_Cloud182", "CO3_Cloud", -443087251)
 
 Object("CO3_Cloud17", "CO3_Cloud", -381401850)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-27.541, 220.417, 714.554);
 	SeqNo(-381401850);
 	Team(0);
@@ -1593,7 +1593,7 @@ Object("CO3_Cloud301", "CO3_Cloud", -306547453)
 
 Object("CO3_Cloud120", "CO3_Cloud", -278855866)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(293.854, 269.281, 747.053);
 	SeqNo(-278855866);
 	Team(0);
@@ -1613,7 +1613,7 @@ Object("CO3_Cloud1501", "CO3_Cloud", -252637379)
 
 Object("CO3_Cloud200", "CO3_Cloud", -240513788)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(706.628, 209.710, 176.967);
 	SeqNo(-240513788);
 	Team(0);
@@ -1663,7 +1663,7 @@ Object("CO3_Cloud18000", "CO3_Cloud", -103102541)
 
 Object("CO3_Cloud9", "CO3_Cloud", -28625518)
 {
-	ChildRotation(0.999, 0.000, 0.055, 0.000);
+	ChildRotation(0.998, 0.000, 0.055, 0.000);
 	ChildPosition(-872.412, 269.504, 292.374);
 	SeqNo(-28625518);
 	Team(0);

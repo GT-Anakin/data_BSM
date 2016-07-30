@@ -56,16 +56,17 @@ Value_DEF_Republic      = 0
 Value_DEF_Locals        = 0
 HUDIndexDisplay     = 0
 
+
 CollisionScale          = "2.5"
 CollisionThreshold      = "5.0"
 
 CollisionInflict = "0.1"
 
-MaxHealth           = 10000.0
+MaxHealth           = 45000.0
 HealthType          = "vehicle"
 //HitLocation           = "p_crithit 0"
 
-MaxShield = 5000.0
+MaxShield = 8000.0
 AddShield = 75
 
 TargetableCollision = "target_cube"
@@ -129,7 +130,7 @@ MoveTensionZ            = "4.25"
 
 WEAPONSECTION           = "1"
 
-WeaponName          = "republic_weap_fly_gunship_cannon"
+WeaponName          = "rep_weap_fly_gunship_cannon"
 WeaponAmmo          = "0"
 
 AimerNodeName           = "hp_gun_1"
@@ -148,7 +149,7 @@ FireOutsideLimits       = "1"
 
 WEAPONSECTION           = "2"
 
-WeaponName          = "republic_weap_fly_gunship_missile"
+WeaponName          = "rep_weap_fly_gunship_missile"
 WeaponAmmo          = "6"
 
 AimerNodeName           = "hp_cannon_1"
@@ -187,7 +188,7 @@ TiltValue           = "7.0"
 ForceMode = 1
 
 WEAPONSECTION           = "1"
-WeaponName          = "republic_weap_fly_gunship_guided_rocket"
+WeaponName          = "rep_weap_fly_gunship_guided_rocket"
 WeaponAmmo          = "0"
 
 VehiclePosition         = "common.vehiclepositions.copilot"
@@ -216,7 +217,7 @@ YawLimits           = "-115.0 0.0"
 PCPitchTurnFactor       = "20.0"
 PCYawTurnFactor         = "20.0"
 
-WeaponName          = "republic_weap_fly_gunship_ball"
+WeaponName          = "rep_weap_fly_gunship_ball"
 WeaponAmmo          = "0"
 
 TURRETSECTION       = "TURRET2"
@@ -274,7 +275,7 @@ YawLimits           = "0.0 115.0"
 PCPitchTurnFactor       = "20.0"
 PCYawTurnFactor         = "20.0"
 
-WeaponName          = "republic_weap_fly_gunship_ball"
+WeaponName          = "rep_weap_fly_gunship_ball"
 WeaponAmmo          = "0"
 
 TURRETSECTION       = "TURRET3"
@@ -639,3 +640,6 @@ TrickSound              = "rep_fly_gunship_roll" //Played when the flyer perform
 FlipSound               = "rep_fly_gunship_flip" //Played when the flyer performs a flip
 ProximityMinDist        = "25" // Distance from target where proximity parameter of engine is 0.
 ProximityMaxDist        = "100" // Distance from target where proximity parameter of engine is 1.
+
+[InstanceProperties]
+AISpawnWeight = "5.0"

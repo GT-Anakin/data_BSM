@@ -1,0 +1,7 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+
+Effect = "cis_sfx_droideka_explosion"
+//SoundProperty	= "all_weap_ord_exp"

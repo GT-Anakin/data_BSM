@@ -1,0 +1,68 @@
+[WeaponClass]
+
+ClassLabel          = "cannon"
+
+[Properties]
+RoundsPerClip       = "1"
+ReloadTime          = "7"
+
+HeatPerShot         = "0.0"
+HeatRecoverRate     = "0.0"
+HeatThreshold       = "0.01"
+
+ZoomMin             = "0.0"
+ZoomMax             = "0.0"
+ZoomRate            = "0.0"
+
+MinRange            = "0"
+OptimalRange        = "5"
+MaxRange            = "10"
+
+//Use the offhand shoot_secondary2 anim: (grenade throw, overridden by buff anim)
+OffhandWeapon       = "1"
+FireAnim            = "1"
+InstantPlayFireAnim = "1"
+//AnimationBank       = "tool"
+
+RefillFromItem      = 0
+
+TriggerSingle       = "1"
+ShotDelay           = "1"
+MaxPressedTime      = "0.0"
+
+PitchSpread         = "0.5"
+YawSpread           = "0.5"
+
+SpreadPerShot       = "1.1"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit         = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+LockOnRange         = "30.0"
+LockTime            = "0.0"
+AutoAimSize         = "2.0"
+
+SalvoCount          = "1"
+ShotsPerSalvo       = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.4"
+SalvoTime           = "0.0"
+
+TargetEnemy         = "0"
+TargetNeutral       = "0"
+TargetFriendly      = "1"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+Firesound           = "com_buff_fire"

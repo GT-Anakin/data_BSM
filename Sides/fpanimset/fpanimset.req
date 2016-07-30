@@ -1,0 +1,16 @@
+ucft
+{
+   REQN
+   {
+      "zafbin"
+      "humanfp"	
+	  "sbdroidfp"
+   }
+   REQN
+   {
+      "zaabin"
+      "humanfp"
+	  "sbdroidfp"
+   }	
+   
+}

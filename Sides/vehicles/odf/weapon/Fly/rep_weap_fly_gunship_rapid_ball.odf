@@ -1,0 +1,52 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+Label				= "T47 Laser Cannons"
+IconTexture			= "HUD_all_lascannon_icon"
+ReticuleTexture			= "reticule_rifle"
+ScopeTexture			= "weapon_scope2"
+
+OrdnanceName 			= "rep_weap_fly_gunship_ball_ord"
+MuzzleFlash			= ""
+Discharge			= ""
+
+HeatRecoverRate			= "0.45"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.05"
+
+RoundsPerClip 			= "0"
+ShotDelay 			= "0.2"
+ReloadTime 			= "0.0"
+
+LockOnRange			= "200.0"
+
+AutoAimSize			= "0.1"
+
+TriggerSingle			= "0"
+
+FireSound       		= "rep_weap_fly_gunship_ball_fire"
+FireLoopSound   		= "rep_weap_fly_gunship_ball_fire_loop"
+//ReloadSound     		= "laserbeamreload"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+ModeTexture			= "HUD_weap_semiauto"
+
+MinRange			= "5"
+OptimalRange			= "500"
+MaxRange			= "2000"
+
+ZoomMin			= "3.0"
+ZoomMax			= "3.0"
+ZoomRate		= "0.0"
+
+RecoilLengthLight     	 	= "0.2"
+RecoilStrengthLight     	= "1"
+
+RecoilLengthHeavy      		= "0.1"
+RecoilStrengthHeavy     	= ".4"

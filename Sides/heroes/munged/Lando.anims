@@ -1,0 +1,11 @@
+ucft
+{
+	ANIM
+	{
+		"lando_pistol_standalert_idle_emote"
+		"lando_pistol_standalert_runforward"
+		"lando_pistol_standalert_walkforward"
+		"lando_pistol_stand_idle_emote_full"
+		"lando_pistol_stand_shoot"
+	}
+}

@@ -7,7 +7,7 @@ LaserTexture = "com_sfx_laser_orange"
 ImpactEffect = "com_sfx_weap_flame_exp_lg"
 
 LaserWidth = "2"
-LaserGlowColor = "250 170 5 100"
+LaserGlowColor = "255 140 61 100"
 LaserLength = "150"
 LightRadius = "5"
 

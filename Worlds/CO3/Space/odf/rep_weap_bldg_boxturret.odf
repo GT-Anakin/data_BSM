@@ -1,0 +1,74 @@
+[WeaponClass]
+ClassLabel          = "launcher"
+
+[Properties]
+
+IconTexture         = "IMP_blasterrifle_icon"
+ModeTexture         = "HUD_weap_fullauto"
+ReticuleTexture     = "reticule_rifle"
+
+MuzzleFlash         = "med_muzzle_flash"
+Discharge           = "med_smoke_effect"
+
+RoundsPerClip       = "0"
+
+HeatPerShot         = "0.0015"
+HeatRecoverRate     = "0.5"
+HeatThreshold       = "0.02"
+
+MinRange            = "10"
+OptimalRange        = "600"
+MaxRange            = "1000"
+
+BarrageMin				= "2"
+BarrageMax				= "4"
+BarrageDelay			= "0.5"
+AIBubbleScaleDistDivider	= "100"
+AIBubbleScaleClamp		= "3.0"
+AIBubbleSizeMultiplier = "0.6"
+
+WEAPONSECTION           = 1
+FireSound               = "rep_weap_turret_space"
+//ReloadSound           = "cannonreload"
+//ChangeModeSound       = "com_weap_inf_launcher_modechange"
+//FireEmptySound        = "com_weap_inf_weapon_empty"
+
+OrdnanceName            = "imp_weap_bldg_boxturret_ord"
+
+RecoilLengthLight           = "0.1"
+RecoilStrengthLight         = "1"
+
+RecoilLengthHeavy           = "0.05"
+RecoilStrengthHeavy         = "1"
+
+ShotDelay           = "1.0"
+
+LockOnRange         = "0.0"
+LockTime            = "0.1"
+MinSpread           = "0.0"
+MaxSpread           = "0.2"
+AutoAimSize         = "5.0"
+
+TargetEnemy         = "1"
+TargetNeutral           = "1"
+TargetFriendly          = "0"
+
+TargetPerson            = "0"
+TargetAnimal            = "0"
+TargetDroid         = "0"
+TargetVehicle           = "1"
+TargetBuilding          = "0"
+
+SalvoCount          = "4"
+SalvoDelay          = "0.25 0.5"
+
+AITargetPerson      = "0"
+AITargetAnimal      = "0"
+AITargetDroid       = "0"
+AITargetVehicle     = "1"
+AITargetBuilding    = "0"
+
+
+FoleyFXGroup    =       "metal_foley"
+
+

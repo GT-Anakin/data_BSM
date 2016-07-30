@@ -1,0 +1,11 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_fly_recoilless_ord"
+
+[Properties]
+ExplosionName = "tur_weap_spa_recoilless_rifle_exp"
+ExplosionExpire			= "tur_weap_spa_recoilless_rifle_exp"
+
+LifeSpan = "1.5"
+
+MaxDamage = "2500"
+Velocity            	= "5000.0"

@@ -1,0 +1,10 @@
+ucft
+{
+	ANIM
+	{
+		"kota_sabre_stand_dashattack_end_full"
+		"kota_sabre_stand_dashflip2_full"
+		"kota_sabre_stand_dashflip_full"
+		"kota_sabre_stand_idle_emote_full"
+	}
+}

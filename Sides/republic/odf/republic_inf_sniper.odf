@@ -1,0 +1,41 @@
+[GameObjectClass]
+ClassParent         = "republic_inf_default"
+
+[Properties]
+GeometryName        = "rep_bf3_sharpshooter"
+GeometryLowRes		= "rep_bf3_sharpshooter_low"
+SkeletonName		= "bf3clones"
+AnimationName		= "bf3clones"
+//SkeletonLowRes		= "bf3clones"
+FirstPerson         = "REPUBLIC\republic;rep_1st_sniper"
+
+ClothODF			= "cloth_sharpshooter_kama"
+
+UnitType            = "Scout"
+
+MaxHealth           = 300.0
+MaxSpeed            = 6.5       // base forward speed
+MaxStrafeSpeed      = 5.0       // base right/left speed
+
+
+WEAPONSECTION = 1
+WeaponName         = "republic_weap_inf_sniper_rifle"
+WeaponAmmo         = 8
+
+WEAPONSECTION = 2
+WeaponName         = "republic_weap_inf_pistol"
+WeaponAmmo         = 8
+
+WEAPONSECTION = 3
+WeaponName         = "com_weap_inf_impactgrenade"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "rep_weap_inf_autoturret_dispenser"
+WeaponAmmo         = 3
+WeaponChannel      = 1
+
+
+VOUnitType        	= 122
+

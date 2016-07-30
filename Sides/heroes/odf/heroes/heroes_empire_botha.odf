@@ -1,0 +1,25 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_empire_botha.msh"
+
+[Properties]
+UnitType            = "pilot"
+
+GeometryName        = "heroes_empire_botha"
+GeometryLowRes      = "heroes_empire_botha_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+AISizeType          = "Soldier"
+
+SkeletonName		= "bf3clones"
+SkeletonLowRes          = "bf3cloneslz"   
+//AnimationName       = "HanSolo"
+HealthType          = "person"
+
+WEAPONSECTION = 1
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 5
+
+
+
+FoleyFXClass        = "imp_inf_soldier"
+

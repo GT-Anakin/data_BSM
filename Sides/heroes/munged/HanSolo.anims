@@ -1,0 +1,11 @@
+ucft
+{
+	ANIM
+	{
+		"hansolo_pistol_standalert_idle_emote"
+		"hansolo_pistol_standalert_runforward"
+		"hansolo_pistol_standalert_walkforward"
+		"hansolo_pistol_stand_idle_emote"
+		"hansolo_pistol_stand_shoot"
+	}
+}

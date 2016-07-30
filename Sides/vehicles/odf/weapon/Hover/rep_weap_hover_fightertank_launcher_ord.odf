@@ -1,0 +1,32 @@
+[OrdnanceClass]
+//This area defines the ordnances class
+ClassLabel 		= "missile"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+//This area defines the ordnances geometry and the effects associated with it.
+GeometryName		= "com_weap_inf_grenadethermal"
+ExplosionName		= "rep_weap_hover_fightertank_launcher_exp"
+OrdnanceEffect		= "thermal_detonator"
+TrailEffect		= "com_sfx_weap_rockettrail"
+
+//*RANGE*  (Velocity * Lifespan = range)
+//"LifeSpan" is the amount of time in seconds the ordnance will be in play
+//"Velocity" is the speed at which the ordance travels in the direction fired
+LifeSpan 		= "2.0"
+TurnRate		= "1.0"
+Velocity 		= "90.0"
+Gravity			= "1.5"
+Rebound			= "0.75"
+
+//*DAMAGE* (Damage * Soak = DamageDealt)
+//"MaxDamage" is the unmodified amount of damage the ordnance can inflict.
+//"AreaOfEffect" is the blast radius in meters from the center.
+//"Soak", all three kinds, indicates the ordnances effectiveness against it's target
+MaxDamage 		= "600.0"
+ArmorScale		= "0.1"
+ShieldScale		= "1.0"
+HealthScale		= "1.0"
+
+OrdnanceSound		= "com_weap_inf_ord_hum_rocket"

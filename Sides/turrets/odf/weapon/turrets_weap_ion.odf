@@ -1,0 +1,51 @@
+[WeaponClass]
+ClassParent             = "com_weap_veh_laser"
+
+[Properties]
+HUDTag			= "hud_vehicle_lasers"
+OrdnanceName            = "turrets_weap_ion_ord"
+
+ExplosionExpire		= "turrets_weap_ion_exp"
+
+
+
+ShotDelay           = "0.8"
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.0"
+
+HeatRecoverRate         = "0.10"
+HeatThreshold           = "0.2"
+HeatPerShot         = "0.10"
+
+SalvoCount          = "3"
+ShotsPerSalvo       = "1"
+SalvoDelay          = "0.35"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+FireSound           = "com_weap_turret_fire_small"
+
+ZoomMin             = "2.0"
+ZoomMax             = "4.0"
+ZoomRate            = "1.0"
+
+MinRange = "0"
+OptimalRange = "2000"
+MaxRange = "4500"
+
+ScopeTexture        = "weapon_scope3"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid         = "0"
+TargetVehicle       = "0"
+TargetBuilding      = "1"
+
+AITargetPerson      = "0"
+AITargetAnimal      = "0"
+AITargetDroid       = "0"
+AITargetVehicle     = "0"
+AITargetBuilding    = "1"
+
+FireSound           = "ion_cannon_fire"

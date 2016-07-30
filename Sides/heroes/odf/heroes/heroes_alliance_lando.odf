@@ -1,0 +1,28 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_alliance_lando.msh"
+
+[Properties]
+UnitType        = "Scout"
+
+GeometryName        = "heroes_alliance_lando"
+GeometryLowRes      = "heroes_alliance_lando_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+ClothODF    = "heroes_alliance_lando_cape"
+AISizeType          = "Soldier"
+
+SkeletonName		= "Lando"
+SkeletonLowRes  = "HanSololz" 	         //Lando's lowrez mesh has been enveloped to the same skeleton (HanSololz).
+AnimationName       = "Lando"
+HealthType          = "person"
+MaxHealth           = 1500.0
+
+WEAPONSECTION = 1
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 5
+
+
+
+
+//SOUND
+FoleyFXClass        = "all_inf_soldier"

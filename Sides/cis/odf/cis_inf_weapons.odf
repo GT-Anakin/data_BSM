@@ -1,0 +1,33 @@
+//This unit exists only to load weapons. Loading the units we already have will cause an AnimationBank overlimit. We can't hack it yet so this seemed to be 
+// a good solution.
+
+[GameObjectClass]
+ClassParent         = "common_inf_default"
+
+[Properties]
+GeometryName        = ""
+GeometryLowRes		= ""
+
+//AnimationName           = "obiwan" //Dummy Animation Name
+//SkeletonName           = "obiwan" //Dummy Skeleton Name
+
+WEAPONSECTION = 1
+WeaponName         = "cis_weap_inf_rifle"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 2
+WeaponName         = "cis_weap_inf_sniper_rifle"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 2
+WeaponName         = "cis_weap_inf_shotgun"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 4
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 0
+WeaponChannel      = 1
+
+
+
+

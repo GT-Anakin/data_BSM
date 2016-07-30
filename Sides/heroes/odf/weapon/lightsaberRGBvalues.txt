@@ -1,0 +1,23 @@
+Blue
+7 118 255
+
+Darkblue
+7 71 255
+
+Green
+93 255 13
+
+Darkgreen
+18 250 0
+
+Red
+255 7 10
+
+Darkred
+214 0 5
+
+Purple
+170 21 255 
+
+Yellow
+255 211 7

@@ -11,6 +11,7 @@ ScriptCB_DoFile("ObjectiveTDM")
 ---------------------------------------------------------------------------
 function ScriptPostLoad()
 
+if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
 ---
 ---
@@ -36,6 +37,7 @@ end
 end
 ---
 ---
+end
 
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
@@ -49,9 +51,12 @@ end
 	TDM:Start()
 
 	SetMapNorthAngle(180, 1)
-	SetUberMode(1);
+--	if not ScriptCB_InMultiplayer() then
+--	SetUberMode(1);
+--	end
     AddAIGoal(1, "Deathmatch", 100)
     AddAIGoal(2, "Deathmatch", 100)
+	SetAIDifficulty(2 , 2 )
 end
 
 ---------------------------------------------------------------------------
@@ -62,6 +67,7 @@ function ScriptInit()
     -- Designers, these two lines *MUST* be first!
     SetPS2ModelMemory(2097152 + 65536 * 8)
     
+	ReadDataFile("dc:SIDE\\fpanimset.lvl")
     ReadDataFile("dc:ingame.lvl")
     ReadDataFile("ingame.lvl")
 
@@ -77,7 +83,7 @@ function ScriptInit()
     SetMinPlayerFlyHeight (-550)
 	SetGroundFlyerMap(1)
 	
-  --[[  SetMemoryPoolSize ("ClothData",20)
+    SetMemoryPoolSize ("ClothData",20)
     SetMemoryPoolSize ("Combo",70)              -- should be ~ 2x number of jedi classes
     SetMemoryPoolSize ("Combo::State",850)      -- should be ~12x #Combo
     SetMemoryPoolSize ("Combo::Transition",850) -- should be a bit bigger than #Combo::State
@@ -85,18 +91,23 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Attack",750)     -- should be ~8-12x #Combo
     SetMemoryPoolSize ("Combo::DamageSample",8000)  -- should be ~8-12x #Combo::Attack
     SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
-	]]
-	SetMemoryPoolSize ("ClothData",20)
-    SetMemoryPoolSize ("Combo",50)              -- should be ~ 2x number of jedi classes
-    SetMemoryPoolSize ("Combo::State",650)      -- should be ~12x #Combo
-    SetMemoryPoolSize ("Combo::Transition",650) -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Condition",650)  -- should be a bit bigger than #Combo::State
-    SetMemoryPoolSize ("Combo::Attack",550)     -- should be ~8-12x #Combo
-    SetMemoryPoolSize ("Combo::DamageSample",6000)  -- should be ~8-12x #Combo::Attack
-    SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
 	
     ReadDataFile("dc:Sound\\co3.lvl")
     ReadDataFile("sound\\tat.lvl;tat2gcw")
+	
+		--The following TWO .lvl files *have to* be read FIRST in order to load additional, soldier weapons; or the game would crash while loading!!!
+		
+    	ReadDataFile("dc:SIDE\\Republic.lvl",
+		"republic_inf_weapons",
+		"rep_cap_assultship_dome")
+		
+		ReadDataFile("dc:SIDE\\cis.lvl",
+		"cis_inf_weapons",
+		"cis_cap_fedcoreship_dome",
+		"cis_cap_fedcruiser_dome")
+
+		----------------------------------------------------------------
+		----------------------------------------------------------------
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
 		"AirSpeeder_speeder_01",
@@ -109,134 +120,61 @@ function ScriptInit()
 		"heroes_alliance_hansolo",
 		"heroes_alliance_lando",
 		"heroes_alliance_leia",
+		"heroes_alliance_kota",
+		"heroes_alliance_luke_jedi",
+		"heroes_alliance_obiwan",
+		"heroes_alliance_x2",
 		"heroes_empire_boba",
-		"heroes_cis_jango",
-		"heroes_cis_zam",
-		"heroes_empire_vader")
-		
-		ReadDataFile("dc:SIDE\\vehicles.lvl",
-		"cis_hover_stap")
-		
-
-		
-		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
+		"heroes_empire_vader",
+		"heroes_empire_emperor",
+		"heroes_empire_juno",
+		"heroes_empire_starkiller",
+		"heroes_empire_botha",
+		"heroes_empire_ig88",
+		"heroes_empire_bossk",
+		"heroes_republic_yoda")
+	
+		ReadDataFile("dc:SIDE\\turrets.lvl",
 		"turrets_ground_turret",
-		"turrets_anti_air")]]
-		
-		
-		
-		------------------------------------
-		
- --[[   ReadDataFile("SIDE\\all.lvl",
-                "all_hero_luke_jedi",
-                "all_hero_chewbacca")
-                    
-    ReadDataFile("SIDE\\imp.lvl",
-                "imp_hero_darthvader",
-                "imp_hero_emperor")
-                
-    ReadDataFile("SIDE\\rep.lvl",
-                "rep_hero_yoda",
-                "rep_hero_macewindu",
-                "rep_hero_anakin",
-                "rep_hero_aalya",
-                "rep_hero_kiyadimundi",
-                "rep_hero_obiwan")
-                
-    ReadDataFile("SIDE\\cis.lvl",
-                "cis_hero_grievous",
-                "cis_hero_darthmaul",
-                "cis_hero_countdooku")]]
+		"turrets_anti_air")
 
-		--[[ReadDataFile("dc:SIDE\\turrets.lvl",
-		"turrets_ground_turret",
-		"turrets_anti_air")]]
-
-		
-if not ScriptCB_InMultiplayer() then
         
-    SetupTeams{
+     SetupTeams{
         hero = {
             team = ALL,
-            units = 64,
+            units = 32,
                 reinforcements = -1,
-                soldier = { "heroes_alliance_hansolo",1,3},
-             --   assault = { "all_hero_chewbacca",   1,3},
-             --   engineer= { "all_hero_luke_jedi",   1,3},
-             --   sniper  = { "rep_hero_obiwan",  1,3},
-             --   officer = { "rep_hero_yoda",        1,3},
-             --   special = { "rep_hero_macewindu",   1,3},           
+                soldier = { "heroes_alliance_hansolo",	1,4},
+                assault = { "heroes_alliance_lando",   1,4},
+                engineer= { "heroes_alliance_leia",   1,4},
+                sniper  = { "heroes_alliance_kota",  1,4},
+                officer = {	"heroes_alliance_luke_jedi",   1,4},
+                special = { "heroes_alliance_x2",   1,4},  
+			
         },
     }   
 
-    AddUnitClass(ALL,"heroes_alliance_leia",   1,3)
-  --  AddUnitClass(ALL,"rep_hero_aalya",  1,3)
-  --  AddUnitClass(ALL,"rep_hero_kiyadimundi",1,3)
-	AddUnitClass(ALL,"heroes_alliance_lando",1,3)
+	AddUnitClass(ALL,"heroes_alliance_obiwan",1,4)
+	AddUnitClass(ALL,"heroes_republic_yoda",1,4)
 	
-	
-
     SetupTeams{
         villain = {
             team = IMP,
-            units = 64,
+            units = 32,
             reinforcements = -1,
-                soldier = { "heroes_empire_boba",    1,4},
+                soldier = { "heroes_empire_boba",  1,4},
                 assault = { "heroes_empire_vader",1,4},
-          --      engineer= { "cis_hero_darthmaul", 1,4},
-                sniper  = { "heroes_cis_jango", 1,4},
-         --       officer = { "cis_hero_grievous",    1,4},
-         --      special = { "imp_hero_emperor", 1,4},
+                engineer= { "heroes_empire_emperor", 1,4},
+                sniper  = { "heroes_empire_juno", 1,4},
+                officer = { "heroes_empire_starkiller",    1,4},
+                special = { "heroes_empire_botha", 1,4},
 
         },
     }   
- --   AddUnitClass(IMP, "rep_hero_anakin",1,4)
---    AddUnitClass(IMP, "cis_hero_countdooku",1,4)
-		AddUnitClass(IMP, "heroes_cis_zam",1,4)
+	
+	AddUnitClass(IMP,"heroes_empire_ig88",1,4)
+	AddUnitClass(IMP,"heroes_empire_bossk",1,4)
 
-	
-	else
-	
-	   SetupTeams{
-        hero = {
-            team = ALL,
-            units = 32,
-                reinforcements = -1,
-                soldier = { "heroes_alliance_hansolo",1,3},
-             --   assault = { "all_hero_chewbacca",   1,3},
-             --   engineer= { "all_hero_luke_jedi",   1,3},
-             --   sniper  = { "rep_hero_obiwan",  1,3},
-             --   officer = { "rep_hero_yoda",        1,3},
-             --   special = { "rep_hero_macewindu",   1,3},           
-        },
-    }   
-
-    AddUnitClass(ALL,"heroes_alliance_leia",   1,3)
-  --  AddUnitClass(ALL,"rep_hero_aalya",  1,3)
-  --  AddUnitClass(ALL,"rep_hero_kiyadimundi",1,3)
-	AddUnitClass(ALL,"heroes_alliance_lando",1,3)
-	
-	
-
-    SetupTeams{
-        villain = {
-            team = IMP,
-            units = 32,
-            reinforcements = -1,
-                soldier = { "heroes_empire_boba",    1,4},
-          --      assault = { "imp_hero_darthvader",1,4},
-          --      engineer= { "cis_hero_darthmaul", 1,4},
-                sniper  = { "heroes_cis_jango", 1,4},
-         --       officer = { "cis_hero_grievous",    1,4},
-         --      special = { "imp_hero_emperor", 1,4},
-
-        },
-    }   
- --   AddUnitClass(IMP, "rep_hero_anakin",1,4)
---    AddUnitClass(IMP, "cis_hero_countdooku",1,4)
-		AddUnitClass(IMP, "heroes_cis_zam",1,4)
-	
-	end
 
     --  Level Stats
     ClearWalkers()
@@ -253,11 +191,10 @@ if not ScriptCB_InMultiplayer() then
     SetMemoryPoolSize("EnergyBar", weaponCnt)
     SetMemoryPoolSize("EntityCloth",41)
     SetMemoryPoolSize("EntityDefenseGridTurret", 0)
-    SetMemoryPoolSize("EntityDroid", 0)
 	SetMemoryPoolSize("EntityFlyer", 5) -- to account for 5 chewbaccas
     SetMemoryPoolSize("EntityLight", 80, 80) -- stupid trickery to actually set lights to 80
     SetMemoryPoolSize("EntityPortableTurret", 0) -- nobody has autoturrets AFAIK - MZ
-    SetMemoryPoolSize("EntitySoundStream", 16)
+    SetMemoryPoolSize("EntitySoundStream", 12)
     SetMemoryPoolSize("EntitySoundStatic", 45)
     SetMemoryPoolSize("FLEffectObject::OffsetMatrix", 120)
     SetMemoryPoolSize("MountedTurret", 0)
@@ -286,12 +223,8 @@ if not ScriptCB_InMultiplayer() then
     ScriptCB_EnableHeroMusic(0)
     ScriptCB_EnableHeroVO(0)
     
-    voiceSlow = OpenAudioStream("sound\\global.lvl", "all_unit_vo_slow")
-    AudioStreamAppendSegments("sound\\global.lvl", "imp_unit_vo_slow", voiceSlow)
-    AudioStreamAppendSegments("sound\\global.lvl", "global_vo_slow", voiceSlow)
-    
-    voiceQuick = OpenAudioStream("sound\\global.lvl",  "all_unit_vo_quick")
-    AudioStreamAppendSegments("sound\\global.lvl",  "imp_unit_vo_quick", voiceQuick)    
+    SetSoundEffect("ScopeDisplayZoomIn",  "binocularzoomin")
+    SetSoundEffect("ScopeDisplayZoomOut", "binocularzoomout")
     
     OpenAudioStream("sound\\global.lvl",  "gcw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
@@ -303,18 +236,7 @@ if not ScriptCB_InMultiplayer() then
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 
-    SetBleedingVoiceOver(ALL, ALL, "all_off_com_report_us_overwhelmed", 1)
-    SetBleedingVoiceOver(ALL, IMP, "all_off_com_report_enemy_losing",   1)
-    SetBleedingVoiceOver(IMP, ALL, "imp_off_com_report_enemy_losing",   1)
-    SetBleedingVoiceOver(IMP, IMP, "imp_off_com_report_us_overwhelmed", 1)
 
-    SetLowReinforcementsVoiceOver(ALL, ALL, "all_off_defeat_im", .1, 1)
-    SetLowReinforcementsVoiceOver(ALL, IMP, "all_off_victory_im", .1, 1)
-    SetLowReinforcementsVoiceOver(IMP, IMP, "imp_off_defeat_im", .1, 1)
-    SetLowReinforcementsVoiceOver(IMP, ALL, "imp_off_victory_im", .1, 1)
-
-    SetOutOfBoundsVoiceOver(1, "Allleaving")
-    SetOutOfBoundsVoiceOver(2, "Impleaving")
 
     SetAmbientMusic(ALL, 1.0, "gen_amb_celebDeathmatch",  0,1)
     -- SetAmbientMusic(ALL, 0.9, "all_tat_amb_middle", 1,1)

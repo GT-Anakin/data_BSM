@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent          = "com_weap_veh_fly_multilasers"
+
+[Properties]
+OrdnanceName        = "rep_weap_fly_arc170_cannon_ord"
+
+SalvoCount = "2"
+ShotsPerSalvo = "1"
+SalvoDelay = "0"
+InitialSalvoDelay = "0"
+SalvoTime = "0"
+
+HeatPerShot = "0.05"
+
+FireSound               = "rep_weap_fly_arc170_cannon_fire"
+FireSoundStop   = "0"

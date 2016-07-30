@@ -4,5 +4,5 @@ ClassLabel		=	"prop"
 GeometryName	=	"CO3_prop_advert_ring_01.msh"
 
 [Properties]
-
+Lighting        = "Dynamic"
 GeometryName	=	"CO3_prop_advert_ring_01"

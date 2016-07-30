@@ -1,0 +1,68 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_cis_jango.msh"
+
+[Properties]
+AISizeType          = "Soldier"
+
+GeometryName        = "heroes_cis_jango"
+GeometryLowRes      = "heroes_cis_jango_low"
+SkeletonName    = "bf3clones" 
+SkeletonLowRez    = "bf3cloneslz" 
+//SkeletonLowRes  = "HanSololz" //They share the same skeleton Lowrez basepose.msh
+//FirstPerson         = "IMP\impboba;imp_1st_bobafett"
+
+//AnimationName = "fett"
+
+//JET JUMP
+JetJump             = "7.0" //7 //The initial jump-push given when enabling the jet
+JetPush             = "8.0" //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "30.0" //Acceleration while hovering.
+JetEffect           = "imp_sfx_jetpack"
+JetType             = "hover"
+JetFuelRechargeRate = "0.12" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.15" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.25" //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.24" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+CollisionScale      = "0.0 0.0 0.0"
+//JET JUMP END
+
+WEAPONSECTION = 1
+//WeaponName1         = "heroes_weap_ee3"
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 4
+
+
+
+//SOUND
+SndHeroSelectable       = ""
+SndHeroSpawned          = "hero_jango_spawn"
+SndHeroDefeated         = "hero_jango_exhausted"
+SndHeroKiller           = "hero_jango_exhausted"
+VOSound                 = "hero_jango_AcquiredTarget      AcquiredTarget"
+VOSound                 = "hero_jango_KillingSpree4      KillingSpree4"
+VOUnitType              = 197
+SoldierMusic            = "cis_hero_Jango_lp"
+
+VOSound = "cis_off_response_hero_command      SC_Follow"
+VOSound = "cis_off_response_hero_command      SC_StopFollow"
+VOSound = "cis_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "cis_off_response_hero_command     SC_GetIn"
+VOSound = "cis_off_response_hero_command      SC_GetOut"
+
+HurtSound               = "jango_inf_com_chatter_wound"
+DeathSound              = "jango_inf_com_chatter_death"
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+//LowHealthThreshold      = 0.25
+EngineSound             = "rep_inf_Jetpack_engine_parameterized"
+TurnOnSound             = "rep_weap_jetpack_turnon"
+TurnOffSound            = "rep_weap_jetpack_turnoff"
+TurnOffTime             = 0.0
+FoleyFXClass            = "cis_inf_trooper"
+

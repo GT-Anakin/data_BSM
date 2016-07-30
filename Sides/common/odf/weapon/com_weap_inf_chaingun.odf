@@ -37,10 +37,10 @@ ZoomMin             = "2.5"
 ZoomMax             = "2.5"
 ZoomRate            = "0.0"
 
-YawSpread           = "0.25"
-PitchSpread         = "0.25"
+YawSpread           = "0.02"
+PitchSpread         = "0.02"
 
-SpreadPerShot       = "0.125"
+SpreadPerShot       = "0.0"
 SpreadRecoverRate   = "1.0"
 SpreadThreshold     = "1.5"
 SpreadLimit         = "2.5"
@@ -61,10 +61,10 @@ ShotDelay 		= "0.05"
 ReloadTime 		= "0"
 HeatRecoverRate 	= "0.25"
 HeatThreshold 		= "0.2"
-HeatPerShot 		= "0.020"
+HeatPerShot 		= "0.15"
 
-WarmUpTime 		= 0.5
-CoolDownTime 		= 1.5
+WarmUpTime 		= 0.25
+CoolDownTime 		= 1.0
 
 SalvoCount          	= "1"
 SalvoDelay          	= "0.0"

@@ -1,0 +1,39 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+
+OrdnanceName            = "rep_weap_hover_fightertank_launcher_ord"
+MuzzleFlash         = "lrg_weap_discharge"
+Discharge           = "lrg_weap_discharge"
+
+RoundsPerClip           = "200"
+ShotDelay           = "0.5"
+ReloadTime          = "4.0"
+LockOnTime          = "5.0"
+
+LockOnRange         = "100.0"
+LockTime            = "0.0"
+MinSpread           = "0.0"
+MaxSpread           = "0.0"
+AutoAimSize         = "1.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay       = "0.0"
+
+ZoomMin             = "2.0"
+ZoomMax             = "2.0"
+ZoomRate            = "0.0"
+
+//MaxPressedTime            = "3.0"
+
+ModeTexture         = "HUD_weap_impact"
+
+FireSound               = "imp_weap_hover_fightertank_launcher_fire"
+ReloadSound             = ""
+
+
+RecoilLengthHeavy           = "0.15"
+RecoilStrengthHeavy         = "1"
+RecoilDecayHeavy            = "10"

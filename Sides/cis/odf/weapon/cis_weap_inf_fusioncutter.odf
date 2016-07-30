@@ -1,0 +1,25 @@
+[WeaponClass]
+ClassParent             = "com_weap_inf_fusioncutter"
+GeometryName            = "cis_weap_hq_inf_fusioncutter.msh"
+
+[Properties]
+GeometryName            = "cis_weap_hq_inf_fusioncutter"
+HighResGeometry         = "cis_weap_hq_inf_fusioncutter"
+
+TargetDroid             = "1"
+DroidHealth             = 150
+
+FireEmptySound      = "com_weap_pistol_empty"
+FireLoopSound       = "cis_weap_fusioncutter_repair"
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+
+
+
+

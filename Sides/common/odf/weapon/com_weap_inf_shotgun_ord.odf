@@ -11,18 +11,18 @@ ImpactEffectWater   = "com_sfx_watersplash_ord"
 ImpactEffectShield  = "com_sfx_ord_exp"
 ExpireEffect        = "com_sfx_ord_exp"
 
-LifeSpan            = "0.1"
+LifeSpan            = "0.15"
 Velocity            = "2000.0"
 Gravity             = "1.0"
 Rebound             = "0.0"
 
-MaxDamage               = "65.0"
+MaxDamage               = "25.0"
 DamageTransitionDelay   = "0.0"     //How long in seconds before the damage change begins.
 DamageTransitionPeriod  = "0.1"     //How long in seconds the damage change lasts.
-DamageFinalDamage       = "15.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+DamageFinalDamage       = "5.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
 FadeLightColor          = "1"       //Whether or not the color on the light should be faded along with the damage.
-EndLaserGlowColor       = "160 43 43 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
-EndLightColor           = "160 43 43 150" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
+EndLaserGlowColor       = "66 146 30 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "66 146 30 150" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
 
 VehicleScale        = "0.1"
 ShieldScale         = "0.25"

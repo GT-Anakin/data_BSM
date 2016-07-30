@@ -1,0 +1,116 @@
+[WeaponClass]
+ClassLabel      = "cannon"
+
+[Properties]
+AnimationBank       = "rifle"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy     = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid     = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+MinRange        = "0"
+OptimalRange        = "0"
+MaxRange        = "0"
+
+LockOnRange             = "24.0"
+LockTime        = "0.4"
+LockOnAngle     = "1.0"
+
+ZoomMin         = "2.0"
+ZoomMax         = "2.0"
+ZoomRate        = "0.0"
+
+YawSpread       = "0.0"
+PitchSpread     = "0.0"
+
+KickSpread      = "0.25"
+SpreadRecover       = "5.0"
+
+KickStrength        = "0.25"
+KickBuildup     = "100.0"
+
+SpreadPerShot       = "0.1"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit     = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+HeatPerShot         = "0.20"
+HeatRecoverRate         = "0.4"
+HeatThreshold           = "0.25"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "-1"
+ReloadTime      = "1.75"
+ShotDelay       = "0.66"
+TriggerSingle       = "1"
+
+SalvoDelay      = "0.0"
+InitialSalvoDelay   = "0.0"
+SalvoTime       = "0.0"
+
+SalvoCount      = "1"
+
+ShotsPerSalvo       = "3"
+ShotPatternCount    = "3"
+ShotPatternPitchYaw     = "-0.1 -0.8"
+ShotPatternPitchYaw     = "0.8 0.0"
+ShotPatternPitchYaw     = "-0.1 0.8"
+
+OrdnanceName        = "cis_weap_inf_wrist_blaster_ord"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+MuzzleFlash     = "small_muzzle_flash"
+FlashColor      = "255 80 80 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 220 220 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge       = "small_smoke_effect"
+
+RecoilLengthLight       = "0.3"
+RecoilLengthHeavy       = "0.2"
+RecoilStrengthLight     = "1.0"
+RecoilStrengthHeavy     = "0.4"
+RecoilDecayLight    = "0.0"
+RecoilDecayHeavy    = "0.0"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "cis_weap_inf_wrist_trishot_fire"
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+ReloadSound         = "com_weap_inf_equip_med"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"

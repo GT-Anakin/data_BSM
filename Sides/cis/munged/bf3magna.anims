@@ -1,0 +1,30 @@
+ucft
+{
+	ANIM
+	{
+		"bf3magna_sabre_jumpattack_end_full"
+		"bf3magna_sabre_jumpattack_fall_full"
+		"bf3magna_sabre_jumpattack_land_full"
+		"bf3magna_sabre_jump_backward_full"
+		"bf3magna_sabre_jump_left_full"
+		"bf3magna_sabre_jump_right_full"
+		"bf3magna_sabre_sprint_upper"
+		"bf3magna_sabre_stand_attack1a_end_full"
+		"bf3magna_sabre_stand_attack1a_full"
+		"bf3magna_sabre_stand_attack1b_end_full"
+		"bf3magna_sabre_stand_attack1b_full"
+		"bf3magna_sabre_stand_attack1c_full"
+		"bf3magna_sabre_stand_attack2c_full"
+		"bf3magna_sabre_stand_attack_backwards"
+		"bf3magna_sabre_stand_block_front1_full"
+		"bf3magna_sabre_stand_block_front2_full"
+		"bf3magna_sabre_stand_block_idle_full"
+		"bf3magna_sabre_stand_block_left1_full"
+		"bf3magna_sabre_stand_block_left2_full"
+		"bf3magna_sabre_stand_block_right1_full"
+		"bf3magna_sabre_stand_block_right2_full"
+		"bf3magna_sabre_stand_dashattack_full"
+		"bf3magna_sabre_stand_idle_emote_full"
+		"bf3magna_sabre_stand_walkbackwards_full"
+	}
+}

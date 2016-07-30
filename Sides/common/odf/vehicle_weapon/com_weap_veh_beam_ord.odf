@@ -1,0 +1,31 @@
+[OrdnanceClass]
+ClassLabel 		= "beam"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_md"
+ImpactEffect		= "com_sfx_weap_beam_exp"
+
+LaserTexture		= "com_sfx_laser_blue"
+LaserWidth			= "0.4"
+LaserGlowColor			= "41 44 135 100"
+
+Range	 			= "500.0"
+Gravity				= "1.0"
+Rebound				= "0.0"
+
+LifeSpan			= "0.75"
+
+MaxDamage 			= "1000"
+
+PassThrough			= "1"
+
+VehicleScale			= "0.5"
+ShieldScale			= "1.0"
+PersonScale			= "1.0"
+AnimalScale			= "1.0"
+DroidScale			= "1.0"
+BuildingScale			= "0.5"
+
+
+OrdnanceSound		= "" // No Ordnance Sound on Beams
+CollisionSound  =   "com_weap_inf_ord_hum_lg"

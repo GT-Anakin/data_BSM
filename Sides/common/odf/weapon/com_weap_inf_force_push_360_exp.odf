@@ -1,0 +1,20 @@
+[ExplosionClass]
+
+ClassLabel          = "explosion"    
+
+[Properties] 
+
+Push                = "0.0"
+PushRadius          = "0.0"
+PushDeadOnly        = "1"
+
+Damage              = "5.0"
+DamageRadius        = "0.1"
+
+VehicleScale        = "0.0"
+ShieldScale         = "0.1"
+PersonScale         = "0.1"
+DroidScale          = "0.1"
+AnimalScale         = "0.1"
+
+//SoundProperty     = "rep_weap_inf_arccaster_exp"

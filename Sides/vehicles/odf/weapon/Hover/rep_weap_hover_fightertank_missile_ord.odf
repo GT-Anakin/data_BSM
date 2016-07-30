@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent      = "com_weap_veh_missile_ord"
+
+[Properties]
+GeometryName        = "com_weap_missile"
+
+ExplosionName       = "rep_weap_hover_fightertank_missile_exp"

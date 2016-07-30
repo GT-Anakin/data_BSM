@@ -1,0 +1,64 @@
+[WeaponClass]
+
+ClassLabel 			= "cannon"
+
+[Properties]
+HUDTag                          = "hud_force_push"
+GeometryName 			= ""
+HighResGeometry        		= ""
+
+RoundsPerClip 			= "0"
+ReloadTime 			= "0.3"
+HeatRecoverRate			= "0.2"
+HeatThreshold			= "0.0"
+
+OrdnanceName 			= "com_weap_inf_force_push_360_ord"
+
+TriggerSingle			= "1"
+ShotDelay 			= "0.5"
+HeatPerShot			= "0.0"
+MaxPressedTime			= "0.0"
+
+LockOnRange             	= "64.0"
+LockTime 			= "0.0"
+AutoAimSize			= "2.0"
+
+SalvoCount			= "1"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.0"
+SalvoTime			= "0.0"
+InitialSalvoDelay		= "0.5" // must have one or no animation - Mike Z
+
+EnergyDrain                     = 100.0
+InstantPlayFireAnim             = 1
+OffhandWeapon                   = 1
+
+TargetEnemy			= "1"
+TargetNeutral			= "1"
+TargetFriendly			= "1"
+
+TargetPerson			= "1"
+TargetAnimal			= "1"
+TargetDroid			= "1"
+TargetVehicle			= "0"
+TargetBuilding			= "0"
+
+AITargetPerson			= "0"
+AITargetAnimal			= "0"
+AITargetDroid			= "0"
+AITargetVehicle			= "0"
+AITargetBuilding		= "0"
+
+//SOUND
+FireSound               = "force_push_fire"
+//ReloadSound           = ""
+WeaponChangeSound       = ""
+ChangeModeSound         = ""
+FireEmptySound          = ""
+ChargeSound         = ""
+ChargeSoundPitch    = "0.05"
+OverheatSound       = ""
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = ""
+
+

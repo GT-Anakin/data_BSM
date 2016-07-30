@@ -1,0 +1,11 @@
+//Common
+SoundProperties()
+{
+    Name("com_weap_pistol_empty");
+    Group("weapons_foley");
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("com_weap_pistol_empty", 1.0);
+    }
+}

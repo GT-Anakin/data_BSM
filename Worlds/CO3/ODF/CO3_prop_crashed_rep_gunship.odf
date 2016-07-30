@@ -4,7 +4,7 @@ ClassLabel		=	"prop"
 GeometryName	=	"CO3_prop_crashed_rep_gunship_EDITOR.msh"
 
 [Properties]
-
+Lighting        = "Dynamic"
 GeometryName	=	"CO3_prop_crashed_rep_gunship"
 
 FoleyFXGroup    =   "metal_foley"

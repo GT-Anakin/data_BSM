@@ -5,29 +5,29 @@ ClassLabel          	= "bolt"
 ////////////////////////////////////////////////////////
 //redefined in child classes
 LaserTexture        	= "com_sfx_laser_red"
-LaserGlowColor      	= "253 43 43 100"
-LightColor          	= "253 43 43 150"
+LaserGlowColor      	= "205 7 7 100"
+LightColor          	= "205 7 7 150"
 
 ////////////////////////////////////////////////////////
-LightRadius         	= "4.0"
+LightRadius         	= "5.0"
 
-LaserLength         	= "1.0"
-LaserWidth          	= "0.1"
-GlowLength          	= "3"
-BlurLength          	= "5"
+LaserLength         	= "3.8"
+LaserWidth          	= "0.2"
+GlowLength          	= "2.5"
+BlurLength          	= "4.5"
 
 LifeSpan            	= "0.80"
-Velocity            	= "300.0"
+Velocity            	= "400.0"
 Gravity             	= "1.0"
 Rebound             	= "0.0"
 
-MaxDamage           	= "75.0"
+MaxDamage           	= "90.0"
 DamageTransitionDelay   = "0.2"     //How long in seconds before the damage change begins.
 DamageTransitionPeriod  = "0.1"     //How long in seconds the damage change lasts.
-DamageFinalDamage       = "50.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+DamageFinalDamage       = "70.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
 FadeLightColor          = "1"       //Whether or not the color on the light should be faded along with the damage.
-EndLaserGlowColor       = "160 43 43 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
-EndLightColor           = "160 43 43 150" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
+EndLaserGlowColor       = "205 7 7 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "205 7 7 150" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
 
 VehicleScale        	= "0.1"
 ShieldScale         	= "1.0"

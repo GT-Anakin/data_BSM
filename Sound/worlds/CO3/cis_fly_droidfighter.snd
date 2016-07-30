@@ -1,0 +1,459 @@
+// ----- Start Droidfighter Weapons ------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_fly_droidfighter_cannon_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_drdFghtr_blaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_fly_droidfighter_torpedo_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_ywing_torpedo_fire", 1.0);
+    }
+}
+
+// ----- End Droidfighter Weapons ------------------------
+
+// Static Flyer Foley --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_airbrakes_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.45)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_airbrakes_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.45)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_on", 1.0);
+    }
+}
+
+// Takeoff ----------------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_take_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    #ifplatform xbox ps2
+    Gain(0.65)
+    #endifplatform xbox ps2
+    SampleList()
+    {
+        Sample("jedifighter_shift_down", 1.0);
+    }
+}
+
+// Land --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_land_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    #ifplatform xbox ps2
+    Gain(0.65)
+    #endifplatform xbox ps2
+    SampleList()
+    {
+        Sample("shutdown_soft", 1.0);
+    }
+}
+
+// Turnon --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_turn_on_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    #ifplatform xbox ps2
+    Gain(0.65)
+    #endifplatform xbox ps2
+    SampleList()
+    {
+        Sample("startup_soft", 1.0);
+    }
+}
+
+
+// Turnoff  --------------------------------
+//Played when the flyer turns off
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_turn_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Pitch(0.8);
+    Gain(0.65)
+    SampleList()
+    {
+        Sample("jedifighter_shift_down", 1.0);
+    }
+}
+
+
+// Turning Off --------------------------------
+// Played when a soldier leaves the flyer
+
+// Plays airbrakes on a delay
+
+// Shift Up   --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_up_low_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("droidfighter_shift_up", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_up_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    SampleList()
+    {
+        Sample("soft_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_up_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(45)
+    Gain(1.0)
+    SampleList()
+    {
+        Sample("jedifighter_shift_up", 1.0);
+    }
+}
+
+// Shift Down --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_down_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("soft_shift_down", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_down_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("droidfighter_shift_down", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_shift_down_low_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("arc170_shift_down", 1.0);
+    }
+}
+
+
+// Roll side to side --------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_roll");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    MinDistance(45)
+    SampleList()
+    {
+      Sample("arc170_roll", 1.0);
+
+    }
+}
+
+// Flip/Roll forward/back -----------------------
+
+SoundProperties()
+{
+    Name("cis_fly_droidfighter_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Pitch(0.85)
+    MinDistance(45)
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("droidfighter_roll", 1.0);
+
+    }
+}
+
+// Damage --------------------------------
+
+SoundProperties()
+{
+    Name("droidfighter_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+    }
+}
+
+// Boost --------------------------------
+
+SoundProperties()
+{
+    Name("droidfighter_engine_boost_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("droidfighter_mid", 1.0);
+
+    }
+}
+
+// ----- End Droidfighter Engine Stingers --------------
+
+// ----- Start Droidfighter Engine Loops ---------------
+
+SoundProperties()
+{
+    Name("droidfighter_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_low_template");
+    SampleList()
+    {
+      Sample("eng_droidStarfighter_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("droidfighter_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_droidStarfighter_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("droidfighter_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_droidStarfighter_hi_lp", 1.0);
+    }
+}
+
+
+
+// ----- End Droidfighter Engine Loops ------------------
+
+// TakeOff and Land Layers --------------------------
+
+SoundLayered()
+{ 
+    Name("cis_fly_droidfighter_land");
+  //  Layer("r2_land", "r2_land", 0.0);
+    Layer("droidfighter_land_property", "cis_fly_droidfighter_land_property", 0.0);
+    Layer("droidfighter_airbrakes_on", "cis_fly_droidfighter_airbrakes_on", 0.0);  
+}
+
+SoundLayered()
+{ 
+    Name("cis_fly_droidfighter_turn_on");
+    //Layer("r2_turn_on", "r2_turn_on", 0.0);
+    Layer("droidfighter_turn_on_property", "cis_fly_droidfighter_turn_on_property", 0.0);
+    Layer("droidfighter_airbrakes_on", "cis_fly_droidfighter_airbrakes_on", 0.1);  
+}
+
+
+// ----- Start Droidfighter Engine Parameter Graphs ------------------------------------------
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.5, 1.0);
+    ControlPoint(1.0, 1.2);
+
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.2);
+    ControlPoint(0.0, 0.2);
+    ControlPoint(0.5, 0.3);
+    ControlPoint(1.0, 0.5);
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.25);
+    ControlPoint(0.0, 0.25);
+    ControlPoint(0.5, 0.3);
+    ControlPoint(1.0, 0.5);
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_boost_idle_speed");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.78,0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidfighter_engine_boost_idle_acceleration");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.78, 0.0); //contrails
+    ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("droidfighter_engine_layered");
+    Layer("droidfighter_engine_low_idle", "droidfighter_engine_low_idle_property", 0.0);
+    Layer("droidfighter_engine_med_idle", "droidfighter_engine_med_idle_property", 0.0);
+    Layer("droidfighter_engine_high_idle", "droidfighter_engine_high_idle_property", 0.0);
+    Layer("droidfighter_engine_damage_idle", "droidfighter_engine_damage_idle_property", 0.0);
+    //Layer("droidfighter_engine_boost_idle", "droidfighter_engine_boost_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_fly_droidfighter_engine_parameterized");
+    SoundLayered("droidfighter_engine_layered");
+
+Layer()
+    {
+        Name("droidfighter_engine_low_idle");
+        ParameterGraph("speed",        "droidfighter_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "droidfighter_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("droidfighter_engine_med_idle");
+        ParameterGraph("speed",        "droidfighter_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "droidfighter_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("droidfighter_engine_high_idle");
+        ParameterGraph("speed",        "droidfighter_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "droidfighter_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    //Layer()
+    //{
+    //    Name("droidfighter_engine_boost_idle");
+    //    ParameterGraph("speed",        "droidfighter_engine_boost_idle_speed", "pitch");
+    //    ParameterGraph("acceleration", "droidfighter_engine_boost_idle_acceleration","gain");
+    //}
+    Layer()
+    {
+        Name("droidfighter_engine_damage_idle");
+        ParameterGraph("health", "engine_health","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+}
+
+// ----- End Droidfighter Engine Parameter Graphs ------------------------------------------

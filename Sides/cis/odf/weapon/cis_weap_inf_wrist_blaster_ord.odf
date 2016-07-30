@@ -1,0 +1,8 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_inf_rifle_ord"
+
+[Properties]
+
+Velocity            	= "450.0"
+MaxDamage           	= "100.0"
+DamageFinalDamage       = "85.0"   

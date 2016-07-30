@@ -3,11 +3,18 @@ ClassLabel          = "bolt"
 
 [Properties]
 
-LaserLength         = "20.0"
-LaserWidth          = "0.15"
-GlowLength          = "24"
-BlurLength          = "32"
-FadeOutTime         = "1"
+LightRadius         	= "5.0"
+
+LaserTexture        	= "com_sfx_laser_red"
+LaserGlowColor      	= "205 7 7 100"
+LightColor          	= "205 7 7 150"
+
+LaserLength         	= "9.0"
+LaserWidth          	= "0.12"
+GlowLength          	= "10.5"
+BlurLength          	= "15.5"
+
+
 
 ImpactEffectSoft    = "com_sfx_ord_exp"
 ImpactEffectRigid   = "com_sfx_ord_exp"
@@ -17,9 +24,9 @@ ImpactEffectWater   = "com_sfx_watersplash_ord"
 ImpactEffectShield  = "com_sfx_ord_exp"
 ExpireEffect        = "com_sfx_ord_exp"
 
-LifeSpan            = "0.15"
+LifeSpan            = "0.25"
 MaxDamage           = "300.0"
-Velocity            = "2000.0"
+Velocity            = "2500.0"
 Gravity             = "1.0"
 Rebound             = "0.0"
 
@@ -33,8 +40,8 @@ DamageTransitionDelay   = "0.0"     //How long in seconds before the damage chan
 DamageTransitionPeriod  = "0.0"     //How long in seconds the damage change lasts.
 DamageFinalDamage       = "-1.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
 FadeLightColor          = "0"       //Whether or not the color on the light should be faded along with the damage.
-EndLaserGlowColor       = "0 0 0 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
-EndLightColor           = "0 0 0 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
+EndLaserGlowColor       = "205 7 7 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "205 7 7 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
 
 OrdnanceSound       = "com_weap_inf_ord_hum_sm"
 CollisionSound      = "imp_weap_ord_exp"

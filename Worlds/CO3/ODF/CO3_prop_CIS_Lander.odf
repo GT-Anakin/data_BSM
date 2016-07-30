@@ -4,7 +4,7 @@ ClassLabel			= "prop"
 GeometryName			= "CO3_prop_CIS_Lander.msh"
 
 [Properties]
-
+Lighting        = "Dynamic"
 GeometryName	=	"CO3_prop_CIS_Lander"
 
 FoleyFXGroup    =   "metal_foley"

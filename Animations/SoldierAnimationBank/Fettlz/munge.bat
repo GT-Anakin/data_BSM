@@ -1,3 +1,3 @@
 @set path=C:/windows/system32
 
-@call ..\munge_animation.bat "/keepframe0 /specialquathack /dest HanSololz.zaf" Sides/heroes
+@call ..\munge_animation.bat "/keepframe0 /dest HanSololz.zaf" Sides/heroes

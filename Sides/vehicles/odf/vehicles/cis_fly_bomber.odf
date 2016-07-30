@@ -50,7 +50,7 @@ PathFollowerMinBranchDist   = "190.0"
 PathFollowerBranchRange     = "1500"
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
@@ -287,8 +287,8 @@ FoleyFXGroup            = "metal_foley"
 
 // ***************************************************************************************
 
-EnergyBar               = 60
-EnergyAutoRestore       = 10
+EnergyBar               = 150
+EnergyAutoRestore       = 7.5
 EnergyBoostDrain        = 20
 EnergyTrickDrainSingleTap = 15
 EnergyTrickDrainDoubleTap = 30

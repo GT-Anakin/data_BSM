@@ -53,8 +53,8 @@ ProneMoveSpread     = "0.0"
 //***********************************************
 
 RoundsPerClip       = "50"
-ReloadTime          = "1.5"
-ShotDelay           = "0.2"
+ReloadTime          = "3.0"
+ShotDelay           = "0.185"
 TriggerSingle       = "0"
 
 DisplayRefire 	    = "0"
@@ -69,7 +69,7 @@ SalvoTime           = "0.0"
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
 
-MuzzleFlash         = "small_muzzle_flash"
+MuzzleFlashEffect   = "small_muzzle_flash"
 FlashColor          = "255 80 80 255"
 FlashLength         = 0.025
 FlashColor          = "255 100 100 255"

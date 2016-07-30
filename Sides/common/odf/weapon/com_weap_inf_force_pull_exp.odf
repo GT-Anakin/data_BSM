@@ -2,8 +2,7 @@
 
 ClassLabel          = "explosion"    
 
-[Properties]
-Effect              = "com_sfx_forcepulled"  
+[Properties] 
 
 Push                = "0.0"
 PushRadius          = "0.0"

@@ -1,0 +1,10 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_metal_junk_01.msh"
+
+[Properties]
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_metal_junk_01"
+
+FoleyFXGroup    =   "metal_foley"

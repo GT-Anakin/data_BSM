@@ -1,0 +1,50 @@
+[WeaponClass]
+
+ClassLabel          = "melee"
+
+[Properties]
+HUDTag              = "hud_lightsaber"
+RoundsPerClip       = "0"
+ReloadTime          = "0.0"
+
+LockOnRange         = "60.0"
+LockTime            = "0.4"
+AutoAimSize         = "1.0"
+
+MinRange            = "0"
+OptimalRange        = "2.0"
+MaxRange            = "4"
+
+HitEffect			= "com_sfx_sabrehit"
+AddHitEffect = "com_sfx_bif" // hooya
+AddHitEffect = "com_sfx_zap"
+AddHitEffect = "com_sfx_blammo"
+AddHitEffect = "com_sfx_pow"
+
+HitSound            = "imp_weap_lightsabre_hit"
+DeflectEffect		= "com_sfx_sabredeflect"
+DeflectSound        = "imp_weap_lightsabre_deflect"
+OnSound				= "com_inf_saber_ambient"
+TurnOnSound			= ""
+TurnOffSound		= ""
+
+MuzzleFlash         = "med_muzzle_flash"
+Discharge           = "med_smoke_effect"
+
+AutoTurnScreenDist  = 0.05
+AutoPitchScreenDist = 0.2
+
+ShieldScale     = "5.0"
+HealthScale     = "1.0"
+PersonScale     = "1.0"             
+AnimalScale     = "1.0"
+DroidScale      = "1.0"
+ArmorScale      = "1.0"
+VehicleScale    = "1.0"
+BuildingScale   = "1.0"
+
+TargetPerson    = "1"
+TargetAnimal    = "1"
+TargetDroid     = "1"
+TargetVehicle   = "0"
+TargetBuilding  = "0"

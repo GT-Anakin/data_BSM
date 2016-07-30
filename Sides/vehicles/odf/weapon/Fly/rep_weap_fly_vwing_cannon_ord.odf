@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent     = "com_weap_veh_fly_chaingun_ord"
+
+[Properties]
+ExplosionName = "rep_weap_fly_vwing_cannon_exp"
+
+MaxDamage = "225"

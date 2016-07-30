@@ -1,0 +1,27 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_wrist_rocket"
+
+[Properties]
+OrdnanceName        = "cis_weap_inf_wrist_rocket_ord"
+
+// to make it work - Mike Z
+InitialSalvoDelay = "0.21" // 7 frames
+InstantPlayFireAnim = 1
+
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "cis_weap_inf_wrist_rocket_fire"
+ReloadSound         = "com_weap_inf_equip_lg"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+

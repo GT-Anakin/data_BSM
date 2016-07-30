@@ -1,0 +1,29 @@
+ucft
+{
+	ANIM
+	{
+		"yoda_aa_turret"
+		"yoda_barc_9pose"
+		"yoda_minigun_9pose"
+		"yoda_sabre_stand_attack1a_end_full"
+		"yoda_sabre_stand_attack1a_full"
+		"yoda_sabre_stand_attack1b_end_full"
+		"yoda_sabre_stand_attack1b_full"
+		"yoda_sabre_stand_attack1c_full"
+		"yoda_sabre_stand_block_front1_full"
+		"yoda_sabre_stand_block_front2_full"
+		"yoda_sabre_stand_block_idle_full"
+		"yoda_sabre_stand_block_left1_full"
+		"yoda_sabre_stand_block_left2_full"
+		"yoda_sabre_stand_block_right1_full"
+		"yoda_sabre_stand_block_right2_full"
+		"yoda_sabre_stand_dashattack_full"
+		"yoda_sabre_stand_idle_emote_full"
+		"yoda_sabre_stand_runbackward_full"
+		"yoda_sabre_stand_runforward_full"
+		"yoda_sabre_stand_walkforward_full"
+		"yoda_speederbike_9pose"
+		"yoda_stand_sprint_full"
+		"yoda_stap_ride"
+	}
+}

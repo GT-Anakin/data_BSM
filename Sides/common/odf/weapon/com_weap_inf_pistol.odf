@@ -9,6 +9,9 @@ AnimationBank   = "pistol"
 //************* TARGET & RANGE VALUES  **********
 //***********************************************
 
+//ScoreForMedalsType = 1
+//MedalsTypeToLock = 1
+
 TargetEnemy         = "1"
 TargetNeutral       = "0"
 TargetFriendly      = "0"
@@ -31,8 +34,8 @@ ZoomMin             = "2.5"
 ZoomMax             = "2.5"
 ZoomRate            = "0.0"
 
-YawSpread           = "0.4"
-PitchSpread         = "0.4"
+YawSpread           = "0.3"
+PitchSpread         = "0.3"
 
 SpreadPerShot       = "1.1"
 SpreadRecoverRate   = "4.8"
@@ -54,8 +57,8 @@ ProneMoveSpread     = "0.0"
 //*********** WEAPON PERFORMANCE VALUES *********
 //***********************************************
 
-//RoundsPerClip       = "0"
-//ReloadTime          = "2.0"
+RoundsPerClip       = "20"
+ReloadTime          = "3.0"
 ShotDelay           = "0.2"
 TriggerSingle       = "1"
 MaxPressedTime      = "0.0"

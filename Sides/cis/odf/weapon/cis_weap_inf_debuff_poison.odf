@@ -1,0 +1,15 @@
+[WeaponClass]
+
+ClassParent         = "com_weap_inf_buff"
+
+[Properties]
+
+HUDTag              = "hud_poison"
+OrdnanceName        = "cis_weap_inf_debuff_poison_ord"
+
+ReloadTime          = "0"
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+

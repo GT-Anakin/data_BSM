@@ -2,9 +2,9 @@
 ClassParent     	= "com_weap_veh_fly_multilasers_ord"
 
 [Properties]
-LaserTexture = "com_sfx_laser_orange"
+LaserTexture = "com_sfx_laser_red"
 ExplosionName = "cis_weap_fly_droidfighter_cannon_exp"
 
 MaxDamage = "250"
 
-LaserGlowColor = "249 42 42 100"
+LaserGlowColor = "205 7 7 100"

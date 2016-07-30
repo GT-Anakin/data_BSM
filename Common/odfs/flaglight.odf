@@ -1,0 +1,7 @@
+[GameObjectClass]		
+ClassLabel			= "Light"
+
+[Properties]
+Color				= "225 255 255 64"
+FlareIntensity		= 0.5
+OmniRadius			= 10.0

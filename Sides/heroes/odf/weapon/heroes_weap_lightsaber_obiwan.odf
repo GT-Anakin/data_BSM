@@ -1,0 +1,15 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_lightsaber"
+
+[Properties]
+
+GeometryName        = "heroes_weap_lightsaber_vader"
+ComboAnimationBank	= "human_sabre melee heroes_republic_obiwan"
+
+FirePointName       = "hp_fire"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 	= "bluelightsabre"
+LightSaberTrailColor = "7 118 255 128"

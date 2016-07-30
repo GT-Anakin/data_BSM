@@ -17,6 +17,7 @@ SoundStream()
     Name("co3_amb_bar");
     Group("ambientenv");
     Inherit("ambientfx_template");
+    RandomPlayPos(0);
     Stream("co3_stm");
     Gain(2.0);
     Looping(1);
@@ -82,30 +83,36 @@ SoundStream()
     }
 }
 
-SoundStream()
+SoundProperties()
 {
-    Name("co3_amb_gas_pipe");
-    Group("ambientenv");
-    Inherit("ambientfx_template");
-    Stream("co3_stm");
+    Name("co3_amb_fan");
+    Pitch(1.0);
     Gain(1.0);
+    Bus("soundfx");
     Looping(1);
-    SegmentList()
+    MinDistance(5.0);
+    MuteDistance(10.0);
+    MaxDistance(10.0);
+    Mode3D(1);
+    SampleList()
     {
-        Segment("co3_amb_gas_pipe", 1.0);
+        Sample("co3_amb_fan", 1.0);
     }
 }
 
-SoundStream()
+SoundProperties()
 {
-    Name("co3_amb_fan");
-    Group("ambientenv");
-    Inherit("ambientfx_template");
-    Stream("co3_stm");
+    Name("co3_amb_gas_pipe");
+    Pitch(1.0);
     Gain(1.0);
+    Bus("soundfx");
     Looping(1);
-    SegmentList()
+    MinDistance(4.0);
+    MuteDistance(8.0);
+    MaxDistance(8.0);
+    Mode3D(1);
+    SampleList()
     {
-        Segment("co3_amb_fan", 1.0);
+        Sample("co3_amb_gas_pipe", 1.0);
     }
 }

@@ -1,0 +1,26 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_electrostaff"
+
+[Properties]
+
+GeometryName    = "cis_weap_electrostaff"
+ComboAnimationBank  = "human_sabre melee cis_inf_magna"
+
+NumDamageEdges		= "3"
+FirePointName       = "hp_fire1"
+LightSaberLength    = "0.22"
+LightSaberWidth     = "0.0"
+LightSaberTexture   = "purplelightsabre"
+LightSaberTrailColor = "146 57 176 40"
+
+FirePointName       = "hp_fire2"
+LightSaberLength    = "0.22"
+LightSaberWidth     = "0.0"
+LightSaberTexture   = "purplelightsabre"
+LightSaberTrailColor = "146 57 176 40"
+
+AttachedFirePoint	= "bone_l_calf 1.0 0.0 0.0 0.35 0.0 0.0"
+DamageEdgeLength	= "0.5"
+DamageEdgeWidth		= "0.1"

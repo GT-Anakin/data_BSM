@@ -1,0 +1,37 @@
+[WeaponClass]
+
+ClassLabel      = "melee"
+ClassParent		= "com_weap_inf_lightsaber"
+
+[Properties]
+
+GeometryName    		= "heroes_weap_lightsaber_vader"
+ComboAnimationBank  = "grevious_sabre melee heroes_cis_grievous"
+
+NumDamageEdges			= "4"
+OffhandFirePointName   	= "hp_fire bone_rf_hand"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 		= "greenlightsabre"
+LightSaberTrailColor	= "93 255 13 128"
+
+OffhandGeometryName		= "heroes_weap_lightsaber_vader"
+OffhandFirePointName   	= "hp_fire bone_lf_hand"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 		= "bluelightsabre"
+LightSaberTrailColor 	= "7 118 255 128"
+
+OffhandGeometryName		= "heroes_weap_lightsaber_vader"
+OffhandFirePointName   	= "hp_fire bone_rb_hand"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 		= "darkbluelightsabre"
+LightSaberTrailColor 	= "7 71 255 128"
+
+OffhandGeometryName		= "heroes_weap_lightsaber_vader"
+OffhandFirePointName  	= "hp_fire bone_lb_hand"
+LightSaberLength	= "1.13"
+LightSaberWidth		= "0.065"
+LightSaberTexture 		= "darkgreenlightsabre"
+LightSaberTrailColor	= "18 250 0 128"

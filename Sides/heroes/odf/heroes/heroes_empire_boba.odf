@@ -1,0 +1,83 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_empire_boba.msh"
+
+[Properties]
+AISizeType          = "Soldier"
+UnitType            = "pilot"
+
+ClothODF            = "heroes_empire_boba_cape"
+GeometryName        = "heroes_empire_boba"
+GeometryLowRes      = "heroes_empire_boba_low"
+SkeletonName    = "Fett"
+SkeletonLowRes  = "HanSololz" //They share the same skeleton Lowrez basepose.msh
+//FirstPerson         = "IMP\impboba;imp_1st_bobafett"
+
+//AnimationName = "fett"
+
+//JET JUMP
+JetJump             = "7.0" //7 //The initial jump-push given when enabling the jet
+JetPush             = "8.0" //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "30.0" //Acceleration while hovering.
+JetEffect           = "imp_sfx_jetpack"
+JetType             = "hover"
+JetFuelRechargeRate = "0.12" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.15" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.25" //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.24" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+CollisionScale      = "0.0 0.0 0.0"
+//JET JUMP END
+
+WEAPONSECTION = 1
+//WeaponName1         = "heroes_weap_ee3"
+WeaponName1         = "heroes_weap_ddc"
+WeaponAmmo1         = 4
+
+
+
+//SOUND
+SndHeroSelectable   = ""
+SndHeroSpawned      = "hero_boba_spawn"
+SndHeroDefeated     = "hero_boba_exhausted"
+SndHeroKiller       = "hero_boba_exhausted"
+
+VOSound = "imp_off_response_hero_command      SC_Follow"
+VOSound = "imp_off_response_hero_command      SC_StopFollow"
+VOSound = "imp_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "imp_off_response_hero_command     SC_GetIn"
+VOSound = "imp_off_response_hero_command      SC_GetOut"
+
+VOSound             = "hero_boba_AcquiredTarget      AcquiredTarget"
+VOSound             = "hero_boba_KillingSpree4      KillingSpree4"
+VOUnitType          = 192
+SoldierMusic        = "imp_hero_Boba_lp"
+
+VOSound = "boba_hero_pc_com_hostile   		SpottedVO"
+VOSound = "boba_hero_pc_com_mechanic  		NeedRepairVO"
+VOSound = "boba_hero_pc_com_transport 		NeedPickupVO"
+VOSound = "boba_hero_pc_com_backup    		NeedBackupVO"
+VOSound = "boba_hero_pc_com_clear_area		AttackPositionVO"
+VOSound = "boba_hero_pc_com_defend    		DefendPositionVO"
+           
+VOSound = "boba_hero_pc_com_hostile_inVehicle   		SpottedVO +InVehicle"
+VOSound = "boba_hero_pc_com_mechanic_inVehicle  		NeedRepairVO +InVehicle"
+VOSound = "boba_hero_pc_com_transport_inVehicle 		NeedPickupVO +InVehicle"
+VOSound = "boba_hero_pc_com_backup_inVehicle    		NeedBackupVO +InVehicle"
+VOSound = "boba_hero_pc_com_clear_area_inVehicle		AttackPositionVO +InVehicle"
+VOSound = "boba_hero_pc_com_defend_inVehicle    		DefendPositionVO +InVehicle"
+
+HurtSound               = "fett_inf_com_chatter_wound"
+DeathSound              = "fett_inf_com_chatter_death"
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+//LowHealthThreshold      = 0.25
+EngineSound             = "rep_inf_Jetpack_engine_parameterized"
+TurnOnSound             = "rep_weap_jetpack_turnon"
+TurnOffSound            = "rep_weap_jetpack_turnoff"
+TurnOffTime             = 0.0
+FoleyFXClass            = "imp_inf_trooper"

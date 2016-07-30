@@ -1,0 +1,79 @@
+[WeaponClass]
+ClassLabel          = "grenade"
+
+[Properties]
+GeometryName        = "com_weap_inf_impactgrenade"
+HighResGeometry     = "com_weap_inf_impactgrenade"
+
+OffhandWeapon       = 1
+
+OrdnanceName        = "com_weap_inf_impactgrenade_ord"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+MinRange            = "12"
+OptimalRange        = "18"
+MaxRange            = "24"
+
+LockOnRange         = "30.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "1"
+ReloadTime          = "0.0"
+ShotDelay           = "1.3"
+ShotElevate         = "0.21"
+MaxPressedTime      = "0.0"
+
+InitialSalvoDelay   = "0.51"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.0"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.25"
+ChargeDelayHeavy        = "1.45"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "0"
+RecoilStrengthHeavy     = "0"
+
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_equip_sm"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"

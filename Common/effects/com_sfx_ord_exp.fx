@@ -66,10 +66,10 @@ ParticleEmitter("Smoke")
 	}
 	ParticleEmitter("Sparks")
 	{
-		MaxParticles(12.0000,12.0000);
+		MaxParticles(2.0000,2.0000);
 		StartDelay(0.0000,0.0000);
 		BurstDelay(0.0010, 0.0010);
-		BurstCount(1.0000,1.0000);
+		BurstCount(2.0000,2.0000);
 		MaxLodDist(50.0000);
 		MinLodDist(10.0000);
 		BoundingRadius(5.0);
@@ -81,11 +81,11 @@ ParticleEmitter("Smoke")
 		Alpha(255.0000, 255.0000);
 		Spawner()
 		{
-			Circle()
+			Spread()
 			{
-				PositionX(-1.0000,1.0000);
-				PositionY(-1.0000,1.0000);
-				PositionZ(-1.0000,1.0000);
+				PositionX(0.0000,0.0000);
+				PositionY(0.0000,0.0000);
+				PositionZ(0.0000,0.0000);
 			}
 			Offset()
 			{
@@ -93,16 +93,16 @@ ParticleEmitter("Smoke")
 				PositionY(0.0000,0.0000);
 				PositionZ(0.0000,0.0000);
 			}
-			PositionScale(0.5000,0.5000);
-			VelocityScale(2.0000,7.0000);
+			PositionScale(0.0000,0.0000);
+			VelocityScale(0.0000,0.0000);
 			InheritVelocityFactor(0.0000,0.0000);
-			Size(0, 0.0100, 0.0200);
+			Size(0, 0.3000, 0.9000);
 			Red(0, 255.0000, 255.0000);
-			Green(0, 255.0000, 255.0000);
-			Blue(0, 255.0000, 255.0000);
-			Alpha(0, 255.0000, 255.0000);
+			Green(0, 184.0000, 200.0000);
+			Blue(0, 17.0000, 32.0000);
+			Alpha(0, 0.0000, 0.0000);
 			StartRotation(0, 0.0000, 360.0000);
-			RotationVelocity(0, -180.0000, 180.0000);
+			RotationVelocity(0, 0.0000, 0.0000);
 			FadeInTime(0.0000);
 		}
 		Transformer()
@@ -110,30 +110,36 @@ ParticleEmitter("Smoke")
 			LifeTime(0.2000);
 			Position()
 			{
-				LifeTime(0.2000)
-				Accelerate(0.0000, -3.0000, 0.0000);
+				LifeTime(0.5000)
 			}
 			Size(0)
 			{
-				LifeTime(2.0000)
-				Scale(3.0000);
+				LifeTime(0.2000)
 			}
 			Color(0)
 			{
-				LifeTime(0.2000)
-				Move(0.0000,0.0000,0.0000,0.0000);
+				LifeTime(0.0100)
+				Reach(255.0000,255.0000,255.0000,255.0000);
+				Next()
+				{
+					LifeTime(0.1900)
+					Reach(255.0000,128.0000,0.0000,255.0000);
+				}
 			}
 		}
 		Geometry()
 		{
 			BlendMode("ADDITIVE");
-			Type("SPARK");
-			SparkLength(0.0250);
-			Texture("com_sfx_laser_orange");
+			Type("ANIMATED");
+			TimePerFrame(0.0150);
+			FrameSize(64.0000);
+			TotalFrames(16.0000);
+			Looping(1);
+			Texture("com_sfx_sparks_animated1");
 		}
-		ParticleEmitter("Sparks")
+		ParticleEmitter("ASparks")
 		{
-			MaxParticles(45.0000,45.0000);
+			MaxParticles(3.0000,3.0000);
 			StartDelay(0.0000,0.0000);
 			BurstDelay(0.0010, 0.0010);
 			BurstCount(1.0000,1.0000);
@@ -160,13 +166,13 @@ ParticleEmitter("Smoke")
 					PositionY(0.0000,0.0000);
 					PositionZ(0.0000,0.0000);
 				}
-				PositionScale(0.0000,0.0000);
-				VelocityScale(1.0000,5.0000);
+				PositionScale(0.5000,0.5000);
+				VelocityScale(2.0000,7.0000);
 				InheritVelocityFactor(0.0000,0.0000);
 				Size(0, 0.0100, 0.0200);
-				Hue(0, 15.0000, 30.0000);
-				Saturation(0, 100.0000, 150.0000);
-				Value(0, 255.0000, 255.0000);
+				Red(0, 255.0000, 255.0000);
+				Green(0, 255.0000, 255.0000);
+				Blue(0, 255.0000, 255.0000);
 				Alpha(0, 255.0000, 255.0000);
 				StartRotation(0, 0.0000, 360.0000);
 				RotationVelocity(0, -180.0000, 180.0000);
@@ -174,11 +180,11 @@ ParticleEmitter("Smoke")
 			}
 			Transformer()
 			{
-				LifeTime(0.1500);
+				LifeTime(0.2000);
 				Position()
 				{
 					LifeTime(0.2000)
-					Accelerate(0.0000, -3.0000, 0.0000);
+					Accelerate(0.0000, -5.0000, 0.0000);
 				}
 				Size(0)
 				{

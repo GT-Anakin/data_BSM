@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.864, 0.370, 0.314, -0.134);
-	Position(73.812, -212.079, -154.005);
+	Rotation(0.903, 0.162, -0.393, 0.070);
+	Position(326.827, 852.480, -397.633);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(500.000);
+	FarPlane(2500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -18,7 +18,7 @@ Camera("camera")
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
-	Bookmark(156.657, -244.497, -134.940,  0.921, 0.358, -0.143, 0.056);
+	Bookmark(450.895, 2898.314, -1732.505,  0.954, 0.288, -0.081, 0.025);
 }
 LightName("CO3_conquest.LGT");
 ControllerManager("StandardCtrlMgr");
@@ -192,7 +192,7 @@ Object("cp7", "com_bldg_controlzone", 2095192412)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("50.0");
+	AISpawnWeight("75.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }
@@ -275,7 +275,7 @@ Object("cp6", "com_bldg_controlzone", 1920735842)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("70.0");
+	AISpawnWeight("80.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }
@@ -358,7 +358,7 @@ Object("cp3", "com_bldg_controlzone", 1323740855)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("20.0");
+	AISpawnWeight("50.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }
@@ -524,7 +524,7 @@ Object("cp8", "com_bldg_controlzone", 325108975)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("60.0");
+	AISpawnWeight("70.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }
@@ -538,7 +538,7 @@ Object("vehicle1", "com_item_vehicle_spawn", 134347588)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp5");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -577,13 +577,13 @@ Object("vehicle13", "com_item_vehicle_spawn", 245113315)
 	ClassAllATK("");
 	ClassCISATK("cis_hover_aat");
 	ClassImpATK("");
-	ClassRepATK("rep_hover_fightertank");
+	ClassRepATK("republic_hover_fightertank");
 	ClassLocATK("");
 	ClassHisATK("");
 	ClassAllDEF("");
 	ClassCISDEF("cis_hover_aat");
 	ClassImpDEF("");
-	ClassRepDEF("rep_hover_fightertank");
+	ClassRepDEF("republic_hover_fightertank");
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
@@ -597,7 +597,7 @@ Object("ion_cannon_chair", "spa_veh_turret_chair", 882445862)
 	Team(0);
 	NetworkId(-1);
 	Layer(1);
-	RemoteGameObject("");
+	RemoteGameObject("ion_cannon");
 	NextLinkedTerminal("");
 	PrevLinkedTerminal("");
 }
@@ -611,7 +611,7 @@ Object("vehicle7", "com_item_vehicle_spawn", 1068108471)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp1");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -641,7 +641,7 @@ Object("vehicle2", "com_item_vehicle_spawn", 1113953894)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp5");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -665,7 +665,7 @@ Object("vehicle2", "com_item_vehicle_spawn", 1113953894)
 Object("vehicle8", "com_item_vehicle_spawn", 1744654863)
 {
 	ChildRotation(0.708, 0.000, -0.706, 0.000);
-	ChildPosition(-177.714, -277.728, 128.210);
+	ChildPosition(-180.037, -275.615, 128.210);
 	SeqNo(1744654863);
 	Team(0);
 	NetworkId(-1);
@@ -731,7 +731,7 @@ Object("vehicle4", "com_item_vehicle_spawn", -1943074609)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp3");
-	SpawnCount("1");
+	SpawnCount("2");
 	SpawnTime("45.0");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -829,7 +829,7 @@ Object("cp1", "com_bldg_major_controlzone", -1776034860)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("70.0");
+	AISpawnWeight("100.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }
@@ -873,7 +873,7 @@ Object("vehicle5", "com_item_vehicle_spawn", -1672071041)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp3");
-	SpawnCount("1");
+	SpawnCount("2");
 	SpawnTime("45.0");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -903,7 +903,7 @@ Object("vehicle6", "com_item_vehicle_spawn", -1653882512)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp1");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -933,7 +933,7 @@ Object("vehicle10", "com_item_vehicle_spawn", -1479675902)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp5");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -972,13 +972,13 @@ Object("vehicle12", "com_item_vehicle_spawn", -1462538656)
 	ClassAllATK("");
 	ClassCISATK("cis_walk_spider");
 	ClassImpATK("");
-	ClassRepATK("rep_hover_fightertank");
+	ClassRepATK("republic_hover_fightertank");
 	ClassLocATK("");
 	ClassHisATK("");
 	ClassAllDEF("");
 	ClassCISDEF("cis_walk_spider");
 	ClassImpDEF("");
-	ClassRepDEF("rep_hover_fightertank");
+	ClassRepDEF("republic_hover_fightertank");
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
@@ -1002,13 +1002,13 @@ Object("vehicle14", "com_item_vehicle_spawn", -1183218497)
 	ClassAllATK("");
 	ClassCISATK("cis_hover_aat");
 	ClassImpATK("");
-	ClassRepATK("rep_hover_fightertank");
+	ClassRepATK("republic_hover_fightertank");
 	ClassLocATK("");
 	ClassHisATK("");
 	ClassAllDEF("");
 	ClassCISDEF("cis_hover_aat");
 	ClassImpDEF("");
-	ClassRepDEF("rep_hover_fightertank");
+	ClassRepDEF("republic_hover_fightertank");
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
@@ -1023,7 +1023,7 @@ Object("vehicle3", "com_item_vehicle_spawn", -460683265)
 	NetworkId(-1);
 	Layer(1);
 	ControlZone("cp5");
-	SpawnCount("2");
+	SpawnCount("1");
 	SpawnTime("25");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -1044,10 +1044,20 @@ Object("vehicle3", "com_item_vehicle_spawn", -460683265)
 	ClassLocals("");
 }
 
+Object("ion_cannon", "turrets_ion_cannon", -453847954)
+{
+	ChildRotation(0.121, 0.000, -0.993, 0.000);
+	ChildPosition(119.363, -374.668, 1099.095);
+	SeqNo(-453847954);
+	Team(0);
+	NetworkId(-1);
+	Layer(1);
+}
+
 Object("cp5", "com_bldg_major_controlzone", -406782908)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(150.971, -311.690, -84.926);
+	ChildPosition(151.000, -300.000, -85.000);
 	SeqNo(-406782908);
 	Team(2);
 	NetworkId(-1);
@@ -1121,7 +1131,7 @@ Object("cp5", "com_bldg_major_controlzone", -406782908)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("70.0");
+	AISpawnWeight("100.0");
 	HUDIndex("");
 	HUDIndexDisplay("1");
 }

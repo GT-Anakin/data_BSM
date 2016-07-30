@@ -9,6 +9,9 @@ AnimationBank       = "rifle"
 //************* TARGET & RANGE VALUES  **********
 //***********************************************
 
+//ScoreForMedalsType = 1
+//MedalsTypeToLock = 1
+
 TargetEnemy         = "1"
 TargetNeutral       = "0"
 TargetFriendly      = "0"
@@ -29,11 +32,11 @@ LockOnRange         = "0.0"
 LockTime            = "0.0"
 LockOnAngle         = "1.0"
 
-ReticuleInAimingOnly = 1
+ReticuleInAimingOnly = 0
 SniperScope         = 1
 ZoomFirstPerson     = 1
-ZoomMin             = "2.0"
-ZoomMax             = "8.0"
+ZoomMin             = "4.0"
+ZoomMax             = "4.0"
 ZoomRate            = "0.0"
 
 YawSpread           = "0.0"
@@ -57,8 +60,8 @@ ProneMoveSpread     = "0.0"
 //*********** WEAPON PERFORMANCE VALUES *********
 //***********************************************
 
-RoundsPerClip       = "8"    // 5
-ReloadTime          = "2.0"
+RoundsPerClip       = "10"    // 5
+ReloadTime          = "3.0"
 ShotDelay           = "0.8"  //1.0
 TriggerSingle       = "1"
 MaxPressedTime      = "0.0"

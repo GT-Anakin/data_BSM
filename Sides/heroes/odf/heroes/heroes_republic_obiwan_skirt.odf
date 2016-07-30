@@ -1,0 +1,5 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh	= "heroes_republic_obiwan"

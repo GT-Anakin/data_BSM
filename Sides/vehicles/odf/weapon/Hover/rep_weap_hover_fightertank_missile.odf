@@ -1,0 +1,9 @@
+[WeaponClass]
+ClassParent = "com_weap_veh_missile"
+
+[Properties]
+OrdnanceName            = "rep_weap_hover_fightertank_missile_ord"
+RoundsPerClip = "0"
+
+FireSound               = "imp_weap_hover_fightertank_missile_fire"
+

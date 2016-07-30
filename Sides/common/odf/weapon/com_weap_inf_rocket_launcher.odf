@@ -2,7 +2,8 @@
 ClassLabel      = "launcher"
 
 [Properties]
-ScoreForMedalsType = 2
+//ScoreForMedalsType = 1
+//MedalsTypeToLock = 1
 
 AnimationBank   = "bazooka"
 

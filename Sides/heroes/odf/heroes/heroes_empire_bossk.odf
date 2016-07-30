@@ -1,0 +1,23 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_empire_bossk.msh"
+
+[Properties]
+GeometryName        = "heroes_empire_bossk"
+GeometryLowRes      = "heroes_empire_bossk_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+AISizeType          = "Soldier"
+
+//SkeletonName		= "juno"  
+//SkeletonLowRez		= "junolz"  
+//AnimationName       = "juno"
+HealthType          = "person"
+
+WEAPONSECTION = 1
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 5
+
+
+
+FoleyFXClass        = "imp_inf_soldier"
+

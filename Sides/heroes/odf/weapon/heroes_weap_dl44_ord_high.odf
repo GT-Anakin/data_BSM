@@ -1,0 +1,26 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_inf_pistol_ord"
+
+[Properties]
+LaserTexture		= "com_sfx_laser_red"
+LaserGlowColor      	= "255 0 0 100"
+LightColor          	= "255 0 0 150"
+
+LifeSpan            = "0.8"
+Velocity            = "850.0"
+    
+MaxDamage           = "450.0"
+VehicleScale        = "1.5"
+ShieldScale         = "1.2"
+PersonScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale       = "1.15"
+
+ExplosionName = "heroes_weap_dl44_exp"
+
+DamageTransitionDelay   = "0.4"     //How long in seconds before the damage change begins.
+DamageTransitionPeriod  = "0.2"     //How long in seconds the damage change lasts.
+DamageFinalDamage       = "100.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+FadeLightColor          = "1"       //Whether or not the color on the light should be faded along with the damage.
+EndLaserGlowColor       = "255 0 0 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "255 0 0 200" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.

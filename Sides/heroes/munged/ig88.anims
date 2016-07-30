@@ -1,0 +1,9 @@
+ucft
+{
+	ANIM
+	{
+		"ig88_rifle_standalert_idle_emote"
+		"ig88_rifle_stand_idle_emote_full"
+		"ig88_rifle_stand_shoot_full"
+	}
+}

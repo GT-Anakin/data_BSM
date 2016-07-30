@@ -1,0 +1,38 @@
+Version(1);
+RegionCount(4);
+
+Region("team1_capture", 2)
+{
+	Layer(10);
+	Position(-87.332863, -291.795929, 157.243179);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 6.000000, 2.000000);
+	Name("team1_capture");
+}
+
+Region("team2_capture", 2)
+{
+	Layer(10);
+	Position(150.223022, -299.321350, -102.028419);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 6.000000, 2.000000);
+	Name("team2_capture");
+}
+
+Region("cis_control_ctf", 0)
+{
+	Layer(10);
+	Position(137.697922, -293.200958, -5.453310);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(25.000000, 10.000000, 25.000000);
+	Name("cis_control_ctf");
+}
+
+Region("rep_control_ctf", 0)
+{
+	Layer(10);
+	Position(-94.593018, -277.742096, 5.709412);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(25.000000, 10.000000, 25.000000);
+	Name("rep_control_ctf");
+}

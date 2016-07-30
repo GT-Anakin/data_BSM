@@ -41,7 +41,7 @@
 	@goto exit 
 )
 
-@goto nodebug
+@REM goto nodebug
 @echo Current Directory           = %CD%
 @echo Sound level filter          = %SOUNDLVL%
 @echo Munge output directory      = %MUNGEDIR%
@@ -53,7 +53,7 @@
 @echo Final req file              = %LEVELFILEREQ%
 @echo Output level file           = %LEVELFILELVL%
 @echo Additional stream options   = %STREAMOPT%
-@pause
+@REM pause
 :nodebug
 
 @if EXIST %MUNGEDIR% goto skipcreatemungedir
@@ -74,6 +74,8 @@
 @rem Munge sound banks
 @for /R %%A in (*.sfx) do @echo Munging %%~nA%%~xA & @soundflmunge -platform %4 -banklistinput %%A -bankoutput %MUNGEDIR%\ %CHECKDATE% -resample %CHECKID% noabort %SOUNDOPT% %BANKOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
 @for /R %%A in (*.stm) do @echo Munging %%~nA%%~xA & @soundflmunge -platform %4 -banklistinput %%A -bankoutput %MUNGEDIR%\ %CHECKDATE% -resample -checkid noabort %SOUNDOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
+@for /R %%A in (*.asfx) do @echo Munging %%~nA%%~xA & @soundflmunge -platform %4 -banklistinput %%A -bankoutput %MUNGEDIR%\ %CHECKDATE% -resample -checkid noabort %SOUNDOPT% 2>>%MUNGE_LOG% 1>>%SOUNDLOGOUT%
+
 @rem Munge streams
 
 @rem Localization

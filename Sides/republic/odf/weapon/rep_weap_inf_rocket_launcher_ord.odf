@@ -1,0 +1,12 @@
+[OrdnanceClass]
+ClassParent			= "com_weap_inf_rocket_launcher_ord"
+
+[Properties]
+GeometryName 		= "com_weap_missile"
+
+TrailEffect			= "com_sfx_weap_rockettrail_blue"
+LightColor			= "18 85 239 150"
+LightRadius			= "4.0"
+
+ExplosionName		= "rep_weap_inf_rocket_launcher_exp"
+

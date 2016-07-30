@@ -1,0 +1,18 @@
+ucft
+{
+	ANIM
+	{
+		"death01"
+		"fold"
+		"idle"
+		"idle_to_leftfoot"
+		"leftfoot_to_idle"
+		"rightfoot_to_idle"
+		"roll"
+		"turnl"
+		"turnr"
+		"unfold"
+		"walk_leftfoot_rightfoot"
+		"walk_rightfoot_leftfoot"
+	}
+}

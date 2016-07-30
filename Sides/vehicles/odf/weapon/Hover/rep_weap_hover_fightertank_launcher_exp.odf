@@ -1,0 +1,18 @@
+[ExplosionClass]
+ClassLabel 		= "explosion"
+
+[Properties]
+WaterEffect 	= "com_sfx_watersplash_md"
+
+Damage 			= "0.0"
+DamageRadius 		= "0.0"
+Shake 			= "0.0"
+ShakeRadius 		= "0.0"
+Push 			= "0.0"
+PushRadius 		= "0.0"
+Effect 			= "com_sfx_explosion_sm"
+ArmorScale		= "1.0"
+HealthScale 		= "1.0"
+ShieldScale 		= "0.75"
+
+//SoundProperty		= "com_weap_layered_full_exp"

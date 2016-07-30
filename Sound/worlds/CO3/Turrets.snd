@@ -1,0 +1,63 @@
+
+SoundProperties()
+{
+    Name("tur_weap_fly_chaingun_spin");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    #ifplatform pc
+    Gain(0.3);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.3);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.2);
+    #endifplatform ps2
+    MinDistance(15.0);
+    Pitch(0.55);
+    Looping(1);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("tur_weap_fly_chaingun_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.7)
+    Looping(1);
+    SampleList()
+    {
+        Sample("vehicle_chaingun_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("tur_weap_spa_stinger_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        //Sample("wpn_drdFghtr_missile_fire", 1.0);
+        Sample("wpn_hailfire_missile_fire", 1.0);        
+    }
+}
+
+SoundProperties()
+{
+    Name("ion_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    MinDistance(300.0);
+    MaxDistance(400.0);
+    SampleList()
+    {
+        Sample("ion_cannon_fire", 1.0);        
+    }
+}

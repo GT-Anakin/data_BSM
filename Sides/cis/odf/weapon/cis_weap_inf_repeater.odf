@@ -1,0 +1,101 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+AnimationBank       = "rifle"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy     = "1"
+TargetNeutral   = "0"
+TargetFriendly  = "0"
+
+TargetPerson    = "1"
+TargetAnimal    = "1"
+TargetDroid     = "1"
+TargetVehicle   = "0"
+TargetBuilding  = "0"
+
+MinRange        = "0"
+OptimalRange    = "24"
+MaxRange        = "64"
+
+LockOnRange     = "80.0"
+LockTime        = "0.4"
+AutoAimSize     = "1.0"
+
+ZoomMin         = "3.0"
+ZoomMax         = "3.0"
+ZoomRate        = "0.0"
+
+YawSpread       = "0.0"
+PitchSpread     = "0.0"
+
+SpreadPerShot       = "0.0"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "2.0"
+SpreadLimit         = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+HeatPerShot         = "0.09"
+HeatRecoverRate     = "0.5"
+HeatThreshold       = "0.20"
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "0"
+ReloadTime          = "6.0"
+ShotDelay           = "0.125"
+TriggerSingle       = "0"
+
+SalvoCount          = "1"
+ShotsPerSalvo       = "1"
+
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+OrdnanceName        = "cis_weap_inf_repeater_ord"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+MuzzleFlash         = ""
+FlashColor          = "255 80 80 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 220 220 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
+
+RecoilLengthLight   = "0.3"
+RecoilLengthHeavy   = "0.2"
+RecoilStrengthLight = "1.0"
+RecoilStrengthHeavy = "0.2"
+RecoilDecayLight    = "0.0"
+RecoilDecayHeavy    = "0.0"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "cis_weap_droideka_fire"
+ChargeSound         = ""
+ReloadSound         = ""
+ChangeModeSound     = ""
+FireEmptySound      = "com_weap_pistol_empty"
+OverheatSound       = "com_weap_energy_depleted"
+OverheatSoundPitch  = "0.5"
+OverheatStopSound   = "com_weap_energy_refilled"
+
+HUDTag              = "hud_vehicle_lasers"

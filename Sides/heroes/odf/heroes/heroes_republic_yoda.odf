@@ -1,0 +1,123 @@
+[GameObjectClass]
+ClassParent             = "com_jedi_default"
+GeometryName            = "heroes_republic_yoda.msh"
+
+[Properties]
+AISizeType              = "Soldier"
+
+
+ClothODF                = "heroes_republic_yoda_skirt"
+GeometryName            = "heroes_republic_yoda"
+GeometryLowRes          = "heroes_republic_yoda_low"
+AnimationName            = "Yoda"
+SkeletonName            = "Yoda"
+// lowrez must be different from high-rez or things go wacky wacky....
+SkeletonLowRes          = "yodalz"  
+SkeletonRootScale       = "0.342974"
+SkeletonRootScaleLowRes = "0.342974"
+CollisionRootScale      = "0.42"
+
+
+
+ControlSpeed            = "sprint 3.50 0.50 0.50"
+
+MaxSpeed                = 6.0
+MaxStrafeSpeed          = 4.0
+MaxTurnSpeed            = 5.0
+JumpHeight              = 3.5
+RecoverFromTumble       = "0"
+
+TargetPointOffsetStand  = "0.0 0.5 0.0"
+TargetPointOffsetCrouch = "0.0 0.3 0.0"
+
+
+JetJump             = "10.0"    //The initial jump-push given when enabling the jet
+JetPush             = "0.0"     //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "10.0"    // for characters with jet jump, use this acceleration for in air control
+JetEffect           = ""
+JetFuelRechargeRate = "0.0" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.0" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.0" //4initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.0" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetShowHud          = 0
+JetEnergyDrain      = 30.0
+
+CollisionScale      = "0.0 0.0 0.0" // don't take damage from collisions
+
+WEAPONSECTION = 1
+WeaponName1           = "heroes_weap_lightsaber_yoda"
+WeaponAmmo1           = 0
+
+WEAPONSECTION = 2
+WeaponName2           = "com_weap_inf_force_push"
+WeaponAmmo2           = 0
+WeaponChannel2        = 1 
+
+WEAPONSECTION = 3
+WeaponName3           = "com_weap_inf_force_pull"
+WeaponAmmo3           = 0
+WeaponChannel3        = 1 
+
+CAMERASECTION           = "STAND"
+EyePointOffset          = "0.0 1.4 0.0"
+TrackOffset             = "0.0 -0.25 3.6"
+TiltValue               = "10"
+
+CAMERASECTION       	= "STANDZOOM"
+EyePointOffset      	= "0.0 1.4 0.0"
+TrackCenter         	= "0.0 1.4 0.0
+TrackOffset         	= "0.4 0.05 2.8"
+TiltValue           	= "3.5"
+
+CAMERASECTION           = "CROUCH"
+EyePointOffset          = "0.0 1.4 0.0"
+TrackOffset             = "0.0 -0.25 3.6"
+TiltValue               = "10"
+
+CAMERASECTION       	= "CROUCHZOOM"
+EyePointOffset      	= "0.0 1.3 0.0"
+TrackCenter         	= "0.0 1.3 0.0
+TrackOffset         	= "0.4 0.2 2.8"
+TiltValue           	= "3.5"
+
+CAMERASECTION       	= "SPRINT"
+EyePointOffset      	= "0.0 1.4 0.0"
+TrackCenter         	= "0.0 1.4 0.0
+TrackOffset         	= "0.0 -0.25 4.2"
+TiltValue           	= "10.0"
+CameraBlendTime     	= "0.5"
+
+//SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_yoda_spawn"
+SndHeroDefeated             = "hero_yoda_exhausted"
+SndHeroKiller               = "hero_yoda_exhausted"
+
+VOSound = "rep_off_response_hero_command      SC_Follow"
+VOSound = "rep_off_response_hero_command      SC_StopFollow"
+VOSound = "rep_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "rep_off_response_hero_command     SC_GetIn"
+VOSound = "rep_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_yoda_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_yoda_KillingSpree4      KillingSpree4"
+
+VOUnitType              = 186
+SoldierMusic            = "rep_hero_Yoda_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+//ApproachingTargetSound    = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "npc_inf_small"
+

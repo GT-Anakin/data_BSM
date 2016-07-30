@@ -6,7 +6,7 @@ ClassLabel 		= "bolt"
 LaserTexture = "com_sfx_laser_red"
 LaserLength = "6"
 LaserWidth = "0.35"
-LaserGlowColor = "249 42 42 100"
+LaserGlowColor = "117 13 25 100"
 LightRadius = "5"
 
 ImpactEffectStatic            = "com_sfx_explosion_sm"

@@ -1,6 +1,6 @@
 [GameObjectClass]       
 
-ClassLabel      =   "prop"
+ClassLabel      =   "destructablebuilding"
 GeometryName    =   "Rep_Frigate_ext_Hallways_closed.msh"
 
 

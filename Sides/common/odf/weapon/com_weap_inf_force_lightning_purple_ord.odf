@@ -1,0 +1,45 @@
+[OrdnanceClass]
+
+ClassLabel      = "emitterordnance"
+
+[Properties]
+Explosion	    = "com_weap_inf_force_lightning_purple_exp"
+
+ImpactEffectWater   = "com_sfx_watersplash_ord"
+
+ConeLength          = "18"
+ConeAngle           = "80"
+FirstRadius         = "0.0"
+MaxTargets          = "5"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
+NoChaining          = "0"   // No chaining - all bolts coming from the attacker
+
+//OrdnanceSound         = "com_weap_launcher_energy_dumbfire"
+
+Damage              = "120"  // This is the min damage. Even if the initial damage is split between the number of targets, it will never go below this number for each target
+MaxDamage           = "180" // This is the max damage
+JumpDeduction       = "1"  // No jump deduction. This is for chaining only
+DamageThreshold     = "0"  // Always do damage (no threshold)
+MaxJumpDistance     = "0"  // No max jump distance because the chaining is off
+
+VehicleScale        = "0.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+AnimalScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale       = "0.0"
+
+SmolderEffectTimer = "3.0"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_ribcage"
+
+SmolderEffect = "com_sfx_inf_damage_electricity"
+SmolderBone = "bone_pelvis"
+
+Push                = "0.0"
+LightningEffect     = "com_sfx_lightning_purple"
+LightningEffectScale = "0.15"
+NoTargetLightningEffectCount = "8"  // The number of ligthning effects to display when the ordinance has no targets to hit
+NoTargetLightningEffectRandomSpread = "0.25"  // The random rotation spread the ligthning effects does when the ordinance has no targets to hit
+
+

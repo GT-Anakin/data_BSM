@@ -1,0 +1,28 @@
+[GameObjectClass]
+ClassParent         = "republic_inf_default"
+
+[Properties]
+UnitType           	= "pilot"
+GeometryName        = "rep_bf3_pilot"
+GeometryLowRes		= "rep_bf3_pilot_low"
+SkeletonName		= "bf3clones"
+AnimationName		= "bf3clones"
+//SkeletonLowRes		= "bf3clones"
+FirstPerson         = "REPUBLIC\republic;rep_1st_pilot"
+
+WEAPONSECTION = 1
+WeaponName         = "republic_weap_inf_shotgun"
+WeaponAmmo         = 8
+
+WEAPONSECTION = 2
+WeaponName         = "republic_weap_inf_fusioncutter"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 3
+WeaponName         = "com_weap_inf_powerup_dispenser"
+WeaponAmmo         = 5
+WeaponChannel      = 1
+
+
+VOUnitType        	= 121
+

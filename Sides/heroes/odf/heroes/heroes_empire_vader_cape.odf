@@ -1,0 +1,7 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh    = "heroes_empire_vader"
+priority = 1.0
+

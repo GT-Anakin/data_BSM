@@ -1,0 +1,427 @@
+// ----- Start Vwing Weapons ---------------------
+
+SoundProperties()
+{
+    Name("rep_weap_fly_vwing_cannon_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("rcflak", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_fly_vwing_ptorpedo_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    MinDistance(30)
+    SampleList()
+    {
+      //  Sample("wpn_vwing_torpedo", 1.0);
+      Sample("wpn_tie_bombLauncher_fire", 1.0); // These are bombs    
+    }
+}
+
+// ----- End Vwing Weapons ---------------------
+
+// ----- Start Vwing Engine Stingers ---------------------
+
+// Static Flyer Foley --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_airbrakes_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.5)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_airbrakes_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_on", 1.0);
+    }
+}
+
+// Takeoff ----------------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_take_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("grievous_shift_up", 1.0);
+    }
+}
+
+// Land --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_land");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.65)
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+        Sample("shutdown_soft", 1.0);
+    }
+}
+
+// Turnon --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_turn_on_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.65)
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+        Sample("startup_hard", 1.0);
+    }
+}
+
+
+// Turnoff  --------------------------------
+//Played when the flyer turns off
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_turn_off_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.65)
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+        Sample("shutdown_hard", 1.0);
+    }
+}
+
+
+// Turning Off --------------------------------
+// Played when a soldier leaves the flyer
+
+// Plays airbrakes on a delay
+
+// Shift Up   --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_shift_up_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    SampleList()
+    {
+        Sample("vwing_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_shift_up_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    Pitch(1.3);
+    SampleList()
+    {
+        Sample("vwing_shift_up", 1.0);
+    }
+}
+
+// Shift Down --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_shift_down_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    SampleList()
+    {
+        Sample("vwing_shift_down", 1.0);
+    }
+}
+
+// Roll side to side --------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_roll");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Pitch(0.85)
+    PitchDev(0.0)
+    SampleList()
+    {
+      Sample("vwing_shift_up", 1.0);
+
+    }
+}
+
+// Flip/Roll forward/back -----------------------
+
+SoundProperties()
+{
+    Name("rep_fly_vwing_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    SampleList()
+    {
+      Sample("vwing_roll", 1.0);
+
+    }
+}
+
+// Damage --------------------------------
+
+SoundProperties()
+{
+    Name("vwing_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+    }
+}
+
+// Boost --------------------------------
+
+SoundProperties()
+{
+    Name("vwing_engine_boost_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("vwing_mid", 1.0);
+
+    }
+}
+
+// ----- End Vwing Engine Stingers ---------------------
+
+//Take off and land layers
+// 
+
+
+SoundLayered()
+{ 
+    Name("rep_fly_vwing_take_off");
+    Layer("r2_take_off", "r2_take_off", 0.0);
+    Layer("vwing_engine_take_off", "rep_fly_vwing_take_off_property", 0.0);
+}
+
+SoundLayered()
+{ 
+    Name("rep_fly_vwing_land");
+    Layer("r2_land", "r2_land", 0.0);
+    Layer("vwing_land_property", "rep_fly_vwing_land_property", 0.0);
+}
+
+SoundLayered()
+{ 
+    Name("rep_fly_vwing_turn_on");
+    Layer("r2_turn_on", "r2_turn_on", 0.0);
+    Layer("vwing_turn_on_property", "rep_fly_vwing_turn_on_property", 0.0);
+}
+
+SoundLayered()
+{ 
+    Name("rep_fly_vwing_turn_off");
+    Layer("r2_turn_off", "r2_turn_off", 0.0);
+    Layer("vwing_turn_off_property", "rep_fly_vwing_turn_off_property", 0.0);
+}
+
+
+// ----- Start Vwing Engine Loops ---------------------
+
+SoundProperties()
+{
+    Name("vwing_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_v-wing_low_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("vwing_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_low_template");
+    SampleList()
+    {
+      Sample("eng_v-wing_mid_lp", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("vwing_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_v-wing_hi_lp", 1.0);
+    }
+}
+
+
+
+// ----- End Vwing Engine Loops ---------------------
+
+// ----- Start Vwing Engine Parametric Graphs ------------------------------------------------
+
+ParameterGraph()
+{
+    Name("vwing_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.8);
+    ControlPoint(1.0, 0.9);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_boost_idle_gainspeed");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.7, 0.05); // Contrailz start
+    ControlPoint(0.9, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("vwing_engine_boost_idle_pitchspeed");
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.9, 1.0);
+}
+
+SoundLayered()
+{
+    Name("vwing_engine_layered");
+    Layer("vwing_engine_low_idle", "vwing_engine_low_idle_property", 0.0);
+    Layer("vwing_engine_med_idle", "vwing_engine_med_idle_property", 0.0);
+    Layer("vwing_engine_high_idle", "vwing_engine_high_idle_property", 0.0);
+    Layer("vwing_engine_damage_idle", "vwing_engine_damage_idle_property", 0.0);
+    //Layer("vwing_engine_boost_idle", "vwing_engine_boost_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("rep_fly_vwing_engine_parameterized");
+    SoundLayered("vwing_engine_layered");
+
+Layer()
+    {
+        Name("vwing_engine_low_idle");
+        ParameterGraph("speed",        "vwing_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "vwing_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("vwing_engine_med_idle");
+        ParameterGraph("speed",        "vwing_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "vwing_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("vwing_engine_high_idle");
+        ParameterGraph("speed",        "vwing_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "vwing_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }    
+    //Layer()
+    //{
+    //    Name("vwing_engine_boost_idle");
+    //    ParameterGraph("speed",        "vwing_engine_boost_idle_speed", "pitch");
+    //    ParameterGraph("acceleration", "vwing_engine_boosth_idle_acceleration","gain");
+    //}
+    Layer()
+    {
+        Name("vwing_engine_damage_idle");
+        ParameterGraph("health", "engine_health","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+}
+
+// ----- End Vwing Engine Parametric Graphs ------------------------------------------------

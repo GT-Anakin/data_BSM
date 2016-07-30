@@ -1,0 +1,16 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_inf_chaingun_tracer"
+
+[Properties]
+
+LaserTexture        = "com_sfx_laser_blue"
+LaserGlowColor      = "11 49 147 100"
+LightColor          = "11 49 147 150"
+LightRadius         = "6.5"
+
+LaserLength         = "35.0"
+LaserWidth          = "0.08"
+GlowLength          = "40"
+BlurLength          = "45"
+
+LifeSpan            = "0.1"

@@ -1,9 +1,0 @@
-[OrdnanceClass]
-ClassParent = "com_weap_veh_fly_chaingun_ord"
-
-[Properties]
-ExplosionName = "tur_weap_spa_chaingun_exp"
-//ImpactEffect      = "com_sfx_weap_shiplaser_exp_lg"
-
-MaxDamage = "400"
-LifeSpan = "0.1"

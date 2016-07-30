@@ -1,0 +1,119 @@
+[GameObjectClass]
+ClassParent         = "cis_inf_default"
+
+[Properties]
+UnitType            	= "assault"
+GeometryName        = "cis_bf3_sbd"
+GeometryLowRes		= "cis_bf3_sbd_low"
+SkeletonName		= "bf3sbdroid"
+SkeletonLowRes		= "bf3sbdroidlz"
+AnimationName		= "bf3sbdroid"
+FirstPerson         = "CIS\cis;cis_1st_sbd"
+MaxHealth           	= 1000.0
+
+AISizeType          = "Soldier"
+
+MaxSpeed            = 4.0
+MaxStrafeSpeed          = 2.5
+MaxTurnSpeed            = 3.0
+RollSpeedFactor         = 0.0
+JumpHeight              = 1.45
+EnergyBar               = 250.0     // Max energy
+ControlSpeed            = "sprint 1.80 0.50 0.35"
+
+WEAPONSECTION = 1
+WeaponName         = "cis_weap_inf_wrist_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName     	= "cis_weap_inf_wrist_trishot"
+WeaponAmmo     	= 0
+
+WEAPONSECTION = 3
+WeaponName     	= "cis_weap_inf_wrist_rocket"
+WeaponAmmo     	= 3
+WeaponChannel  	= 1
+
+WEAPONSECTION = 4
+WeaponName     	= "cis_weap_inf_mine_dispenser"
+WeaponAmmo     	= 4
+WeaponChannel  	= 1
+
+WEAPONSECTION = 5
+WeaponName     	= "cis_weap_wrist_vibroblade"
+WeaponAmmo     	= 0
+WeaponChannel  	= 1
+
+
+ChunkFrequency              = 0.6
+
+CHUNKSECTION                = "CHUNK1"
+ChunkGeometryName           = "cis_bf3_sbdroid_chunk1"
+ChunkNodeName               = "bone_a_spine"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK2"
+ChunkGeometryName           = "cis_bf3_sbdroid_chunk2"
+ChunkNodeName               = "bone_r_upperarm"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK3"
+ChunkGeometryName           = "cis_bf3_sbdroid_chunk3"
+ChunkNodeName               = "bone_l_calf"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK4"
+ChunkGeometryName           = "cis_bf3_sbdroid_chunk4"
+ChunkNodeName               = "bone_r_thigh"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK5"
+ChunkGeometryName           = "cis_bf3_sbdroid_chunk5"
+ChunkNodeName               = "bone_l_forerarm"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+
+VOUnitType      	= 083
+
+VOSound = "cis1_inf_pc_com_hostile      SpottedVO"
+VOSound = "cis1_inf_pc_com_bacta      NeedMedicVO"
+VOSound = "cis1_inf_pc_com_mechanic      NeedRepairVO"
+VOSound = "cis1_inf_pc_com_ammo      NeedAmmoVO"
+VOSound = "cis1_inf_pc_com_transport      NeedPickupVO"
+VOSound = "cis1_inf_pc_com_backup      NeedBackupVO"
+VOSound = "cis1_inf_pc_com_clear_area      AttackPositionVO"
+VOSound = "cis1_inf_pc_com_defend     DefendPositionVO"
+
+VOSound = "cis1_inf_pc_com_hostile_inVehicle      SpottedVO +InVehicle"
+VOSound = "cis1_inf_pc_com_bacta_inVehicle      NeedMedicVO +InVehicle"
+VOSound = "cis1_inf_pc_com_mechanic_inVehicle      NeedRepairVO +InVehicle"
+VOSound = "cis1_inf_pc_com_ammo_inVehicle      NeedAmmoVO +InVehicle"
+VOSound = "cis1_inf_pc_com_transport_inVehicle      NeedPickupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_backup_inVehicle      NeedBackupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_clear_area_inVehicle      AttackPositionVO +InVehicle"
+VOSound = "cis1_inf_pc_com_defend_inVehicle     DefendPositionVO +InVehicle"

@@ -1,0 +1,30 @@
+ucft
+{
+	ANIM
+	{
+		"maul_sabre_jumpattack_end_full"
+		"maul_sabre_jumpattack_fall_full"
+		"maul_sabre_jumpattack_land_full"
+		"maul_sabre_jump_backward_full"
+		"maul_sabre_jump_left_full"
+		"maul_sabre_jump_right_full"
+		"maul_sabre_sprint_upper"
+		"maul_sabre_stand_attack1a_end_full"
+		"maul_sabre_stand_attack1a_full"
+		"maul_sabre_stand_attack1b_end_full"
+		"maul_sabre_stand_attack1b_full"
+		"maul_sabre_stand_attack1c_full"
+		"maul_sabre_stand_attack2c_full"
+		"maul_sabre_stand_attack_backwards"
+		"maul_sabre_stand_block_front1_full"
+		"maul_sabre_stand_block_front2_full"
+		"maul_sabre_stand_block_idle_full"
+		"maul_sabre_stand_block_left1_full"
+		"maul_sabre_stand_block_left2_full"
+		"maul_sabre_stand_block_right1_full"
+		"maul_sabre_stand_block_right2_full"
+		"maul_sabre_stand_dashattack_full"
+		"maul_sabre_stand_idle_emote_full"
+		"maul_sabre_stand_walkbackwards_full"
+	}
+}

@@ -4,10 +4,10 @@ ClassLabel = "explosion"
 [Properties]
 LifeSpan = "2.0"
 Damage = "999999.0"
-DamageRadius = "100.0"
-ShakeLength   = "3.5"
+DamageRadius = "180.0"
+ShakeLength   = "4.5"
 Shake = "3.0"
-ShakeRadius = "800.0"
+ShakeRadius = "1000.0"
 
 Push                = "20.0"
 PushRadiusInner     = "50.0"

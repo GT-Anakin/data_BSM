@@ -47,7 +47,7 @@ EjectResistance         = "0.01"
 TimeTilReboard          = "5.0"
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
@@ -277,11 +277,12 @@ FoleyFXGroup            = "metal_foley"
 
 
 
-EnergyBar = "80"
-EnergyAutoRestore = "7.5"
-EnergyBoostDrain = "20"
-EnergyTrickDrainSingleTap = "15"
-EnergyTrickDrainDoubleTap = "30"
+EnergyBar               = 180
+EnergyAutoRestore       = 10
+EnergyBoostDrain        = 20
+EnergyTrickDrainSingleTap = 15
+EnergyTrickDrainDoubleTap = 30
+
 FirstPersonFOV = "52"
 CockpitTension = "22"
 

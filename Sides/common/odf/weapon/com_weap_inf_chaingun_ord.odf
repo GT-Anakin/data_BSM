@@ -13,18 +13,18 @@ ImpactEffectWater   	= "com_sfx_watersplash_ord"
 ImpactEffectShield  	= "com_sfx_ord_exp"
 ExpireEffect        	= "com_sfx_ord_exp"
 
-LifeSpan			= ".05"
+LifeSpan			= "0.1"
 Velocity			= "20000"
 Gravity				= "0.1"
 Rebound				= "0"
 
 MaxDamage			= "25"
 
-VehicleScale 		= "0.1"
-ShieldScale 		= "0.25"
+VehicleScale 		= "0.95"
+ShieldScale 		= "0.85"
 PersonScale 		= "1"
 HealthScale 		= "1"
-BuildingScale 		= "0.1"
+BuildingScale 		= "0.45"
 
 OrdnanceSound       = "com_weap_inf_ord_hum_sm"
 CollisionSound      = "imp_weap_ord_exp"

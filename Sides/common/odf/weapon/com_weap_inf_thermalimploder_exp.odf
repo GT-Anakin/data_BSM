@@ -2,9 +2,9 @@
 ClassLabel          = "explosion"
 
 [Properties]
-Damage              = "1000.0"
-DamageRadiusInner   = "7.5"
-DamageRadiusOuter   = "15.0"
+Damage              = "3000.0"
+DamageRadiusInner   = "5.5"
+DamageRadiusOuter   = "7.0"
 
 FirstRadius			= "-1.0"
 Push                = "10.0"
@@ -12,15 +12,15 @@ PushRadiusInner     = "15.0"
 PushRadiusOuter     = "15.0"
 
 Shake               = "0.5"
-ShakeLength         = "0.75"
-ShakeRadiusInner    = "8.0"
+ShakeLength         = "1.15"
+ShakeRadiusInner    = "12.0"
 ShakeRadiusOuter    = "15.0"
 
-Effect              = "com_sfx_explosion_lg"
+Effect              = "com_sfx_landmine"
 WaterEffect         = "com_sfx_watersplash_lg"
 Decal               = "decal_explosion"
 LightColor          = "255 220 100 255"
-LightRadius         = "7.0"
+LightRadius         = "8.0"
 LightDuration       = "1.0"
 
 VehicleScale        = "1.0"

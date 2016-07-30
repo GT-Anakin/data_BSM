@@ -1,0 +1,14 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "0.3"
+Damage = "100.0"
+DamageRadius = "3.0"
+Shake = "1.0"
+ShakeRadius = "3.0"
+Effect = "com_sfx_explosion_lg"
+ArmorScale =    "5.0"
+HealthScale =   "1.0"
+ShieldScale =   "0.5"
+VehicleScale = "8.0"

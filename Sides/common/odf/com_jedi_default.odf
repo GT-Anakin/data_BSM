@@ -18,6 +18,7 @@ HealthType             	= "person"
 MaxHealth               = 1200.0
 
 NoEnterVehicles     	= 0
+IgnoreHintNodes		= 1
 
 // when dead, kneel
 FleeLikeAHero 		= 1
@@ -26,9 +27,9 @@ FleeLikeAHero 		= 1
 // These are values for an average class - some soldiers will override these
 MaxSpeed                = 9.0       // base forward speed
 MaxStrafeSpeed          = 6.6       // base right/left speed
-MaxTurnSpeed            = 6.0       // base turn speed
+MaxTurnSpeed            = 5.0       // base turn speed
 JumpHeight              = 3.5	    // base jump height in meters
-RecoverFromTumble       = "1"
+RecoverFromTumble       = "0"
 
 BlurEffect          = "0.8"     //motion blur effect for force run
 
@@ -66,14 +67,14 @@ EnergyMinSprint         = 20.0      // min energy to start sprinting
 EnergyCostJump          = 0.0      // energy cost to jump
 EnergyCostRoll          = 25.0      // energy cost to roll
 
-FirstPersonFOV          = "70"
+FirstPersonFOV          = "75"
 ThirdPersonFOV          = "65"
 
-CAMERASECTION           = "STAND"
-EyePointOffset          = "0.0 2.0 0.0"
-TrackCenter		= "0.0 1.7 0.0"
-TrackOffset             = "0.0 0.0 5.2"
-TiltValue               = "10"
+CAMERASECTION       	= "STAND"
+EyePointOffset      	= "0.0 1.8 0.0"
+TrackCenter         	= "0.0 1.8 0.0
+TrackOffset         	= "0.25 0.0 3.1"
+TiltValue           	= "10.0"
 
 CAMERASECTION       	= "STANDZOOM"
 EyePointOffset      	= "0.0 1.8 0.0"
@@ -84,7 +85,7 @@ TiltValue           	= "3.5"
 CAMERASECTION       	= "CROUCH"
 EyePointOffset      	= "0.0 1.3 0.0"
 TrackCenter         	= "0.0 1.3 0.0
-TrackOffset         	= "0.0 0.15 3.0"
+TrackOffset         	= "0.25 0.15 2.8"
 TiltValue           	= "10.0"
 CameraBlendTime     	= "0.75"
 
@@ -110,8 +111,8 @@ TiltValue           	= "3.5"
 CAMERASECTION       	= "SPRINT"
 EyePointOffset      	= "0.0 1.8 0.0"
 TrackCenter         	= "0.0 1.8 0.0
-TrackOffset         	= "0.0 0.0 4.0"
-TiltValue           	= "10.0"
+TrackOffset         	= "0.25 0.0 2.8"
+TiltValue           	= "8.0"
 CameraBlendTime     	= "0.75"
 
 DropItemClass           = "com_item_powerup_ammo"

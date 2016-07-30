@@ -1,0 +1,38 @@
+[WeaponClass]
+ClassParent				= "com_weap_inf_chaingun"
+GeometryName            = "rep_weap_hq_inf_chaingun.msh"
+
+[Properties]
+
+GeometryName            = "rep_weap_hq_inf_chaingun"
+HighResGeometry         = "rep_weap_hq_inf_chaingun"
+
+OrdnanceName			= "rep_weap_inf_chaingun_ord"
+
+SecondaryOrdnanceName	= "rep_weap_inf_chaingun_tracer"
+SecondaryOrdnancePeriod	= 5
+
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+ReloadSound				= "com_weap_inf_reload_lg"
+ChangeModeSound			= "com_weap_inf_equip_lg"
+FireEmptySound			= "com_weap_inf_ammo_empty"
+WeaponChangeSound		= "com_weap_inf_equip_lg"
+JumpSound				= "com_weap_inf_bazooka_mvt_jump"
+LandSound				= "com_weap_inf_bazooka_mvt_land"
+RollSound				= "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound				= "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"
+
+WarmUpSound				= "rep_weap_inf_chaingun_spin"
+WarmUpSoundStartPitch   = 0.5
+WarmUpSoundFadeInTime   = 0.2
+WarmUpSoundFadeOutTime  = 0.2
+
+BarrelSound				= "rep_weap_barrel"
+BarrelSoundFadeInTime   = 0.2
+BarrelSoundFadeOutTime  = 0.1

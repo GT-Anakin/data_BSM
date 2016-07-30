@@ -1,0 +1,39 @@
+[GameObjectClass]
+ClassParent         = "republic_inf_default"
+
+[Properties]
+GeometryName        = "rep_bf3_heavytrooper"
+GeometryLowRes		= "rep_bf3_heavytrooper_low"
+SkeletonName		= "bf3clones"
+AnimationName		= "bf3clones"
+//SkeletonLowRes		= "bf3clones"
+FirstPerson         = "REPUBLIC\republic;rep_1st_heavy"
+
+UnitType            	= "assault"
+
+MaxHealth           	= 550.0
+
+MaxSpeed                = 5.5       // base forward speed
+MaxStrafeSpeed          = 4.0       // base right/left speed
+
+WEAPONSECTION = 1
+WeaponName         = "republic_weap_inf_rocket_launcher"
+WeaponAmmo         = 6
+
+WEAPONSECTION = 2
+WeaponName         = "republic_weap_inf_pistol"
+WeaponAmmo         = 8
+
+WEAPONSECTION = 3
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+WEAPONSECTION = 4
+WeaponName         = "republic_weap_inf_mine_dispenser"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+
+VOUnitType        	= 121
+

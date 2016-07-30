@@ -1,0 +1,70 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_alliance_hansolo.msh"
+
+[Properties]
+UnitType            = "pilot"
+
+GeometryName        = "heroes_alliance_hansolo"
+GeometryLowRes      = "heroes_alliance_hansolo_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+
+
+SkeletonName		= "HanSolo"
+SkeletonLowRes  = "HanSololz"
+AnimationName       = "HanSolo"
+HealthType          = "person"
+MaxHealth           = 1500.0
+AISizeType          = "Soldier"
+
+WEAPONSECTION = 1
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 5
+
+WEAPONSECTION = 2
+WeaponName2         = "heroes_weap_dl44_chargeable"
+WeaponAmmo2         = 5
+WeaponShareAmmo = 1
+
+//WEAPONSECTION = 3
+//WeaponName3         = "com_weap_run"
+//WeaponAmmo3         = 0
+//WeaponChannel3 = 1
+
+
+
+//SOUND
+FoleyFXClass        = "all_inf_soldier"
+
+VOSound = "all_off_response_hero_command      SC_Follow"
+VOSound = "all_off_response_hero_command      SC_StopFollow"
+VOSound = "all_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "all_off_response_hero_command     SC_GetIn"
+VOSound = "all_off_response_hero_command      SC_GetOut"
+
+VOSound = "han_hero_pc_com_hostile   		SpottedVO"                            
+VOSound = "han_hero_pc_com_mechanic  		NeedRepairVO"                         
+VOSound = "han_hero_pc_com_transport 		NeedPickupVO"                         
+VOSound = "han_hero_pc_com_backup    		NeedBackupVO"                         
+VOSound = "han_hero_pc_com_clear_area		AttackPositionVO"                     
+VOSound = "han_hero_pc_com_defend    		DefendPositionVO"                     
+                                                                                
+VOSound = "han_hero_pc_com_hostile_inVehicle   		SpottedVO +InVehicle"       
+VOSound = "han_hero_pc_com_mechanic_inVehicle  		NeedRepairVO +InVehicle"    
+VOSound = "han_hero_pc_com_transport_inVehicle 		NeedPickupVO +InVehicle"    
+VOSound = "han_hero_pc_com_backup_inVehicle    		NeedBackupVO +InVehicle"    
+VOSound = "han_hero_pc_com_clear_area_inVehicle		AttackPositionVO +InVehicle"
+VOSound = "han_hero_pc_com_defend_inVehicle    		DefendPositionVO +InVehicle"
+
+
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_han_spawn"
+SndHeroDefeated             = "hero_han_exhausted"
+SndHeroKiller               = "hero_han_exhausted"
+
+VOSound = "hero_han_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_han_KillingSpree4      KillingSpree4"
+
+VOUnitType          = 185
+SoldierMusic        = "all_hero_Han_lp"
+

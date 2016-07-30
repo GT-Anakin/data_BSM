@@ -1,0 +1,30 @@
+[GameObjectClass]
+ClassLabel			= "prop"
+GeometryName		= "com_icon_cis_flag.msh"
+
+[Properties]
+ClothODF		= "com_icon_cis_cloth"
+ClothODF		= "com_icon_cis_carried_cloth"
+Lighting			= "Dynamic"
+
+IconTexture			= "cis_icon"
+MapTexture			= "flag_icon"
+MapScale			= "0.75"
+
+GeometryName		= "com_icon_cis_flag"
+CarriedGeometryName 	= "com_icon_cis_flag_carried"
+CarriedOffset		= "0.0 2.5 0.0"
+CarriedColorize		= 1
+DroppedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 15.0
+
+//LightODF			= "flaglight"
+
+[InstanceProperties]
+
+AllowTeamPickup			= 0

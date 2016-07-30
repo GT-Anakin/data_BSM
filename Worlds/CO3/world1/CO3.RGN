@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(6);
+RegionCount(11);
 
 Region("DamageRegion damagerate=250 personscale=1 animalscale=1 droidscale=1 vehiclescale=6 buildingscale=0", 0)
 {
@@ -11,9 +11,9 @@ Region("DamageRegion damagerate=250 personscale=1 animalscale=1 droidscale=1 veh
 
 Region("DamageRegion damagerate=500 personscale=1 animalscale=1 droidscale=1 vehiclescale=0 buildingscale=0", 0)
 {
-	Position(-15.359356, -432.000000, 27.662678);
+	Position(0.000000, -1152.315063, 0.000000);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
-	Size(800.000000, 120.000000, 600.000000);
+	Size(2500.000000, 850.000000, 2500.000000);
 	Name("damage_base");
 }
 
@@ -45,6 +45,46 @@ Region("mapbounds", 0)
 {
 	Position(0.000000, -344.764679, 0.000000);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
-	Size(300.000000, 50.000000, 300.000000);
+	Size(235.000000, 50.000000, 235.000000);
 	Name("mapbounds");
+}
+
+Region("shadow directional=1 directional1=1 colortop=255,192,74 colorbottom=255,79,28", 0)
+{
+	Position(0.000000, 458.981201, 0.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3000.000000, 15.000000, 3000.000000);
+	Name("space_shadow");
+}
+
+Region("shadow directional=0 directional1=0 colortop=45,45,45 colorbottom=0,0,0", 0)
+{
+	Position(122.326920, -300.258881, -83.471115);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 5.000000, 27.000000);
+	Name("shadow3");
+}
+
+Region("shadow directional=0 directional1=0 colortop=45,45,45 colorbottom=0,0,0", 0)
+{
+	Position(177.073532, -300.270966, -83.477989);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(2.000000, 5.000000, 27.000000);
+	Name("shadow4");
+}
+
+Region("shadow directional=1 directional1=1 colortop=100,100,100 colorbottom=0,0,0", 0)
+{
+	Position(115.912872, -294.122040, -80.610680);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3.600000, 3.000000, 1.800000);
+	Name("shadow5");
+}
+
+Region("shadow directional=1 directional1=1 colortop=115,115,115 colorbottom=0,0,0", 0)
+{
+	Position(-115.847816, -280.579865, -22.855295);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(20.000000, 3.000000, 3.000000);
+	Name("shadow6");
 }

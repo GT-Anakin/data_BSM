@@ -1,0 +1,35 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_republic_x2.msh"
+
+[Properties]
+GeometryName        = "heroes_republic_x2"
+GeometryLowRes      = "heroes_republic_x2_low"
+FirstPerson         = "REP\reptroop;rep_1st_trooper"
+AISizeType          = "Soldier"
+
+SkeletonName		= "bf3clones"
+SkeletonLowRes          = "bf3cloneslz"   
+AnimationName       = "HanSolo"
+HealthType          = "person"
+
+WEAPONSECTION = 1
+WeaponName1         = "republic_weap_inf_rifle"
+WeaponAmmo1         = 5
+
+WEAPONSECTION = 2
+WeaponName2         = "republic_weap_inf_pistol"
+WeaponAmmo2         = 5
+
+WEAPONSECTION = 3
+WeaponName3         = "com_weap_inf_thermaldetonator"
+WeaponAmmo3         = 2
+WeaponChannel3      = 1
+
+WEAPONSECTION = 4
+WeaponName4         = "com_weap_inf_thermalimploder"
+WeaponAmmo4         = 2
+WeaponChannel4      = 1
+
+FoleyFXClass        = "rep_inf_soldier"
+

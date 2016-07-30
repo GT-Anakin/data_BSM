@@ -1,0 +1,10 @@
+[OrdnanceClass]
+//This area defines the ordnances class
+ClassParent     	= "com_weap_inf_wrist_rocket_ord"
+
+[Properties]
+TrailEffect	    	= "cis_sfx_sbd_missiles_red"
+
+ExplosionExpire		= "cis_weap_inf_wrist_rocket_exp"
+Explosion		= "cis_weap_inf_wrist_rocket_exp"
+

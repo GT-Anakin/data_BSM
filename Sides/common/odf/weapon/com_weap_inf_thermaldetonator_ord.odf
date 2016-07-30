@@ -2,16 +2,16 @@
 ClassLabel          = "sticky"
 
 [Properties]
-GeometryName        = "com_1st_weap_inf_grenadethermal"
+GeometryName        = "com_weap_inf_thermaldetonator"
 
 ExplosionExpire		= "com_weap_inf_thermaldetonator_exp"
 
-LightColor          = "252 67 67 150"
+LightColor          = "255 5 5 150"
 LightRadius         = "4.0"
 
 ImpactEffectWater   = "com_sfx_watersplash_sm"
 ImpactEffect        = "com_sfx_explosion_lg"
-TrailEffect         = "com_sfx_weap_grenade_red"
+TrailEffect         = ""
 
 LifeSpan            = "0.6"
 Velocity            = "25.0"
@@ -22,8 +22,8 @@ Friction            = "2.0"
 StickPerson         = 0
 StickAnimal         = 0
 StickDroid          = 0
-StickVehicle        = 1
-StickBuilding       = 1
+StickVehicle        = 0
+StickBuilding       = 0
 StickBuildingDead   = 0
 StickBuildingUnbuilt= 0
 StickTerrain        = 0

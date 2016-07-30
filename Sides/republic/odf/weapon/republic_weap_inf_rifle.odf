@@ -1,0 +1,36 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_rifle"
+GeometryName        = "rep_weap_hq_inf_dc15.msh"
+
+[Properties]
+GeometryName        = "rep_weap_hq_inf_dc15"
+HighResGeometry		= "rep_weap_hq_inf_dc15"
+OrdnanceName        = "rep_weap_inf_rifle_ord"
+FirePointName       = "hp_fire"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "80 80 255 255"     
+FlashLength         = 0.025               
+FlashColor          = "100 100 255 255"   
+FlashLength         = 0.025               
+FlashLightColor     = "220 220 255 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
+Discharge           = "small_smoke_effect"
+
+
+FireSound           = "rep_weap_dc15_fire"
+ReloadSound         = "rep_weap_dc15_reload"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_pistol_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"

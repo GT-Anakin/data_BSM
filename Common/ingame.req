@@ -1,11 +1,11 @@
 ucft
 {
-REQN
+	REQN
     {
-        "model"
-        "common_bldg_controlzone"
-	"com_item_weaponrecharge"
-	"com_item_healthrecharge"
+		"model"
+		"common_bldg_controlzone"
+		"com_item_weaponrecharge"
+		"com_item_healthrecharge"
     }
 
     REQN
@@ -16,7 +16,19 @@ REQN
         "com_bldg_untakeable_controlzone"
         "com_bldg_invisible_controlzone"
         "com_bldg_major_controlzone"
-	"com_item_weaponrecharge"
-	"com_item_healthrecharge"
+		"com_item_weaponrecharge"
+		"com_item_healthrecharge"
+		"com_item_powerup_ammo"
+        "com_item_powerup_health100"
+        "com_item_powerup_health25"
+        "com_item_powerup_dual"
+        "com_item_powerup_offense"
+        "com_item_powerup_defense"
+        "com_item_powerup_energy"
+    }
+	   REQN
+    {
+        "animbank"
+        "human"
     }
 }

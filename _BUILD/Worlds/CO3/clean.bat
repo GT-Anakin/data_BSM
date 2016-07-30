@@ -5,4 +5,3 @@
 ) else (
 	del /q MUNGED\%1\*.*
 )
-

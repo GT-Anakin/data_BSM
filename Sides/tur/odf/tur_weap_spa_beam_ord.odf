@@ -1,0 +1,16 @@
+[OrdnanceClass]
+ClassParent 			= "com_weap_veh_fly_beam_ord"
+
+[Properties]
+LaserTexture		= "com_sfx_laser_green"
+LaserGlowColor          = "49 254 49 100"
+
+ExplosionName = "tur_weap_spa_beam_exp"
+
+MaxDamage           = "3500.0"
+
+LifeSpan			= "1.5"
+Range	 			= "3500.0"
+
+ShieldScale			= "1.0"
+BuildingScale		= "0.075"

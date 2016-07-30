@@ -1,0 +1,71 @@
+[GameObjectClass]
+ClassParent           = "com_jedi_default"
+GeometryName            = "heroes_cis_maul.msh"
+
+[Properties]
+AISizeType      	= "Soldier"
+
+ClothODF                = "heroes_cis_maul_cape"
+GeometryName            = "heroes_cis_maul"
+GeometryLowRes          = "heroes_cis_maul_low"
+SkeletonName 		= "maul"
+SkeletonLowRez 		= "bf3cloneslz"
+AnimationName 		= "maul"
+
+JetJump             = "10.0"    //The initial jump-push given when enabling the jet
+JetPush             = "0.0"     //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "10.0"    // for characters with jet jump, use this acceleration for in air control
+JetEffect           = ""
+JetFuelRechargeRate = "0.0" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.0" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.0" //4initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.0" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetShowHud          = 0
+JetEnergyDrain      = 40.0
+
+CollisionScale      = "0.0 0.0 0.0" // don't take damage from collisions
+
+WeaponName1           = "heroes_weap_lightsaber_maul"
+WeaponAmmo1           = 0
+
+WeaponName2           = "com_weap_inf_sabre_throw"
+WeaponAmmo2           = 0
+WeaponChannel2        = 1 
+
+WeaponName3           = "com_weap_inf_force_push"
+WeaponAmmo3           = 0
+WeaponChannel3        = 1 
+
+//SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_maul_spawn"
+SndHeroDefeated             = "hero_maul_exhausted"
+SndHeroKiller               = "hero_maul_exhausted"
+
+VOSound = "cis_off_response_hero_command      SC_Follow"
+VOSound = "cis_off_response_hero_command      SC_StopFollow"
+VOSound = "cis_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "cis_off_response_hero_command     SC_GetIn"
+VOSound = "cis_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_maul_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_maul_KillingSpree4      KillingSpree4"
+
+VOUnitType                  = 196
+SoldierMusic                = "cis_hero_Maul_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+ApproachingTargetSound      = ""
+FleeSound                   = ""
+PreparingForDamageSound     = ""
+HeardEnemySound             = ""
+//ShockFadeOutTime          = "0.8"
+//ShockFadeInTime           = "2.0"
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "cis_inf_soldier"

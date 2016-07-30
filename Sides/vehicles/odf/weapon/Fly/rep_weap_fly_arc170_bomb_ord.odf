@@ -1,0 +1,8 @@
+[OrdnanceClass]
+ClassParent     	= "com_weap_veh_fly_torpedo_ord"
+
+[Properties]
+ExplosionName			= "rep_weap_fly_arc170_bomb_exp"
+GeometryName 			= "com_weap_missile"
+
+MaxDamage           = "800.0"

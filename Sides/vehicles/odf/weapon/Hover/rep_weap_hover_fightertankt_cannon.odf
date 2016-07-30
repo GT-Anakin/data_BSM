@@ -1,0 +1,36 @@
+[WeaponClass]
+
+ClassLabel 			= "weapon"
+
+[Properties]
+
+Label 			= "T47 Cannons"
+
+OrdnanceName 		= "cis_weap_hover_aat_cannon_ord"
+MuzzleFlash			= ""
+Discharge			= ""
+
+ShotDelay			= "0.2"
+InitialSalvoDelay		= "0.0"
+SalvoCount			= "2"
+SalvoDelay			= "0.0"
+RoundsPersalvo		= "2"
+RoundDelay			= "0.2"
+RoundsPerClip 		= "400"
+ReloadTime 			= "2.0"
+
+ModeTexture			= "HUD_weap_fullauto"
+
+LockOnRange			= "80.0"
+LockTime 			= "0.5"
+MinSpread			= "0.0"
+MaxSpread			= "0.2"
+AutoAimSize			= "1.0"
+
+FireSound       = "rep_weap_hover_fightertankt_cannon_fire"
+//ReloadSound     = "laserreload"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.15"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "1"

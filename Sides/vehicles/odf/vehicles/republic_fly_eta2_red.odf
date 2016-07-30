@@ -52,7 +52,7 @@ TimeTilReboard			= "5.0"
 PilotSkillRepairScale = 0.02
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
@@ -65,7 +65,7 @@ LandedHeight            = 0.8
 
 
 WEAPONSECTION           = 1
-WeaponName          = "republic_weap_fly_eta2_cannon"
+WeaponName          = "rep_weap_fly_anakin_cannon"
 WeaponAmmo          = 0
 
 AimerNodeName           = "hp_cannon_l"
@@ -80,7 +80,7 @@ AimerPitchLimts         = "-90 90"
 
 
 WEAPONSECTION           = 2
-WeaponName          = "republic_weap_fly_eta2_missile"
+WeaponName          = "rep_weap_fly_anakin_missile"
 WeaponAmmo          = 0
 
 AimerNodeName           = "hp_fire_l"
@@ -290,7 +290,6 @@ ProximityMaxDist        = "100" // Distance from target where proximity paramete
 
 
 // ***************************************************************************************
-
 EnergyBar               = 200
 EnergyAutoRestore       = 10
 EnergyBoostDrain        = 20

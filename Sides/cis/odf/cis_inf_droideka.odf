@@ -1,0 +1,278 @@
+[GameObjectClass]
+ClassLabel          = "walkerdroid"
+GeometryName            = "cis_bf3_droideka.msh"
+
+[Properties]
+WALKERSECTION           = "BODY"
+VehicleType             = "medium"
+AISizeType          = "Soldier"
+
+DeathDustEffect         = "deathdustcloud_brown"
+DeathDustDelay          = "5.1"
+DeathDustOffset         = "0.0 0.0 0.0"
+
+ExplosionName           = "cis_inf_droideka_exp"
+MapTexture          = "troop_icon"
+HealthTexture           = "HUD_cis_droideka_icon"
+MapScale        = 1.4
+MapViewMin		= 50
+MapViewMax		= 50
+MapSpeedMin		= 0
+MapSpeedMax		= 100
+
+GeometryName            = "cis_bf3_droideka"
+UprightLowResModel      = "cis_bf3_droideka_idle_low"
+BallLowResModel         = "cis_bf3_droideka_roll_low"
+FirstPerson         = "CIS\cis;cis_1st_droideka"
+FirstPersonFOV          = "70"
+ThirdPersonFOV          = "65"
+SkeletonName            = "cis_walk_droideka"
+AnimationName           = "cis_walk_droideka"
+
+NoEnterVehicles     = 1
+
+MaxHealth           = "550.0"
+HealthType          = "droid"
+
+Acceleraton             = "20.0"
+
+MaxSpeed            = "2.5"
+MaxTurnSpeed            = "1.25"
+PCMaxTurnSpeed          = "20.0"
+PCMaxStrafeSpeed        = "20.0"
+
+UnrollTime          = "1.66"
+RollTime            = "0.50"
+
+TurnThreshold           = "30.0"
+
+BallRadius          = "0.65"
+BallMoveSpeed           = "6.0"
+BallAcceleration        = "100.0"
+BallRollingFriction     = "50.0"
+BallStoppedTurnSpeed        = "2.0"
+BallTurnSpeed           = "1.5"
+BallSprintTurnSpeed     = "1.0"
+BallSlippage            = "1.0"
+BallMaxLean         = "10.0"
+MaxBallAngle            = "35.0"
+BowlingPush         = "10.0"
+SprintTimeForBowling        = "0.5"
+
+BallSprintSpeedBoost        = "2.0"
+BallJumpHeight          = "1.65"
+BallJumpForwardBoost        = "1.25"
+
+EnergyBar           = "150.0"
+EnergyRestore           = "10.0"
+EnergyRestoreIdle       = "15.0"
+EnergyDrainSprint       = "30.0"
+EnergyMinSprint         = "30.0"
+EnergyCostJump          = "10.0"
+EnergyCostBowling       = "30.0"
+
+StompEffect         = "com_sfx_walkerstomp"     // used for jump, bounce off terrain
+
+UprightWaterDamageHeight    = "1.5"
+BallWaterDamageHeight       = "1.5"
+
+CAMERASECTION           = "STAND"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0"
+TrackOffset             = "0.0 0.5 4.5"
+TiltValue           = "5.0"
+
+CAMERASECTION           = "STANDZOOM"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0"
+TrackOffset             = "0.0 0.5 4.5"
+TiltValue           = "1.0"
+
+CAMERASECTION           = "CROUCH"
+EyePointOffset          = "0.0 1.0 0.0"
+TrackCenter             = "0.0 1.0 0.0"
+TrackOffset             = "0.0 0.3 4.5"
+TiltValue           = "5.0"
+
+CAMERASECTION           = "SPLITSTAND"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0"
+TrackOffset             = "0.0 0.3 4.5"
+TiltValue           = "5.0"
+
+CAMERASECTION           = "SPLITSTANDZOOM"
+EyePointOffset          = "0.0 1.8 0.0"
+TrackCenter             = "0.0 1.8 0.0"
+TrackOffset             = "0.0 0.3 4.5"
+TiltValue           = "3.5"
+
+CAMERASECTION           = "SPLITCROUCH"
+EyePointOffset          = "0.0 1.0 0.0"
+TrackCenter             = "0.0 1.0 0.0"
+TrackOffset             = "0.0 0.2 4.5"
+TiltValue           = "5.0"
+
+
+WEAPONSECTION           = "1"
+
+WeaponName          = "cis_weap_inf_repeater"
+WeaponAmmo          = "0"
+
+PitchLimits         = "-25.0 25.0"
+YawLimits           = "-40.0 40.0"
+
+AimerYawLimits          = "-40.0 40.0"
+AimerPitchLimits        = "-25 25"
+AimerNodeName           = "hp_gun_1"
+FireOutsideLimits       = "1"
+
+NextAimer           = "-"
+
+AimerYawLimits          = "-40.0 40.0"
+AimerPitchLimits        = "-25 25"
+AimerNodeName           = "hp_gun_2"
+FireOutsideLimits       = "1"
+
+WEAPONSECTION           = "2"
+
+
+WeaponName          = "cis_weap_walk_droideka_shield"
+WeaponAmmo          = "0"
+
+TEMP_AnimationSpeed         = "2.0"
+TEMP_Type           = "0"
+
+
+WaterDamageInterval     = "1.0"
+WaterDamageAmount       = "10.0"
+
+WakeEffect          = "hailfire_wake"
+
+
+LegPairCount            = "1"
+
+WalkerLegPair           = "LEGS"
+
+LegBoneLeft         	= "bone_l_thigh"
+LegBoneRight            = "bone_r_thigh"
+
+TerrainLeft         	= "p_-o-footL"
+TerrainRight            = "p_-o-footR"
+
+FootBoneLeft            = "bone_l_toe"
+FootBoneRight           = "bone_r_toe"
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "cis_bf3_droideka_chunk1"
+ChunkNodeName           = "dummyroot"
+ChunkTerrainCollisions      = "10"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "1.0 -4.0 2.0"
+ChunkSpeed          = 9.0
+ChunkUpFactor           = 0.0
+ChunkLinearDamping      = 0.010
+ChunkAngularDamping     = 0.040
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "cis_bf3_droideka_chunk2"
+ChunkNodeName           = "dummyroot"
+ChunkTerrainCollisions      = "10"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "-4.0 0.0 0.0"
+ChunkSpeed          = 8.0
+ChunkUpFactor           = 0.0
+ChunkLinearDamping      = 0.010
+ChunkAngularDamping     = 0.040
+
+CHUNKSECTION            = "CHUNK3"
+ChunkGeometryName       = "cis_bf3_droideka_chunk3"
+ChunkNodeName           = "dummyroot"
+ChunkTerrainCollisions      = "10"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "0.0 4.0 0.0"
+ChunkSpeed          = 8.0
+ChunkUpFactor           = 0.0
+ChunkLinearDamping      = 0.010
+ChunkAngularDamping     = 0.040
+
+CHUNKSECTION            = "CHUNK4"
+ChunkGeometryName       = "cis_bf3_droideka_chunk4"
+ChunkNodeName           = "dummyroot"
+ChunkTerrainCollisions      = "10"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "0.0 0.0 -4.0"
+ChunkSpeed          = 7.0
+ChunkUpFactor           = 0.0
+ChunkLinearDamping      = 0.010
+ChunkAngularDamping     = 0.040
+
+CHUNKSECTION            = "CHUNK5"
+ChunkGeometryName       = "cis_bf3_droideka_chunk5"
+ChunkNodeName           = "dummyroot"
+ChunkTerrainCollisions      = "10"
+ChunkTerrainEffect      = "dirtspray"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "4.0 0.0 0.0"
+ChunkSpeed          = 9.0
+ChunkUpFactor           = 0.0
+ChunkLinearDamping      = 0.010
+ChunkAngularDamping     = 0.040
+
+
+DropItemClass           = "com_item_powerup_ammo"
+DropItemProbability     = 0.15
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_health25"
+DropItemProbability     = 0.15
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_health100"
+DropItemProbability     = 0.8
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_dual"
+DropItemProbability     = 0.8
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_energy"
+DropItemProbability     = 0.10
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_offense"
+DropItemProbability     = 0.02
+NextDropItem            = "-"
+DropItemClass           = "com_item_powerup_defense"
+DropItemProbability     = 0.02
+
+PointsToUnlock          = 0
+
+VOUnitType              = 081
+Footstep0Sound          = "cis_inf_droideka_step"
+Footstep1Sound          = "cis_inf_droideka_step"
+Footstep2Sound          = "cis_inf_droideka_step"
+HydraulicSound          = ""
+HydraulicSoundHeight    = ""
+HurtSound               = ""
+DeathSound              = "imp_weap_ord_exp_lg"
+EngineSound             = "cis_walk_droideka_engine_parameterized"
+TurnOnSound             = "cis_droideka_fold"
+TurnOffSound            = "cis_droideka_unfold"
+FoleyFXClass            = "cis_inf_droid"
+
+VOSound = "cis1_inf_pc_com_hostile      SpottedVO"
+VOSound = "cis1_inf_pc_com_bacta      NeedMedicVO"
+VOSound = "cis1_inf_pc_com_mechanic      NeedRepairVO"
+VOSound = "cis1_inf_pc_com_ammo      NeedAmmoVO"
+VOSound = "cis1_inf_pc_com_transport      NeedPickupVO"
+VOSound = "cis1_inf_pc_com_backup      NeedBackupVO"
+VOSound = "cis1_inf_pc_com_clear_area      AttackPositionVO"
+VOSound = "cis1_inf_pc_com_defend     DefendPositionVO"
+
+VOSound = "cis1_inf_pc_com_hostile_inVehicle      SpottedVO +InVehicle"
+VOSound = "cis1_inf_pc_com_bacta_inVehicle      NeedMedicVO +InVehicle"
+VOSound = "cis1_inf_pc_com_mechanic_inVehicle      NeedRepairVO +InVehicle"
+VOSound = "cis1_inf_pc_com_ammo_inVehicle      NeedAmmoVO +InVehicle"
+VOSound = "cis1_inf_pc_com_transport_inVehicle      NeedPickupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_backup_inVehicle      NeedBackupVO +InVehicle"
+VOSound = "cis1_inf_pc_com_clear_area_inVehicle      AttackPositionVO +InVehicle"
+VOSound = "cis1_inf_pc_com_defend_inVehicle     DefendPositionVO +InVehicle"

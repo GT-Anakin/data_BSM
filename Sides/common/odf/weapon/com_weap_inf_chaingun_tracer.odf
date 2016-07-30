@@ -12,7 +12,6 @@ LaserLength         = "20.0"
 LaserWidth          = "0.02"
 GlowLength          = "24"
 BlurLength          = "32"
-FadeOutTime         = ".25"
 
 ImpactEffectSoft    = "com_sfx_ord_exp"
 ImpactEffectRigid   = "com_sfx_ord_exp"

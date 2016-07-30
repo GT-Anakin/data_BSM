@@ -1,0 +1,428 @@
+// ----- Start Gunship Weapons ----------------------------
+
+SoundProperties()
+{
+    Name("rep_weap_fly_gunship_missile_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        //Sample("wpn_gunship_rocket_fire", 1.0);
+        Sample("wpn_ywing_torpedo_fire", 1.0);  // This is right   
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_fly_gunship_wing_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    Gain(0.8);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_fly_gunship_ball_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_fire", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("rep_weap_fly_gunship_ball_fire_loop");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    Looping(1);
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_gunship_laser_lp", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("rep_weap_fly_gunship_cannon_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_ywing_blaster_fire", 1.0);
+    }
+}
+
+// ----- End Gunship Weapons -----------------------
+
+// -------  Start Gunship Engine Stingers ----------
+// Static Flyer Foley --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_airbrakes_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.5)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_airbrakes_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.6);
+    Pitch(0.9);
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_on", 1.0);
+    }
+}
+
+// Takeoff -------------------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_take_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.8);
+    MinDistance(30.0);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("eng_takeoff_gunship01", 1.0);
+        Sample("eng_takeoff_gunship02", 1.0);
+    }
+}
+
+// Land ----------------------------------------
+
+SoundProperties()
+{
+    Name("all_fly_gunship_land_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    MinDistance(30.0);
+    RollOff(2.0);
+    SampleList()
+    {
+        Sample("R_LAAT_land01", 1.0);
+    }
+}
+
+// Turnon --------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_turn_on_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.6);
+    Pitch(0.7);
+    SampleList()
+    {
+        Sample("startup_hard", 1.0);
+    }
+}
+
+
+// Turnoff  --------------------------------
+//Played when the flyer turns off
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_turn_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.6)
+    Pitch(0.7);
+    SampleList()
+    {
+        Sample("shutdown_hard", 1.0);
+    }
+}
+
+// Turning Off  ------------------------------------
+// Played when a soldier leaves the flyer
+
+// Plays airbrakes on a delay
+
+// Shift Up ------------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_shift_up_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    SampleList()
+    {
+        Sample("vwing_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_shift_up_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(30)
+    Pitch(1.3)
+    SampleList()
+    {
+        Sample("arc170_shift_up", 1.0);
+    }
+}
+
+// SHift Down -----------------------------------
+
+SoundProperties()
+{
+    Name("rep_fly_gunship_shift_down_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(30)
+    Pitch(0.7);
+    SampleList()
+    {
+        Sample("arc170_shift_down", 1.0);
+    }
+}
+
+// Roll side to side
+
+// Flip/Roll forward/back
+
+// Damage ---------------------------------------
+
+SoundProperties()
+{
+    Name("gunship_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+    }
+}
+
+// Boost ----------------------------------------
+
+SoundProperties()
+{
+    Name("gunship_engine_boost_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_repgunship_mid_lp", 1.0);
+
+    }
+}
+
+// -------  Start Gunship Engine Loops ----------
+//Acceleraton         = 30.0
+//MinSpeed            = 20.0  =.2
+//MidSpeed            = 40.0  =.4
+//MaxSpeed            = 60.0  =.6
+//BoostSpeed          = "100" = 1.0
+
+SoundProperties()
+{
+    Name("gunship_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_low_template");
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("eng_repgunship_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("gunship_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    MinDistance(40.0);
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("eng_repgunship_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("gunship_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    Rolloff(1.0);
+    SampleList()
+    {
+      Sample("eng_repgunship_hi_lp", 1.0);
+
+    }
+}
+
+// -------  End Gunship Engine Loops ----------
+// TakeOff and Land Layers --------------------------
+
+SoundLayered()
+{ 
+    Name("rep_fly_gunship_land");
+  //  Layer("r2_land", "r2_land", 0.0);
+    Layer("rep_fly_gunship_land_property", "rep_fly_gunship_land_property", 0.0);
+    Layer("rep_fly_gunship_airbrakes_on", "rep_fly_gunship_airbrakes_on", 0.0);  
+}
+
+SoundLayered()
+{ 
+    Name("rep_fly_gunship_turn_on");
+    //Layer("r2_turn_on", "r2_turn_on", 0.0);
+    Layer("rep_fly_gunship_turn_on_property", "rep_fly_gunship_turn_on_property", 0.0);
+    Layer("rep_fly_gunship_airbrakes_on", "rep_fly_gunship_airbrakes_on", 0.1);  
+}
+
+// -------  Start Gunship Engine Parametric Graphs -------------------------------------------
+
+ParameterGraph()
+{
+    Name("gunship_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.4, 1.0);
+    ControlPoint(1.0, 1.0);
+
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.4, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.6, 1.1);
+    ControlPoint(1.0, 1.3);
+    
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.4, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.4, 0.7);
+    ControlPoint(1.0, 0.9);
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.4, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_boost_idle_gainspeed");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.66, 0.05); // Contrailz start
+    ControlPoint(0.9, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("gunship_engine_boost_idle_pitchspeed");
+    ControlPoint(-1.0, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.9, 1.0);
+}
+
+
+SoundLayered()
+{
+    Name("gunship_engine_layered");
+    Layer("gunship_engine_low_idle", "gunship_engine_low_idle_property", 0.0);
+    Layer("gunship_engine_med_idle", "gunship_engine_med_idle_property", 0.0);
+    Layer("gunship_engine_high_idle", "gunship_engine_high_idle_property", 0.0);
+    //Layer("gunship_engine_boost_idle", "gunship_engine_boost_idle_property", 0.0);
+    Layer("gunship_engine_damage_idle", "gunship_engine_damage_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("rep_fly_gunship_engine_parameterized");
+    SoundLayered("gunship_engine_layered");
+
+    Layer()
+    {
+        Name("gunship_engine_low_idle");
+        ParameterGraph("speed",        "gunship_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "gunship_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("gunship_engine_med_idle");
+        ParameterGraph("speed",        "gunship_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "gunship_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("gunship_engine_high_idle");
+        ParameterGraph("speed",        "gunship_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "gunship_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    //Layer()
+    //{
+    //    Name("gunship_engine_boost_idle");
+    //    ParameterGraph("speed",        "gunship_engine_boost_idle_speed", "pitch");
+    //    ParameterGraph("acceleration", "gunship_engine_boost_idle_acceleration","gain");
+    //}    
+   Layer()
+     {
+         Name("gunship_engine_damage_idle");
+         ParameterGraph("health", "engine_health","gain");
+         ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+         ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+
+}
+
+// -------  End Gunship Engine Parametric Graphs -------------------------------------------

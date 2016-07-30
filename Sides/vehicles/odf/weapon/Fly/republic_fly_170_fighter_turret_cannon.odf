@@ -1,9 +1,0 @@
-[WeaponClass]
-ClassParent     	= "com_weap_veh_fly_recoilless"
-
-[Properties]
-OrdnanceName = "republic_fly_170_fighter_turret_cannon_ord"
-
-ShotDelay = ".25"
-
-FireSound = "rep_weap_fly_arc170_turret_cannon_fire"

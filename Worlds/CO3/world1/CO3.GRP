@@ -13,5 +13,11 @@ Group("[Base]", 0, 8)
 	Layer("SpaceGroundTransition", 7);
 	Layer("Clouds", 8);
 	Layer("eli", 9);
+	Layer("ctf", 10);
+	Layer("1flag", 11);
+	Layer("tdm", 12);
+	Layer("CW_Space", 13);
+	Layer("rumble", 14);
+	Layer("Deathregions", 15);
 }
 

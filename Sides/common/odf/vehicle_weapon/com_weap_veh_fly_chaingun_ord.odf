@@ -8,8 +8,8 @@ LaserLength	    = "35"
 GlowLength 	    = 15
 LaserWidth	    = "0.2"
 
-LaserGlowColor      = "255 224 160 100"
-LightColor          = "255 224 160 150"
+LaserGlowColor      = "255 140 61 100"
+LightColor          = "255 140 61 150"
 LightRadius         = "3.0"
 
 GlowLength          = "15"
@@ -24,7 +24,7 @@ Rebound             = "0"
 MaxDamage           = "270"
 
 VehicleScale        = "1"
-ShieldScale         = "0.1"
+ShieldScale         = "1.0"
 BuildingScale       = "0.1"
 PersonScale         = "1"
 HealthScale         = "1"

@@ -1,0 +1,80 @@
+[GameObjectClass]
+ClassParent           = "com_jedi_default"
+GeometryName            = "heroes_alliance_obiwan.msh"
+
+[Properties]
+AISizeType              = "Soldier"
+
+GeometryName            = "heroes_alliance_obiwan"
+GeometryLowRes          = "heroes_alliance_obiwan_low"
+AnimationName           = "obiwan"
+SkeletonName           = "obiwan"
+SkeletonLowRes          = "bf3cloneslz"  
+ClothODF        = "heroes_alliance_obiwan_skirt"
+ClothODF        = "heroes_alliance_obiwan_skirt2"
+
+JetJump             = "10.0"    //The initial jump-push given when enabling the jet
+JetPush             = "0.0"     //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "10.0"    // for characters with jet jump, use this acceleration for in air control
+JetEffect           = ""
+JetFuelRechargeRate = "0.0" //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.0" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.0" //4initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.0" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetShowHud          = 0
+JetEnergyDrain      = 40.0
+
+UseDirectionalJumps     = "0"
+
+CollisionScale      = "0.0 0.0 0.0" // don't take damage from collisions
+
+
+WEAPONSECTION = 1
+WeaponName1           = "heroes_weap_lightsaber_obiwan"
+WeaponAmmo1           = 0
+
+WEAPONSECTION = 2
+WeaponName2           = "com_weap_inf_sabre_throw"
+WeaponAmmo2           = 0
+WeaponChannel2        = 1 
+
+WEAPONSECTION = 3
+WeaponName3           = "com_weap_inf_force_push"
+WeaponAmmo3           = 0
+WeaponChannel3        = 1 
+
+//SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_obiWan_spawn"
+SndHeroDefeated             = "hero_obiWan_exhausted"
+SndHeroKiller               = "hero_obiWan_exhausted"
+
+VOSound = "rep_off_response_hero_command      SC_Follow"
+VOSound = "rep_off_response_hero_command      SC_StopFollow"
+VOSound = "rep_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "rep_off_response_hero_command     SC_GetIn"
+VOSound = "rep_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_obiWan_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_obiWan_KillingSpree4      KillingSpree4"
+
+VOUnitType              = 190
+SoldierMusic            = "rep_hero_ObiWan_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+//ApproachingTargetSound    = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "all_inf_soldier"
+
+

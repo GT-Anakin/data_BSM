@@ -1,0 +1,23 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_alliance_x2.msh"
+
+[Properties]
+GeometryName        = "heroes_alliance_x2"
+GeometryLowRes      = "heroes_alliance_x2_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+AISizeType          = "Soldier"
+
+SkeletonName		= "bf3clones"
+SkeletonLowRes          = "bf3cloneslz"   
+//AnimationName       = "HanSolo"
+HealthType          = "person"
+
+WEAPONSECTION = 1
+WeaponName1         = "heroes_weap_dl44"
+WeaponAmmo1         = 5
+
+
+
+FoleyFXClass        = "all_inf_soldier"
+

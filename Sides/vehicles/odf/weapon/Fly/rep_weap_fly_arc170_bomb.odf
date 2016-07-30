@@ -1,0 +1,16 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_fly_torpedo"
+
+[Properties]
+RoundsPerClip 			= "6"
+ShotDelay           = "2.0"
+ReloadTime      		= "4"
+
+SalvoCount			= "2"
+ShotsPerSalvo			= "1"
+SalvoDelay			= "0.33"
+
+OrdnanceName 			= "rep_weap_fly_arc170_bomb_ord"
+
+FireSound               = "rep_weap_fly_arc170_bomb_fire"
+FireSoundStop   = "0"

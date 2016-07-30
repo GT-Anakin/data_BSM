@@ -28,7 +28,7 @@ AIBubbleScaleClamp		= "3.0"
 AIBubbleSizeMultiplier = "0.6"
 
 WEAPONSECTION           = 1
-FireSound               = "com_weap_turret_fire_big"
+FireSound               = "cis_weap_turret_space"
 //ReloadSound           = "cannonreload"
 //ChangeModeSound       = "com_weap_inf_launcher_modechange"
 //FireEmptySound        = "com_weap_inf_weapon_empty"

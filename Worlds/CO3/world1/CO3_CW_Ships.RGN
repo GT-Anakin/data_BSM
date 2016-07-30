@@ -10,22 +10,22 @@ Region("cp_rep_control", 0)
 	Name("cp_rep_control");
 }
 
-Region("deathregion_REP", 2)
+Region("deathregion4", 2)
 {
 	Layer(3);
 	Position(-1527.716675, 830.565247, 272.686615);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(45.000000, 5.000000, 45.000000);
-	Name("deathregion_REP");
+	Name("deathregion4-1");
 }
 
-Region("deathregion_CIS", 2)
+Region("deathregion6", 2)
 {
 	Layer(3);
 	Position(54.066914, 828.698242, -397.362244);
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(45.000000, 5.000000, 45.000000);
-	Name("deathregion_CIS");
+	Name("deathregion6");
 }
 
 Region("cp_cis_control", 0)

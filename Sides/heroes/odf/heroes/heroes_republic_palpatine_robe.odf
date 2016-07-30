@@ -1,0 +1,11 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh    = "heroes_republic_palpatine"
+priority = 1.0
+//ParticleMass = 5
+//MaxAcceleration = 10
+//CrossConstraint = 1
+//BendConstraint = 1
+//StretchConstraint = 1

@@ -1,0 +1,11 @@
+ucft
+{
+	ANIM
+	{
+		"bf3clones_pistol_standalert_idle_emote"
+		"bf3clones_pistol_standalert_runforward"
+		"bf3clones_pistol_standalert_walkforward"
+		"bf3clones_pistol_stand_idle_emote"
+		"bf3clones_pistol_stand_shoot"
+	}
+}

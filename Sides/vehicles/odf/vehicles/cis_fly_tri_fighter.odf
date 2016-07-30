@@ -74,7 +74,7 @@ BoostSpeed              = 170
 
 BoostAcceleration       = 80.0
 
-EnergyBar               = 100
+EnergyBar               = 200
 EnergyAutoRestore       = 10
 EnergyBoostDrain        = 20
 EnergyTrickDrainSingleTap = 15
@@ -106,7 +106,7 @@ PCSpinRate      = 15.0
 PCTurnRate      = 25.0
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0

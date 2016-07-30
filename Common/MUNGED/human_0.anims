@@ -2,6 +2,8 @@ ucft
 {
 	ANIM
 	{
+		"human_aa_turret"
+		"human_bf3stap_ride"
 		"human_rifle_crouchalert_idle_emote_full"
 		"human_rifle_crouchalert_walkbackward"
 		"human_rifle_crouchalert_walkforward"

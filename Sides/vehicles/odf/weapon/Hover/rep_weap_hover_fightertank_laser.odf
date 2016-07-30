@@ -1,0 +1,13 @@
+[WeaponClass]
+ClassParent 		= "com_weap_veh_beam"
+
+[Properties]
+OrdnanceName 		= "rep_weap_hover_fightertank_laser_ord"
+
+FireSound      		= "imp_weap_hover_fightertank_beam_fire"
+FireLoopSound   	= "imp_weap_hover_fightertank_beam_loop"
+
+ZoomFirstPerson		= 1
+ZoomMin			= "2.0"
+ZoomMax			= "5.0"
+ZoomRate		= "1.0"

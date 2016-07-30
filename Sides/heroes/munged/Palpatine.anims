@@ -1,0 +1,11 @@
+ucft
+{
+	ANIM
+	{
+		"palpatine_sabre_jumpattack_end_full"
+		"palpatine_sabre_jumpattack_fall_full"
+		"palpatine_sabre_jumpattack_land_full"
+		"palpatine_sabre_stand_dashattack_full"
+		"palpatine_sabre_stand_idle_emote_full"
+	}
+}

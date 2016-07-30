@@ -1,0 +1,32 @@
+[WeaponClass]
+
+ClassLabel          = "shield"
+
+[Properties]
+HUDTag     = "hud_droideka_shield"
+Label               = "Shield"
+
+RoundsPerClip       = "1"
+ReloadTime          = "0.0"
+
+MaxShield           = 3000
+AddShield           = -100
+AddShieldOff        = 350
+
+ShieldOffset        = "0.0 1.0 0.125"
+ShieldRadius        = 1.25
+
+FireSound           = "cis_droideka_shield_on"
+FireEmptySound      = ""
+FireLoopSound       = ""
+ReloadSound         = ""
+ChargeSound         = ""
+ChangeModeSound     = ""
+WeaponChangeSound   = ""
+ShieldSound           = "cis_droideka_shield"
+ShieldSound         = "droid_fx7_hum"
+ShieldOffSound      = ""
+
+ShieldEffect        = "droidekashield"
+
+

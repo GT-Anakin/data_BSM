@@ -1,0 +1,19 @@
+[ExplosionClass]
+ClassParent     	= "com_weap_inf_wrist_rocket_exp"
+
+[Properties]
+
+Damage 			= "1500.0"
+DamageRadiusInner 	= "3.0"
+DamageRadiusOuter 	= "5.0"
+
+Push 		  	= "5.0"
+PushRadiusInner   	= "3.0"
+PushRadiusOuter   	= "3.0"
+
+VehicleScale		= "1.75"
+PersonScale 		= "0.2"
+DroidScale 		= "0.2"
+BuildingScale		= "0.5"
+AnimalScale		= "0.2"
+ShieldScale		= "0.25"

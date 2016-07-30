@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_tdm"
+	}
+	REQN
+	{
+		"world"
+		"CO3_tdm"
+	}
+}

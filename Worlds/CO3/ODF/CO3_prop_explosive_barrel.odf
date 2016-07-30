@@ -1,0 +1,31 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_explosive_barrel.msh"
+
+[Properties]	
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_explosive_barrel"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "30"
+
+FoleyFXGroup    = "metal_foley"
+
+DestroyedGeometryName	= "CO3_prop_explosive_barrel_dest"
+ExplosionName		= "CO3_prop_explosive_barrel_exp"
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+AutoBarrierEnable   = "1"
+AutoBarrierRemoveOnDeath = "0"
+AutoBarrierSize     = "1.0 1.0"
+
+DamageStartPercent = "50"
+DamageStopPercent = "0"
+DamageEffect = "sfx_fire"
+DamageEffectScale = "1.5"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage"

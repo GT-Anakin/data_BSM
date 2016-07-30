@@ -113,7 +113,7 @@ PCSpinRate		= 15.0
 PCTurnRate 		= 25.0
 
 PilotPosition 		= "hp_active"
-PilotAnimation 		= "stap_ride"
+PilotAnimation 		= "bf3stap_ride"
 
 WeaponName 		= "cis_weap_hover_stap_cannon"
 WeaponAmmo 		= "0"

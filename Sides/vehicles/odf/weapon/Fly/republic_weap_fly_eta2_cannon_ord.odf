@@ -1,7 +1,0 @@
-[OrdnanceClass]
-ClassParent 		= "com_weap_veh_fly_scoutlasers_ord"
-
-[Properties]
-LaserTexture = "com_sfx_laser_orange"
-ExplosionName = "republic_weap_fly_eta2_cannon_exp"
-LaserGlowColor = "249 42 42 100"

@@ -1,0 +1,21 @@
+ucft
+{
+	ANIM
+	{
+		"aalya_sabre_sprint_full"
+		"aalya_sabre_stand_attack1a_end_full"
+		"aalya_sabre_stand_attack1a_full"
+		"aalya_sabre_stand_attack1b_end_full"
+		"aalya_sabre_stand_attack1b_full"
+		"aalya_sabre_stand_attack1c_full"
+		"aalya_sabre_stand_attack_backwards"
+		"aalya_sabre_stand_block_idle_full"
+		"aalya_sabre_stand_block_left1_full"
+		"aalya_sabre_stand_block_left2_full"
+		"aalya_sabre_stand_block_right1_full"
+		"aalya_sabre_stand_block_right2_full"
+		"aalya_sabre_stand_dashattack_full"
+		"aalya_sabre_stand_idle_emote_full"
+		"aalya_sabre_stand_runforward_full"
+	}
+}

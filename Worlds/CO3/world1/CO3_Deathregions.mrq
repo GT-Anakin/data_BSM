@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_Deathregions"
+	}
+	REQN
+	{
+		"world"
+		"CO3_Deathregions"
+	}
+}

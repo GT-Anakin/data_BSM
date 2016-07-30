@@ -1,0 +1,11 @@
+Version(1);
+RegionCount(1);
+
+Region("rumble co3_rum_space rumble_space", 0)
+{
+	Layer(14);
+	Position(0.000000, 474.621094, 0.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(3000.000000, 150.000000, 3000.000000);
+	Name("rumble_space");
+}

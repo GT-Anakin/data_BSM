@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_veh_fly_scoutlasers_ord"
+
+[Properties]
+LaserTexture = "com_sfx_laser_green"
+ExplosionName = "rep_weap_fly_anakin_cannon_exp"
+LaserGlowColor = "66 146 30 100"

@@ -37,7 +37,7 @@ ObjectiveConquest = Objective:New
 	icon = "hud_objective_icon_circle",
 	
 	-- internal values
-	defaultBleedRate = 0.3333333333,			--how many units will be lost per second
+	defaultBleedRate = 1.0,			--how many units will be lost per second
 	defeatTimerSeconds = 30,		--how long the defeat timer lasts after capping the all the CPs
 }
 

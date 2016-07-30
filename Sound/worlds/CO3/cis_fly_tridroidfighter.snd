@@ -1,0 +1,475 @@
+// ----- Start TriDroidfighter Weapons ------------------------
+SoundProperties()
+{
+    Name("cis_weap_fly_tridroidfighter_chaingun_spin");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    #ifplatform pc
+    Gain(0.3);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.2);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.2);
+    #endifplatform ps2
+    MinDistance(20.0);
+    Pitch(0.85);
+    Looping(1);
+    Rolloff(3.0);
+    SampleList()
+    {
+        Sample("wpn_chaingun_spin", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_fly_tridroidfighter_chaingun_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    
+    Pitch(0.7);
+    MinDistance(35)
+    Looping(1);
+    SampleList()
+    {
+        Sample("vehicle_chaingun_fire", 1.0);
+    }
+}
+
+
+SoundProperties()
+{
+    Name("cis_weap_fly_tridroidfighter_missile_fire");
+    Group("weapons");
+    Inherit("flyer_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_drdFghtr_missile_fire", 1.0);
+    }
+}
+
+// ----- End TriDroidfighter Weapons ------------------------
+
+// Static Flyer Foley --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_airbrakes_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.35)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_off", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_airbrakes_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.35)
+    SampleList()
+    {
+        Sample("sfx_pod_airbrakes_on", 1.0);
+    }
+}
+
+// Takeoff ----------------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_take_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    #ifplatform ps2 xbox
+    Gain(0.65)
+    #endifplatform ps2 xbox
+    SampleList()
+    {
+        Sample("arc170_shift_up", 1.0);
+    }
+}
+
+// Land --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_land");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    #ifplatform ps2 xbox
+    Gain(0.65)
+    #endifplatform ps2 xbox
+    SampleList()
+    {
+        Sample("grievous_shift_down", 1.0);
+    }
+}
+
+// Turnon --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_turn_on");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.65)
+    SampleList()
+    {
+        Sample("shift_up", 1.0);
+    }
+}
+
+
+// Turnoff  --------------------------------
+//Played when the flyer turns off
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_turn_off");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Gain(0.65)
+    SampleList()
+    {
+        Sample("jedifighter_shift_down", 1.0);
+    }
+}
+
+
+// Turning Off --------------------------------
+// Played when a soldier leaves the flyer
+
+// Plays airbrakes on a delay
+
+// Shift Up   --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_up_low_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("droidfighter_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_up_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(40)
+    SampleList()
+    {
+        Sample("soft_shift_up", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_up_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_shift_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("vwing_shift_down", 1.0);
+    }
+}
+
+// Shift Down --------------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_down_high_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    Pitch(1.2)
+    SampleList()
+    {
+        Sample("tridroid_shift_down", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_down_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    MinDistance(40)
+    SampleList()
+    {
+        Sample("soft_shift_down", 1.0);
+    }
+}
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_shift_down_low_property");
+    Group("vehicle_foley");
+    Inherit("flyer_foley_template");
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("arc170_shift_down", 1.0);
+    }
+}
+
+// Roll side to side --------------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_roll");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    MinDistance(45)
+    Gain(1.0)
+    SampleList()
+    {      
+        Sample("tridroid_roll", 1.0);
+    }
+}
+
+// Flip/Roll forward/back -----------------------
+
+SoundProperties()
+{
+    Name("cis_fly_tridroidfighter_flip");
+    Group("vehicles");
+    Inherit("flyer_trick_template");
+    Gain(1.0)
+    MinDistance(45)
+    SampleList()
+    {
+        Sample("tridroid_shift_up", 1.0);
+    }
+}
+
+// Damage --------------------------------
+
+SoundProperties()
+{
+    Name("tridroidfighter_engine_damage_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_chop_a_loop", 1.0);
+    }
+}
+
+// Boost --------------------------------
+
+SoundProperties()
+{
+    Name("tridroidfighter_engine_boost_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    Pitch(0.75)
+    Gain(1.0)
+    SampleList()
+    {
+      Sample("eng_triFighter_mid_lp", 1.0);
+
+    }
+}
+
+// ----- Start TriDroidfighter Engine Loops ---------------
+
+SoundProperties()
+{
+    Name("tridroidfighter_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_low_template");
+    Gain(0.45)
+    RollOff(1.0);
+    SampleList()
+    {
+      Sample("eng_triFighter_low_lp", 1.0);
+
+    }
+}
+//eng_tieFighter_mid_lp
+SoundProperties()
+{
+    Name("tridroidfighter_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    Gain(0.85)
+    RollOff(1.0);
+    SampleList()
+    {
+      Sample("eng_triFighter_mid_lp", 1.0);
+
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("tridroidfighter_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("flyer_eng_hi-mid_template");
+    Gain(0.45)
+    RollOff(3.0);
+    SampleList()
+    {
+      Sample("eng_triFighter_hi_lp", 1.0);
+    }
+}
+
+
+// ----- End TriDroidfighter Engine Loops ---------------
+
+// ----- Start TriDroidfighter Engine Parameter Graphs ---------------------------------------
+//MinSpeed                = 35.0 = .21
+//MidSpeed                = 80.0 = .47
+//MaxSpeed                = 105  = .62 Contrails at .68
+//BoostSpeed              = 170  = 1.0
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.5);
+    ControlPoint(0.0, 0.5);
+    ControlPoint(0.47, 0.8);
+    ControlPoint(0.62, 1.0);
+    ControlPoint(1.0, 1.2);
+
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.62, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.85);
+    ControlPoint(0.0, 0.85);
+    ControlPoint(0.47, 1.0);
+    ControlPoint(0.62, 1.0);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.47, 0.65);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.85);
+    ControlPoint(0.0, 0.85);
+    ControlPoint(0.47, 0.85);
+    ControlPoint(0.62, 0.9);
+    ControlPoint(1.0, 1.15);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.65);
+    ControlPoint(0.0, 0.65);
+    ControlPoint(0.47, 0.75);
+    ControlPoint(1.0, 0.7);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_boost_idle_speed");
+    ControlPoint(-1.0, 1.0);
+    ControlPoint(0.0, 1.0);
+    ControlPoint(0.68,1.0);
+    ControlPoint(1.0, 2.0);
+}
+
+ParameterGraph()
+{
+    Name("tridroidfighter_engine_boost_idle_acceleration");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.68, 0.0); //contrails
+    ControlPoint(1.0, 1.0);
+}
+
+
+
+SoundLayered()
+{
+    Name("tridroidfighter_engine_layered");
+    Layer("tridroidfighter_engine_low_idle", "tridroidfighter_engine_low_idle_property", 0.0);
+    Layer("tridroidfighter_engine_med_idle", "tridroidfighter_engine_med_idle_property", 0.0);
+    Layer("tridroidfighter_engine_high_idle", "tridroidfighter_engine_high_idle_property", 0.0);
+    Layer("tridroidfighter_engine_damage_idle", "tridroidfighter_engine_damage_idle_property", 0.0);
+    //Layer("tridroidfighter_engine_boost_idle", "tridroidfighter_engine_boost_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_fly_tridroidfighter_engine_parameterized");
+    SoundLayered("tridroidfighter_engine_layered");
+
+Layer()
+    {
+        Name("tridroidfighter_engine_low_idle");
+        ParameterGraph("speed",        "tridroidfighter_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "tridroidfighter_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("tridroidfighter_engine_med_idle");
+        ParameterGraph("speed",        "tridroidfighter_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "tridroidfighter_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    } 
+    Layer()
+    {
+        Name("tridroidfighter_engine_high_idle");
+        ParameterGraph("speed",        "tridroidfighter_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "tridroidfighter_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("tridroidfighter_engine_damage_idle");
+        ParameterGraph("health", "engine_health","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    //Layer()
+    //    {
+    //        Name("tridroidfighter_engine_boost_idle");
+    //        ParameterGraph("speed",        "tridroidfighter_engine_med_idle_speed", "pitch");
+    //        ParameterGraph("acceleration", "tridroidfighter_engine_med_idle_acceleration","gain");
+    //}
+}
+
+// ----- End TriDroidfighter Engine Parameter Graphs ---------------------------------------

@@ -1,0 +1,12 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"com_prop_ctfdrop.msh"
+
+
+[Properties]		
+
+GeometryName	=	"com_prop_ctfdrop"
+ColorizeByTeam	=	"1"
+
+

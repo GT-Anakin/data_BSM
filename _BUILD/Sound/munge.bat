@@ -9,14 +9,13 @@
 REM @if "%MUNGE_BIN_DIR%"=="" (
 	@set MUNGE_BIN_DIR=%CD%\%MUNGE_ROOT_DIR%\..\ToolsFL\Bin
 	@set PATH=%CD%\..\..\..\ToolsFL\Bin;%PATH%
-REM	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
-REM )
+	@echo MUNGE_BIN_DIR=!MUNGE_BIN_DIR!
+REM)
 
 @rem convert to lower case
-@if %MUNGE_PLATFORM%==PC   set MUNGE_PLATFORM=pc
-@if %MUNGE_PLATFORM%==XBOX set MUNGE_PLATFORM=xbox
-@if %MUNGE_PLATFORM%==PS2  set MUNGE_PLATFORM=ps2
+set MUNGE_PLATFORM=pc
 
+@set BANKOPT=-template -stub c:\windows\media\chord.wav
 @set MUNGE_DIR=MUNGED\%MUNGE_PLATFORM%
 
 @set LOCAL_MUNGE_LOG="%CD%\%MUNGE_PLATFORM%_MungeLog.txt"
@@ -34,7 +33,6 @@ REM )
 @if not exist _LVL_%MUNGE_PLATFORM% mkdir _LVL_%MUNGE_PLATFORM%
 @if not exist _LVL_%MUNGE_PLATFORM%\Sound mkdir _LVL_%MUNGE_PLATFORM%\Sound
 
-@if /i %MUNGE_PLATFORM%==pc @set BANKOPT=-template
 
 @call soundmunge.bat %MUNGE_PLATFORM%
 @if %SOUNDCLEANLVL%x==1x @del /S /Q _BUILD\sound\*.lvl & @call soundmunge.bat %MUNGE_PLATFORM%
@@ -48,6 +46,7 @@ REM )
 @set BANKLIST=
 @for /R %%A in (*.sfx) do @set BANKLIST=!BANKLIST! %%A
 @for /R %%A in (*.stm) do @set BANKLIST=!BANKLIST! %%A
+@for /R %%A in (*.asfx) do @set BANKLIST=!BANKLIST! %%A
 @if %SOUNDLOG%x==1x ( @set SOUNDOPT=-verbose & @set SOUNDLOGOUT=%LOGDIR%\SoundBankLog.txt ) else ( @set SOUNDOPT= & @set SOUNDLOGOUT=NUL )
 
 @if not %MUNGE_PLATFORM%==pc goto skipglobalbank

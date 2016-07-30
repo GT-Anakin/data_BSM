@@ -1,0 +1,5 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+AttachedMesh		= "heroes_cis_zam"

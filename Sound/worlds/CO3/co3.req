@@ -5,10 +5,22 @@ ucft
 		"str"
 		"align=2048"
 		"co3_stm"
+
+	}
+	REQN
+	{
+		"bnk"
+		"align=2048"
+		"co3_asfx"
 	}
 	REQN
 	{
 		"config"
 		"co3_config"
+	}
+	REQN
+	{
+		"lvl"
+		"co3cw"
 	}
  }

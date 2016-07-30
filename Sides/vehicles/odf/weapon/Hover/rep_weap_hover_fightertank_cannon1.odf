@@ -1,0 +1,46 @@
+[WeaponClass]
+
+ClassLabel 			= "weapon"
+
+[Properties]
+
+Label 				= "T47 Cannons"
+IconTexture			= "IMP_blasterrifle_icon"
+ModeTexture			= "HUD_weap_fullauto"
+ReticuleTexture			= "reticule_pistol"
+OrdnanceName 			= "rep_weap_hover_fightertank_cannon1_ord"
+MuzzleFlash			= ""
+Discharge			= ""
+
+ShotDelay			= "0.4"
+InitialSalvoDelay		= "0.0"
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+RoundsPerClip 			= "0"
+ReloadTime 			= "2.0"
+
+HeatRecoverRate			= "0.4"
+HeatThreshold			= "0.05"
+HeatPerShot			= "0.25"
+
+RoundsPerClip 		= "0"
+ModeTexture			= "HUD_weap_fullauto"
+
+LockOnRange			= "80.0"
+LockTime 			= "0.5"
+MinSpread			= "0.0"
+MaxSpread			= "0.2"
+AutoAimSize			= "1.0"
+
+FireSound       = "imp_weap_hover_fightertank_cannon1_fire"
+//ReloadSound     = "laserreload"
+
+OverheatSound      		= "com_weap_energy_depleted"
+OverheatSoundPitch 		= "0.5"
+OverheatStopSound   		= "com_weap_energy_refilled"
+
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.15"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "1"

@@ -1,0 +1,15 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_boulder.msh"
+
+[Properties]
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_boulder"
+
+FoleyFXGroup    =   "metal_foley"
+
+AttachEffect = "sfx_fire"
+AttachToHardPoint = "hp_fire_1"
+AttachToHardPoint = "hp_fire_2"
+AttachToHardPoint = "hp_fire_3"

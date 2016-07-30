@@ -1,0 +1,14 @@
+[OrdnanceClass]
+
+ClassParent      = "com_weap_inf_buff_ord"
+
+[Properties]
+
+BuffDefenseTimer    = "20"
+BuffDefenseMult     = "0.5"
+
+PlayEffectOnOwner   = "com_sfx_buff_defense"
+
+AffectEnemies       = "0"
+
+

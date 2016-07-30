@@ -1,0 +1,77 @@
+[GameObjectClass]
+// Base class for all rep soldiers, inherits from com_inf_default
+ClassParent             	= "common_inf_default"
+
+
+[Properties]
+ExplosionName               = "cis_inf_droid_exp"
+HealthType                  = "droid"
+
+// most droids have funky posture, easiest to put it here
+CollisionHeadOffset = "0.0 -0.11 0.05"
+
+
+ChunkFrequency              = 0.6
+
+CHUNKSECTION                = "CHUNK1"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk1"
+ChunkNodeName               = "bone_neck"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK2"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk2"
+ChunkNodeName               = "bone_l_upperarm"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK3"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk3"
+ChunkNodeName               = "bone_l_calf"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK4"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk4"
+ChunkNodeName               = "bone_r_thigh"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK5"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk5"
+ChunkNodeName               = "bone_a_spine"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+
+HurtSound                   = "cis_inf_com_chatter_wound"
+DeathSound                  = "droid_death"
+DamageRegionSound           = "cis_inf_com_chatter_wound"
+ShockFadeOutTime            = ""
+ShockFadeInTime             = ""
+ShockFadeOutGain            = ""
+ShockSound                  = ""
+ClothingRustleSound         = ""
+LowHealthSound              = ""
+//LowHealthThreshold        = ".25"
+FoleyFXClass                = "cis_inf_droid"

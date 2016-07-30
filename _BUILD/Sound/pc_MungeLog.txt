@@ -1,3 +1,127 @@
+soundflmunge.exe : Warning : Files line 2 and 3 reference the same source file c:\windows\media\chord.wav.  door_open will alias door_close
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 7 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_drdFghtr_missile_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 12 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_hailfire_missile_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 18 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_ywing_torpedo_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 24 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_tie_bombLauncher_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 30 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_gunship_laser_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 31 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_gunship_laser_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 36 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_jediStrftr_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 42 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_ywing_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 47 reference the same source file c:\windows\media\chord.wav.  door_open will alias vehicle_chaingun_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 48 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_chaingun_spin
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 51 reference the same source file c:\windows\media\chord.wav.  door_open will alias rcflak
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 58 reference the same source file c:\windows\media\chord.wav.  door_open will alias shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 60 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_chop_a_loop
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 63 reference the same source file c:\windows\media\chord.wav.  door_open will alias startup_soft
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 66 reference the same source file c:\windows\media\chord.wav.  door_open will alias startup_hard
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 69 reference the same source file c:\windows\media\chord.wav.  door_open will alias shutdown_soft
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 71 reference the same source file c:\windows\media\chord.wav.  door_open will alias shutdown_hard
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 75 reference the same source file c:\windows\media\chord.wav.  door_open will alias sfx_pod_airbrakes_off
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 76 reference the same source file c:\windows\media\chord.wav.  door_open will alias sfx_pod_airbrakes_on
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 79 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_chatter_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 80 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_chatter_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 81 reference the same source file c:\windows\media\chord.wav.  door_open will alias Ifc_LowShield03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 82 reference the same source file c:\windows\media\chord.wav.  door_open will alias Ifc_LowHealth02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 83 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_damage
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 84 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_death
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 88 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 89 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 90 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 92 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_drdFghtr_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 93 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 94 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 95 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 101 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 102 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 103 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 104 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 105 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 106 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 110 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 111 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 112 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 115 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 116 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 117 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 122 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 123 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 124 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 127 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 128 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 130 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 131 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 132 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 133 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 138 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_takeoff_gunship02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 139 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_takeoff_gunship01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 140 reference the same source file c:\windows\media\chord.wav.  door_open will alias R_LAAT_land01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 144 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 145 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 146 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 153 reference the same source file c:\windows\media\chord.wav.  door_open will alias soft_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 2 and 155 reference the same source file c:\windows\media\chord.wav.  door_open will alias soft_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
 soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
 soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
 soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx

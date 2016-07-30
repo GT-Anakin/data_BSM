@@ -1,0 +1,28 @@
+[WeaponClass]
+ClassParent			= "com_weap_inf_sniper_rifle"
+GeometryName        = "cis_weap_hq_inf_e5s.msh"
+
+[Properties]
+GeometryName        = "cis_weap_hq_inf_e5s"
+HighResGeometry		= "cis_weap_hq_inf_e5s"
+
+OrdnanceName        = "cis_weap_inf_sniper_rifle_ord"
+FirePointName       = "hp_fire"
+
+//************************************************
+//*******************   SOUND    *****************
+//************************************************
+
+FireSound           = "cis_weap_e5s_fire"
+ReloadSound         = "cis_weap_e5s_reload"
+ChangeModeSound     = "com_weap_inf_blaster_rifle_modechange"
+FireEmptySound      = "com_weap_pistol_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
+
+

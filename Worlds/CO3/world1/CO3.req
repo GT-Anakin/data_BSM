@@ -37,6 +37,7 @@ ucft
 		"CO3_SoundStreams"
 		"CO3_SpaceGroundTransition"
 		"CO3_Clouds"
+		"CO3_rumble"
 	}
 	REQN
 	{
@@ -60,6 +61,11 @@ ucft
 	}
 	REQN
 	{
+		"povs"
+		"CO3"   
+	}
+	REQN
+	{
 		"lvl"
 		"CO3_conquest"
 		"CO3_CW_Ships"
@@ -67,5 +73,10 @@ ucft
 		"CO3_CW_Ships_Turrets"
 		"CO3_CW_Ships_Turrets_MP"
 		"CO3_eli"
+		"CO3_1flag"
+		"CO3_ctf"
+		"CO3_tdm"
+		"CO3_CW_Space"
+		"CO3_Deathregions"
 	}
 }

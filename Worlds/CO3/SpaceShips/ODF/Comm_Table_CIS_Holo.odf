@@ -1,0 +1,8 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"Comm_Table_CIS_Holo.msh"
+
+[Properties]	
+
+GeometryName	=	"Comm_Table_CIS_Holo"

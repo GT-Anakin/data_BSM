@@ -3,6 +3,7 @@
 ClassLabel          = "areaeffectweapon"
 
 [Properties]
+Explosion	                = "com_weap_inf_force_choke_exp"
 HUDTag              = "hud_force_choke"
 GeometryName        = ""
 HighResGeometry     = ""
@@ -23,18 +24,18 @@ HeatThreshold       = "0.01"
 
 DisplayRefire 		= "0"
 
-EnergyDrain         = "40.0"
-EnergyDrainRate     = "15.0"
+EnergyDrain         = "20.0"
+EnergyDrainRate     = "50.0"
 FireType            = "Hold"
 InitialSalvoDelay   = "0.5"
 //ChargeMaxTime     = "0.0"
 //ChargeMinStrength = "0.0"
-MaxTargets          = "1"
+MaxTargets          = "3"
 AreaType            = "Ray"
-AreaRange           = "20.0"
-AreaRadius          = "10.0"     // -> 20 degree arc
+AreaRange           = "15.0"
+AreaRadius          = "6.5"     // -> 20 degree arc
 AreaHeight          = "4.0"
-EffectDamage        = "150.0"
+EffectDamage        = "800.0"
 EffectType          = "Choke"
 EffectStrength      = "10.0"
 EffectFalloff       = "1.0"

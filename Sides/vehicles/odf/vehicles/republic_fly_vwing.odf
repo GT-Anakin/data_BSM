@@ -47,7 +47,7 @@ PilotSkillRepairScale = "0.04"
 
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 2.0
+TakeoffSpeed            = 4.5
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0
@@ -59,7 +59,7 @@ TimeTilReboard			= "5.0"
 
 ExplosionDestruct = "republic_fly_vwing_exp"
 
-WeaponName = "republic_weap_fly_vwing_cannon"
+WeaponName = "rep_weap_fly_vwing_cannon"
 WeaponAmmo = "0"
 AimerNodeName = "hp_fire_l1"
 
@@ -94,7 +94,7 @@ NextAimer = "-"
 AimerNodeName = "hp_fire_r1"
 AimerPitchLimits = "-90 90"
 AimerYawLimits = "-90 90"
-WeaponName          ="republic_weap_fly_vwing_ptorpedo"
+WeaponName          ="rep_weap_fly_vwing_ptorpedo"
 WeaponAmmo          = "0"
 
 // CHUNCK SECTIONs

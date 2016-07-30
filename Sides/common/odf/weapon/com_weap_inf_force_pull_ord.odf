@@ -8,7 +8,7 @@ Explosion	    = "com_weap_inf_force_pull_exp"
 ConeLength          = "40"
 ConeAngle           = "50"
 FirstRadius         = "0.0"
-MaxTargets          = "1"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
+MaxTargets          = "3"  // Max number of targets to hit. Chaining is off so the damage will be split between the number of targets
 NoChaining          = "1"   // No chaining - all bolts coming from the attacker
 
 //OrdnanceSound         = "com_weap_launcher_energy_dumbfire"

@@ -1,0 +1,38 @@
+Version(1);
+RegionCount(4);
+
+Region("rep_space_landing", 0)
+{
+	Layer(13);
+	Position(1424.801147, 825.737122, -19.903824);
+	Rotation(0.999576, 0.000000, 0.029626, 0.000000);
+	Size(125.000000, 30.000000, 175.000000);
+	Name("rep_space_landing");
+}
+
+Region("cp_cis_space_control", 0)
+{
+	Layer(13);
+	Position(-1531.420532, 851.380737, 49.084583);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(80.000000, 10.000000, 40.000000);
+	Name("cp_cis_space_control");
+}
+
+Region("cp_rep_space_control", 0)
+{
+	Layer(13);
+	Position(1442.041748, 803.883423, -25.390940);
+	Rotation(0.999205, 0.000000, 0.039873, 0.000000);
+	Size(80.000000, 10.000000, 40.000000);
+	Name("cp_rep_space_control");
+}
+
+Region("cis_space_landing", 0)
+{
+	Layer(13);
+	Position(-1526.219116, 868.316589, 54.812347);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(100.000000, 25.000000, 112.000000);
+	Name("cis_space_landing");
+}

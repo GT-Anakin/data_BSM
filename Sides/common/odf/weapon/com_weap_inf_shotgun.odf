@@ -3,6 +3,9 @@ ClassLabel          = "cannon"
 
 [Properties]
 
+//ScoreForMedalsType = 1
+//MedalsTypeToLock = 1
+
 AnimationBank       = "rifle"
 
 MuzzleFlash         = "small_muzzle_flash"
@@ -14,7 +17,7 @@ FlashLightDuration  = "0.25"
 Discharge           = "small_smoke_effect"
 
 RoundsPerClip       = "40"
-ReloadTime          = "1.75"
+ReloadTime          = "3.0"
 
 SecondaryOrdnanceName 	= "com_weap_inf_shotgun_tracer"
 SecondaryOrdnancePeriod = 1
@@ -26,8 +29,8 @@ ZoomRate            = "0.0"
 TriggerSingle       = "1"
 ShotDelay           = "1.0"
 
-PitchSpread         = "3.0"
-YawSpread           = "4.5"
+PitchSpread         = "1.0"
+YawSpread           = "1.0"
 
 SpreadPerShot       = "1.1"
 SpreadRecoverRate   = "4.8"

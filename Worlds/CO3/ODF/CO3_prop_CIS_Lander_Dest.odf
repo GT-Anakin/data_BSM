@@ -1,0 +1,48 @@
+[GameObjectClass]
+
+ClassLabel		=	"destructablebuilding"
+GeometryName			= "CO3_prop_CIS_Lander.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_CIS_Lander"
+ExplosionName           = "CO3_prop_CIS_Lander_exp"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "50000"
+
+AINoRepair      = "1"
+
+FoleyFXGroup    =   "metal_foley"
+
+
+CHUNKSECTION            = "CHUNK1"
+ChunkGeometryName       = "CO3_prop_CIS_Lander_chunk1"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "4.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"
+
+CHUNKSECTION            = "CHUNK2"
+ChunkGeometryName       = "CO3_prop_CIS_Lander_chunk2"
+ChunkNodeName           = ""
+ChunkTerrainCollisions      = "1"
+ChunkTerrainEffect      = "com_sfx_explosion_lg"
+ChunkPhysics            = "FULL"
+ChunkOmega          = "2.0 2.0 1.5"
+ChunkBounciness         = 0.45
+ChunkStickiness         = 0.25
+ChunkSpeed          = "5.0"
+ChunkUpFactor           = "2.00"
+ChunkTrailEffect        = "com_sfx_chunktrail_sm"
+ChunkGravity            = "0.0 0.0 0.0"
+ChunkVelocityFactor         =   "0.15"

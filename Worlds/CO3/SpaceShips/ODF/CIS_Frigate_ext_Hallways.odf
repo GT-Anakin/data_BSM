@@ -15,7 +15,7 @@ MaxHealth       	= "1e+37"
 DestroyedGeometryName	= ""
 
 ExplosionName		= "interoir_explosion_exp"
-ExplosionOffset             = "0.0 52.0 180.0"
+ExplosionOffset             = "0.0 52.0 195.0"
 
 
 AINoRepair      = "1"

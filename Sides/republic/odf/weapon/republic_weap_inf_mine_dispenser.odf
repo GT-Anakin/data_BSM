@@ -1,0 +1,52 @@
+[WeaponClass]
+ClassLabel			= "dispenser"
+
+
+[Properties]
+OrdnanceName		= "rep_weap_inf_landmine"
+
+RoundsPerClip 		= "1"
+ReloadTime			= "1.25"
+
+//AnimationBank		= "grenade"
+OffhandWeapon 		= 1
+
+TrackingSound		= ""
+
+ShotDelay			= "0.0"
+MaxItems			= "4.0"
+AutoAimSize			= "1.0"
+
+SalvoCount			= "1"
+SalvoDelay			= "0.0"
+InitialSalvoDelay	= "0.5"
+
+MinStrength			= "0.3"
+MaxStrength			= "0.4"
+
+//MaxPressedTime	= "1.5"
+
+//************************************************
+//***************** SOUND ************************
+//************************************************
+
+FireSound           = "com_weap_throw"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+//ReloadSound		= "com_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+JumpSound			= "com_weap_inf_rifle_mvt_jump"
+LandSound			= "com_weap_inf_rifle_mvt_land"
+RollSound			= "com_weap_inf_rifle_mvt_roll"
+//ProneSound		= "com_weap_inf_rifle_mvt_squat"
+SquatSound			= "com_weap_inf_rifle_mvt_squat"
+//StandSound		= "com_weap_inf_rifle_mvt_getup"
+
+
+

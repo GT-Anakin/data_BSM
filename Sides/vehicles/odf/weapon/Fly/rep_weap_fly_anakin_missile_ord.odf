@@ -1,0 +1,7 @@
+[OrdnanceClass]
+ClassParent = "com_weap_veh_fly_stingers_ord"
+
+[Properties]
+//GeometryName = "com_weap_missile"
+ExplosionName = "rep_weap_fly_anakin_missile_exp"
+ImpactEffect 			= "com_sfx_weap_sc_exp_lg"

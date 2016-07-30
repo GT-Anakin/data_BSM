@@ -1,0 +1,42 @@
+[GameObjectClass]
+
+ClassLabel      ="rumbleeffect"
+GeometryName 	="Dest_Cube.msh"
+
+[Properties]
+
+MinLight = "0.05"
+MaxLight = "0.05"
+
+MinHeavy = "0.05"
+MaxHeavy = "0.05"
+
+MinHeavyDecay = "0.0"
+MaxHeavyDecay = "0.0"
+
+MinLightDecay = "0.0" //pointless in reality, as the ps2 is either on off, not sure bout the xbox
+MaxLightDecay = "0.0"
+
+MinDelayLight = "0.02"
+MaxDelayLight = "0.02"
+
+MinDelayHeavy = "0.02"
+MaxDelayHeavy = "0.02"
+
+MinTimeLeftHeavy = "1.0" //how long each rumble lasts
+MaxTimeLeftHeavy = "1.0" //how long each rumble lasts
+
+MinTimeLeftLight = "1.0"
+MaxTimeLeftLight = "1.0"
+
+MinInterval = "0.0"  //how often the rumble gets set off
+MaxInterval = "0.0"  //how often the rumble gets set off
+
+MinShakeAmt = "0.035"
+MaxShakeAmt = "0.045"
+
+MinShakeLen = "0.01" //Camera shake length
+MaxShakeLen = "0.015" //Camera shake length
+
+SoundName 	= "" //is read in, triggers the sound at the center
+FXName 		= "" //commented out for now

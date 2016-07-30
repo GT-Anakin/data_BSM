@@ -1,0 +1,36 @@
+ucft
+{
+	ANIM
+	{
+		"bf3sbdroid_rifle_crouchalert_idle_emote"
+		"bf3sbdroid_rifle_crouchalert_walkbackward"
+		"bf3sbdroid_rifle_crouchalert_walkforward"
+		"bf3sbdroid_rifle_crouch_idle_emote"
+		"bf3sbdroid_rifle_crouch_reload"
+		"bf3sbdroid_rifle_crouch_shoot"
+		"bf3sbdroid_rifle_crouch_shoot_secondary2_full"
+		"bf3sbdroid_rifle_crouch_shoot_secondary_full"
+		"bf3sbdroid_rifle_crouch_walkbackward"
+		"bf3sbdroid_rifle_crouch_walkforward"
+		"bf3sbdroid_rifle_diveforward"
+		"bf3sbdroid_rifle_jump"
+		"bf3sbdroid_rifle_jumpfall"
+		"bf3sbdroid_rifle_landhard"
+		"bf3sbdroid_rifle_landsoft"
+		"bf3sbdroid_rifle_sprint_full"
+		"bf3sbdroid_rifle_standalert_idle_emote"
+		"bf3sbdroid_rifle_standalert_runbackward"
+		"bf3sbdroid_rifle_standalert_runforward"
+		"bf3sbdroid_rifle_standalert_walkforward"
+		"bf3sbdroid_rifle_stand_idle_emote"
+		"bf3sbdroid_rifle_stand_reload"
+		"bf3sbdroid_rifle_stand_runbackward"
+		"bf3sbdroid_rifle_stand_runforward"
+		"bf3sbdroid_rifle_stand_shoot"
+		"bf3sbdroid_rifle_stand_shoot_secondary2_upper"
+		"bf3sbdroid_rifle_stand_shoot_secondary_full"
+		"bf3sbdroid_rifle_stand_shoot_secondary_upper"
+		"bf3sbdroid_rifle_stand_walkforward"
+		"bf3sbdroid_stap_ride"
+	}
+}

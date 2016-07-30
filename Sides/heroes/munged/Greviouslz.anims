@@ -1,0 +1,13 @@
+ucft
+{
+	ANIM
+	{
+		"greviouslz_sabre_stand_attack1a"
+		"greviouslz_sabre_stand_attack1a_end"
+		"greviouslz_sabre_stand_attack1b"
+		"greviouslz_sabre_stand_attack1b_end"
+		"greviouslz_sabre_stand_attack1c"
+		"greviouslz_sabre_stand_idle_emote"
+		"greviouslz_sabre_stand_runforward"
+	}
+}

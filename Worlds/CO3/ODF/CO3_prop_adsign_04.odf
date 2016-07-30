@@ -4,7 +4,7 @@ ClassLabel		=	"prop"
 GeometryName	=	"CO3_prop_adsign_04.msh"
 
 [Properties]
-
+Lighting        = "Dynamic"
 GeometryName	=	"CO3_prop_adsign_04"
 
 FoleyFXGroup    =   "metal_foley"

@@ -2,8 +2,8 @@
 ClassLabel          = "grenade"
 
 [Properties]
-GeometryName        = "com_1st_weap_inf_grenadethermal"
-HighResGeometry     = "com_1st_weap_inf_grenadethermal"
+GeometryName        = "com_weap_inf_thermaldetonator"
+HighResGeometry     = "com_weap_inf_thermaldetonator"
 
 OffhandWeapon       = 1
 

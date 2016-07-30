@@ -1,0 +1,30 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_cis_durge.msh"
+
+[Properties]
+UnitType            = "pilot"
+
+GeometryName        = "heroes_cis_durge"
+GeometryLowRes      = "heroes_cis_durge_low"
+//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+AISizeType          = "Soldier"
+ClothODF        = "heroes_cis_durge_cloth"
+SkeletonName		= "bf3clones"
+SkeletonLowRes  = "bf3cloneslz" 	         //Lando's lowrez mesh has been enveloped to the same skeleton (HanSololz).
+//AnimationName       = "HanSolo"
+HealthType          = "person"
+
+WEAPONSECTION = 1
+WeaponName1         = "cis_weap_inf_sniper_rifle"
+WeaponAmmo1         = 5
+
+WEAPONSECTION = 2
+WeaponName2         = "com_weap_inf_thermaldetonator"
+WeaponAmmo2         = 2
+WeaponChannel2      = 1
+
+
+//SOUND
+FoleyFXClass        = "cis_inf_soldier"
+

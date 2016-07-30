@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "2.0"
+Damage = "500.0"
+DamageRadius = "50.0"
+ShakeLength   = "4.5"
+Shake = "1.0"
+ShakeRadius = "500.0"
+
+Push                = "0.0"
+PushRadiusInner     = "0.0"
+PushRadiusOuter     = "0.0"
+
+
+Effect			= "spa2_sfx_prop_antenna_descruct_exp"
+
+ArmorScale =    "1.0"
+HealthScale =   "1.0"
+ShieldScale =   "1.0"
+DroidScale      = "1.0"
+BuildingScale = "1.0"
+
+SoundProperty       = "com_weap_obj_large_exp"

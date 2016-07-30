@@ -1,0 +1,21 @@
+ucft
+{
+	ANIM
+	{
+		"mace_sabre_jumpattack_end_full"
+		"mace_sabre_jumpattack_fall_full"
+		"mace_sabre_jumpattack_land_full"
+		"mace_sabre_landhard_full"
+		"mace_sabre_landsoft_full"
+		"mace_sabre_stand_attack1a_end_full"
+		"mace_sabre_stand_attack1a_full"
+		"mace_sabre_stand_attack1b_end_full"
+		"mace_sabre_stand_attack1b_full"
+		"mace_sabre_stand_attack1c_full"
+		"mace_sabre_stand_dashattack_full"
+		"mace_sabre_stand_idle_emote_full"
+		"mace_sabre_stand_runforward_full"
+		"mace_sabre_stand_useforce_full"
+		"mace_sabre_stand_walkforward_full"
+	}
+}

@@ -1,0 +1,14 @@
+ucft
+{
+	ANIM
+	{
+		"asajj_sabre_stand_attack1a_end_full"
+		"asajj_sabre_stand_attack1a_full"
+		"asajj_sabre_stand_attack1b_end_full"
+		"asajj_sabre_stand_attack1b_full"
+		"asajj_sabre_stand_attack1c_full"
+		"asajj_sabre_stand_block_idle_full"
+		"asajj_sabre_stand_dashattack_full"
+		"asajj_sabre_stand_idle_emote_full"
+	}
+}

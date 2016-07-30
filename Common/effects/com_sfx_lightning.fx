@@ -1,0 +1,18 @@
+LightningBolt("com_sfx_lightning")
+{
+	Texture("com_sfx_lightning");
+	Width(0.5);
+	FadeTime(0.6);
+	BreakDistance(1.0);
+	SpreadFactor(0.8);
+	InterpolationSpeed(5.0);
+	MaxBranches(3);
+	NumChildren(3);
+	BranchFactor(0.15);
+	ChildWidth(0.4);
+	ChildTextureSize(2.0);
+	ChildSpreadFactor(1.0);
+	TextureSize(3.5);
+	Color(130,170,255,250);
+	ChildColor(140,180,255,100);
+}

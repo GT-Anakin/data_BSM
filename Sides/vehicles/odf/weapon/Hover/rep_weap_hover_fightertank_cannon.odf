@@ -1,0 +1,13 @@
+[WeaponClass]
+ClassParent     	= "com_weap_veh_laser"
+
+[Properties]
+OrdnanceName 			= "rep_weap_hover_fightertank_cannon_ord"
+
+HeatRecoverRate			= "0.25"
+HeatThreshold			= "0.2"
+HeatPerShot			= "0.12"
+
+ShotDelay			= "0.22"
+
+FireSound      	 		= "imp_weap_hover_fightertank_cannon_fire"

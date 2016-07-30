@@ -1,0 +1,9 @@
+ucft
+{
+	ANIM
+	{
+		"sbdroidfp_rifle_idle"
+		"sbdroidfp_rifle_run"
+		"sbdroidfp_rifle_shoot"
+	}
+}

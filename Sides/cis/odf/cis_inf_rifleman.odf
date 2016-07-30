@@ -1,0 +1,80 @@
+[GameObjectClass]
+ClassParent         = "cis_inf_default"
+
+[Properties]
+GeometryName        = "cis_bf3_bdroid"
+GeometryLowRes		= "cis_bf3_bdroid_low"
+SkeletonName		= "bf3droids"
+SkeletonLowRes		= "bf3droidslz"
+FirstPerson         = "CIS\cis;cis_1st_rifleman"
+AISizeType          = "Soldier"
+
+WEAPONSECTION = 1
+WeaponName         = "cis_weap_inf_rifle"
+WeaponAmmo         = 4
+
+WEAPONSECTION = 2
+WeaponName         = "cis_weap_inf_pistol"
+WeaponAmmo         = 8
+
+WEAPONSECTION = 3
+WeaponName         = "com_weap_inf_thermaldetonator"
+WeaponAmmo         = 4
+WeaponChannel      = 1
+
+
+ChunkFrequency              = 0.6
+
+CHUNKSECTION                = "CHUNK1"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk1"
+ChunkNodeName               = "bone_neck"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK2"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk2"
+ChunkNodeName               = "bone_l_upperarm"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK3"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk3"
+ChunkNodeName               = "bone_l_calf"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK4"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk4"
+ChunkNodeName               = "bone_r_thigh"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+CHUNKSECTION                = "CHUNK5"
+ChunkGeometryName           = "cis_bf3_bdroid_chunk5"
+ChunkNodeName               = "bone_a_spine"
+ChunkTerrainCollisions      = "4"
+ChunkTerrainEffect          = "dirtspray"
+ChunkTrailEffect            = "com_sfx_chunksmolder"
+ChunkPhysics                = "FULL"
+ChunkOmega                  = "4.0 4.0 4.0"
+ChunkSpeed                  = 8.0
+
+
+VOUnitType        	= 121
+

@@ -1,0 +1,25 @@
+[GameObjectClass]
+ClassLabel			= "flag"
+GeometryName		= "com_item_flag.msh"
+
+[Properties]
+Lighting			= "Dynamic"
+
+IconTexture			= "flag_deathstar"
+MapTexture			= "flag_icon"
+MapScale			= "0.75"
+
+GeometryName		= "com_item_flag"
+CarriedGeometryName = "com_icon_build"
+CarriedOffset		= "0.0 2.5 0.0"
+CarriedColorize		= 1
+
+PickupSound			= "health_recharge defer"
+DropSound			= ""
+AmbientSound		= ""
+
+LifeSpan			= 15.0
+
+LightODF			= "flaglight"
+
+[InstanceProperties]

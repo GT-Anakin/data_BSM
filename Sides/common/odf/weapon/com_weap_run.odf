@@ -1,0 +1,85 @@
+[WeaponClass]
+
+ClassLabel          = "areaeffectweapon"
+
+[Properties]
+HUDTag              = "hud_force_choke"
+GeometryName        = ""
+HighResGeometry     = ""
+
+//MuzzleFlash       = "med_muzzle_flash"
+FlashColor          = "80 80 255 255"
+FlashLength         = 0.025
+FlashLightColor     = "220 220 255 175"
+Discharge           = "med_smoke_effect"
+
+//RoundsPerClip     = "32"
+RoundsPerClip       = "0"
+ReloadTime          = "0.0" 
+
+HeatPerShot         = "0.0"     // only allow player to fire every 5 seconds
+HeatRecoverRate     = "0.2"
+HeatThreshold       = "0.01"
+
+DisplayRefire 		= "0"
+
+EnergyDrain         = "100.0"
+EnergyDrainRate     = "100.0"
+FireType            = "Hold"
+InitialSalvoDelay   = "0.5"
+//ChargeMaxTime     = "0.0"
+//ChargeMinStrength = "0.0"
+MaxTargets          = "0"
+AreaType            = "Ray"
+AreaRange           = "0.0"
+AreaRadius          = "0.0"     // -> 20 degree arc
+AreaHeight          = "0.0"
+EffectDamage        = "0.0"
+EffectType          = "Choke"
+EffectStrength      = "10.0"
+EffectFalloff       = "1.0"
+ThrustFactor        = "4.0"     // when firing, move at half speed
+// I don't think this is used in the code at all -> TargetLock          = "1"       // when firing, activate target lock
+SoldierAnimation    = "ride"
+
+OffhandWeapon       = 1
+InstantPlayFireAnim = 1
+TriggerSingle       = "1" // if FireType = "Hold" this will work correctly now - Mike Z
+
+LockOnRange         = "64.0"
+LockTime            = "0.0"
+AutoAimSize         = "2.0"
+
+TargetEnemy         = "0"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "0"
+TargetAnimal        = "0"
+TargetDroid         = "0"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+ChargeRateLight             = "1.0"
+MaxChargeStrengthLight      = "1.0"
+ChargeDelayLight            = "0.0"
+ChargeRateHeavy             = "1.0"
+MaxChargeStrengthHeavy      = "0.5"
+ChargeDelayHeavy            = "2.2"
+
+RecoilLengthHeavy           = "0.25"
+RecoilStrengthHeavy         = "2"
+RecoilDecayHeavy            = "0.0"
+
+FireSound               = ""
+//ReloadSound           = ""
+WeaponChangeSound       = ""
+ChangeModeSound         = ""
+FireEmptySound          = ""
+ChargeSound             = ""
+ChargeSoundPitch        = "0.05"
+OverheatSound           = ""
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = ""
+
+

@@ -28,13 +28,9 @@ AutoBarrierSize     = "0.8 0.8"
 
 IdleRotateSpeed = "1.5"
 IdleWaitTime = "1.75"
-ActiveRotateNode = "pH_tester_arm1"
 ActiveRotateNode = "pH_tester_arm2"
-ActiveRotateNode = "pH_tester_arm3"
-ActiveRotateNode = "pH_tester_arm4"
 ActiveRotateNode = "pH_tester_arm5"
 ActiveSpinNode = "Equipment_Operator_Arm_Socket"
-ActiveSpinNode = "Equipment_Operator_Head_Socket"
 
 [InstanceProperties]
 EffectRegion        = ""
