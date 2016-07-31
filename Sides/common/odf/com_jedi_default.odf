@@ -27,7 +27,7 @@ FleeLikeAHero 		= 1
 // These are values for an average class - some soldiers will override these
 MaxSpeed                = 9.0       // base forward speed
 MaxStrafeSpeed          = 6.6       // base right/left speed
-MaxTurnSpeed            = 5.0       // base turn speed
+MaxTurnSpeed            = 6.0       // base turn speed
 JumpHeight              = 3.5	    // base jump height in meters
 RecoverFromTumble       = "0"
 
