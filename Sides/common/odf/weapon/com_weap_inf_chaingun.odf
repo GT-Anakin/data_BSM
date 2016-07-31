@@ -61,7 +61,7 @@ ShotDelay 		= "0.05"
 ReloadTime 		= "0"
 HeatRecoverRate 	= "0.25"
 HeatThreshold 		= "0.2"
-HeatPerShot 		= "0.15"
+HeatPerShot 		= "0.015"
 
 WarmUpTime 		= 0.25
 CoolDownTime 		= 1.0
