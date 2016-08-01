@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(11);
+RegionCount(12);
 
 Region("DamageRegion damagerate=250 personscale=1 animalscale=1 droidscale=1 vehiclescale=6 buildingscale=0", 0)
 {
@@ -87,4 +87,12 @@ Region("shadow directional=1 directional1=1 colortop=115,115,115 colorbottom=0,0
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(20.000000, 3.000000, 3.000000);
 	Name("shadow6");
+}
+
+Region("shadow directional=0.75 directional1=0.75 colortop=64,203,255 colorbottom=14,35,231", 0)
+{
+	Position(-725.234802, -193.694595, 1270.466797);
+	Rotation(0.977539, 0.000000, 0.210787, 0.000000);
+	Size(60.000000, 20.000000, 85.000000);
+	Name("blue_shadow");
 }

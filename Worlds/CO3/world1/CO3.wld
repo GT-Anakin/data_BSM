@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.312, 0.060, -0.931, 0.179);
-	Position(1026.835, 275.918, 1079.708);
+	Rotation(0.949, 0.098, 0.298, -0.031);
+	Position(-867.372, -161.595, 1088.333);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(2500.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -3442,6 +3442,15 @@ Object("CO3_prop_pole_438", "CO3_prop_pole_01", -1523122809)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(109.430, -300.000, 28.041);
 	SeqNo(-1523122809);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_bldg_building_09", "CO3_bldg_building_09", -1522641875)
+{
+	ChildRotation(0.976, 0.000, 0.218, 0.000);
+	ChildPosition(-722.463, -456.357, 1269.554);
+	SeqNo(-1522641875);
 	Team(0);
 	NetworkId(-1);
 }
