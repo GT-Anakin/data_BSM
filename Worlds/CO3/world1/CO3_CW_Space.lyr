@@ -3,8 +3,8 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.903, 0.162, -0.393, 0.070);
-	Position(326.827, 852.480, -397.633);
+	Rotation(0.312, 0.060, -0.931, 0.179);
+	Position(1026.835, 275.918, 1079.708);
 	FieldOfView(55.400);
 	NearPlane(1.000);
 	FarPlane(2500.000);
@@ -393,7 +393,7 @@ Object("cis_vehicle90", "com_item_vehicle_spawn", 1370469641)
 
 Object("rep_space_tur_1", "rep_bldg_frigateturret", 1618379410)
 {
-	ChildRotation(0.737, 0.000, -0.675, 0.000);
+	ChildRotation(0.737, 0.000, -0.676, 0.000);
 	ChildPosition(499.744, 931.143, 37.601);
 	SeqNo(1618379410);
 	Team(1);
@@ -727,7 +727,7 @@ Object("cp_frigate_rep_space", "com_bldg_controlzone_CTF", -1994435618)
 
 Object("rep_frigate_space_closed3", "rep_Frigate_ext_Hallways_closed", -1935355998)
 {
-	ChildRotation(0.710, 0.002, 0.703, 0.028);
+	ChildRotation(0.710, 0.002, 0.704, 0.028);
 	ChildPosition(-423.923, 1920.406, -512.141);
 	SeqNo(-1935355998);
 	Team(0);
@@ -767,7 +767,7 @@ Object("cis_space_tur_6", "cis_bldg_frigateturret", -1736798829)
 
 Object("rep_frigate_space_3", "rep_Frigate_ext", -1720744714)
 {
-	ChildRotation(0.710, 0.002, 0.703, 0.028);
+	ChildRotation(0.710, 0.002, 0.704, 0.028);
 	ChildPosition(-423.921, 1920.405, -512.143);
 	SeqNo(-1720744714);
 	Team(1);
@@ -777,7 +777,7 @@ Object("rep_frigate_space_3", "rep_Frigate_ext", -1720744714)
 
 Object("rep_space_tur_4", "rep_bldg_frigateturret", -1662679434)
 {
-	ChildRotation(0.731, 0.000, -0.683, 0.000);
+	ChildRotation(0.731, 0.000, -0.682, 0.000);
 	ChildPosition(1333.758, 1014.348, -67.045);
 	SeqNo(-1662679434);
 	Team(1);
@@ -947,7 +947,7 @@ Object("cis_frigate_space_closed_an", "CIS_Frigate_ext_Hallways_closed", -851053
 
 Object("CIS_Frigate_space_3", "CIS_Frigate_ext", -572521337)
 {
-	ChildRotation(0.688, 0.015, -0.725, 0.001);
+	ChildRotation(0.688, 0.015, -0.726, 0.001);
 	ChildPosition(288.073, 1876.633, 775.280);
 	SeqNo(-572521337);
 	Team(2);
@@ -1037,7 +1037,7 @@ Object("rep_Frigate_ext_Hallways0", "rep_Frigate_ext_Hallways", -137516847)
 
 Object("cis_frigate_space_closed3", "CIS_Frigate_ext_Hallways_closed", -61159075)
 {
-	ChildRotation(0.688, 0.015, -0.725, 0.001);
+	ChildRotation(0.688, 0.015, -0.726, 0.001);
 	ChildPosition(288.711, 1876.638, 775.786);
 	SeqNo(-61159075);
 	Team(0);
