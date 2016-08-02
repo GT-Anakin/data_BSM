@@ -12,8 +12,10 @@ OrdnanceName        = "rep_weap_inf_pistol_ord"
 //***************   SOUND       ****************
 //******************************************************
 
-FlashColor          = "100 100 255 255"               
-FlashLightColor     = "220 220 255 175"   
+MuzzleFlashModel = "com_sfx_muzzleflash"
+FlashColor          = "41 44 135 255"               
+FlashLightColor     = "41 44 135 175"   
+
 
 
 FireSound           = "rep_weap_dc17p_fire"

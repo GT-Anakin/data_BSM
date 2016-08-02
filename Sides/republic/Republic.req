@@ -21,5 +21,6 @@ ucft
 		"rep_1st_commander"
 		"rep_1st_jettrooper"
 		"rep_1st_pilot"
+		"com_sfx_muzzleflash"
 	}
 }

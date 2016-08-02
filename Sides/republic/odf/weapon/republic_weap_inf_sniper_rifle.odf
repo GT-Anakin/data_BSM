@@ -13,6 +13,10 @@ FirePointName       = "hp_fire"
 //*******************   SOUND    *****************
 //************************************************
 
+MuzzleFlashModel = "com_sfx_muzzleflash"
+FlashColor          = "41 44 135 255"               
+FlashLightColor     = "41 44 135 175"   
+
 FireSound           = "rep_weap_dc15x_fire"
 ReloadSound         = "rep_weap_dc15x_reload"
 ChangeModeSound     = "com_weap_inf_blaster_rifle_modechange"

@@ -147,41 +147,40 @@ function ScriptInit()
             team = REP,
             units = 32,
                 reinforcements = -1,
-                soldier = { "heroes_republic_x2",1,4},
-                assault = { "heroes_republic_falon",   1,4},
-                engineer= { "heroes_republic_ferroda",   1,4},
-                sniper  = { "heroes_republic_mace",  1,4},
-                officer = { "heroes_republic_yoda",        1,4},
+                soldier = { "heroes_republic_obiwan",1,4},
+                assault = { "heroes_republic_anakin",   1,4},
+                engineer= { "heroes_republic_mace",   1,4},
+                sniper  = { "heroes_republic_yoda",  1,4},
+                officer = { "heroes_republic_aayla",        1,4},
                 special = { "heroes_republic_padme",   1,4},           
         },
     }   
 
-	AddUnitClass(REP,"heroes_republic_anakin",1,4)
-	AddUnitClass(REP,"heroes_republic_obiwan",1,4)
-	AddUnitClass(REP,"heroes_republic_aayla",1,4)
-	
-	
+	AddUnitClass(REP,"heroes_republic_falon",1,4)
+	AddUnitClass(REP,"heroes_republic_ferroda",1,4)
+	AddUnitClass(REP,"heroes_republic_x2",1,4)
+
+
     SetupTeams{
         villain = {
             team = CIS,
             units = 32,
             reinforcements = -1,
-                soldier = { "heroes_cis_zam",    1,4},
-                assault = { "heroes_cis_dooku",1,4},
+                soldier = { "heroes_cis_dooku",    1,4},
+                assault = { "heroes_cis_asajj",1,4},
                 engineer= { "heroes_cis_maul", 1,4},
-                sniper  = { "heroes_cis_jango", 1,4},
-                officer = { "heroes_cis_grievous",    1,4},
-                special = { "heroes_republic_palpatine", 1,4},
+                sniper  = { "heroes_cis_grievous", 1,4},
+                officer = { "heroes_cis_jango",    1,4},
+                special = { "heroes_cis_durge", 1,4},
 
         },
     }   
 	
-	AddUnitClass(CIS,"heroes_cis_asajj",1,4)
+	AddUnitClass(CIS,"heroes_cis_zam",1,4)
 	AddUnitClass(CIS,"heroes_empire_ig88",1,4)
-	AddUnitClass(CIS,"heroes_cis_durge",1,4)
+	AddUnitClass(CIS,"heroes_republic_palpatine",1,4)
 
 	
-
     --  Level Stats
     ClearWalkers()
     AddWalkerType(0, 0) -- special -> droidekas

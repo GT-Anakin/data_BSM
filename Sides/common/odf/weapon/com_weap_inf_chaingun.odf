@@ -77,13 +77,14 @@ DisplayRefire 		= "0"
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
 
-MuzzleFlash         	= "small_muzzle_flash"
-FlashColor          	= "80 80 255 255"
-FlashLength         	= "0.025"
-FlashLightColor     	= "220 220 255 175"
-FlashLightRadius    	= "2.0"
-FlashLightDuration  	= "0.25"
-Discharge               = "small_smoke_effect"
+MuzzleFlash         = "small_muzzle_flash"
+MuzzleFlashModel = "com_sfx_muzzleflash"
+FlashColor          = "205 7 7 255"
+FlashLength         = 0.025
+FlashLightColor     = "205 7 7 175"
+FlashLightRadius    = "4.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
 
 RecoilLengthLight   	= "0.1"
 RecoilLengthHeavy   	= "0.1"

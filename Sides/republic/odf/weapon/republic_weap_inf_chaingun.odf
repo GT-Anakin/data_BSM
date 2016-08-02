@@ -17,6 +17,10 @@ SecondaryOrdnancePeriod	= 5
 //***************   SOUND       ****************
 //******************************************************
 
+MuzzleFlashModel = "com_sfx_muzzleflash"
+FlashColor          = "41 44 135 255"               
+FlashLightColor     = "41 44 135 175"   
+
 ReloadSound				= "com_weap_inf_reload_lg"
 ChangeModeSound			= "com_weap_inf_equip_lg"
 FireEmptySound			= "com_weap_inf_ammo_empty"

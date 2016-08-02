@@ -68,3 +68,12 @@ TargetAnimal        = "1"
 TargetDroid         = "1"
 TargetVehicle       = "0"
 TargetBuilding      = "0"
+
+MuzzleFlash         = "small_muzzle_flash"
+MuzzleFlashModel = "com_sfx_muzzleflash"
+FlashColor          = "205 7 7 255"
+FlashLength         = 0.025
+FlashLightColor     = "205 7 7 175"
+FlashLightRadius    = "4.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
