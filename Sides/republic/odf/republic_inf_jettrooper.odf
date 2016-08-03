@@ -16,8 +16,8 @@ WeaponName         = "republic_weap_inf_rifle_trishot"
 WeaponAmmo         = 4
 
 WEAPONSECTION = 2
-WeaponName         = "republic_weap_inf_pistol"
-WeaponAmmo         = 8
+WeaponName         = "republic_weap_inf_mortar_launcher"
+WeaponAmmo         = 2
 
 WEAPONSECTION = 3
 WeaponName         = "com_weap_inf_impactgrenade"

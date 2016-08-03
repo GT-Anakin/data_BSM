@@ -12,7 +12,6 @@ FirePointName       = "hp_fire"
 //***************   SOUND       ****************
 //******************************************************
 
-
 FireSound           = "cis_weap_e5_fire"
 ReloadSound         = "cis_weap_e5_reload"
 ChangeModeSound     = "com_weap_inf_equip_med"

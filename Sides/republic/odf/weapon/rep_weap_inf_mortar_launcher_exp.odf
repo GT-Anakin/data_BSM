@@ -1,0 +1,11 @@
+[ExplosionClass]
+ClassParent = "com_weap_inf_mortar_launcher_exp"
+
+[Properties]
+Effect 		= "com_sfx_weap_flame_exp_md"
+
+LightColor 	= "250 200 50 255"
+LightRadius 	= "7.0"
+LightDuration 	= "1.0"
+
+SoundProperty	= "com_weap_thermaldetonator_exp"

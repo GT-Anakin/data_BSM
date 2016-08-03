@@ -1,0 +1,25 @@
+[OrdnanceClass]
+ClassLabel 		= "shell"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+Damage 			= "400.0"
+
+Velocity 		= "40.0"
+Gravity			= "1.75"
+Rebound			= "0.35"
+Friction		= "1.0"
+LifeSpan		= "8.0"
+
+VehicleScale		= "1.0"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+AnimalScale		= "1.0"
+BuildingScale		= "1.0"
+
+OrdnanceSound		= ""
+CollisionOtherSound	= ""
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on
+

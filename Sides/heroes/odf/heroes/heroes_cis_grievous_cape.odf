@@ -3,3 +3,9 @@ ClassLabel          = "cloth"
 
 [Properties]
 attachedmesh    = "heroes_cis_grievous"
+
+CrossConstraint = "1"
+BendConstraint = "1"
+StretchConstraint = "1"
+
+ParticleMass = "3.0"

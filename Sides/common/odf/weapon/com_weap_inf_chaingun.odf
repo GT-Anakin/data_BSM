@@ -72,7 +72,7 @@ InitialSalvoDelay   	= "0.0"
 SalvoTime           	= "0.0"
 
 DisplayRefire 		= "0"
-
+FirePointName       = "hp_fire"
 //***********************************************
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************

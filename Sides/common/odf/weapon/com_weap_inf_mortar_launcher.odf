@@ -1,0 +1,74 @@
+[WeaponClass]
+ClassLabel          	= "grenade"
+
+[Properties]
+Discharge           	= "small_smoke_effect"
+MuzzleFlash         	= "med_muzzle_flash"
+
+FlashColor          	= "255 198 62 255"
+FlashLength         	= "0.075"
+FlashLightColor     	= "255 198 62 175"
+
+ChargeUpEffect          = "com_sfx_chargeup"
+
+RoundsPerClip       	= "5"
+ReloadTime          	= "2.25"
+HeatRecoverRate     	= "0.15"
+HeatThreshold       	= "0.3"
+HideOnFire          	= "0"
+
+ZoomMin             	= "2.0"
+ZoomMax             	= "2.0"
+ZoomRate            	= "0.0"
+
+AnimationBank       	= "rifle"
+ForceFireAnimation  	= "0"
+
+ScopeTexture        	= "weapon_scope2"
+
+MaxPressedTime      	= "0.75"
+TriggerSingle       	= "1"
+ShotDelay           	= "1.5"
+
+ShotElevate         	= "0.1"
+PitchSpread         	= "0.0"
+YawSpread           	= "0.0"
+
+LockOnRange         	= "0.0"
+LockTime            	= "0.0"
+AutoAimSize         	= "1.0"
+
+SalvoCount          	= "1"
+ShotsPerSalvo       	= "1"
+SalvoDelay          	= "0.0"
+InitialSalvoDelay   	= "0.0"
+SalvoTime           	= "0.0"
+
+MinRange            	= "32"
+OptimalRange        	= "64"
+MaxRange            	= "80"
+ExtremeRange        	= "96.0"
+
+TargetEnemy         	= "1"
+TargetNeutral       	= "0"
+TargetFriendly      	= "0"
+
+TargetPerson        	= "1"
+TargetAnimal        	= "1"
+TargetDroid         	= "1"
+TargetVehicle       	= "0"
+TargetBuilding      	= "0"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.1"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.5"
+ChargeDelayHeavy        = "0.75"
+
+RecoilLengthHeavy       = "1.0"
+RecoilStrengthHeavy     = "1"
+RecoilDecayHeavy        = ".75"
+
+
+

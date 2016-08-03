@@ -1,0 +1,1 @@
+-bumpmap -format bump_alpha -bumpscale 3.5 -8bit -compress -maps 1

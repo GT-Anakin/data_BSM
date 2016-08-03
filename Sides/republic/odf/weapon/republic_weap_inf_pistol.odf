@@ -6,12 +6,13 @@ GeometryName        = "rep_weap_hq_inf_dc17p.msh"
 GeometryName        = "rep_weap_hq_inf_dc17p"
 HighResGeometry		= "rep_weap_hq_inf_dc17p"
 OrdnanceName        = "rep_weap_inf_pistol_ord"
-
+FirePointName       = "hp_fire"
 
 //******************************************************
 //***************   SOUND       ****************
 //******************************************************
 
+MuzzleFlash         = "small_muzzle_flash"
 MuzzleFlashModel = "com_sfx_muzzleflash"
 FlashColor          = "41 44 135 255"               
 FlashLightColor     = "41 44 135 175"   

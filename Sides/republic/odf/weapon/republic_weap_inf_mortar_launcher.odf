@@ -1,0 +1,34 @@
+[WeaponClass]
+ClassParent      = "com_weap_inf_mortar_launcher"
+GeometryName        = "rep_weap_inf_grenadelauncher.msh"
+
+[Properties]
+GeometryName        = "rep_weap_inf_grenadelauncher"
+HighResGeometry     = "rep_weap_inf_grenadelauncher"
+
+//***************************************************
+//******************** SOUND ************************
+//***************************************************
+
+FireSound           = "imp_weap_inf_mortar_launcher_fire"
+ReloadSound         = "com_weap_inf_reload_lg"
+ChangeModeSound     = "com_weap_inf_equip_lg"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_lg"
+JumpSound           = "com_weap_inf_bazooka_mvt_jump"
+LandSound           = "com_weap_inf_bazooka_mvt_land"
+RollSound           = "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound          = "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"
+
+
+
+//***************************************************
+//************** VARIABLE ORDANANCE *****************
+//***************************************************
+
+OrdnanceName        = "rep_weap_inf_mortar_launcher_ord"
+
+NextCharge      = 0.9
+OrdnanceName        = "rep_weap_inf_mortar_launcher_ord1"

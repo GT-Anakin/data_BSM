@@ -1,0 +1,37 @@
+[OrdnanceClass]
+ClassLabel 			= "sticky"
+
+[Properties]
+ImpactEffectWater 	= "com_sfx_watersplash_sm"
+
+Damage 			= "100.0"
+
+Push 			= "6.0"
+PushDeadOnly 		= 0
+
+Velocity 		= "40.0"
+Gravity			= "1.75"
+Rebound			= "0.35"
+Friction		= "1.0"
+LifeSpan		= "0.1"
+
+VehicleScale		= "1.0"
+PersonScale 		= "1.0"
+DroidScale 		= "1.0"
+AnimalScale		= "1.0"
+BuildingScale		= "1.0"
+
+StickPerson		= 0
+StickAnimal		= 0
+StickDroid		= 0
+StickVehicle		= 0
+StickBuilding		= 0
+StickBuildingDead	= 0
+StickBuildingUnbuilt	= 0
+StickTerrain		= 0
+
+OrdnanceSound		= ""
+CollisionOtherSound	= ""
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on
+

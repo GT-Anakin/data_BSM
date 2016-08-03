@@ -56,6 +56,8 @@ CrouchMoveSpread    = "0.0"
 ProneStillSpread    = "0.0"
 ProneMoveSpread     = "0.0"
 
+FirePointName       = "hp_fire"
+
 //***********************************************
 //*********** WEAPON PERFORMANCE VALUES *********
 //***********************************************

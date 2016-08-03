@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel          = "explosion"
+
+[Properties]
+WaterEffect 	= "com_sfx_watersplash_lg"
+
+Damage 		  = "400.0"
+DamageRadiusInner = "0.5"
+DamageRadiusOuter = "2.5"
+
+Push                = "10.0"
+PushRadiusInner     = "2.5"
+PushRadiusOuter     = "2.5"
+
+Shake 		  = "0.35"
+ShakeLength	  = "0.60"
+ShakeRadiusInner  = "2.5"
+ShakeRadiusOuter  = "6.0"
+
+VehicleScale	= "1.0"
+PersonScale 	= "1.0"
+DroidScale 	= "1.0"
+AnimalScale	= "1.0"
+BuildingScale	= "1.0"
+

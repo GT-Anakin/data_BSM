@@ -12,6 +12,7 @@ FirePointName       = "hp_fire"
 //***************   SOUND       ****************
 //******************************************************
 
+MuzzleFlash         = "small_muzzle_flash"
 MuzzleFlashModel = "com_sfx_muzzleflash"
 FlashColor          = "41 44 135 255"               
 FlashLightColor     = "41 44 135 175"   
