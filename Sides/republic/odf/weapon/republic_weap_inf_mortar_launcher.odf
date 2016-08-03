@@ -10,10 +10,10 @@ HighResGeometry     = "rep_weap_inf_grenadelauncher"
 //******************** SOUND ************************
 //***************************************************
 
-FireSound           = "imp_weap_inf_mortar_launcher_fire"
-ReloadSound         = "com_weap_inf_reload_lg"
+FireSound           = "rep_weap_grenadelauncher_fire"
+ReloadSound         = "rep_weap_grenadelauncher_reload"
 ChangeModeSound     = "com_weap_inf_equip_lg"
-FireEmptySound      = "com_weap_inf_ammo_empty"
+FireEmptySound      = "com_weap_pistol_empty"
 WeaponChangeSound   = "com_weap_inf_equip_lg"
 JumpSound           = "com_weap_inf_bazooka_mvt_jump"
 LandSound           = "com_weap_inf_bazooka_mvt_land"

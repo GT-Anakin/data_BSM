@@ -131,6 +131,32 @@ SoundProperties()
     }
 }
 
+SoundProperties()
+{
+    Name("rep_weap_grenadelauncher_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_grenadelauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("rep_weap_grenadelauncher_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("rep_weap_grenadelauncher_reload", 1.0);
+    }
+}
+
 //CIS Weapons/////////////////////////////////////////////////////////////////////////
 
 
