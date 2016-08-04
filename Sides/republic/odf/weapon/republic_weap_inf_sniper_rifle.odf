@@ -14,9 +14,14 @@ FirePointName       = "hp_fire"
 //************************************************
 
 MuzzleFlash         = "small_muzzle_flash"
-MuzzleFlashModel = "com_sfx_muzzleflash"
-FlashColor          = "41 44 135 255"               
+FlashColor          = "41 44 135 255"     
+FlashLength         = 0.025               
+FlashColor          = "41 44 135 255"   
+FlashLength         = 0.025               
 FlashLightColor     = "41 44 135 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
+Discharge           = "small_smoke_effect"
 
 FireSound           = "rep_weap_dc15x_fire"
 ReloadSound         = "rep_weap_dc15x_reload"

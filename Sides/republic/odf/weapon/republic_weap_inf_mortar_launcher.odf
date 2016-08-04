@@ -10,6 +10,16 @@ HighResGeometry     = "rep_weap_inf_grenadelauncher"
 //******************** SOUND ************************
 //***************************************************
 
+MuzzleFlash         = "med_muzzle_flash"
+FlashColor          = "41 44 135 255"     
+FlashLength         = 0.025               
+FlashColor          = "41 44 135 255"   
+FlashLength         = 0.025               
+FlashLightColor     = "41 44 135 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
+Discharge           = "small_smoke_effect"  
+
 FireSound           = "rep_weap_grenadelauncher_fire"
 ReloadSound         = "rep_weap_grenadelauncher_reload"
 ChangeModeSound     = "com_weap_inf_equip_lg"

@@ -5,10 +5,10 @@ ClassParent         = "cis_inf_default"
 UnitType            	= "assault"
 GeometryName        = "cis_bf3_sbd"
 GeometryLowRes		= "cis_bf3_sbd_low"
-SkeletonName		= "bf3sbdroid"
+SkeletonName		= "sbdroid"
 SkeletonLowRes		= "bf3sbdroidlz"
-AnimationName		= "bf3sbdroid"
-FirstPerson         = "CIS\cis;cis_1st_sbd"
+AnimationName		= "sbdroid"
+FirstPerson         = "CIS\cis;cis_1st_sbdroid"
 MaxHealth           	= 1000.0
 
 AISizeType          = "Soldier"

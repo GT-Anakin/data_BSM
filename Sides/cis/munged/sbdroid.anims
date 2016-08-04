@@ -1,0 +1,35 @@
+ucft
+{
+	ANIM
+	{
+		"sbdroid_rifle_crouchalert_idle_emote"
+		"sbdroid_rifle_crouchalert_walkbackward"
+		"sbdroid_rifle_crouchalert_walkforward"
+		"sbdroid_rifle_crouch_idle_emote"
+		"sbdroid_rifle_crouch_reload"
+		"sbdroid_rifle_crouch_shoot"
+		"sbdroid_rifle_crouch_shoot_secondary_full"
+		"sbdroid_rifle_crouch_walkbackward"
+		"sbdroid_rifle_crouch_walkforward"
+		"sbdroid_rifle_diveforward"
+		"sbdroid_rifle_jump"
+		"sbdroid_rifle_jumpfall"
+		"sbdroid_rifle_landhard"
+		"sbdroid_rifle_landsoft"
+		"sbdroid_rifle_sprint_full"
+		"sbdroid_rifle_standalert_idle_emote"
+		"sbdroid_rifle_standalert_runbackward"
+		"sbdroid_rifle_standalert_runforward"
+		"sbdroid_rifle_standalert_walkforward"
+		"sbdroid_rifle_stand_idle_emote"
+		"sbdroid_rifle_stand_reload"
+		"sbdroid_rifle_stand_runbackward"
+		"sbdroid_rifle_stand_runforward"
+		"sbdroid_rifle_stand_shoot"
+		"sbdroid_rifle_stand_shoot_secondary2_upper"
+		"sbdroid_rifle_stand_shoot_secondary_full"
+		"sbdroid_rifle_stand_shoot_secondary_upper"
+		"sbdroid_rifle_stand_walkforward"
+		"sbdroid_stap_ride"
+	}
+}

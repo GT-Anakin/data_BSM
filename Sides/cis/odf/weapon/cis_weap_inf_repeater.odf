@@ -70,12 +70,14 @@ OrdnanceName        = "cis_weap_inf_repeater_ord"
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
 
-MuzzleFlash         = ""
-FlashColor          = "255 80 80 255"
-FlashLength         = 0.025
-FlashLightColor     = "255 220 220 175"
-FlashLightRadius    = "2.0"
-FlashLightDuration  = "0.25"
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "205 7 7 255"     
+FlashLength         = 0.025               
+FlashColor          = "205 7 7 255"   
+FlashLength         = 0.025               
+FlashLightColor     = "205 7 7 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
 Discharge           = "small_smoke_effect"
 
 RecoilLengthLight   = "0.3"

@@ -4,11 +4,13 @@ ucft
    {
       "zafbin"
       "humanfp"	
+	  "sbdroidfp"
    }
    REQN
    {
       "zaabin"
       "humanfp"
+	  "sbdroidfp"
    }	
    
 }

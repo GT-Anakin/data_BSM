@@ -12,7 +12,7 @@ FlashLightColor     	= "255 198 62 175"
 ChargeUpEffect          = "com_sfx_chargeup"
 
 RoundsPerClip       	= "5"
-ReloadTime          	= "2.25"
+ReloadTime          	= "3.0"
 HeatRecoverRate     	= "0.15"
 HeatThreshold       	= "0.3"
 HideOnFire          	= "0"

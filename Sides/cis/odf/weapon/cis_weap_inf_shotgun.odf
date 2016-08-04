@@ -11,13 +11,15 @@ SecondaryOrdnanceName 	= "cis_weap_inf_shotgun_tracer"
 //******************* SOUND ************************
 //**************************************************
 
+
 MuzzleFlash         = "small_muzzle_flash"
-MuzzleFlashModel = "com_sfx_muzzleflash"
-FlashColor          = "255 140 61 255"
-FlashLength         = 0.025
-FlashLightColor     = "255 140 61 175"
-FlashLightRadius    = "4.0"
-FlashLightDuration  = "0.25"
+FlashColor          = "255 140 61 255"     
+FlashLength         = 0.025               
+FlashColor          = "255 140 61 255"   
+FlashLength         = 0.025               
+FlashLightColor     = "255 140 61 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
 Discharge           = "small_smoke_effect"
 
 FireSound           = "cis_weap_shotgun_fire"
