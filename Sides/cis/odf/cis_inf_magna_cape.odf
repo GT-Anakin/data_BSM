@@ -1,0 +1,7 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+AttachedMesh    = "cis_bf3_magnaguard"
+
+
