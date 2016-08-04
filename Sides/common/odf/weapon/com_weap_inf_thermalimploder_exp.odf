@@ -16,7 +16,7 @@ ShakeLength         = "1.15"
 ShakeRadiusInner    = "12.0"
 ShakeRadiusOuter    = "15.0"
 
-Effect              = "com_sfx_landmine"
+Effect              = "com_sfx_thermalimploder"
 WaterEffect         = "com_sfx_watersplash_lg"
 Decal               = "decal_explosion"
 LightColor          = "255 220 100 255"
