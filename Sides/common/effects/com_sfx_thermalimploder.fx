@@ -988,7 +988,7 @@ ParticleEmitter("Explosion")
 							}
 							Color(0)
 							{
-								LifeTime(5.5000)
+								LifeTime(4.5000)
 								Move(0.0000,0.0000,0.0000,255.0000);
 								Next()
 								{

@@ -478,10 +478,10 @@ ParticleEmitter("Explosion")
 			}
 			Transformer()
 			{
-				LifeTime(5.0000);
+				LifeTime(3.0000);
 				Position()
 				{
-					LifeTime(5.0000)
+					LifeTime(3.0000)
 				}
 				Size(0)
 				{
@@ -490,7 +490,7 @@ ParticleEmitter("Explosion")
 				}
 				Color(0)
 				{
-					LifeTime(5.5000)
+					LifeTime(2.5000)
 					Move(0.0000,0.0000,0.0000,255.0000);
 					Next()
 					{
