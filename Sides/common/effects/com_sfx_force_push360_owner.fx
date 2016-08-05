@@ -24,7 +24,7 @@ ParticleEmitter("ShockwaveGround")
 		Offset()
 		{
 			PositionX(0.0000,0.0000);
-			PositionY(0.0000,0.0000);
+			PositionY(0.1000,0.1000);
 			PositionZ(0.0000,0.0000);
 		}
 		PositionScale(0.0000,0.0000);

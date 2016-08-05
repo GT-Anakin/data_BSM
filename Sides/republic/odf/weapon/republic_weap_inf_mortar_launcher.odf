@@ -20,6 +20,8 @@ FlashLightRadius    = "2.0"
 FlashLightDuration  = "0.25"              
 Discharge           = "small_smoke_effect"  
 
+RoundsPerClip       = "3"
+
 FireSound           = "rep_weap_grenadelauncher_fire"
 ReloadSound         = "rep_weap_grenadelauncher_reload"
 ChangeModeSound     = "com_weap_inf_equip_lg"

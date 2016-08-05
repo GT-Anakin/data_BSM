@@ -1,0 +1,23 @@
+[ExplosionClass]
+ClassParent = "com_weap_inf_mortar_launcher_exp"
+
+[Properties]
+Effect 		= "com_sfx_empgrenade_explosion_lg"
+
+LightColor 	= "0 43 204 255"
+LightRadius 	= "6.0"
+LightDuration 	= "4.5"
+
+DamageRadiusInner = "3.5"
+DamageRadiusOuter = "4.0"
+LifeSpan = "5.0"
+
+
+VehicleScale 		= "2.5"
+ShieldScale 		= "4.5"
+PersonScale 		= "1.0"
+DroidScale 	= "1.2"
+AnimalScale	= "5.5"
+BuildingScale 		= "1.25"
+
+SoundProperty	= "com_weap_thermaldetonator_exp"

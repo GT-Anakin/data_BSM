@@ -1,16 +1,17 @@
 [OrdnanceClass]
-ClassParent 		= "com_weap_inf_mortar_launcher_ord1"
+ClassParent         = "com_weap_inf_mortar_launcher_ord"
 
 [Properties]
-ImpactEffectWater 	= "com_sfx_watersplash_sm"
 
-GeometryName 		= "com_weap_inf_grenadethermal_ord"
-ExplosionExpire		= "rep_weap_inf_mortar_launcher_exp"
-ExplosionImpact		= "rep_weap_inf_mortar_launcher_exp"
-TrailEffect		= "com_sfx_weap_grenade_red"
+GeometryName        = "com_weap_inf_empgrenade"
+ExplosionExpire     = "rep_weap_inf_mortar_launcher1_exp"
+ExplosionImpact     = "rep_weap_inf_mortar_launcher1_exp"
+TrailEffect         = "com_sfx_empgrenade_trail"
 
-LightColor              = "253 43 43 150"
-LightRadius             = "4.0"
+LifeSpan		= "8.0"
+
+LightColor              = "0 43 204 120"
+LightRadius             = "3.0"
 
 
 
