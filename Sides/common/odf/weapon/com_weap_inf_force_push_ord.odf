@@ -4,7 +4,7 @@ ClassLabel 		        = "emitterordnance"
 
 [Properties]
 Explosion	                = "com_weap_inf_force_push_exp"
-
+PlayEffectOnOwner   = "com_sfx_force_push_owner"
 ConeLength			= "20"
 ConeAngle			= "120"
 FirstRadius			= "0.0"

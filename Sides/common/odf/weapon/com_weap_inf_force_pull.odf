@@ -7,7 +7,6 @@ GeometryName        = ""
 HighResGeometry     = ""
 
 OrdnanceName        = "com_weap_inf_force_pull_ord"
-
 TriggerSingle       = "1"
 ShotDelay           = "0.5"
 HeatPerShot         = "0.0"
