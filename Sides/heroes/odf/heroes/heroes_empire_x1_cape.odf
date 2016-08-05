@@ -1,0 +1,11 @@
+[GameObjectClass]       
+ClassLabel          = "cloth"
+
+[Properties]
+attachedmesh    = "heroes_empire_x1"
+
+CrossConstraint = "1"
+BendConstraint = "1"
+StretchConstraint = "1"
+
+ParticleMass = "3.0"

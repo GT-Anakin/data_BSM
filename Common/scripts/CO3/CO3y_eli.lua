@@ -98,13 +98,10 @@ function ScriptInit()
 		--The following TWO .lvl files *have to* be read FIRST in order to load additional, soldier weapons; or the game would crash while loading!!!
 		
     	ReadDataFile("dc:SIDE\\Republic.lvl",
-		"republic_inf_weapons",
-		"rep_cap_assultship_dome")
+		"republic_inf_weapons")
 		
 		ReadDataFile("dc:SIDE\\cis.lvl",
-		"cis_inf_weapons",
-		"cis_cap_fedcoreship_dome",
-		"cis_cap_fedcruiser_dome")
+		"cis_inf_weapons")
 
 		----------------------------------------------------------------
 		----------------------------------------------------------------
@@ -132,6 +129,7 @@ function ScriptInit()
 		"heroes_empire_botha",
 		"heroes_empire_ig88",
 		"heroes_empire_bossk",
+		"heroes_empire_x1",
 		"heroes_republic_yoda")
 	
 		ReadDataFile("dc:SIDE\\turrets.lvl",
@@ -174,6 +172,7 @@ function ScriptInit()
 	
 	AddUnitClass(IMP,"heroes_empire_ig88",1,4)
 	AddUnitClass(IMP,"heroes_empire_bossk",1,4)
+	AddUnitClass(IMP,"heroes_empire_x1",1,4)
 
 
     --  Level Stats

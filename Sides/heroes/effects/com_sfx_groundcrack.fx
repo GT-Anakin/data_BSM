@@ -54,11 +54,11 @@ ParticleEmitter("Cracks")
 		}
 		Color(0)
 		{
-			LifeTime(5.5000)
+			LifeTime(4.5000)
 			Move(0.0000,0.0000,0.0000,255.0000);
 			Next()
 			{
-				LifeTime(6.5000)
+				LifeTime(0.5000)
 				Move(0.0000,0.0000,0.0000,-255.0000);
 			}
 		}

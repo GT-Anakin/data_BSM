@@ -125,6 +125,7 @@ function ScriptInit()
 		"heroes_cis_asajj",
 		"heroes_cis_durge",
 		"heroes_republic_x2",
+		"heroes_republic_x1",
 		"heroes_republic_falon",
 		"heroes_republic_ferroda",
 		"heroes_republic_yoda",
@@ -158,8 +159,8 @@ function ScriptInit()
 
 	AddUnitClass(REP,"heroes_republic_falon",1,4)
 	AddUnitClass(REP,"heroes_republic_ferroda",1,4)
+	AddUnitClass(REP,"heroes_republic_x1",1,4)
 	AddUnitClass(REP,"heroes_republic_x2",1,4)
-
 
     SetupTeams{
         villain = {
