@@ -1,0 +1,45 @@
+[WeaponClass]
+ClassParent      = "com_weap_inf_mortar_launcher"
+GeometryName        = "cis_weap_chargelauncher.msh"
+
+[Properties]
+GeometryName        = "cis_weap_chargelauncher"
+HighResGeometry     = "cis_weap_chargelauncher"
+
+//***************************************************
+//******************** SOUND ************************
+//***************************************************
+
+MuzzleFlash         = "med_muzzle_flash"
+FlashColor          = "107 31 155 255"     
+FlashLength         = 0.025               
+FlashColor          = "107 31 155 255"   
+FlashLength         = 0.025               
+FlashLightColor     = "107 31 155 175"   
+FlashLightRadius    = "2.0"               
+FlashLightDuration  = "0.25"              
+Discharge           = "small_smoke_effect"  
+
+RoundsPerClip       = "4"
+
+FireSound           = "cis_weap_chargelauncher_fire"
+ReloadSound         = "cis_weap_chargelauncher_reload"
+ChangeModeSound     = "com_weap_inf_equip_lg"
+FireEmptySound      = "com_weap_pistol_empty"
+WeaponChangeSound   = "com_weap_inf_equip_lg"
+JumpSound           = "com_weap_inf_bazooka_mvt_jump"
+LandSound           = "com_weap_inf_bazooka_mvt_land"
+RollSound           = "com_weap_inf_bazooka_mvt_roll"
+//ProneSound          = "com_weap_inf_bazooka_mvt_lie"
+SquatSound          = "com_weap_inf_bazooka_mvt_squat"
+//StandSound          = "com_weap_inf_bazooka_mvt_getup"
+
+
+//***************************************************
+//************** VARIABLE ORDANANCE *****************
+//***************************************************
+
+OrdnanceName        = "cis_weap_inf_mortar_launcher_ord"
+
+NextCharge      = 0.9
+OrdnanceName        = "cis_weap_inf_mortar_launcher_ord1"

@@ -470,7 +470,7 @@ ParticleEmitter("Explosion")
 				Size(0, 0.0500, 0.0500);
 				Hue(0, 0.0000, 0.0000);
 				Saturation(0, 0.0000, 0.0000);
-				Value(0, 10.0000, 10.0000);
+				Value(0, 0.0000, 0.0000);
 				Alpha(0, 255.0000, 255.0000);
 				StartRotation(0, 0.0000, 0.0000);
 				RotationVelocity(0, 0.0000, 0.0000);
@@ -478,10 +478,10 @@ ParticleEmitter("Explosion")
 			}
 			Transformer()
 			{
-				LifeTime(3.0000);
+				LifeTime(2.0000);
 				Position()
 				{
-					LifeTime(3.0000)
+					LifeTime(2.0000)
 				}
 				Size(0)
 				{
@@ -490,7 +490,7 @@ ParticleEmitter("Explosion")
 				}
 				Color(0)
 				{
-					LifeTime(2.5000)
+					LifeTime(1.5000)
 					Move(0.0000,0.0000,0.0000,255.0000);
 					Next()
 					{

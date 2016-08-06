@@ -15,16 +15,16 @@ MinRange            = "0"
 OptimalRange        = "2.0"
 MaxRange            = "4"
 
-HitEffect			= "com_sfx_sabrehit"
+HitEffect			= ""
 AddHitEffect = "com_sfx_bif" // hooya
 AddHitEffect = "com_sfx_zap"
 AddHitEffect = "com_sfx_blammo"
 AddHitEffect = "com_sfx_pow"
 
-HitSound            = "imp_weap_lightsabre_hit"
+HitSound            = ""
 DeflectEffect		= "com_sfx_sabredeflect"
-DeflectSound        = "imp_weap_lightsabre_deflect"
-OnSound				= "com_inf_saber_ambient"
+DeflectSound        = ""
+OnSound				= "magna_electro"
 TurnOnSound			= ""
 TurnOffSound		= ""
 

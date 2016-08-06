@@ -49,3 +49,6 @@ AITargetVehicle     = "0"
 AITargetBuilding    = "1"
 
 FireSound           = "ion_cannon_fire"
+OverheatSound       = "ion_cannon_charge"
+OverheatSoundPitch  = "1.0"
+OverheatStopSound   = ""

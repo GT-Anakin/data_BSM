@@ -996,7 +996,7 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
 	
 	
-    	ReadDataFile("dc:Sound\\co3.lvl;co3cw")
+    	ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
         ReadDataFile("sound\\pol.lvl;pol1cw")
 
 		

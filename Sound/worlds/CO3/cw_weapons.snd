@@ -264,6 +264,32 @@ SoundProperties()
     }
 }
 
+SoundProperties()
+{
+    Name("cis_weap_chargelauncher_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_chargelauncher_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_chargelauncher_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("cis_weap_chargelauncher_reload", 1.0);
+    }
+}
+
 //CW-Turrets/////////////////////////////////////////////////////////////////////////
 
 SoundProperties()

@@ -89,7 +89,7 @@ State("IDLE")
 State("DEFLECT")
 {
     Posture("Stand");
-    Sound("imp_weap_lightsabre_block");
+    Sound("");
     Animation("stand_block_idle")
     {
         Loop();
@@ -284,7 +284,7 @@ State("BACK_ATTACK")
 	BlendOutTime(0.15);
     }
 
-    Sound("saber_swing");
+    Sound("magna_swing_single");
 
     InputLock("All", "!Thrust");
     AlignedToThrust();
@@ -336,7 +336,7 @@ State("ATTACK1")
         BlendTimeTo("stand_attack1a_end", 0.0);
         BlendTimeTo("stand_attack1b", 0.0);
     }
-    Sound("saber_swing");
+    Sound("magna_swing_single");
 
 //  AnimatedMove();
 
@@ -404,7 +404,7 @@ State("ATTACK2")
         BlendTimeTo("stand_attack1b_end", 0.0);
         BlendTimeTo("stand_attack1c", 0.0);
     }
-    Sound("saber_swing");
+    Sound("magna_swing_single");
 
 //  AnimatedMove();
 
@@ -538,7 +538,7 @@ State("ATTACK3_LAND")
         BlendInTime(0.06);
         BlendOutTime(0.15);
     }
-    Sound("saber_swing");
+    Sound("magna_swing_single");
 
     AlignedToThrust();
 
@@ -578,7 +578,7 @@ State("ATTACK3-B")
         BlendInTime(0.06);
         BlendOutTime(0.15);
     }
-    Sound("saber_triple", 6, "Frames");
+    Sound("magna_swing_triple", 6, "Frames");
 
     AlignedToThrust();
 
@@ -628,7 +628,7 @@ State("DASHATTACK")
         BlendInTime(0.10);
         BlendOutTime(0.25);
     }
-    Sound("saber_triple");
+    Sound("magna_swing_triple");
 
     EnergyRestoreRate(0);
 
@@ -687,7 +687,7 @@ State("JUMPATTACK_FALL")
         BlendOutTime(0.80);
 //      BlendTimeTo("jumpattack_land", 0.15);
     }
-    Sound("saber_double");
+    Sound("magna_swing_double");
 
     Gravity(2.0);
     GravityVelocityTarget(-20.0);   // accelerate us to 20m/s down at 2 g's
@@ -748,7 +748,7 @@ State("JUMPATTACK_END")
 //      BlendTimeTo("jumpattack_land", 0.15);
     }
 
-    Sound("saber_swing");
+    Sound("magna_swing_single");
 
     Gravity(2.0);
     GravityVelocityTarget(-20.0);   // accelerate us to 20m/s down at 2 g's

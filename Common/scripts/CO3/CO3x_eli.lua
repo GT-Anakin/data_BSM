@@ -92,7 +92,7 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::DamageSample",8000)  -- should be ~8-12x #Combo::Attack
     SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
 	
-    ReadDataFile("dc:Sound\\co3.lvl;co3cw")
+    ReadDataFile("dc:Sound\\co3.lvl;co3cwmap")
 	ReadDataFile("sound\\tat.lvl;tat2gcw")
 		
 		--The following TWO .lvl files *have to* be read FIRST in order to load additional, soldier weapons; or the game would crash while loading!!!

@@ -1,5 +1,6 @@
 effects\com_weap_pistol_empty.wav
 effects\ion_cannon_fire.wav
+effects\ion_cannon_charge.wav
 effects\rep_weap_dc17p_fire.wav
 effects\rep_weap_dc17p_reload.wav
 effects\rep_weap_dc15_fire.wav
@@ -20,5 +21,7 @@ effects\cis_weap_shotgun_fire.wav
 effects\cis_weap_shotgun_reload.wav
 effects\cis_weap_fusioncutter_repair.wav 
 effects\cis_weap_droideka_fire.wav
+effects\cis_weap_chargelauncher_fire.wav 
+effects\cis_weap_chargelauncher_reload.wav 
 effects\rep_weap_turret_space.wav 
 effects\cis_weap_turret_space.wav 

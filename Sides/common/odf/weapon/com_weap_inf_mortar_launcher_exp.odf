@@ -12,8 +12,8 @@ Push                = "10.0"
 PushRadiusInner     = "2.5"
 PushRadiusOuter     = "2.5"
 
-Shake 		  = "0.15"
-ShakeLength	  = "4.60"
+Shake 		  = "0.35"
+ShakeLength	  = "0.60"
 ShakeRadiusInner  = "2.5"
 ShakeRadiusOuter  = "6.0"
 

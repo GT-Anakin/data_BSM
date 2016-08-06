@@ -1,0 +1,28 @@
+[ExplosionClass]
+ClassParent = "com_weap_inf_mortar_launcher_exp"
+
+[Properties]
+Effect 		= "com_sfx_weap_grenade_radiation_lg"
+
+LightColor 	= "107 31 155 255"
+LightRadius 	= "3.0"
+LightDuration 	= "8.5"
+
+DamageRadiusInner = "2.0"
+DamageRadiusOuter = "3.0"
+LifeSpan = "10.0"
+
+Shake 		  = "0.0"
+ShakeLength	  = "0.0"
+ShakeRadiusInner  = "0.0"
+ShakeRadiusOuter  = "0.0"
+
+VehicleScale 		= "0.0"
+ShieldScale 		= "0.0"
+PersonScale 		= "1.0"
+DroidScale 	= "0.0"
+AnimalScale	= "5.0"
+BuildingScale 		= "0.65"
+
+SoundProperty	= "com_weap_thermaldetonator_exp"
+

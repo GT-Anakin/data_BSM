@@ -61,3 +61,20 @@ SoundProperties()
         Sample("ion_cannon_fire", 1.0);        
     }
 }
+
+SoundProperties()
+{
+    Name("ion_cannon_charge");
+    Group("unit_weapon");
+    Inherit("weapon_template");
+    Gain(1.0);
+    Rolloff(5.0);
+    Looping(1);
+    Pitch(1.0);
+    MinDistance(300.0);
+    MaxDistance(400.0);
+    SampleList()
+    {
+        Sample("ion_cannon_charge", 1.0);
+    }
+}

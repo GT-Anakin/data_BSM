@@ -2,6 +2,7 @@
 ..\..\global\effects\door1start.wav         door_open       -resample ps2 11025 xbox 22050 pc 22050
 ..\..\global\effects\door2start.wav         door_close      -resample ps2 11025 xbox 22050 pc 22050
 
+
 // Blue Stinger Missiles
 #ifplatform xbox pc
 ..\..\cw\effects\wpn_drdFghtr_missile_fire.wav      -resample xbox 22050 pc 44100

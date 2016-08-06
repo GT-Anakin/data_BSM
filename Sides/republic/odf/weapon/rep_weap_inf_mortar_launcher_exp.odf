@@ -5,13 +5,17 @@ ClassParent = "com_weap_inf_mortar_launcher_exp"
 Effect 		= "com_sfx_empgrenade_explosion"
 
 LightColor 	= "0 43 204 255"
-LightRadius 	= "4.0"
+LightRadius 	= "2.0"
 LightDuration 	= "3.5"
 
 DamageRadiusInner = "2.0"
 DamageRadiusOuter = "3.0"
 LifeSpan = "5.0"
 
+Shake 		  = "0.15"
+ShakeLength	  = "4.60"
+ShakeRadiusInner  = "2.5"
+ShakeRadiusOuter  = "6.0"
 
 VehicleScale 		= "2.0"
 ShieldScale 		= "3.5"

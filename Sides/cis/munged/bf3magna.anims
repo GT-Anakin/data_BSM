@@ -2,6 +2,7 @@ ucft
 {
 	ANIM
 	{
+		"bf3magna_rifle_sprint_full"
 		"bf3magna_sabre_jumpattack_end_full"
 		"bf3magna_sabre_jumpattack_fall_full"
 		"bf3magna_sabre_jumpattack_land_full"

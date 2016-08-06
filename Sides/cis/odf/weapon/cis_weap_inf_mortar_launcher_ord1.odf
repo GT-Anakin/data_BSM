@@ -1,0 +1,20 @@
+[OrdnanceClass]
+ClassParent         = "com_weap_inf_mortar_launcher_ord"
+
+[Properties]
+
+GeometryName        = "com_weap_inf_empgrenade"
+ExplosionExpire     = "cis_weap_inf_mortar_launcher1_exp"
+ExplosionImpact     = "cis_weap_inf_mortar_launcher1_exp"
+TrailEffect         = "com_sfx_weap_grenade_radiation_trail"
+
+Damage 			= "0.0"
+
+LifeSpan		= "8.0"
+
+LightColor              = "107 31 155 120"
+LightRadius             = "3.0"
+
+
+
+

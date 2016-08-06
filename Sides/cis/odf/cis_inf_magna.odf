@@ -5,16 +5,17 @@ ClassParent         = "cis_inf_default"
 GeometryName        = "cis_bf3_magnaguard"
 SkeletonName		= "bf3magna"
 AnimationName		= "bf3magna"
-//FirstPerson             = "CIS\cisoff;cis_1st_magnaguard" //No first person for this guy...eh droid 
+FirstPerson         = "CIS\cis;cis_1st_magna"
 AISizeType          = "Soldier"
 MaxHealth               = 850.0
 ClothODF                = "cis_inf_magna_cape"
 
-MaxSpeed                = 9.0       // base forward speed
-MaxStrafeSpeed          = 6.6       // base right/left speed
-MaxTurnSpeed            = 6.0       // base turn speed
-JumpHeight              = 3.5	    // base jump height in meters
-RecoverFromTumble       = "0"
+MaxSpeed                = 8.2       // base forward speed
+MaxStrafeSpeed          = 5.8       // base right/left speed
+MaxTurnSpeed            = 5.0       // base turn speed
+JumpHeight              = 3.0	    // base jump height in meters
+RecoverFromTumble       = "1"
+UseDirectionalJumps     = "0"
 
 // Speed multipliers for various actions
 JumpForwardSpeedFactor  = 1.3       // boost forward part of velocity by this factor when jumping
@@ -22,26 +23,30 @@ JumpStrafeSpeedFactor   = 1.0       // boost side/backward part of velocity by t
 RollSpeedFactor         = 1.5       // in forward arc, boost speed by this factor when rolling
 
 // Apparently contant for all or most classes:
-Acceleration            = 70.0      // accelerate to full run in about 7/70 = 0.1 seconds
-SprintAccelerateTime    = 0.35      // accelerate from run to sprint in this time
+Acceleration            = 50.0      // accelerate to full run in about 7/70 = 0.1 seconds
+SprintAccelerateTime    = 0.45      // accelerate from run to sprint in this time
 
 ControlSpeed            = "stand  1.00 1.00 1.00"
 ControlSpeed            = "crouch 0.70 0.60 1.00"
 ControlSpeed            = "prone  0.30 0.20 0.50"
-ControlSpeed            = "sprint 2.50 0.50 0.50"
+ControlSpeed            = "sprint 2.00 0.50 0.50"
 ControlSpeed            = "jet    1.50 1.25 1.25"
 ControlSpeed            = "jump   0.10 0.10 0.60"
 ControlSpeed            = "roll   0.02 0.02 0.35"
 ControlSpeed            = "tumble 0.00 0.00 0.10"
 
 WEAPONSECTION = 1
-WeaponName1         = "cis_weap_electrostaff"
-WeaponAmmo1         = 0
+WeaponName1         = "cis_weap_inf_mortar_launcher"
+WeaponAmmo1         = 3
 
 WEAPONSECTION = 2
 WeaponName2         = "cis_weap_inf_debuff_poison"
 WeaponAmmo2         = 3
 WeaponChannel2         = 1
+
+WEAPONSECTION = 3
+WeaponName3         = "cis_weap_electrostaff"
+WeaponAmmo3         = 0
 
 
 ChunkFrequency              = 0.6
