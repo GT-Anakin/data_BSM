@@ -1,0 +1,31 @@
+[GameObjectClass]
+ClassLabel              = "mine"
+
+[Properties]
+TrailEffect             = ""
+LightColor              = "250 50 50 150"
+LightRadius             = "3.0"
+
+
+LifeSpan                = "60.0"
+NoLifeSpanDisplay       = "1"
+
+Velocity                = "0.0"
+Gravity                 = "1.0"
+Rebound                 = "0.0
+Friction                = "1.0
+
+MaxHealth               = "20"
+
+StickPerson         = 1
+StickAnimal         = 1
+StickDroid          = 1
+StickVehicle        = 1
+StickBuilding       = 1
+StickBuildingDead   = 1
+StickBuildingUnbuilt= 1
+StickTerrain        = 1
+
+CollisionSound = "com_sticky_stick"
+
+

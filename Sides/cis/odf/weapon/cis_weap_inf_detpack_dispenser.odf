@@ -1,0 +1,31 @@
+[WeaponClass]
+ClassParent          = "com_weap_inf_detpack_dispenser"
+
+[Properties]
+OrdnanceName            = "rep_weap_inf_detpack_dispenser_ord"
+
+//************************************************
+//******************* SOUND **********************
+//************************************************
+
+FireSound           = "com_weap_remote_charge_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_equip_med"
+ChargeSound         = ""
+ChargeSoundPitch    = ""
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+OverheatSound       = ""
+OverheatSoundPitch  = ""
+OverheatStopSound   = ""
+JumpSound               = "com_weap_inf_rifle_mvt_jump"
+LandSound               = "com_weap_inf_rifle_mvt_land"
+RollSound               = "com_weap_inf_rifle_mvt_roll"
+//ProneSound              = "com_weap_inf_rifle_mvt_squat"
+SquatSound              = "com_weap_inf_rifle_mvt_squat"
+//StandSound              = "com_weap_inf_rifle_mvt_getup"
+
+
+
+

@@ -5,6 +5,7 @@
 
 @rem Munge global, shell and side specific sound data@rem Munge world specific sound data
 @call soundmungedir _BUILD\sound\worlds\co3\%MUNGE_DIR% sound\worlds\co3 sound\worlds\co3\%MUNGE_PLATFORM% %MUNGE_PLATFORM% _BUILD _LVL_%MUNGE_PLATFORM%\sound _BUILD\sound co3
+@call soundmungedir _BUILD\sound\worlds\xxx\%MUNGE_DIR% sound\worlds\xxx sound\worlds\xxx\%MUNGE_PLATFORM% %MUNGE_PLATFORM% _BUILD _LVL_%MUNGE_PLATFORM%\sound _BUILD\sound xxx
 
 @rem EDIT THE TWO LINES BELOW TO POINT TO YOUR MOD BY REPLACING SND WITH YOUR WORLD ABBREVIATION
 

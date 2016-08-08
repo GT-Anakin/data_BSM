@@ -1,0 +1,12 @@
+[GameObjectClass]
+ClassParent          	= "com_weap_inf_detpack_ord"
+
+[Properties]
+GeometryName        	= "com_weap_inf_bf3detpack"
+
+ExplosionTrigger        = "rep_weap_inf_detpack_exp"
+ExplosionExpire         = "rep_weap_inf_detpack_destroyed_exp"
+ExplosionDeath          = "rep_weap_inf_detpack_destroyed_exp"
+
+
+

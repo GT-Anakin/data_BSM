@@ -23,6 +23,11 @@ WeaponName         = "com_weap_inf_powerup_dispenser"
 WeaponAmmo         = 5
 WeaponChannel      = 1
 
+WEAPONSECTION = 4
+WeaponName         = "rep_weap_inf_detpack"
+WeaponAmmo         = 3
+WeaponChannel      = 1
+
 
 VOUnitType        	= 121
 

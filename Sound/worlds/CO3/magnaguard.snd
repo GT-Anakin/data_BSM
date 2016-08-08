@@ -1,0 +1,60 @@
+SoundProperties()
+{
+    Name("magna_electro");
+    Group("weapons");
+    Inherit("weapon_template");
+    #ifplatform pc
+    Gain(0.8);
+    #endifplatform pc
+    #ifplatform xbox
+    Gain(0.6);
+    #endifplatform xbox
+    #ifplatform ps2
+    Gain(0.6);
+    #endifplatform ps2
+    Looping(1);
+    Pitch(1.0);
+    PitchDev(0.0);
+    Rolloff(2)
+    MinDistance(15)
+    MaxDistance(60)
+    MuteDistance(60)
+    SampleList()
+    {
+        Sample("magna_electro", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("magna_swing_single");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("magna_swing_single", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("magna_swing_double");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("magna_swing_double", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("magna_swing_triple");
+    Group("weapons");
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("magna_swing_triple", 1.0);
+    }
+}
+

@@ -997,7 +997,7 @@ function ScriptInit()
 	
 	
     	ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
-        ReadDataFile("sound\\pol.lvl;pol1cw")
+        ReadDataFile("sound\\xxx.lvl;xxxcw")
 
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",

@@ -32,6 +32,30 @@ DomeInfo()
 	{	
 		Geometry("CO3_SkyDome_Nebula2");
 	}
+	DomeModel()
+  	{	
+  		Geometry("spa2_sky_explosions");
+		rotationspeed(0.001, 0,1.0,0);
+	 	Effect("spa_sfx_skydomeexplosions", "hp_1", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_2", 3.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_4", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_5", 2.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_7", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_8", 2.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_11", 3.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_12", 1.0);
+		Effect("spa_sfx_skydomeexplosions", "hp_15", 2.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_1", 1.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_2", 3.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_4", 1.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_5", 2.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_7", 1.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_8", 2.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_11", 3.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_12", 1.0);
+		Effect("spa_sfx_skydomeexplosions2", "hp_15", 2.0);
+	
+	}
 	Stars()
 	{
 		RandomSeed(1);

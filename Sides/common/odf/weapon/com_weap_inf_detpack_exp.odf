@@ -1,0 +1,32 @@
+[ExplosionClass]
+ClassLabel          = "explosion"
+
+[Properties]
+Damage              = "3000.0"
+DamageRadiusInner   = "0.5"
+DamageRadiusOuter   = "3.5"
+
+Push                = "12.0"
+PushRadiusInner     = "2.0"
+PushRadiusOuter     = "3.5"
+
+Shake               = "2.0"
+ShakeLength         = "1.25"
+ShakeRadiusInner    = "5.0"
+ShakeRadiusOuter    = "10.0"
+
+WaterEffect         = "com_sfx_watersplash_lg"
+Effect              = "com_sfx_weap_detpack_exp"
+Decal               = "decal_explosion"
+
+LightColor      = "46 252 5 150"
+LightRadius         = "8.0"
+LightDuration       = "1.0"
+
+PersonScale         = "0.4"
+DroidScale          = "0.4"
+BuildingScale       = "0.75"
+AnimalScale         = "0.4"
+VehicleScale        = "1.0"
+
+SoundProperty       = "com_weap_detpack_exp"

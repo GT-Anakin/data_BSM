@@ -1,0 +1,11 @@
+[GameObjectClass]
+ClassParent          	= "com_weap_inf_detpack_dispenser_ord"
+
+[Properties]
+GeometryName        	= "com_weap_inf_detpack"
+
+ExplosionTrigger        = "rep_weap_inf_detpack_dispenser_exp"
+ExplosionExpire         = "rep_weap_inf_detpack_dispenser_exp"
+ExplosionDeath          = "rep_weap_inf_detpack_dispenser_exp"
+
+

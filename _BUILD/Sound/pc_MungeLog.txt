@@ -122,6 +122,450 @@ soundflmunge.exe : Warning : Files line 2 and 154 reference the same source file
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
 soundflmunge.exe : Warning : Files line 2 and 156 reference the same source file c:\windows\media\chord.wav.  door_open will alias soft_shift_down
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 5 and 6 reference the same source file c:\windows\media\chord.wav.  saberon will alias saberoff
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 7 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_triple
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 8 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_double
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 9 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_deflect01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 10 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_deflect02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 11 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_deflect03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 13 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_idle02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 14 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 15 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 16 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 17 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 18 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 19 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswing06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 20 reference the same source file c:\windows\media\chord.wav.  saberon will alias ltsaberswingdbl01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 22 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_throw
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 23 reference the same source file c:\windows\media\chord.wav.  saberon will alias saber_twirl
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 27 reference the same source file c:\windows\media\chord.wav.  saberon will alias force_push_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 28 reference the same source file c:\windows\media\chord.wav.  saberon will alias force_push_impact
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 30 reference the same source file c:\windows\media\chord.wav.  saberon will alias force_pull_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 37 reference the same source file c:\windows\media\chord.wav.  saberon will alias ifc_NoAmmo
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 42 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_gunship_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 49 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_grenade02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 50 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_grenade03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 51 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_grenade01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 52 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 53 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 54 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_small03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 66 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_cpistol_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 73 reference the same source file c:\windows\media\chord.wav.  saberon will alias rep_inf_jetpack
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 74 reference the same source file c:\windows\media\chord.wav.  saberon will alias rep_weap_jetpack_turnon
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 75 reference the same source file c:\windows\media\chord.wav.  saberon will alias rep_weap_jetpack_turnoff
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 77 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_fusionCutter_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 79 reference the same source file c:\windows\media\chord.wav.  saberon will alias disintegrate
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 82 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_energyRecharge
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 85 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_mortar_launcher_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 87 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_energyDepleted
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 89 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_powerDispense_pickUp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 97 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_reconDroid_Launch
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 99 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_beeps_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 100 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_beeps_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 101 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_beeps_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 102 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_beeps_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 103 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_beeps_05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 104 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_probe_eng_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 115 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_weap_shotgun_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 117 reference the same source file c:\windows\media\chord.wav.  saberon will alias wep_All_sniper_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 120 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_snowSpder_towCable_att
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 128 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_dirt_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 129 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_dirt_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 130 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_dirt_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 131 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_stone_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 132 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_stone_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 133 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_stone_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 134 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_grenade_wood_03b
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 137 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_throw01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 138 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_throw02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 139 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_throw03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 140 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_throw04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 141 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_throw05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 144 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_timebomb_set
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 151 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_equip_large
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 152 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_equip_small
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 153 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_equip_medium
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 154 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_reload_medium
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 155 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_reload_large
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 167 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_sniperRifle_zoomIn01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 168 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_sniperRifle_zoomIn02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 169 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_sniperRifle_zoomOut
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 182 reference the same source file c:\windows\media\chord.wav.  saberon will alias CICOM401
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 183 reference the same source file c:\windows\media\chord.wav.  saberon will alias CICOM408
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 184 reference the same source file c:\windows\media\chord.wav.  saberon will alias CICOM409
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 187 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 188 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 189 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 190 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 191 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 192 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droid_hit_06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 199 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_weap_triburst_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 201 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_wristRocket_reload
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 226 reference the same source file c:\windows\media\chord.wav.  saberon will alias bulldog_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 228 reference the same source file c:\windows\media\chord.wav.  saberon will alias buff_poison_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 229 reference the same source file c:\windows\media\chord.wav.  saberon will alias buff_poison_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 232 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_rep_grenadelaunch_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 233 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_weap_inf_gas_exp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 245 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_all_bowcaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 246 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_bowcaster_chargeup
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 258 reference the same source file c:\windows\media\chord.wav.  saberon will alias fs_droideka_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 259 reference the same source file c:\windows\media\chord.wav.  saberon will alias fs_droideka_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 260 reference the same source file c:\windows\media\chord.wav.  saberon will alias fs_droideka_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 261 reference the same source file c:\windows\media\chord.wav.  saberon will alias fs_droideka_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 262 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_snowSpder_towCable_rls
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 264 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_droideka_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 265 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droideka_fold
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 266 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droideka_unfold
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 267 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droideka_roll_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 268 reference the same source file c:\windows\media\chord.wav.  saberon will alias drd_droideka_shield_on
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 284 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM401
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 285 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM402
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 286 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM403
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 287 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM404
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 288 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM405
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 289 reference the same source file c:\windows\media\chord.wav.  saberon will alias RICOM406
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 291 reference the same source file c:\windows\media\chord.wav.  saberon will alias malechoke
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 297 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_rep_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 298 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_rep_pistol_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 325 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_chaingun_spin
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 326 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_chaingun_fire01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 328 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_buff_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 330 reference the same source file c:\windows\media\chord.wav.  saberon will alias buff_rally_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 334 reference the same source file c:\windows\media\chord.wav.  saberon will alias buff_rage_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 335 reference the same source file c:\windows\media\chord.wav.  saberon will alias buff_rage_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 349 reference the same source file c:\windows\media\chord.wav.  saberon will alias emt_torch_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 355 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_vehicle_weaponEquip
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 357 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_weap_turret_fire_small
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 358 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_intrcptTnk_trtYaw_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 359 reference the same source file c:\windows\media\chord.wav.  saberon will alias wpn_intrcptTnk_trtPtch_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 374 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_blaster_lp01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 375 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_blaster_lp04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 384 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_blaster_lp02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 385 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_blaster_lp03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 394 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_rocket_lp02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 395 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_rocket_lp03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 396 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_rocket_lp05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 397 reference the same source file c:\windows\media\chord.wav.  saberon will alias ammo_rocket_lp06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 411 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_dirt_07
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 412 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_dirt_09
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 413 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_stone_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 414 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_stone_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 415 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_stone_05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 416 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 417 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 418 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 419 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 420 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_07
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 421 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_08
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 422 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_09
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 423 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_16
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 424 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_18
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 425 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_metal_21
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 426 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 427 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 428 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 429 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 430 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_08
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 431 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_ricco_12
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 460 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_thermalDetonator01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 461 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_thermalDetonator02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 471 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_large01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 472 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_large02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 473 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_large03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 474 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_med01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 475 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_med02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 476 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_ord_rocket_med03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 493 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_water_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 494 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_water_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 495 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_water_small03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 496 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_water_1
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 497 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_water_2
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 498 reference the same source file c:\windows\media\chord.wav.  saberon will alias imp_laser_water_3
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 511 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_med05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 512 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_med04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 513 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_med03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 514 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_med02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 515 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_med01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 516 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_distant_medium01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 517 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_distant_medium02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 518 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_verydistant_medium01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 519 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_verydistant_medium02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 534 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 535 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 536 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_small03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 537 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_small04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 538 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_obj_small05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 539 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_distant_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 540 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_distant_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 541 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_verydistant_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 542 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_verydistant_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 561 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 562 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 563 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 573 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 581 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 582 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 583 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub07
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 584 reference the same source file c:\windows\media\chord.wav.  saberon will alias exp_sub08
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 595 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost_capture
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 596 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost_charge
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 597 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost_discharge
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 598 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost_dispute
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 599 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost_lost
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 600 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost1
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 601 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost2
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 602 reference the same source file c:\windows\media\chord.wav.  saberon will alias com_blg_commandpost3
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 608 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_gonk_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 609 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_gonk_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 610 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_gonk_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 611 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_gonk_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 622 reference the same source file c:\windows\media\chord.wav.  saberon will alias crt_medicalDroid04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 624 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_chatter_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 625 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_chatter_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 626 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_chatter_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 627 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_chatter_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 628 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_recharge_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 629 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_recharge_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 630 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_recharge_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 631 reference the same source file c:\windows\media\chord.wav.  saberon will alias droid_fx7_recharge_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 648 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_jump_rifle
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 649 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_land_rifle
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 650 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_squat_rifle
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 651 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_roll_rifle
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 652 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_jump_pistol
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 653 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_land_pistol
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 654 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_squat_pistol
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 655 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_roll_pistol
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 656 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_jump_bazooka
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 657 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_land_bazooka
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 658 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_squat_bazooka
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 659 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_roll_bazooka
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 670 reference the same source file c:\windows\media\chord.wav.  saberon will alias mvt_trooper_squat
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 678 reference the same source file c:\windows\media\chord.wav.  saberon will alias lightning_small
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 679 reference the same source file c:\windows\media\chord.wav.  saberon will alias lightning_med
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
+soundflmunge.exe : Warning : Files line 5 and 680 reference the same source file c:\windows\media\chord.wav.  saberon will alias lightning_large
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\xxx\xxxcw.sfx
 soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
 soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
 soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
