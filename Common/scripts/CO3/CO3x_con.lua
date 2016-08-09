@@ -336,6 +336,23 @@ SetProperty("cis_fri_auto_tur_4", "MaxHealth", "0")
 SetProperty("cis_fri_auto_tur_5", "CurHealth", "0")
 SetProperty("cis_fri_auto_tur_5", "MaxHealth", "0")
 
+
+SetProperty("cis_frigate_container1", "CurHealth", "0")
+SetProperty("cis_frigate_container1", "MaxHealth", "0")
+SetProperty("cis_frigate_container2", "CurHealth", "0")
+SetProperty("cis_frigate_container2", "MaxHealth", "0")
+SetProperty("cis_frigate_container3", "CurHealth", "0")
+SetProperty("cis_frigate_container3", "MaxHealth", "0")
+SetProperty("cis_frigate_container4", "CurHealth", "0")
+SetProperty("cis_frigate_container4", "MaxHealth", "0")
+SetProperty("cis_frigate_container5", "CurHealth", "0")
+SetProperty("cis_frigate_container5", "MaxHealth", "0")
+
+SetProperty("cis_frigate_bridge1", "CurHealth", "0")
+SetProperty("cis_frigate_bridge1", "MaxHealth", "0")
+SetProperty("cis_frigate_bridge2", "CurHealth", "0")
+SetProperty("cis_frigate_bridge2", "MaxHealth", "0")
+
 KillObject("cp_cis_frigate")
 KillObject("CIS_Frigate_ext_Shields")
 
@@ -370,6 +387,39 @@ SetProperty("rep_fri_auto_4", "CurHealth", "0")
 SetProperty("rep_fri_auto_4", "MaxHealth", "0")
 SetProperty("rep_fri_auto_5", "CurHealth", "0")
 SetProperty("rep_fri_auto_5", "MaxHealth", "0")
+
+
+SetProperty("rep_frigate_container1", "CurHealth", "0")
+SetProperty("rep_frigate_container1", "MaxHealth", "0")
+SetProperty("rep_frigate_container2", "CurHealth", "0")
+SetProperty("rep_frigate_container2", "MaxHealth", "0")
+SetProperty("rep_frigate_container3", "CurHealth", "0")
+SetProperty("rep_frigate_container3", "MaxHealth", "0")
+SetProperty("rep_frigate_container4", "CurHealth", "0")
+SetProperty("rep_frigate_container4", "MaxHealth", "0")
+SetProperty("rep_frigate_container5", "CurHealth", "0")
+SetProperty("rep_frigate_container5", "MaxHealth", "0")
+SetProperty("rep_frigate_container6", "CurHealth", "0")
+SetProperty("rep_frigate_container6", "MaxHealth", "0")
+SetProperty("rep_frigate_container7", "CurHealth", "0")
+SetProperty("rep_frigate_container7", "MaxHealth", "0")
+SetProperty("rep_frigate_container8", "CurHealth", "0")
+SetProperty("rep_frigate_container8", "MaxHealth", "0")
+SetProperty("rep_frigate_container9", "CurHealth", "0")
+SetProperty("rep_frigate_container9", "MaxHealth", "0")
+SetProperty("rep_frigate_container10", "CurHealth", "0")
+SetProperty("rep_frigate_container10", "MaxHealth", "0")
+SetProperty("rep_frigate_container11", "CurHealth", "0")
+SetProperty("rep_frigate_container11", "MaxHealth", "0")
+
+SetProperty("rep_frigate_bridge1", "CurHealth", "0")
+SetProperty("rep_frigate_bridge1", "MaxHealth", "0")
+SetProperty("rep_frigate_bridge2", "CurHealth", "0")
+SetProperty("rep_frigate_bridge2", "MaxHealth", "0")
+SetProperty("rep_frigate_bridge3", "CurHealth", "0")
+SetProperty("rep_frigate_bridge3", "MaxHealth", "0")
+SetProperty("rep_frigate_bridge4", "CurHealth", "0")
+SetProperty("rep_frigate_bridge4", "MaxHealth", "0")
 
 KillObject("cp_rep_frigate")
 KillObject("REP_Frigate_ext_Shields")
@@ -506,7 +556,12 @@ AddReinforcements(DEF, -100)
 	Rep_Frigate_3_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_frigate_ext3"}, {"rep_Frigate_ext_Hallways_closed3", "rep_fri_tur_c_1", "rep_fri_tur_c_2", "rep_fri_tur_c_3", "rep_fri_tur_c_4", "rep_fri_tur_c_5"}} }
     Rep_Frigate_3_REPUBLIC:Init() 
 	
+	
+	Rep_Frigate_ARRIVE_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_frigate_arrive"}, {"rep_frigate_arrive_closed"}} }
+    Rep_Frigate_ARRIVE_REPUBLIC:Init() 
+	
 --FRIGATES CIS 
+
 	Cis_Frigate_1_CIS = LinkedDestroyables:New{ objectSets = {{"cis_frigate_ext1"}, {"cis_Frigate_ext_Hallways_closed1", "cis_fri_tur_a_1", "cis_fri_tur_a_2", "cis_fri_tur_a_3", "cis_fri_tur_a_4", "cis_fri_tur_a_5"}} }
     Cis_Frigate_1_CIS:Init() 
 	
@@ -515,8 +570,11 @@ AddReinforcements(DEF, -100)
 	
 	Cis_Frigate_3_CIS = LinkedDestroyables:New{ objectSets = {{"cis_frigate_ext3"}, {"cis_Frigate_ext_Hallways_closed3", "cis_fri_tur_c_1", "cis_fri_tur_c_2", "cis_fri_tur_c_3", "cis_fri_tur_c_4", "cis_fri_tur_c_5"}} }
     Cis_Frigate_3_CIS:Init() 
-
 	
+	
+	Cis_Frigate_ARRIVE_REPUBLIC = LinkedDestroyables:New{ objectSets = {{"cis_frigate_arrive"}, {"cis_frigate_arrive_closed"}} }
+    Cis_Frigate_ARRIVE_REPUBLIC:Init() 
+
 --REPUBLIC
     --REP Door 
     Rep_Reactor_Room_DoorREPUBLIC = LinkedDestroyables:New{ objectSets = {{"rep_shield_console_1", "rep_shield_console_2"}, {"rep_door_exp_cube"}} }
@@ -694,6 +752,14 @@ SetProperty("rep_turret_2", "IsVisible", "0")
 SetProperty("rep_turret_3", "IsVisible", "0")
 SetProperty("rep_turret_4", "IsVisible", "0")
 SetProperty("rep_turret_5", "IsVisible", "0")
+
+
+SetProperty("rep_capital_container1", "CurHealth", "0")
+SetProperty("rep_capital_container1", "MaxHealth", "0")
+SetProperty("rep_capital_container2", "CurHealth", "0")
+SetProperty("rep_capital_container2", "MaxHealth", "0")
+SetProperty("rep_capital_container3", "CurHealth", "0")
+SetProperty("rep_capital_container3", "MaxHealth", "0")
 
 SetProperty("Comm_Table_REP_Holo", "IsVisible", 0)
 
@@ -888,6 +954,83 @@ SetProperty("cis_turret_2", "IsVisible", "0")
 SetProperty("cis_turret_3", "IsVisible", "0")
 SetProperty("cis_turret_4", "IsVisible", "0")
 SetProperty("cis_turret_5", "IsVisible", "0")
+
+
+SetProperty("cis_capital_container1", "CurHealth", "0")
+SetProperty("cis_capital_container1", "MaxHealth", "0")
+SetProperty("cis_capital_container2", "CurHealth", "0")
+SetProperty("cis_capital_container2", "MaxHealth", "0")
+SetProperty("cis_capital_container3", "CurHealth", "0")
+SetProperty("cis_capital_container3", "MaxHealth", "0")
+SetProperty("cis_capital_container4", "CurHealth", "0")
+SetProperty("cis_capital_container4", "MaxHealth", "0")
+SetProperty("cis_capital_container5", "CurHealth", "0")
+SetProperty("cis_capital_container5", "MaxHealth", "0")
+SetProperty("cis_capital_container6", "CurHealth", "0")
+SetProperty("cis_capital_container6", "MaxHealth", "0")
+SetProperty("cis_capital_container7", "CurHealth", "0")
+SetProperty("cis_capital_container7", "MaxHealth", "0")
+
+SetProperty("cis_frigate_bridge1", "CurHealth", "0")
+SetProperty("cis_frigate_bridge1", "MaxHealth", "0")
+SetProperty("cis_frigate_bridge2", "CurHealth", "0")
+SetProperty("cis_frigate_bridge2", "MaxHealth", "0")
+
+SetProperty("cis_capital_pillar1", "CurHealth", "0")
+SetProperty("cis_capital_pillar1", "MaxHealth", "0")
+SetProperty("cis_capital_pillar2", "CurHealth", "0")
+SetProperty("cis_capital_pillar2", "MaxHealth", "0")
+SetProperty("cis_capital_pillar3", "CurHealth", "0")
+SetProperty("cis_capital_pillar3", "MaxHealth", "0")
+SetProperty("cis_capital_pillar4", "CurHealth", "0")
+SetProperty("cis_capital_pillar4", "MaxHealth", "0")
+SetProperty("cis_capital_pillar5", "CurHealth", "0")
+SetProperty("cis_capital_pillar5", "MaxHealth", "0")
+SetProperty("cis_capital_pillar6", "CurHealth", "0")
+SetProperty("cis_capital_pillar6", "MaxHealth", "0")
+SetProperty("cis_capital_pillar7", "CurHealth", "0")
+SetProperty("cis_capital_pillar7", "MaxHealth", "0")
+SetProperty("cis_capital_pillar8", "CurHealth", "0")
+SetProperty("cis_capital_pillar8", "MaxHealth", "0")
+SetProperty("cis_capital_pillar9", "CurHealth", "0")
+SetProperty("cis_capital_pillar9", "MaxHealth", "0")
+SetProperty("cis_capital_pillar10", "CurHealth", "0")
+SetProperty("cis_capital_pillar10", "MaxHealth", "0")
+SetProperty("cis_capital_pillar11", "CurHealth", "0")
+SetProperty("cis_capital_pillar11", "MaxHealth", "0")
+SetProperty("cis_capital_pillar12", "CurHealth", "0")
+SetProperty("cis_capital_pillar12", "MaxHealth", "0")
+SetProperty("cis_capital_pillar13", "CurHealth", "0")
+SetProperty("cis_capital_pillar13", "MaxHealth", "0")
+SetProperty("cis_capital_pillar14", "CurHealth", "0")
+SetProperty("cis_capital_pillar14", "MaxHealth", "0")
+SetProperty("cis_capital_pillar15", "CurHealth", "0")
+SetProperty("cis_capital_pillar15", "MaxHealth", "0")
+SetProperty("cis_capital_pillar16", "CurHealth", "0")
+SetProperty("cis_capital_pillar16", "MaxHealth", "0")
+SetProperty("cis_capital_pillar17", "CurHealth", "0")
+SetProperty("cis_capital_pillar17", "MaxHealth", "0")
+SetProperty("cis_capital_pillar18", "CurHealth", "0")
+SetProperty("cis_capital_pillar18", "MaxHealth", "0")
+SetProperty("cis_capital_pillar19", "CurHealth", "0")
+SetProperty("cis_capital_pillar19", "MaxHealth", "0")
+SetProperty("cis_capital_pillar20", "CurHealth", "0")
+SetProperty("cis_capital_pillar20", "MaxHealth", "0")
+SetProperty("cis_capital_pillar21", "CurHealth", "0")
+SetProperty("cis_capital_pillar21", "MaxHealth", "0")
+SetProperty("cis_capital_pillar22", "CurHealth", "0")
+SetProperty("cis_capital_pillar22", "MaxHealth", "0")
+SetProperty("cis_capital_pillar23", "CurHealth", "0")
+SetProperty("cis_capital_pillar23", "MaxHealth", "0")
+SetProperty("cis_capital_pillar24", "CurHealth", "0")
+SetProperty("cis_capital_pillar24", "MaxHealth", "0")
+SetProperty("cis_capital_pillar25", "CurHealth", "0")
+SetProperty("cis_capital_pillar25", "MaxHealth", "0")
+SetProperty("cis_capital_pillar26", "CurHealth", "0")
+SetProperty("cis_capital_pillar26", "MaxHealth", "0")
+SetProperty("cis_capital_pillar27", "CurHealth", "0")
+SetProperty("cis_capital_pillar27", "MaxHealth", "0")
+
 
 SetProperty("Comm_Table_CIS_Holo", "IsVisible", 0)
 
