@@ -24,7 +24,7 @@ ZoomRate            	= "0.0"
 AnimationBank       	= "rifle"
 ForceFireAnimation  	= "0"
 
-ScopeTexture        	= "weapon_scope2"
+ScopeTexture        = "com_scope_rocketlauncher"
 
 MaxPressedTime      	= "0.75"
 TriggerSingle       	= "1"

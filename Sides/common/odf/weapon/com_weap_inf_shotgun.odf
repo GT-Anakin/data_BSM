@@ -69,6 +69,8 @@ TargetDroid         = "1"
 TargetVehicle       = "0"
 TargetBuilding      = "0"
 
+ScopeTexture        = "com_scope_default"
+
 FirePointName       = "hp_fire"
 
 MuzzleFlash         = "small_muzzle_flash"

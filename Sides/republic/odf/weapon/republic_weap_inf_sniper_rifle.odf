@@ -9,6 +9,9 @@ HighResGeometry		= "rep_weap_hq_inf_dc15x"
 OrdnanceName        = "rep_weap_inf_sniper_rifle_ord"
 FirePointName       = "hp_fire"
 
+
+ScopeTexture        = "com_scope_sniper_blue"
+
 //************************************************
 //*******************   SOUND    *****************
 //************************************************

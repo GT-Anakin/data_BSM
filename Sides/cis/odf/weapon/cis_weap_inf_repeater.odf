@@ -70,6 +70,8 @@ OrdnanceName        = "cis_weap_inf_repeater_ord"
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
 
+ScopeTexture        = "com_scope_sniper"
+
 MuzzleFlash         = "small_muzzle_flash"
 FlashColor          = "205 7 7 255"     
 FlashLength         = 0.025               

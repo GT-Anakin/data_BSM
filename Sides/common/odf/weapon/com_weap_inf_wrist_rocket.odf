@@ -59,6 +59,9 @@ OffhandWeapon           = 1
 //***********************************************
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
+
+ScopeTexture            = "com_scope_rocketlauncher"
+
 MuzzleFlash		= "small_muzzle_flash"
 Discharge		= "small_smoke_effect"
 

@@ -77,6 +77,8 @@ FirePointName       = "hp_fire"
 //***********  HUD & CONTROLLER VALUES  *********
 //***********************************************
 
+ScopeTexture            = "com_scope_rocketlauncher"
+
 MuzzleFlash         = "small_muzzle_flash"
 MuzzleFlashModel = "com_sfx_muzzleflash"
 FlashColor          = "205 7 7 255"
