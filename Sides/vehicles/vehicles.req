@@ -22,6 +22,10 @@ ucft
 		"republic_fly_170_fighter_cockpit"
 		"republic_fly_vwing_cockpit"
 		"republic_fly_gunship_cockpit"
+		"cis_fly_droidfighter_cockpit"
+		"cis_fly_trifighter_cockpit"
+		"cis_fly_gunship_cockpit"
 		"cis_hover_stap_cockpit"
+
 	}
 }

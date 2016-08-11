@@ -22,9 +22,9 @@ Powerupsound        = "health_recharge defer"
 AmbientSound        = "droid_fx7_idle_chatter defer"
 BuiltSound          = ""
 
-AutoBarrierEnable   = "1"
+AutoBarrierEnable   = "0"
 AutoBarrierRemoveOnDeath = "0"
-AutoBarrierSize     = "0.8 0.8"
+AutoBarrierSize     = "0.0 0.0"
 
 IdleRotateSpeed = "1.5"
 IdleWaitTime = "1.75"

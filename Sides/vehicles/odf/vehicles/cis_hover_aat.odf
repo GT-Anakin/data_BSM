@@ -25,7 +25,7 @@ CollisionScale = "4"
 CollisionThreshold = "5"
 
 MaxHealth = "8000"
-HitLocation		= "p_crithit 4.0"
+
 
 ForceMode				=	1
 
@@ -229,12 +229,19 @@ AimerNodeName = "Main_Gun"
 AimerPitchLimits = "-30.0 90.0"
 AimerYawLimits = "0.0 0.0"
 
+
+OrdnanceCollision = "p_turret"
+OrdnanceCollision       = "p_crithit"
+HitLocation		= "p_crithit 4.0"
+
+
 DamageStartPercent = "70"
 DamageStopPercent = "20"
 DamageEffect = "com_sfx_vehiclespark"
 DamageAttachPoint = "hp_damage_3"
 DamageStartPercent = "70"
 DamageStopPercent = "20"
+
 
 DamageEffect = "com_sfx_vehiclespark"
 SoldierCollision = "p_barrel"
@@ -251,8 +258,7 @@ DamageStartPercent = "50"
 DamageStopPercent = "0"
 
 DamageEffect = "com_sfx_vehiclesmoke"
-OrdnanceCollision = "p_turret"
-CHUNKSECTION = "CHUNK4"
+
 DamageAttachPoint = "hp_damage_2"
 DamageStartPercent = "30"
 DamageStopPercent = "0"

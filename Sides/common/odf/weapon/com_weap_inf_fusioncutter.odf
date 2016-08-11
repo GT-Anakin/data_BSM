@@ -24,7 +24,7 @@ TargetFriendly          = "1"
 
 TargetPerson            = "0"
 TargetAnimal            = "0"
-TargetDroid             = "0"
+TargetDroid             = "1"
 TargetVehicle           = "1"
 TargetBuilding          = "1"
 TargetMine              = "1"

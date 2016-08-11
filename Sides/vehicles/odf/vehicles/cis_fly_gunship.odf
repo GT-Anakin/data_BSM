@@ -29,7 +29,7 @@ PathFollowerMinBranchDist   = "250.0"
 PathFollowerBranchRange     = "1000"
 
 
-//FirstPerson             = "IMP\impimplc;imp_1st_cockpit_landingcraft"
+FirstPerson             = "VEHICLES\cis_fly_gunship_cockpit;cis_fly_gunship_cockpit"
 CollisionScale          = 1.5
 
 CockpitTension      = 18

@@ -26,7 +26,7 @@ VehiclePosition = "common.vehiclepositions.pilot"
 
 GeometryName = "cis_fly_droid_fighter"
 AnimationName = "cis_fly_droid_fighter"
-//FirstPerson = "cis\cisstrft;cis_1st_cockpit_starfighter"
+FirstPerson             = "VEHICLES\cis_fly_droidfighter_cockpit;cis_fly_droidfighter_cockpit"
 
 //ForceMode = "1"
 CollisionScale = "1.5"

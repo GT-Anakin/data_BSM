@@ -30,7 +30,7 @@ SquadronFormation = "eschleft-form"
 //-----------------------------------
 
 GeometryName            = "republic_fly_170_fighter"
-AnimationName           = "republic_fly_170"
+AnimationName           = "republic_fly170"
 FirstPerson             = "VEHICLES\republic_fly_170_fighter_cockpit;republic_fly_170_fighter_cockpit"
 //ForceMode       = "1"
 

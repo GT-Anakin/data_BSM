@@ -2554,5 +2554,35 @@ Group("Last Loaded")
 	Layer("SoundStreams");
 	Layer("SpaceGroundTransition");
 	Layer("tdm");
+	Layer("1flag");
+	Layer("Clouds");
+	Layer("conquest");
+	Layer("ctf");
+	Layer("CW_Ships");
+	Layer("CW_Ships_Turrets");
+	Layer("CW_Ships_Turrets_MP");
+	Layer("CW_Space");
+	Layer("Deathregions");
+	Layer("eli");
+	Layer("GCW_Ships");
+	Layer("rumble");
+	Layer("SoundStreams");
+	Layer("SpaceGroundTransition");
+	Layer("tdm");
+	Layer("1flag");
+	Layer("Clouds");
+	Layer("conquest");
+	Layer("ctf");
+	Layer("CW_Ships");
+	Layer("CW_Ships_Turrets");
+	Layer("CW_Ships_Turrets_MP");
+	Layer("CW_Space");
+	Layer("Deathregions");
+	Layer("eli");
+	Layer("GCW_Ships");
+	Layer("rumble");
+	Layer("SoundStreams");
+	Layer("SpaceGroundTransition");
+	Layer("tdm");
 }
 

@@ -21,9 +21,9 @@ SoldierAmmo = "1.0"//<ammo to add, default 0>
 //Powerupsound = "com_item_weaponrecharge"
 Powerupsound = "com_item_gonkrecharge defer"
 
-AutoBarrierEnable   = "1"
+AutoBarrierEnable   = "0"
 AutoBarrierRemoveOnDeath = "0"
-AutoBarrierSize     = "0.8 0.8"
+AutoBarrierSize     = "0.0 0.0"
 
 IdleRotateSpeed = "0.5"
 IdleWaitTime = "3.0"

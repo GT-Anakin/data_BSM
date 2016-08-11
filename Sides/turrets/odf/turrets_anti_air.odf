@@ -16,7 +16,7 @@ HealthTexture           = "HUD_kam_turret_icon"
 
 GeometryName            = "turrets_anti_air"
 DestroyedGeometryName   = "turrets_anti_air_dest"
-ExplosionDestruct       = "turrets_anti_air_exp"
+ExplosionName       = "turrets_anti_air_exp"
 MaxHealth           = "5200.0"
 
 

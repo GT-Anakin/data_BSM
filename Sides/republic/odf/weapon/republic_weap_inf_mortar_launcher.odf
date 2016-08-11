@@ -21,6 +21,7 @@ FlashLightDuration  = "0.25"
 Discharge           = "small_smoke_effect"  
 
 RoundsPerClip       = "3"
+MaxPressedTime          = "2.0" 
 
 FireSound           = "rep_weap_grenadelauncher_fire"
 ReloadSound         = "rep_weap_grenadelauncher_reload"

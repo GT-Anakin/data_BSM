@@ -21,6 +21,7 @@ FlashLightDuration  = "0.25"
 Discharge           = "small_smoke_effect"  
 
 RoundsPerClip       = "4"
+MaxPressedTime          = "2.0" 
 
 FireSound           = "cis_weap_chargelauncher_fire"
 ReloadSound         = "cis_weap_chargelauncher_reload"

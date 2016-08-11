@@ -19,7 +19,7 @@ MapSpeedMin		= 0
 MapSpeedMax		= 100
 
 GeometryName            = "cis_fly_tri_fighter"
-//FirstPerson               = "cis\cismafp;cis_1st_cockpit_MAF"
+FirstPerson             = "VEHICLES\cis_fly_trifighter_cockpit;cis_fly_trifighter_cockpit"
 
 ExplosionDestruct       = "cis_fly_tri_fighter_exp"
 CollisionScale          = "1.5"

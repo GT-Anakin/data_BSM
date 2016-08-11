@@ -26,9 +26,17 @@ ucft
         "com_item_powerup_defense"
         "com_item_powerup_energy"
     }
-	   REQN
+	REQN
     {
         "animbank"
         "human"
     }
+	REQN
+    {
+        "config"
+        "com_sfx_buffed_offense"
+        "com_sfx_buffed_defense"
+    }
+	
+
 }

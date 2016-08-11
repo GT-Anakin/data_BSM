@@ -1139,8 +1139,8 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
 	
 	
-    	ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
-        ReadDataFile("sound\\xxx.lvl;xxxcw")
+    	--ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
+        ReadDataFile("sound\\common.lvl;commoncw")
 
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
@@ -1326,7 +1326,7 @@ function ScriptInit()
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)
     
     OpenAudioStream("sound\\global.lvl",  "cw_music")
-    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+ --[[   OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
@@ -1334,7 +1334,7 @@ function ScriptInit()
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	
+]]	
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)
     SetBleedingVoiceOver(CIS, REP, "cis_off_com_report_enemy_losing",   1)
