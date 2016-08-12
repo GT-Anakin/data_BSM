@@ -10,28 +10,40 @@ GeometryLowRes      = "heroes_cis_jango_low"
 SkeletonName    = "bf3clones" 
 SkeletonLowRez    = "bf3cloneslz" 
 //SkeletonLowRes  = "HanSololz" //They share the same skeleton Lowrez basepose.msh
-//FirstPerson         = "IMP\impboba;imp_1st_bobafett"
+FirstPerson         = "Heroes\heroes;heroes_1st_jango"
 
-//AnimationName = "fett"
+AnimationName = "fett"
+
+AnimatedAddon	= "left_gun"
+GeometryAddon	= "heroes_weap_dl44"
+AddonAttachJoint	= "bone_l_hand"
 
 //JET JUMP
-JetJump             = "7.0" //7 //The initial jump-push given when enabling the jet
-JetPush             = "8.0" //The constant push given while the jet is enabled (20 is gravity)
-JetAcceleration     = "30.0" //Acceleration while hovering.
-JetEffect           = "imp_sfx_jetpack"
+JetJump             = "10.0" //7 //The initial jump-push given when enabling the jet
+JetPush             = "10.0" //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "18.0" //Acceleration while hovering.
+JetEffect           = "fett_sfx_jetpack"
 JetType             = "hover"
-JetFuelRechargeRate = "0.12" //Additional fuel per second (fuel is 0 to 1)
+JetFuelRechargeRate = "0.18" //Additional fuel per second (fuel is 0 to 1)
 JetFuelCost         = "0.15" //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
 JetFuelInitialCost  = "0.25" //initial cost when jet jumping(fuel is 0 to 1)
-JetFuelMinBorder    = "0.24" //minimum fuel to perform a jet jump(fuel is 0 to 1)
+JetFuelMinBorder    = "0.15" //minimum fuel to perform a jet jump(fuel is 0 to 1)
 
-CollisionScale      = "0.0 0.0 0.0"
+ControlSpeed        = "jet    1.55 1.3 1.3"
 //JET JUMP END
 
 WEAPONSECTION = 1
-//WeaponName1         = "heroes_weap_ee3"
-WeaponName1         = "heroes_weap_dl44"
-WeaponAmmo1         = 4
+WeaponName1         = "heroes_weap_westars"
+WeaponAmmo1         = 5
+
+WEAPONSECTION = 2
+WeaponName2         = "heroes_weap_flamethrower"
+WeaponAmmo2         = 4
+
+WEAPONSECTION = 3
+WeaponName3         = "heroes_weap_wrist_rocket"
+WeaponAmmo3         = 3
+WeaponChannel3         = 1
 
 
 

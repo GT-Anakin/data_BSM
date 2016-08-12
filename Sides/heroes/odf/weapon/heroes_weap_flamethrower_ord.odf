@@ -1,0 +1,6 @@
+[OrdnanceClass]
+ClassParent 		= "com_weap_inf_flamethrower_ord"
+
+[Properties]
+
+//Explosion         	=  "heroes_weap_flamethrower_exp"

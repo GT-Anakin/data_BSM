@@ -134,8 +134,7 @@ function ScriptInit()
 		"heroes_republic_obiwan",
 		"heroes_republic_aayla",
 		"heroes_republic_mace",
-		"heroes_republic_palpatine",
-		"heroes_empire_ig88")
+		"heroes_republic_palpatine")
 		
 	
 		ReadDataFile("dc:SIDE\\turrets.lvl",
@@ -178,7 +177,6 @@ function ScriptInit()
     }   
 	
 	AddUnitClass(CIS,"heroes_cis_zam",1,4)
-	AddUnitClass(CIS,"heroes_empire_ig88",1,4)
 	AddUnitClass(CIS,"heroes_republic_palpatine",1,4)
 
 	

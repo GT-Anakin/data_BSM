@@ -1,0 +1,77 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+GeometryName            = ""
+HighResGeometry         = ""
+
+AnimationBank           = "rifle"
+
+//MuzzleFlash         = "med_muzzle_flash"
+FlashColor          = "80 80 255 255"
+FlashLength         = 0.025
+FlashLightColor     = "220 220 255 175"
+Discharge           = "med_smoke_effect"
+
+//RoundsPerClip             = "32"
+RoundsPerClip       = "50"
+ReloadTime          = "1.5"
+HeatRecoverRate     = "0.2"
+HeatThreshold       = "0.0"
+
+TriggerSingle       = "1"
+ShotDelay           = "0.0"
+HeatPerShot         = "0.0"
+//MaxPressedTime    = "2.25"
+
+DisplayRefire       = "0"
+
+LockOnRange         = "8.0"
+LockTime            = "0.0"
+AutoAimSize         = "2.0"
+
+MinRange        = "0"
+OptimalRange    = "4"
+MaxRange        = "10"
+
+SalvoCount          = "50"
+ShotsPerSalvo       = "1"
+SalvoDelay          = "0.1"
+InitialSalvoDelay   = "0.1"
+SalvoTime           = "0.0"
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "1"
+TargetBuilding      = "1"
+
+ChargeRateLight             = "1.0"
+MaxChargeStrengthLight      = "1.0"
+ChargeDelayLight            = "0.0"
+ChargeRateHeavy             = "1.0"
+MaxChargeStrengthHeavy      = "0.5"
+ChargeDelayHeavy            = "2.2"
+
+RecoilLengthHeavy           = "0.25"
+RecoilStrengthHeavy         = "2"
+RecoilDecayHeavy            = "0.0"
+
+FireSound               = "flame_on"
+FireEmptySound          = ""
+ChargeSound             = ""
+ChargeSoundPitch        = "0.05"
+OverheatSound           = ""
+OverheatSoundPitch      = "0.5"
+OverheatStopSound       = ""
+JumpSound               = ""
+LandSound               = ""
+RollSound               = ""
+ProneSound              = ""
+SquatSound              = ""
+StandSound              = ""
+

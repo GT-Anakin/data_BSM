@@ -1,0 +1,5 @@
+[ExplosionClass]
+ClassParent 		= "com_weap_inf_flamethrower_exp"
+
+[Properties]
+

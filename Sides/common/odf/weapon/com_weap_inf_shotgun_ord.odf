@@ -16,10 +16,10 @@ Velocity            = "2000.0"
 Gravity             = "1.0"
 Rebound             = "0.0"
 
-MaxDamage               = "25.0"
+MaxDamage               = "35.0"
 DamageTransitionDelay   = "0.0"     //How long in seconds before the damage change begins.
 DamageTransitionPeriod  = "0.1"     //How long in seconds the damage change lasts.
-DamageFinalDamage       = "5.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+DamageFinalDamage       = "20.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
 FadeLightColor          = "1"       //Whether or not the color on the light should be faded along with the damage.
 EndLaserGlowColor       = "66 146 30 100" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
 EndLightColor           = "66 146 30 150" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.

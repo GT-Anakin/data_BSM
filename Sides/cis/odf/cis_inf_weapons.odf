@@ -16,15 +16,28 @@ WeaponName         = "cis_weap_inf_rifle"
 WeaponAmmo         = 0
 
 WEAPONSECTION = 2
+WeaponName         = "cis_weap_inf_pistol"
+WeaponAmmo         = 0
+
+WEAPONSECTION = 3
 WeaponName         = "cis_weap_inf_sniper_rifle"
 WeaponAmmo         = 0
 
-WEAPONSECTION = 2
+WEAPONSECTION = 4
 WeaponName         = "cis_weap_inf_shotgun"
 WeaponAmmo         = 0
 
-WEAPONSECTION = 4
-WeaponName         = "com_weap_inf_thermaldetonator"
+WEAPONSECTION = 5
+WeaponName1         = "cis_weap_inf_mortar_launcher"
+WeaponAmmo1         = 3
+
+WEAPONSECTION = 6
+WeaponName     	= "cis_weap_inf_mine_dispenser"
+WeaponAmmo     	= 0
+WeaponChannel  	= 1
+
+WEAPONSECTION = 7
+WeaponName         = "cis_weap_inf_autoturret_dispenser"
 WeaponAmmo         = 0
 WeaponChannel      = 1
 

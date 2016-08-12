@@ -11,7 +11,6 @@ GeometryName            = "heroes_republic_mace"
 GeometryLowRes          = "heroes_republic_mace_low"
 
 AnimationName            = "mace"
-SkeletonName          = "mace"
 SkeletonLowRes          = "bf3cloneslz"  
 
 

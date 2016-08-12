@@ -94,11 +94,11 @@ ParticleEmitter("JetExhaust")
 				PositionZ(0.0000,0.0000);
 			}
 			Offset()
-		{
-			PositionX(-0.3000,-0.3000);
-			PositionY(-0.3000,-0.3000);
-			PositionZ(0.2950,0.2950);
-		}
+			{
+				PositionX(-0.3000,-0.3000);
+				PositionY(-0.3000,-0.3000);
+				PositionZ(0.2950,0.2950);
+			}
 			PositionScale(0.0000,0.0000);
 			VelocityScale(0.0000,0.0000);
 			InheritVelocityFactor(0.0000,0.0000);
@@ -159,7 +159,12 @@ ParticleEmitter("JetExhaust")
 					PositionY(0.0000,0.0000);
 					PositionZ(0.0000,0.0000);
 				}
-				v
+				Offset()
+				{
+					PositionX(-0.3000,-0.3000);
+					PositionY(-0.3000,-0.3000);
+					PositionZ(0.2950,0.2950);
+				}
 				PositionScale(0.0000,0.0000);
 				VelocityScale(0.0000,0.0000);
 				InheritVelocityFactor(0.0000,0.0000);
@@ -219,11 +224,11 @@ ParticleEmitter("JetExhaust")
 						PositionZ(0.0000,0.0000);
 					}
 					Offset()
-		{
-			PositionX(-0.3000,-0.3000);
-			PositionY(-0.3000,-0.3000);
-			PositionZ(-0.2950,-0.2950);
-		}
+					{
+						PositionX(-0.3000,-0.3000);
+						PositionY(-0.3000,-0.3000);
+						PositionZ(-0.2950,-0.2950);
+					}
 					PositionScale(0.0000,0.0000);
 					VelocityScale(10.0000,10.0000);
 					InheritVelocityFactor(0.0000,0.0000);
@@ -290,11 +295,11 @@ ParticleEmitter("JetExhaust")
 							PositionZ(0.0000,0.0000);
 						}
 						Offset()
-		{
-			PositionX(-0.3000,-0.3000);
-			PositionY(-0.3000,-0.3000);
-			PositionZ(-0.2950,-0.2950);
-		}
+						{
+							PositionX(-0.3000,-0.3000);
+							PositionY(-0.3000,-0.3000);
+							PositionZ(-0.2950,-0.2950);
+						}
 						PositionScale(0.0000,0.0000);
 						VelocityScale(0.0000,0.0000);
 						InheritVelocityFactor(0.0000,0.0000);
@@ -356,10 +361,10 @@ ParticleEmitter("JetExhaust")
 								PositionZ(0.0000,0.0000);
 							}
 							Offset()
-		{
-			PositionX(-0.3000,-0.3000);
-			PositionY(-0.3000,-0.3000);
-			PositionZ(-0.2950,-0.2950);
+							{
+								PositionX(-0.3000,-0.3000);
+								PositionY(-0.3000,-0.3000);
+								PositionZ(-0.2950,-0.2950);
 							}
 							PositionScale(0.0000,0.0000);
 							VelocityScale(0.0000,0.0000);

@@ -1,0 +1,46 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_pistol"
+GeometryName        = "heroes_weap_dl44.msh"
+
+[Properties]
+ScoreForMedalsType = -1
+MedalsTypeToUnlock = -1
+
+GeometryName        = "heroes_weap_dl44"
+HighResGeometry     = "heroes_weap_dl44"
+OrdnanceName        = "heroes_weap_westars_ord"
+
+MinRange            = "0"
+OptimalRange        = "24"
+MaxRange            = "64"
+
+YawSpread       = "0.12"
+PitchSpread     = "0.12"
+
+RoundsPerClip       = "40"
+ReloadTime          = "3.0"
+ShotDelay           = "0.45"
+TriggerSingle       = "1"
+
+DisplayRefire 	    = "0"
+
+SalvoCount          = "2"
+SalvoDelay          = "0.12"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "all_weap_inf_pistol_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+ReloadSound             = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_sm"
+WeaponChangeSound   = "com_weap_inf_equip_sm"
+JumpSound           = "com_weap_inf_pistol_mvt_jump"
+LandSound           = "com_weap_inf_pistol_mvt_land"
+RollSound           = "com_weap_inf_pistol_mvt_roll"
+//ProneSound          = "com_weap_inf_pistol_mvt_lie"
+SquatSound          = "com_weap_inf_pistol_mvt_squat"
+//StandSound          = "com_weap_inf_pistol_mvt_getup"

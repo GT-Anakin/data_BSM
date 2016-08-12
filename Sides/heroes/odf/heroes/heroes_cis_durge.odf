@@ -3,11 +3,22 @@ ClassParent         = "com_hero_default"
 GeometryName        = "heroes_cis_durge.msh"
 
 [Properties]
-UnitType            = "pilot"
+UnitType            = "Soldier"
+
+JetJump             = "30.0"    //The initial jump-push given when enabling the jet
+JetPush             = "0.0"     //The constant push given while the jet is enabled (20 is gravity)
+JetAcceleration     = "12.0"
+JetEffect           = "darktrooper_sfx_jetpack"
+JetFuelRechargeRate = "0.075"   //Additional fuel per second (fuel is 0 to 1)
+JetFuelCost         = "0.0"     //Cost per second when hovering (only used for jet-hovers)(fuel is 0 to 1)
+JetFuelInitialCost  = "0.35"     //initial cost when jet jumping(fuel is 0 to 1)
+JetFuelMinBorder    = "0.49"    //minimum fuel to perform a jet jump(fuel is 0 to 1)
+
+CollisionScale      = "0.0 0.0 0.0" // don't take damage from collisions
 
 GeometryName        = "heroes_cis_durge"
 GeometryLowRes      = "heroes_cis_durge_low"
-//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+FirstPerson         = "Heroes\heroes;heroes_1st_durge"
 AISizeType          = "Soldier"
 ClothODF        = "heroes_cis_durge_cloth"
 SkeletonName		= "bf3clones"
@@ -16,13 +27,22 @@ SkeletonLowRes  = "bf3cloneslz" 	         //Lando's lowrez mesh has been envelop
 HealthType          = "person"
 
 WEAPONSECTION = 1
-WeaponName1         = "cis_weap_inf_sniper_rifle"
-WeaponAmmo1         = 5
+WeaponName1         = "cis_weap_inf_mortar_launcher"
+WeaponAmmo1         = 4
 
 WEAPONSECTION = 2
-WeaponName2         = "com_weap_inf_thermaldetonator"
-WeaponAmmo2         = 2
-WeaponChannel2      = 1
+WeaponName2         = "cis_weap_inf_shotgun"
+WeaponAmmo2         = 8
+
+WEAPONSECTION = 3
+WeaponName3         = "com_weap_inf_thermalimploder"
+WeaponAmmo3         = 2
+WeaponChannel3      = 1
+
+WEAPONSECTION = 4
+WeaponName4     	= "cis_weap_inf_mine_dispenser"
+WeaponAmmo4     	= 4
+WeaponChannel4  	= 1
 
 
 //SOUND

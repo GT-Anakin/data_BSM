@@ -38,4 +38,12 @@ ucft
 		"heroes_republic_aayla"
 		"heroes_republic_palpatine"
 	}
+	REQN
+	{		
+		"model"
+		"heroes_1st_jango"
+		"heroes_1st_zam"
+		"heroes_1st_durge"
+
+	}
 }

@@ -1,0 +1,33 @@
+[WeaponClass]
+ClassParent         = "com_weap_inf_flamethrower"
+GeometryName        = "heroes_weap_dl44.msh"
+
+[Properties]
+
+AnimationBank   = "pistol"
+
+GeometryName        = "heroes_weap_dl44"
+HighResGeometry     = "heroes_weap_dl44"
+OrdnanceName        = "heroes_weap_flamethrower_ord"
+//FirePointName       = "hp_fire"
+
+// to make it work - Mike Z
+FireAnim = 1
+InitialSalvoDelay = "0.46" // 14 frames
+InstantPlayFireAnim = 1
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "flame_on"
+ReloadSound         = "com_weap_inf_reload_med"
+ChangeModeSound     = "com_weap_inf_equip_med"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"
