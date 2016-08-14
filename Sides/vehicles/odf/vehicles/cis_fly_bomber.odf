@@ -88,7 +88,7 @@ ContrailEffectMaxScale    = "1.2"
 //WEAPON SYSTEMS
 
 WEAPONSECTION       = 1
-WeaponName          = "cis_weap_fly_greviousfighter_cannon"
+WeaponName          = "cis_weap_fly_droidfighter_cannon"
 WeaponAmmo          = "0"
 
 AimerNodeName       = "hp_fireL1"

@@ -5,7 +5,7 @@ GeometryName        = "heroes_alliance_x2.msh"
 [Properties]
 GeometryName        = "heroes_alliance_x2"
 GeometryLowRes      = "heroes_alliance_x2_low"
-//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+FirstPerson         = "Heroes\heroes;heroes_1st_x2_republic"
 AISizeType          = "Soldier"
 
 SkeletonName		= "bf3clones"

@@ -41,9 +41,12 @@ ucft
 	REQN
 	{		
 		"model"
+		"heroes_1st_x1_republic"
+		"heroes_1st_x2_republic"
 		"heroes_1st_jango"
 		"heroes_1st_zam"
 		"heroes_1st_durge"
+		"heroes_1st_padme"
 
 	}
 }

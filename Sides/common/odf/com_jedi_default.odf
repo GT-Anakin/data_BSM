@@ -29,7 +29,7 @@ MaxSpeed                = 9.0       // base forward speed
 MaxStrafeSpeed          = 6.6       // base right/left speed
 MaxTurnSpeed            = 6.0       // base turn speed
 JumpHeight              = 3.5	    // base jump height in meters
-RecoverFromTumble       = "0"
+RecoverFromTumble       = "1"
 
 BlurEffect          = "0.8"     //motion blur effect for force run
 

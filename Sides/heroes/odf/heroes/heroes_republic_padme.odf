@@ -5,7 +5,7 @@ GeometryName        = "heroes_republic_padme.msh"
 [Properties]
 GeometryName        = "heroes_republic_padme"
 GeometryLowRes      = "heroes_republic_padme_low"
-//FirstPerson         = "all\allhstat;all_1st_tatooinehansolo"
+FirstPerson         = "Heroes\heroes;heroes_1st_padme"
 AISizeType          = "Soldier"
 
 MaxHealth           = 1000.0
@@ -13,9 +13,9 @@ MaxHealth           = 1000.0
 SkeletonName            = "Padme"
 // lowrez must be different from high-rez or things go wacky wacky....
 SkeletonLowRes          = "bf3cloneslz"  
-SkeletonRootScale       = "0.85"
+//SkeletonRootScale       = "0.85"
 //SkeletonRootScaleLowRes = "0.85"
-CollisionRootScale      = "0.85"
+//CollisionRootScale      = "0.85"
 
 HealthType          = "person"
 MaxHealth           = 1500.0
@@ -32,6 +32,11 @@ WEAPONSECTION = 3
 WeaponName3         = "com_weap_inf_thermaldetonator"
 WeaponAmmo3         = 4
 WeaponChannel3      = 1
+
+WEAPONSECTION = 4
+WeaponName4         = "com_weap_inf_buff_defense"
+WeaponAmmo4         = 0
+WeaponChannel4      = 1
 
 
 FoleyFXClass        = "rep_inf_soldier"

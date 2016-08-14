@@ -511,7 +511,7 @@ State("RECOVER3")
 State("ATTACK4")
 {
     Posture("Stand");
-    Animation("stand_attack1c")
+    Animation("stand_attack1d")
     {
 //      SyncType("attack1c", "ByTime");
         AimType("None");
@@ -521,27 +521,36 @@ State("ATTACK4")
     Sound("saber_attack_three");
 
     //set a duration so we will go to state RECOVER3 before the animation ends
-    Duration(30, "Frames");
-//    AnimatedMove()      // animation controls velocity for entire state
-//    {
-//        VelocityZ(0.0);
-//        VelocityX(0.0);
-//        VelocityFromThrust(8.0);
-//        VelocityFromStrafe(3.0);
-//    }
-    AlignedToThrust("Initial");
+    Duration(20, "Frames");
+    AnimatedMove()      // animation controls velocity for entire state
+    {
+        VelocityZ(0.0);
+        VelocityX(0.0);
+        VelocityFromThrust(12.0);
+        VelocityFromStrafe(3.0);
+    }
+    AlignedToThrust();
 
- //   StrafeFactor(0.5);
- //   TurnFactor(0.5);
+    //StrafeFactor(0.5);
+    //TurnFactor(0.5);
 
     InputLock("All", "!Thrust");    // lock all controls for duration of state
     Attack()
     {
-        DamageTime(6, 23, "Frames");
+        DamageTime(4, 11, "Frames");
         DamageLength(1.5);
         DamageWidth(0.75);
         Damage(600);
-	Push(5.0);
+        Push(5.0);
+    }
+    Attack()
+    {
+	AttackID("Attack4-1");
+        DamageTime(19, 23, "Frames");
+        DamageLength(1.5);
+        DamageWidth(0.75);
+        Damage(600);
+        Push(5.0);
     }
 
     Transition("RECOVER4");
@@ -550,9 +559,48 @@ State("ATTACK4")
 State("RECOVER4")
 {
     Posture("Stand");
-    Animation("stand_attack1c");
+    Animation("stand_attack1d");
 
-    InputLock("All", "!Thrust");
+    Duration(37, "Frames");
+
+    AlignedToThrust();
+
+    Attack()
+    {
+	AttackID("Attack3-1");
+        DamageTime(19, 23, "Frames");
+        DamageLength(1.5);
+        DamageWidth(0.75);
+        Damage(600);
+        Push(5.0);
+    }
+
+    AnimatedMove()      // animation controls velocity for entire state
+    {
+        VelocityZ(0.0);
+        VelocityX(0.0);
+        VelocityFromThrust(0.5);
+        VelocityFromStrafe(0.5);
+    }
+
+    ThrustFactor(0.0);
+    TurnFactor(0.1);
+
+    Transition("RECOVER4_WALK");
+//    {
+//        If()
+//        {
+//            Break(40, "Frames");
+//            ButtonsPressed("Any");
+//        }
+//    }
+}
+
+State("RECOVER4_WALK")
+{
+    Posture("Stand");
+    Animation("stand_attack1d");
+
     AlignedToThrust();
 
     Transition("IDLE");
@@ -567,80 +615,118 @@ State("DASHATTACK")
         BlendInTime(0.10);
         BlendOutTime(0.25);
     }
-    Sound("saber_triple");
 
-    Deflect()
-    {
-	DeflectAngle(-110, 110);    // deflect anything from forward arc
-	EnergyCost(2.0);
-    }
-
-    Duration(25, "Frames");
-    AnimatedMove()
-    {
-        VelocityZ(16.0);
-        VelocityX(0.0);
-        VelocityFromThrust(2.0);
-        VelocityFromStrafe(5.0);
-    }
-    TurnFactor(0.6);
+    Sound("saber_attack_three");
 
     InputLock("All", "!Thrust");
+
+    Duration(22, "Frames");
+    AnimatedMove()
+    {
+        VelocityZ(15.0);
+        VelocityX(0.0);
+        VelocityFromThrust(5.0);
+        VelocityFromStrafe(1.0);
+    }
+    TurnFactor(0.3);
+
     Attack()
     {
-	AttacKID("dashattack");
-        DamageTime(2, 45, "Frames");
+        DamageTime(2, 9, "Frames");
         DamageLength(1.5);
-        DamageWidth(.75);
-        Damage(500);
-	Push(5.0);
+        DamageWidth(0.75);
+        Damage(400);
+    Push(3.0);
+    }
+    Attack()
+    {
+        DamageTime(12, 16, "Frames");
+        DamageLength(1.5);
+        DamageWidth(0.75);
+        Damage(400);
+        Push(3.0);
     }
 
-//    Transition("DASHATTACK2")
-//    {
-//        If()
-//        {
-//            TimeStart(0.0);
-//            TimeEnd(0.05, "FromEnd");   //, "SyncIfOvertime");
-//            Button("Fire", "Press");
-//        }
-//    }
-    Transition("DASHATTACK2");
+    Transition("DASHATTACK2")
+    {
+        If()
+        {
+	    Break(21, "Frames");
+            TimeStart(17, "Frames");
+            TimeEnd(22, "Frames");
+            Posture("Stand", "Sprint");
+            Button("Fire", "Press");
+        }
+    }
+
+    Transition("IDLE");
 }
 
 State("DASHATTACK2")
 {
     Posture("Stand");
-    Animation("stand_dashattack")
+    Animation("stand_dashattack");
+    Sound("saber_swing", 34, "Frames");
+
+    Duration(38, "Frames");
+
+    AnimatedMove()
     {
-        AimType("FullBody");
-        BlendInTime(0.10);
-        BlendOutTime(0.25);
+        VelocityZ(10.0);
+        VelocityX(0.0);
+        VelocityFromThrust(5.0);
+        VelocityFromStrafe(3.0);
+        If()
+        {
+            Break(38, "Frames");
+        }
     }
-    Sound("saber_double");
+    TurnFactor(0.3);
+
+    InputLock("All", "!Thrust");
+
+    Attack()
+    {
+	AttackID("Dash2");
+        DamageTime(35, 43, "Frames");
+        DamageLength(1.5);
+        DamageWidth(0.75);
+        Damage(600);
+        Push(5.0);
+    }
+
+    Transition("DASHATTACK3");
+}
+
+State("DASHATTACK3")
+{
+    Posture("Stand");
+    Animation("stand_dashattack");
+    //Sound("saber_swing");
 
     AnimatedMove()
     {
         VelocityZ(0.0);
         VelocityX(0.0);
-        VelocityFromThrust(1.0);
-        VelocityFromStrafe(2.0);
-	If()
-	{
-	    Break(40, "Frames");
-	}
+        VelocityFromThrust(0.5);
+        VelocityFromStrafe(0.5);
+        If()
+        {
+            Break(43, "Frames");
+        }
     }
-    TurnFactor(0.6);
+    TurnFactor(0.3);
 
     InputLock("All", "!Thrust");
+
     Attack()
     {
-	AttacKID("dashattack");
-        DamageTime(2, 45, "Frames");
+	AttackID("Dash2");
+        DamageTime(35, 43, "Frames");
         DamageLength(1.5);
-        DamageWidth(.75);
-        Damage(500);
-	Push(5.0);
+        DamageWidth(0.75);
+        Damage(600);
+        Push(5.0);
     }
 
     Transition("IDLE");

@@ -6,7 +6,7 @@ GeometryName        = "heroes_empire_x1.msh"
 GeometryName        = "heroes_empire_x1"
 GeometryLowRes      = "heroes_empire_x1_low"
 ClothODF            = "heroes_empire_x1_cape"
-FirstPerson         = "REP\reptroop;rep_1st_trooper"
+FirstPerson         = "Heroes\heroes;heroes_1st_x1_republic"
 AISizeType          = "Soldier"
 
 SkeletonName		= "bf3clones"

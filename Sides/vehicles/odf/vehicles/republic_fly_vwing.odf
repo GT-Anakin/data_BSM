@@ -59,7 +59,7 @@ TimeTilReboard			= "5.0"
 
 ExplosionDestruct = "republic_fly_vwing_exp"
 
-WeaponName = "rep_weap_fly_vwing_cannon"
+WeaponName = "rep_weap_fly_arc170_cannon"
 WeaponAmmo = "0"
 AimerNodeName = "hp_fire_l1"
 

@@ -10,7 +10,7 @@ GeometryName        = "heroes_republic_x1"
 GeometryLowRes      = "heroes_republic_x1_low"
 ClothODF            = "heroes_republic_x1_cape"
 ClothODF            = "heroes_republic_x1_shoulder"
-FirstPerson         = "REP\reptroop;rep_1st_trooper"
+FirstPerson         = "Heroes\heroes;heroes_1st_x1_republic"
 AISizeType          = "Soldier"
 
 SkeletonName		= "bf3clones"

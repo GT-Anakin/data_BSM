@@ -5,7 +5,7 @@ GeometryName        = "heroes_republic_x2.msh"
 [Properties]
 GeometryName        = "heroes_republic_x2"
 GeometryLowRes      = "heroes_republic_x2_low"
-FirstPerson         = "REP\reptroop;rep_1st_trooper"
+FirstPerson         = "Heroes\heroes;heroes_1st_x2_republic"
 AISizeType          = "Soldier"
 
 SkeletonName		= "bf3clones"

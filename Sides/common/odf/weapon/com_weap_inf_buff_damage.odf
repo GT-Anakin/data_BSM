@@ -1,0 +1,10 @@
+[WeaponClass]
+
+ClassParent          = "com_weap_inf_buff"
+
+[Properties]
+HUDTag          = "hud_poison"
+OrdnanceName        = "com_weap_inf_buff_damage_ord"
+ReloadTime          = "0"
+ReticuleInAimingOnly = 0
+EnergyDrain             = 150.0

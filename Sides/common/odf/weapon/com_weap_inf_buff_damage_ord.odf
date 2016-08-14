@@ -1,0 +1,13 @@
+[OrdnanceClass]
+ClassParent      = "com_weap_inf_buff_ord"
+
+[Properties]
+BuffOffenseTimer = "20"
+BuffOffenseMult  = "1.75"
+
+PlayEffectOnOwner = "com_sfx_buff_offense"
+
+AffectFriends = "1"  // default is 1. should the ordnance affect friends. 
+AffectEnemies = "0"  // default is 1. should the ordnance affect enemies. 
+
+//OrdnanceSound         = "buff_offense_powerup"
