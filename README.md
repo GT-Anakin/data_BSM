@@ -26,3 +26,13 @@ need a web proxy depending on your country. I can recommend proxy-us.hide.me
 #### Credits
 * Free Radical
 * clonetrooper163 alias Corra_Ashu
+
+#### Licence
+You are allowed to use single assets from this mod for your own project. Make sure that you give proper credits
+for the assets itself (most by free radical) and those who ported them to SWBF2 (most by thelegend and Anakin).
+If you are not sure who made or ported the asset, feel free to contact us on Gametoast or here on GitHub.
+
+You are not allowed to copy this mod or parts of it without essential changes. This means you are not permited
+to take the map, or sides or the whole project at the current state and release them as your own mod. There will
+be an integration pack that allows you to easily add our sides as a new era to your custom map. Please wait for
+its final release.
