@@ -1,7 +1,7 @@
 [GameObjectClass]
 
 ClassLabel		=	"prop"
-GeometryName	=	"CO3_bldg_block2_building1.msh"
+GeometryName	=	"CO3_bldg_block2_building1_EDITOR.msh"
 
 [Properties]
 

@@ -22,6 +22,11 @@ end
     ATT = REP;
     DEF = CIS;
 
+function PreLoadStuff()
+
+	ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
+
+end
 
 function ScriptPostLoad()	 
  
@@ -607,7 +612,8 @@ Rep_Capital_Ship = OnObjectKill(
 	  
    rep_countdown = CreateTimer("rep_countdown")
    SetTimerValue(rep_countdown, (60.0))
-   
+  
+ 
 RemoveRegion("deathregion5")
 
 ShowMessageText("level.co3.supremacy.events.frigates.capital.rep.reactor.rep", ATT)
@@ -744,9 +750,6 @@ PlayAnimation("republic_countdown_2")
 
 RemoveRegion("rep_landing")
 
-SetProperty("rep_reactor_cube", "CurHealth", "0")
-SetProperty("rep_reactor_cube", "MaxHealth", "0")
-
 SetProperty("rep_turret_1", "IsVisible", "0")
 SetProperty("rep_turret_2", "IsVisible", "0")
 SetProperty("rep_turret_3", "IsVisible", "0")
@@ -771,12 +774,33 @@ AddReinforcements(ATT, -200)
                  end,
               rep_countdown
               ) 
+			 
 		 
-
       end
    end
 )
   
+  Rep_Capital_Ship_reactor_Cube = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "rep_reactor" then
+	  
+    rep_countdown_reactor_cube = CreateTimer("rep_countdown_reactor_cube")
+    SetTimerValue(rep_countdown_reactor_cube, (90.0))
+   
+      StartTimer(rep_countdown_reactor_cube)
+   OnTimerElapse(
+function(timer)
+
+SetProperty("rep_reactor_cube", "CurHealth", "0")
+SetProperty("rep_reactor_cube", "MaxHealth", "0")
+
+      DestroyTimer(timer)
+                 end,
+              rep_countdown_reactor_cube
+              ) 
+			  end
+			  end
+			  )
 
 --CIS
     --CIS Door 
@@ -971,10 +995,10 @@ SetProperty("cis_capital_container6", "MaxHealth", "0")
 SetProperty("cis_capital_container7", "CurHealth", "0")
 SetProperty("cis_capital_container7", "MaxHealth", "0")
 
-SetProperty("cis_frigate_bridge1", "CurHealth", "0")
-SetProperty("cis_frigate_bridge1", "MaxHealth", "0")
-SetProperty("cis_frigate_bridge2", "CurHealth", "0")
-SetProperty("cis_frigate_bridge2", "MaxHealth", "0")
+SetProperty("cis_capital_bridge1", "CurHealth", "0")
+SetProperty("cis_capital_bridge1", "MaxHealth", "0")
+SetProperty("cis_capital_bridge2", "CurHealth", "0")
+SetProperty("cis_capital_bridge2", "MaxHealth", "0")
 
 SetProperty("cis_capital_pillar1", "CurHealth", "0")
 SetProperty("cis_capital_pillar1", "MaxHealth", "0")
@@ -1055,6 +1079,28 @@ AddReinforcements(DEF, -200)
 )
     
 
+	  CIS_Capital_Ship_reactor_Cube = OnObjectKill(
+   function(object, killer)
+      if GetEntityName(object) == "cis_reactor" then
+	  
+    cis_countdown_reactor_cube = CreateTimer("cis_countdown_reactor_cube")
+    SetTimerValue(cis_countdown_reactor_cube, (90.0))
+   
+      StartTimer(cis_countdown_reactor_cube)
+   OnTimerElapse(
+function(timer)
+
+SetProperty("cis_reactor_cube", "CurHealth", "0")
+SetProperty("cis_reactor_cube", "MaxHealth", "0")
+
+      DestroyTimer(timer)
+                 end,
+              cis_countdown_reactor_cube
+              ) 
+			  end
+			  end
+			  )
+			  
 end
 
  function SetupTurrets() 
@@ -1113,12 +1159,25 @@ end
 --              it is called from C to start the mission.
 ---------------------------------------------------------------------------
 
+
+
 function ScriptInit()
+
+
+--SetMemoryPoolSize("ParticleTransformer::ColorTrans", 2564)
+--SetMemoryPoolSize("ParticleTransformer::PositionTr", 1522)
+--SetMemoryPoolSize("ParticleTransformer::SizeTransf", 1699)
+
+	PreLoadStuff()
 
 	ReadDataFile("dc:SIDE\\fpanimset.lvl")
     ReadDataFile("dc:ingame.lvl")
     ReadDataFile("ingame.lvl")
-    
+	
+
+
+
+
    
     --SetMaxFlyHeight(1800)
     --SetMaxPlayerFlyHeight (1800)
@@ -1140,7 +1199,7 @@ function ScriptInit()
 	
 	
     	--ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
-        ReadDataFile("sound\\common.lvl;commoncw")
+
 
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
@@ -1305,9 +1364,9 @@ function ScriptInit()
     SetSpawnDelay(10.0, 0.25)
 	
 	if ScriptCB_InMultiplayer() then
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_CW_Ships", "CO3_CW_Ships_Turrets_MP")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_SoundStreamsSpace", "CO3_CW_Ships", "CO3_CW_Ships_Turrets_MP")
     else
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_conquest", "CO3_Deathregions", "CO3_SoundStreamsSpace", "CO3_CW_Ships", "CO3_CW_Ships_Turrets")
     end
 		  
     SetDenseEnvironment("false")
@@ -1325,8 +1384,11 @@ function ScriptInit()
     voiceQuick = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_quick")
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)
     
+	
+	
     OpenAudioStream("sound\\global.lvl",  "cw_music")
- --[[   OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
+	
+    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
@@ -1334,7 +1396,8 @@ function ScriptInit()
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-]]	
+	
+	
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)
     SetBleedingVoiceOver(CIS, REP, "cis_off_com_report_enemy_losing",   1)
@@ -1343,24 +1406,22 @@ function ScriptInit()
     SetOutOfBoundsVoiceOver(2, "cisleaving")
     SetOutOfBoundsVoiceOver(1, "repleaving")
 	
-    SetAmbientMusic(REP, 1.0, "rep_pol_amb_start",  0,1)
-    SetAmbientMusic(REP, 0.8, "rep_pol_amb_middle", 1,1)
-    SetAmbientMusic(REP, 0.2,"rep_pol_amb_end",    2,1)
-    SetAmbientMusic(CIS, 1.0, "cis_pol_amb_start",  0,1)
-    SetAmbientMusic(CIS, 0.8, "cis_pol_amb_middle", 1,1)
-    SetAmbientMusic(CIS, 0.2,"cis_pol_amb_end",    2,1)
+ 	
+    SetAmbientMusic(REP, 1.0, "rep_dea_amb_start",  0,1)
+    SetAmbientMusic(REP, 0.8, "rep_dea_amb_middle", 1,1)
+    SetAmbientMusic(REP, 0.2,"rep_dea_amb_end",    2,1)
+    SetAmbientMusic(CIS, 1.0, "cis_dea_amb_start",  0,1)
+    SetAmbientMusic(CIS, 0.8, "cis_dea_amb_middle", 1,1)
+    SetAmbientMusic(CIS, 0.2,"cis_dea_amb_end",    2,1)
 
-    SetVictoryMusic(REP, "rep_pol_amb_victory")
-    SetDefeatMusic (REP, "rep_pol_amb_defeat")
-    SetVictoryMusic(CIS, "cis_pol_amb_victory")
-    SetDefeatMusic (CIS, "cis_pol_amb_defeat")
+    SetVictoryMusic(REP, "rep_dea_amb_victory")
+    SetDefeatMusic (REP, "rep_dea_amb_defeat")
+    SetVictoryMusic(CIS, "cis_dea_amb_victory")
+    SetDefeatMusic (CIS, "cis_dea_amb_defeat")
 	
 
     SetSoundEffect("ScopeDisplayZoomIn",      "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut",     "binocularzoomout")
-    --SetSoundEffect("BirdScatter",             "birdsFlySeq1")
-    --SetSoundEffect("WeaponUnableSelect",      "com_weap_inf_weaponchange_null")
-    --SetSoundEffect("WeaponModeUnableSelect",  "com_weap_inf_modechange_null")
     SetSoundEffect("SpawnDisplayUnitChange",       "shell_select_unit")
     SetSoundEffect("SpawnDisplayUnitAccept",       "shell_menu_enter")
     SetSoundEffect("SpawnDisplaySpawnPointChange", "shell_select_change")

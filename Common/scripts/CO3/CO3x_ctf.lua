@@ -22,6 +22,9 @@ function ScriptPostLoad()
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
 
+
+EnableAIAutoBalance()
+
 if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
 ---
@@ -73,7 +76,7 @@ end
 	
 	if not ScriptCB_InMultiplayer() then
 	herosupport = AIHeroSupport:New{gameMode = "CTF",}
-	herosupport:SetHeroClass(REP, "heroes_republic_anakin")
+	herosupport:SetHeroClass(REP, "heroes_republic_ferroda")
 	herosupport:SetHeroClass(CIS, "heroes_cis_asajj")
 	herosupport:AddSpawnCP("ctf_cp1","ctf_cp1_spawn")
 	herosupport:AddSpawnCP("ctf_cp2","ctf_cp2_spawn")
@@ -154,7 +157,7 @@ function ScriptInit()
 		
 		ReadDataFile("dc:SIDE\\heroes.lvl",
 		"heroes_cis_asajj",
-		"heroes_republic_anakin")
+		"heroes_republic_ferroda")
 				 
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"cis_hover_stap",

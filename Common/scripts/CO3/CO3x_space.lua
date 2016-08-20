@@ -35,6 +35,8 @@ SetupObjectives()
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
 
+EnableAIAutoBalance()
+
 if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
 ---
@@ -487,8 +489,8 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::DamageSample",8000)  -- should be ~8-12x #Combo::Attack
     SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
     
-    	ReadDataFile("dc:Sound\\co3.lvl;co3cwmap")
-        ReadDataFile("sound\\pol.lvl;pol1cw")
+    	ReadDataFile("dc:Sound\\co3.lvl;co3cwspace")
+        ReadDataFile("sound\\spa.lvl;spa2cw")
 
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
@@ -565,7 +567,7 @@ function ScriptInit()
 
     SetSpawnDelay(10.0, 0.25)
 	
-    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_CW_Space")
+    ReadDataFile("dc:CO3\\CO3.lvl", "CO3_CW_Space", "CO3_SoundStreamsSpace")
     SetDenseEnvironment("false")
 	
 	SetMaxCollisionDistance(1000)
@@ -603,17 +605,17 @@ function ScriptInit()
     SetOutOfBoundsVoiceOver(2, "cisleaving")
     SetOutOfBoundsVoiceOver(1, "repleaving")
 
-    SetAmbientMusic(REP, 1.0, "rep_pol_amb_start",  0,1)
-    SetAmbientMusic(REP, 0.8, "rep_pol_amb_middle", 1,1)
-    SetAmbientMusic(REP, 0.2,"rep_pol_amb_end",    2,1)
-    SetAmbientMusic(CIS, 1.0, "cis_pol_amb_start",  0,1)
-    SetAmbientMusic(CIS, 0.8, "cis_pol_amb_middle", 1,1)
-    SetAmbientMusic(CIS, 0.2,"cis_pol_amb_end",    2,1)
-
-    SetVictoryMusic(REP, "rep_pol_amb_victory")
-    SetDefeatMusic (REP, "rep_pol_amb_defeat")
-    SetVictoryMusic(CIS, "cis_pol_amb_victory")
-    SetDefeatMusic (CIS, "cis_pol_amb_defeat")
+    SetAmbientMusic(REP, 1.0, "rep_spa_amb_start",  0,1)
+    SetAmbientMusic(REP, 0.99, "rep_spa_amb_middle", 1,1)
+    SetAmbientMusic(REP, 0.1,"rep_spa_amb_end",    2,1)
+    SetAmbientMusic(CIS, 1.0, "cis_spa_amb_start",  0,1)
+    SetAmbientMusic(CIS, 0.99, "cis_spa_amb_middle", 1,1)
+    SetAmbientMusic(CIS, 0.1,"cis_spa_amb_end",    2,1)
+    
+    SetVictoryMusic(REP, "rep_spa_amb_victory")
+    SetDefeatMusic (REP, "rep_spa_amb_defeat")
+    SetVictoryMusic(CIS, "cis_spa_amb_victory")
+    SetDefeatMusic (CIS, "cis_spa_amb_defeat")
 
     SetSoundEffect("ScopeDisplayZoomIn",      "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut",     "binocularzoomout")

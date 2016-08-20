@@ -1,0 +1,2352 @@
+// -------------------------------------------- Metagame VO ----------------------------------------------------------
+
+//    Their Leader is on the Battlefield.
+..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav
+
+//    Their forces are under escort of a leader.
+..\worlds\GAL\streams\metagame_vo\ROCOM0067.wav
+
+//    A leader is commanding their forces.
+..\worlds\GAL\streams\metagame_vo\ROCOM0068.wav
+
+//    Their droids have been enhanced with self repairing capabilities.
+..\worlds\GAL\streams\metagame_vo\ROCOM0120.wav
+
+//    Enemy forces have deployed self-repairing droids.
+..\worlds\GAL\streams\metagame_vo\ROCOM0121.wav
+
+//    Enemy droids have self-repair capabilities.
+..\worlds\GAL\streams\metagame_vo\ROCOM0122.wav
+
+//    Our troops have been injected with bacta serum.
+..\worlds\GAL\streams\metagame_vo\ROCOM0126.wav
+
+//    Our troops have received bacta injections.
+..\worlds\GAL\streams\metagame_vo\ROCOM0127.wav
+
+//    Our forces have been enhanced with bacta.
+..\worlds\GAL\streams\metagame_vo\ROCOM0128.wav
+
+//    They've sabotaged our vehicles.
+..\worlds\GAL\streams\metagame_vo\ROCOM0129.wav
+
+//    Enemy saboteurs have damaged our vehicles.
+..\worlds\GAL\streams\metagame_vo\ROCOM0130.wav
+
+//    Our vehicles have been sabotaged by enemy forces.
+..\worlds\GAL\streams\metagame_vo\ROCOM0131.wav
+
+//    We've sabotaged the Separatists' vehicles.
+..\worlds\GAL\streams\metagame_vo\ROCOM0135.wav
+
+//    Our saboteurs have damaged their vehicles.
+..\worlds\GAL\streams\metagame_vo\ROCOM0136.wav
+
+//    Their vehicles have been damaged by our saboteurs.
+..\worlds\GAL\streams\metagame_vo\ROCOM0137.wav
+
+//    Their droids have been enhanced with advanced energy cells.
+..\worlds\GAL\streams\metagame_vo\ROCOM0138.wav
+
+//    They have deployed agility-enhanced droids.
+..\worlds\GAL\streams\metagame_vo\ROCOM0139.wav
+
+//    Enhanced energy droids have been deployed by the enemy.
+..\worlds\GAL\streams\metagame_vo\ROCOM0140.wav
+
+//    Our forces have been injeced with energy-enhancing serum.
+..\worlds\GAL\streams\metagame_vo\ROCOM0144.wav
+
+//    Our troopers have received adrenal injections.
+..\worlds\GAL\streams\metagame_vo\ROCOM0145.wav
+
+//    Our forces have been given enhanced energy.
+..\worlds\GAL\streams\metagame_vo\ROCOM0146.wav
+
+//    They have been fitted with a surplus of supplies.
+..\worlds\GAL\streams\metagame_vo\ROCOM0147.wav
+
+//    Enemy forces have received increased supply caches.
+..\worlds\GAL\streams\metagame_vo\ROCOM0148.wav
+
+//    Their supply caches have been increased.
+..\worlds\GAL\streams\metagame_vo\ROCOM0149.wav
+
+//    Our troops have been fitted with a surplus of supplies.
+..\worlds\GAL\streams\metagame_vo\ROCOM0153.wav
+
+//    Our forces have received increased supply caches.
+..\worlds\GAL\streams\metagame_vo\ROCOM0154.wav
+
+//    Our supply caches have been increased.
+..\worlds\GAL\streams\metagame_vo\ROCOM0155.wav
+
+//    They have set up a defensive grid of turrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0156.wav
+
+//    Enemy forces have deployed autoturrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0157.wav
+
+//    Enemy grounds have been reinforced with autoturrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0158.wav
+
+//    We have set up a defensive grid of turrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0162.wav
+
+//    Our forces have deployed autoturrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0163.wav
+
+//    Our grounds have been reinforced with autoturrets.
+..\worlds\GAL\streams\metagame_vo\ROCOM0164.wav
+
+//    They have a reinforced garrison of troops on the battlefield.
+..\worlds\GAL\streams\metagame_vo\ROCOM0165.wav
+
+//    The enemy garrison has been reinforced with additional troops.
+..\worlds\GAL\streams\metagame_vo\ROCOM0166.wav
+
+//    Their forces have deployed a reinforced garrison of troops.
+..\worlds\GAL\streams\metagame_vo\ROCOM0167.wav
+
+//    We have a reinforced garrison of troops on the battlefield.
+..\worlds\GAL\streams\metagame_vo\ROCOM0171.wav
+
+//    Our garrison has been reinforced with additional troops.
+..\worlds\GAL\streams\metagame_vo\ROCOM0172.wav
+
+//    Our forces have deployed a reinforced garrison of troops.
+..\worlds\GAL\streams\metagame_vo\ROCOM0173.wav
+
+//    Their troops have combat shielding.
+..\worlds\GAL\streams\metagame_vo\ROCOM0174.wav
+
+//    Enemy forces are being protected with combat shields.
+..\worlds\GAL\streams\metagame_vo\ROCOM0175.wav
+
+//    Their forces are utilizing combat shielding technology.
+..\worlds\GAL\streams\metagame_vo\ROCOM0176.wav
+
+//    Our troops have combat shielding.
+..\worlds\GAL\streams\metagame_vo\ROCOM0180.wav
+
+//    Our forces are being protected with combat shields.
+..\worlds\GAL\streams\metagame_vo\ROCOM0181.wav
+
+//    Our forces are utilizing combat shielding technology.
+..\worlds\GAL\streams\metagame_vo\ROCOM0182.wav
+
+//    Their troops have been equipped with advanced blasters.
+..\worlds\GAL\streams\metagame_vo\ROCOM0183.wav
+
+//    Their blaster weapons have been amplified.
+..\worlds\GAL\streams\metagame_vo\ROCOM0184.wav
+
+//    The enemy has advanced blasters.
+..\worlds\GAL\streams\metagame_vo\ROCOM0185.wav
+
+//    Our troops have been equipped with advanced blasters.
+..\worlds\GAL\streams\metagame_vo\ROCOM0189.wav
+
+//    Our blaster weapons have been amplified.
+..\worlds\GAL\streams\metagame_vo\ROCOM0190.wav
+
+//    Our army has advanced blasters.
+..\worlds\GAL\streams\metagame_vo\ROCOM0191.wav
+
+//    Their sensor array is disrupting our scanners.
+..\worlds\GAL\streams\metagame_vo\ROCOM0192.wav
+
+//    Our sensors are being disrupted by their surveillance network.
+..\worlds\GAL\streams\metagame_vo\ROCOM0193.wav
+
+//    Their surveillance scanners are jamming our signals.
+..\worlds\GAL\streams\metagame_vo\ROCOM0194.wav
+
+//    Our sensor array is disrupting their scanners.
+..\worlds\GAL\streams\metagame_vo\ROCOM0198.wav
+
+//    Their sensors are being disrupted by our surveillance network.
+..\worlds\GAL\streams\metagame_vo\ROCOM0199.wav
+
+//    Our surveillance scanners are jamming their signals.
+..\worlds\GAL\streams\metagame_vo\ROCOM0200.wav
+
+//    Our Leader is on the Battlefield.
+..\worlds\GAL\streams\metagame_vo\ROCOM0559.wav
+
+//    Our forces are under escort of a leader.
+..\worlds\GAL\streams\metagame_vo\ROCOM0560.wav
+
+//    A leader is commanding our forces.
+..\worlds\GAL\streams\metagame_vo\ROCOM0561.wav
+
+
+// -------------------------------------------- 2D In Battle ----------------------------------------------------------
+
+//    Return to battle, trooper!
+..\cw\streams\2D_inBattle_vo\RO1COM001.wav
+
+//    Where are you going, soldier?! Get back to the battle!
+..\cw\streams\2D_inBattle_vo\RO1COM002.wav
+
+//    You've miscalculated your position, trooper! Return to battle!
+..\cw\streams\2D_inBattle_vo\RO1COM003.wav
+
+//    The Republic is in control of a command post
+..\cw\streams\2D_inBattle_vo\RO1COM004.wav
+
+//    A command post is under Republic control
+..\cw\streams\2D_inBattle_vo\RO1COM005.wav
+
+//    Another command post for the Republic!
+..\cw\streams\2D_inBattle_vo\RO1COM006.wav
+
+//    That's another command post under Republic control.
+..\cw\streams\2D_inBattle_vo\RO1COM007.wav
+
+//    A command post has been lost but not the battle!
+..\cw\streams\2D_inBattle_vo\RO1COM008.wav
+
+//    Command post under attack!
+..\cw\streams\2D_inBattle_vo\RO1COM009.wav
+
+//    We've lost control of a command post
+..\cw\streams\2D_inBattle_vo\RO1COM010.wav
+
+//    a command post is now under hostile control
+..\cw\streams\2D_inBattle_vo\RO1COM011.wav
+
+//    The enemy has taken a command post
+..\cw\streams\2D_inBattle_vo\RO1COM012.wav
+
+//    Hostiles have gained a command post
+..\cw\streams\2D_inBattle_vo\RO1COM013.wav
+
+//    We can't keep losing command posts
+..\cw\streams\2D_inBattle_vo\RO1COM014.wav
+
+//    The Republic retaken a command post.  Let's try to hold on to it this time, gentlemen.
+..\cw\streams\2D_inBattle_vo\RO1COM015.wav
+
+//    We're running low on troops.
+..\cw\streams\2D_inBattle_vo\RO1COM016.wav
+
+//    Our second wave of troops are being depleted
+..\cw\streams\2D_inBattle_vo\RO1COM017.wav
+
+//    our reinforcements are being depleted
+..\cw\streams\2D_inBattle_vo\RO1COM018.wav
+
+//    The Republic can't spare any more reinforcements.
+..\cw\streams\2D_inBattle_vo\RO1COM019.wav
+
+//    Pull it together, Clones! We can still win!
+..\cw\streams\2D_inBattle_vo\RO1COM020.wav
+
+//    Remember your training and fight!
+..\cw\streams\2D_inBattle_vo\RO1COM021.wav
+
+//    You have to fight hard to win!
+..\cw\streams\2D_inBattle_vo\RO1COM022.wav
+
+//    Pull it together, troopers!  We're still in this!
+..\cw\streams\2D_inBattle_vo\RO1COM023.wav
+
+//    It's not over until the fat wookie sings!
+..\cw\streams\2D_inBattle_vo\RO1COM024.wav
+
+//    Stand your ground, men!
+..\cw\streams\2D_inBattle_vo\RO1COM025.wav
+
+//    We've got 'em on the run!
+..\cw\streams\2D_inBattle_vo\RO1COM026.wav
+
+//    We have the upperhand!
+..\cw\streams\2D_inBattle_vo\RO1COM027.wav
+
+//    The battle is ours!
+..\cw\streams\2D_inBattle_vo\RO1COM028.wav
+
+//    The tide has turned!
+..\cw\streams\2D_inBattle_vo\RO1COM029.wav
+
+//    No one messes with the 501st!
+..\cw\streams\2D_inBattle_vo\RO1COM030.wav
+
+//        Darth Maul has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM031.wav
+
+//        Darth Maul has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM032.wav
+
+//        Darth Maul has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM033.wav
+
+//        Darth Maul has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM034.wav
+
+//        Grievous has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM035.wav
+
+//        General Grievous has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM036.wav
+
+//        Grievous has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM037.wav
+
+//        General Grievous has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM038.wav
+
+//        Jango Fett has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM039.wav
+
+//        Jango Fett has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM040.wav
+
+//        Jango Fett has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM041.wav
+
+//        Jango Fett has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM042.wav
+
+//        Count Dooku has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM043.wav
+
+//        Count Dooku has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM044.wav
+
+//        Dooku has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM045.wav
+
+//        Count Dooku has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM046.wav
+
+//        Aayla Secura has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM047.wav
+
+//        Master Secura has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM048.wav
+
+//        Aayla Secura has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM049.wav
+
+//        Aayla Secura has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM050.wav
+
+//        Ki-Adi-Mundi has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM051.wav
+
+//        Master Mundi has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM052.wav
+
+//        Ki-Adi-Mundi has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM053.wav
+
+//        Master Mundi has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM054.wav
+
+//        Mace Windu has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM055.wav
+
+//        Master Windu has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM056.wav
+
+//        Mace Windu has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM057.wav
+
+//        Master Windu has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM058.wav
+
+//        Master Yoda has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM059.wav
+
+//        Master Yoda has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM060.wav
+
+//        Master Yoda has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM061.wav
+
+//        Master Yoda has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM062.wav
+
+//        Commander Skywalker has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM063.wav
+
+//        Commander Skywalker has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM064.wav
+
+//        Commander Skywalker has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM065.wav
+
+//        Commander Skywalker has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM066.wav
+
+//        General Kenobi has joined the battle
+..\cw\streams\2D_inBattle_vo\RO1COM067.wav
+
+//        General Kenobi has entered the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM068.wav
+
+//        General Kenobi has left the battle
+..\cw\streams\2D_inBattle_vo\RO1COM069.wav
+
+//        General Kenobi has exited the battlefield
+..\cw\streams\2D_inBattle_vo\RO1COM070.wav
+
+//        We have captured the Separatists' flag
+..\cw\streams\2D_inBattle_vo\RO1COM071.wav
+
+//        The Separatists' flag is under Republic control
+..\cw\streams\2D_inBattle_vo\RO1COM072.wav
+
+//        We've dropped the enemy's flag
+..\cw\streams\2D_inBattle_vo\RO1COM073.wav
+
+//        The Republic has dropped the Separatists' flag
+..\cw\streams\2D_inBattle_vo\RO1COM074.wav
+
+//        The CIS has taken our flag
+..\cw\streams\2D_inBattle_vo\RO1COM075.wav
+
+//        The CIS has the Republic's flag
+..\cw\streams\2D_inBattle_vo\RO1COM076.wav
+
+//        Our flag has been dropped.  Secure it now!
+..\cw\streams\2D_inBattle_vo\RO1COM077.wav
+
+//        The Republic's flag has been dropped.
+..\cw\streams\2D_inBattle_vo\RO1COM078.wav
+
+//        The Republic's flag has been secured
+..\cw\streams\2D_inBattle_vo\RO1COM079.wav
+
+//        Our flag has been returned to base
+..\cw\streams\2D_inBattle_vo\RO1COM080.wav
+
+//        The CIS has secured their flag
+..\cw\streams\2D_inBattle_vo\RO1COM081.wav
+
+//        The CIS flag has been returned to their base
+..\cw\streams\2D_inBattle_vo\RO1COM082.wav
+
+//        A point for the Republic!
+..\cw\streams\2D_inBattle_vo\RO1COM083.wav
+
+//        The Republic has scored!
+..\cw\streams\2D_inBattle_vo\RO1COM084.wav
+
+//        the CIS has scored
+..\cw\streams\2D_inBattle_vo\RO1COM085.wav
+
+//        A point for the Separatists
+..\cw\streams\2D_inBattle_vo\RO1COM086.wav
+
+//        We have the flag
+..\cw\streams\2D_inBattle_vo\RO1COM087.wav
+
+//        The flag is under Republic control
+..\cw\streams\2D_inBattle_vo\RO1COM088.wav
+
+//        The flag is under Separatists control
+..\cw\streams\2D_inBattle_vo\RO1COM089.wav
+
+//        The Separatists have the flag
+..\cw\streams\2D_inBattle_vo\RO1COM090.wav
+
+//        The Republic has dropped the flag
+..\cw\streams\2D_inBattle_vo\RO1COM091.wav
+
+//        The Republic no longer possesses the flag
+..\cw\streams\2D_inBattle_vo\RO1COM092.wav
+
+//        The Separatists have lost the flag!
+..\cw\streams\2D_inBattle_vo\RO1COM093.wav
+
+//        The Separatists no longer have the flag
+..\cw\streams\2D_inBattle_vo\RO1COM094.wav
+
+//    They're losing reinforcements!  Keep it up!
+..\cw\streams\2D_inBattle_vo\RO1COM095.wav
+
+//    Enemy reinforcements are decreasing
+..\cw\streams\2D_inBattle_vo\RO1COM096.wav
+
+//    Hostile reinforcement are being depleted
+..\cw\streams\2D_inBattle_vo\RO1COM097.wav
+
+//    The hero must be allowed to work on their own.
+..\cw\streams\2D_inBattle_vo\RO1COM132.wav
+
+//    Hold formation, men.  The hero works alone.
+..\cw\streams\2D_inBattle_vo\RO1COM133.wav
+
+//    Best if you handle this alone
+..\cw\streams\2D_inBattle_vo\RO1COM134.wav
+
+// ================================================= Space VO ==============================================================
+
+//    All hands to battle stations! Repeat! All hands to battle stations!
+..\cw\streams\spacecombat\RO1COM101.wav
+
+//    Attention! Clear the hanger area! Repeat1Clear the hanger area!
+..\cw\streams\spacecombat\RO1COM102.wav
+
+//    Attention! Victor-Echo-1-2! Coming in! Repeat! Victor-Echo-1-2!
+..\cw\streams\spacecombat\RO1COM103.wav
+
+//    Bomber incoming! Repeat! Bomber incoming!
+..\cw\streams\spacecombat\RO1COM104.wav
+
+//    This is not a drill! Repeat! This is NOT - A - DRILL!
+..\cw\streams\spacecombat\RO1COM105.wav
+
+//    Control to Pilots! Prep your ships for Battle!
+..\cw\streams\spacecombat\RO1COM106.wav
+
+//    Attention! All second stage pilots! On deck!
+..\cw\streams\spacecombat\RO1COM107.wav
+
+
+
+//    I’ve got a Fighter on my 6! 
+..\cw\streams\spacecombat\RI1CPC001.wav
+
+//    My port engine’s out! My port engine’s out!
+..\cw\streams\spacecombat\RI1CPC002.wav
+
+//    Blue Leader, you’ve got bugs on your tail!
+..\cw\streams\spacecombat\RI1CPC003.wav
+
+//    Woohoo!!! That makes 7!
+..\cw\streams\spacecombat\RI1CPC004.wav
+
+//    Nice shot! How many is that?
+..\cw\streams\spacecombat\RI1CPC005.wav
+
+//    Nice shooting!
+..\cw\streams\spacecombat\RI1CPC006.wav
+
+//    I can’t shake this fighter!
+..\cw\streams\spacecombat\RI1CPC007.wav
+
+//    Reinforcements!
+..\cw\streams\spacecombat\RI1CPC008.wav
+
+//    Fighter locked.  This one's mine.
+..\cw\streams\spacecombat\RI1CPC009.wav
+
+//    He's coming around!
+..\cw\streams\spacecombat\RI1CPC010.wav
+
+
+
+
+// ================================================= REP 1 Battle Chatter VO ==============================================================
+
+//    Dark trooper overhead!
+..\cw\streams\Battle_Chatter\RI1COM001.wav
+
+//    Flying trooper!  Ground 'em!
+..\cw\streams\Battle_Chatter\RI1COM002.wav
+
+//    We've got Dark Troopers!
+..\cw\streams\Battle_Chatter\RI1COM003.wav
+
+//    Look to the skies!
+..\cw\streams\Battle_Chatter\RI1COM004.wav
+
+//    Dark Trooper in the sky!
+..\cw\streams\Battle_Chatter\RI1COM005.wav
+
+//    Trooper in the sky!  With Diamonds!
+..\cw\streams\Battle_Chatter\RI1COM006.wav
+
+//    Stormtrooper!
+..\cw\streams\Battle_Chatter\RI1COM007.wav
+
+//    Trooper!
+..\cw\streams\Battle_Chatter\RI1COM008.wav
+
+//    Take down the traitors
+..\cw\streams\Battle_Chatter\RI1COM009.wav
+
+//    Stormtrooper! Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM010.wav
+
+//    Continue the forward assault!
+..\cw\streams\Battle_Chatter\RI1COM011.wav
+
+//    They're flanking us!
+..\cw\streams\Battle_Chatter\RI1COM012.wav
+
+//    Watch your flanks!
+..\cw\streams\Battle_Chatter\RI1COM013.wav
+
+//    Watch your sides
+..\cw\streams\Battle_Chatter\RI1COM014.wav
+
+//    They're coming around
+..\cw\streams\Battle_Chatter\RI1COM015.wav
+
+//    Cut them off!
+..\cw\streams\Battle_Chatter\RI1COM016.wav
+
+//    You've got a clear shot!
+..\cw\streams\Battle_Chatter\RI1COM017.wav
+
+//    Take down that walker!
+..\cw\streams\Battle_Chatter\RI1COM018.wav
+
+//    Stop that walker!
+..\cw\streams\Battle_Chatter\RI1COM019.wav
+
+//    That AT-ST is coming down!
+..\cw\streams\Battle_Chatter\RI1COM020.wav
+
+//    Take the shot now!
+..\cw\streams\Battle_Chatter\RI1COM021.wav
+
+//    AT-ST incoming!
+..\cw\streams\Battle_Chatter\RI1COM022.wav
+
+//    Walker coming this way
+..\cw\streams\Battle_Chatter\RI1COM023.wav
+
+//    They're using walkers!
+..\cw\streams\Battle_Chatter\RI1COM024.wav
+
+//    AT-ST!!  Ready yourself!
+..\cw\streams\Battle_Chatter\RI1COM025.wav
+
+//    AT-ST!!  Go for the weak spot!
+..\cw\streams\Battle_Chatter\RI1COM026.wav
+
+//    AT-ST's?  I thought those were against the rules!
+..\cw\streams\Battle_Chatter\RI1COM027.wav
+
+//    You've got a clear shot!  Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM028.wav
+
+//    Go for the tank!
+..\cw\streams\Battle_Chatter\RI1COM029.wav
+
+//    Stop that tank!
+..\cw\streams\Battle_Chatter\RI1COM030.wav
+
+//    TX-130T!  Take it down!
+..\cw\streams\Battle_Chatter\RI1COM031.wav
+
+//    Take out the tank NOW!
+..\cw\streams\Battle_Chatter\RI1COM032.wav
+
+//    Tank!
+..\cw\streams\Battle_Chatter\RI1COM033.wav
+
+//    We've got TX130T's coming
+..\cw\streams\Battle_Chatter\RI1COM034.wav
+
+//    Engage the TX130T
+..\cw\streams\Battle_Chatter\RI1COM035.wav
+
+//    Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM036.wav
+
+//    They're using tanks!
+..\cw\streams\Battle_Chatter\RI1COM037.wav
+
+//    enemies down!
+..\cw\streams\Battle_Chatter\RI1COM038.wav
+
+//    we're gaining on them!
+..\cw\streams\Battle_Chatter\RI1COM039.wav
+
+//    Good throw!
+..\cw\streams\Battle_Chatter\RI1COM040.wav
+
+//    That's the way it's done
+..\cw\streams\Battle_Chatter\RI1COM041.wav
+
+//    Keep up the assault!
+..\cw\streams\Battle_Chatter\RI1COM042.wav
+
+//    Boom!
+..\cw\streams\Battle_Chatter\RI1COM043.wav
+
+//    we're taking heavy fire!
+..\cw\streams\Battle_Chatter\RI1COM044.wav
+
+//    We're losing ground!
+..\cw\streams\Battle_Chatter\RI1COM045.wav
+
+//    There's too many of them!
+..\cw\streams\Battle_Chatter\RI1COM046.wav
+
+//    We're taking heavy casualties!
+..\cw\streams\Battle_Chatter\RI1COM047.wav
+
+//    We're outnumbered!
+..\cw\streams\Battle_Chatter\RI1COM048.wav
+
+//    Great shooting, Trooper!
+..\cw\streams\Battle_Chatter\RI1COM049.wav
+
+//    Set 'em up and knock them down!
+..\cw\streams\Battle_Chatter\RI1COM050.wav
+
+//    Looks like you got this down!
+..\cw\streams\Battle_Chatter\RI1COM051.wav
+
+//    Yeah! Now you've got it!
+..\cw\streams\Battle_Chatter\RI1COM052.wav
+
+//    Now, that's how it's done!
+..\cw\streams\Battle_Chatter\RI1COM053.wav
+
+//    It's a good thing you're on our side.
+..\cw\streams\Battle_Chatter\RI1COM054.wav
+
+//    I've lost count!  How many does that make?
+..\cw\streams\Battle_Chatter\RI1COM055.wav
+
+//    They just don't learn, do they?
+..\cw\streams\Battle_Chatter\RI1COM056.wav
+
+//    Man, You're on fire!
+..\cw\streams\Battle_Chatter\RI1COM057.wav
+
+//    Keep going! Keep going!
+..\cw\streams\Battle_Chatter\RI1COM058.wav
+
+//    Good shot!
+..\cw\streams\Battle_Chatter\RI1COM059.wav
+
+//    1 shot, 1 kill
+..\cw\streams\Battle_Chatter\RI1COM060.wav
+
+//    Just like the simulation
+..\cw\streams\Battle_Chatter\RI1COM061.wav
+
+//    Efficient.
+..\cw\streams\Battle_Chatter\RI1COM062.wav
+
+//    Bullseye!
+..\cw\streams\Battle_Chatter\RI1COM063.wav
+
+//    Buh-bye
+..\cw\streams\Battle_Chatter\RI1COM064.wav
+
+//    Grenade! Grenade!
+..\cw\streams\Battle_Chatter\RI1COM065.wav
+
+//    Grenade!  Take cover!
+..\cw\streams\Battle_Chatter\RI1COM066.wav
+
+//    Grenade! Get down!
+..\cw\streams\Battle_Chatter\RI1COM067.wav
+
+//    Incoming!
+..\cw\streams\Battle_Chatter\RI1COM068.wav
+
+//    Grenade!
+..\cw\streams\Battle_Chatter\RI1COM069.wav
+
+//    Take cover!
+..\cw\streams\Battle_Chatter\RI1COM071.wav
+
+//    Look out!
+..\cw\streams\Battle_Chatter\RI1COM072.wav
+
+//    Get down!
+..\cw\streams\Battle_Chatter\RI1COM073.wav
+
+//    Rocket!
+..\cw\streams\Battle_Chatter\RI1COM074.wav
+
+//    Sniper! Sniper!
+..\cw\streams\Battle_Chatter\RI1COM075.wav
+
+//    Sniper!  Get down!
+..\cw\streams\Battle_Chatter\RI1COM076.wav
+
+//    Sniper fire!
+..\cw\streams\Battle_Chatter\RI1COM077.wav
+
+//    We've got a sniper!
+..\cw\streams\Battle_Chatter\RI1COM078.wav
+
+//    Take out that sniper!
+..\cw\streams\Battle_Chatter\RI1COM079.wav
+
+//    Check your fire!
+..\cw\streams\Battle_Chatter\RI1COM080.wav
+
+//    Knock it off!
+..\cw\streams\Battle_Chatter\RI1COM081.wav
+
+//    Friendly Fire!
+..\cw\streams\Battle_Chatter\RI1COM082.wav
+
+//    Clone, watch your fire!
+..\cw\streams\Battle_Chatter\RI1COM083.wav
+
+//    Save it for the enemy!
+..\cw\streams\Battle_Chatter\RI1COM084.wav
+
+//    Ow, was it something I said?
+..\cw\streams\Battle_Chatter\RI1COM085.wav
+
+//    Incoming!
+..\cw\streams\Battle_Chatter\RI1COM086.wav
+
+//    And don't get up!
+..\cw\streams\Battle_Chatter\RI1COM087.wav
+
+//    YEAH!  YEAH!
+..\cw\streams\Battle_Chatter\RI1COM088.wav
+
+//    That's RIGHT!
+..\cw\streams\Battle_Chatter\RI1COM089.wav
+
+//    How does that FEEL!?
+..\cw\streams\Battle_Chatter\RI1COM090.wav
+
+//    Not so tough now!!
+..\cw\streams\Battle_Chatter\RI1COM091.wav
+
+//    And this is what we call a 'double tap'
+..\cw\streams\Battle_Chatter\RI1COM092.wav
+
+//    Stop looking at me!
+..\cw\streams\Battle_Chatter\RI1COM093.wav
+
+//    Heal up, soldier
+..\cw\streams\Battle_Chatter\RI1COM094.wav
+
+//    Power up, trooper
+..\cw\streams\Battle_Chatter\RI1COM095.wav
+
+//    ammo.  Health.
+..\cw\streams\Battle_Chatter\RI1COM096.wav
+
+//    Looks like you could use some supplies
+..\cw\streams\Battle_Chatter\RI1COM097.wav
+
+//    Try not to waste this, soldier
+..\cw\streams\Battle_Chatter\RI1COM098.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM099.wav
+
+//    I'm hit!
+..\cw\streams\Battle_Chatter\RI1COM100.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM101.wav
+
+//    Medic!
+..\cw\streams\Battle_Chatter\RI1COM102.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM103.wav
+
+//    scream like girl
+..\cw\streams\Battle_Chatter\RI1COM104.wav
+
+//    Take out that turret!
+..\cw\streams\Battle_Chatter\RI1COM125.wav
+
+//    Turrets!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM126.wav
+
+//    Destroy that turret!
+..\cw\streams\Battle_Chatter\RI1COM127.wav
+
+//    Watch for turrets!
+..\cw\streams\Battle_Chatter\RI1COM128.wav
+
+//    Mark that turret!
+..\cw\streams\Battle_Chatter\RI1COM129.wav
+
+//    We've got droidekas
+..\cw\streams\Battle_Chatter\RI1COM130.wav
+
+//    Take out that destroyer droid!
+..\cw\streams\Battle_Chatter\RI1COM131.wav
+
+//    Droideka!  Take 'em out!
+..\cw\streams\Battle_Chatter\RI1COM132.wav
+
+//    Destroyer Droid!  Watch yourself!
+..\cw\streams\Battle_Chatter\RI1COM133.wav
+
+//    Droideka!
+..\cw\streams\Battle_Chatter\RI1COM134.wav
+
+//    Battledroids!
+..\cw\streams\Battle_Chatter\RI1COM135.wav
+
+//    Battledroid!  Knock him down!
+..\cw\streams\Battle_Chatter\RI1COM136.wav
+
+//    Take out that Battledroid!
+..\cw\streams\Battle_Chatter\RI1COM137.wav
+
+//    Battledroid!  I'm on 'em
+..\cw\streams\Battle_Chatter\RI1COM138.wav
+
+//    We've got droids!
+..\cw\streams\Battle_Chatter\RI1COM139.wav
+
+//    Super Battledroid!  Take him down!
+..\cw\streams\Battle_Chatter\RI1COM140.wav
+
+//    They've sent in the Supers!
+..\cw\streams\Battle_Chatter\RI1COM141.wav
+
+//    Watch those wrist rockets!
+..\cw\streams\Battle_Chatter\RI1COM142.wav
+
+//    The bigger they are, the harder they fall
+..\cw\streams\Battle_Chatter\RI1COM143.wav
+
+//    Take out that Super!
+..\cw\streams\Battle_Chatter\RI1COM144.wav
+
+//    Frellin' heck, it's a Super!
+..\cw\streams\Battle_Chatter\RI1COM145.wav
+
+//    We've got STAP's
+..\cw\streams\Battle_Chatter\RI1COM146.wav
+
+//    Swat down that gnat!
+..\cw\streams\Battle_Chatter\RI1COM147.wav
+
+//    Someone take out that buzzer!
+..\cw\streams\Battle_Chatter\RI1COM148.wav
+
+//    Take down that STAP!
+..\cw\streams\Battle_Chatter\RI1COM149.wav
+
+//    STAP! Take him out!
+..\cw\streams\Battle_Chatter\RI1COM150.wav
+
+//    Tank!
+..\cw\streams\Battle_Chatter\RI1COM151.wav
+
+//    We've got AAT's coming
+..\cw\streams\Battle_Chatter\RI1COM152.wav
+
+//    Engage the AAT
+..\cw\streams\Battle_Chatter\RI1COM153.wav
+
+//    Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM154.wav
+
+//    Eliminate the AAT
+..\cw\streams\Battle_Chatter\RI1COM155.wav
+
+//    You've got a clear shot!  Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM156.wav
+
+//    Stop wasting time, and take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM157.wav
+
+//    Stop that tank!
+..\cw\streams\Battle_Chatter\RI1COM158.wav
+
+//    TX-130T!  Take it down!
+..\cw\streams\Battle_Chatter\RI1COM159.wav
+
+//    Take out that AAT NOW!
+..\cw\streams\Battle_Chatter\RI1COM160.wav
+
+//    Hailfire Droid!
+..\cw\streams\Battle_Chatter\RI1COM161.wav
+
+//    They've sent in the Rollers!
+..\cw\streams\Battle_Chatter\RI1COM162.wav
+
+//    Hailfire!  Watch for missiles
+..\cw\streams\Battle_Chatter\RI1COM163.wav
+
+//    Take out that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM164.wav
+
+//    Concentrate on that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM165.wav
+
+//    Take down that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM166.wav
+
+//    You've got a clear shot at that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM167.wav
+
+//    You've got 'em!
+..\cw\streams\Battle_Chatter\RI1COM168.wav
+
+//    That Hailfire is going down!
+..\cw\streams\Battle_Chatter\RI1COM169.wav
+
+//    Hailfire!  Take the shot!
+..\cw\streams\Battle_Chatter\RI1COM170.wav
+
+//    Target that Spider Droid
+..\cw\streams\Battle_Chatter\RI1COM171.wav
+
+//    We've got Spider Droids
+..\cw\streams\Battle_Chatter\RI1COM172.wav
+
+//    They're using Spiders!
+..\cw\streams\Battle_Chatter\RI1COM173.wav
+
+//    Take down that Spider Droid
+..\cw\streams\Battle_Chatter\RI1COM174.wav
+
+//    Spider!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM175.wav
+
+//    Spider Droid!  Take the shot!
+..\cw\streams\Battle_Chatter\RI1COM176.wav
+
+//    You've got a clear shot!  Take down that Spider!
+..\cw\streams\Battle_Chatter\RI1COM177.wav
+
+//    Exterminate that Spider!
+..\cw\streams\Battle_Chatter\RI1COM178.wav
+
+//    That spider is going down!
+..\cw\streams\Battle_Chatter\RI1COM179.wav
+
+//    Time to cook a spider!
+..\cw\streams\Battle_Chatter\RI1COM180.wav
+
+//    Darth Vader!!
+..\cw\streams\Battle_Chatter\RI1COM181.wav
+
+//    Vader! Let's take him out!
+..\cw\streams\Battle_Chatter\RI1COM182.wav
+
+//    Watch that lightsaber!
+..\cw\streams\Battle_Chatter\RI1COM183.wav
+
+//    Vader!!
+..\cw\streams\Battle_Chatter\RI1COM184.wav
+
+//    Don't let Vader out of your sight!
+..\cw\streams\Battle_Chatter\RI1COM185.wav
+
+//    Everyone fire on the wheeezing guy!
+..\cw\streams\Battle_Chatter\RI1COM186.wav
+
+//    Boba Fett!!
+..\cw\streams\Battle_Chatter\RI1COM187.wav
+
+//    Boba Fett?  This won't end well...
+..\cw\streams\Battle_Chatter\RI1COM188.wav
+
+//    Take down Fett!
+..\cw\streams\Battle_Chatter\RI1COM189.wav
+
+//    Man, he's fast!
+..\cw\streams\Battle_Chatter\RI1COM190.wav
+
+//    Watch those blasters!
+..\cw\streams\Battle_Chatter\RI1COM191.wav
+
+//    Boba Fett?  Cripes, that kid grew up faster than we did!
+..\cw\streams\Battle_Chatter\RI1COM192.wav
+
+//    There's the Emperor!
+..\cw\streams\Battle_Chatter\RI1COM193.wav
+
+//    After Palpatine!
+..\cw\streams\Battle_Chatter\RI1COM194.wav
+
+//    Take down the emperor!
+..\cw\streams\Battle_Chatter\RI1COM195.wav
+
+//    Surround Palpatine!
+..\cw\streams\Battle_Chatter\RI1COM196.wav
+
+//    There's Palpatine!  Take him down!
+..\cw\streams\Battle_Chatter\RI1COM197.wav
+
+//    The Emperor's joined the fray. Take him out!
+..\cw\streams\Battle_Chatter\RI1COM198.wav
+
+//    What's the Emperor doing here?  On second thought, who cares?  Kill him.
+..\cw\streams\Battle_Chatter\RI1COM199.wav
+
+//    There's a Royal Guardsman on the loose!  Get 'im!
+..\cw\streams\Battle_Chatter\RI1COM200.wav
+
+//    One of Palpatine's elites!
+..\cw\streams\Battle_Chatter\RI1COM201.wav
+
+//    After the red guy!
+..\cw\streams\Battle_Chatter\RI1COM202.wav
+
+//    Take out the guard!
+..\cw\streams\Battle_Chatter\RI1COM203.wav
+
+//    That Guardsman's as good as dead!
+..\cw\streams\Battle_Chatter\RI1COM204.wav
+
+//    Everyone target the bright red armor!
+..\cw\streams\Battle_Chatter\RI1COM205.wav
+
+//    Take down the bounty hunter!
+..\cw\streams\Battle_Chatter\RI1COM206.wav
+
+//    It's Jango! Watch those blasters!
+..\cw\streams\Battle_Chatter\RI1COM207.wav
+
+//    Jango Fett!
+..\cw\streams\Battle_Chatter\RI1COM208.wav
+
+//    Focus your fire on Jango!
+..\cw\streams\Battle_Chatter\RI1COM209.wav
+
+//    Jango's here!  Watch yourself!
+..\cw\streams\Battle_Chatter\RI1COM210.wav
+
+//    Jango Fett's here, and he's brought his head!
+..\cw\streams\Battle_Chatter\RI1COM211.wav
+
+//    General Grievous is here!  Watch out for the arms!
+..\cw\streams\Battle_Chatter\RI1COM212.wav
+
+//    General Grievous!
+..\cw\streams\Battle_Chatter\RI1COM213.wav
+
+//    Surround Grievous!  Hit him from all sides!
+..\cw\streams\Battle_Chatter\RI1COM214.wav
+
+//    Watch out for Grievous!
+..\cw\streams\Battle_Chatter\RI1COM215.wav
+
+//    Take out Grievous!
+..\cw\streams\Battle_Chatter\RI1COM216.wav
+
+//    Look out, I'ts Major Malevolence, er, um General Grievous...
+..\cw\streams\Battle_Chatter\RI1COM217.wav
+
+//    Darth Maul!!
+..\cw\streams\Battle_Chatter\RI1COM218.wav
+
+//    Watch that dual blade!
+..\cw\streams\Battle_Chatter\RI1COM219.wav
+
+//    It's Maul!  Stay back!
+..\cw\streams\Battle_Chatter\RI1COM220.wav
+
+//    He can't take us all down!
+..\cw\streams\Battle_Chatter\RI1COM221.wav
+
+//    Darth Maul!  Flank him!
+..\cw\streams\Battle_Chatter\RI1COM222.wav
+
+//    Darth Maul?  What's he gonna do, BLEED all over us?
+..\cw\streams\Battle_Chatter\RI1COM223.wav
+
+//    Take down the traitor!
+..\cw\streams\Battle_Chatter\RI1COM224.wav
+
+//    There's Dooku!  After him!
+..\cw\streams\Battle_Chatter\RI1COM225.wav
+
+//    Count Dooku!
+..\cw\streams\Battle_Chatter\RI1COM226.wav
+
+//    Dooku!  Careful of his blades!
+..\cw\streams\Battle_Chatter\RI1COM227.wav
+
+//    Get Dooku!
+..\cw\streams\Battle_Chatter\RI1COM228.wav
+
+//    It's Dooku!  Look out, he's deceptively spry!
+..\cw\streams\Battle_Chatter\RI1COM229.wav
+
+//    Surround the Jedi!
+..\cw\streams\Battle_Chatter\RI1COM230.wav
+
+//    Take down the Jedi!
+..\cw\streams\Battle_Chatter\RI1COM231.wav
+
+//    Flank the jedi and take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM232.wav
+
+//    Watch out for those lightsabers!
+..\cw\streams\Battle_Chatter\RI1COM233.wav
+
+//    Don't let the jedi get too close!
+..\cw\streams\Battle_Chatter\RI1COM234.wav
+
+//    Yousa goin' down!
+..\cw\streams\Battle_Chatter\RI1COM235.wav
+
+//    Gungans!
+..\cw\streams\Battle_Chatter\RI1COM236.wav
+
+//    Pick off that Gungan!
+..\cw\streams\Battle_Chatter\RI1COM237.wav
+
+//    Gungan!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM238.wav
+
+//    After that Gungan!
+..\cw\streams\Battle_Chatter\RI1COM239.wav
+
+//    Shoot a gungan and watch 'em flop!
+..\cw\streams\Battle_Chatter\RI1COM240.wav
+
+//    Focus your weapons on the Naboo!
+..\cw\streams\Battle_Chatter\RI1COM241.wav
+
+//    Take down the Naboo Guard!
+..\cw\streams\Battle_Chatter\RI1COM242.wav
+
+//    Naboo Guard!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM243.wav
+
+//    Take out that guard!
+..\cw\streams\Battle_Chatter\RI1COM244.wav
+
+//    They're not so tough! Take down that guard!
+..\cw\streams\Battle_Chatter\RI1COM245.wav
+
+//    Charge!!!
+..\cw\streams\Battle_Chatter\RI1COM246.wav
+
+//    aaaaggghh! (charge yell)
+..\cw\streams\Battle_Chatter\RI1COM247.wav
+
+//    aaaaggghh! (charge yell)
+..\cw\streams\Battle_Chatter\RI1COM248.wav
+
+//    This does not look good!
+..\cw\streams\Battle_Chatter\RI1COM249.wav
+
+//    Nooooo!
+..\cw\streams\Battle_Chatter\RI1COM250.wav
+
+//    Aaaaggghh! (going to die)
+..\cw\streams\Battle_Chatter\RI1COM251.wav
+
+//    Oh no...
+..\cw\streams\Battle_Chatter\RI1COM252.wav
+
+//    hold on! I need to fix that vehicle!
+..\cw\streams\Battle_Chatter\RI1COM253.wav
+
+//    Let me take a look at that vehicle...
+..\cw\streams\Battle_Chatter\RI1COM254.wav
+
+//    Repairing vehicle
+..\cw\streams\Battle_Chatter\RI1COM255.wav
+
+//    Go! Go! Go!
+..\cw\streams\Battle_Chatter\RI1COM256.wav
+
+//    Okay, vehicle's a go!
+..\cw\streams\Battle_Chatter\RI1COM257.wav
+
+//    Finished with repairs.  Vehicle's a go!
+..\cw\streams\Battle_Chatter\RI1COM258.wav
+
+//    this turret needs fixing
+..\cw\streams\Battle_Chatter\RI1COM259.wav
+
+//    I'll fix this turret up right.
+..\cw\streams\Battle_Chatter\RI1COM260.wav
+
+//    Fixing turret
+..\cw\streams\Battle_Chatter\RI1COM261.wav
+
+//    turret is ready to go
+..\cw\streams\Battle_Chatter\RI1COM262.wav
+
+//    Turret is 100% operational
+..\cw\streams\Battle_Chatter\RI1COM263.wav
+
+//    repairs complete
+..\cw\streams\Battle_Chatter\RI1COM264.wav
+
+//    For the Republic!
+..\cw\streams\Battle_Chatter\RI1COM270.wav
+
+//    For the Chancellor!
+..\cw\streams\Battle_Chatter\RI1COM271.wav
+
+//    umph!
+..\cw\streams\Battle_Chatter\RI1COM272.wav
+
+//    Angh!
+..\cw\streams\Battle_Chatter\RI1COM273.wav
+
+//    Ahh!
+..\cw\streams\Battle_Chatter\RI1COM274.wav
+
+//    **grunt**
+..\cw\streams\Battle_Chatter\RI1COM275.wav
+
+//    **groan**
+..\cw\streams\Battle_Chatter\RI1COM276.wav
+
+//    Dark trooper overhead!
+..\cw\streams\Battle_Chatter\RI1COM278.wav
+
+//    Flying trooper!  Ground 'em!
+..\cw\streams\Battle_Chatter\RI1COM279.wav
+
+//    We've got Dark Troopers!
+..\cw\streams\Battle_Chatter\RI1COM280.wav
+
+//    Look to the skies!
+..\cw\streams\Battle_Chatter\RI1COM281.wav
+
+//    Dark Trooper in the sky!
+..\cw\streams\Battle_Chatter\RI1COM282.wav
+
+//    Trooper in the sky!  With Diamonds!
+..\cw\streams\Battle_Chatter\RI1COM283.wav
+
+//    Stormtrooper!
+..\cw\streams\Battle_Chatter\RI1COM284.wav
+
+//    Trooper!
+..\cw\streams\Battle_Chatter\RI1COM285.wav
+
+//    Take down the traitors
+..\cw\streams\Battle_Chatter\RI1COM286.wav
+
+//    Stormtrooper! Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM287.wav
+
+//    Continue the forward assault!
+..\cw\streams\Battle_Chatter\RI1COM288.wav
+
+//    They're flanking us!
+..\cw\streams\Battle_Chatter\RI1COM289.wav
+
+//    Watch your flanks!
+..\cw\streams\Battle_Chatter\RI1COM290.wav
+
+//    Watch your sides
+..\cw\streams\Battle_Chatter\RI1COM291.wav
+
+//    They're coming around
+..\cw\streams\Battle_Chatter\RI1COM292.wav
+
+//    Cut them off!
+..\cw\streams\Battle_Chatter\RI1COM293.wav
+
+//    You've got a clear shot!
+..\cw\streams\Battle_Chatter\RI1COM294.wav
+
+//    Take down that walker!
+..\cw\streams\Battle_Chatter\RI1COM295.wav
+
+//    Stop that walker!
+..\cw\streams\Battle_Chatter\RI1COM296.wav
+
+//    That AT-ST is coming down!
+..\cw\streams\Battle_Chatter\RI1COM297.wav
+
+//    Take the shot now!
+..\cw\streams\Battle_Chatter\RI1COM298.wav
+
+//    AT-ST incoming!
+..\cw\streams\Battle_Chatter\RI1COM299.wav
+
+//    Walker coming this way
+..\cw\streams\Battle_Chatter\RI1COM300.wav
+
+//    They're using walkers!
+..\cw\streams\Battle_Chatter\RI1COM301.wav
+
+//    AT-ST!!  Ready yourself!
+..\cw\streams\Battle_Chatter\RI1COM302.wav
+
+//    AT-ST!!  Go for the weak spot!
+..\cw\streams\Battle_Chatter\RI1COM303.wav
+
+//    AT-ST's?  I thought those were against the rules!
+..\cw\streams\Battle_Chatter\RI1COM304.wav
+
+//    You've got a clear shot!  Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM305.wav
+
+//    Go for the tank!
+..\cw\streams\Battle_Chatter\RI1COM306.wav
+
+//    Stop that tank!
+..\cw\streams\Battle_Chatter\RI1COM307.wav
+
+//    TX-130T!  Take it down!
+..\cw\streams\Battle_Chatter\RI1COM308.wav
+
+//    Take out the tank NOW!
+..\cw\streams\Battle_Chatter\RI1COM309.wav
+
+//    Tank!
+..\cw\streams\Battle_Chatter\RI1COM310.wav
+
+//    We've got TX130T's coming
+..\cw\streams\Battle_Chatter\RI1COM311.wav
+
+//    Engage the TX130T
+..\cw\streams\Battle_Chatter\RI1COM312.wav
+
+//    Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM313.wav
+
+//    They're using tanks!
+..\cw\streams\Battle_Chatter\RI1COM314.wav
+
+//    Take out that Interceptor!
+..\cw\streams\Battle_Chatter\RI1COM315.wav
+
+//    We've got Interceptors
+..\cw\streams\Battle_Chatter\RI1COM316.wav
+
+//    TIE Interceptor, incoming!
+..\cw\streams\Battle_Chatter\RI1COM317.wav
+
+//    Interceptor!  Take 'em out!
+..\cw\streams\Battle_Chatter\RI1COM318.wav
+
+//    Take down that Interceptor!
+..\cw\streams\Battle_Chatter\RI1COM319.wav
+
+//    You've got an interceptor on your tail!
+..\cw\streams\Battle_Chatter\RI1COM320.wav
+
+//    TIE Interceptor! Behind you!
+..\cw\streams\Battle_Chatter\RI1COM321.wav
+
+//    Interceptor on your six!
+..\cw\streams\Battle_Chatter\RI1COM322.wav
+
+//    Shake that Interceptor!
+..\cw\streams\Battle_Chatter\RI1COM323.wav
+
+//    You've got a Tie Interceptor chasing you!
+..\cw\streams\Battle_Chatter\RI1COM324.wav
+
+//    Take down that bomber!
+..\cw\streams\Battle_Chatter\RI1COM325.wav
+
+//    TIE Bomber!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM326.wav
+
+//    Finish off that bomber!
+..\cw\streams\Battle_Chatter\RI1COM327.wav
+
+//    Take out that bomber!
+..\cw\streams\Battle_Chatter\RI1COM328.wav
+
+//    Chase down that bomber!
+..\cw\streams\Battle_Chatter\RI1COM329.wav
+
+//    TIE Bomber, on your tail!
+..\cw\streams\Battle_Chatter\RI1COM330.wav
+
+//    You've picked up a bomber!
+..\cw\streams\Battle_Chatter\RI1COM331.wav
+
+//    You've got a Bomber on your back
+..\cw\streams\Battle_Chatter\RI1COM332.wav
+
+//    TIE Bomber, behind.  Take evasive action!
+..\cw\streams\Battle_Chatter\RI1COM333.wav
+
+//    Bomber, right behind you!
+..\cw\streams\Battle_Chatter\RI1COM334.wav
+
+//    Take out that fighter!
+..\cw\streams\Battle_Chatter\RI1COM335.wav
+
+//    TIE Fighter!  Chase him down!
+..\cw\streams\Battle_Chatter\RI1COM336.wav
+
+//    TIE Fighter!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM337.wav
+
+//    We've got Fighters!
+..\cw\streams\Battle_Chatter\RI1COM338.wav
+
+//    Engage that Fighter!
+..\cw\streams\Battle_Chatter\RI1COM339.wav
+
+//    Tie Fighter on your tail!
+..\cw\streams\Battle_Chatter\RI1COM340.wav
+
+//    TIE Figher, sneaking up behind you!
+..\cw\streams\Battle_Chatter\RI1COM341.wav
+
+//    You've picked up a Fighter!
+..\cw\streams\Battle_Chatter\RI1COM342.wav
+
+//    You've got a fighter on your tail!
+..\cw\streams\Battle_Chatter\RI1COM343.wav
+
+//    TIE Fighter!  Behind!
+..\cw\streams\Battle_Chatter\RI1COM344.wav
+
+//    Take out that landing party!
+..\cw\streams\Battle_Chatter\RI1COM345.wav
+
+//    They're trying to land their troops!
+..\cw\streams\Battle_Chatter\RI1COM346.wav
+
+//    Don't let that Imperial Shuttle land!
+..\cw\streams\Battle_Chatter\RI1COM347.wav
+
+//    Take down that shuttle!
+..\cw\streams\Battle_Chatter\RI1COM348.wav
+
+//    Imperial Shuttle!  Take it out!
+..\cw\streams\Battle_Chatter\RI1COM349.wav
+
+//    enemies down!
+..\cw\streams\Battle_Chatter\RI1COM350.wav
+
+//    we're gaining on them!
+..\cw\streams\Battle_Chatter\RI1COM351.wav
+
+//    Good throw!
+..\cw\streams\Battle_Chatter\RI1COM352.wav
+
+//    That's the way it's done
+..\cw\streams\Battle_Chatter\RI1COM353.wav
+
+//    Keep up the assault!
+..\cw\streams\Battle_Chatter\RI1COM354.wav
+
+//    Boom!
+..\cw\streams\Battle_Chatter\RI1COM355.wav
+
+//    we're taking heavy fire!
+..\cw\streams\Battle_Chatter\RI1COM356.wav
+
+//    We're losing ground!
+..\cw\streams\Battle_Chatter\RI1COM357.wav
+
+//    There's too many of them!
+..\cw\streams\Battle_Chatter\RI1COM358.wav
+
+//    We're taking heavy casualties!
+..\cw\streams\Battle_Chatter\RI1COM359.wav
+
+//    We're outnumbered!
+..\cw\streams\Battle_Chatter\RI1COM360.wav
+
+//    Great shooting, Trooper!
+..\cw\streams\Battle_Chatter\RI1COM361.wav
+
+//    Set 'em up and knock them down!
+..\cw\streams\Battle_Chatter\RI1COM362.wav
+
+//    Looks like you got this down!
+..\cw\streams\Battle_Chatter\RI1COM363.wav
+
+//    Yeah! Now you've got it!
+..\cw\streams\Battle_Chatter\RI1COM364.wav
+
+//    Now, that's how it's done!
+..\cw\streams\Battle_Chatter\RI1COM365.wav
+
+//    It's a good thing you're on our side.
+..\cw\streams\Battle_Chatter\RI1COM366.wav
+
+//    I've lost count!  How many does that make?
+..\cw\streams\Battle_Chatter\RI1COM367.wav
+
+//    They just don't learn, do they?
+..\cw\streams\Battle_Chatter\RI1COM368.wav
+
+//    Man, You're on fire!
+..\cw\streams\Battle_Chatter\RI1COM369.wav
+
+//    Keep going! Keep going!
+..\cw\streams\Battle_Chatter\RI1COM370.wav
+
+//    Good shot!
+..\cw\streams\Battle_Chatter\RI1COM371.wav
+
+//    1 shot, 1 kill
+..\cw\streams\Battle_Chatter\RI1COM372.wav
+
+//    Just like the simulation
+..\cw\streams\Battle_Chatter\RI1COM373.wav
+
+//    Efficient.
+..\cw\streams\Battle_Chatter\RI1COM374.wav
+
+//    Bullseye!
+..\cw\streams\Battle_Chatter\RI1COM375.wav
+
+//    Buh-bye
+..\cw\streams\Battle_Chatter\RI1COM376.wav
+
+//    Grenade! Grenade!
+..\cw\streams\Battle_Chatter\RI1COM377.wav
+
+//    Grenade!  Take cover!
+..\cw\streams\Battle_Chatter\RI1COM378.wav
+
+//    Grenade! Get down!
+..\cw\streams\Battle_Chatter\RI1COM379.wav
+
+//    Incoming!
+..\cw\streams\Battle_Chatter\RI1COM380.wav
+
+//    Grenade!
+..\cw\streams\Battle_Chatter\RI1COM381.wav
+
+//    Take cover!
+..\cw\streams\Battle_Chatter\RI1COM382.wav
+
+//    Look out!
+..\cw\streams\Battle_Chatter\RI1COM383.wav
+
+//    Get down!
+..\cw\streams\Battle_Chatter\RI1COM384.wav
+
+//    Rocket!
+..\cw\streams\Battle_Chatter\RI1COM385.wav
+
+//    Sniper! Sniper!
+..\cw\streams\Battle_Chatter\RI1COM386.wav
+
+//    Sniper!  Get down!
+..\cw\streams\Battle_Chatter\RI1COM387.wav
+
+//    Sniper fire!
+..\cw\streams\Battle_Chatter\RI1COM388.wav
+
+//    We've got a sniper!
+..\cw\streams\Battle_Chatter\RI1COM389.wav
+
+//    Take out that sniper!
+..\cw\streams\Battle_Chatter\RI1COM390.wav
+
+//    Check your fire!
+..\cw\streams\Battle_Chatter\RI1COM391.wav
+
+//    Knock it off!
+..\cw\streams\Battle_Chatter\RI1COM392.wav
+
+//    Friendly Fire!
+..\cw\streams\Battle_Chatter\RI1COM393.wav
+
+//    Watch your fire!
+..\cw\streams\Battle_Chatter\RI1COM394.wav
+
+//    Save it for the enemy!
+..\cw\streams\Battle_Chatter\RI1COM395.wav
+
+//    Ow, was it something I said?
+..\cw\streams\Battle_Chatter\RI1COM396.wav
+
+//    Watch your fire, you stupid clone!
+..\cw\streams\Battle_Chatter\RI1COM397.wav
+
+//    And don't get up!
+..\cw\streams\Battle_Chatter\RI1COM398.wav
+
+//    YEAH!  YEAH!
+..\cw\streams\Battle_Chatter\RI1COM399.wav
+
+//    That's RIGHT!
+..\cw\streams\Battle_Chatter\RI1COM400.wav
+
+//    How does that FEEL!?
+..\cw\streams\Battle_Chatter\RI1COM401.wav
+
+//    Not so tough now!!
+..\cw\streams\Battle_Chatter\RI1COM402.wav
+
+//    And this is what we call a 'double tap'
+..\cw\streams\Battle_Chatter\RI1COM403.wav
+
+//    Stop looking at me!
+..\cw\streams\Battle_Chatter\RI1COM404.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM405.wav
+
+//    I'm hit!
+..\cw\streams\Battle_Chatter\RI1COM406.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM407.wav
+
+//    Medic!
+..\cw\streams\Battle_Chatter\RI1COM408.wav
+
+//    Arrrrrggghhh!
+..\cw\streams\Battle_Chatter\RI1COM409.wav
+
+//    scream like girl
+..\cw\streams\Battle_Chatter\RI1COM410.wav
+
+//    Take out that turret!
+..\cw\streams\Battle_Chatter\RI1COM411.wav
+
+//    Turrets!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM412.wav
+
+//    Destroy that turret!
+..\cw\streams\Battle_Chatter\RI1COM413.wav
+
+//    Watch for turrets!
+..\cw\streams\Battle_Chatter\RI1COM414.wav
+
+//    Mark that turret!
+..\cw\streams\Battle_Chatter\RI1COM415.wav
+
+//    We've got droidekas
+..\cw\streams\Battle_Chatter\RI1COM416.wav
+
+//    Take out that destroyer droid!
+..\cw\streams\Battle_Chatter\RI1COM417.wav
+
+//    Droideka!  Take 'em out!
+..\cw\streams\Battle_Chatter\RI1COM418.wav
+
+//    Destroyer Droid!  Watch yourself!
+..\cw\streams\Battle_Chatter\RI1COM419.wav
+
+//    Droideka!
+..\cw\streams\Battle_Chatter\RI1COM420.wav
+
+//    Battledroids!
+..\cw\streams\Battle_Chatter\RI1COM421.wav
+
+//    Battledroid!  Knock him down!
+..\cw\streams\Battle_Chatter\RI1COM422.wav
+
+//    Take out that Battledroid!
+..\cw\streams\Battle_Chatter\RI1COM423.wav
+
+//    Battledroid!  I'm on 'em
+..\cw\streams\Battle_Chatter\RI1COM424.wav
+
+//    We've got droids!
+..\cw\streams\Battle_Chatter\RI1COM425.wav
+
+//    Super Battledroid!  Take him down!
+..\cw\streams\Battle_Chatter\RI1COM426.wav
+
+//    They've sent in the Supers!
+..\cw\streams\Battle_Chatter\RI1COM427.wav
+
+//    Watch those wrist rockets!
+..\cw\streams\Battle_Chatter\RI1COM428.wav
+
+//    The bigger they are, the harder they fall
+..\cw\streams\Battle_Chatter\RI1COM429.wav
+
+//    Take out that Super!
+..\cw\streams\Battle_Chatter\RI1COM430.wav
+
+//    Frellin' heck, it's a Super!
+..\cw\streams\Battle_Chatter\RI1COM431.wav
+
+//    We've got STAP's
+..\cw\streams\Battle_Chatter\RI1COM432.wav
+
+//    Swat down that gnat!
+..\cw\streams\Battle_Chatter\RI1COM433.wav
+
+//    Someone take out that buzzer!
+..\cw\streams\Battle_Chatter\RI1COM434.wav
+
+//    Take down that STAP!
+..\cw\streams\Battle_Chatter\RI1COM435.wav
+
+//    STAP! Take him out!
+..\cw\streams\Battle_Chatter\RI1COM436.wav
+
+//    Tank!
+..\cw\streams\Battle_Chatter\RI1COM437.wav
+
+//    We've got AAT's coming
+..\cw\streams\Battle_Chatter\RI1COM438.wav
+
+//    Engage the AAT
+..\cw\streams\Battle_Chatter\RI1COM439.wav
+
+//    Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM440.wav
+
+//    Eliminate the AAT
+..\cw\streams\Battle_Chatter\RI1COM441.wav
+
+//    You've got a clear shot!  Take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM442.wav
+
+//    Stop wasting time, and take out that tank!
+..\cw\streams\Battle_Chatter\RI1COM443.wav
+
+//    Stop that tank!
+..\cw\streams\Battle_Chatter\RI1COM444.wav
+
+//    TX-130T!  Take it down!
+..\cw\streams\Battle_Chatter\RI1COM445.wav
+
+//    Take out that AAT NOW!
+..\cw\streams\Battle_Chatter\RI1COM446.wav
+
+//    Hailfire Droid!
+..\cw\streams\Battle_Chatter\RI1COM447.wav
+
+//    They've sent in the Rollers!
+..\cw\streams\Battle_Chatter\RI1COM448.wav
+
+//    Hailfire!  Watch for missiles
+..\cw\streams\Battle_Chatter\RI1COM449.wav
+
+//    Take out that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM450.wav
+
+//    Concentrate on that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM451.wav
+
+//    Take down that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM452.wav
+
+//    You've got a clear shot at that Hailfire!
+..\cw\streams\Battle_Chatter\RI1COM453.wav
+
+//    You've got 'em!
+..\cw\streams\Battle_Chatter\RI1COM454.wav
+
+//    That Hailfire is going down!
+..\cw\streams\Battle_Chatter\RI1COM455.wav
+
+//    Hailfire!  Take the shot!
+..\cw\streams\Battle_Chatter\RI1COM456.wav
+
+//    Target that Spider Droid
+..\cw\streams\Battle_Chatter\RI1COM457.wav
+
+//    We've got Spider Droids
+..\cw\streams\Battle_Chatter\RI1COM458.wav
+
+//    They're using Spiders!
+..\cw\streams\Battle_Chatter\RI1COM459.wav
+
+//    Take down that Spider Droid
+..\cw\streams\Battle_Chatter\RI1COM460.wav
+
+//    Spider!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM461.wav
+
+//    Spider Droid!  Take the shot!
+..\cw\streams\Battle_Chatter\RI1COM462.wav
+
+//    You've got a clear shot!  Take down that Spider!
+..\cw\streams\Battle_Chatter\RI1COM463.wav
+
+//    Exterminate that Spider!
+..\cw\streams\Battle_Chatter\RI1COM464.wav
+
+//    That spider is going down!
+..\cw\streams\Battle_Chatter\RI1COM465.wav
+
+//    Time to cook a spider!
+..\cw\streams\Battle_Chatter\RI1COM466.wav
+
+//    Chase down that scout!
+..\cw\streams\Battle_Chatter\RI1COM467.wav
+
+//    Don't let that Tri get away
+..\cw\streams\Battle_Chatter\RI1COM468.wav
+
+//    Tri Fighter!  After him!
+..\cw\streams\Battle_Chatter\RI1COM469.wav
+
+//    Take down that Tri Fighter!
+..\cw\streams\Battle_Chatter\RI1COM470.wav
+
+//    Track that Tri Fighter!
+..\cw\streams\Battle_Chatter\RI1COM471.wav
+
+//    Tri Fighter!  On your tail!
+..\cw\streams\Battle_Chatter\RI1COM472.wav
+
+//    Watch your tail!
+..\cw\streams\Battle_Chatter\RI1COM473.wav
+
+//    You've picked up a Tri!
+..\cw\streams\Battle_Chatter\RI1COM474.wav
+
+//    You've got company!
+..\cw\streams\Battle_Chatter\RI1COM475.wav
+
+//    Tri Fighter, right behind you!
+..\cw\streams\Battle_Chatter\RI1COM476.wav
+
+//    Take out that bomber!
+..\cw\streams\Battle_Chatter\RI1COM477.wav
+
+//    They're using bombers
+..\cw\streams\Battle_Chatter\RI1COM478.wav
+
+//    Attack that bomber!
+..\cw\streams\Battle_Chatter\RI1COM479.wav
+
+//    Grevious!  Take him out!
+..\cw\streams\Battle_Chatter\RI1COM480.wav
+
+//    Go after that bomber!
+..\cw\streams\Battle_Chatter\RI1COM481.wav
+
+//    You've picked up a bomber!
+..\cw\streams\Battle_Chatter\RI1COM482.wav
+
+//    Grevious bomber, on your tail!
+..\cw\streams\Battle_Chatter\RI1COM483.wav
+
+//    Watch your tail!
+..\cw\streams\Battle_Chatter\RI1COM484.wav
+
+//    Grevious bomber, right behind you!
+..\cw\streams\Battle_Chatter\RI1COM485.wav
+
+//    Grevious bomber closing in behind you!
+..\cw\streams\Battle_Chatter\RI1COM486.wav
+
+//    Droid Starfighter!
+..\cw\streams\Battle_Chatter\RI1COM487.wav
+
+//    Vulture in the sky!
+..\cw\streams\Battle_Chatter\RI1COM488.wav
+
+//    Take down that starfighter!
+..\cw\streams\Battle_Chatter\RI1COM489.wav
+
+//    We've got vultures!
+..\cw\streams\Battle_Chatter\RI1COM490.wav
+
+//    Take out that Starfighter!
+..\cw\streams\Battle_Chatter\RI1COM491.wav
+
+//    You've got a vulture on your tail
+..\cw\streams\Battle_Chatter\RI1COM492.wav
+
+//    Droid Starfighter, right behind you!
+..\cw\streams\Battle_Chatter\RI1COM493.wav
+
+//    You've picked up a vulture!
+..\cw\streams\Battle_Chatter\RI1COM494.wav
+
+//    Vulture, behind you!  Don't let him get a lock!
+..\cw\streams\Battle_Chatter\RI1COM495.wav
+
+//    Droid Starfighter!  Take evasive action!
+..\cw\streams\Battle_Chatter\RI1COM496.wav
+
+//    Stop that MAF!
+..\cw\streams\Battle_Chatter\RI1COM497.wav
+
+//    Take out that transport!
+..\cw\streams\Battle_Chatter\RI1COM498.wav
+
+//    Don't let that MAF land!
+..\cw\streams\Battle_Chatter\RI1COM499.wav
+
+//    MAF!  Take it out!
+..\cw\streams\Battle_Chatter\RI1COM500.wav
+
+//    They've launched a transport!
+..\cw\streams\Battle_Chatter\RI1COM501.wav
+
+//    Darth Vader!!
+..\cw\streams\Battle_Chatter\RI1COM502.wav
+
+//    Vader! Let's take him out!
+..\cw\streams\Battle_Chatter\RI1COM503.wav
+
+//    Watch that lightsaber!
+..\cw\streams\Battle_Chatter\RI1COM504.wav
+
+//    Vader!!
+..\cw\streams\Battle_Chatter\RI1COM505.wav
+
+//    Don't let Vader out of your sight!
+..\cw\streams\Battle_Chatter\RI1COM506.wav
+
+//    Everyone fire on the wheeezing guy!
+..\cw\streams\Battle_Chatter\RI1COM507.wav
+
+//    Boba Fett!!
+..\cw\streams\Battle_Chatter\RI1COM508.wav
+
+//    Boba Fett?  This won't end well...
+..\cw\streams\Battle_Chatter\RI1COM509.wav
+
+//    Take down Fett!
+..\cw\streams\Battle_Chatter\RI1COM510.wav
+
+//    Man, he's fast!
+..\cw\streams\Battle_Chatter\RI1COM511.wav
+
+//    Watch those blasters!
+..\cw\streams\Battle_Chatter\RI1COM512.wav
+
+//    Boba Fett?  Cripes, that kid grew up faster than we did!
+..\cw\streams\Battle_Chatter\RI1COM513.wav
+
+//    There's the Emperor!
+..\cw\streams\Battle_Chatter\RI1COM514.wav
+
+//    After Palpatine!
+..\cw\streams\Battle_Chatter\RI1COM515.wav
+
+//    Take down the emperor!
+..\cw\streams\Battle_Chatter\RI1COM516.wav
+
+//    Surround Palpatine!
+..\cw\streams\Battle_Chatter\RI1COM517.wav
+
+//    There's Palpatine!  Take him down!
+..\cw\streams\Battle_Chatter\RI1COM518.wav
+
+//    The Emperor's joined the fray. Take him out!
+..\cw\streams\Battle_Chatter\RI1COM519.wav
+
+//    What's the Emperor doing here?  On second thought, who cares?  Kill him.
+..\cw\streams\Battle_Chatter\RI1COM520.wav
+
+//    There's a Royal Guardsman on the loose!  Get 'im!
+..\cw\streams\Battle_Chatter\RI1COM521.wav
+
+//    One of Palpatine's elites!
+..\cw\streams\Battle_Chatter\RI1COM522.wav
+
+//    After the red guy!
+..\cw\streams\Battle_Chatter\RI1COM523.wav
+
+//    Take out the guard!
+..\cw\streams\Battle_Chatter\RI1COM524.wav
+
+//    That Guardsman's as good as dead!
+..\cw\streams\Battle_Chatter\RI1COM525.wav
+
+//    Everyone target the bright red armor!
+..\cw\streams\Battle_Chatter\RI1COM526.wav
+
+//    Take down the bounty hunter!
+..\cw\streams\Battle_Chatter\RI1COM527.wav
+
+//    It's Jango! Watch those blasters!
+..\cw\streams\Battle_Chatter\RI1COM528.wav
+
+//    Jango Fett!
+..\cw\streams\Battle_Chatter\RI1COM529.wav
+
+//    Focus your fire on Jango!
+..\cw\streams\Battle_Chatter\RI1COM530.wav
+
+//    Jango's here!  Watch yourself!
+..\cw\streams\Battle_Chatter\RI1COM531.wav
+
+//    Jango Fett's here, and he's brought his head!
+..\cw\streams\Battle_Chatter\RI1COM532.wav
+
+//    General Grievous is here!  Watch out for the arms!
+..\cw\streams\Battle_Chatter\RI1COM533.wav
+
+//    General Grievous!
+..\cw\streams\Battle_Chatter\RI1COM534.wav
+
+//    Surround Grievous!  Hit him from all sides!
+..\cw\streams\Battle_Chatter\RI1COM535.wav
+
+//    Watch out for Grievous!
+..\cw\streams\Battle_Chatter\RI1COM536.wav
+
+//    Take out Grievous!
+..\cw\streams\Battle_Chatter\RI1COM537.wav
+
+//    Look out, I'ts Major Malevolence, er, um General Grievous...
+..\cw\streams\Battle_Chatter\RI1COM538.wav
+
+//    Darth Maul!!
+..\cw\streams\Battle_Chatter\RI1COM539.wav
+
+//    Watch that dual blade!
+..\cw\streams\Battle_Chatter\RI1COM540.wav
+
+//    It's Maul!  Stay back!
+..\cw\streams\Battle_Chatter\RI1COM541.wav
+
+//    He can't take us all down!
+..\cw\streams\Battle_Chatter\RI1COM542.wav
+
+//    Darth Maul!  Flank him!
+..\cw\streams\Battle_Chatter\RI1COM543.wav
+
+//    Darth Maul?  What's he gonna do, BLEED all over us?
+..\cw\streams\Battle_Chatter\RI1COM544.wav
+
+//    Take down the traitor!
+..\cw\streams\Battle_Chatter\RI1COM545.wav
+
+//    There's Dooku!  After him!
+..\cw\streams\Battle_Chatter\RI1COM546.wav
+
+//    Count Dooku!
+..\cw\streams\Battle_Chatter\RI1COM547.wav
+
+//    Dooku!  Careful of his blades!
+..\cw\streams\Battle_Chatter\RI1COM548.wav
+
+//    Get Dooku!
+..\cw\streams\Battle_Chatter\RI1COM549.wav
+
+//    It's Dooku!  Look out, he's deceptively spry!
+..\cw\streams\Battle_Chatter\RI1COM550.wav
+
+//    Surround the Jedi!
+..\cw\streams\Battle_Chatter\RI1COM551.wav
+
+//    Take down the Jedi!
+..\cw\streams\Battle_Chatter\RI1COM552.wav
+
+//    Flank the jedi and take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM553.wav
+
+//    Watch out for those lightsabers!
+..\cw\streams\Battle_Chatter\RI1COM554.wav
+
+//    Don't let the jedi get too close!
+..\cw\streams\Battle_Chatter\RI1COM555.wav
+
+//    Yousa goin' down!
+..\cw\streams\Battle_Chatter\RI1COM556.wav
+
+//    Gungans!
+..\cw\streams\Battle_Chatter\RI1COM557.wav
+
+//    Pick off that Gungan!
+..\cw\streams\Battle_Chatter\RI1COM558.wav
+
+//    Gungan!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM559.wav
+
+//    After that Gungan!
+..\cw\streams\Battle_Chatter\RI1COM560.wav
+
+//    Shoot a gungan and watch 'em flop!
+..\cw\streams\Battle_Chatter\RI1COM561.wav
+
+//    Focus your weapons on the Naboo!
+..\cw\streams\Battle_Chatter\RI1COM562.wav
+
+//    Take down the Naboo Guard!
+..\cw\streams\Battle_Chatter\RI1COM563.wav
+
+//    Naboo Guard!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM564.wav
+
+//    Take out that guard!
+..\cw\streams\Battle_Chatter\RI1COM565.wav
+
+//    They're not so tough! Take down that guard!
+..\cw\streams\Battle_Chatter\RI1COM277.wav
+
+//    Charge!!!
+..\cw\streams\Battle_Chatter\RI1COM566.wav
+
+//    aaaaggghh! (charge yell)
+..\cw\streams\Battle_Chatter\RI1COM567.wav
+
+//    aaaaggghh! (charge yell)
+..\cw\streams\Battle_Chatter\RI1COM568.wav
+
+//    This does not look good!
+..\cw\streams\Battle_Chatter\RI1COM569.wav
+
+//    Nooooo!
+..\cw\streams\Battle_Chatter\RI1COM570.wav
+
+//    Aaaaggghh! (going to die)
+..\cw\streams\Battle_Chatter\RI1COM571.wav
+
+//    Oh no...
+..\cw\streams\Battle_Chatter\RI1COM572.wav
+
+//    hold on! I need to fix that vehicle!
+..\cw\streams\Battle_Chatter\RI1COM573.wav
+
+//    Let me take a look at that vehicle...
+..\cw\streams\Battle_Chatter\RI1COM574.wav
+
+//    Repairing vehicle
+..\cw\streams\Battle_Chatter\RI1COM575.wav
+
+//    Go! Go! Go!
+..\cw\streams\Battle_Chatter\RI1COM576.wav
+
+//    Okay, vehicle's a go!
+..\cw\streams\Battle_Chatter\RI1COM577.wav
+
+//    Finished with repairs.  Vehicle's a go!
+..\cw\streams\Battle_Chatter\RI1COM578.wav
+
+//    For the Republic!
+..\cw\streams\Battle_Chatter\RI1COM579.wav
+
+//    For the Chancellor!
+..\cw\streams\Battle_Chatter\RI1COM580.wav
+
+//    umph!
+..\cw\streams\Battle_Chatter\RI1COM581.wav
+
+//    Angh!
+..\cw\streams\Battle_Chatter\RI1COM582.wav
+
+//    Ahh!
+..\cw\streams\Battle_Chatter\RI1COM583.wav
+
+//    **grunt**
+..\cw\streams\Battle_Chatter\RI1COM584.wav
+
+//    **groan**
+..\cw\streams\Battle_Chatter\RI1COM585.wav
+
+//    Hey Jango!  Would you...would you sign my helmet?
+..\cw\streams\Battle_Chatter\RI1COM586.wav
+
+//    Target the beast
+..\cw\streams\Battle_Chatter\RI1COM644.wav
+
+//    Stay clear of the Acklay
+..\cw\streams\Battle_Chatter\RI1COM587.wav
+
+//    Acklay!  Don't provoke it!
+..\cw\streams\Battle_Chatter\RI1COM588.wav
+
+//    Get the womprat. . .I mean Ewok
+..\cw\streams\Battle_Chatter\RI1COM589.wav
+
+//    Ewok!  Eliminate him!
+..\cw\streams\Battle_Chatter\RI1COM590.wav
+
+//    Take out the Ewok!
+..\cw\streams\Battle_Chatter\RI1COM591.wav
+
+//    We've got bugs
+..\cw\streams\Battle_Chatter\RI1COM592.wav
+
+//    Geonosian!
+..\cw\streams\Battle_Chatter\RI1COM593.wav
+
+//    Flying bugs!
+..\cw\streams\Battle_Chatter\RI1COM594.wav
+
+//    Hit the wookiee
+..\cw\streams\Battle_Chatter\RI1COM595.wav
+
+//    Take down the wookiee
+..\cw\streams\Battle_Chatter\RI1COM596.wav
+
+//    Wookiee! Shoot 'em!
+..\cw\streams\Battle_Chatter\RI1COM597.wav
+
+//    Filthy Jawas!
+..\cw\streams\Battle_Chatter\RI1COM598.wav
+
+//    Jawas!  Who needs 'em. . .
+..\cw\streams\Battle_Chatter\RI1COM599.wav
+
+//    Take out that jawa!
+..\cw\streams\Battle_Chatter\RI1COM600.wav
+
+//    Man, that is one ugly pig
+..\cw\streams\Battle_Chatter\RI1COM601.wav
+
+//    Watch it!  Gamorian guard!
+..\cw\streams\Battle_Chatter\RI1COM602.wav
+
+//    Gamorian guard! Take 'em down
+..\cw\streams\Battle_Chatter\RI1COM603.wav
+
+//    Tusken Raider!
+..\cw\streams\Battle_Chatter\RI1COM604.wav
+
+//    Tusken Raider!  Take 'em down!
+..\cw\streams\Battle_Chatter\RI1COM605.wav
+
+//    Take out that Tusken
+..\cw\streams\Battle_Chatter\RI1COM606.wav
+
+//    Keep your eyes on that beast
+..\cw\streams\Battle_Chatter\RI1COM607.wav
+
+//    Watch out for the acklay!
+..\cw\streams\Battle_Chatter\RI1COM608.wav
+
+//    Try not to anger the Acklay
+..\cw\streams\Battle_Chatter\RI1COM609.wav
+
+//    Get the ewok!
+..\cw\streams\Battle_Chatter\RI1COM610.wav
+
+//    It's an Ewok! Get him!
+..\cw\streams\Battle_Chatter\RI1COM611.wav
+
+//    Take out the ewok!
+..\cw\streams\Battle_Chatter\RI1COM612.wav
+
+//    Bugs!
+..\cw\streams\Battle_Chatter\RI1COM613.wav
+
+//    Geos!
+..\cw\streams\Battle_Chatter\RI1COM614.wav
+
+//    Watch the skies...
+..\cw\streams\Battle_Chatter\RI1COM615.wav
+
+//    Wookiee!
+..\cw\streams\Battle_Chatter\RI1COM616.wav
+
+//    Take the wookiee!
+..\cw\streams\Battle_Chatter\RI1COM617.wav
+
+//    Get the wookiee!
+..\cw\streams\Battle_Chatter\RI1COM618.wav
+
+//    Stinking jawas!
+..\cw\streams\Battle_Chatter\RI1COM619.wav
+
+//    Jawas!
+..\cw\streams\Battle_Chatter\RI1COM620.wav
+
+//    Take down the jawa!
+..\cw\streams\Battle_Chatter\RI1COM621.wav
+
+//    Look out, that pig could be trouble.
+..\cw\streams\Battle_Chatter\RI1COM622.wav
+
+//    Gamorian guard!
+..\cw\streams\Battle_Chatter\RI1COM623.wav
+
+//    Take out that Gamorian!
+..\cw\streams\Battle_Chatter\RI1COM624.wav
+
+//    Tusken!
+..\cw\streams\Battle_Chatter\RI1COM625.wav
+
+//    It's a Raider!  Get 'jm!
+..\cw\streams\Battle_Chatter\RI1COM626.wav
+
+//    Take out that Raider
+..\cw\streams\Battle_Chatter\RI1COM627.wav
+
+

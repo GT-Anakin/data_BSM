@@ -25,7 +25,7 @@ MaxSpeed                = 6.0
 MaxStrafeSpeed          = 4.0
 MaxTurnSpeed            = 5.0
 JumpHeight              = 3.5
-RecoverFromTumble       = "0"
+RecoverFromTumble       = "1"
 
 TargetPointOffsetStand  = "0.0 0.5 0.0"
 TargetPointOffsetCrouch = "0.0 0.3 0.0"

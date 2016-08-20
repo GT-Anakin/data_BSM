@@ -41,8 +41,9 @@ Animation("rep_crashing", 70.00, 0, 0)
 {
 	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(5.00, 0.00, -10.00, -5.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(25.00, 0.00, -180.00, -350.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
-	AddPositionKey(40.00, 50.00, -600.00, -800.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(25.00, -120.00, -180.00, -300.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(40.00, -300.00, -600.00, -800.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(50.00, -250.00, -700.00, -1500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(65.00, 380.00, -1245.00, -2360.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddPositionKey(70.00, 445.00, -1280.00, -2580.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
@@ -53,6 +54,7 @@ Animation("rep_crashing", 70.00, 0, 0)
 	AddRotationKey(15.00, -3.00, 0.00, -3.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(20.00, 1.00, -2.00, -8.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(25.00, 3.00, -4.00, 6.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddRotationKey(50.00, -3.00, -15.00, -20.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(65.00, 2.00, -20.00, -13.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 	AddRotationKey(70.00, -5.00, -30.00, -15.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
@@ -342,10 +344,6 @@ AnimationGroup("cis_frigate_arrive", 0, 0)
 	DisableHierarchies();
 	Animation("cis_frigate_arrive", "cis_frigate_arrive");
 	Animation("cis_frigate_arrive", "cis_frigate_arrive_closed");
-	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret1");
-	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret2");
-	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret3");
-	Animation("cis_frigate_arrive", "cis_frigate_arrive_turret4");
 }
 
 AnimationGroup("rep_frigate_arrive", 0, 0)
@@ -353,10 +351,6 @@ AnimationGroup("rep_frigate_arrive", 0, 0)
 	DisableHierarchies();
 	Animation("rep_frigate_arrive", "rep_frigate_arrive");
 	Animation("rep_frigate_arrive", "rep_frigate_arrive_closed");
-	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret1");
-	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret2");
-	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret3");
-	Animation("rep_frigate_arrive", "rep_frigate_arrive_turret4");
 }
 
 AnimationGroup("cis_console", 0, 0)

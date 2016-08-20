@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.815, 0.170, -0.542, 0.113);
-	Position(-109.635, -245.159, -60.767);
+	Rotation(0.831, 0.092, -0.546, 0.060);
+	Position(3516.884, 1727.969, -1484.982);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(1500.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -665,7 +665,7 @@ Object("vehicle2", "com_item_vehicle_spawn", 1113953894)
 Object("vehicle8", "com_item_vehicle_spawn", 1744654863)
 {
 	ChildRotation(0.708, 0.000, -0.706, 0.000);
-	ChildPosition(-180.037, -275.615, 128.210);
+	ChildPosition(-180.037, -276.526, 128.210);
 	SeqNo(1744654863);
 	Team(0);
 	NetworkId(-1);

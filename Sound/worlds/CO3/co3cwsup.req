@@ -1,28 +1,37 @@
 ucft
 {
+
 	REQN
 	{
 		"bnk"
 		"align=2048"
-		"co3cw_sfx"
 		"co3cw_asfx"
+		"co3cw_sfx"
 	}
-
 	REQN
 	{
 		"config"
-		"common_weapons"
-		"cw_weapons"
-		"magnaguard"
-		"Space"
+			"common_weapons"
+			"cw_weapons"
+		"co3_world"
+		"co3cw_units"
+		"rep_unit_vo"  
+		"cis_unit_vo"
+		"global_vo"
+		"co3cw_music_config"
+        "co3cw_music"
 		"Turrets"
-		"rep_fly_anakinfighter"
-        	"rep_fly_arc170"     
+		"Space"
+			"rep_fly_anakinfighter"
+			"rep_fly_arc170"     
         	"rep_fly_vwing"
         	"rep_fly_gunship"
         	"cis_fly_grievousfighter"
         	"cis_fly_tridroidfighter"
        		"cis_fly_droidfighter"
        	 	"cis_fly_gunship"	
+			"cis_hover_stap"
+			"cis_hover_aat"
+			"rep_hover_fightertank"
 	}
  }

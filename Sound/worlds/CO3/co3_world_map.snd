@@ -1,0 +1,133 @@
+
+SoundStream()
+{
+    Name("co3_amb_exterior");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(1.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_exterior", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_bar");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    RandomPlayPos(0);
+    Stream("co3_stm");
+    Gain(2.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_bar", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_crashed_spaceship");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(0.6);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_crashed_spaceship", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_exterior_flybys");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(0.4);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_exterior_flybys", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_holo_sign");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(0.9);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_holo_sign", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_pink_shield");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(2.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_pink_shield", 1.0);
+    }
+}
+
+SoundStream()
+{
+    Name("co3_amb_space");
+    Group("ambientenv");
+    Inherit("ambientfx_template");
+    Stream("co3_stm");
+    Gain(2.0);
+    Looping(1);
+    SegmentList()
+    {
+        Segment("co3_amb_space", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("co3_amb_fan");
+    Pitch(1.0);
+    Gain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    MinDistance(5.0);
+    MuteDistance(10.0);
+    MaxDistance(10.0);
+    Mode3D(1);
+    SampleList()
+    {
+        Sample("co3_amb_fan", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("co3_amb_gas_pipe");
+    Pitch(1.0);
+    Gain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    MinDistance(4.0);
+    MuteDistance(8.0);
+    MaxDistance(8.0);
+    Mode3D(1);
+    SampleList()
+    {
+        Sample("co3_amb_gas_pipe", 1.0);
+    }
+}

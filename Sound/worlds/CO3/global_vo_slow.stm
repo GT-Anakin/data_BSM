@@ -1,0 +1,1409 @@
+
+// ----- Shell audition VO -----------
+..\global\effects\crtr_wookiee_chatter_01.wav
+..\global\effects\crtr_wookiee_chatter_02.wav
+..\global\effects\crtr_wookiee_chatter_03.wav
+..\global\effects\crtr_wookiee_chatter_05.wav
+..\global\effects\crtr_wookiee_chatter_06.wav
+..\global\effects\ui_sfxVolume.wav
+
+// ----- Bonus Weapon Alert -----------
+..\global\streams\ui_BonusWeap_01.wav
+
+//  ----------------------------------------------- Hero Battlechatter VO -----------------------------------------------------
+
+
+//    Mace Windu, reporting for duty
+streams\hero_battlechatter_vo\MWUCOM001.wav
+
+//    This is Windu, ready for action.
+streams\hero_battlechatter_vo\MWUCOM002.wav
+
+//    Surrender or die!
+streams\hero_battlechatter_vo\MWUCOM003.wav
+
+//    This battlefield will be ours!
+streams\hero_battlechatter_vo\MWUCOM004.wav
+
+//    For the Republic!
+streams\hero_battlechatter_vo\MWUCOM005.wav
+
+//    On my lead!
+streams\hero_battlechatter_vo\MWUCOM006.wav
+
+//    After them!
+streams\hero_battlechatter_vo\MWUCOM007.wav
+
+//    The Force is with us today!
+streams\hero_battlechatter_vo\MWUCOM008.wav
+
+//    Keep moving!
+streams\hero_battlechatter_vo\MWUCOM009.wav
+
+//    I've done all I can.  May the Force be With You.
+streams\hero_battlechatter_vo\MWUCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\MWUCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\MWUCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\MWUCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\MWUCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\MWUCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\MWUCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\MWUCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\MWUCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\MWUCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\MWUCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\MWUCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\MWUCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\MWUCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\MWUCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\MWUCOM025.wav
+
+//    General Kenobi, reporting for duty.
+streams\hero_battlechatter_vo\OBWCOM001.wav
+
+//    Obi-Wan Kenobi here, I've engaged the enemy.
+streams\hero_battlechatter_vo\OBWCOM002.wav
+
+//    What a wretched gathering of scum and villainy
+streams\hero_battlechatter_vo\OBWCOM003.wav
+
+//    I suppose diplomacy is out of the question?
+streams\hero_battlechatter_vo\OBWCOM004.wav
+
+//    There're more machines than men here.
+streams\hero_battlechatter_vo\OBWCOM005.wav
+
+//    I've got a bad feeling about this.
+streams\hero_battlechatter_vo\OBWCOM006.wav
+
+//    Follow me!
+streams\hero_battlechatter_vo\OBWCOM007.wav
+
+//    Go, go, go!
+streams\hero_battlechatter_vo\OBWCOM008.wav
+
+//    Feel the Force
+streams\hero_battlechatter_vo\OBWCOM009.wav
+
+//    This is going better than I expected.
+streams\hero_battlechatter_vo\OBWCOM010.wav
+
+//    Though I leave, the Force will be with you, always.
+streams\hero_battlechatter_vo\OBWCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\OBWCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\OBWCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\OBWCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\OBWCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\OBWCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\OBWCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\OBWCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\OBWCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\OBWCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\OBWCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\OBWCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\OBWCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\OBWCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\OBWCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\OBWCOM026.wav
+
+//    What is you bidding, master?
+streams\hero_battlechatter_vo\DVDCOM001.wav
+
+//    This is Vader.
+streams\hero_battlechatter_vo\DVDCOM002.wav
+
+//    This will not take long.
+streams\hero_battlechatter_vo\DVDCOM003.wav
+
+//    I will take them myself.  Cover me.
+streams\hero_battlechatter_vo\DVDCOM004.wav
+
+//    These enemies are worthless and weak.
+streams\hero_battlechatter_vo\DVDCOM005.wav
+
+//    I have you now!
+streams\hero_battlechatter_vo\DVDCOM006.wav
+
+//    All too easy.
+streams\hero_battlechatter_vo\DVDCOM007.wav
+
+//    Feel the Power of the Dark Side!
+streams\hero_battlechatter_vo\DVDCOM008.wav
+
+//    Your strength is NOTHING compared to the Dark Side.
+streams\hero_battlechatter_vo\DVDCOM009.wav
+
+//    I am finished, my master
+streams\hero_battlechatter_vo\DVDCOM010.wav
+
+//    It is done, master.
+streams\hero_battlechatter_vo\DVDCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DVDCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DVDCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DVDCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DVDCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DVDCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DVDCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DVDCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DVDCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DVDCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DVDCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DVDCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DVDCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DVDCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DVDCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DVDCOM026.wav
+
+//    This is Jango, what do you want?
+streams\hero_battlechatter_vo\JFTCOM001.wav
+
+//    Jango Fett, on the job.
+streams\hero_battlechatter_vo\JFTCOM002.wav
+
+//    These'll be the easiest credits I've earned in months.
+streams\hero_battlechatter_vo\JFTCOM003.wav
+
+//    100...200...300... You guys are gonna make me rich.
+streams\hero_battlechatter_vo\JFTCOM004.wav
+
+//    So, who should I kill next?
+streams\hero_battlechatter_vo\JFTCOM005.wav
+
+//    And stay down.
+streams\hero_battlechatter_vo\JFTCOM006.wav
+
+//    At this rate, I'll be able to retire soon.
+streams\hero_battlechatter_vo\JFTCOM007.wav
+
+//    This is a waste of my talent.
+streams\hero_battlechatter_vo\JFTCOM008.wav
+
+//    A Gungan could've finished this job.
+streams\hero_battlechatter_vo\JFTCOM009.wav
+
+//    My work here's done.  I'll expect my payment in the usual manner.
+streams\hero_battlechatter_vo\JFTCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\JFTCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\JFTCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\JFTCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\JFTCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\JFTCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\JFTCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\JFTCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\JFTCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\JFTCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\JFTCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\JFTCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\JFTCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\JFTCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\JFTCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\JFTCOM025.wav
+
+//    General Mundi, reporting for duty.
+streams\hero_battlechatter_vo\KACOM0001.wav
+
+//    Ki Adi Mundi, ready to go.
+streams\hero_battlechatter_vo\KACOM0002.wav
+
+//    Stand down or be destroyed!
+streams\hero_battlechatter_vo\KACOM0003.wav
+
+//    The day is ours!
+streams\hero_battlechatter_vo\KACOM0004.wav
+
+//    Their might is nothing compared to the Force.
+streams\hero_battlechatter_vo\KACOM0005.wav
+
+//    Feel the living Force.
+streams\hero_battlechatter_vo\KACOM0006.wav
+
+//    Follow me!
+streams\hero_battlechatter_vo\KACOM0007.wav
+
+//    Do not underestimate the power of the Force.
+streams\hero_battlechatter_vo\KACOM0008.wav
+
+//    Victory is ours!
+streams\hero_battlechatter_vo\KACOM0009.wav
+
+//    My time is finished.  May the Force be with You.
+streams\hero_battlechatter_vo\KACOM0010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\KACOM0011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\KACOM0012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\KACOM0013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\KACOM0014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\KACOM0015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\KACOM0016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\KACOM0017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\KACOM0018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\KACOM0019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\KACOM0020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\KACOM0021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\KACOM0022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\KACOM0023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\KACOM0024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\KACOM0025.wav
+
+//    This is Leia.  What have you gotten us into this time?
+streams\hero_battlechatter_vo\PRLCOM001.wav
+
+//    Leia here.  Let's get moving.
+streams\hero_battlechatter_vo\PRLCOM002.wav
+
+//    THIS is the enemy?
+streams\hero_battlechatter_vo\PRLCOM003.wav
+
+//    Aren't you a little short for a stormtrooper?
+streams\hero_battlechatter_vo\PRLCOM004.wav
+
+//    The Imperial Senate will not sit still for this.
+streams\hero_battlechatter_vo\PRLCOM005.wav
+
+//    You're going to regret this...
+streams\hero_battlechatter_vo\PRLCOM006.wav
+
+//    Take that, you scruffy-looking nerf-herder!
+streams\hero_battlechatter_vo\PRLCOM007.wav
+
+//    Let's go!
+streams\hero_battlechatter_vo\PRLCOM008.wav
+
+//    On my mark, men!
+streams\hero_battlechatter_vo\PRLCOM009.wav
+
+//    For Alderan!
+streams\hero_battlechatter_vo\PRLCOM010.wav
+
+//    Somehow I expected more from these guys.
+streams\hero_battlechatter_vo\PRLCOM011.wav
+
+//    Is that 'charming' enough for you?
+streams\hero_battlechatter_vo\PRLCOM012.wav
+
+//    You can handle things from here...
+streams\hero_battlechatter_vo\PRLCOM013.wav
+
+//    That was fun...let's do it again sometime.
+streams\hero_battlechatter_vo\PRLCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\PRLCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\PRLCOM016.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\PRLCOM017.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\PRLCOM018.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\PRLCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\PRLCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\PRLCOM021.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\PRLCOM022.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\PRLCOM023.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\PRLCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\PRLCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\PRLCOM026.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\PRLCOM027.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\PRLCOM028.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\PRLCOM029.wav
+
+//    Yoda am I.  Fight I will.
+streams\hero_battlechatter_vo\YDACOM001.wav
+
+//    Yoda you summoned.  Here I am.
+streams\hero_battlechatter_vo\YDACOM002.wav
+
+//    Brief this battle will be.
+streams\hero_battlechatter_vo\YDACOM003.wav
+
+//    Wars not make one great
+streams\hero_battlechatter_vo\YDACOM004.wav
+
+//    Surrender you must, or die you will.
+streams\hero_battlechatter_vo\YDACOM005.wav
+
+//    Proper training you lack.
+streams\hero_battlechatter_vo\YDACOM006.wav
+
+//    Size matters not
+streams\hero_battlechatter_vo\YDACOM007.wav
+
+//    Strong am I with the Force.
+streams\hero_battlechatter_vo\YDACOM008.wav
+
+//    Tired I am, rest I must.
+streams\hero_battlechatter_vo\YDACOM009.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\YDACOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\YDACOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\YDACOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\YDACOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\YDACOM014.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\YDACOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\YDACOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\YDACOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\YDACOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\YDACOM019.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\YDACOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\YDACOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\YDACOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\YDACOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\YDACOM024.wav
+
+//    All right, all right.  Don't get your shorts in a knot.
+streams\hero_battlechatter_vo\HANCOM001.wav
+
+//    Solo here.  Where's the fire?
+streams\hero_battlechatter_vo\HANCOM002.wav
+
+//    I've got a blaster with your name on it.
+streams\hero_battlechatter_vo\HANCOM003.wav
+
+//    I have a very bad feeling about this.
+streams\hero_battlechatter_vo\HANCOM004.wav
+
+//    No reward is worth this...
+streams\hero_battlechatter_vo\HANCOM005.wav
+
+//    Bring 'em on.
+streams\hero_battlechatter_vo\HANCOM006.wav
+
+//    Never tell me the odds
+streams\hero_battlechatter_vo\HANCOM007.wav
+
+//    Yaaahoo!!
+streams\hero_battlechatter_vo\HANCOM008.wav
+
+//    Hokey religions and ancient weapons are no match for a blaster by your side
+streams\hero_battlechatter_vo\HANCOM009.wav
+
+//    I'm getting too old for this...
+streams\hero_battlechatter_vo\HANCOM010.wav
+
+//    Don't everyone thank me at once.
+streams\hero_battlechatter_vo\HANCOM011.wav
+
+//    You're all clear kid...
+streams\hero_battlechatter_vo\HANCOM012.wav
+
+//    Sorry about the mess...
+streams\hero_battlechatter_vo\HANCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\HANCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\HANCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\HANCOM016.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\HANCOM017.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\HANCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\HANCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\HANCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\HANCOM021.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\HANCOM022.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\HANCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\HANCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\HANCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\HANCOM026.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\HANCOM027.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\HANCOM028.wav
+
+//    Skywalker here.  Let's go!
+streams\hero_battlechatter_vo\LUKCOM001.wav
+
+//    Luke Skywalke, reporting for duty.
+streams\hero_battlechatter_vo\LUKCOM002.wav
+
+//    You guys couldn't hit the broad side of a moisture evaporator
+streams\hero_battlechatter_vo\LUKCOM003.wav
+
+//    Let me at 'em!
+streams\hero_battlechatter_vo\LUKCOM004.wav
+
+//    Let's go!
+streams\hero_battlechatter_vo\LUKCOM005.wav
+
+//    I got one!
+streams\hero_battlechatter_vo\LUKCOM006.wav
+
+//    C'mon!
+streams\hero_battlechatter_vo\LUKCOM007.wav
+
+//    These guys are easy!
+streams\hero_battlechatter_vo\LUKCOM008.wav
+
+//    The Force is stong with us.
+streams\hero_battlechatter_vo\LUKCOM009.wav
+
+//    The Force is calling me.
+streams\hero_battlechatter_vo\LUKCOM010.wav
+
+//    Aw, c'mon, I was just getting started.
+streams\hero_battlechatter_vo\LUKCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\LUKCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\LUKCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\LUKCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\LUKCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\LUKCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\LUKCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\LUKCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\LUKCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\LUKCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\LUKCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\LUKCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\LUKCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\LUKCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\LUKCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\LUKCOM026.wav
+
+//    Fett here.  Let's get this over with.
+streams\hero_battlechatter_vo\BFTCOM001.wav
+
+//    Boba Fett, on the job.
+streams\hero_battlechatter_vo\BFTCOM002.wav
+
+//    I can't believe I'm getting paid for this.
+streams\hero_battlechatter_vo\BFTCOM003.wav
+
+//    I'd kill you just for the pleasure.
+streams\hero_battlechatter_vo\BFTCOM004.wav
+
+//    Don't make me run after you.
+streams\hero_battlechatter_vo\BFTCOM005.wav
+
+//    That's another one.
+streams\hero_battlechatter_vo\BFTCOM006.wav
+
+//    Dead or alive, I get paid either way.
+streams\hero_battlechatter_vo\BFTCOM007.wav
+
+//    Is that all you've got?
+streams\hero_battlechatter_vo\BFTCOM008.wav
+
+//    Do you WANT to die?
+streams\hero_battlechatter_vo\BFTCOM009.wav
+
+//    I'm done.  When do I get paid?
+streams\hero_battlechatter_vo\BFTCOM010.wav
+
+//    This job's finished. I'm out of here.
+streams\hero_battlechatter_vo\BFTCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BFTCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BFTCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BFTCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BFTCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BFTCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BFTCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BFTCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BFTCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BFTCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BFTCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BFTCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BFTCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BFTCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BFTCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BFTCOM026.wav
+
+//    General Grievous is here.
+streams\hero_battlechatter_vo\GGRCOM001.wav
+
+//    This is Grievous.  Let's make this quick.
+streams\hero_battlechatter_vo\GGRCOM002.wav
+
+//    I could do this with two, no, three arms tied behind my back.
+streams\hero_battlechatter_vo\GGRCOM003.wav
+
+//    Please don't surrender.
+streams\hero_battlechatter_vo\GGRCOM004.wav
+
+//    Your screams are like music to my audio receptors.
+streams\hero_battlechatter_vo\GGRCOM005.wav
+
+//    Get out of my way!
+streams\hero_battlechatter_vo\GGRCOM006.wav
+
+//    Roger Roger Roger ROGER!
+streams\hero_battlechatter_vo\GGRCOM007.wav
+
+//    This is a waste of my programming.  Bring me more Jedi.
+streams\hero_battlechatter_vo\GGRCOM008.wav
+
+//    More, more!
+streams\hero_battlechatter_vo\GGRCOM009.wav
+
+//    I have seen enough of this battle.
+streams\hero_battlechatter_vo\GGRCOM010.wav
+
+//    This battle bores me.
+streams\hero_battlechatter_vo\GGRCOM011.wav
+
+//    This battle grows tiresome.
+streams\hero_battlechatter_vo\GGRCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\GGRCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\GGRCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\GGRCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\GGRCOM016.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\GGRCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\GGRCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\GGRCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\GGRCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\GGRCOM021.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\GGRCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\GGRCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\GGRCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\GGRCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\GGRCOM026.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\GGRCOM027.wav
+
+//    Aaylya Secura, reporting for duty.
+streams\hero_battlechatter_vo\AYSCOM001.wav
+
+//    This is Secura.  How can I help?
+streams\hero_battlechatter_vo\AYSCOM002.wav
+
+//    This battle is ours for the taking!
+streams\hero_battlechatter_vo\AYSCOM003.wav
+
+//    Lay down your arms or be annihilated!
+streams\hero_battlechatter_vo\AYSCOM004.wav
+
+//    Treachery will never triumph!
+streams\hero_battlechatter_vo\AYSCOM005.wav
+
+//    Follow me!
+streams\hero_battlechatter_vo\AYSCOM006.wav
+
+//    We can do this!
+streams\hero_battlechatter_vo\AYSCOM007.wav
+
+//    The Force has made us strong!
+streams\hero_battlechatter_vo\AYSCOM008.wav
+
+//    Keep going!
+streams\hero_battlechatter_vo\AYSCOM009.wav
+
+//    Carry the Force with you, always.
+streams\hero_battlechatter_vo\AYSCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AYSCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AYSCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AYSCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AYSCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AYSCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AYSCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AYSCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AYSCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AYSCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AYSCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AYSCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AYSCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AYSCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AYSCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AYSCOM025.wav
+
+//    I am here, and I am not amused.
+streams\hero_battlechatter_vo\EMPCOM001.wav
+
+//    Your master has arrived.
+streams\hero_battlechatter_vo\EMPCOM002.wav
+
+//    Your friends can't save you now.
+streams\hero_battlechatter_vo\EMPCOM003.wav
+
+//    Oh dear...
+streams\hero_battlechatter_vo\EMPCOM004.wav
+
+//    You stink of fear.
+streams\hero_battlechatter_vo\EMPCOM005.wav
+
+//    Embrace you anger!
+streams\hero_battlechatter_vo\EMPCOM006.wav
+
+//    Release you anger!
+streams\hero_battlechatter_vo\EMPCOM007.wav
+
+//    Mwah-hah-haah!
+streams\hero_battlechatter_vo\EMPCOM008.wav
+
+//    Wipe them out!
+streams\hero_battlechatter_vo\EMPCOM009.wav
+
+//    This isn't over.
+streams\hero_battlechatter_vo\EMPCOM010.wav
+
+//    I will be back.
+streams\hero_battlechatter_vo\EMPCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\EMPCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\EMPCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\EMPCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\EMPCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\EMPCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\EMPCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\EMPCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\EMPCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\EMPCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\EMPCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\EMPCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\EMPCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\EMPCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\EMPCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\EMPCOM026.wav
+
+//    What is your bidding, master?
+streams\hero_battlechatter_vo\DMLCOM001.wav
+
+//    Darth Maul, awaiting orders.
+streams\hero_battlechatter_vo\DMLCOM002.wav
+
+//    My master wants you dead.
+streams\hero_battlechatter_vo\DMLCOM003.wav
+
+//    Killing you will be a pleasure.
+streams\hero_battlechatter_vo\DMLCOM004.wav
+
+//    Please, run.
+streams\hero_battlechatter_vo\DMLCOM005.wav
+
+//    Die.
+streams\hero_battlechatter_vo\DMLCOM006.wav
+
+//    Scream.
+streams\hero_battlechatter_vo\DMLCOM007.wav
+
+//    You worms are no match for the Dark Side!
+streams\hero_battlechatter_vo\DMLCOM008.wav
+
+//    I can taste your fear.
+streams\hero_battlechatter_vo\DMLCOM009.wav
+
+//    I've done as you commanded, master.
+streams\hero_battlechatter_vo\DMLCOM010.wav
+
+//    It is done, master.
+streams\hero_battlechatter_vo\DMLCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DMLCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DMLCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DMLCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DMLCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DMLCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DMLCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DMLCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DMLCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DMLCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DMLCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DMLCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DMLCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DMLCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DMLCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DMLCOM026.wav
+
+//    Awaiting orders.
+streams\hero_battlechatter_vo\RGDCOM001.wav
+
+//    What is your bidding, Emperor?
+streams\hero_battlechatter_vo\RGDCOM002.wav
+
+//    For the Emperor!
+streams\hero_battlechatter_vo\RGDCOM003.wav
+
+//    You are beneath the Emperor's notice.
+streams\hero_battlechatter_vo\RGDCOM004.wav
+
+//    My orders will be your undoing.
+streams\hero_battlechatter_vo\RGDCOM005.wav
+
+//    Enemy defeated.
+streams\hero_battlechatter_vo\RGDCOM006.wav
+
+//    Hostile neutralized.
+streams\hero_battlechatter_vo\RGDCOM007.wav
+
+//    The Emperor will be pleased
+streams\hero_battlechatter_vo\RGDCOM008.wav
+
+//    Your death-cries amuse the Emperor.
+streams\hero_battlechatter_vo\RGDCOM009.wav
+
+//    The Emperor beckons me elsewhere.
+streams\hero_battlechatter_vo\RGDCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\RGDCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\RGDCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\RGDCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\RGDCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\RGDCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\RGDCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\RGDCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\RGDCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\RGDCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\RGDCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\RGDCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\RGDCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\RGDCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\RGDCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\RGDCOM025.wav
+
+//    This is Dooku.  What is the situation?
+streams\hero_battlechatter_vo\DKUCOM001.wav
+
+//    Tell the generals that Count Dooku is here.
+streams\hero_battlechatter_vo\DKUCOM002.wav
+
+//    You cannot hope to defeat me!
+streams\hero_battlechatter_vo\DKUCOM003.wav
+
+//    You were defeated before this battle even began!
+streams\hero_battlechatter_vo\DKUCOM004.wav
+
+//    Your deaths will serve as an example to others!
+streams\hero_battlechatter_vo\DKUCOM005.wav
+
+//    Join me or die!
+streams\hero_battlechatter_vo\DKUCOM006.wav
+
+//    Feel your hate!
+streams\hero_battlechatter_vo\DKUCOM007.wav
+
+//    The Dark Side has made me invincible!
+streams\hero_battlechatter_vo\DKUCOM008.wav
+
+//    Victory is mine!
+streams\hero_battlechatter_vo\DKUCOM009.wav
+
+//    I must attend to other matters.  Carry on.
+streams\hero_battlechatter_vo\DKUCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DKUCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DKUCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DKUCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DKUCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\DKUCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DKUCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DKUCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DKUCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DKUCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\DKUCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DKUCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DKUCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DKUCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DKUCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\DKUCOM025.wav
+
+//    Anakin Skywalker, reporting for duty
+streams\hero_battlechatter_vo\AKNCOM001.wav
+
+//    This is Skywalker. Let's get on with this.
+streams\hero_battlechatter_vo\AKNCOM002.wav
+
+//    These enemies shouldn't present much of a problem.
+streams\hero_battlechatter_vo\AKNCOM003.wav
+
+//    Are you sure you need a Jedi of my calibre for this battle?
+streams\hero_battlechatter_vo\AKNCOM004.wav
+
+//    Lay down your weapons or face the consequences!
+streams\hero_battlechatter_vo\AKNCOM005.wav
+
+//    Follow me!
+streams\hero_battlechatter_vo\AKNCOM006.wav
+
+//    That was exhilierating.
+streams\hero_battlechatter_vo\AKNCOM007.wav
+
+//    The Force is strong with me!
+streams\hero_battlechatter_vo\AKNCOM008.wav
+
+//    You don't stand a chance against the power of the Force!
+streams\hero_battlechatter_vo\AKNCOM009.wav
+
+//    You don't need me here any more.  I'm off to more important battles.
+streams\hero_battlechatter_vo\AKNCOM010.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AKNCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AKNCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AKNCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AKNCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\AKNCOM015.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AKNCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AKNCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AKNCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AKNCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\AKNCOM020.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AKNCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AKNCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AKNCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\AKNCOM024.wav
+
+//    Attacking sounds
+// streams\hero_battlechatter_vo\AKNCOM025.wav
+
+//    General Kenobi, reporting for duty.
+streams\hero_battlechatter_vo\BENCOM001.wav
+
+//    Obi-Wan Kenobi here, I've engaged the enemy.
+streams\hero_battlechatter_vo\BENCOM002.wav
+
+//    What a wretched gathering of scum and villainy
+streams\hero_battlechatter_vo\BENCOM003.wav
+
+//    I suppose diplomacy is out of the question?
+streams\hero_battlechatter_vo\BENCOM004.wav
+
+//    There're more machines than men here.
+streams\hero_battlechatter_vo\BENCOM005.wav
+
+//    I've got a bad feeling about this.
+streams\hero_battlechatter_vo\BENCOM006.wav
+
+//    Follow me!
+streams\hero_battlechatter_vo\BENCOM007.wav
+
+//    Go, go, go!
+streams\hero_battlechatter_vo\BENCOM008.wav
+
+//    Feel the Force
+streams\hero_battlechatter_vo\BENCOM009.wav
+
+//    This is going better than I expected.
+streams\hero_battlechatter_vo\BENCOM010.wav
+
+//    Though I leave, the Force will be with you, always.
+streams\hero_battlechatter_vo\BENCOM011.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BENCOM012.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BENCOM013.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BENCOM014.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BENCOM015.wav
+
+//    Reacts to being hit
+//streams\hero_battlechatter_vo\BENCOM016.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BENCOM017.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BENCOM018.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BENCOM019.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BENCOM020.wav
+
+//    Pain grunts
+//streams\hero_battlechatter_vo\BENCOM021.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BENCOM022.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BENCOM023.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BENCOM024.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BENCOM025.wav
+
+//    Attacking sounds
+//streams\hero_battlechatter_vo\BENCOM026.wav

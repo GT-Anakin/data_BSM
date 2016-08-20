@@ -409,170 +409,433 @@ soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sou
 soundflmunge.exe : Error : Unable to open file streams\ui_amb_cis_CtrlShip_lp_fnt.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell_ui.st4
 soundflmunge.exe : Error : Unable to open file streams\ui_amb_cis_CtrlShip_lp_fnt.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell_ui.st4
 soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\shell\shell_ui.st4  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell_ui.st4
-soundflmunge.exe : Warning : Files line 2 and 3 reference the same source file c:\windows\media\chord.wav.  door_open will alias door_close
+soundflmunge.exe : Warning : Files line 3 and 4 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_sniperRifle_zoomIn02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 8 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_drdFghtr_missile_fire
+soundflmunge.exe : Warning : Files line 3 and 5 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_sniperRifle_zoomOut
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 13 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_hailfire_missile_fire
+soundflmunge.exe : Warning : Files line 3 and 14 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias rep_inf_jetpack
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 19 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_ywing_torpedo_fire
+soundflmunge.exe : Warning : Files line 3 and 15 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias rep_weap_jetpack_turnon
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 25 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_tie_bombLauncher_fire
+soundflmunge.exe : Warning : Files line 3 and 16 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias rep_weap_jetpack_turnoff
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 31 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_gunship_laser_fire
+soundflmunge.exe : Warning : Files line 3 and 19 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_powerDispense_pickUp
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 32 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_gunship_laser_lp
+soundflmunge.exe : Warning : Files line 3 and 23 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_gonk_01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 37 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_jediStrftr_blaster_fire
+soundflmunge.exe : Warning : Files line 3 and 24 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_gonk_02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 43 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_ywing_blaster_fire
+soundflmunge.exe : Warning : Files line 3 and 25 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_gonk_03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 48 reference the same source file c:\windows\media\chord.wav.  door_open will alias vehicle_chaingun_fire
+soundflmunge.exe : Warning : Files line 3 and 26 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_gonk_04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 49 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_chaingun_spin
+soundflmunge.exe : Warning : Files line 3 and 37 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias crt_medicalDroid04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 52 reference the same source file c:\windows\media\chord.wav.  door_open will alias rcflak
+soundflmunge.exe : Warning : Files line 3 and 39 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_chatter_04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 59 reference the same source file c:\windows\media\chord.wav.  door_open will alias shift_up
+soundflmunge.exe : Warning : Files line 3 and 40 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_chatter_01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 61 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_chop_a_loop
+soundflmunge.exe : Warning : Files line 3 and 41 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_chatter_02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 64 reference the same source file c:\windows\media\chord.wav.  door_open will alias startup_soft
+soundflmunge.exe : Warning : Files line 3 and 42 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_chatter_03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 67 reference the same source file c:\windows\media\chord.wav.  door_open will alias startup_hard
+soundflmunge.exe : Warning : Files line 3 and 43 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_recharge_01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 70 reference the same source file c:\windows\media\chord.wav.  door_open will alias shutdown_soft
+soundflmunge.exe : Warning : Files line 3 and 44 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_recharge_02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 72 reference the same source file c:\windows\media\chord.wav.  door_open will alias shutdown_hard
+soundflmunge.exe : Warning : Files line 3 and 45 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_recharge_03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 76 reference the same source file c:\windows\media\chord.wav.  door_open will alias sfx_pod_airbrakes_off
+soundflmunge.exe : Warning : Files line 3 and 46 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_fx7_recharge_04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 77 reference the same source file c:\windows\media\chord.wav.  door_open will alias sfx_pod_airbrakes_on
+soundflmunge.exe : Warning : Files line 3 and 61 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saberon
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 80 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_chatter_01
+soundflmunge.exe : Warning : Files line 3 and 62 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saberoff
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 81 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_chatter_02
+soundflmunge.exe : Warning : Files line 3 and 63 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_triple
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 82 reference the same source file c:\windows\media\chord.wav.  door_open will alias Ifc_LowShield03
+soundflmunge.exe : Warning : Files line 3 and 64 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_double
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 83 reference the same source file c:\windows\media\chord.wav.  door_open will alias Ifc_LowHealth02
+soundflmunge.exe : Warning : Files line 3 and 65 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_deflect01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 84 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_damage
+soundflmunge.exe : Warning : Files line 3 and 66 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_deflect02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 85 reference the same source file c:\windows\media\chord.wav.  door_open will alias droid_r2_death
+soundflmunge.exe : Warning : Files line 3 and 67 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_deflect03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 89 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_shift_up
+soundflmunge.exe : Warning : Files line 3 and 69 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_idle02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 90 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_roll
+soundflmunge.exe : Warning : Files line 3 and 70 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 91 reference the same source file c:\windows\media\chord.wav.  door_open will alias droidfighter_shift_down
+soundflmunge.exe : Warning : Files line 3 and 71 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 93 reference the same source file c:\windows\media\chord.wav.  door_open will alias wpn_drdFghtr_blaster_fire
+soundflmunge.exe : Warning : Files line 3 and 72 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 94 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_low_lp
+soundflmunge.exe : Warning : Files line 3 and 73 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 95 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_mid_lp
+soundflmunge.exe : Warning : Files line 3 and 74 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing05
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 96 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_droidStarfighter_hi_lp
+soundflmunge.exe : Warning : Files line 3 and 75 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswing06
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 102 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_shift_up
+soundflmunge.exe : Warning : Files line 3 and 76 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ltsaberswingdbl01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 103 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_roll
+soundflmunge.exe : Warning : Files line 3 and 78 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_throw
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 104 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_low_lp
+soundflmunge.exe : Warning : Files line 3 and 79 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias saber_twirl
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 105 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_mid_lp
+soundflmunge.exe : Warning : Files line 3 and 82 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost_capture
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 106 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_triFighter_hi_lp
+soundflmunge.exe : Warning : Files line 3 and 83 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost_charge
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 107 reference the same source file c:\windows\media\chord.wav.  door_open will alias tridroid_shift_down
+soundflmunge.exe : Warning : Files line 3 and 84 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost_discharge
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 111 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_hi_lp
+soundflmunge.exe : Warning : Files line 3 and 85 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost_dispute
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 112 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_low_lp
+soundflmunge.exe : Warning : Files line 3 and 86 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost_lost
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 113 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_Arc170_mid_lp
+soundflmunge.exe : Warning : Files line 3 and 87 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost1
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 116 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_shift_up
+soundflmunge.exe : Warning : Files line 3 and 88 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost2
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 117 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_roll
+soundflmunge.exe : Warning : Files line 3 and 89 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_blg_commandpost3
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 118 reference the same source file c:\windows\media\chord.wav.  door_open will alias Arc170_shift_down
+soundflmunge.exe : Warning : Files line 3 and 93 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_throw01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 123 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_hi_lp
+soundflmunge.exe : Warning : Files line 3 and 94 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_throw02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 124 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_low_lp
+soundflmunge.exe : Warning : Files line 3 and 95 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_throw03
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 125 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_v-wing_mid_lp
+soundflmunge.exe : Warning : Files line 3 and 96 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_throw04
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 128 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_shift_up
+soundflmunge.exe : Warning : Files line 3 and 97 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_throw05
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 129 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_roll
+soundflmunge.exe : Warning : Files line 3 and 101 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_equip_large
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 131 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_shift_up
+soundflmunge.exe : Warning : Files line 3 and 102 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_equip_small
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 132 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_roll
+soundflmunge.exe : Warning : Files line 3 and 103 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_equip_medium
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 133 reference the same source file c:\windows\media\chord.wav.  door_open will alias vwing_shift_down
+soundflmunge.exe : Warning : Files line 3 and 104 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_reload_medium
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 134 reference the same source file c:\windows\media\chord.wav.  door_open will alias grievous_shift_down
+soundflmunge.exe : Warning : Files line 3 and 105 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_reload_large
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 139 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_takeoff_gunship02
+soundflmunge.exe : Warning : Files line 3 and 119 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias emt_torch_lp
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 140 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_takeoff_gunship01
+soundflmunge.exe : Warning : Files line 3 and 125 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_vehicle_weaponEquip
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 141 reference the same source file c:\windows\media\chord.wav.  door_open will alias R_LAAT_land01
+soundflmunge.exe : Warning : Files line 3 and 127 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_weap_turret_fire_small
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 145 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_hi_lp
+soundflmunge.exe : Warning : Files line 3 and 128 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_intrcptTnk_trtYaw_lp
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 146 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_low_lp
+soundflmunge.exe : Warning : Files line 3 and 129 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_intrcptTnk_trtPtch_lp
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 147 reference the same source file c:\windows\media\chord.wav.  door_open will alias eng_repGunship_mid_lp
+soundflmunge.exe : Warning : Files line 3 and 136 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias rchothdishturret
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 154 reference the same source file c:\windows\media\chord.wav.  door_open will alias soft_shift_up
+soundflmunge.exe : Warning : Files line 3 and 143 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_thermalDetonator01
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 2 and 156 reference the same source file c:\windows\media\chord.wav.  door_open will alias soft_shift_down
+soundflmunge.exe : Warning : Files line 3 and 144 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_thermalDetonator02
   - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
-soundflmunge.exe : Warning : Files line 3 and 4 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost_charge
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 5 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost_discharge
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 6 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost_dispute
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 7 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost_lost
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 8 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost1
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 9 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost2
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 10 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias com_blg_commandpost3
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 16 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_gonk_01
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 17 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_gonk_02
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 18 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_gonk_03
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 19 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_gonk_04
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 30 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias crt_medicalDroid04
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 32 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_chatter_04
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 33 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_chatter_01
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 34 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_chatter_02
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 35 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_chatter_03
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 36 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_recharge_01
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 37 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_recharge_02
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 38 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_recharge_03
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Warning : Files line 3 and 39 reference the same source file c:\windows\media\chord.wav.  com_blg_commandpost_capture will alias droid_fx7_recharge_04
-  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\Common\commoncw.sfx
-soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
-soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\shell\effects\whooshl3.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
-soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx  - while munging E:\BF2_ModTools\data_BSM\Sound\shell\shell.sfx
+soundflmunge.exe : Warning : Files line 3 and 154 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_large01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 155 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_large02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 156 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_large03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 157 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_med01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 158 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_med02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 159 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_ord_rocket_med03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 176 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_med05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 177 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_med04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 178 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_med03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 179 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_med02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 180 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_med01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 181 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_distant_medium01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 182 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_distant_medium02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 183 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_verydistant_medium01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 184 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_verydistant_medium02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 199 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 200 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 201 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_small03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 202 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_small04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 203 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_obj_small05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 204 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_distant_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 205 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_distant_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 206 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_verydistant_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 207 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_verydistant_small02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 226 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 227 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 228 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 238 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 246 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub05
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 247 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub06
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 248 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub07
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 249 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_sub08
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 261 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_debris_metal_large01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 262 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_debris_metal_med03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 263 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_debris_metal_med02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 264 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_debris_metal_small01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 265 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias exp_debris_metal_small03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 279 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ammo_blaster_lp01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 280 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias ammo_blaster_lp04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 287 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias com_buff_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 290 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias buff_rally_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 293 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias buff_rage_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 294 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias buff_rage_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 297 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias buff_poison_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 298 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias buff_poison_effect
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 304 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias door_open
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 305 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias door_close
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 310 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_drdFghtr_missile_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 315 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_hailfire_missile_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 321 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_ywing_torpedo_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 327 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_tie_bombLauncher_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 333 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_gunship_laser_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 334 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_gunship_laser_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 339 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_jediStrftr_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 345 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_ywing_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 350 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias vehicle_chaingun_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 351 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_chaingun_spin
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 354 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias rcflak
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 361 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 363 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_chop_a_loop
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 366 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias startup_soft
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 369 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias startup_hard
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 372 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias shutdown_soft
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 374 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias shutdown_hard
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 378 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias sfx_pod_airbrakes_off
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 379 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias sfx_pod_airbrakes_on
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 382 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_r2_chatter_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 383 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_r2_chatter_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 384 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias Ifc_LowShield03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 385 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias Ifc_LowHealth02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 386 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_r2_damage
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 387 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droid_r2_death
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 391 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droidfighter_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 392 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droidfighter_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 393 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias droidfighter_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 395 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_drdFghtr_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 396 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_droidStarfighter_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 397 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_droidStarfighter_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 398 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_droidStarfighter_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 404 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias tridroid_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 405 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias tridroid_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 406 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_triFighter_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 407 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_triFighter_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 408 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_triFighter_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 409 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias tridroid_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 413 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_Arc170_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 414 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_Arc170_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 415 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_Arc170_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 418 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias Arc170_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 419 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias Arc170_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 420 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias Arc170_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 425 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_v-wing_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 426 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_v-wing_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 427 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_v-wing_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 430 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias vwing_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 431 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias vwing_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 433 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias grievous_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 434 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias grievous_roll
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 435 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias vwing_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 436 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias grievous_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 441 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_takeoff_gunship02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 442 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_takeoff_gunship01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 443 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias R_LAAT_land01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 447 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_repGunship_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 448 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_repGunship_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 449 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_repGunship_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 456 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias soft_shift_up
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 458 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias soft_shift_down
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 462 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_stap_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 463 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_stap_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 464 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_stap_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 465 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_stap_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 478 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_AAT_mainBlaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 479 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_AAT_missleLauncher_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 480 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_AAT_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 481 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_AAT_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 482 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_AAT_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 488 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_IFT_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 489 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_IFT_missile_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 491 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_interceptorTank_low_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 492 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_interceptorTank_mid_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 493 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias eng_interceptorTank_hi_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 500 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias fs_droideka_01
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 501 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias fs_droideka_02
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 502 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias fs_droideka_03
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 503 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias fs_droideka_04
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 504 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_snowSpder_towCable_rls
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 506 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias wpn_droideka_blaster_fire
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 507 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias drd_droideka_fold
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 508 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias drd_droideka_unfold
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 509 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias drd_droideka_roll_lp
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Warning : Files line 3 and 510 reference the same source file c:\windows\media\chord.wav.  wpn_sniperRifle_zoomIn01 will alias drd_droideka_shield_on
+  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\CI1COM527.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\CI1COM527.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\COCOM0076.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\COCOM0076.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\mxCISCor01_Act01_lp.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\mxCISCor01_Act01_lp.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to open file streams\ui_objComplete_1.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file streams\ui_objComplete_1.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\global\effects\crtr_wookiee_chatter_01.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\global\effects\crtr_wookiee_chatter_01.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\RI1COM628.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\RI1COM628.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\CI1COM527.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\CI1COM527.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\COCOM0076.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\COCOM0076.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cis_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\mxCISCor01_Act01_lp.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\mxCISCor01_Act01_lp.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\cw_music.stm
+soundflmunge.exe : Error : Unable to open file streams\ui_objComplete_1.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file streams\ui_objComplete_1.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\global\effects\crtr_wookiee_chatter_01.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\global\effects\crtr_wookiee_chatter_01.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\global_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\RI1COM628.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\cw\streams\PlayerCommands_vo\RI1COM628.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_quick.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm

@@ -1,0 +1,4281 @@
+// -------------------------------------------- Metagame VO ----------------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_leader_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0076", 1.0, 1.0, 1.0); //  Their Leader is on the Battlefield.
+        Segment("COCOM0077", 1.0, 1.0, 1.0); //  Their forces are under escort of a leader.
+        Segment("COCOM0078", 1.0, 1.0, 1.0); //  A leader is commanding their forces.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_bacta_tanks_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0118", 1.0, 1.0, 1.0); //  They have been injeced with bacta serum.
+        Segment("COCOM0119", 1.0, 1.0, 1.0); //  Enemy forces have received bacta injections.
+        Segment("COCOM0120", 1.0, 1.0, 1.0); //  Enemy forces have been enhanced with bacta.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_bacta_tanks_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0124", 1.0, 1.0, 1.0); //  Our army has been enhanced with self repairing capabilities.
+        Segment("COCOM0125", 1.0, 1.0, 1.0); //  our forces forces have deployed self-repairing droids.
+        Segment("COCOM0126", 1.0, 1.0, 1.0); //  Our droids have self-repair capabilities.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_sabotage_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0127", 1.0, 1.0, 1.0); //  They've sabotaged our vehicles.
+        Segment("COCOM0128", 1.0, 1.0, 1.0); //  Enemy saboteurs have damaged our vehicles.
+        Segment("COCOM0129", 1.0, 1.0, 1.0); //  Our vehicles have been sabotaged by enemy forces.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_sabotage_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0134", 1.0, 1.0, 1.0); //  Our saboteurs have damaged their vehicles.
+        Segment("COCOM0135", 1.0, 1.0, 1.0); //  Their vehicles have been damaged by our saboteurs.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_energy_boost_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0136", 1.0, 1.0, 1.0); //  They have been injeced with energy-enhancing serum.
+        Segment("COCOM0137", 1.0, 1.0, 1.0); //  Enemy forces have received adrenal injections.
+        Segment("COCOM0138", 1.0, 1.0, 1.0); //  Enemy forces have been given enhanced energy.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_energy_boost_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0142", 1.0, 1.0, 1.0); //  Our droids have been enhanced with advanced energy cells.
+        Segment("COCOM0143", 1.0, 1.0, 1.0); //  We have deployed agility-enhanced droids.
+        Segment("COCOM0144", 1.0, 1.0, 1.0); //  Enhanced energy droids have been deployed.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_supplies_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0145", 1.0, 1.0, 1.0); //  They have been fitted with a surplus of supplies.
+        Segment("COCOM0146", 1.0, 1.0, 1.0); //  Enemy forces have received increased supply caches.
+        Segment("COCOM0147", 1.0, 1.0, 1.0); //  Their supply caches have been increased.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_supplies_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0151", 1.0, 1.0, 1.0); //  Our droids have been fitted with a surplus of supplies.
+        Segment("COCOM0152", 1.0, 1.0, 1.0); //  Our forces have received increased supply caches.
+        Segment("COCOM0153", 1.0, 1.0, 1.0); //  Our supply caches have been increased.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_autoturrets_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0154", 1.0, 1.0, 1.0); //  They have set up a defensive grid of turrets.
+        Segment("COCOM0155", 1.0, 1.0, 1.0); //  Enemy forces have deployed autoturrets.
+        Segment("COCOM0156", 1.0, 1.0, 1.0); //  Enemy grounds have been reinforced with autoturrets.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_autoturrets_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0160", 1.0, 1.0, 1.0); //  We have set up a defensive grid of turrets.
+        Segment("COCOM0161", 1.0, 1.0, 1.0); //  Our forces have deployed autoturrets.
+        Segment("COCOM0162", 1.0, 1.0, 1.0); //  Our grounds have been reinforced with autoturrets.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_garrison_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0163", 1.0, 1.0, 1.0); //  They have a reinforced garrison of troops on the battlefield.
+        Segment("COCOM0164", 1.0, 1.0, 1.0); //  The enemy garrison has been reinforced with additional troops.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("team_bonus_garrison_used_by_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0165", 1.0, 1.0, 1.0); //  Their forces have deployed a reinforced garrison of troops.
+    }
+}
+
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_garrison_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0169", 1.0, 1.0, 1.0); //  We have a reinforced garrison of troops on the battlefield.
+        Segment("COCOM0170", 1.0, 1.0, 1.0); //  Our garrison has been reinforced with additional troops.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name(" team_bonus_garrison_used_by_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0171", 1.0, 1.0, 1.0); //  Our forces have deployed a reinforced garrison of troops.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_combat_shielding_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0172", 1.0, 1.0, 1.0); //  Their troops have combat shielding.
+        Segment("COCOM0173", 1.0, 1.0, 1.0); //  Enemy forces are being protected with combat shields.
+        Segment("COCOM0174", 1.0, 1.0, 1.0); //  Their forces are utilizing combat shielding technology.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_combat_shielding_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0178", 1.0, 1.0, 1.0); //  Our troops have combat shielding.
+        Segment("COCOM0179", 1.0, 1.0, 1.0); //  Our forces are being protected with combat shields.
+        Segment("COCOM0180", 1.0, 1.0, 1.0); //  Our forces are utilizing combat shielding technology.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_advanced_blasters_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0181", 1.0, 1.0, 1.0); //  Their troops have been equipped with advanced blasters.
+        Segment("COCOM0182", 1.0, 1.0, 1.0); //  Their blaster weapons have been amplified.
+        Segment("COCOM0183", 1.0, 1.0, 1.0); //  The enemy has advanced blasters.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_advanced_blasters_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0187", 1.0, 1.0, 1.0); //  Our troops have been equipped with advanced blasters.
+        Segment("COCOM0188", 1.0, 1.0, 1.0); //  Our blaster weapons have been amplified.
+        Segment("COCOM0189", 1.0, 1.0, 1.0); //  Our army has advanced blasters.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_sensor_array_them_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0190", 1.0, 1.0, 1.0); //  Their sensor array is disrupting our scanners.
+        Segment("COCOM0191", 1.0, 1.0, 1.0); //  Our sensors are being disrupted by their surveillance network.
+        Segment("COCOM0192", 1.0, 1.0, 1.0); //  Their surveillance scanners are jamming our signals.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_sensor_array_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0196", 1.0, 1.0, 1.0); //  Our sensor array is disrupting their scanners.
+        Segment("COCOM0197", 1.0, 1.0, 1.0); //  Their sensors are being disrupted by our surveillance network.
+        Segment("COCOM0198", 1.0, 1.0, 1.0); //  Our surveillance scanners are jamming their signals.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("team_bonus_leader_us_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("COCOM0557", 1.0, 1.0, 1.0); //  Our Leader is on the Battlefield.
+        Segment("COCOM0558", 1.0, 1.0, 1.0); //  Our forces are under escort of a leader.
+        Segment("COCOM0559", 1.0, 1.0, 1.0); //  A leader is commanding our forces.
+    }
+}
+
+
+// -------------------------------------------- 2D In Battle ----------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cisleaving");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {  
+        Segment("CO1COM001", 1.0, 0.0, 0.0); //  Navigation error.  Return to the battlefield.
+        Segment("CO1COM002", 1.0, 0.0, 0.0); //  warning!  You are leaving the battlefield
+        Segment("CO1COM003", 1.0, 0.0, 0.0); //  wrong way!  Error! Error! 
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_captured_commandpost");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM004", 1.0, 0.0, 0.0); //  The Confedarcy is in control of a command post
+        Segment("CO1COM005", 1.0, 0.0, 0.0); //  A command post is under Confederate control
+        Segment("CO1COM006", 1.0, 0.0, 0.0); //  The Confederacy is in control of another command post.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_lost_commandpost");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM007", 1.0, 0.0, 0.0); //  We've lost control of a command post
+        Segment("CO1COM008", 1.0, 0.0, 0.0); //  A command post is no longer under Confederate control
+        // Segment("CO1COM009", 1.0, 0.0, 0.0); //  We no longer control a command post
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_enemyCaptured_commandPost");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM010", 1.0, 0.0, 0.0); //  Command post under enemy control
+        Segment("CO1COM011", 1.0, 0.0, 0.0); //  Hostiles have acquired a command post
+        Segment("CO1COM012", 1.0, 0.0, 0.0); //  A command post has fallen into enemy hands
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_us_overwhelmed");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    { 
+        // Segment("CO1COM015", 1.0, 0.0, 0.0); //  We're running low on droids
+        // Segment("CO1COM016", 1.0, 0.0, 0.0); //  Droid reinforcements nearly exhausted
+        Segment("CO1COM017", 1.0, 0.0, 0.0); //  Reinforcements are being depleted
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_defeat_im");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    { 
+        Segment("CO1COM018", 1.0, 0.0, 0.0); //  Losing does not compute!
+        Segment("CO1COM019", 1.0, 0.0, 0.0); //  We must win!
+        Segment("CO1COM020", 1.0, 0.0, 0.0); //  Surrender is not an option
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_off_victory_im");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM021", 1.0, 0.0, 0.0); //  The battle is in our control
+        Segment("CO1COM022", 1.0, 0.0, 0.0); //  Victory is inevitable!
+        Segment("CO1COM023", 1.0, 0.0, 0.0); //  Victory is ours!
+        Segment("CO1COM024", 1.0, 0.0, 0.0); //  The battle is ours to lose!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_maul_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM025", 1.0, 0.0, 0.0); //  Darth Maul has joined the battle
+        Segment("CO1COM026", 1.0, 0.0, 0.0); //  Darth Maul has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_maul_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM027", 1.0, 0.0, 0.0); //  Darth Maul has left the battle
+        Segment("CO1COM028", 1.0, 0.0, 0.0); //  Darth Maul has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_grievous_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM029", 1.0, 0.0, 0.0); //  General Grievous has joined the battle
+        Segment("CO1COM030", 1.0, 0.0, 0.0); //  General Grievous has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_grievous_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM031", 1.0, 0.0, 0.0); //  General Grievous has left the battle
+        Segment("CO1COM032", 1.0, 0.0, 0.0); //  General Grievous has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_jango_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM033", 1.0, 0.0, 0.0); //  Jango Fett has joined the battle
+        Segment("CO1COM034", 1.0, 0.0, 0.0); //  Jango Fett has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_jango_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM035", 1.0, 0.0, 0.0); //  Jango Fett has left the battle
+        Segment("CO1COM036", 1.0, 0.0, 0.0); //  Jango Fett has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_dooku_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM037", 1.0, 0.0, 0.0); //  Count Dooku has joined the battle
+        Segment("CO1COM038", 1.0, 0.0, 0.0); //  Count Dooku has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_dooku_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM039", 1.0, 0.0, 0.0); //  Count Dooku has left the battle
+        Segment("CO1COM040", 1.0, 0.0, 0.0); //  Count Dooku has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_aayla_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM041", 1.0, 0.0, 0.0); //  Aayla Secura has joined the battle
+        Segment("CO1COM042", 1.0, 0.0, 0.0); //  Jedi Secura has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_aayla_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM043", 1.0, 0.0, 0.0); //  Aayla Secura has left the battle
+        Segment("CO1COM044", 1.0, 0.0, 0.0); //  Jedi Secura has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_mundi_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM045", 1.0, 0.0, 0.0); //  Ki-Adi-Mundi has joined the battle
+        Segment("CO1COM046", 1.0, 0.0, 0.0); //  Jedi Mundi has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_mundi_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM047", 1.0, 0.0, 0.0); //  Jedi Mundi has left the battle
+        Segment("CO1COM048", 1.0, 0.0, 0.0); //  Ki-Adi-Mundi has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_windu_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM049", 1.0, 0.0, 0.0); //  Jedi Windu has joined the battle
+        Segment("CO1COM050", 1.0, 0.0, 0.0); //  Mace Windu has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_windu_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM051", 1.0, 0.0, 0.0); //  Jedi Windu has left the battle
+        Segment("CO1COM052", 1.0, 0.0, 0.0); //  Mace Windu has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_yoda_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM053", 1.0, 0.0, 0.0); //  Jedi Yoda has joined the battle
+        Segment("CO1COM054", 1.0, 0.0, 0.0); //  Yoda has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_yoda_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM055", 1.0, 0.0, 0.0); //  Jedi Yoda has left the battle
+        Segment("CO1COM056", 1.0, 0.0, 0.0); //  Yoda has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_anakin_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM057", 1.0, 0.0, 0.0); //  Anakin Skywalker has joined the battle
+        Segment("CO1COM058", 1.0, 0.0, 0.0); //  Jedi Skywalker has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_anakin_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM059", 1.0, 0.0, 0.0); //  Anakin Skywalker has left the battle
+        Segment("CO1COM060", 1.0, 0.0, 0.0); //  Jedi Skywalker has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_kenobi_enter");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM061", 1.0, 0.0, 0.0); //  Obi Wan Kenobi has joined the battle
+        Segment("CO1COM062", 1.0, 0.0, 0.0); //  Jedi Kenobi has entered the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_hero_kenobi_exit");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM063", 1.0, 0.0, 0.0); //  Obi Wan Kenobi has left the battle
+        Segment("CO1COM064", 1.0, 0.0, 0.0); //  Jedi Kenobi has exited the battlefield
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repFlag_take_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM065", 1.0, 0.0, 0.0); //  We are in control the Republic's flag
+        Segment("CO1COM066", 1.0, 0.0, 0.0); //  We have taken the Republic's flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repFlag_drop_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM067", 1.0, 0.0, 0.0); //  We have dropped the Republic's flag
+        Segment("CO1COM068", 1.0, 0.0, 0.0); //  The Republic's flag has been dropped
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cisFlag_take_rep");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM069", 1.0, 0.0, 0.0); //  The Republic has taken our flag
+        Segment("CO1COM070", 1.0, 0.0, 0.0); //  Our flag has been taken
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cisFlag_drop_rep");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM071", 1.0, 0.0, 0.0); //  The Republic has dropped our flag
+        Segment("CO1COM072", 1.0, 0.0, 0.0); //  Our flag has been dropped
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cisFlag_returned");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM073", 1.0, 0.0, 0.0); //  Our flag has been returned to base
+        Segment("CO1COM074", 1.0, 0.0, 0.0); //   Our flag has been secured
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repFlag_returned");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM075", 1.0, 0.0, 0.0); //  The Republic flag been returned to their base
+        Segment("CO1COM076", 1.0, 0.0, 0.0); //  The Republic has secured their flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_cisFlag_score");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM077", 1.0, 0.0, 0.0); //  The CIS has scored
+        Segment("CO1COM078", 1.0, 0.0, 0.0); //  A point for the CIS
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_repFlag_score");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM079", 1.0, 0.0, 0.0); //  A point for the Republic
+        Segment("CO1COM080", 1.0, 0.0, 0.0); //  The Repulic has scored!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_1Flag_take_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM081", 1.0, 0.0, 0.0); //  We control the flag
+        Segment("CO1COM082", 1.0, 0.0, 0.0); //  We are in posession of the flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_1Flag_take_rep");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM083", 1.0, 0.0, 0.0); //  The Republic controls the flag
+        Segment("CO1COM084", 1.0, 0.0, 0.0); //  The Republic has the flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_1Flag_drop_cis");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM085", 1.0, 0.0, 0.0); //  we have lost the flag!
+        Segment("CO1COM086", 1.0, 0.0, 0.0); //  The CIS no longer has the flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_1Flag_drop_rep");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM087", 1.0, 0.0, 0.0); //  The Republic has dropped the flag
+        Segment("CO1COM088", 1.0, 0.0, 0.0); //  The Republic no longer posesses the flag
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_com_report_enemy_losing");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM089", 1.0, 0.0, 0.0); //  We are destroying their reinforcements
+        Segment("CO1COM090", 1.0, 0.0, 0.0); //  Hostile reinforcement count is dropping
+        Segment("CO1COM091", 1.0, 0.0, 0.0); //  Enemy reinforcements are thinning
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_off_response_hero_command");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM126", 1.0, 0.0, 0.0); //  Error.  Illegal Follow Order.
+        Segment("CO1COM127", 1.0, 0.0, 0.0); //  CIS Survival Imperatives Overriding Hero follow order.
+        Segment("CO1COM128", 1.0, 0.0, 0.0); //  Request denied.  Droids do not provide adequate hero support
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("imp_off_response_hero_command");
+    Group("cis_vo");
+    Inherit("vo_template");
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CO1COM126", 1.0, 0.0, 0.0); //  Error.  Illegal Follow Order.
+        Segment("CO1COM127", 1.0, 0.0, 0.0); //  CIS Survival Imperatives Overriding Hero follow order.
+        Segment("CO1COM128", 1.0, 0.0, 0.0); //  Request denied.  Droids do not provide adequate hero support
+    }
+}
+
+// -------------------------------------------- Player Commands ----------------------------------------------------------
+
+#ifplatform pc
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_hostile");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM527", 1.0, 1.0, 1.0); //  hostile detected
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_bacta");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM528", 1.0, 1.0, 1.0); //  I need recharging
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_mechanic");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM529", 1.0, 1.0, 1.0); //  I require maintenance
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_ammo");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM530", 1.0, 1.0, 1.0); //  Ammo request initiated
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_transport");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM531", 1.0, 1.0, 1.0); //  Request transport
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_backup");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM532", 1.0, 1.0, 1.0); //  Request additional support
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_clear_area");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM533", 1.0, 1.0, 1.0); //  Commence attack maneuver
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_defend");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM534", 1.0, 1.0, 1.0); //  Maintain this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_hostile_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM535", 1.0, 1.0, 1.0); //  hostile detected
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_bacta_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM536", 1.0, 1.0, 1.0); //  I need recharging
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_mechanic_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM537", 1.0, 1.0, 1.0); //  I require maintenance
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_ammo_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM538", 1.0, 1.0, 1.0); //  Ammo request initiated
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_transport_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM539", 1.0, 1.0, 1.0); //  Request transport
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_backup_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM540", 1.0, 1.0, 1.0); //  Request additional support
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_clear_area_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM541", 1.0, 1.0, 1.0); //  Commence attack maneuver
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_pc_com_defend_inVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CI1COM542", 1.0, 1.0, 1.0); //  Maintain this position
+    }
+}
+#endifplatform pc
+
+SoundStreamProperties()
+{
+    Name("cis_command_follow");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIPCOM001", 1.0, 1.0, 0.0); //  Come with me
+        Segment("CIPCOM002", 1.0, 1.0, 0.0); //  follow me
+        Segment("CIPCOM003", 1.0, 1.0, 0.0); //  this way
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_command_stopFollow");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIPCOM004", 1.0, 1.0, 0.0); //  spread out
+        Segment("CIPCOM005", 1.0, 1.0, 0.0); //  don't follow
+        Segment("CIPCOM006", 1.0, 1.0, 0.0); //  Break off
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_command_stopVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIPCOM007", 1.0, 1.0, 0.0); //  Halt!
+        Segment("CIPCOM008", 1.0, 1.0, 0.0); //  Stop!
+        Segment("CIPCOM009", 1.0, 1.0, 0.0); //  Wait for me!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_command_getIn");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIPCOM010", 1.0, 1.0, 0.0); //  Climb in
+        Segment("CIPCOM011", 1.0, 1.0, 0.0); //  Get in
+        Segment("CIPCOM012", 1.0, 1.0, 0.0); //  Take up secondary position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_command_getOut");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIPCOM013", 1.0, 1.0, 0.0); //  out!
+        Segment("CIPCOM014", 1.0, 1.0, 0.0); //  proceed on foot
+        Segment("CIPCOM015", 1.0, 1.0, 0.0); //  exit vehicle
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_response_follow");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIAICOM004", 1.0, 1.0, 0.0); //  following
+        Segment("CIAICOM005", 1.0, 1.0, 0.0); //  roger that
+        Segment("CIAICOM001", 1.0, 1.0, 0.0); //  roger roger
+        Segment("CIAICOM002", 1.0, 1.0, 0.0); //  confirmed
+        Segment("CIAICOM003", 1.0, 1.0, 0.0); //  order accepted
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_response_stopFollow");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIAICOM006", 1.0, 1.0, 0.0); //  spreading out
+        Segment("CIAICOM007", 1.0, 1.0, 0.0); //  follow command terminated
+        Segment("CIAICOM001", 1.0, 1.0, 0.0); //  roger roger
+        Segment("CIAICOM002", 1.0, 1.0, 0.0); //  confirmed
+        Segment("CIAICOM003", 1.0, 1.0, 0.0); //  order accepted
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_response_stopVehicle");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIAICOM008", 1.0, 1.0, 0.0); //  stopping vehicle
+        Segment("CIAICOM009", 1.0, 1.0, 0.0); //  holding vehicle
+        Segment("CIAICOM001", 1.0, 1.0, 0.0); //  roger roger
+        Segment("CIAICOM002", 1.0, 1.0, 0.0); //  confirmed
+        Segment("CIAICOM003", 1.0, 1.0, 0.0); //  order accepted
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_response_getIn");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIAICOM010", 1.0, 1.0, 0.0); //  taking up secondary position
+        Segment("CIAICOM011", 1.0, 1.0, 0.0); //  boarding vehicle
+        Segment("CIAICOM001", 1.0, 1.0, 0.0); //  roger roger
+        Segment("CIAICOM002", 1.0, 1.0, 0.0); //  confirmed
+        Segment("CIAICOM003", 1.0, 1.0, 0.0); //  order accepted
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis_response_getOut");
+    Group("cis_vo");
+    Inherit("player_command_template");
+    Stream("cis_unit_vo_quick");
+    SegmentList()
+    {
+        Segment("CIAICOM012", 1.0, 1.0, 0.0); //  proceeding on foot
+        Segment("CIAICOM013", 1.0, 1.0, 0.0); //  exiting vehicle
+        Segment("CIAICOM014", 1.0, 1.0, 0.0); //  vacating vehicle
+        Segment("CIAICOM001", 1.0, 1.0, 0.0); //  roger roger
+        Segment("CIAICOM002", 1.0, 1.0, 0.0); //  confirmed
+        Segment("CIAICOM003", 1.0, 1.0, 0.0); //  order accepted
+    }
+}
+
+// ---------------------------------------- Space VO --------------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis_spahangar");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    PlayProbability(1.0);
+    PlayInterval(13.0);
+    PlayIntervalDev(3.0);
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(0.65);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("battlechatter");
+    CyclePlayback(1);
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cis_unit_vo_slow");
+    Priority(0.7);
+    SegmentList()
+    {
+       Segment("CO1COM095", 200.0, 20.0, 3.0); //  All hands to hanger area! Repeat! All hands to hanger area!
+       Segment("CO1COM096", 200.0, 20.0, 3.0); //  Attention! Clear the hanger area! Repeat1Clear the hanger area!
+       Segment("CO1COM097", 200.0, 20.0, 3.0); //  Attention! All second stage pilots! On deck!
+       Segment("CO1COM098", 200.0, 20.0, 3.0); //  Enemy bombers are incoming! Repeat! Enemy bombers are incoming!
+       Segment("CO1COM099", 200.0, 20.0, 3.0); //  Attention in the hanger! Scramble all reinforcements!  Roger Roger
+       Segment("CO1COM100", 200.0, 20.0, 3.0); //  Attention all Pilots! Attention all Pilots! Prepare for assault!
+       Segment("CO1COM101", 200.0, 20.0, 3.0); //  Attention! All Pilots report to the hanger area! 
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis_inf_com_space_chatter");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    MinDistance(200.0);
+    MuteDistance(200.0);
+    MaxDistance(200.0);
+    PlayProbability(1.0);
+    PlayInterval(12.0);
+    PlayIntervalDev(3.0);
+    Gain(0.8);
+    Mode3D(0);
+    Stream("cis_unit_vo_slow");
+    SegmentList()
+    {
+        Segment("CI1CPC001", 3.0, 0.0, 3.0); //  Hostile fighter coming around.
+        Segment("CI1CPC002", 3.0, 0.0, 3.0); //  Main engine has malfunctioned
+        Segment("CI1CPC003", 3.0, 0.0, 3.0); //  System malfunction! Override!
+        Segment("CI1CPC004", 3.0, 0.0, 3.0); //  Sensors registering enemy bombers.
+        Segment("CI1CPC005", 3.0, 0.0, 3.0); //  Unable to evade enemy.  Assistance required.
+        Segment("CI1CPC006", 3.0, 0.0, 3.0); //  Accurate shooting
+        Segment("CI1CPC007", 3.0, 0.0, 3.0); //  Enemy fighter possesses superior maneuvering skills
+        Segment("CI1CPC008", 3.0, 0.0, 3.0); //  Hostile target locked
+        Segment("CI1CPC009", 3.0, 0.0, 3.0); //  Hostile target eliminated
+        Segment("CI1CPC010", 3.0, 0.0, 3.0); //  Enemy fighter targeted.  Roger. Roger.
+        //Segment("CI1COM276", 1.0, 0.0, 3.0); //  Jedi Starfighter!  Eliminate it!
+        //Segment("CI1COM277", 1.0, 0.0, 3.0); //  Attack the starfighter!
+        Segment("CI1COM278", 1.0, 0.0, 3.0); //  hostile target acquired
+        //Segment("CI1COM279", 1.0, 0.0, 3.0); //  Jedi Starfighter! Attack!
+        //Segment("CI1COM280", 1.0, 0.0, 3.0); //  Lock onto Starfighter target!    
+        Segment("CI1COM281", 1.0, 0.0, 3.0); //  Scout class target behind you!
+        //Segment("CI1COM282", 1.0, 0.0, 3.0); //  Starfighter target on rear sensor!
+        Segment("CI1COM283", 1.0, 0.0, 3.0); //  Enemy target behind you!
+        //Segment("CI1COM284", 1.0, 0.0, 3.0); //  Starfighter behind you!
+        Segment("CI1COM285", 1.0, 0.0, 3.0); //  enemy craft behind you!
+        Segment("CI1COM286", 1.0, 0.0, 3.0); //  bomber targeted!
+        Segment("CI1COM287", 1.0, 0.0, 3.0); //  bomber target acquired!
+        //Segment("CI1COM288", 1.0, 0.0, 3.0); //  acquired ARC 170 bomber!
+        Segment("CI1COM289", 1.0, 0.0, 3.0); //  eliminate bomber target
+        //Segment("CI1COM290", 1.0, 0.0, 3.0); //  target the ARC170 bomber
+        Segment("CI1COM291", 1.0, 0.0, 3.0); //  Bomber behind you!
+        //Segment("CI1COM292", 1.0, 0.0, 3.0); //  ARC 170 bomber behind you!
+        Segment("CI1COM293", 1.0, 0.0, 3.0); //  hostile target behind you!
+        Segment("CI1COM294", 1.0, 0.0, 3.0); //  hostile bomber on your rear sensor
+        //Segment("CI1COM295", 1.0, 0.0, 3.0); //  ARC 170 target behind you
+        //Segment("CI1COM296", 1.0, 0.0, 3.0); //  V-Wing targeted
+        //Segment("CI1COM297", 1.0, 0.0, 3.0); //  acquired V-Wing target
+        //Segment("CI1COM298", 1.0, 0.0, 3.0); //  attack the V-Wing
+        //Segment("CI1COM299", 1.0, 0.0, 3.0); //  target the fighter
+        //Segment("CI1COM300", 1.0, 0.0, 3.0); //  Eliminate V-Wing target!
+        //Segment("CI1COM301", 1.0, 0.0, 3.0); //  V-Wing behind you!
+        //Segment("CI1COM302", 1.0, 0.0, 3.0); //  V-Wing detected behind you!
+        //Segment("CI1COM303", 1.0, 0.0, 3.0); //  V-Wing tracking behind you
+        Segment("CI1COM304", 1.0, 0.0, 3.0); //  fighter tracking behind you
+        Segment("CI1COM305", 1.0, 0.0, 3.0); //  Hostile fighter behind you!
+        Segment("CI1COM306", 1.0, 0.0, 3.0); //  Take out that dropship!
+        //Segment("CI1COM307", 1.0, 0.0, 3.0); //  Eliminate the Gunship
+        //Segment("CI1COM308", 1.0, 0.0, 3.0); //  destroy the gunship
+        //Segment("CI1COM309", 1.0, 0.0, 3.0); //  Take down that gunship
+        Segment("CI1COM310", 1.0, 0.0, 3.0); //  Stop that dropship
+        //Segment("CI1COM311", 1.0, 0.0, 3.0); //  Terminate Gunship!
+        //Segment("CI1COM312", 1.0, 0.0, 3.0); //  Eliminate Gunship!
+        //Segment("CI1COM313", 1.0, 0.0, 3.0); //  Dispose of Gunship!
+        //Segment("CI1COM314", 1.0, 0.0, 3.0); //  Target Republic Gunship!
+        //Segment("CI1COM315", 1.0, 0.0, 3.0); //  Destroy the Republic Gunship!    
+        //Segment("CI1COM417", 1.0, 0.0, 3.0); //  TIE Fighter!  Eliminate it!
+        //Segment("CI1COM418", 1.0, 0.0, 3.0); //  Attack the TIE Fighter!
+        Segment("CI1COM419", 1.0, 0.0, 3.0); //  hostile target acquired
+        //Segment("CI1COM420", 1.0, 0.0, 3.0); //  TIE Fighter! Attack!
+        //Segment("CI1COM421", 1.0, 0.0, 3.0); //  Lock onto TIE Fighter target!    
+        Segment("CI1COM422", 1.0, 0.0, 3.0); //  Fighter class target behind you!
+        //Segment("CI1COM423", 1.0, 0.0, 3.0); //  TIE Fighter target on rear sensor!
+        Segment("CI1COM424", 1.0, 0.0, 3.0); //  Enemy target behind you!
+        //Segment("CI1COM425", 1.0, 0.0, 3.0); //  TIE Fighter behind you!
+        Segment("CI1COM426", 1.0, 0.0, 3.0); //  enemy craft behind you!
+        //Segment("CI1COM427", 1.0, 0.0, 3.0); //  TIE Bomber targeted!
+        //Segment("CI1COM428", 1.0, 0.0, 3.0); //  TIE Bomber target acquired!
+        //Segment("CI1COM429", 1.0, 0.0, 3.0); //  acquired TIE Bomber!
+        //Segment("CI1COM430", 1.0, 0.0, 3.0); //  eliminate TIE Bomber target
+        //Segment("CI1COM431", 1.0, 0.0, 3.0); //  target the TIE Bomber
+        //Segment("CI1COM432", 1.0, 0.0, 3.0); //  TIE Bomber behind you!
+        //Segment("CI1COM433", 1.0, 0.0, 3.0); //  TIE Bomber behind you!
+        Segment("CI1COM434", 1.0, 0.0, 3.0); //  hostile target behind you!
+        //Segment("CI1COM435", 1.0, 0.0, 3.0); //  hostile TIE Bomber on your rear sensor
+        //Segment("CI1COM436", 1.0, 0.0, 3.0); //  TIE Bomber target behind you  
+        //Segment("CI1COM437", 1.0, 0.0, 3.0); //  TIE Interceptor targeted
+        //Segment("CI1COM438", 1.0, 0.0, 3.0); //  acquired TIE Interceptor target
+        //Segment("CI1COM439", 1.0, 0.0, 3.0); //  attack the TIE Interceptor
+        //Segment("CI1COM440", 1.0, 0.0, 3.0); //  target the TIE Interceptor
+        //Segment("CI1COM441", 1.0, 0.0, 3.0); //  Eliminate TIE Interceptor target   
+        //Segment("CI1COM442", 1.0, 0.0, 3.0); //  TIE Interceptor behind you!
+        //Segment("CI1COM443", 1.0, 0.0, 3.0); //  TIE Interceptor detected behind you!
+        //Segment("CI1COM444", 1.0, 0.0, 3.0); //  TIE Interceptor tracking behind you
+        //Segment("CI1COM445", 1.0, 0.0, 3.0); //  TIE Interceptor tracking behind you
+        //Segment("CI1COM446", 1.0, 0.0, 3.0); //  Hostile TIE Interceptor behind you!  
+        //Segment("CI1COM447", 1.0, 0.0, 3.0); //  Take out that Imperial Shuttle!
+        //Segment("CI1COM448", 1.0, 0.0, 3.0); //  Eliminate the Imperial Shuttle
+        //Segment("CI1COM449", 1.0, 0.0, 3.0); //  destroy the Imperial Shuttle
+        //Segment("CI1COM450", 1.0, 0.0, 3.0); //  Take down that Imperial Shuttle
+        //Segment("CI1COM451", 1.0, 0.0, 3.0); //  Stop that Imperial Shuttle           
+    }
+}
+
+// ---------------------------------------- Battle Chatter - CIS 1 --------------------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum121");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM001", 200.0, 10.0, 3.0); //  Attack the clone!
+        Segment("CI1COM002", 200.0, 10.0, 3.0); //  Clone Trooper!
+        Segment("CI1COM003", 200.0, 10.0, 3.0); //  Targets acquired
+        Segment("CI1COM004", 200.0, 10.0, 3.0); //  Eradicate the clone!
+        Segment("CI1COM005", 200.0, 10.0, 3.0); //  Eliminate that Clone!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Left");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM006", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM007", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM008", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM009", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM010", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Right");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM006", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM007", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM008", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM009", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM010", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum123");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM011", 200.0, 10.0, 3.0); //  Attack the BARC
+        Segment("CI1COM012", 200.0, 10.0, 3.0); //  Speederbike!
+        Segment("CI1COM013", 200.0, 10.0, 3.0); //  Attack the Speederbike!
+        Segment("CI1COM014", 200.0, 10.0, 3.0); //  Secure the BARC!
+        Segment("CI1COM015", 200.0, 10.0, 3.0); //   BARC speeder!  Eliminate him!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum124");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM016", 200.0, 10.0, 3.0); //  Tank!
+        Segment("CI1COM017", 200.0, 10.0, 3.0); //  TX-130S!  Attack!
+        Segment("CI1COM018", 200.0, 10.0, 3.0); //  Attack the tank!
+        Segment("CI1COM019", 200.0, 10.0, 3.0); //  Eliminate the TX-130S'!
+        Segment("CI1COM020", 200.0, 10.0, 3.0); //  TX-130S!  Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum124");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM021", 200.0, 10.0, 3.0); //  Clear shot achieved! Eliminate the TX-130S!
+        Segment("CI1COM022", 200.0, 10.0, 3.0); //  Open shot for the TX-130S!
+        Segment("CI1COM023", 200.0, 10.0, 3.0); //  Take the shot!
+        Segment("CI1COM024", 200.0, 10.0, 3.0); //  Eliminate the Fighter Tank!
+        Segment("CI1COM025", 200.0, 10.0, 3.0); //  Destroy the TX-130S
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum125");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM026", 200.0, 10.0, 3.0); //  AT-RT, incoming!
+        Segment("CI1COM027", 200.0, 10.0, 3.0); //  Eliminate the AT-RT
+        Segment("CI1COM028", 200.0, 10.0, 3.0); //  Stop the AT-RT
+        Segment("CI1COM029", 200.0, 10.0, 3.0); //  AT-RT! Attack!
+        Segment("CI1COM030", 200.0, 10.0, 3.0); //  Focus your weapon on the AT-RT
+        Segment("CI1COM046", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM050", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum125");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM031", 200.0, 10.0, 3.0); //  Clear shot!  Take down the AT-RT!
+        Segment("CI1COM032", 200.0, 10.0, 3.0); //  AT-RT! Finish him!
+        Segment("CI1COM033", 200.0, 10.0, 3.0); //  Clear the AT-RT!
+        Segment("CI1COM034", 200.0, 10.0, 3.0); //  Take down the AT-RT
+        Segment("CI1COM035", 200.0, 10.0, 3.0); //  Shut down the AT-RT
+        Segment("CI1COM052", 200.0, 10.0, 3.0); //  eliminate the walker
+        Segment("CI1COM053", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM054", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM055", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum126");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM036", 200.0, 10.0, 3.0); //  target the Swamp Speeder
+        Segment("CI1COM037", 200.0, 10.0, 3.0); //  Swamp Speeder target acquired
+        Segment("CI1COM038", 200.0, 10.0, 3.0); //  Focus your efforts on the Swamp Speeder
+        Segment("CI1COM039", 200.0, 10.0, 3.0); //  Swamp Speeder!
+        Segment("CI1COM040", 200.0, 10.0, 3.0); //  Stop the speeder!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum126");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM041", 200.0, 10.0, 3.0); //  Finish the Swamp Speeder
+        Segment("CI1COM042", 200.0, 10.0, 3.0); //  Destroy the speeder
+        Segment("CI1COM043", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM044", 200.0, 10.0, 3.0); //  Swamp Speeder! Destroy!
+        Segment("CI1COM045", 200.0, 10.0, 3.0); //  Terminate the Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum127");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM046", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM047", 200.0, 10.0, 3.0); //  AT-TE target acquired
+        Segment("CI1COM048", 200.0, 10.0, 3.0); //  target the AT-TE
+        Segment("CI1COM049", 200.0, 10.0, 3.0); //  stop the AT-TE
+        Segment("CI1COM050", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum127");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM051", 200.0, 10.0, 3.0); //  terminate the AT-TE
+        Segment("CI1COM052", 200.0, 10.0, 3.0); //  eliminate the walker
+        Segment("CI1COM053", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM054", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM055", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum132");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM056", 200.0, 10.0, 3.0); //  Eliminate the skiff
+        Segment("CI1COM057", 200.0, 10.0, 3.0); //  Destroy the Hover Skiff
+        Segment("CI1COM058", 200.0, 10.0, 3.0); //  skiff target acquired.
+        Segment("CI1COM059", 200.0, 10.0, 3.0); //  Stop the skiff
+        Segment("CI1COM060", 200.0, 10.0, 3.0); //  Secure the skiff
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum132");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM061", 200.0, 10.0, 3.0); //  Terminate Hover Skiff
+        Segment("CI1COM062", 200.0, 10.0, 3.0); //  Dispose of Hover Skiff!
+        Segment("CI1COM063", 200.0, 10.0, 3.0); //  Eliminate Hover Skiff target!
+        Segment("CI1COM064", 200.0, 10.0, 3.0); //  Destroy Skiff target!
+        Segment("CI1COM065", 200.0, 10.0, 3.0); //  Dispose of skiff target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum161");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM066", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM067", 200.0, 10.0, 3.0); //  Destroy the Gian Speeder
+        Segment("CI1COM068", 200.0, 10.0, 3.0); //  Target the speeder!
+        Segment("CI1COM069", 200.0, 10.0, 3.0); //  Halt the speeder!
+        Segment("CI1COM070", 200.0, 10.0, 3.0); //  Secure the Gian Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum161");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM071", 200.0, 10.0, 3.0); //  Terminate speeder!
+        Segment("CI1COM072", 200.0, 10.0, 3.0); //  Dispose of speeder!
+        Segment("CI1COM073", 200.0, 10.0, 3.0); //  Dispose of speeder target!
+        Segment("CI1COM074", 200.0, 10.0, 3.0); //  Destroy speeder target!
+        Segment("CI1COM075", 200.0, 10.0, 3.0); //  Eliminate speeder target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyEnemySlaughter");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM076", 200.0, 10.0, 3.0); //  Well aimed
+        Segment("CI1COM077", 200.0, 10.0, 3.0); //  Roger boom
+        Segment("CI1COM078", 200.0, 10.0, 3.0); //  hostiles eliminated
+        Segment("CI1COM079", 200.0, 10.0, 3.0); //  messy messy
+        Segment("CI1COM080", 200.0, 10.0, 3.0); //  parts is parts
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyFriendlySlaughter");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM081", 200.0, 10.0, 3.0); //  Casualites are mounting
+        Segment("CI1COM082", 200.0, 10.0, 3.0); //  we're losing ground!
+        Segment("CI1COM083", 200.0, 10.0, 3.0); //  Retreat!
+        Segment("CI1COM084", 200.0, 10.0, 3.0); //  Hold your ground!
+        Segment("CI1COM085", 200.0, 10.0, 3.0); //  Our numbers are falling
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree4");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM086", 200.0, 10.0, 3.0); //  Highly accurate shooting
+        Segment("CI1COM087", 200.0, 10.0, 3.0); //  machines are superior
+        Segment("CI1COM088", 200.0, 10.0, 3.0); //  was your aiming reticle recently calibrated?
+        Segment("CI1COM089", 200.0, 10.0, 3.0); //  How are you doing that?
+        Segment("CI1COM090", 200.0, 10.0, 3.0); //  Nice grouping
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree8");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM091", 200.0, 10.0, 3.0); //  Wow.  Roger that!
+        Segment("CI1COM092", 200.0, 10.0, 3.0); //  Your efficiency exceeds expected parameters
+        Segment("CI1COM093", 200.0, 10.0, 3.0); //  You are a klling machine
+        Segment("CI1COM094", 200.0, 10.0, 3.0); //  You have surpassed your hourly quota
+        Segment("CI1COM095", 200.0, 10.0, 3.0); //  You are a one-droid army
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_HeadshotKill");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM096", 200.0, 10.0, 3.0); //  direct hit
+        Segment("CI1COM097", 200.0, 10.0, 3.0); //  good shot
+        Segment("CI1COM098", 200.0, 10.0, 3.0); //  target eliminated
+        Segment("CI1COM099", 200.0, 10.0, 3.0); //  target down
+        Segment("CI1COM100", 200.0, 10.0, 3.0); //  perfect shot
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_Grenade");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM101", 200.0, 10.0, 3.0); //  Grenade!
+        Segment("CI1COM102", 200.0, 10.0, 3.0); //  Incoming explosive
+        Segment("CI1COM103", 200.0, 10.0, 3.0); //  Take Cover!
+        Segment("CI1COM104", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM105", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM108", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM109", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM110", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_MissileIncoming");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM102", 200.0, 10.0, 3.0); //  Incoming explosive
+        Segment("CI1COM103", 200.0, 10.0, 3.0); //  Take Cover!
+        Segment("CI1COM104", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM105", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM106", 200.0, 10.0, 3.0); //  Rocket!
+        Segment("CI1COM107", 200.0, 10.0, 3.0); //  Incoming rocket
+        Segment("CI1COM108", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM109", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM110", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsSniper_VOUnitNum122");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM111", 200.0, 10.0, 3.0); //  target sniper
+        Segment("CI1COM112", 200.0, 10.0, 3.0); //  eliminate sniper!
+        Segment("CI1COM113", 200.0, 10.0, 3.0); //  terminate sniper
+        Segment("CI1COM114", 200.0, 10.0, 3.0); //  destroy sniper!
+        Segment("CI1COM115", 200.0, 10.0, 3.0); //  Scan for sniper!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_FriendlyFire");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM116", 200.0, 10.0, 3.0); //  friendly fire!
+        Segment("CI1COM117", 200.0, 10.0, 3.0); //  readjust your targeting reticle
+        Segment("CI1COM118", 200.0, 10.0, 3.0); //  Alert, malfunctioning droid!
+        Segment("CI1COM119", 200.0, 10.0, 3.0); //  you need maintenance!
+        Segment("CI1COM120", 200.0, 10.0, 3.0); //  Invalid target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RebelsShootDeadBody");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM121", 200.0, 10.0, 3.0); //  negative lifeform confirmed
+        Segment("CI1COM122", 200.0, 10.0, 3.0); //  Redundancy procedures initiated
+        Segment("CI1COM123", 200.0, 10.0, 3.0); //  double checking
+        Segment("CI1COM124", 200.0, 10.0, 3.0); //  Die die roger roger
+        Segment("CI1COM125", 200.0, 10.0, 3.0); //  termination confirmed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_GivePowerup");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM126", 200.0, 10.0, 3.0); //  power up
+        Segment("CI1COM127", 200.0, 10.0, 3.0); //  charge up
+        Segment("CI1COM128", 200.0, 10.0, 3.0); //  Here's a quick fix
+        Segment("CI1COM129", 200.0, 10.0, 3.0); //  Take some supplies
+        Segment("CI1COM130", 200.0, 10.0, 3.0); //  power up for you
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsTurret");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM156", 200.0, 10.0, 3.0); //  eliminate turret!
+        Segment("CI1COM157", 200.0, 10.0, 3.0); //  target turret!
+        Segment("CI1COM158", 200.0, 10.0, 3.0); //  destroy turret!
+        Segment("CI1COM159", 200.0, 10.0, 3.0); //  dispose of turret!
+        Segment("CI1COM160", 200.0, 10.0, 3.0); //  turret target acquired
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum181");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum186");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum187");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum188");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum189");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum190");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM161", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM162", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM163", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM164", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM165", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM166", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM167", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM168", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM169", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_Charge");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM170", 200.0, 10.0, 3.0); //  Charge!!!
+        Segment("CI1COM171", 200.0, 10.0, 3.0); //  aaaaggghh! (charge yell)
+        Segment("CI1COM172", 200.0, 10.0, 3.0); //  aaaaggghh! (charge yell)
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_PreparingForDamageSound");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM173", 200.0, 10.0, 3.0); //  Uh oh!
+        Segment("CI1COM174", 200.0, 10.0, 3.0); //  Shutting down
+        Segment("CI1COM175", 200.0, 10.0, 3.0); //  System failure
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM176", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM177", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM178", 200.0, 10.0, 3.0); //  begin vehicle repair
+        Segment("CI1COM182", 200.0, 10.0, 3.0); //  repair cycle started
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM179", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM180", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM181", 200.0, 10.0, 3.0); //  end vehicle repair
+        Segment("CI1COM185", 200.0, 10.0, 3.0); //  repair cycle completed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM176", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM177", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM178", 200.0, 10.0, 3.0); //  begin vehicle repair
+        Segment("CI1COM182", 200.0, 10.0, 3.0); //  repair cycle started
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM179", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM180", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM181", 200.0, 10.0, 3.0); //  end vehicle repair
+        Segment("CI1COM185", 200.0, 10.0, 3.0); //  repair cycle completed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsFlyer");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM176", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM177", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM178", 200.0, 10.0, 3.0); //  begin vehicle repair
+        Segment("CI1COM182", 200.0, 10.0, 3.0); //  repair cycle started
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsFlyer");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM179", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM180", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM181", 200.0, 10.0, 3.0); //  end vehicle repair
+        Segment("CI1COM185", 200.0, 10.0, 3.0); //  repair cycle completed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsTurret");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM177", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM182", 200.0, 10.0, 3.0); //  repair cycle started
+        Segment("CI1COM183", 200.0, 10.0, 3.0); //  turret repair initiated
+        Segment("CI1COM184", 200.0, 10.0, 3.0); //  begin turret repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsTurret");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM180", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM185", 200.0, 10.0, 3.0); //  repair cycle completed
+        Segment("CI1COM186", 200.0, 10.0, 3.0); //  turret repair complete
+        Segment("CI1COM187", 200.0, 10.0, 3.0); //  end turret repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM193", 200.0, 10.0, 3.0); //  roger roger
+        Segment("CI1COM195", 200.0, 10.0, 3.0); //  malfunction!
+        Segment("CI1COM196", 200.0, 10.0, 3.0); //  danger danger
+        Segment("CI1COM197", 200.0, 10.0, 3.0); //  nooooo
+        Segment("CI1COM198", 200.0, 10.0, 3.0); //  this does not compute
+        Segment("CI1COM199", 200.0, 10.0, 3.0); //  terminate them!
+    	Segment("CI1COM200", 200.0, 10.0, 3.0); //  Stop the intruders!
+    	Segment("CI1COM201", 200.0, 10.0, 3.0); //  Stop the humanoids!
+    	Segment("CI1COM202", 10.0, 10.0, 3.0); //  Biddie-biddie-biddie
+        Segment("CI1COM203", 200.0, 10.0, 3.0); //  Sterilize, sterilize!
+        Segment("CI1COM204", 10.0, 10.0, 3.0); //  Daisy, daaaaaaisyyyy...
+    	Segment("CI1COM205", 200.0, 10.0, 3.0); //  Klaatu
+    	Segment("CI1COM206", 200.0, 10.0, 3.0); //  Barada
+    	Segment("CI1COM207", 200.0, 10.0, 3.0); //  Nikto
+        Segment("CI1COM208", 10.0, 10.0, 3.0); //  Bite my shiny metal a-BOOM!
+        Segment("CI1COM209", 200.0, 10.0, 3.0); //  You have been dsignated for termination
+    	Segment("CI1COM210", 200.0, 10.0, 3.0); //  Error, error!
+    	Segment("CI1COM211", 200.0, 10.0, 3.0); //  End of Line!
+    	Segment("CI1COM212", 200.0, 10.0, 3.0); //  I/O error
+    	Segment("CI1COM213", 200.0, 10.0, 3.0); //  Memory fragmented
+    	Segment("CI1COM214", 200.0, 10.0, 3.0); //  Core unstable, shutting down.
+        Segment("CI1COM215", 200.0, 10.0, 3.0); //  Registry corrupted, failure imminent
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum176");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM479", 200.0, 10.0, 3.0); //  Acklay!
+        Segment("CI1COM480", 200.0, 10.0, 3.0); //  Navigate around the Acklay
+        Segment("CI1COM481", 200.0, 10.0, 3.0); //  Acklay! Choose alternate route.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum175");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM482", 200.0, 10.0, 3.0); //  Eliminate the furry rodent
+        Segment("CI1COM483", 200.0, 10.0, 3.0); //  Indigenous creature.  Terminate.
+        Segment("CI1COM484", 200.0, 10.0, 3.0); //  Terminate ewok.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum177");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM485", 200.0, 10.0, 3.0); //  Alert! Geonosian!
+        Segment("CI1COM486", 200.0, 10.0, 3.0); //  Eliminate the Geonosian
+        Segment("CI1COM487", 200.0, 10.0, 3.0); //  Target the Geonosian
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum2");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM488", 200.0, 10.0, 3.0); //  Target the wookiee
+        Segment("CI1COM489", 200.0, 10.0, 3.0); //  Wookie!  Maintain wide perimeter!
+        Segment("CI1COM490", 200.0, 10.0, 3.0); //  Remove the wookiee
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum172");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM491", 200.0, 10.0, 3.0); //  You can't have my parts!
+        Segment("CI1COM492", 200.0, 10.0, 3.0); //  Jawa!  Payback time!
+        Segment("CI1COM493", 200.0, 10.0, 3.0); //  Eradicate the scavenger!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum174");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM494", 200.0, 10.0, 3.0); //  Gamorian Guard! Stand back!
+        Segment("CI1COM495", 200.0, 10.0, 3.0); //  Guard! Keep your distance!
+        Segment("CI1COM496", 200.0, 10.0, 3.0); //  Eliminate the Gamorian.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum173");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM497", 200.0, 10.0, 3.0); //  Target the Tusken raider
+        Segment("CI1COM498", 200.0, 10.0, 3.0); //  Tusken Raider!
+        Segment("CI1COM499", 200.0, 10.0, 3.0); //  Tusken Raider. Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum171");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM500", 200.0, 10.0, 3.0); //  Eliminate the Gungan
+        Segment("CI1COM501", 200.0, 10.0, 3.0); //  Gungan!
+        Segment("CI1COM502", 200.0, 10.0, 3.0); //  Gungan!  Remove him.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Above_VOUnitNum121_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM221", 200.0, 10.0, 3.0); //  Attack the clone!
+        Segment("CI1COM222", 200.0, 10.0, 3.0); //  Clone Trooper!
+        Segment("CI1COM223", 200.0, 10.0, 3.0); //  Targets acquired
+        Segment("CI1COM224", 200.0, 10.0, 3.0); //  Eradicate the clone!
+        Segment("CI1COM225", 200.0, 10.0, 3.0); //  Eliminate that Clone!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Left_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM226", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM227", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM228", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM229", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM230", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Right_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM226", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM227", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM228", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM229", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM230", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum123_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM231", 200.0, 10.0, 3.0); //  Attack the BARC
+        Segment("CI1COM232", 200.0, 10.0, 3.0); //  Speederbike!
+        Segment("CI1COM233", 200.0, 10.0, 3.0); //  Attack the Speederbike!
+        Segment("CI1COM234", 200.0, 10.0, 3.0); //  Secure the BARC!
+        Segment("CI1COM235", 200.0, 10.0, 3.0); //   BARC speeder!  Eliminate him!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum124_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM236", 200.0, 10.0, 3.0); //  Tank!
+        Segment("CI1COM237", 200.0, 10.0, 3.0); //  TX-130S!  Attack!
+        Segment("CI1COM238", 200.0, 10.0, 3.0); //  Attack the tank!
+        Segment("CI1COM239", 200.0, 10.0, 3.0); //  Eliminate the TX-130S'!
+        Segment("CI1COM240", 200.0, 10.0, 3.0); //  TX-130S!  Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum124_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM241", 200.0, 10.0, 3.0); //  Clear shot achieved! Eliminate the TX-130S!
+        Segment("CI1COM242", 200.0, 10.0, 3.0); //  Open shot for the TX-130S!
+        Segment("CI1COM243", 200.0, 10.0, 3.0); //  Take the shot!
+        Segment("CI1COM244", 200.0, 10.0, 3.0); //  Eliminate the Fighter Tank!
+        Segment("CI1COM245", 200.0, 10.0, 3.0); //  Destroy the TX-130S
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum125_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM246", 200.0, 10.0, 3.0); //  AT-RT, incoming!
+        Segment("CI1COM247", 200.0, 10.0, 3.0); //  Eliminate the AT-RT
+        Segment("CI1COM248", 200.0, 10.0, 3.0); //  Stop the AT-RT
+        Segment("CI1COM249", 200.0, 10.0, 3.0); //  AT-RT! Attack!
+        Segment("CI1COM250", 200.0, 10.0, 3.0); //  Focus your weapon on the AT-RT
+        Segment("CI1COM266", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM270", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum125_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM251", 200.0, 10.0, 3.0); //  Clear shot!  Take down the AT-RT!
+        Segment("CI1COM252", 200.0, 10.0, 3.0); //  AT-RT! Finish him!
+        Segment("CI1COM253", 200.0, 10.0, 3.0); //  Clear the AT-RT!
+        Segment("CI1COM254", 200.0, 10.0, 3.0); //  Take down the AT-RT
+        Segment("CI1COM255", 200.0, 10.0, 3.0); //  Shut down the AT-RT
+        Segment("CI1COM273", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM274", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM275", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum126_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM256", 200.0, 10.0, 3.0); //  target the Swamp Speeder
+        Segment("CI1COM257", 200.0, 10.0, 3.0); //  Swamp Speeder target acquired
+        Segment("CI1COM258", 200.0, 10.0, 3.0); //  Focus your efforts on the Swamp Speeder
+        Segment("CI1COM259", 200.0, 10.0, 3.0); //  Swamp Speeder!
+        Segment("CI1COM260", 200.0, 10.0, 3.0); //  Stop the speeder!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum126_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM261", 200.0, 10.0, 3.0); //  Finish the Swamp Speeder
+        Segment("CI1COM262", 200.0, 10.0, 3.0); //  Destroy the speeder
+        Segment("CI1COM263", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM264", 200.0, 10.0, 3.0); //  Swamp Speeder! Destroy!
+        Segment("CI1COM265", 200.0, 10.0, 3.0); //  Terminate the Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum127_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM266", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM267", 200.0, 10.0, 3.0); //  AT-TE target acquired
+        Segment("CI1COM268", 200.0, 10.0, 3.0); //  target the AT-TE
+        Segment("CI1COM269", 200.0, 10.0, 3.0); //  stop the AT-TE
+        Segment("CI1COM270", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum127_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM271", 200.0, 10.0, 3.0); //  terminate the AT-TE
+        Segment("CI1COM272", 200.0, 10.0, 3.0); //  eliminate the walker
+        Segment("CI1COM273", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM274", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM275", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum132_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM316", 200.0, 10.0, 3.0); //  Eliminate the skiff
+        Segment("CI1COM317", 200.0, 10.0, 3.0); //  Destroy the Hover Skiff
+        Segment("CI1COM318", 200.0, 10.0, 3.0); //  skiff target acquired.
+        Segment("CI1COM319", 200.0, 10.0, 3.0); //  Stop the skiff
+        Segment("CI1COM320", 200.0, 10.0, 3.0); //  Secure the skiff
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum132_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM321", 200.0, 10.0, 3.0); //  Terminate Hover Skiff
+        Segment("CI1COM322", 200.0, 10.0, 3.0); //  Dispose of Hover Skiff!
+        Segment("CI1COM323", 200.0, 10.0, 3.0); //  Eliminate Hover Skiff target!
+        Segment("CI1COM324", 200.0, 10.0, 3.0); //  Destroy Skiff target!
+        Segment("CI1COM325", 200.0, 10.0, 3.0); //  Dispose of skiff target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum161_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM326", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM327", 200.0, 10.0, 3.0); //  Destroy the Gian Speeder
+        Segment("CI1COM328", 200.0, 10.0, 3.0); //  Target the speeder!
+        Segment("CI1COM329", 200.0, 10.0, 3.0); //  Halt the speeder!
+        Segment("CI1COM330", 200.0, 10.0, 3.0); //  Secure the Gian Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum161_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM331", 200.0, 10.0, 3.0); //  Terminate speeder!
+        Segment("CI1COM332", 200.0, 10.0, 3.0); //  Dispose of speeder!
+        Segment("CI1COM333", 200.0, 10.0, 3.0); //  Dispose of speeder target!
+        Segment("CI1COM334", 200.0, 10.0, 3.0); //  Destroy speeder target!
+        Segment("CI1COM335", 200.0, 10.0, 3.0); //  Eliminate speeder target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyEnemySlaughter_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM336", 200.0, 10.0, 3.0); //  Well aimed
+        Segment("CI1COM337", 200.0, 10.0, 3.0); //  Roger boom
+        Segment("CI1COM338", 200.0, 10.0, 3.0); //  hostiles eliminated
+        Segment("CI1COM339", 200.0, 10.0, 3.0); //  messy messy
+        Segment("CI1COM340", 200.0, 10.0, 3.0); //  parts is parts
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyFriendlySlaughter_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    { 
+        Segment("CI1COM341", 200.0, 10.0, 3.0); //  Casualites are mounting
+        Segment("CI1COM342", 200.0, 10.0, 3.0); //  we're losing ground!
+        Segment("CI1COM343", 200.0, 10.0, 3.0); //  Retreat!
+        Segment("CI1COM344", 200.0, 10.0, 3.0); //  Hold your ground!
+        Segment("CI1COM345", 200.0, 10.0, 3.0); //  Our numbers are falling
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree4_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM346", 200.0, 10.0, 3.0); //  Highly accurate shooting
+        Segment("CI1COM347", 200.0, 10.0, 3.0); //  machines are superior
+        Segment("CI1COM348", 200.0, 10.0, 3.0); //  was your aiming reticle recently calibrated?
+        Segment("CI1COM349", 200.0, 10.0, 3.0); //  How are you doing that?
+        Segment("CI1COM350", 200.0, 10.0, 3.0); //  Nice grouping
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree8_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM351", 200.0, 10.0, 3.0); //  Wow.  Roger that!
+        Segment("CI1COM352", 200.0, 10.0, 3.0); //  Your efficiency exceeds expected parameters
+        Segment("CI1COM353", 200.0, 10.0, 3.0); //  You are a klling machine
+        Segment("CI1COM354", 200.0, 10.0, 3.0); //  You have surpassed your hourly quota
+        Segment("CI1COM355", 200.0, 10.0, 3.0); //  You are a one-droid army
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_HeadshotKill_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM356", 200.0, 10.0, 3.0); //  direct hit
+        Segment("CI1COM357", 200.0, 10.0, 3.0); //  good shot
+        Segment("CI1COM358", 200.0, 10.0, 3.0); //  target eliminated
+        Segment("CI1COM359", 200.0, 10.0, 3.0); //  target down
+        Segment("CI1COM360", 200.0, 10.0, 3.0); //  perfect shot
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_Grenade_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM361", 200.0, 10.0, 3.0); //  Grenade!
+        Segment("CI1COM362", 200.0, 10.0, 3.0); //  Incoming explosive
+        Segment("CI1COM363", 200.0, 10.0, 3.0); //  Take Cover!
+        Segment("CI1COM364", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM365", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM368", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM369", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM370", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_MissileIncoming_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM362", 200.0, 10.0, 3.0); //  Incoming explosive
+    	Segment("CI1COM363", 200.0, 10.0, 3.0); //  Take Cover!
+    	Segment("CI1COM364", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM365", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM366", 200.0, 10.0, 3.0); //  Rocket!
+        Segment("CI1COM367", 200.0, 10.0, 3.0); //  Incoming rocket
+        Segment("CI1COM368", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM369", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM370", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsSniper_VOUnitNum122_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM371", 200.0, 10.0, 3.0); //  target sniper
+        Segment("CI1COM372", 200.0, 10.0, 3.0); //  eliminate sniper!
+        Segment("CI1COM373", 200.0, 10.0, 3.0); //  terminate sniper
+        Segment("CI1COM374", 200.0, 10.0, 3.0); //  destroy sniper!
+        Segment("CI1COM375", 200.0, 10.0, 3.0); //  Scan for sniper!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_FriendlyFire_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM376", 200.0, 10.0, 3.0); //  friendly fire!
+        Segment("CI1COM377", 200.0, 10.0, 3.0); //  readjust your targeting reticle
+        Segment("CI1COM378", 200.0, 10.0, 3.0); //  Alert, malfunctioning droid!
+        Segment("CI1COM379", 200.0, 10.0, 3.0); //  you need maintenance!
+        Segment("CI1COM380", 200.0, 10.0, 3.0); //  Invalid target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RebelsShootDeadBody_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM381", 200.0, 10.0, 3.0); //  negative lifeform confirmed
+        Segment("CI1COM382", 200.0, 10.0, 3.0); //  Redundancy procedures initiated
+        Segment("CI1COM383", 200.0, 10.0, 3.0); //  double checking
+        Segment("CI1COM384", 200.0, 10.0, 3.0); //  Die die roger roger
+        Segment("CI1COM385", 200.0, 10.0, 3.0); //  termination confirmed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsTurret_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM391", 200.0, 10.0, 3.0); //  eliminate turret!
+        Segment("CI1COM392", 200.0, 10.0, 3.0); //  target turret!
+        Segment("CI1COM393", 200.0, 10.0, 3.0); //  destroy turret!
+        Segment("CI1COM394", 200.0, 10.0, 3.0); //  dispose of turret!
+        Segment("CI1COM395", 200.0, 10.0, 3.0); //  turret target acquired
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum181_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum186_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum187_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum188_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum189_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum190_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsHover_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsHover_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsWalker_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsWalker_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsFlyer_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsFlyer_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM452", 200.0, 10.0, 3.0); //  roger roger
+        Segment("CI1COM453", 200.0, 10.0, 3.0); //  malfunction!
+        Segment("CI1COM454", 200.0, 10.0, 3.0); //  danger danger
+        Segment("CI1COM455", 200.0, 10.0, 3.0); //  nooooo
+        Segment("CI1COM456", 200.0, 10.0, 3.0); //  this does not compute
+        Segment("CI1COM457", 200.0, 10.0, 3.0); //  terminate them!
+        Segment("CI1COM458", 200.0, 10.0, 3.0); //  Stop the intruders!
+        Segment("CI1COM459", 200.0, 10.0, 3.0); //  Stop the humanoids!
+        Segment("CI1COM460", 10.0, 10.0, 3.0); //  Biddie-biddie-biddie
+        Segment("CI1COM461", 200.0, 10.0, 3.0); //  Sterilize, sterilize!
+        Segment("CI1COM462", 10.0, 10.0, 3.0); //  Daisy, daaaaaaisyyyy...
+        Segment("CI1COM463", 200.0, 10.0, 3.0); //  Klaatu
+        Segment("CI1COM464", 200.0, 10.0, 3.0); //  Barada
+        Segment("CI1COM465", 200.0, 10.0, 3.0); //  Nikto
+        Segment("CI1COM466", 10.0, 10.0, 3.0); //  Bite my shiny metal a-BOOM!
+        Segment("CI1COM467", 200.0, 10.0, 3.0); //  You have been dsignated for termination
+        Segment("CI1COM468", 200.0, 10.0, 3.0); //  Error, error!
+        Segment("CI1COM469", 200.0, 10.0, 3.0); //  End of Line!
+        Segment("CI1COM470", 200.0, 10.0, 3.0); //  I/O error
+        Segment("CI1COM471", 200.0, 10.0, 3.0); //  Memory fragmented
+        Segment("CI1COM472", 200.0, 10.0, 3.0); //  Core unstable, shutting down.
+        Segment("CI1COM473", 200.0, 10.0, 3.0); //  Registry corrupted, failure imminent
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum176_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM503", 200.0, 10.0, 3.0); //  Acklay in sight!
+        Segment("CI1COM504", 200.0, 10.0, 3.0); //  Avoid the Acklay!
+        Segment("CI1COM505", 200.0, 10.0, 3.0); //  Requesting alternate route around the Acklay
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum175_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM506", 200.0, 10.0, 3.0); //  Initiate pest removal procedures
+        Segment("CI1COM507", 200.0, 10.0, 3.0); //  Terminate indigenous vermin
+        Segment("CI1COM508", 200.0, 10.0, 3.0); //  Ewoks.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum177_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM509", 200.0, 10.0, 3.0); //  Incoming Geonosians.
+        Segment("CI1COM510", 200.0, 10.0, 3.0); //  Stop the Geonisians.
+        Segment("CI1COM511", 200.0, 10.0, 3.0); //  Geonosians!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum2_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM512", 200.0, 10.0, 3.0); //  Wookie targeted
+        Segment("CI1COM513", 200.0, 10.0, 3.0); //  Alert!  Do not directly engage the wookie.
+        Segment("CI1COM514", 200.0, 10.0, 3.0); //  Eliminate the wookie.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum172_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM515", 200.0, 10.0, 3.0); //  Take that, droid killer!
+        Segment("CI1COM516", 200.0, 10.0, 3.0); //  Jawas!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum174_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM518", 200.0, 10.0, 3.0); //  Gamorian Guard!
+        Segment("CI1COM519", 200.0, 10.0, 3.0); //  Maintain perimeter around the Gamorian!
+        Segment("CI1COM520", 200.0, 10.0, 3.0); //  Eradicate the Gamorian.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum173_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM521", 200.0, 10.0, 3.0); //  Tusken in sight.
+        Segment("CI1COM522", 200.0, 10.0, 3.0); //  Tusken Raider!
+        Segment("CI1COM523", 200.0, 10.0, 3.0); //  Tusken Raider. Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum171_InHover");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM524", 200.0, 10.0, 3.0); //  Target the Gungan!
+        Segment("CI1COM525", 200.0, 10.0, 3.0); //  Eliminate the Gungan
+        Segment("CI1COM526", 200.0, 10.0, 3.0); //  Destroy the Gungan!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Above_VOUnitNum121_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM221", 200.0, 10.0, 3.0); //  Attack the clone!
+        Segment("CI1COM222", 200.0, 10.0, 3.0); //  Clone Trooper!
+        Segment("CI1COM223", 200.0, 10.0, 3.0); //  Targets acquired
+        Segment("CI1COM224", 200.0, 10.0, 3.0); //  Eradicate the clone!
+        Segment("CI1COM225", 200.0, 10.0, 3.0); //  Eliminate that Clone!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Left_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM226", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM227", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM228", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM229", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM230", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_Right_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM226", 200.0, 10.0, 3.0); //  Watch your sides!
+        Segment("CI1COM227", 200.0, 10.0, 3.0); //  We are being flanked
+        Segment("CI1COM228", 200.0, 10.0, 3.0); //  Advance the attack!
+        Segment("CI1COM229", 200.0, 10.0, 3.0); //  Check your flanks!
+        Segment("CI1COM230", 200.0, 10.0, 3.0); //  Enemy attmempting flanking maneuver
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum123_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM231", 200.0, 10.0, 3.0); //  Attack the BARC
+        Segment("CI1COM232", 200.0, 10.0, 3.0); //  Speederbike!
+        Segment("CI1COM233", 200.0, 10.0, 3.0); //  Attack the Speederbike!
+        Segment("CI1COM234", 200.0, 10.0, 3.0); //  Secure the BARC!
+        Segment("CI1COM235", 200.0, 10.0, 3.0); //  BARC speeder!  Eliminate him!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum124_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM236", 200.0, 10.0, 3.0); //  Tank!
+        Segment("CI1COM237", 200.0, 10.0, 3.0); //  TX-130S!  Attack!
+        Segment("CI1COM238", 200.0, 10.0, 3.0); //  Attack the tank!
+        Segment("CI1COM239", 200.0, 10.0, 3.0); //  Eliminate the TX-130S'!
+        Segment("CI1COM240", 200.0, 10.0, 3.0); //  TX-130S!  Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum124_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM241", 200.0, 10.0, 3.0); //  Clear shot achieved! Eliminate the TX-130S!
+        Segment("CI1COM242", 200.0, 10.0, 3.0); //  Open shot for the TX-130S!
+        Segment("CI1COM243", 200.0, 10.0, 3.0); //  Take the shot!
+        Segment("CI1COM244", 200.0, 10.0, 3.0); //  Eliminate the Fighter Tank!
+        Segment("CI1COM245", 200.0, 10.0, 3.0); //  Destroy the TX-130S
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum125_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM246", 200.0, 10.0, 3.0); //  AT-RT, incoming!
+        Segment("CI1COM247", 200.0, 10.0, 3.0); //  Eliminate the AT-RT
+        Segment("CI1COM248", 200.0, 10.0, 3.0); //  Stop the AT-RT
+        Segment("CI1COM249", 200.0, 10.0, 3.0); //  AT-RT! Attack!
+        Segment("CI1COM250", 200.0, 10.0, 3.0); //  Focus your weapon on the AT-RT
+        Segment("CI1COM266", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM270", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum125_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM251", 200.0, 10.0, 3.0); //  Clear shot!  Take down the AT-RT!
+        Segment("CI1COM252", 200.0, 10.0, 3.0); //  AT-RT! Finish him!
+        Segment("CI1COM253", 200.0, 10.0, 3.0); //  Clear the AT-RT!
+        Segment("CI1COM254", 200.0, 10.0, 3.0); //  Take down the AT-RT
+        Segment("CI1COM255", 200.0, 10.0, 3.0); //  Shut down the AT-RT
+        Segment("CI1COM273", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM274", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM275", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum126_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM256", 200.0, 10.0, 3.0); //  target the Swamp Speeder
+        Segment("CI1COM257", 200.0, 10.0, 3.0); //  Swamp Speeder target acquired
+        Segment("CI1COM258", 200.0, 10.0, 3.0); //  Focus your efforts on the Swamp Speeder
+        Segment("CI1COM259", 200.0, 10.0, 3.0); //  Swamp Speeder!
+        Segment("CI1COM260", 200.0, 10.0, 3.0); //  Stop the speeder!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum126_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM261", 200.0, 10.0, 3.0); //  Finish the Swamp Speeder
+        Segment("CI1COM262", 200.0, 10.0, 3.0); //  Destroy the speeder
+        Segment("CI1COM263", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM264", 200.0, 10.0, 3.0); //  Swamp Speeder! Destroy!
+        Segment("CI1COM265", 200.0, 10.0, 3.0); //  Terminate the Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum127_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM266", 200.0, 10.0, 3.0); //  Destroy the walker
+        Segment("CI1COM267", 200.0, 10.0, 3.0); //  AT-TE target acquired
+        Segment("CI1COM268", 200.0, 10.0, 3.0); //  target the AT-TE
+        Segment("CI1COM269", 200.0, 10.0, 3.0); //  stop the AT-TE
+        Segment("CI1COM270", 200.0, 10.0, 3.0); //  secure the walker!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum127_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM271", 200.0, 10.0, 3.0); //  terminate the AT-TE
+        Segment("CI1COM272", 200.0, 10.0, 3.0); //  eliminate the walker
+        Segment("CI1COM273", 200.0, 10.0, 3.0); //  stop the walker
+        Segment("CI1COM274", 200.0, 10.0, 3.0); //  Fire at will!
+        Segment("CI1COM275", 200.0, 10.0, 3.0); //  Eliminate target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum132_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM316", 200.0, 10.0, 3.0); //  Eliminate the skiff
+        Segment("CI1COM317", 200.0, 10.0, 3.0); //  Destroy the Hover Skiff
+        Segment("CI1COM318", 200.0, 10.0, 3.0); //  skiff target acquired.
+        Segment("CI1COM319", 200.0, 10.0, 3.0); //  Stop the skiff
+        Segment("CI1COM320", 200.0, 10.0, 3.0); //  Secure the skiff
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum132_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM321", 200.0, 10.0, 3.0); //  Terminate Hover Skiff
+        Segment("CI1COM322", 200.0, 10.0, 3.0); //  Dispose of Hover Skiff!
+        Segment("CI1COM323", 200.0, 10.0, 3.0); //  Eliminate Hover Skiff target!
+        Segment("CI1COM324", 200.0, 10.0, 3.0); //  Destroy Skiff target!
+        Segment("CI1COM325", 200.0, 10.0, 3.0); //  Dispose of skiff target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum161_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM326", 200.0, 10.0, 3.0); //  Eliminate the speeder
+        Segment("CI1COM327", 200.0, 10.0, 3.0); //  Destroy the Gian Speeder
+        Segment("CI1COM328", 200.0, 10.0, 3.0); //  Target the speeder!
+        Segment("CI1COM329", 200.0, 10.0, 3.0); //  Halt the speeder!
+        Segment("CI1COM330", 200.0, 10.0, 3.0); //  Secure the Gian Speeder
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NotShootingCriticalHit_VOUnitNum161_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM331", 200.0, 10.0, 3.0); //  Terminate speeder!
+        Segment("CI1COM332", 200.0, 10.0, 3.0); //  Dispose of speeder!
+        Segment("CI1COM333", 200.0, 10.0, 3.0); //  Dispose of speeder target!
+        Segment("CI1COM334", 200.0, 10.0, 3.0); //  Destroy speeder target!
+        Segment("CI1COM335", 200.0, 10.0, 3.0); //  Eliminate speeder target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyEnemySlaughter_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM336", 200.0, 10.0, 3.0); //  Well aimed
+        Segment("CI1COM337", 200.0, 10.0, 3.0); //  Roger boom
+        Segment("CI1COM338", 200.0, 10.0, 3.0); //  hostiles eliminated
+        Segment("CI1COM339", 200.0, 10.0, 3.0); //  messy messy
+        Segment("CI1COM340", 200.0, 10.0, 3.0); //  parts is parts
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_NearbyFriendlySlaughter_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    { 
+        Segment("CI1COM341", 200.0, 10.0, 3.0); //  Casualites are mounting
+        Segment("CI1COM342", 200.0, 10.0, 3.0); //  we're losing ground!
+        Segment("CI1COM343", 200.0, 10.0, 3.0); //  Retreat!
+        Segment("CI1COM344", 200.0, 10.0, 3.0); //  Hold your ground!
+        Segment("CI1COM345", 200.0, 10.0, 3.0); //  Our numbers are falling
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree4_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM346", 200.0, 10.0, 3.0); //  Highly accurate shooting
+        Segment("CI1COM347", 200.0, 10.0, 3.0); //  machines are superior
+        Segment("CI1COM348", 200.0, 10.0, 3.0); //  was your aiming reticle recently calibrated?
+        Segment("CI1COM349", 200.0, 10.0, 3.0); //  How are you doing that?
+        Segment("CI1COM350", 200.0, 10.0, 3.0); //  Nice grouping
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_KillingSpree8_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM351", 200.0, 10.0, 3.0); //  Wow.  Roger that!
+        Segment("CI1COM352", 200.0, 10.0, 3.0); //  Your efficiency exceeds expected parameters
+        Segment("CI1COM353", 200.0, 10.0, 3.0); //  You are a klling machine
+        Segment("CI1COM354", 200.0, 10.0, 3.0); //  You have surpassed your hourly quota
+        Segment("CI1COM355", 200.0, 10.0, 3.0); //  You are a one-droid army
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_HeadshotKill_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM356", 200.0, 10.0, 3.0); //  direct hit
+        Segment("CI1COM357", 200.0, 10.0, 3.0); //  good shot
+        Segment("CI1COM358", 200.0, 10.0, 3.0); //  target eliminated
+        Segment("CI1COM359", 200.0, 10.0, 3.0); //  target down
+        Segment("CI1COM360", 200.0, 10.0, 3.0); //  perfect shot
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_Grenade_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM361", 200.0, 10.0, 3.0); //  Grenade!
+        Segment("CI1COM362", 200.0, 10.0, 3.0); //  Incoming explosive
+        Segment("CI1COM363", 200.0, 10.0, 3.0); //  Take Cover!
+        Segment("CI1COM364", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM365", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM368", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM369", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM370", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_MissileIncoming_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM362", 200.0, 10.0, 3.0); //  Incoming explosive
+        Segment("CI1COM363", 200.0, 10.0, 3.0); //  Take Cover!
+        Segment("CI1COM364", 200.0, 10.0, 3.0); //  Uh oh...
+        Segment("CI1COM365", 200.0, 10.0, 3.0); //  Dive!
+        Segment("CI1COM366", 200.0, 10.0, 3.0); //  Rocket!
+        Segment("CI1COM367", 200.0, 10.0, 3.0); //  Incoming rocket
+        Segment("CI1COM368", 200.0, 10.0, 3.0); //  Flee
+        Segment("CI1COM369", 200.0, 10.0, 3.0); //  Look out
+        Segment("CI1COM370", 50.0, 10.0, 3.0); //  Drat...
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsSniper_VOUnitNum122_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM371", 200.0, 10.0, 3.0); //  target sniper
+        Segment("CI1COM372", 200.0, 10.0, 3.0); //  eliminate sniper!
+        Segment("CI1COM373", 200.0, 10.0, 3.0); //  terminate sniper
+        Segment("CI1COM374", 200.0, 10.0, 3.0); //  destroy sniper!
+        Segment("CI1COM375", 200.0, 10.0, 3.0); //  Scan for sniper!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_FriendlyFire_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM376", 200.0, 10.0, 3.0); //  friendly fire!
+        Segment("CI1COM377", 200.0, 10.0, 3.0); //  readjust your targeting reticle
+        Segment("CI1COM378", 200.0, 10.0, 3.0); //  Alert, malfunctioning droid!
+        Segment("CI1COM379", 200.0, 10.0, 3.0); //  you need maintenance!
+        Segment("CI1COM380", 200.0, 10.0, 3.0); //  Invalid target!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RebelsShootDeadBody_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM381", 200.0, 10.0, 3.0); //  negative lifeform confirmed
+        Segment("CI1COM382", 200.0, 10.0, 3.0); //  Redundancy procedures initiated
+        Segment("CI1COM383", 200.0, 10.0, 3.0); //  double checking
+        Segment("CI1COM384", 200.0, 10.0, 3.0); //  Die die roger roger
+        Segment("CI1COM385", 200.0, 10.0, 3.0); //  termination confirmed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_IsTurret_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM391", 200.0, 10.0, 3.0); //  eliminate turret!
+        Segment("CI1COM392", 200.0, 10.0, 3.0); //  target turret!
+        Segment("CI1COM393", 200.0, 10.0, 3.0); //  destroy turret!
+        Segment("CI1COM394", 200.0, 10.0, 3.0); //  dispose of turret!
+        Segment("CI1COM395", 200.0, 10.0, 3.0); //  turret target acquired
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum181_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum186_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum187_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum188_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum189_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum190_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM396", 200.0, 10.0, 3.0); //  target the Jedi!
+        Segment("CI1COM397", 200.0, 10.0, 3.0); //  Jedi!
+        Segment("CI1COM398", 200.0, 10.0, 3.0); //  Eliminate Jedi!
+        Segment("CI1COM399", 200.0, 10.0, 3.0); //  U-oh!
+        Segment("CI1COM400", 200.0, 10.0, 3.0); //  Jedi target acquired!
+        Segment("CI1COM401", 200.0, 10.0, 3.0); //  Jedi! Go around!
+        Segment("CI1COM402", 200.0, 10.0, 3.0); //  Jedi! Choose alternate route!
+        Segment("CI1COM403", 200.0, 10.0, 3.0); //  Jedi! Choose alternate target!
+        Segment("CI1COM404", 200.0, 10.0, 3.0); //  Stay Clear!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsHover_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsHover_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsWalker_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsWalker_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairStart_IsFlyer_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM411", 200.0, 10.0, 3.0); //  initiate vehicle repair
+        Segment("CI1COM412", 200.0, 10.0, 3.0); //  initiate repair
+        Segment("CI1COM413", 200.0, 10.0, 3.0); //  begin vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_RepairEnd_IsFlyer_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM414", 200.0, 10.0, 3.0); //  vehicle repair complete
+        Segment("CI1COM415", 200.0, 10.0, 3.0); //  repair complete
+        Segment("CI1COM416", 200.0, 10.0, 3.0); //  end vehicle repair
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM452", 200.0, 10.0, 3.0); //  roger roger
+        Segment("CI1COM453", 200.0, 10.0, 3.0); //  malfunction!
+        Segment("CI1COM454", 200.0, 10.0, 3.0); //  danger danger
+        Segment("CI1COM455", 200.0, 10.0, 3.0); //  nooooo
+        Segment("CI1COM456", 200.0, 10.0, 3.0); //  this does not compute
+        Segment("CI1COM457", 200.0, 10.0, 3.0); //  terminate them!
+        Segment("CI1COM458", 200.0, 10.0, 3.0); //  Stop the intruders!
+        Segment("CI1COM459", 200.0, 10.0, 3.0); //  Stop the humanoids!
+        Segment("CI1COM460", 10.0, 10.0, 3.0); //  Biddie-biddie-biddie
+        Segment("CI1COM461", 200.0, 10.0, 3.0); //  Sterilize, sterilize!
+        Segment("CI1COM462", 10.0, 10.0, 3.0); //  Daisy, daaaaaaisyyyy...
+        Segment("CI1COM463", 200.0, 10.0, 3.0); //  Klaatu
+        Segment("CI1COM464", 200.0, 10.0, 3.0); //  Barada
+        Segment("CI1COM465", 200.0, 10.0, 3.0); //  Nikto
+        Segment("CI1COM466", 10.0, 10.0, 3.0); //  Bite my shiny metal a-BOOM!
+        Segment("CI1COM467", 200.0, 10.0, 3.0); //  You have been dsignated for termination
+        Segment("CI1COM468", 200.0, 10.0, 3.0); //  Error, error!
+        Segment("CI1COM469", 200.0, 10.0, 3.0); //  End of Line!
+        Segment("CI1COM470", 200.0, 10.0, 3.0); //  I/O error
+        Segment("CI1COM471", 200.0, 10.0, 3.0); //  Memory fragmented
+        Segment("CI1COM472", 200.0, 10.0, 3.0); //  Core unstable, shutting down.
+        Segment("CI1COM473", 200.0, 10.0, 3.0); //  Registry corrupted, failure imminent
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum176_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM503", 200.0, 10.0, 3.0); //  Acklay in sight!
+        Segment("CI1COM504", 200.0, 10.0, 3.0); //  Avoid the Acklay!
+        Segment("CI1COM505", 200.0, 10.0, 3.0); //  Requesting alternate route around the Acklay
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum175_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM506", 200.0, 10.0, 3.0); //  Initiate pest removal procedures
+        Segment("CI1COM507", 200.0, 10.0, 3.0); //  Terminate indigenous vermin
+        Segment("CI1COM508", 200.0, 10.0, 3.0); //  Ewoks.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum177_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM509", 200.0, 10.0, 3.0); //  Incoming Geonosians.
+        Segment("CI1COM510", 200.0, 10.0, 3.0); //  Stop the Geonisians.
+        Segment("CI1COM511", 200.0, 10.0, 3.0); //  Geonosians!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum2_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM512", 200.0, 10.0, 3.0); //  Wookie targeted
+        Segment("CI1COM513", 200.0, 10.0, 3.0); //  Alert!  Do not directly engage the wookie.
+        Segment("CI1COM514", 200.0, 10.0, 3.0); //  Eliminate the wookie.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum172_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM515", 200.0, 10.0, 3.0); //  Take that, droid killer!
+        Segment("CI1COM516", 200.0, 10.0, 3.0); //  Jawas!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum174_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM518", 200.0, 10.0, 3.0); //  Gamorian Guard!
+        Segment("CI1COM519", 200.0, 10.0, 3.0); //  Maintain perimeter around the Gamorian!
+        Segment("CI1COM520", 200.0, 10.0, 3.0); //  Eradicate the Gamorian.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum173_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM521", 200.0, 10.0, 3.0); //  Tusken in sight.
+        Segment("CI1COM522", 200.0, 10.0, 3.0); //  Tusken Raider!
+        Segment("CI1COM523", 200.0, 10.0, 3.0); //  Tusken Raider. Take cover!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("cis1_inf_chatter_AcquiredTarget_VOUnitNum171_InWalker");
+    Group("cis_vo");
+    Inherit("battle_chatter_template");
+    Stream("cis_unit_vo_slow");
+    PlayInterval(40)
+    PlayIntervalDev(20)
+    SegmentList()
+    {
+        Segment("CI1COM524", 200.0, 10.0, 3.0); //  Target the Gungan!
+        Segment("CI1COM525", 200.0, 10.0, 3.0); //  Eliminate the Gungan
+        Segment("CI1COM526", 200.0, 10.0, 3.0); //  Destroy the Gungan!
+    }
+}

@@ -24,7 +24,7 @@ SalvoDelay          = "0.2"
 InitialSalvoDelay   = "0.0"
 SalvoTime           = "0.0"
 
-FireSound           = "com_weap_turret_fire_small"
+FireSound           = "turret_aa_weap_fire"
 
 ZoomMin             = "2.0"
 ZoomMax             = "4.0"
@@ -36,9 +36,9 @@ MaxRange = "2500"
 
 ScopeTexture        = "weapon_scope3"
 
-TargetPerson        = "0"
-TargetAnimal        = "0"
-TargetDroid         = "0"
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
 TargetVehicle       = "1"
 TargetBuilding      = "0"
 

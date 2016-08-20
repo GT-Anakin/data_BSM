@@ -1,0 +1,18 @@
+ucft
+{
+
+	REQN
+	{
+		"bnk"
+		"align=2048"
+		"co3cw_asfx"
+	}
+	REQN
+	{
+		"config"
+			"common_weapons"
+			"cw_weapons"
+		    "co3_world_map"
+			"Turrets"
+	}
+ }

@@ -1,0 +1,167 @@
+// REP_hover_Fightertank -----------------------------
+
+SoundProperties()
+{
+    Name("imp_weap_hover_fightertank_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+#ifplatform ps2 xbox
+    Gain(0.6);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+        Sample("wpn_IFT_blaster_fire", 1.0);
+    }
+}
+
+
+
+SoundProperties()
+{
+    Name("imp_weap_hover_fightertank_missile_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+#ifplatform ps2 xbox
+    Gain(0.6);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+        Sample("wpn_IFT_missile_fire", 1.0);
+    }
+}
+
+// Engine ---
+
+SoundProperties()
+{
+    Name("interceptorTank_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_low_template");
+    SampleList()
+    {
+      Sample("eng_interceptorTank_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("interceptorTank_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+#ifplatform ps2 xbox
+    RollOff(5.0);
+#endifplatform ps2 xbox
+    SampleList()
+    {
+      Sample("eng_interceptorTank_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("interceptorTank_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_interceptorTank_hi_lp", 1.0);
+
+    }
+}
+
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);
+}
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.7);     
+    ControlPoint(0.0, 0.7);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);   
+}
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.4);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.7);  
+    ControlPoint(0.0, 0.7);
+    ControlPoint(1.0, 1.2);
+    ControlPoint(1.2, 1.4);
+
+}
+
+ParameterGraph()
+{
+    Name("interceptorTank_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.8);
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("interceptorTank_engine_layered");
+    Layer("interceptorTank_engine_low_idle", "interceptorTank_engine_low_idle_property", 0.0);
+    Layer("interceptorTank_engine_med_idle", "interceptorTank_engine_med_idle_property", 0.0);
+    Layer("interceptorTank_engine_high_idle", "interceptorTank_engine_high_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("interceptorTank_engine_parameterized");
+    SoundLayered("interceptorTank_engine_layered");
+
+Layer()
+    {
+        Name("interceptorTank_engine_low_idle");
+        ParameterGraph("speed",        "interceptorTank_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "interceptorTank_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("interceptorTank_engine_med_idle");
+        ParameterGraph("speed",        "interceptorTank_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "interceptorTank_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+    Layer()
+    {
+        Name("interceptorTank_engine_high_idle");
+        ParameterGraph("speed",        "interceptorTank_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "interceptorTank_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+    }
+}

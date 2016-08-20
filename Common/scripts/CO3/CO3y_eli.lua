@@ -11,6 +11,9 @@ ScriptCB_DoFile("ObjectiveTDM")
 ---------------------------------------------------------------------------
 function ScriptPostLoad()
 
+
+EnableAIAutoBalance()
+
 if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):
 ---
@@ -222,8 +225,12 @@ function ScriptInit()
     ScriptCB_EnableHeroMusic(0)
     ScriptCB_EnableHeroVO(0)
     
-    SetSoundEffect("ScopeDisplayZoomIn",  "binocularzoomin")
-    SetSoundEffect("ScopeDisplayZoomOut", "binocularzoomout")
+	voiceSlow = OpenAudioStream("sound\\global.lvl", "all_unit_vo_slow")
+    AudioStreamAppendSegments("sound\\global.lvl", "imp_unit_vo_slow", voiceSlow)
+    AudioStreamAppendSegments("sound\\global.lvl", "global_vo_slow", voiceSlow)
+    
+    voiceQuick = OpenAudioStream("sound\\global.lvl",  "all_unit_vo_quick")
+    AudioStreamAppendSegments("sound\\global.lvl",  "imp_unit_vo_quick", voiceQuick)   
     
     OpenAudioStream("sound\\global.lvl",  "gcw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")

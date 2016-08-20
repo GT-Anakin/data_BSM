@@ -2,6 +2,8 @@ ucft
 {
 	ANIM
 	{
+		"dooku_sabre_fall_full"
+		"dooku_sabre_jetpack_hover_full"
 		"dooku_sabre_jumpattack_fall_full"
 		"dooku_sabre_jumpattack_land_full"
 		"dooku_sabre_jumpattack_recover_full"

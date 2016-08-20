@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_SoundStreamsSpace"
+	}
+	REQN
+	{
+		"world"
+		"CO3_SoundStreamsSpace"
+	}
+}

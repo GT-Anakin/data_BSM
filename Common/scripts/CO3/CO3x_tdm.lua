@@ -20,6 +20,7 @@ function ScriptPostLoad()
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
 	
+EnableAIAutoBalance()
 
 if not ScriptCB_InMultiplayer() then  --No new commands for MP
 --The following code makes it possible to reduce the texture resolutions of most of the world textures (Code by anthonybf2):

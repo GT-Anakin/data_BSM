@@ -1,0 +1,11 @@
+Version(1);
+RegionCount(1);
+
+Region("soundstream co3_amb_space 1.03", 1)
+{
+	Layer(16);
+	Position(0.000000, 14000.000000, 0.000000);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8000.000000, 8000.000000, 8000.000000);
+	Name("soundregionspace");
+}

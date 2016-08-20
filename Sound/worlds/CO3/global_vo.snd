@@ -1,0 +1,3715 @@
+// VO sound for audio options screen
+SoundStreamProperties()
+{
+    Name("shell_auditionVO");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("crtr_wookiee_chatter_01", 1.0);
+        Segment("crtr_wookiee_chatter_02", 1.0);
+        Segment("crtr_wookiee_chatter_03", 1.0);
+        Segment("crtr_wookiee_chatter_05", 1.0);
+        Segment("crtr_wookiee_chatter_06", 1.0);
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("shell_auditionSFX")
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("Root");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("ui_sfxVolume", 1.0);
+    }
+}
+
+
+//  ----------------------------------------------- UI Sounds -----------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("common_objComplete");
+    Group("hero_vo");
+    Inherit("vo_template");
+    Stream("global_vo_quick");
+    Gain(0.8);
+    SegmentList()
+    {
+        Segment("ui_objComplete_1", 200.0, 0.0, 0.0); //    
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("Acquire_Bonus_EndurancePowerUp");
+    Group("ui_sfx");
+    Inherit("weapon_template");
+    Stream("global_vo_slow");
+    Gain(0.8);
+    SegmentList()
+    {
+        Segment("ui_BonusWeap_01", 200.0, 0.0, 0.0); //   
+    }
+}
+
+//  ----------------------------------------------- Hero Player Commands VO -----------------------------------------------------
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM007", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM005", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM003", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM007", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM005", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM003", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("windu_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM010", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM010", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("obiWan_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM003", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM004", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM007", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM003", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM004", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("vader_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM007", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("jango_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0009", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0005", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0007", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0009", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0005", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0007", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("mundi_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM0006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM012", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM006", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM011", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM012", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM006", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("leia_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM011", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM004", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM003", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM004", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM003", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("yoda_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM013", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM005", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM004", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM013", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM005", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("han_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM004", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM008", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM005", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM004", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM008", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM005", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("luke_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM004", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM004", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("boba_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM004", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM003", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM004", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM006", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("grievous_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM003", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM009", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM007", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM003", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM004", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM005", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM009", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM007", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM003", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM006", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM004", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("secura_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM005", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM004", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM008", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM004", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM008", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM009", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("palpatine_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM006", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM006", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM004", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM003", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM006", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM007", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM009", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM004", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("maul_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM008", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM008", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM004", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM007", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM003", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM008", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM004", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM007", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("dooku_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM009", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM006", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM008", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM003", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM007", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM005", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM009", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM006", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM008", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM003", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("anakin_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM007", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_hostile");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_mechanic");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_transport");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM010", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_backup");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_clear_area");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_defend");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_hostile_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM006", 1.0, 1.0, 1.0); //  Enemy spotted!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_mechanic_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM005", 1.0, 1.0, 1.0); //  Repairs needed!
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_transport_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM010", 1.0, 1.0, 1.0); //  Vehicle transport needed
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_backup_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM007", 1.0, 1.0, 1.0); //  Give me some backup
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_clear_area_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM008", 1.0, 1.0, 1.0); //  Attack this position
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("ben_hero_pc_com_defend_inVehicle");
+    Group("hero_vo");
+    Inherit("player_command_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM009", 1.0, 1.0, 1.0); //  Hold this position
+    }
+}
+
+//  ----------------------------------------------- Hero Battlechatter VO -----------------------------------------------------
+
+SoundStreamProperties()
+{
+    Name("hero_windu_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM001", 200.0, 10.0, 3.0); //  Mace Windu, reporting for duty
+        Segment("MWUCOM002", 200.0, 10.0, 3.0); //  This is Windu, ready for action.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_windu_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM003", 200.0, 10.0, 3.0); //  Surrender or die!
+        Segment("MWUCOM004", 200.0, 10.0, 3.0); //  This battlefield will be ours!
+        Segment("MWUCOM005", 200.0, 10.0, 3.0); //  For the Republic!
+        Segment("MWUCOM006", 200.0, 10.0, 3.0); //  On my lead!
+        Segment("MWUCOM007", 200.0, 10.0, 3.0); //  After them!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_windu_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM008", 200.0, 10.0, 3.0); //  The Force is with us today!
+        Segment("MWUCOM009", 200.0, 10.0, 3.0); //  Keep moving!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_windu_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("MWUCOM010", 200.0, 10.0, 3.0); //  I've done all I can.  May the Force be With You.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_obiWan_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM001", 200.0, 10.0, 3.0); //  General Kenobi, reporting for duty.
+        Segment("OBWCOM002", 200.0, 10.0, 3.0); //  Obi-Wan Kenobi here, I've engaged the enemy.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_obiWan_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM003", 200.0, 10.0, 3.0); //  What a wretched gathering of scum and villainy
+        Segment("OBWCOM004", 200.0, 10.0, 3.0); //  I suppose diplomacy is out of the question?
+        Segment("OBWCOM005", 200.0, 10.0, 3.0); //  There're more machines than men here.
+        Segment("OBWCOM006", 200.0, 10.0, 3.0); //  I've got a bad feeling about this.
+        Segment("OBWCOM007", 200.0, 10.0, 3.0); //  Follow me!
+        Segment("OBWCOM008", 200.0, 10.0, 3.0); //  Go, go, go!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_obiWan_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM009", 200.0, 10.0, 3.0); //  Feel the Force
+        Segment("OBWCOM010", 200.0, 10.0, 3.0); //  This is going better than I expected
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_obiWan_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("OBWCOM011", 200.0, 10.0, 3.0); //  Though I leave, the Force will be with you, always.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_vader_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM001", 200.0, 10.0, 3.0); //  What is you bidding, master?
+        Segment("DVDCOM002", 200.0, 10.0, 3.0); //  This is Vader.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_vader_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM003", 200.0, 10.0, 3.0); //  This will not take long.
+        Segment("DVDCOM004", 200.0, 10.0, 3.0); //  I will take them myself.  Cover me.
+        Segment("DVDCOM005", 200.0, 10.0, 3.0); //  These enemies are worthless and weak.
+        Segment("DVDCOM006", 200.0, 10.0, 3.0); //  I have you now!
+        Segment("DVDCOM007", 200.0, 10.0, 3.0); //  All too easy.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_vader_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM008", 200.0, 10.0, 3.0); //  Feel the Power of the Dark Side!
+        Segment("DVDCOM009", 200.0, 10.0, 3.0); //  Your strength is NOTHING compared to the Dark Side.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_vader_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DVDCOM010", 200.0, 10.0, 3.0); //  I am finished, my master
+        Segment("DVDCOM011", 200.0, 10.0, 3.0); //  It is done, master
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_jango_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("JFTCOM001", 200.0, 10.0, 3.0); //  This is Jango, what do you want?
+        Segment("JFTCOM002", 200.0, 10.0, 3.0); //  Jango Fett, on the job.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_jango_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("JFTCOM003", 200.0, 10.0, 3.0); //  These'll be the easiest credits I've earned in months.
+        Segment("JFTCOM004", 200.0, 10.0, 3.0); //  100...200...300... You guys are gonna make me rich.
+        Segment("JFTCOM005", 200.0, 10.0, 3.0); //  So, who should I kill next?
+        
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_jango_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+    	Segment("JFTCOM006", 200.0, 10.0, 3.0); //  And stay down.
+        Segment("JFTCOM007", 200.0, 10.0, 3.0); //  At this rate, I'll be able to retire soon.   
+        Segment("JFTCOM008", 200.0, 10.0, 3.0); //  This is a waste of my talent.
+        Segment("JFTCOM009", 200.0, 10.0, 3.0); //  A Gungan could've finished this job.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_jango_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("JFTCOM010", 200.0, 10.0, 3.0); //  My work here's done.  I'll expect my payment in the usual manner.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_mundi_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM001", 200.0, 10.0, 3.0); //  General Mundi, reporting for duty.
+        Segment("KACOM002", 200.0, 10.0, 3.0); //  Ki Adi Mundi, ready to go.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_mundi_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM003", 200.0, 10.0, 3.0); //  Stand down or be destroyed!
+        Segment("KACOM004", 200.0, 10.0, 3.0); //  The day is ours!
+        Segment("KACOM005", 200.0, 10.0, 3.0); //  Their might is nothing compared to the Force.
+        Segment("KACOM006", 200.0, 10.0, 3.0); //  Feel the living Force.
+        Segment("KACOM007", 200.0, 10.0, 3.0); //  Follow me!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_mundi_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM008", 200.0, 10.0, 3.0); //  Do not underestimate the power of the Force.
+        Segment("KACOM009", 200.0, 10.0, 3.0); //  Victory is ours!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_mundi_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("KACOM010", 200.0, 10.0, 3.0); //  My time is finished.  May the Force be with You.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_leia_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM001", 200.0, 10.0, 3.0); //  This is Leia.  What have you gotten us into this time?
+        Segment("PRLCOM002", 200.0, 10.0, 3.0); //  Leia here.  Let's get moving.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_leia_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM003", 200.0, 10.0, 3.0); //  THIS is the enemy?
+        Segment("PRLCOM004", 200.0, 10.0, 3.0); //  Aren't you a little short for a stormtrooper?
+        Segment("PRLCOM005", 200.0, 10.0, 3.0); //  The Imperial Senate will not sit still for this.
+        Segment("PRLCOM006", 200.0, 10.0, 3.0); //  You're going to regret this...
+        Segment("PRLCOM008", 200.0, 10.0, 3.0); //  Let's go!
+        Segment("PRLCOM009", 200.0, 10.0, 3.0); //  On my mark, men!
+        Segment("PRLCOM010", 200.0, 10.0, 3.0); //  For Alderan!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_leia_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM007", 200.0, 10.0, 3.0); //  Take that, you scruffy-looking nerf-herder!
+        Segment("PRLCOM011", 200.0, 10.0, 3.0); //  Somehow I expected more from these guys.
+        Segment("PRLCOM012", 200.0, 10.0, 3.0); //  Is that 'charming' enough for you?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_leia_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("PRLCOM013", 200.0, 10.0, 3.0); //  You can handle things from here...
+        Segment("PRLCOM014", 200.0, 10.0, 3.0); //  That was fun...let's do it again sometime.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("hero_yoda_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM001", 200.0, 10.0, 3.0); //  Yoda am I.  Fight I will.
+        Segment("YDACOM002", 200.0, 10.0, 3.0); //  Yoda you summoned.  Here I am.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_yoda_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM003", 200.0, 10.0, 3.0); //  Brief this battle will be.
+        Segment("YDACOM004", 200.0, 10.0, 3.0); //  Wars not make one great
+        Segment("YDACOM005", 200.0, 10.0, 3.0); //  Surrender you must, or die you will.
+        Segment("YDACOM007", 200.0, 10.0, 3.0); //  Size matters not
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_yoda_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM006", 200.0, 10.0, 3.0); //  Proper training you lack.
+        Segment("YDACOM008", 200.0, 10.0, 3.0); //  Strong am I with the Force.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_yoda_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("YDACOM009", 200.0, 10.0, 3.0); //  Tired I am, rest I must.
+    }
+}
+
+
+SoundStreamProperties()
+{
+    Name("hero_han_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM001", 200.0, 10.0, 3.0); //  All right, all right.  Don't get your shorts in a knot.
+        Segment("HANCOM002", 200.0, 10.0, 3.0); //  Solo here.  Where's the fire?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_han_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM003", 200.0, 10.0, 3.0); //  I've got a blaster with your name on it.
+        Segment("HANCOM004", 200.0, 10.0, 3.0); //  I have a very bad feeling about this.
+        Segment("HANCOM005", 200.0, 10.0, 3.0); //  No reward is worth this...
+        Segment("HANCOM006", 200.0, 10.0, 3.0); //  Bring 'em on.
+        Segment("HANCOM007", 200.0, 10.0, 3.0); //  Never tell me the odds
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_han_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM008", 200.0, 10.0, 3.0); //  Yaaahoo!!
+        Segment("HANCOM009", 200.0, 10.0, 3.0); //  Hokey religions and ancient weapons are no match for a blaster by your side
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_han_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("HANCOM010", 200.0, 10.0, 3.0); //  I'm getting too old for this...
+        Segment("HANCOM011", 200.0, 10.0, 3.0); //  Don't everyone thank me at once.
+        Segment("HANCOM012", 200.0, 10.0, 3.0); //  You're all clear kid...
+        Segment("HANCOM013", 200.0, 10.0, 3.0); //  Sorry about the mess...
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_luke_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM001", 200.0, 10.0, 3.0); //  Skywalker here.  Let's go!
+        Segment("LUKCOM002", 200.0, 10.0, 3.0); //  Luke Skywalker, reporting for duty.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_luke_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM003", 200.0, 10.0, 3.0); //  You guys couldn't hit the broad side of a moisture evaporator
+        Segment("LUKCOM004", 200.0, 10.0, 3.0); //  Let me at 'em!
+        Segment("LUKCOM005", 200.0, 10.0, 3.0); //  Let's go!
+        Segment("LUKCOM006", 200.0, 10.0, 3.0); //  I got one!
+        Segment("LUKCOM007", 200.0, 10.0, 3.0); //  C'mon!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_luke_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM008", 200.0, 10.0, 3.0); //  These guys are easy!
+        Segment("LUKCOM009", 200.0, 10.0, 3.0); //  The Force is strong with us.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_luke_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("LUKCOM010", 200.0, 10.0, 3.0); //  The Force is calling me.
+        Segment("LUKCOM011", 200.0, 10.0, 3.0); //  Aw, c'mon, I was just getting started.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_boba_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM001", 200.0, 10.0, 3.0); //  Fett here.  Let's get this over with.
+        Segment("BFTCOM002", 200.0, 10.0, 3.0); //  Boba Fett, on the job.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_boba_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM003", 200.0, 10.0, 3.0); //  I can't believe I'm getting paid for this.
+        Segment("BFTCOM004", 200.0, 10.0, 3.0); //  I'd kill you just for the pleasure.
+        Segment("BFTCOM005", 200.0, 10.0, 3.0); //  Don't make me run after you.
+        Segment("BFTCOM007", 200.0, 10.0, 3.0); //  Dead or alive, I get paid either way.
+        Segment("BFTCOM009", 200.0, 10.0, 3.0); //  Do you WANT to die?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_boba_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM006", 200.0, 10.0, 3.0); //  That's another one.
+        Segment("BFTCOM008", 200.0, 10.0, 3.0); //  Is that all you've got?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_boba_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BFTCOM010", 200.0, 10.0, 3.0); //  I'm done.  When do I get paid?
+        Segment("BFTCOM011", 200.0, 10.0, 3.0); //  This job's finished. I'm out of here.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_grievous_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM001", 200.0, 10.0, 3.0); //  General Grievous is here.
+        Segment("GGRCOM002", 200.0, 10.0, 3.0); //  This is Grievous.  Let's make this quick.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_grievous_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM003", 200.0, 10.0, 3.0); //  I could do this with two, no, three arms tied behind my back.
+        Segment("GGRCOM004", 200.0, 10.0, 3.0); //  Please don't surrender.
+        Segment("GGRCOM005", 200.0, 10.0, 3.0); //  Your screams are like music to my audio receptors.
+        Segment("GGRCOM006", 200.0, 10.0, 3.0); //  Get out of my way!
+        Segment("GGRCOM007", 200.0, 10.0, 3.0); //  Roger Roger Roger ROGER!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_grievous_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM008", 200.0, 10.0, 3.0); //  This is a waste of my programming.  Bring me more Jedi.
+        Segment("GGRCOM009", 200.0, 10.0, 3.0); //  More, more!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_grievous_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("GGRCOM010", 200.0, 10.0, 3.0); //  I have seen enough of this battle.
+        Segment("GGRCOM011", 200.0, 10.0, 3.0); //  This battle bores me.
+        Segment("GGRCOM012", 200.0, 10.0, 3.0); //  This battle grows tiresome.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_secura_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM001", 200.0, 10.0, 3.0); //  Aaylya Secura, reporting for duty.
+        Segment("AYSCOM002", 200.0, 10.0, 3.0); //  This is Secura.  How can I help?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_secura_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM003", 200.0, 10.0, 3.0); //  This battle is ours for the taking!
+        Segment("AYSCOM004", 200.0, 10.0, 3.0); //  Lay down your arms or be annihilated!
+        Segment("AYSCOM005", 200.0, 10.0, 3.0); //  Treachery will never triumph!
+        Segment("AYSCOM006", 200.0, 10.0, 3.0); //  Follow me!
+        Segment("AYSCOM007", 200.0, 10.0, 3.0); //  We can do this!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_secura_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM008", 200.0, 10.0, 3.0); //  The Force has made us strong!
+        Segment("AYSCOM009", 200.0, 10.0, 3.0); //  Keep going!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_secura_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AYSCOM010", 200.0, 10.0, 3.0); //  Carry the Force with you, always.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM001", 200.0, 10.0, 3.0); //  I am here, and I am not amused.
+        Segment("EMPCOM002", 200.0, 10.0, 3.0); //  Your master has arrived.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM003", 200.0, 10.0, 3.0); //  Your friends can't save you now.
+        Segment("EMPCOM004", 200.0, 10.0, 3.0); //  Oh dear...
+        Segment("EMPCOM005", 200.0, 10.0, 3.0); //  You stink of fear.
+        Segment("EMPCOM006", 200.0, 10.0, 3.0); //  Embrace your anger!
+        Segment("EMPCOM007", 200.0, 10.0, 3.0); //  Release your anger!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM008", 200.0, 10.0, 3.0); //  Mwah-hah-haah!
+        Segment("EMPCOM009", 200.0, 10.0, 3.0); //  Wipe them out!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("EMPCOM010", 200.0, 10.0, 3.0); //  This isn't over.
+        Segment("EMPCOM011", 200.0, 10.0, 3.0); //  I will be back.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_maul_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM001", 200.0, 10.0, 3.0); //  What is your bidding, master?
+        Segment("DMLCOM002", 200.0, 10.0, 3.0); //  Darth Maul, awaiting orders.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_maul_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM003", 200.0, 10.0, 3.0); //  My master wants you dead.
+        Segment("DMLCOM004", 200.0, 10.0, 3.0); //  Killing you will be a pleasure.
+        Segment("DMLCOM005", 200.0, 10.0, 3.0); //  Please, run.
+        Segment("DMLCOM006", 200.0, 10.0, 3.0); //  Die.
+        Segment("DMLCOM007", 200.0, 10.0, 3.0); //  Scream.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_maul_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM008", 200.0, 10.0, 3.0); //  You worms are no match for the Dark Side!
+        Segment("DMLCOM009", 200.0, 10.0, 3.0); //  I can taste your fear.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_maul_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DMLCOM010", 200.0, 10.0, 3.0); //  I've done as you commanded, master.
+        Segment("DMLCOM011", 200.0, 10.0, 3.0); //  It is done, master.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_imperialGuard_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("RGDCOM001", 200.0, 10.0, 3.0); //  Awaiting orders.
+        Segment("RGDCOM002", 200.0, 10.0, 3.0); //  What is your bidding, Emperor?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_imperialGuard_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("RGDCOM003", 200.0, 10.0, 3.0); //  For the Emperor!
+        Segment("RGDCOM004", 200.0, 10.0, 3.0); //  You are beneath the Emperor's notice.
+        Segment("RGDCOM005", 200.0, 10.0, 3.0); //  My orders will be your undoing.
+        Segment("RGDCOM008", 200.0, 10.0, 3.0); //  The Emperor will be pleased
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_imperialGuard_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("RGDCOM006", 200.0, 10.0, 3.0); //  Enemy defeated.
+        Segment("RGDCOM007", 200.0, 10.0, 3.0); //  Hostile neutralized.
+        Segment("RGDCOM009", 200.0, 10.0, 3.0); //  Your death-cries amuse the Emperor.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_imperialGuard_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("RGDCOM010", 200.0, 10.0, 3.0); //  The Emperor beckons me elsewhere.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_dooku_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM001", 200.0, 10.0, 3.0); //  This is Dooku.  What is the situation?
+        Segment("DKUCOM002", 200.0, 10.0, 3.0); //  Tell the generals that Count Dooku is here.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_dooku_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM003", 200.0, 10.0, 3.0); //  You cannot hope to defeat me!
+        Segment("DKUCOM004", 200.0, 10.0, 3.0); //  You were defeated before this battle even began!
+        Segment("DKUCOM005", 200.0, 10.0, 3.0); //  Your deaths will serve as an example to others!
+        Segment("DKUCOM006", 200.0, 10.0, 3.0); //  Join me or die!
+        Segment("DKUCOM007", 200.0, 10.0, 3.0); //  Feel your hate!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_dooku_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM008", 200.0, 10.0, 3.0); //  The Dark Side has made me invincible!
+        Segment("DKUCOM009", 200.0, 10.0, 3.0); //  Victory is mine!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_dooku_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("DKUCOM010", 200.0, 10.0, 3.0); //  I must attend to other matters.  Carry on.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_anakin_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM001", 200.0, 10.0, 3.0); //  Anakin Skywalker, reporting for duty
+        Segment("AKNCOM002", 200.0, 10.0, 3.0); //  This is Skywalker. Let's get on with this.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_anakin_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM003", 200.0, 10.0, 3.0); //  These enemies shouldn't present much of a problem.
+        Segment("AKNCOM004", 200.0, 10.0, 3.0); //  Are you sure you need a Jedi of my calibre for this battle?
+        Segment("AKNCOM005", 200.0, 10.0, 3.0); //  Lay down your weapons or face the consequences!
+        Segment("AKNCOM006", 200.0, 10.0, 3.0); //  Follow me!
+        Segment("AKNCOM009", 200.0, 10.0, 3.0); //  You don't stand a chance against the power of the Force!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_anakin_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM007", 200.0, 10.0, 3.0); //  That was exhilierating.
+        Segment("AKNCOM008", 200.0, 10.0, 3.0); //  The Force is strong with me!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_anakin_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("AKNCOM010", 200.0, 10.0, 3.0); //  You don't need me here any more.  I'm off to more important battles.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ben_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM001", 200.0, 10.0, 3.0); //  General Kenobi, reporting for duty.
+        Segment("BENCOM002", 200.0, 10.0, 3.0); //  Obi-Wan Kenobi here, I've engaged the enemy.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ben_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM003", 200.0, 10.0, 3.0); //  What a wretched gathering of scum and villainy
+        Segment("BENCOM004", 200.0, 10.0, 3.0); //  I suppose diplomacy is out of the question?
+        Segment("BENCOM005", 200.0, 10.0, 3.0); //  There're more machines than men here.
+        Segment("BENCOM006", 200.0, 10.0, 3.0); //  I've got a bad feeling about this.
+        Segment("BENCOM007", 200.0, 10.0, 3.0); //  Follow me!
+        Segment("BENCOM008", 200.0, 10.0, 3.0); //  Go, go, go!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ben_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM009", 200.0, 10.0, 3.0); //  Feel the Force
+        Segment("BENCOM010", 200.0, 10.0, 3.0); //  This is going better than I expected.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ben_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("global_vo_slow");
+    SegmentList()
+    {
+        Segment("BENCOM011", 200.0, 10.0, 3.0); //  Though I leave, the Force will be with you, always.
+    }
+}

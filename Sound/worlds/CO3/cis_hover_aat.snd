@@ -1,0 +1,220 @@
+// CIS_hover_AAT ----------------------------------------
+#ifplatform ps2 xbox
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.75);
+    Gain(0.6);
+    SampleList()
+    {
+        Sample("wpn_droideka_blaster_fire", 1.0);
+
+    }
+}
+#endifplatform ps2 xbox
+#ifplatform pc
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_cannon_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Pitch(0.75);
+    SampleList()
+    {
+        Sample("wpn_droideka_blaster_fire", 1.0);
+
+    }
+}
+#endifplatform pc
+#ifplatform ps2 xbox
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_launcher_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Gain(1.0);
+    SampleList()
+    {
+        Sample("wpn_AAT_mainBlaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_missile_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    Gain(0.9);
+    SampleList()
+    {
+        Sample("wpn_AAT_missleLauncher_fire", 1.0);
+    }
+}
+#endifplatform ps2 xbox
+#ifplatform pc
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_launcher_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_AAT_mainBlaster_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_hover_aat_missile_fire");
+    Group("weapons");
+    Inherit("veh_weapon_template");
+    SampleList()
+    {
+        Sample("wpn_AAT_missleLauncher_fire", 1.0);
+    }
+}
+#endifplatform pc
+// AAT Engine start------------------------------------------------------------
+
+// Engine -------
+
+SoundProperties()
+{
+    Name("aat_engine_low_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_low_template");
+    RollOff(2.0);
+    SampleList()
+    {
+      Sample("eng_aat_low_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("aat_engine_med_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    RollOff(3.0);
+    SampleList()
+    {
+      Sample("eng_aat_mid_lp", 1.0);
+
+    }
+}
+
+SoundProperties()
+{
+    Name("aat_engine_high_idle_property");
+    Group("vehicles");
+    Inherit("vehicle_eng_hi-mid_template");
+    SampleList()
+    {
+      Sample("eng_aat_hi_lp", 1.0);
+
+    }
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_low_idle_speed");
+    ControlPoint(-1.0, 0.8);    
+    ControlPoint(0.0, 0.8);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.2, 1.2);
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_low_idle_acceleration");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_med_idle_speed");
+    ControlPoint(-1.0, 0.85);    
+    ControlPoint(0.0, 0.85);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.3, 1.3);
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_med_idle_acceleration");
+    ControlPoint(-1.0, 0.6);
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_high_idle_speed");
+    ControlPoint(-1.0, 0.6);    
+    ControlPoint(0.0, 0.6);
+    ControlPoint(0.6, 0.8);
+    ControlPoint(1.0, 1.0);
+    ControlPoint(1.3, 1.3);
+}
+
+ParameterGraph()
+{
+    Name("aat_engine_high_idle_acceleration");
+    ControlPoint(-1.0, 0.7);
+    ControlPoint(0.0, 0.7);
+    ControlPoint(0.5, 0.9);
+    ControlPoint(1.0, 1.0);
+}
+
+SoundLayered()
+{
+    Name("aat_engine_layered");
+    Layer("aat_engine_low_idle", "aat_engine_low_idle_property", 0.0);
+    Layer("aat_engine_med_idle", "aat_engine_med_idle_property", 0.0);
+    Layer("aat_engine_high_idle", "aat_engine_high_idle_property", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_hover_aat_engine_parameterized");
+    SoundLayered("aat_engine_layered");
+    Layer()
+    {
+        Name("aat_engine_low_idle");
+        ParameterGraph("speed",        "aat_engine_low_idle_speed", "pitch");
+        ParameterGraph("acceleration", "aat_engine_low_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("aat_engine_med_idle");
+        ParameterGraph("speed",        "aat_engine_med_idle_speed", "pitch");
+        ParameterGraph("acceleration", "aat_engine_med_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+    Layer()
+    {
+        Name("aat_engine_high_idle");
+        ParameterGraph("speed",        "aat_engine_high_idle_speed", "pitch");
+        ParameterGraph("acceleration", "aat_engine_high_idle_acceleration","gain");
+        ParameterGraph("turnontime",   "engine_turnon_gain",      "gain");
+        ParameterGraph("turnofftime",  "engine_turnoff_gain",     "gain");
+        ParameterGraph("turnontime",   "engine_turnon_pitch",     "pitch");
+        ParameterGraph("turnofftime",  "engine_turnoff_pitch",    "pitch");
+    }
+}
+// AAT Engine End--------------------------------------------------------------

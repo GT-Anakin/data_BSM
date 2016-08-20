@@ -1,0 +1,503 @@
+// ----------------------------------------- DEA Music -----------------------------------
+
+// ----------------- DEA REP Music ----------------------
+
+SoundStream()
+{
+    Name("rep_dea_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepKas01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act05_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_dea_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepKas01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act05_lp", 1.0, 0.0, 0.0);
+        Segment("RepKam01_Amb01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_dea_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("CISUta01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_dea_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("rep_victory", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_dea_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("rep_defeat", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_dea_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act04_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh05_lp", 1.0, 0.0, 0.0);
+        Segment("RepGen_Veh03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+// ----------------- DEA CIS Music ----------------------
+
+SoundStream()
+{
+    Name("cis_dea_amb_start");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepCor01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepKas01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act05_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_dea_amb_middle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepUta01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISJed01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepKas01_Amb02_lp", 1.0, 0.0, 0.0);
+        Segment("RepCor01_Act05_lp", 1.0, 0.0, 0.0);
+        Segment("RepKam01_Amb01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_dea_amb_end");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");;
+    SegmentList()
+    {
+        Segment("RepFel01_Act02_lp", 1.0, 0.0, 0.0);
+        Segment("RepUta01_Amb03_lp", 1.0, 0.0, 0.0);
+        Segment("CISUta01_Amb01_lp", 1.0, 0.0, 0.0);
+        Segment("CISThe01_Act01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_dea_amb_victory");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("cis_victory", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_dea_amb_defeat");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(0);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("cis_defeat", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_dea_amb_vehicle");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    CyclePlayback(3);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_Veh01_lp", 1.0, 0.0, 0.0);
+        Segment("CISGen_Veh03_lp", 1.0, 0.0, 0.0);
+        Segment("CISGen_Veh05_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+// ----------------- CW Hero Music ----------------------  
+
+SoundStream()
+{
+    Name("rep_hero_secura_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_hero_Mundi_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_hero_Anakin_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_hero_Windu_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar04_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_hero_ObiWan_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar05_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("rep_hero_Yoda_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("RepGen_HeroChar06_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_hero_Dooku_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_HeroChar01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_hero_Maul_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_HeroChar02_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_hero_Grievous_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_HeroChar03_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("cis_hero_Jango_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("CISGen_HeroChar04_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_hero_Palpatine_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("ImpGen_HeroChar01_lp", 1.0, 0.0, 0.0);
+    }
+}
+
+SoundStream()
+{
+    Name("imp_hero_Boba_lp");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(0.0);
+    Bus("ingamemusic");
+    Looping(1);
+    Pan(0.0);
+    Mode3D(0);
+    Stream("cw_music");
+    SegmentList()
+    {
+        Segment("ImpGen_HeroChar03_lp", 1.0, 0.0, 0.0);
+    }
+}

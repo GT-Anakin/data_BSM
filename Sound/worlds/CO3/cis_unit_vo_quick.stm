@@ -1,0 +1,139 @@
+// ---------------------------------------------------- Player Commands ----------------------------------------------------------
+
+
+
+//    hostile detected
+..\cw\streams\PlayerCommands_vo\CI1COM527.wav
+
+//    I need recharging
+..\cw\streams\PlayerCommands_vo\CI1COM528.wav
+
+//    I require maintenance
+..\cw\streams\PlayerCommands_vo\CI1COM529.wav
+
+//    Ammo request initiated
+..\cw\streams\PlayerCommands_vo\CI1COM530.wav
+
+//    Request transport
+..\cw\streams\PlayerCommands_vo\CI1COM531.wav
+
+//    Request additional support
+..\cw\streams\PlayerCommands_vo\CI1COM532.wav
+
+//    Commence attack maneuver
+..\cw\streams\PlayerCommands_vo\CI1COM533.wav
+
+//    Maintain this position
+..\cw\streams\PlayerCommands_vo\CI1COM534.wav
+
+//    hostile detected
+..\cw\streams\PlayerCommands_vo\CI1COM535.wav
+
+//    I need recharging
+..\cw\streams\PlayerCommands_vo\CI1COM536.wav
+
+//    I require maintenance
+..\cw\streams\PlayerCommands_vo\CI1COM537.wav
+
+//    Ammo request initiated
+..\cw\streams\PlayerCommands_vo\CI1COM538.wav
+
+//    Request transport
+..\cw\streams\PlayerCommands_vo\CI1COM539.wav
+
+//    Request additional support
+..\cw\streams\PlayerCommands_vo\CI1COM540.wav
+
+//    Commence attack maneuver
+..\cw\streams\PlayerCommands_vo\CI1COM541.wav
+
+//    Maintain this position
+..\cw\streams\PlayerCommands_vo\CI1COM542.wav
+
+
+//    Come with me
+..\cw\streams\PlayerCommands_vo\CIPCOM001.wav
+
+//    follow me
+..\cw\streams\PlayerCommands_vo\CIPCOM002.wav
+
+//    this way
+..\cw\streams\PlayerCommands_vo\CIPCOM003.wav
+
+//    spread out
+..\cw\streams\PlayerCommands_vo\CIPCOM004.wav
+
+//    don't follow
+..\cw\streams\PlayerCommands_vo\CIPCOM005.wav
+
+//    Break off
+..\cw\streams\PlayerCommands_vo\CIPCOM006.wav
+
+//    Halt!
+..\cw\streams\PlayerCommands_vo\CIPCOM007.wav
+
+//    Stop!
+..\cw\streams\PlayerCommands_vo\CIPCOM008.wav
+
+//    Wait for me!
+..\cw\streams\PlayerCommands_vo\CIPCOM009.wav
+
+//    Climb in
+..\cw\streams\PlayerCommands_vo\CIPCOM010.wav
+
+//    Get in
+..\cw\streams\PlayerCommands_vo\CIPCOM011.wav
+
+//    Take up secondary position
+..\cw\streams\PlayerCommands_vo\CIPCOM012.wav
+
+//    out!
+..\cw\streams\PlayerCommands_vo\CIPCOM013.wav
+
+//    proceed on foot
+..\cw\streams\PlayerCommands_vo\CIPCOM014.wav
+
+//    exit vehicle
+..\cw\streams\PlayerCommands_vo\CIPCOM015.wav
+
+//    roger roger
+..\cw\streams\PlayerCommands_vo\CIAICOM001.wav
+
+//    confirmed
+..\cw\streams\PlayerCommands_vo\CIAICOM002.wav
+
+//    order accepted
+..\cw\streams\PlayerCommands_vo\CIAICOM003.wav
+
+//    following
+..\cw\streams\PlayerCommands_vo\CIAICOM004.wav
+
+//    roger that
+..\cw\streams\PlayerCommands_vo\CIAICOM005.wav
+
+//    spreading out
+..\cw\streams\PlayerCommands_vo\CIAICOM006.wav
+
+//    follow command terminated
+..\cw\streams\PlayerCommands_vo\CIAICOM007.wav
+
+//    stopping vehicle
+..\cw\streams\PlayerCommands_vo\CIAICOM008.wav
+
+//    holding vehicle
+..\cw\streams\PlayerCommands_vo\CIAICOM009.wav
+
+//    taking up secondary position
+..\cw\streams\PlayerCommands_vo\CIAICOM010.wav
+
+//    boarding vehicle
+..\cw\streams\PlayerCommands_vo\CIAICOM011.wav
+
+//    proceeding on foot
+..\cw\streams\PlayerCommands_vo\CIAICOM012.wav
+
+//    exiting vehicle
+..\cw\streams\PlayerCommands_vo\CIAICOM013.wav
+
+//    vacating vehicle
+..\cw\streams\PlayerCommands_vo\CIAICOM014.wav

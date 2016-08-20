@@ -1,0 +1,271 @@
+// Droideka Start --------------------------------------------------------------
+
+SoundProperties()
+{
+    Name("cis_weap_inf_droideka_fire");
+    Group("weapons");
+    Inherit("weapon_template");
+#ifplatform pc
+    Gain(0.7);
+#endifplatform pc
+#ifplatform xbox ps2
+    Gain(0.4);
+#endifplatform xbox ps2
+    RollOff(3.0);
+    SampleList()
+    {
+        Sample("wpn_droideka_blaster_fire", 1.0);
+    }
+}
+
+//SoundProperties()
+//{
+//    Name("cis_weap_inf_droideka_chargeup");
+//    Group("weapons");
+//    Inherit("weapon_template");
+//    Pitch(0.3);
+//    RollOff(5.0);
+//    SampleList()
+//    {
+//        Sample("wpn_droideka_chargeup", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_inf_droideka_step");
+    Group("body_movement");
+    Inherit("body_movement_metal_template");
+    Gain(0.8);
+    CyclePlayback(1);
+    SampleList()
+    {
+        Sample("fs_droideka_01", 0.25);
+        Sample("fs_droideka_02", 0.25);
+        Sample("fs_droideka_03", 0.25);
+        Sample("fs_droideka_04", 0.25);
+    }
+}
+
+// Shield ambience not used
+//SoundProperties()
+//{
+//    Name("cis_droideka_shield");
+//    Pitch(2.0);
+//    PitchDev(0.0);
+//    Gain(0.0);
+//    GainDev(0.0);
+//    ReverbGain(1.0);
+//    Bus("soundfx");
+//    Looping(1);
+//    Pan(0.0);
+//    MinDistance(10.0);
+//    MuteDistance(20.0);
+//    MaxDistance(20.0);
+//    RollOff(1.0);
+//    Mode3D(1);
+//    Bias(0.0001);
+//    Priority(0.5);
+//    SampleList()
+//    {
+//     Sample("droid_fx7_hum_lp", 1.0);
+//    }
+//}
+
+SoundProperties()
+{
+    Name("cis_droideka_shield_on");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(10.0);
+    MuteDistance(40.0);
+    MaxDistance(40.0);
+    RollOff(1.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+        Sample("drd_droideka_shield_on", 1.0);
+    }
+}
+
+
+//SoundProperties()
+//{
+//    Name("cis_droideka_shield_wearoff");
+//    Pitch(1.0);
+//    PitchDev(0.0);
+//    Gain(1.0);
+//    GainDev(0.0);
+//    ReverbGain(1.0);
+//    Bus("soundfx");
+//    Looping(0);
+//    Pan(0.0);
+//    MinDistance(6.0);
+//    MuteDistance(50.0);
+//    MaxDistance(50.0);
+//    RollOff(3.0);
+//    Mode3D(1);
+//    Bias(0.0001);
+//    Priority(0.5);
+//    SampleList()
+//    {
+//    Sample("drd_droideka_flicker_lp", 1.0);
+//    }
+//}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_fold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_fold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_fold");
+    Layer("null", "cis_droideka_fold_property", 0.15);
+}
+
+
+SoundProperties()
+{
+    Name("cis_droideka_unfold_property");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("drd_droideka_unfold", 1.0);
+    }
+}
+
+SoundLayered()
+{
+    Name("cis_droideka_unfold");
+    Layer("null", "cis_droideka_unfold_property", 0.35);
+    Layer("null", "cis_droideka_fold_property", 0.0);
+}
+
+
+
+SoundProperties()
+{
+    Name("cis_droideka_jump");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(0);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+    Sample("wpn_snowSpder_towCable_rls", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    Pitch(1.0);
+    PitchDev(0.0);
+    Gain(1.0);
+    GainDev(0.0);
+    ReverbGain(1.0);
+    Bus("soundfx");
+    Looping(1);
+    Pan(0.0);
+    MinDistance(6.0);
+    MuteDistance(70.0);
+    MaxDistance(70.0);
+    RollOff(3.0);
+    Mode3D(1);
+    Bias(0.0001);
+    Priority(0.5);
+    SampleList()
+    {
+      Sample("drd_droideka_roll_lp", 1.0);
+    }
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_speed");
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.5, 0.5);
+    ControlPoint(1.0, 1.0);
+}
+
+ParameterGraph()
+{
+    Name("droidekaengine_acceleration");
+    ControlPoint(-1.0, 0.0);
+    ControlPoint(0.0, 0.0);
+    ControlPoint(0.8, 0.1);
+    ControlPoint(1.0, 0.65);
+}
+
+SoundLayered()
+{
+    Name("droidekaengine_layered");
+    Layer("droideka_engine", "cis_walk_droideka_engine_parameterized", 0.0);
+}
+
+SoundParameterized()
+{
+    Name("cis_walk_droideka_engine_parameterized");
+    SoundLayered("droidekaengine_layered");
+    Layer()
+    {
+        Name("droideka_engine");
+        ParameterGraph("speed",        "droidekaengine_speed",        "pitch");
+        ParameterGraph("speed",        "droidekaengine_acceleration", "gain");
+    }
+}
+// Droideka End --------------------------------------------------------------

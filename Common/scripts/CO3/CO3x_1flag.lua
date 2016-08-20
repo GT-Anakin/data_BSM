@@ -22,6 +22,7 @@ function ScriptPostLoad()
 --AllowAISpawn(1, false) --Both commands are for debug purposes
 --AllowAISpawn(2, false)
 
+EnableAIAutoBalance()
 	SoundEvent_SetupTeams( REP, 'rep', CIS, 'cis' )
     
     ctf = ObjectiveOneFlagCTF:New{teamATT = REP, teamDEF = CIS,

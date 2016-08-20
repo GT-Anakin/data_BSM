@@ -1,5 +1,5 @@
 Version(1);
-NextID(1);
+NextID(16);
 
 Layer("[Base]", 0, 0)
 {
@@ -81,6 +81,11 @@ Layer("Deathregions", 15, 0)
 	Description("");
 }
 
+Layer("SoundStreamsSpace", 16, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -144,5 +149,10 @@ GameMode("CW_Space")
 GameMode("Deathregions")
 {
 	Layer(15);
+}
+
+GameMode("SoundStreamsSpace")
+{
+	Layer(16);
 }
 

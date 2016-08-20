@@ -11,7 +11,7 @@ HeatPerShot         = "0.10"
 
 ShotDelay           = "0.42"
 
-FireSound           = "com_weap_turret_fire_small"
+FireSound           = "turret_gun_weap_fire"
 
 ZoomMin             = "2.0"
 ZoomMax             = "5.0"

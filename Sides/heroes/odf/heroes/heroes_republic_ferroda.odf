@@ -45,3 +45,18 @@ WeaponChannel3		= 1
 
 FoleyFXClass                = "rep_inf_soldier"
 
+///SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_ferroda_spawn"
+SndHeroDefeated             = ""
+SndHeroKiller               = ""
+
+VOSound = "rep_off_response_hero_command      SC_Follow"
+VOSound = "rep_off_response_hero_command      SC_StopFollow"
+VOSound = "rep_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "rep_off_response_hero_command     SC_GetIn"
+VOSound = "rep_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_ferroda_KillingSpree3      KillingSpree3"
+
+

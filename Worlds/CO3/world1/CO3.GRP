@@ -19,5 +19,6 @@ Group("[Base]", 0, 8)
 	Layer("CW_Space", 13);
 	Layer("rumble", 14);
 	Layer("Deathregions", 15);
+	Layer("SoundStreamsSpace", 16);
 }
 
