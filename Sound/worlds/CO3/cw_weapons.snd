@@ -290,19 +290,20 @@ SoundProperties()
     }
 }
 
+
+//Magna Staff 
+
+
 SoundProperties()
 {
-    Name("magna_electro");
-    Group("weapons");
-    Inherit("weapon_template");
+    Name("magna_electro")
+    Group("unit_weapon");
+    Inherit("props_template");
     Gain(1.0);
-    Looping(1);
     Pitch(1.0);
     PitchDev(0.0);
-    Rolloff(1)
-    MinDistance(25)
-    MaxDistance(50)
-    MuteDistance(50)
+    MinDistance(6.0);
+    Looping(1);
     SampleList()
     {
         Sample("magna_electro", 1.0);
@@ -313,7 +314,11 @@ SoundProperties()
 {
     Name("magna_swing_single");
     Group("weapons");
-    Inherit("weapon_template");
+    Inherit("props_template");
+	Gain(1.0);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
     SampleList()
     {
         Sample("magna_swing_single", 1.0);
@@ -324,7 +329,11 @@ SoundProperties()
 {
     Name("magna_swing_double");
     Group("weapons");
-    Inherit("weapon_template");
+    Inherit("props_template");
+	Gain(1.0);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
     SampleList()
     {
         Sample("magna_swing_double", 1.0);
@@ -335,12 +344,20 @@ SoundProperties()
 {
     Name("magna_swing_triple");
     Group("weapons");
-    Inherit("weapon_template");
+    Inherit("props_template");
+	Gain(1.0);
+    Pitch(1.05);
+    PitchDev(0.05);
+    MinDistance(25.0);
     SampleList()
     {
         Sample("magna_swing_triple", 1.0);
     }
 }
+
+
+//Magna Staff End
+
 
 //CW-Turrets/////////////////////////////////////////////////////////////////////////
 

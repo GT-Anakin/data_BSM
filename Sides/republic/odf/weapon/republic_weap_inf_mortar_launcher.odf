@@ -6,6 +6,8 @@ GeometryName        = "rep_weap_inf_grenadelauncher.msh"
 GeometryName        = "rep_weap_inf_grenadelauncher"
 HighResGeometry     = "rep_weap_inf_grenadelauncher"
 
+ChargeUpEffect          = "com_sfx_chargeup_blue"
+
 //***************************************************
 //******************** SOUND ************************
 //***************************************************

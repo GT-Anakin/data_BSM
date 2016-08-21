@@ -839,3 +839,6 @@ soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sou
 soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
 soundflmunge.exe : Error : Unable to open file ..\worlds\GAL\streams\metagame_vo\ROCOM0066.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
 soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\rep_unit_vo_slow.stm
+soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\..\..\global\effects\droid_gonk_04.wav  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Error : Unable to open file E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\..\..\global\effects\droid_gonk_04.wav, format may be invalid  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx
+soundflmunge.exe : Error : Unable to read file list E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx  - while munging E:\BF2_ModTools\data_BSM\Sound\worlds\CO3\co3cw_sfx.sfx

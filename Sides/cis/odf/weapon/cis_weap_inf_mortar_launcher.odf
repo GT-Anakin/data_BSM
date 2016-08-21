@@ -6,6 +6,8 @@ GeometryName        = "cis_weap_chargelauncher.msh"
 GeometryName        = "cis_weap_chargelauncher"
 HighResGeometry     = "cis_weap_chargelauncher"
 
+ChargeUpEffect          = "com_sfx_chargeup_purple"
+
 //***************************************************
 //******************** SOUND ************************
 //***************************************************
