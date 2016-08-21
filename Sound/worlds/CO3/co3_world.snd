@@ -1012,11 +1012,6 @@ SoundProperties()
 // End Buff Weapons -----------------------------------------
 
 
-
-
-
-
-
 SoundStream()
 {
     Name("co3_amb_exterior");

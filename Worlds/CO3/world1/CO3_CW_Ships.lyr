@@ -121,7 +121,7 @@ Object("rep_cor_6", "Corridor_03", 85022331)
 	Layer(3);
 }
 
-Object("rep_roof_tur_1", "tur_bldg_chaingun_roof", 104226929)
+Object("rep_roof_tur_1", "tur_bldg_chaingun_roof_co3", 104226929)
 {
 	ChildRotation(0.532, 0.000, 0.847, 0.000);
 	ChildPosition(-1375.999, 849.782, 377.897);
@@ -355,7 +355,7 @@ Object("rep_auto_tur_4", "rep_bldg_frigateturret", 412876887)
 	Layer(3);
 }
 
-Object("rep_tri_tur_5", "tur_bldg_chaingun_tripod", 423872313)
+Object("rep_tri_tur_5", "tur_bldg_chaingun_tripod_co3", 423872313)
 {
 	ChildRotation(0.998, 0.000, 0.063, 0.000);
 	ChildPosition(-1576.349, 852.318, 242.751);
@@ -519,7 +519,7 @@ Object("cp_rep_frigate", "com_bldg_controlzone_CTF", 503878149)
 	HUDIndexDisplay("0");
 }
 
-Object("cis_roof_tur_5", "tur_bldg_chaingun_roof", 531964189)
+Object("cis_roof_tur_5", "tur_bldg_chaingun_roof_co3", 531964189)
 {
 	ChildRotation(0.066, 0.000, -0.998, 0.000);
 	ChildPosition(273.386, 848.115, -338.889);
@@ -559,7 +559,7 @@ Object("rep_vehicle2", "com_item_vehicle_spawn", 553552175)
 	ClassLocals("");
 }
 
-Object("rep_roof_tur_6", "tur_bldg_chaingun_roof", 589756089)
+Object("rep_roof_tur_6", "tur_bldg_chaingun_roof_co3", 589756089)
 {
 	ChildRotation(-0.029, 0.000, -1.000, 0.000);
 	ChildPosition(-1356.676, 850.866, 424.066);
@@ -609,7 +609,7 @@ Object("cis_vehicle13", "com_item_vehicle_spawn", 597676542)
 	ClassLocals("");
 }
 
-Object("cis_tri_tur_5", "tur_bldg_chaingun_tripod", 628655318)
+Object("cis_tri_tur_5", "tur_bldg_chaingun_tripod_co3", 628655318)
 {
 	ChildRotation(-0.461, 0.000, -0.887, 0.000);
 	ChildPosition(52.859, 849.610, -341.244);
@@ -779,7 +779,7 @@ Object("rep_frigate_container1", "CO3_prop_container", 879360748)
 	Layer(3);
 }
 
-Object("cis_tri_tur_1", "tur_bldg_chaingun_tripod", 879632137)
+Object("cis_tri_tur_1", "tur_bldg_chaingun_tripod_co3", 879632137)
 {
 	ChildRotation(-0.228, 0.000, -0.974, 0.000);
 	ChildPosition(305.198, 843.811, -365.862);
@@ -1309,7 +1309,7 @@ Object("cis_capital_pillar26", "CO3_prop_largepillar", 1449482322)
 	Layer(3);
 }
 
-Object("rep_tri_tur_10", "tur_bldg_chaingun_tripod", 1449820193)
+Object("rep_tri_tur_10", "tur_bldg_chaingun_tripod_co3", 1449820193)
 {
 	ChildRotation(0.984, 0.000, -0.179, 0.000);
 	ChildPosition(-1472.306, 852.342, 253.746);
@@ -1349,7 +1349,7 @@ Object("cis_vehicle7", "com_item_vehicle_spawn", 1453598344)
 	ClassLocals("");
 }
 
-Object("rep_roof_tur_4", "tur_bldg_chaingun_roof", 1497950609)
+Object("rep_roof_tur_4", "tur_bldg_chaingun_roof_co3", 1497950609)
 {
 	ChildRotation(0.925, 0.000, 0.380, 0.000);
 	ChildPosition(-1401.424, 850.803, 321.570);
@@ -1471,7 +1471,7 @@ Object("rep_frigate_arrive", "rep_Frigate_ext", 1532693134)
 	Layer(3);
 }
 
-Object("rep_tri_tur_12", "tur_bldg_chaingun_tripod", 1543913264)
+Object("rep_tri_tur_12", "tur_bldg_chaingun_tripod_co3", 1543913264)
 {
 	ChildRotation(0.782, 0.000, -0.623, 0.000);
 	ChildPosition(-1483.027, 852.306, 311.052);
@@ -1753,7 +1753,7 @@ Object("CIS_Frigate_ext_Hallways_closed3", "CIS_Frigate_ext_Hallways_closed", 16
 	Layer(3);
 }
 
-Object("cis_tri_tur_12", "tur_bldg_chaingun_tripod", 1686604816)
+Object("cis_tri_tur_12", "tur_bldg_chaingun_tripod_co3", 1686604816)
 {
 	ChildRotation(0.944, 0.000, 0.329, 0.000);
 	ChildPosition(60.964, 849.566, -455.983);
@@ -1783,7 +1783,7 @@ Object("rep_Frigate_ext2", "rep_Frigate_ext", 1721503639)
 	Layer(3);
 }
 
-Object("rep_tri_tur_14", "tur_bldg_chaingun_tripod", 1728026486)
+Object("rep_tri_tur_14", "tur_bldg_chaingun_tripod_co3", 1728026486)
 {
 	ChildRotation(0.347, 0.000, -0.938, 0.000);
 	ChildPosition(-1536.990, 852.377, 330.295);
@@ -1923,7 +1923,7 @@ Object("cis_capital_pillar24", "CO3_prop_largepillar", 1857645755)
 	Layer(3);
 }
 
-Object("cis_tri_tur_13", "tur_bldg_chaingun_tripod", 1870685224)
+Object("cis_tri_tur_13", "tur_bldg_chaingun_tripod_co3", 1870685224)
 {
 	ChildRotation(0.527, 0.000, -0.850, 0.000);
 	ChildPosition(103.884, 849.593, -426.333);
@@ -1933,7 +1933,7 @@ Object("cis_tri_tur_13", "tur_bldg_chaingun_tripod", 1870685224)
 	Layer(3);
 }
 
-Object("cis_tri_tur_14", "tur_bldg_chaingun_tripod", 1904781163)
+Object("cis_tri_tur_14", "tur_bldg_chaingun_tripod_co3", 1904781163)
 {
 	ChildRotation(0.985, 0.000, -0.170, 0.000);
 	ChildPosition(106.906, 849.593, -419.839);
@@ -1943,7 +1943,7 @@ Object("cis_tri_tur_14", "tur_bldg_chaingun_tripod", 1904781163)
 	Layer(3);
 }
 
-Object("cis_roof_tur_1", "tur_bldg_chaingun_roof", 1907024720)
+Object("cis_roof_tur_1", "tur_bldg_chaingun_roof_co3", 1907024720)
 {
 	ChildRotation(0.725, 0.000, 0.689, 0.000);
 	ChildPosition(265.301, 847.011, -389.524);
@@ -2083,7 +2083,7 @@ Object("rep_Frigate_ext_Hallways_closed3", "rep_Frigate_ext_Hallways_closed", 19
 	Layer(3);
 }
 
-Object("rep_tri_tur_6", "tur_bldg_chaingun_tripod", 1990758263)
+Object("rep_tri_tur_6", "tur_bldg_chaingun_tripod_co3", 1990758263)
 {
 	ChildRotation(0.633, 0.000, 0.774, 0.000);
 	ChildPosition(-1572.678, 852.318, 237.417);
@@ -2173,7 +2173,7 @@ Object("cis_shield_console_1", "spa_prop_console", 2038719330)
 	Layer(3);
 }
 
-Object("cis_tri_tur_7", "tur_bldg_chaingun_tripod", 2056396878)
+Object("cis_tri_tur_7", "tur_bldg_chaingun_tripod_co3", 2056396878)
 {
 	ChildRotation(0.816, 0.000, 0.578, 0.000);
 	ChildPosition(3.642, 849.609, -369.795);
@@ -2183,7 +2183,7 @@ Object("cis_tri_tur_7", "tur_bldg_chaingun_tripod", 2056396878)
 	Layer(3);
 }
 
-Object("cis_tri_tur_4", "tur_bldg_chaingun_tripod", 2088576147)
+Object("cis_tri_tur_4", "tur_bldg_chaingun_tripod_co3", 2088576147)
 {
 	ChildRotation(0.748, 0.000, -0.664, 0.000);
 	ChildPosition(98.416, 849.593, -362.796);
@@ -2343,7 +2343,7 @@ Object("cis_vehicle11", "com_item_vehicle_spawn", -2037742949)
 	ClassLocals("");
 }
 
-Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod", -2026904790)
+Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod_co3", -2026904790)
 {
 	ChildRotation(0.051, 0.000, -0.999, 0.000);
 	ChildPosition(102.511, 849.593, -368.804);
@@ -2353,7 +2353,7 @@ Object("cis_tri_tur_3", "tur_bldg_chaingun_tripod", -2026904790)
 	Layer(3);
 }
 
-Object("rep_roof_tur_7", "tur_bldg_chaingun_roof", -2024535158)
+Object("rep_roof_tur_7", "tur_bldg_chaingun_roof_co3", -2024535158)
 {
 	ChildRotation(0.400, 0.000, -0.917, 0.000);
 	ChildPosition(-1343.529, 850.905, 418.506);
@@ -2403,7 +2403,7 @@ Object("rep_frigate_container7", "CO3_prop_container", -1980251742)
 	Layer(3);
 }
 
-Object("cis_roof_tur_6", "tur_bldg_chaingun_roof", -1949117353)
+Object("cis_roof_tur_6", "tur_bldg_chaingun_roof_co3", -1949117353)
 {
 	ChildRotation(0.987, 0.000, -0.160, 0.000);
 	ChildPosition(281.840, 848.149, -457.164);
@@ -2463,7 +2463,7 @@ Object("cis_vehicle3", "com_item_vehicle_spawn", -1847684110)
 	ClassLocals("");
 }
 
-Object("cis_roof_tur_3", "tur_bldg_chaingun_roof", -1827224186)
+Object("cis_roof_tur_3", "tur_bldg_chaingun_roof_co3", -1827224186)
 {
 	ChildRotation(0.727, 0.000, 0.687, 0.000);
 	ChildPosition(266.469, 847.008, -408.046);
@@ -2607,7 +2607,7 @@ Object("rep_vehicle5", "com_item_vehicle_spawn", -1679780082)
 	ClassLocals("");
 }
 
-Object("rep_tri_tur_3", "tur_bldg_chaingun_tripod", -1672493105)
+Object("rep_tri_tur_3", "tur_bldg_chaingun_tripod_co3", -1672493105)
 {
 	ChildRotation(0.836, 0.000, 0.549, 0.000);
 	ChildPosition(-1578.509, 852.322, 299.968);
@@ -2629,7 +2629,7 @@ Object("cis_health_3", "com_item_healthrecharge", -1656782701)
 	Radius("5.0");
 }
 
-Object("cis_tri_tur_11", "tur_bldg_chaingun_tripod", -1649641535)
+Object("cis_tri_tur_11", "tur_bldg_chaingun_tripod_co3", -1649641535)
 {
 	ChildRotation(0.888, 0.000, -0.460, 0.000);
 	ChildPosition(53.996, 849.566, -456.414);
@@ -2639,7 +2639,7 @@ Object("cis_tri_tur_11", "tur_bldg_chaingun_tripod", -1649641535)
 	Layer(3);
 }
 
-Object("rep_tri_tur_4", "tur_bldg_chaingun_tripod", -1645703895)
+Object("rep_tri_tur_4", "tur_bldg_chaingun_tripod_co3", -1645703895)
 {
 	ChildRotation(-0.196, 0.000, -0.981, 0.000);
 	ChildPosition(-1581.132, 852.322, 294.334);
@@ -2783,7 +2783,7 @@ Object("rep_reactor_console_4", "Main_Reactor_Console", -1479547129)
 	Layer(3);
 }
 
-Object("cis_roof_tur_2", "tur_bldg_chaingun_roof", -1478246000)
+Object("cis_roof_tur_2", "tur_bldg_chaingun_roof_co3", -1478246000)
 {
 	ChildRotation(0.727, 0.000, 0.687, 0.000);
 	ChildPosition(265.921, 847.034, -399.080);
@@ -2843,7 +2843,7 @@ Object("cis_capital_container5", "CO3_prop_container", -1416860564)
 	Layer(3);
 }
 
-Object("rep_tri_tur_2", "tur_bldg_chaingun_tripod", -1399953209)
+Object("rep_tri_tur_2", "tur_bldg_chaingun_tripod_co3", -1399953209)
 {
 	ChildRotation(-0.267, 0.000, -0.964, 0.000);
 	ChildPosition(-1320.984, 842.649, 395.812);
@@ -2923,7 +2923,7 @@ Object("rep_frigate_bridge4", "CO3_bldg_hangar_bridge", -1299971391)
 	Layer(3);
 }
 
-Object("cis_roof_tur_4", "tur_bldg_chaingun_roof", -1286313666)
+Object("cis_roof_tur_4", "tur_bldg_chaingun_roof_co3", -1286313666)
 {
 	ChildRotation(-0.143, 0.000, -0.990, 0.000);
 	ChildPosition(263.105, 848.147, -339.767);
@@ -2953,7 +2953,7 @@ Object("cis_capital_container4", "CO3_prop_container", -1257149126)
 	Layer(3);
 }
 
-Object("rep_tri_tur_11", "tur_bldg_chaingun_tripod", -1216223508)
+Object("rep_tri_tur_11", "tur_bldg_chaingun_tripod_co3", -1216223508)
 {
 	ChildRotation(0.008, 0.000, -1.000, 0.000);
 	ChildPosition(-1478.947, 852.306, 305.802);
@@ -3035,7 +3035,7 @@ Object("cis_vehicle5", "com_item_vehicle_spawn", -1186794472)
 	ClassLocals("");
 }
 
-Object("rep_tri_tur_8", "tur_bldg_chaingun_tripod", -1176597686)
+Object("rep_tri_tur_8", "tur_bldg_chaingun_tripod_co3", -1176597686)
 {
 	ChildRotation(0.933, 0.000, 0.359, 0.000);
 	ChildPosition(-1517.387, 852.344, 216.197);
@@ -3097,7 +3097,7 @@ Object("rep_Frigate_ext3", "rep_Frigate_ext", -1049147289)
 	Layer(3);
 }
 
-Object("cis_tri_tur_9", "tur_bldg_chaingun_tripod", -1047119458)
+Object("cis_tri_tur_9", "tur_bldg_chaingun_tripod_co3", -1047119458)
 {
 	ChildRotation(0.998, 0.000, 0.056, 0.000);
 	ChildPosition(3.442, 849.611, -427.254);
@@ -3127,7 +3127,7 @@ Object("cis_cor_5", "Corridor_02", -1039301559)
 	Layer(3);
 }
 
-Object("cis_tri_tur_2", "tur_bldg_chaingun_tripod", -1021995781)
+Object("cis_tri_tur_2", "tur_bldg_chaingun_tripod_co3", -1021995781)
 {
 	ChildRotation(0.978, 0.000, 0.207, 0.000);
 	ChildPosition(309.153, 843.778, -419.695);
@@ -3147,7 +3147,7 @@ Object("rep_door_4", "cis_fedcruiser_door1", -1011629168)
 	Layer(3);
 }
 
-Object("cis_tri_tur_8", "tur_bldg_chaingun_tripod", -1006551818)
+Object("cis_tri_tur_8", "tur_bldg_chaingun_tripod_co3", -1006551818)
 {
 	ChildRotation(-0.153, 0.000, -0.988, 0.000);
 	ChildPosition(0.379, 849.609, -376.259);
@@ -3207,7 +3207,7 @@ Object("cis_capital_pillar23", "CO3_prop_smallpillar", -910801683)
 	Layer(3);
 }
 
-Object("rep_roof_tur_2", "tur_bldg_chaingun_roof", -901388819)
+Object("rep_roof_tur_2", "tur_bldg_chaingun_roof_co3", -901388819)
 {
 	ChildRotation(0.557, 0.000, 0.830, 0.000);
 	ChildPosition(-1383.572, 849.768, 360.610);
@@ -3349,7 +3349,7 @@ Object("cis_fedcruiser_crashing", "cis_fedcruiser_crashing", -733182766)
 	Layer(3);
 }
 
-Object("rep_roof_tur_5", "tur_bldg_chaingun_roof", -709786404)
+Object("rep_roof_tur_5", "tur_bldg_chaingun_roof_co3", -709786404)
 {
 	ChildRotation(1.000, 0.000, -0.010, 0.000);
 	ChildPosition(-1388.774, 850.844, 316.064);
@@ -3419,7 +3419,7 @@ Object("cis_capital_pillar17", "CO3_prop_largepillar", -603207518)
 	Layer(3);
 }
 
-Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod", -578745208)
+Object("rep_tri_tur_13", "tur_bldg_chaingun_tripod_co3", -578745208)
 {
 	ChildRotation(-0.474, 0.000, -0.881, 0.000);
 	ChildPosition(-1530.522, 852.377, 331.065);
@@ -3499,7 +3499,7 @@ Object("cis_cor_2", "Corridor_03", -513065723)
 	Layer(3);
 }
 
-Object("rep_roof_tur_3", "tur_bldg_chaingun_roof", -504813811)
+Object("rep_roof_tur_3", "tur_bldg_chaingun_roof_co3", -504813811)
 {
 	ChildRotation(0.549, 0.000, 0.836, 0.000);
 	ChildPosition(-1379.517, 849.778, 369.493);
@@ -3659,7 +3659,7 @@ Object("rep_door_exp_cube", "Dest_Cube", -382320698)
 	Layer(3);
 }
 
-Object("rep_tri_tur_7", "tur_bldg_chaingun_tripod", -364333926)
+Object("rep_tri_tur_7", "tur_bldg_chaingun_tripod_co3", -364333926)
 {
 	ChildRotation(0.881, 0.000, -0.473, 0.000);
 	ChildPosition(-1523.791, 852.344, 215.434);
@@ -3699,7 +3699,7 @@ Object("rep_cor_24", "Corridor_03", -324511560)
 	Layer(3);
 }
 
-Object("cis_tri_tur_6", "tur_bldg_chaingun_tripod", -323050455)
+Object("cis_tri_tur_6", "tur_bldg_chaingun_tripod_co3", -323050455)
 {
 	ChildRotation(0.360, 0.000, -0.933, 0.000);
 	ChildPosition(45.689, 849.610, -341.635);
@@ -3721,7 +3721,7 @@ Object("rep_ammo_2", "com_item_weaponrecharge", -302791739)
 	Radius("5.0");
 }
 
-Object("rep_tri_tur_9", "tur_bldg_chaingun_tripod", -296134071)
+Object("rep_tri_tur_9", "tur_bldg_chaingun_tripod_co3", -296134071)
 {
 	ChildRotation(0.510, 0.000, -0.860, 0.000);
 	ChildPosition(-1474.842, 852.342, 247.808);
@@ -3889,7 +3889,7 @@ Object("rep_door_2", "cis_fedcruiser_door1", -197557658)
 	Layer(3);
 }
 
-Object("rep_tri_tur_1", "tur_bldg_chaingun_tripod", -193438902)
+Object("rep_tri_tur_1", "tur_bldg_chaingun_tripod_co3", -193438902)
 {
 	ChildRotation(0.810, 0.000, 0.586, 0.000);
 	ChildPosition(-1356.732, 842.650, 311.180);
@@ -4059,7 +4059,7 @@ Object("rep_frigate_container5", "CO3_prop_container", -105643862)
 	Layer(3);
 }
 
-Object("cis_tri_tur_10", "tur_bldg_chaingun_tripod", -105263930)
+Object("cis_tri_tur_10", "tur_bldg_chaingun_tripod_co3", -105263930)
 {
 	ChildRotation(0.627, 0.000, 0.779, 0.000);
 	ChildPosition(7.255, 849.611, -433.215);
@@ -4079,7 +4079,7 @@ Object("rep_Frigate_ext", "rep_Frigate_ext", -87408112)
 	Layer(3);
 }
 
-Object("cis_roof_tur_7", "tur_bldg_chaingun_roof", -45827492)
+Object("cis_roof_tur_7", "tur_bldg_chaingun_roof_co3", -45827492)
 {
 	ChildRotation(0.998, 0.000, 0.068, 0.000);
 	ChildPosition(271.347, 848.103, -457.935);

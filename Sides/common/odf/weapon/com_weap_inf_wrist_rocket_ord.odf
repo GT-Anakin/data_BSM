@@ -4,7 +4,7 @@ ClassLabel      = "missile"
 
 [Properties]
 ImpactEffectWater       = "com_sfx_watersplash_md"
-
+GeometryName 		= "com_weap_missile"
 LightColor              = "252 206 67 150"
 LightRadius             = "4.0"
 

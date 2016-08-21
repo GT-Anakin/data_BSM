@@ -5,6 +5,8 @@ ucft
         "lvl"
         "tur_bldg_chaingun_roof"
         "tur_bldg_chaingun_tripod"
+		"tur_bldg_chaingun_roof_co3"
+        "tur_bldg_chaingun_tripod_co3"
         "tur_bldg_laser"
         "tur_bldg_recoilless_lg"
         "tur_bldg_tower"

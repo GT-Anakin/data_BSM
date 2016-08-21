@@ -1111,19 +1111,15 @@ end
     turretLinkageREPUBLIC:Init()
     
     function turretLinkageREPUBLIC:OnDisableMainframe()
-    --    ShowMessageText("level.spa.hangar.mainframe.atk.down", CIS)
-    --    ShowMessageText("level.spa.hangar.mainframe.def.down", REP)
+        ShowMessageText("level.spa.hangar.mainframe.atk.down", CIS)
+        ShowMessageText("level.spa.hangar.mainframe.def.down", REP)
 
-    --    BroadcastVoiceOver( "ROSMP_obj_21", REP )
-    --    BroadcastVoiceOver( "COSMP_obj_20", CIS )
     end
 	
     function turretLinkageREPUBLIC:OnEnableMainframe()
-    --    ShowMessageText("level.spa.hangar.mainframe.atk.up", CIS)
-    --    ShowMessageText("level.spa.hangar.mainframe.def.up", REP)
-
-    --    BroadcastVoiceOver( "ROSMP_obj_23", REP )
-    --    BroadcastVoiceOver( "COSMP_obj_22", CIS )       
+        ShowMessageText("level.spa.hangar.mainframe.atk.up", CIS)
+        ShowMessageText("level.spa.hangar.mainframe.def.up", REP)
+      
     end
 	
 --Function Auto Turrets CIS
@@ -1257,8 +1253,8 @@ function ScriptInit()
 		"tur_bldg_spa_cis_chaingun",
 		"tur_bldg_spa_cis_cannon",
 		"tur_bldg_spa_cis_beam",
-		"tur_bldg_chaingun_roof",
-        "tur_bldg_chaingun_tripod")
+		"tur_bldg_chaingun_roof_co3",
+        "tur_bldg_chaingun_tripod_co3")
 	
     ReadDataFile("SIDE\\cis.lvl",
                 "cis_inf_rocketeer")
@@ -1268,7 +1264,7 @@ function ScriptInit()
 	SetupTeams{
 		rep = {
 			team = REP,
-			units = 60,
+			units = 50,
 			reinforcements = 800,
 			soldier  = { "republic_inf_rifleman",10, 25},
 			assault  = { "republic_inf_heavytrooper",4, 10},
@@ -1281,7 +1277,7 @@ function ScriptInit()
 		
 		cis = {
 			team = CIS,
-			units = 60,
+			units = 50,
 			reinforcements = 800,
 			soldier  = { "cis_inf_rifleman",10, 25},
 		--	assault  = { "",4, 10},
