@@ -1,5 +1,5 @@
 Version(1);
-NextID(16);
+NextID(1);
 
 Layer("[Base]", 0, 0)
 {

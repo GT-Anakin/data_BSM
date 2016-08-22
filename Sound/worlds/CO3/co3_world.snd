@@ -1145,3 +1145,17 @@ SoundProperties()
         Sample("co3_amb_gas_pipe", 1.0);
     }
 }
+
+SoundProperties()
+{
+    Name("co3_glass_exp"); 
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(8.0);
+	MinDistance(12.0);
+    SampleList()
+    {
+      Sample("co3_glass_exp1", 0.5);
+	  Sample("co3_glass_exp2", 0.5);
+    }
+}

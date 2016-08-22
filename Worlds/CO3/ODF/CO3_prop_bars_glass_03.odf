@@ -1,0 +1,21 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_bars_glass_03.msh"
+
+[Properties]	
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_bars_glass_03"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1"
+
+RespawnTime		= "120.0"
+
+FoleyFXGroup    = "metal_foley"
+
+ExplosionName		= "CO3_prop_bars_glass_exp"
+
+AINoRepair      = "1"
+HideHealthBar = "1"

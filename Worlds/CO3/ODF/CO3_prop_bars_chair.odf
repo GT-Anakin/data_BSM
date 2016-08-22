@@ -1,0 +1,11 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_bars_chair.msh"
+
+[Properties]	
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_bars_chair"
+
+FoleyFXGroup    = "metal_foley"
+

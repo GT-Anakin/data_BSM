@@ -1,0 +1,25 @@
+[ExplosionClass]
+ClassLabel = "explosion"
+
+[Properties]
+LifeSpan = "0.1"
+Damage = "0.0"
+DamageRadius = "0.0"
+ShakeLength   = "0.0"
+Shake = "0.0"
+ShakeRadius = "0.0"
+
+Push                = "0.0"
+PushRadiusInner     = "0.0"
+PushRadiusOuter     = "0.0"
+
+
+Effect			= ""
+
+ArmorScale  =    "0.0"
+HealthScale =   "0.0"
+ShieldScale =   "0.0"
+DroidScale  = "0.0"
+BuildingScale = "0.0"
+
+SoundProperty       = "co3_glass_exp"
