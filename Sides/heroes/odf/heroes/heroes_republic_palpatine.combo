@@ -595,7 +595,7 @@ State("DASHATTACK")
 
     InputLock("All", "!Thrust");
 
-    Duration(22, "Frames");
+    Duration(45, "Frames");
     AnimatedMove()
     {
         VelocityZ(15.0);
@@ -607,111 +607,16 @@ State("DASHATTACK")
 
     Attack()
     {
-        DamageTime(2, 9, "Frames");
+        DamageTime(4, 40, "Frames");
         DamageLength(1.5);
-        DamageWidth(0.75);
-        Damage(400);
-    Push(3.0);
-    }
-    Attack()
-    {
-        DamageTime(12, 16, "Frames");
-        DamageLength(1.5);
-        DamageWidth(0.75);
+        DamageWidth(1.75);
         Damage(400);
         Push(3.0);
     }
 
-    Transition("DASHATTACK2")
-    {
-        If()
-        {
-	    Break(21, "Frames");
-            TimeStart(17, "Frames");
-            TimeEnd(22, "Frames");
-            Posture("Stand", "Sprint");
-            Button("Fire", "Press");
-        }
-    }
-
     Transition("IDLE");
 }
 
-State("DASHATTACK2")
-{
-    Posture("Stand");
-    Animation("stand_dashattack");
-    Sound("saber_swing", 34, "Frames");
-
-    Duration(38, "Frames");
-
-    AnimatedMove()
-    {
-        VelocityZ(10.0);
-        VelocityX(0.0);
-        VelocityFromThrust(5.0);
-        VelocityFromStrafe(3.0);
-        If()
-        {
-            Break(38, "Frames");
-        }
-    }
-    TurnFactor(0.3);
-
-    InputLock("All", "!Thrust");
-
-    Attack()
-    {
-	AttackID("Dash2");
-        DamageTime(35, 43, "Frames");
-        DamageLength(1.5);
-        DamageWidth(0.75);
-        Damage(600);
-        Push(5.0);
-    }
-
-    Transition("DASHATTACK3");
-}
-
-State("DASHATTACK")
-{
-    Posture("Stand");
-    Animation("stand_dashattack")
-    {
-        AimType("FullBody");
-        BlendInTime(0.10);
-        BlendOutTime(0.25);
-    }
-    Sound("saber_triple");
-
-	Deflect()
-    {
-	DeflectAngle(-140, 140);    // deflect anything from forward arc
-	EnergyCost(0.0);
-    }
-  
-    Duration(45, "Frames");
-    AnimatedMove()
-    {
-        VelocityZ(14.0);
-        VelocityX(0.0);
-        VelocityFromThrust(2.0);
-        VelocityFromStrafe(5.0);
-    }
-    TurnFactor(0.2);
-
-    InputLock("All", "!Thrust");
-    Attack()
-    {
-	AttacKID("dashattack");
-        DamageTime(2, 50, "Frames");
-        DamageLength(1.5);
-        DamageWidth(.75);
-        Damage(800);
-	Push(7.0);
-    }
-    Transition("IDLE");
-}
 
 // forward declare jumpattack_land, since jumpattack_fall refers to it:
 Animation("jumpattack_land");

@@ -278,36 +278,36 @@ State("DASHATTACK")
         BlendInTime(0.10);
         BlendOutTime(0.25);
     }
-    Sound("saber_triple");
 
-	Deflect()
-    {
-	DeflectAngle(-140, 140);    // deflect anything from forward arc
-	EnergyCost(0.0);
-    }
-  
+    Sound("saber_attack_three");
+
+    InputLock("All", "!Thrust");
+
     Duration(45, "Frames");
     AnimatedMove()
     {
-        VelocityZ(14.0);
+        VelocityZ(15.0);
         VelocityX(0.0);
-        VelocityFromThrust(2.0);
-        VelocityFromStrafe(5.0);
+        VelocityFromThrust(5.0);
+        VelocityFromStrafe(1.0);
     }
-    TurnFactor(0.2);
+    TurnFactor(0.3);
 
-    InputLock("All", "!Thrust");
     Attack()
     {
-	AttacKID("dashattack");
-        DamageTime(2, 50, "Frames");
+        DamageTime(4, 40, "Frames");
         DamageLength(1.5);
-        DamageWidth(.75);
-        Damage(800);
-	Push(7.0);
+        DamageWidth(1.75);
+        Damage(400);
+        Push(3.0);
     }
+
     Transition("IDLE");
 }
+
+
+// forward declare jumpattack_land, since jumpattack_fall refers to it:
+Animation("jumpattack_land");
 
 
 State("BACK_ATTACK")

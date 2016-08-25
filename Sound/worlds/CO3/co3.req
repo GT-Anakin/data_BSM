@@ -10,6 +10,12 @@ ucft
 		"str"
 		"align=2048"
 		"co3_stm"
+		"cw_hero_vo_slow"
+	}
+	REQN
+	{
+		"config"
+		"cw_hero_vo"
 	}
 	REQN
 	{
@@ -18,4 +24,5 @@ ucft
 		"co3cwmap"
 		"co3cwspace"
 	}
+
  }

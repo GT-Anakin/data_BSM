@@ -596,7 +596,7 @@ State("DASHATTACK")
     Duration(22, "Frames");
     AnimatedMove()
     {
-        VelocityZ(15.0);
+        VelocityZ(25.0);
         VelocityX(0.0);
         VelocityFromThrust(5.0);
         VelocityFromStrafe(1.0);

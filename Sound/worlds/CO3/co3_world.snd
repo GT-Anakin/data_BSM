@@ -1014,20 +1014,6 @@ SoundProperties()
 
 SoundStream()
 {
-    Name("co3_amb_exterior");
-    Group("ambientenv");
-    Inherit("ambientfx_template");
-    Stream("co3_stm");
-    Gain(1.0);
-    Looping(1);
-    SegmentList()
-    {
-        Segment("co3_amb_exterior", 1.0);
-    }
-}
-
-SoundStream()
-{
     Name("co3_amb_bar");
     Group("ambientenv");
     Inherit("ambientfx_template");
@@ -1047,7 +1033,7 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    Gain(0.6);
+    Gain(0.8);
     Looping(1);
     SegmentList()
     {
@@ -1061,7 +1047,7 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    Gain(0.4);
+    Gain(1.0);
     Looping(1);
     SegmentList()
     {
@@ -1075,7 +1061,7 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    Gain(0.9);
+    Gain(0.8);
     Looping(1);
     SegmentList()
     {
@@ -1089,7 +1075,7 @@ SoundStream()
     Group("ambientenv");
     Inherit("ambientfx_template");
     Stream("co3_stm");
-    Gain(2.0);
+    Gain(1.5);
     Looping(1);
     SegmentList()
     {
@@ -1152,7 +1138,8 @@ SoundProperties()
     Group("Explosion");
     Inherit("explosion_template");
     MinDistance(8.0);
-	MinDistance(12.0);
+	MaxDistance(12.0);
+	MuteDistance(12.0);
     SampleList()
     {
       Sample("co3_glass_exp1", 0.5);

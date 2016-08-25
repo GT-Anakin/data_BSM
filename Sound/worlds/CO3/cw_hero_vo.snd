@@ -1,0 +1,55 @@
+
+// MASTER FERRODA ///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_ferroda_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("ferroda_spawn1", 200.0, 10.0, 3.0); //  So be it!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ferroda_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("ferroda_target1", 200.0, 10.0, 3.0); //  Take them down! Hurry!
+		Segment("ferroda_target2", 200.0, 10.0, 3.0); //  Hurry! There isn't much time!
+		Segment("ferroda_target3", 200.0, 10.0, 3.0); //  Stay focused!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ferroda_KillingSpree3");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("ferroda_spree1", 200.0, 10.0, 3.0); //  This looks like a victory for the Republic!
+        Segment("ferroda_spree2", 200.0, 10.0, 3.0); //  GET BACK!
+		Segment("ferroda_spree3", 200.0, 10.0, 3.0); //  Stand back!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_ferroda_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("ferroda_exhausted1", 200.0, 10.0, 3.0); //  The Jedi are not your enemy!
+    }
+}
+

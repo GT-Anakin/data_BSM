@@ -95,7 +95,7 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::Deflect",140)     -- should be ~1x #combo       -- should be ~1x #combo
 	
     ReadDataFile("dc:Sound\\co3.lvl;co3cwmap")
-	ReadDataFile("sound\\tat.lvl;tat2gcw")
+        ReadDataFile("sound\\pol.lvl;pol1cw")
 		
 		--The following TWO .lvl files *have to* be read FIRST in order to load additional, soldier weapons; or the game would crash while loading!!!
 		
@@ -229,37 +229,32 @@ function ScriptInit()
     ScriptCB_EnableHeroMusic(0)
     ScriptCB_EnableHeroVO(0)
 	
-	voiceSlow = OpenAudioStream("sound\\global.lvl", "all_unit_vo_slow")
-    AudioStreamAppendSegments("sound\\global.lvl", "imp_unit_vo_slow", voiceSlow)
+	voiceSlow = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_slow")
+    AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_slow", voiceSlow)
     AudioStreamAppendSegments("sound\\global.lvl", "global_vo_slow", voiceSlow)
     
-    voiceQuick = OpenAudioStream("sound\\global.lvl",  "all_unit_vo_quick")
-    AudioStreamAppendSegments("sound\\global.lvl",  "imp_unit_vo_quick", voiceQuick)    
+    voiceQuick = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_quick")
+    AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)   
     
-    
+	OpenAudioStream("dc:sound\\co3.lvl", "cw_hero_vo_slow")
+	
     OpenAudioStream("sound\\global.lvl",  "gcw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 
 
 
-    SetAmbientMusic(REP, 1.0, "gen_amb_celebDeathmatch",  0,1)
-    -- SetAmbientMusic(ALL, 0.9, "all_tat_amb_middle", 1,1)
-    -- SetAmbientMusic(ALL, 0.1, "all_tat_amb_end",    2,1)
-    SetAmbientMusic(CIS, 1.0, "gen_amb_celebDeathmatch",  0,1)
-    -- SetAmbientMusic(IMP, 0.9, "imp_tat_amb_middle", 1,1)
-    -- SetAmbientMusic(IMP, 0.1, "imp_tat_amb_end",    2,1)
+    SetAmbientMusic(REP, 1.0, "rep_pol_amb_start",  0,1)
+    SetAmbientMusic(REP, 0.8, "rep_pol_amb_middle", 1,1)
+    SetAmbientMusic(REP, 0.2,"rep_pol_amb_end",    2,1)
+    SetAmbientMusic(CIS, 1.0, "cis_pol_amb_start",  0,1)
+    SetAmbientMusic(CIS, 0.8, "cis_pol_amb_middle", 1,1)
+    SetAmbientMusic(CIS, 0.2,"cis_pol_amb_end",    2,1)
 
-    SetVictoryMusic(REP, "all_tat_amb_victory")
-    SetDefeatMusic (REP, "all_tat_amb_defeat")
-    SetVictoryMusic(CIS, "imp_tat_amb_victory")
-    SetDefeatMusic (CIS, "imp_tat_amb_defeat")
+    SetVictoryMusic(REP, "rep_pol_amb_victory")
+    SetDefeatMusic (REP, "rep_pol_amb_defeat")
+    SetVictoryMusic(CIS, "cis_pol_amb_victory")
+    SetDefeatMusic (CIS, "cis_pol_amb_defeat")
 
     SetSoundEffect("ScopeDisplayZoomIn",  "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut", "binocularzoomout")

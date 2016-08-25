@@ -1,0 +1,7 @@
+[GameObjectClass]
+ClassLabel              = "prop"
+GeometryName            = "tur_bldg_chaingun_roof_co3.msh"
+
+[Properties]
+
+GeometryName            = "tur_bldg_chaingun_roof_co3"

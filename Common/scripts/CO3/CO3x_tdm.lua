@@ -210,13 +210,9 @@ function ScriptInit()
     voiceQuick = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_quick")
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)
     
+	OpenAudioStream("dc:sound\\co3.lvl", "cw_hero_vo_slow")
+		
     OpenAudioStream("sound\\global.lvl",  "cw_music")
-    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 

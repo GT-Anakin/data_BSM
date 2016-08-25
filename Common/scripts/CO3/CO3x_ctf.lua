@@ -241,24 +241,24 @@ function ScriptInit()
     
     SetSoundEffect("ScopeDisplayZoomIn",  "binocularzoomin")
     SetSoundEffect("ScopeDisplayZoomOut", "binocularzoomout")
+	
 
+	
     voiceSlow = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_slow")
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_slow", voiceSlow)
     AudioStreamAppendSegments("sound\\global.lvl", "global_vo_slow", voiceSlow)
-    
+	
+
+		
     voiceQuick = OpenAudioStream("sound\\global.lvl", "rep_unit_vo_quick")
     AudioStreamAppendSegments("sound\\global.lvl", "cis_unit_vo_quick", voiceQuick)
-    
+	
+    OpenAudioStream("dc:sound\\co3.lvl", "cw_hero_vo_slow")
+
     OpenAudioStream("sound\\global.lvl",  "cw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-
+	
     SetBleedingVoiceOver(REP, REP, "rep_off_com_report_us_overwhelmed", 1)
     SetBleedingVoiceOver(REP, CIS, "rep_off_com_report_enemy_losing",   1)
     SetBleedingVoiceOver(CIS, REP, "cis_off_com_report_enemy_losing",   1)

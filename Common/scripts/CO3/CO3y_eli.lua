@@ -230,18 +230,14 @@ function ScriptInit()
     AudioStreamAppendSegments("sound\\global.lvl", "global_vo_slow", voiceSlow)
     
     voiceQuick = OpenAudioStream("sound\\global.lvl",  "all_unit_vo_quick")
-    AudioStreamAppendSegments("sound\\global.lvl",  "imp_unit_vo_quick", voiceQuick)   
+    AudioStreamAppendSegments("sound\\global.lvl",  "imp_unit_vo_quick", voiceQuick)
+
+    --OpenAudioStream("dc:sound\\co3.lvl", "cw_hero_vo_slow")	
     
+		
     OpenAudioStream("sound\\global.lvl",  "gcw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-    OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
-
 
 
     SetAmbientMusic(ALL, 1.0, "gen_amb_celebDeathmatch",  0,1)
