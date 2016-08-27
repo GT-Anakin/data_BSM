@@ -6,10 +6,12 @@ SoundStreamProperties()
     Name("hero_ferroda_spawn");
     Group("hero_vo");
     Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
     Stream("cw_hero_vo_slow");
     SegmentList()
     {
-        Segment("ferroda_spawn1", 200.0, 10.0, 3.0); //  So be it!
+        Segment("ferroda_spawn1", 1.0); //  So be it!
     }
 }
 
@@ -18,26 +20,30 @@ SoundStreamProperties()
     Name("hero_ferroda_AcquiredTarget");
     Group("hero_vo");
     Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
     Stream("cw_hero_vo_slow");
     SegmentList()
     {
-        Segment("ferroda_target1", 200.0, 10.0, 3.0); //  Take them down! Hurry!
-		Segment("ferroda_target2", 200.0, 10.0, 3.0); //  Hurry! There isn't much time!
-		Segment("ferroda_target3", 200.0, 10.0, 3.0); //  Stay focused!
+        Segment("ferroda_target1", 1.0); //  Take them down! Hurry!
+		Segment("ferroda_target2", 1.0); //  Hurry! There isn't much time!
+		Segment("ferroda_target3", 1.0); //  Stay focused!
     }
 }
 
 SoundStreamProperties()
 {
-    Name("hero_ferroda_KillingSpree3");
+    Name("hero_ferroda_KillingSpree4");
     Group("hero_vo");
     Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
     Stream("cw_hero_vo_slow");
     SegmentList()
     {
-        Segment("ferroda_spree1", 200.0, 10.0, 3.0); //  This looks like a victory for the Republic!
-        Segment("ferroda_spree2", 200.0, 10.0, 3.0); //  GET BACK!
-		Segment("ferroda_spree3", 200.0, 10.0, 3.0); //  Stand back!
+        Segment("ferroda_spree1", 1.0); //  This looks like a victory for the Republic!
+        Segment("ferroda_spree2", 1.0); //  GET BACK!
+		Segment("ferroda_spree3", 1.0); //  Stand back!
     }
 }
 
@@ -46,10 +52,74 @@ SoundStreamProperties()
     Name("hero_ferroda_exhausted");
     Group("hero_vo");
     Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
     Stream("cw_hero_vo_slow");
     SegmentList()
     {
-        Segment("ferroda_exhausted1", 200.0, 10.0, 3.0); //  The Jedi are not your enemy!
+        Segment("ferroda_exhausted1", 1.0); //  The Jedi are not your enemy!
+    }
+}
+
+
+// 	ASAJJ VENTRESS ///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_asajj_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("asajj_spawn1", 1.0); //  Yes, my Lord!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_asajj_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("asajj_target1", 1.0); //  Come and get me boys!
+		Segment("asajj_target2", 1.0); //  You can't run!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_asajj_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("asajj_spree1", 1.0); //  Now you die!
+        Segment("asajj_spree2", 1.0); //  How predictable!
+		Segment("asajj_spree3", 1.0); //  You served your purpose!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_asajj_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("asajj_exhausted1", 1.0); //  The fight isn't over yet!
     }
 }
 

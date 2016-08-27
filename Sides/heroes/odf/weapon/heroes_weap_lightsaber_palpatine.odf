@@ -4,7 +4,7 @@ ClassLabel      = "melee"
 ClassParent		= "com_weap_inf_lightsaber"
 
 [Properties]
-GeometryName        = "heroes_weap_lightsaber_vader"
+GeometryName        = "heroes_weap_lightsaber_sidious"
 ComboAnimationBank	= "human_sabre melee heroes_republic_palpatine"
 
 FirePointName       = "hp_fire"

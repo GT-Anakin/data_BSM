@@ -5,7 +5,7 @@ ClassParent     = "com_weap_inf_lightsaber"
 
 [Properties]
 
-GeometryName        = "heroes_weap_lightsaber_vader"
+GeometryName        = "heroes_weap_lightsaber_asajj"
 ComboAnimationBank  = "human_sabre melee heroes_cis_asajj"
 
 NumDamageEdges = "2"
@@ -16,7 +16,7 @@ LightSaberWidth		= "0.065"
 LightSaberTexture 	= "redlightsabre"
 LightSaberTrailColor = "255 7 10 128"
 
-OffhandGeometryName        = "heroes_weap_lightsaber_vader"
+OffhandGeometryName        = "heroes_weap_lightsaber_asajj"
 OffhandFirePointName       = "hp_fire hp_fire_lightsabre"
 LightSaberLength	= "1.13"
 LightSaberWidth		= "0.065"

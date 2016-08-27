@@ -58,7 +58,7 @@ VOSound = "rep_off_response_hero_command     SC_GetIn"
 VOSound = "rep_off_response_hero_command      SC_GetOut"
 
 VOSound = "hero_ferroda_AcquiredTarget      AcquiredTarget"
-VOSound = "hero_ferroda_KillingSpree3      KillingSpree3"
+VOSound = "hero_ferroda_KillingSpree4      KillingSpree4"
 
 //SoldierMusic            = "rep_hero_Ferroda_lp"
 HurtSound                   = ""

@@ -85,8 +85,8 @@ SoundProperties()
     Group("weapons");
     Inherit("veh_weapon_template");
     Gain(1.0);
-    MinDistance(25.0);
-    MaxDistance(45.0);
+    MinDistance(65.0);
+    MaxDistance(75.0);
     SampleList()
     {
         Sample("turret_aa_weap_fire", 1.0);
@@ -99,8 +99,8 @@ SoundProperties()
     Group("weapons");
     Inherit("veh_weapon_template");
     Gain(1.0);
-    MinDistance(20.0);
-    MaxDistance(40.0);
+    MinDistance(50.0);
+    MaxDistance(60.0);
     SampleList()
     {
         Sample("turret_gun_weap_fire", 1.0);

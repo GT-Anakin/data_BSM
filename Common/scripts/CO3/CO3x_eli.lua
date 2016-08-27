@@ -238,7 +238,7 @@ function ScriptInit()
     
 	OpenAudioStream("dc:sound\\co3.lvl", "cw_hero_vo_slow")
 	
-    OpenAudioStream("sound\\global.lvl",  "gcw_music")
+    OpenAudioStream("sound\\global.lvl",  "cw_music")
     OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 	OpenAudioStream("dc:Sound\\co3.lvl",  "co3_stm")
 

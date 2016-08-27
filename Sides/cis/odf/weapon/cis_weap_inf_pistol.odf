@@ -1,11 +1,12 @@
 [WeaponClass]
 ClassParent         = "com_weap_inf_pistol"
-GeometryName        = "rep_weap_inf_rifle.msh"
+GeometryName        = "cis_weap_hq_inf_se14.msh"
 
 [Properties]
-GeometryName        = "rep_weap_inf_rifle"
-HighResGeometry		= "rep_1st_weap_inf_rifle"
-OrdnanceName        = "rep_weap_inf_pistol_ord"
+GeometryName        = "cis_weap_hq_inf_se14"
+HighResGeometry		= "cis_weap_hq_inf_se14"
+OrdnanceName        = "cis_weap_inf_pistol_ord"
+FirePointName       = "hp_fire"
 
 
 //******************************************************
@@ -13,10 +14,10 @@ OrdnanceName        = "rep_weap_inf_pistol_ord"
 //******************************************************
 
 
-FireSound           = "cis_weap_inf_pistol_fire"
-FireEmptySound      = "com_weap_inf_ammo_empty"
+FireSound           = "cis_weap_se14_fire"
+FireEmptySound      = "com_weap_pistol_empty"
 FireLoopSound       = ""
-ReloadSound         = ""
+ReloadSound         = "cis_weap_se14_reload"
 ChargeSound         = ""
 OverheatSound       = "com_weap_energy_depleted"
 OverheatSoundPitch  = "0.5"

@@ -18,7 +18,7 @@ ShakeRadiusInner  = "2.5"
 ShakeRadiusOuter  = "6.0"
 
 VehicleScale 		= "2.0"
-ShieldScale 		= "3.5"
+ShieldScale 		= "1.25"
 PersonScale 		= "0.2"
 DroidScale 	= "0.8"
 AnimalScale	= "1.5"

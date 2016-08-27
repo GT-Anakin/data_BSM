@@ -5,4 +5,14 @@ ucft
 		"class"
 		"cis_inf_sbd"
 	}
+	REQN
+    {
+      "zafbin"
+      "sbdroidfp"
+    }
+    REQN
+    {
+      "zaabin"
+      "sbdroidfp"
+    }
 }

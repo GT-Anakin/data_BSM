@@ -45,25 +45,37 @@ WeaponName3           = "com_weap_inf_force_choke"
 WeaponAmmo3           = 0
 WeaponChannel3        = 1 
 
-///SOUND
+//SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_asajj_spawn"
+SndHeroDefeated             = "hero_asajj_exhausted"
+SndHeroKiller               = "hero_asajj_exhausted"
 
-VOUnitType              = 189
-SoldierMusic            = ""
+VOSound = "cis_off_response_hero_command      SC_Follow"
+VOSound = "cis_off_response_hero_command      SC_StopFollow"
+VOSound = "cis_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "cis_off_response_hero_command     SC_GetIn"
+VOSound = "cis_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_asajj_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_asajj_KillingSpree4      KillingSpree4"
+
+//SoldierMusic                = "cis_hero_Asajj_lp"
 HurtSound                   = ""
 DeathSound                  = ""
 AcquiredTargetSound         = ""
 HidingSound                 = ""
-//ApproachingTargetSound    = ""
-FleeSound               = ""
-PreparingForDamageSound = ""
-HeardEnemySound         = ""
-ShockFadeOutTime        = ""
-ShockFadeInTime         = ""
+ApproachingTargetSound      = ""
+FleeSound                   = ""
+PreparingForDamageSound     = ""
+HeardEnemySound             = ""
+//ShockFadeOutTime          = "0.8"
+//ShockFadeInTime           = "2.0"
 ShockFadeOutGain        = ""
 ShockSound              = ""
 ClothingRustleSound     = ""
-//LowHealthSound          = "com_inf_saber_ambient"
-LowHealthThreshold      = "1.1"
+LowHealthSound          = ""
+LowHealthThreshold      = "0.0"
 FoleyFXClass            = "cis_inf_soldier"
 
 

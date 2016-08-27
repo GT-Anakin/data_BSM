@@ -159,6 +159,18 @@ SoundProperties()
 
 //CIS Weapons/////////////////////////////////////////////////////////////////////////
 
+SoundProperties()
+{
+    Name("cis_weap_westar34_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_westar34_fire", 1.0);
+    }
+}
 
 SoundProperties()
 {
@@ -183,6 +195,32 @@ SoundProperties()
     SampleList()
     {
         Sample("cis_weap_e5_reload", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_se14_fire");
+    Group("weapons");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("cis_weap_se14_fire", 1.0);
+    }
+}
+
+SoundProperties()
+{
+    Name("cis_weap_se14_reload");
+    Group("weapons_foley");
+    Gain(1.0);
+    Pitch(1.0);
+    Inherit("body_movement_template");
+    SampleList()
+    {
+        Sample("cis_weap_se14_reload", 1.0);
     }
 }
 

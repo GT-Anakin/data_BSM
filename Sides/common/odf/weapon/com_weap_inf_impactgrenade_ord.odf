@@ -13,11 +13,11 @@ ImpactEffectWater   = "com_sfx_watersplash_sm"
 ImpactEffect        = "com_sfx_explosion_lg"
 TrailEffect         = ""
 
-LifeSpan            = "0.6"
+LifeSpan		= "0.1"
 Velocity            = "28.0"
 Gravity             = "1.5"
-Rebound             = "0.2"
-Friction            = "2.0"
+Rebound             = "0.35"
+Friction            = "1.0"
 
 StickPerson         = 1
 StickAnimal         = 1

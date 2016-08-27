@@ -166,7 +166,7 @@ TrackCenter = "0.0 1.0 -2.0"
 TrackOffset = "0.0 0.0 3.0"
 TiltValue = "10"
 
-
+ForceMode				=	1
 
 TurretYawSound = "turret_whir_yaw_lp"
 TurretYawSoundPitch = "0.7"

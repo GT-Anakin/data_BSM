@@ -19,8 +19,11 @@ effects\rep_weap_fusioncutter_repair.wav
 effects\rep_weap_barrel.wav 
 effects\rep_weap_grenadelauncher_fire.wav 
 effects\rep_weap_grenadelauncher_reload.wav 
+effects\cis_weap_westar34_fire.wav
 effects\cis_weap_e5_fire.wav
 effects\cis_weap_e5_reload.wav
+effects\cis_weap_se14_fire.wav
+effects\cis_weap_se14_reload.wav
 effects\cis_weap_e5s_fire.wav
 effects\cis_weap_e5s_reload.wav
 effects\cis_weap_shotgun_fire.wav

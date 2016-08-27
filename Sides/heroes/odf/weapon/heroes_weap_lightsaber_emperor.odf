@@ -5,7 +5,7 @@ ClassParent		= "com_weap_inf_lightsaber"
 
 [Properties]
 ExplosionName = "heroes_weap_lightsaber_emperor_exp"
-GeometryName        = "heroes_weap_lightsaber_vader"
+GeometryName        = "heroes_weap_lightsaber_sidous"
 ComboAnimationBank	= "human_sabre melee heroes_empire_emperor"
 
 FirePointName       = "hp_fire"

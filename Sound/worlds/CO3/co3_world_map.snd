@@ -123,8 +123,8 @@ SoundProperties()
     Name("co3_glass_exp"); 
     Group("Explosion");
     Inherit("explosion_template");
-    MinDistance(8.0);
-	MaxDistance(12.0);
+    MinDistance(18.0);
+	MaxDistance(20.0);
     SampleList()
     {
       Sample("co3_glass_exp1", 0.5);
