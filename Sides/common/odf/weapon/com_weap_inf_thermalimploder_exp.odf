@@ -29,5 +29,5 @@ DroidScale          = "1.0"
 BuildingScale       = "1.0"
 AnimalScale         = "1.0"
 
-SoundProperty       = "com_weap_thermaldetonator_exp"
+SoundProperty       = "com_weap_thermalimploder_exp"
 //WaterExplosion       = "com_weap_obj_med_water_exp"

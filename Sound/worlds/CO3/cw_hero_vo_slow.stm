@@ -7,6 +7,7 @@ streams\hero_vo\ferroda_spree1.wav
 streams\hero_vo\ferroda_spree2.wav
 streams\hero_vo\ferroda_spree3.wav
 streams\hero_vo\ferroda_exhausted1.wav
+
 //ASAJJ
 streams\hero_vo\asajj_spawn1.wav
 streams\hero_vo\asajj_target1.wav
@@ -15,3 +16,13 @@ streams\hero_vo\asajj_spree1.wav
 streams\hero_vo\asajj_spree2.wav
 streams\hero_vo\asajj_spree3.wav
 streams\hero_vo\asajj_exhausted1.wav
+
+//Padme
+streams\hero_vo\padme_spawn1.wav
+streams\hero_vo\padme_target1.wav
+streams\hero_vo\padme_target2.wav
+streams\hero_vo\padme_target3.wav
+streams\hero_vo\padme_spree1.wav
+streams\hero_vo\padme_spree2.wav
+streams\hero_vo\padme_spree3.wav
+streams\hero_vo\padme_exhausted1.wav

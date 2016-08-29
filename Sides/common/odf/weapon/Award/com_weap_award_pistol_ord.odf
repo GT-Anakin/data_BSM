@@ -1,0 +1,31 @@
+[OrdnanceClass]
+ClassLabel          = "bullet"
+
+[Properties]
+ImpactEffect 		= "com_sfx_ord_exp"
+ImpactEffectSoft    	= "com_sfx_ord_exp"
+ImpactEffectRigid   	= "com_sfx_ord_exp"
+ImpactEffectStatic  	= "com_sfx_ord_exp"
+ImpactEffectTerrain 	= "com_sfx_ord_exp"
+ImpactEffectWater   	= "com_sfx_watersplash_ord"
+ImpactEffectShield  	= "com_sfx_ord_exp"
+ExpireEffect        	= "com_sfx_ord_exp"
+
+LifeSpan 		= ".05"
+Velocity 		= "20000"
+Gravity 		= "0.1"
+Rebound 		= "0"
+
+MaxDamage 		= "150"
+
+VehicleScale 		= "0.1"
+ShieldScale 		= "1"
+PersonScale 		= "1"
+HealthScale 		= "1"
+BuildingScale 		= "0.1"
+
+OrdnanceSound       = "com_weap_inf_ord_hum_sm"
+CollisionSound      = "imp_weap_ord_exp"
+
+BonusAmplification  = "0.5"				//how much more damage will be done when team_bonus_blaster_amplication is on
+BonusColor          = "240 0 0 255"			//what color will be applied when the team_bonus_blaster_amplification is on

@@ -1,0 +1,17 @@
+[WeaponClass]
+//ClassLabel      = "remote"
+ClassParent				= "com_weap_veh_guided_rocket"
+
+
+[Properties]
+FirePointExtraOffset = "-0.7 1.0 2.0"
+
+OffhandWeapon = 0
+
+HideOnFire = 0
+HideOnEmpty = 0
+
+MedalsTypeToUnlock  = 2
+ScoreForMedalsType = 2
+
+AnimationBank   = "bazooka"

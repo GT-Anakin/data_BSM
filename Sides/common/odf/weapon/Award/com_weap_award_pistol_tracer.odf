@@ -1,0 +1,44 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+
+LaserTexture        = "com_sfx_laser_purple"
+LaserGlowColor      = "224 128 224 100"
+LightColor          = "224 128 224 150"
+LightRadius         = "4.0"
+
+LaserLength         = "20.0"
+LaserWidth          = "0.02"
+GlowLength          = "24"
+BlurLength          = "32"
+FadeOutTime         = ".25"
+
+ImpactEffectSoft    = "com_sfx_ord_exp"
+ImpactEffectRigid   = "com_sfx_ord_exp"
+ImpactEffectStatic  = "com_sfx_ord_exp"
+ImpactEffectTerrain = "com_sfx_ord_exp"
+ImpactEffectWater   = "com_sfx_watersplash_ord"
+ImpactEffectShield  = "com_sfx_ord_exp"
+ExpireEffect        = "com_sfx_ord_exp"
+
+LifeSpan            = "0.05"
+MaxDamage           = "0.0"
+Velocity            = "2000.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+VehicleScale        = "0.0"
+ShieldScale         = "1.0"
+PersonScale         = "1.0"
+DroidScale          = "1.0"
+BuildingScale       = "0.1"
+
+DamageTransitionDelay   = "0.0"     //How long in seconds before the damage change begins.
+DamageTransitionPeriod  = "0.0"     //How long in seconds the damage change lasts.
+DamageFinalDamage       = "-1.0"    //What the damage would be at the end of the transition period.  A negative value means that no change is applied.
+FadeLightColor          = "0"       //Whether or not the color on the light should be faded along with the damage.
+EndLaserGlowColor       = "0 0 0 0" //What color the laser glow will be by the end of the transition. Varies over DamageTransitionPeriod. (only for lasers.)
+EndLightColor           = "0 0 0 0" //What color light will be applied by the end of the transition.  Varies over DamageTransitionPeriod.
+
+//OrdnanceSound       = "com_weap_inf_ord_hum_sm"

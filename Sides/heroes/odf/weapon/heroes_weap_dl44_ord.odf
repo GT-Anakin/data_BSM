@@ -3,8 +3,8 @@ ClassParent 		= "com_weap_inf_pistol_ord"
 
 [Properties]
 LaserTexture		= "com_sfx_laser_red"
-LaserGlowColor      	= "255 0 0 100"
-LightColor          	= "255 0 0 150"
+LaserGlowColor		= "254 6 18 100"
+LightColor			= "254 6 18 200"
 
 LifeSpan            = "0.8"
 Velocity            = "400.0"

@@ -1,0 +1,92 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+
+[Properties]
+ChargeUpEffect          = "com_sfx_chargeup"
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "100 255 100 255"
+FlashLength             = 0.025
+FlashLightColor         = "192 255 192 175"
+FlashLightRadius        = "2.0"
+FlashLightDuration      = "0.25"
+Discharge           = "small_smoke_effect"
+
+RoundsPerClip           = "35"
+ReloadTime          = "1.75"
+//HeatRecoverRate       = "0.15"
+//HeatThreshold         = "0.3"
+
+ReticuleInAimingOnly = 0
+SniperScope         = 1
+ZoomFirstPerson     = 1
+ZoomMin             = "2.0"
+ZoomMax             = "5.0"
+ZoomRate            = "0.0"
+
+AnimationBank           = "rifle"
+
+ScopeTexture        = "weapon_scope2"
+
+ShotDelay           = "1.0"
+TriggerSingle           = "1"
+//HeatPerShot           = "0.15"
+MaxPressedTime          = "1.25"
+
+YawSpread           = "0.0"
+PitchSpread         = "0.0"
+
+//KickSpread          = "0.25"
+SpreadRecover           = "5.0"
+
+SpreadPerShot           = "1.1"//1.2
+SpreadRecoverRate       = "4.8"//0.08
+SpreadThreshold         = "1.6"//0.03
+SpreadLimit         = "6.0"
+
+StandStillSpread        = "0.0"//0.4
+StandMoveSpread         = "0.0"//0.9
+CrouchStillSpread       = "0.0"//0.1
+CrouchMoveSpread        = "0.0"//0.6
+ProneStillSpread        = "0.0"
+ProneMoveSpread         = "0.0"
+
+//KickStrength            = "0.25"
+//KickBuildup         = "100.0"
+
+MinRange            = "0"
+OptimalRange            = "24"
+MaxRange            = "48"
+
+LockOnRange             = "64.0"
+LockTime            = "0.0"
+AutoAimSize         = "1.0"
+LockOnAngle             = "3.0"
+
+SalvoCount              = "1"
+ShotsPerSalvo           = "1"
+SalvoDelay              = "0.0"
+InitialSalvoDelay       = "0.0"
+SalvoTime               = "0.0"
+
+TargetEnemy             = "1"
+TargetNeutral           = "0"
+TargetFriendly          = "0"
+
+TargetPerson            = "1"
+TargetAnimal            = "1"
+TargetDroid             = "1"
+TargetVehicle           = "0"
+TargetBuilding          = "0"
+
+ChargeRateLight         = "1.0"
+MaxChargeStrengthLight  = "1.0"
+ChargeDelayLight        = "0.15"
+ChargeRateHeavy         = "1.0"
+MaxChargeStrengthHeavy  = "0.5"
+ChargeDelayHeavy        = "2.0"
+
+RecoilLengthLight       = "0.1"
+RecoilLengthHeavy       = "0.1"
+RecoilStrengthLight     = "1"
+RecoilStrengthHeavy     = "0"

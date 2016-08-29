@@ -30,8 +30,7 @@ CollisionScale      = "0.0 0.0 0.0"
 //JET JUMP END
 
 WEAPONSECTION = 1
-//WeaponName1         = "heroes_weap_ee3"
-WeaponName1         = "heroes_weap_ddc"
+WeaponName1         = "heroes_weap_ee3"
 WeaponAmmo1         = 4
 
 

@@ -9,3 +9,16 @@ SoundProperties()
         Sample("com_weap_pistol_empty", 1.0);
     }
 }
+
+SoundProperties()
+{
+    Name("com_weap_thermalimploder_exp"); 
+    Group("Explosion");
+    Inherit("explosion_template");
+    MinDistance(60.0);
+	Gain(1.0);
+    SampleList()
+    {
+      Sample("com_weap_thermalimploder_exp", 1.0;
+    }
+}

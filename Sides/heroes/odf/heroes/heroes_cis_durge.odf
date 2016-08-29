@@ -26,6 +26,10 @@ SkeletonLowRes  = "bf3cloneslz" 	         //Lando's lowrez mesh has been envelop
 //AnimationName       = "HanSolo"
 HealthType          = "person"
 
+SkeletonRootScale       = "1.20"
+CollisionRootScale  = "1.20"
+SkeletonRootScaleLowRes = "1.20"
+
 WEAPONSECTION = 1
 WeaponName1         = "cis_weap_inf_mortar_launcher"
 WeaponAmmo1         = 4

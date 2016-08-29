@@ -1,0 +1,55 @@
+[WeaponClass]
+ClassParent 		= "com_weap_inf_bowcaster"
+GeometryName            = "heroes_weap_bowcaster.msh"
+
+[Properties]
+GeometryName            = "heroes_weap_bowcaster"
+HighResGeometry         = "heroes_weap_bowcaster"
+
+//******************************************************
+//***************   CHARGE STATES   ****************
+//******************************************************
+
+ShotsPerSalvo           = 7
+ShotPatternCount        = 7
+ShotPatternPitchYaw     = "0.0 0.0"
+ShotPatternPitchYaw     = "0.0 -0.7"
+ShotPatternPitchYaw     = "0.0 0.7"
+ShotPatternPitchYaw     = "0.0 -1.4"
+ShotPatternPitchYaw     = "0.0 1.4"
+ShotPatternPitchYaw     = "0.0 -2.1"
+ShotPatternPitchYaw     = "0.0 2.1"
+
+OrdnanceName            = "heroes_weap_bowcaster_ord"
+
+FireSound           = "all_weap_inf_bowcaster_fire"
+ChargeSound         = "all_weap_inf_bowcaster_charge"
+ChargeSoundPitch    = "0.05"
+
+NextCharge              = 0.95
+ShotsPerSalvo           = 1
+ShotPatternCount        = 1
+OrdnanceName            = "heroes_weap_bowcaster_ord_high"
+
+FireSound           = "all_weap_inf_bowcaster_fire"
+ChargeSound         = "all_weap_inf_bowcaster_charge"
+ChargeSoundPitch    = "0.05"
+
+//******************************************************
+//***************   SOUND       ****************
+//******************************************************
+
+FireSound           = "all_weap_inf_bowcaster_fire"
+FireEmptySound      = "com_weap_inf_ammo_empty"
+FireLoopSound       = ""
+ReloadSound         = "com_weap_inf_reload_med"
+ChargeSound         = "all_weap_inf_bowcaster_charge"
+ChargeSoundPitch    = "0.05"
+ChangeModeSound     = "com_weap_inf_equip_med"
+WeaponChangeSound   = "com_weap_inf_equip_med"
+JumpSound           = "com_weap_inf_rifle_mvt_jump"
+LandSound           = "com_weap_inf_rifle_mvt_land"
+RollSound           = "com_weap_inf_rifle_mvt_roll"
+//ProneSound          = "com_weap_inf_rifle_mvt_lie"
+SquatSound          = "com_weap_inf_rifle_mvt_squat"
+//StandSound          = "com_weap_inf_rifle_mvt_getup"

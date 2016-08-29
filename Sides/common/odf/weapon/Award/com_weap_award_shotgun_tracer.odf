@@ -1,0 +1,30 @@
+[OrdnanceClass]
+ClassLabel          = "bolt"
+
+[Properties]
+LaserTexture        = "com_sfx_laser_purple"
+LaserLength         = "6.0"
+LaserWidth          = "0.02"
+LaserGlowColor      = "224 128 224 100"
+LightColor          = "224 128 224 100"
+GlowLength          = "3"
+BlurLength          = "5"
+
+FadeOutTime         = ".15"
+
+LifeSpan            = "0.15"
+Velocity            = "160.0"
+Gravity             = "1.0"
+Rebound             = "0.0"
+
+MaxDamage           = "0.0"
+VehicleScale        = "0.0"
+ShieldScale         = "0.0"
+PersonScale         = "0.0"
+AnimalScale         = "0.0"
+DroidScale          = "0.0"
+BuildingScale       = "0.0"
+
+BonusAmplification  = "0.25"				//how much more damage will be done when team_bonus_blaster_amplication is on
+BonusColor          = "240 0 0 255"			//what color will be applied when the team_bonus_blaster_amplification is on
+

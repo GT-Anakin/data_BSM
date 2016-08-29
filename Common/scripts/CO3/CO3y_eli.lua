@@ -124,6 +124,7 @@ function ScriptInit()
 		"heroes_alliance_luke_jedi",
 		"heroes_alliance_obiwan",
 		"heroes_alliance_x2",
+		"heroes_alliance_chewbacca",
 		"heroes_empire_boba",
 		"heroes_empire_vader",
 		"heroes_empire_emperor",
@@ -146,16 +147,17 @@ function ScriptInit()
             units = 32,
                 reinforcements = -1,
                 soldier = { "heroes_alliance_hansolo",	1,4},
-                assault = { "heroes_alliance_leia",   1,4},
-                engineer= { "heroes_alliance_lando",   1,4},
+                assault = { "heroes_alliance_chewbacca",   1,4},
+                engineer= { "heroes_alliance_leia",   1,4},
                 sniper  = { "heroes_alliance_luke_jedi",  1,4},
-                officer = {	"heroes_alliance_kota",   1,4},
-                special = { "heroes_alliance_x2",   1,4},  
+                officer = {	"heroes_alliance_lando",   1,4},
+                special = { "heroes_alliance_kota",   1,4},  
 			
         },
     }   
 
-	AddUnitClass(ALL,"heroes_alliance_obiwan",1,4)
+	AddUnitClass(ALL,"heroes_alliance_x2",1,4)
+	AddUnitClass(ALL,"heroes_republic_obiwan",1,4)
 	AddUnitClass(ALL,"heroes_republic_yoda",1,4)
 	
     SetupTeams{

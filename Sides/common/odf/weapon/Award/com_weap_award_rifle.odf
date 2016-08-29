@@ -1,0 +1,87 @@
+[WeaponClass]
+ClassLabel 		= "cannon"
+
+[Properties]
+MedalsTypeToUnlock = 1
+ScoreForMedalsType = 1
+
+AnimationBank   = "rifle"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy     = "1"
+TargetNeutral   = "0"
+TargetFriendly  = "0"
+
+TargetPerson    = "1"
+TargetAnimal    = "1"
+TargetDroid     = "1"
+TargetVehicle   = "0"
+TargetBuilding  = "0"
+
+MinRange        = "0"
+OptimalRange    = "24"
+MaxRange        = "64"
+
+LockOnRange     = "40.0"
+LockTime        = "0.4"
+lockOnAngle     = "1.0"
+
+ZoomMin         = "2.5"
+ZoomMax         = "2.5"
+ZoomRate        = "0.0"
+
+YawSpread       = "0.25"
+PitchSpread     = "0.25"
+
+SpreadPerShot       = "1.2"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit         = "5.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "36"
+ReloadTime          = "1.5"
+ShotDelay           = "0.75"
+TriggerSingle       = "0"
+
+DisplayRefire 	    = "0"
+
+SalvoCount          = "3"
+SalvoDelay          = "0.08"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "255 80 80 255"
+FlashLength         = 0.025
+FlashColor          = "255 100 100 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 220 220 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
+
+RecoilLengthLight   = "0.1"
+RecoilLengthHeavy   = "0.1"
+RecoilStrengthLight = "1.0"
+RecoilStrengthHeavy = "0.2"
+RecoilDecayLight    = "0.0"
+RecoilDecayHeavy    = "0.0"

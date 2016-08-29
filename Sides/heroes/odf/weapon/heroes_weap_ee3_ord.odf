@@ -3,5 +3,5 @@ ClassParent     	= "com_weap_award_rifle_ord"
 
 [Properties]
 LaserTexture        	= "com_sfx_laser_red"
-LaserGlowColor      	= "253 43 43 100"
-LightColor          	= "253 43 43 150"
+LaserGlowColor		= "254 6 18 100"
+LightColor			= "254 6 18 200"

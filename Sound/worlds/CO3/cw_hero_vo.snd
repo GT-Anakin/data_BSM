@@ -123,3 +123,65 @@ SoundStreamProperties()
     }
 }
 
+// 	PADME ///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_padme_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("padme_spawn1", 1.0); //  I don't believe what I am hearing!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_padme_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("padme_target1", 1.0); //  What if the democracy we thought we were serving does no longer exist?
+		Segment("padme_target2", 1.0); //  We're living in a real world...come back to it!
+		Segment("padme_target3", 1.0); //  I do not like this idea of hiding!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_padme_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("padme_spree1", 1.0); //  I call it aggresive negotiations!
+        Segment("padme_spree2", 1.0); //  How could you even say that!?
+		Segment("padme_spree3", 1.0); //  I am sorry!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_padme_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("padme_exhausted1", 1.0); //  So this is how liberty dies...with thunderous applause!
+    }
+}
+

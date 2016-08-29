@@ -1,13 +1,13 @@
 [WeaponClass]
 ClassParent         = "com_weap_inf_flamethrower"
-GeometryName        = "heroes_weap_dl44.msh"
+GeometryName        = "heroes_weap_westar34.msh"
 
 [Properties]
 
 AnimationBank   = "pistol"
 
-GeometryName        = "heroes_weap_dl44"
-HighResGeometry     = "heroes_weap_dl44"
+GeometryName        = "heroes_weap_westar34"
+HighResGeometry     = "heroes_weap_westar34"
 OrdnanceName        = "heroes_weap_flamethrower_ord"
 //FirePointName       = "hp_fire"
 

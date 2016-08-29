@@ -1,0 +1,69 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+MedalsTypeToUnlock = 5
+ScoreForMedalsType = 5
+
+AnimationBank       = "rifle"
+
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "255 80 80 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 192 192 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
+
+RoundsPerClip       = "42"
+ReloadTime          = "1.75"
+
+SecondaryOrdnanceName 	= "com_weap_award_shotgun_tracer"
+SecondaryOrdnancePeriod = 1
+
+ZoomMin             = "2.0"
+ZoomMax             = "2.0"
+ZoomRate            = "0.0"
+
+TriggerSingle       = "1"
+ShotDelay           = "1.2"
+
+PitchSpread         = "3.0"
+YawSpread           = "4.0"
+
+SpreadPerShot       = "1.1"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit         = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+LockOnRange         = "40.0"
+LockTime            = "0.0"
+AutoAimSize         = "1.0"
+
+MinRange            = "0"
+OptimalRange        = "16"
+MaxRange            = "36"
+AIUseBubbleCircle	= "1"
+AIBubbleSizeMultiplier	= "1.0"
+
+SalvoCount          = "1"
+ShotsPerSalvo       = "7"
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.0"
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"

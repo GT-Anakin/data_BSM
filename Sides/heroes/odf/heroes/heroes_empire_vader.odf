@@ -12,6 +12,7 @@ ClothODF                = "heroes_empire_vader_cape"
 ClothODF                = "heroes_empire_vader_skirt"
 SkeletonName            = "Vader"
 SkeletonRootScale       = "1.15"
+CollisionRootScale  = "1.15"
 SkeletonRootScaleLowRes = "1.15"
 
 

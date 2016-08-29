@@ -1,0 +1,87 @@
+[WeaponClass]
+ClassLabel          = "cannon"
+
+[Properties]
+MedalsTypeToUnlock = 4
+ScoreForMedalsType = 4
+
+AnimationBank       = "rifle"
+
+//***********************************************
+//************* TARGET & RANGE VALUES  **********
+//***********************************************
+
+TargetEnemy         = "1"
+TargetNeutral       = "0"
+TargetFriendly      = "0"
+    
+TargetPerson        = "1"
+TargetAnimal        = "1"
+TargetDroid         = "1"
+TargetVehicle       = "0"
+TargetBuilding      = "0"
+
+MinRange            = "8"
+OptimalRange        = "64"
+MaxRange            = "128"
+AIUseBubbleCircle	= "1"
+AIBubbleSizeMultiplier	= "0.6"
+
+LockOnRange         = "0.0"
+LockTime            = "0.0"
+LockOnAngle         = "1.0"
+
+ReticuleInAimingOnly = 1
+SniperScope         = 1
+ZoomFirstPerson     = 1
+ZoomMin             = "6.0"
+ZoomMax             = "6.0"
+ZoomRate            = "0.0"
+
+YawSpread           = "0.0"
+PitchSpread         = "0.0"
+    
+KickStrength        = "0.0" // "2.0"
+
+SpreadPerShot       = "1.1"
+SpreadRecoverRate   = "4.8"
+SpreadThreshold     = "1.6"
+SpreadLimit         = "6.0"
+
+StandStillSpread    = "0.0"
+StandMoveSpread     = "0.0"
+CrouchStillSpread   = "0.0"
+CrouchMoveSpread    = "0.0"
+ProneStillSpread    = "0.0"
+ProneMoveSpread     = "0.0"
+
+//***********************************************
+//*********** WEAPON PERFORMANCE VALUES *********
+//***********************************************
+
+RoundsPerClip       = "4"
+ReloadTime          = "3.0"
+ShotDelay           = "1.5"
+TriggerSingle       = "1"
+MaxPressedTime      = "0.0"
+
+SalvoCount          = "1"
+SalvoDelay          = "0.0"
+InitialSalvoDelay   = "0.0"
+SalvoTime           = "0.0"
+
+//***********************************************
+//***********  HUD & CONTROLLER VALUES  *********
+//***********************************************
+
+ScopeTexture        = "weapon_scope3"
+
+MuzzleFlash         = "small_muzzle_flash"
+FlashColor          = "255 80 80 255"
+FlashLength         = 0.025
+FlashLightColor     = "255 192 192 175"
+FlashLightRadius    = "2.0"
+FlashLightDuration  = "0.25"
+Discharge           = "small_smoke_effect"
+
+

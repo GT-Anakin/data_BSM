@@ -1,0 +1,55 @@
+[GameObjectClass]
+ClassParent         = "com_hero_default"
+GeometryName        = "heroes_alliance_chewbacca.msh"
+
+[Properties]
+UnitType            = "pilot"
+//ClothODF	    = "all_inf_chewbacca_l_fur"
+//ClothODF	    = "all_inf_chewbacca_r_fur"
+
+GeometryName        = "heroes_alliance_chewbacca"
+GeometryLowRes      = "heroes_alliance_chewbacca_low"
+SkeletonName	    = "chewbacca"
+SkeletonLowRes      = "chewbaccalz"
+SkeletonRootScale   = "1.15"
+CollisionRootScale  = "1.15"
+SkeletonRootScaleLowRes = "1.15"
+//FirstPerson         = "all\allwook;all_1st_wookie"
+
+NumTentacles        = "1"
+BonesPerTentacle    = "1"
+TentacleCollType    = "0"
+
+HealthType          = "person"
+MaxHealth           = 2400.0
+
+MaxSpeed            = 7.0
+MaxStrafeSpeed      = 5.5
+MaxTurnSpeed        = 4.0
+
+WEAPONSECTION = 1
+WeaponName         = "heroes_weap_bowcaster"
+WeaponAmmo         = 0
+
+
+
+// general VO - some wookie VO unavailable
+HurtSound               = "all_inf_com_chatter_wound_wookie"
+DeathSound              = "all_inf_com_chatter_death_wookie"
+
+FoleyFXClass            = "wok_inf_soldier"
+
+
+
+VOUnitType              = 182
+SoldierMusic           = "all_hero_Chewbacca_lp"
+
+VOSound = "all_off_response_hero_command      SC_Follow"
+VOSound = "all_off_response_hero_command      SC_StopFollow"
+VOSound = "all_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "all_off_response_hero_command     SC_GetIn"
+VOSound = "all_off_response_hero_command      SC_GetOut"
+
+VOSound = "wok2_inf_chatter_AcquiredTarget    AcquiredTarget"
+VOSound = "wok2_inf_chatter_KillingSpree8      KillingSpree8"
+VOSound = "wok2_inf_chatter_Grenade      Grenade"
