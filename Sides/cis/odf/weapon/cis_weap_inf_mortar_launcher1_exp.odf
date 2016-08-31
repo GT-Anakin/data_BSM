@@ -8,8 +8,10 @@ LightColor 	= "107 31 155 255"
 LightRadius 	= "3.0"
 LightDuration 	= "8.5"
 
-DamageRadiusInner = "2.0"
-DamageRadiusOuter = "3.0"
+Push                = "0.0"
+
+DamageRadiusInner = "4.0"
+DamageRadiusOuter = "5.0"
 LifeSpan = "10.0"
 
 Shake 		  = "0.0"

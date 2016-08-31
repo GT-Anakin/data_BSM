@@ -44,6 +44,37 @@ WeaponChannel3		= 1
 
 
 
-
 FoleyFXClass                = "rep_inf_soldier"
 
+///SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_falon_spawn"
+SndHeroDefeated             = "hero_falon_exhausted"
+SndHeroKiller               = "hero_falon_exhausted"
+
+VOSound = "rep_off_response_hero_command      SC_Follow"
+VOSound = "rep_off_response_hero_command      SC_StopFollow"
+VOSound = "rep_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "rep_off_response_hero_command     SC_GetIn"
+VOSound = "rep_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_falon_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_falon_KillingSpree4      KillingSpree4"
+
+//SoldierMusic            = "rep_hero_Falon_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+//ApproachingTargetSound    = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "rep_inf_soldier"

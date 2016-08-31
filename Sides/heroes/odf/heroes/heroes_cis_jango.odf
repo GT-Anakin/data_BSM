@@ -15,7 +15,7 @@ FirstPerson         = "Heroes\heroes;heroes_1st_jango"
 AnimationName = "fett"
 
 AnimatedAddon	= "left_gun"
-GeometryAddon	= "heroes_weap_westar34"
+GeometryAddon	= "heroes_weap_westar34_left"
 AddonAttachJoint	= "bone_l_hand"
 
 //JET JUMP

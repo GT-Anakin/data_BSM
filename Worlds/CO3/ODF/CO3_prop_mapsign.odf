@@ -1,0 +1,11 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_mapsign_EDITOR.msh"
+
+[Properties]	
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_prop_mapsign"
+
+FoleyFXGroup    = "metal_foley"
+

@@ -8,8 +8,10 @@ LightColor 	= "107 31 155 255"
 LightRadius 	= "2.0"
 LightDuration 	= "8.5"
 
-DamageRadiusInner = "2.0"
-DamageRadiusOuter = "3.0"
+Push                = "0.0"
+
+DamageRadiusInner = "3.0"
+DamageRadiusOuter = "4.0"
 LifeSpan = "10.0"
 
 Shake 		  = "0.0"
@@ -19,7 +21,7 @@ ShakeRadiusOuter  = "0.0"
 
 VehicleScale 		= "0.0"
 ShieldScale 		= "0.0"
-PersonScale 		= "0.5"
+PersonScale 		= "0.75"
 DroidScale 	= "0.0"
 AnimalScale	= "3.0"
 BuildingScale 		= "0.65"

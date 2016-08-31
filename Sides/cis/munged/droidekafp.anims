@@ -1,0 +1,10 @@
+ucft
+{
+	ANIM
+	{
+		"droidekafp_rifle_idle"
+		"droidekafp_rifle_reload"
+		"droidekafp_rifle_shoot"
+		"droidekafp_rifle_walk"
+	}
+}

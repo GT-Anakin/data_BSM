@@ -1,0 +1,9 @@
+ucft
+{
+	ANIM
+	{
+		"sbdfp_rifle_idle"
+		"sbdfp_rifle_run"
+		"sbdfp_rifle_shoot"
+	}
+}

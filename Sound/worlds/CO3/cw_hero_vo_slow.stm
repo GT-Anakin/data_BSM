@@ -26,3 +26,12 @@ streams\hero_vo\padme_spree1.wav
 streams\hero_vo\padme_spree2.wav
 streams\hero_vo\padme_spree3.wav
 streams\hero_vo\padme_exhausted1.wav
+
+//Falon
+streams\hero_vo\falon_spawn1.wav
+streams\hero_vo\falon_target1.wav
+streams\hero_vo\falon_target2.wav
+streams\hero_vo\falon_target3.wav
+streams\hero_vo\falon_spree1.wav
+streams\hero_vo\falon_spree2.wav
+streams\hero_vo\falon_exhausted1.wav

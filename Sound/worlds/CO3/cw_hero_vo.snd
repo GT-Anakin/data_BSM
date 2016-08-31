@@ -123,7 +123,7 @@ SoundStreamProperties()
     }
 }
 
-// 	PADME ///////////////////
+// 	PADME AMIDALLA ///////////////////
 
 SoundStreamProperties()
 {
@@ -182,6 +182,67 @@ SoundStreamProperties()
     SegmentList()
     {
         Segment("padme_exhausted1", 1.0); //  So this is how liberty dies...with thunderous applause!
+    }
+}
+
+//  FALON GREY///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_falon_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("falon_spawn1", 1.0); //  I am Falon Grey!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_falon_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("falon_target1", 1.0); //  What makes a jedi are things that can not be cloned?
+		Segment("falon_target2", 1.0); //  Perhaps together we can find redemption!
+		Segment("falon_target3", 1.0); //  Destiny has brought us here together!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_falon_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("falon_spree1", 1.0); //  But it is not to late for me to teach you!
+        Segment("falon_spree2", 1.0); //  You have no idea what a jedi thinks.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_falon_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("falon_exhausted1", 1.0); //  You should realize that you destroy your enemies...when you make peace with them!
     }
 }
 

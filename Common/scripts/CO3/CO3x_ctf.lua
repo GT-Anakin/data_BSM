@@ -76,7 +76,7 @@ end
 	
 	if not ScriptCB_InMultiplayer() then
 	herosupport = AIHeroSupport:New{gameMode = "CTF",}
-	herosupport:SetHeroClass(REP, "heroes_republic_padme")
+	herosupport:SetHeroClass(REP, "heroes_republic_falon")
 	herosupport:SetHeroClass(CIS, "heroes_cis_asajj")
 	herosupport:AddSpawnCP("ctf_cp1","ctf_cp1_spawn")
 	herosupport:AddSpawnCP("ctf_cp2","ctf_cp2_spawn")
@@ -157,7 +157,7 @@ function ScriptInit()
 		
 		ReadDataFile("dc:SIDE\\heroes.lvl",
 		"heroes_cis_asajj",
-		"heroes_republic_padme")
+		"heroes_republic_falon")
 				 
 		ReadDataFile("dc:SIDE\\vehicles.lvl",
 		"cis_hover_stap",
