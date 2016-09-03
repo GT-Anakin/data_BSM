@@ -50,5 +50,35 @@ WeaponChannel4  	= 1
 
 
 //SOUND
-FoleyFXClass        = "cis_inf_soldier"
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_durge_laugh"
+SndHeroDefeated             = "hero_durge_laugh"
+SndHeroKiller               = "hero_durge_laugh"
+
+VOSound = "cis_off_response_hero_command      SC_Follow"
+VOSound = "cis_off_response_hero_command      SC_StopFollow"
+VOSound = "cis_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "cis_off_response_hero_command     SC_GetIn"
+VOSound = "cis_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_durge_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_durge_KillingSpree4      KillingSpree4"
+
+//SoldierMusic                = "cis_hero_Durge_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+ApproachingTargetSound      = ""
+FleeSound                   = ""
+PreparingForDamageSound     = ""
+HeardEnemySound             = ""
+//ShockFadeOutTime          = "0.8"
+//ShockFadeInTime           = "2.0"
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+LowHealthSound          = ""
+LowHealthThreshold      = "0.0"
+FoleyFXClass            = "cis_inf_soldier"
 

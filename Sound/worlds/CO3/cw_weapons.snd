@@ -157,6 +157,19 @@ SoundProperties()
     }
 }
 
+SoundProperties()
+{
+    Name("rep_weap_palpatine_scream");
+    Group("weapons");
+    Gain(1.5);
+    Pitch(1.0);
+    Inherit("weapon_template");
+    SampleList()
+    {
+        Sample("rep_weap_palpatine_scream", 1.0);
+    }
+}
+
 //CIS Weapons/////////////////////////////////////////////////////////////////////////
 
 SoundProperties()

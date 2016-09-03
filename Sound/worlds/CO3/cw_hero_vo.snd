@@ -246,3 +246,167 @@ SoundStreamProperties()
     }
 }
 
+//  CHANCELLOR PALPATINE///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("palpatine_spawn1", 1.0); //  It's treason then.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("palpatine_target1", 1.0); //  You must sense what I have come to suspect...They're planning to betry me.
+		Segment("palpatine_target2", 1.0); //  Are you threatening me master jedi?
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("palpatine_spree1", 1.0); //  You know I am not able to rely on the Jedi Council.
+        Segment("palpatine_spree2", 1.0); //  The jedi Council want control of the Republic.
+		Segment("palpatine_spree3", 1.0); //  I am the Senate.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_palpatine_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("palpatine_exhausted1", 1.0); //  All who gain power are afraid to lose it. Even the Jedi!
+    }
+}
+
+//  DURGE///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_durge_laugh");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("durge_laugh", 1.0); //  Hahahahahahahahaha.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_durge_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("durge_laugh", 1.0); //  Hahahahahahahahaha.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_durge_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("durge_laugh", 1.0); //  Hahahahahahahahaha.
+    }
+}
+
+//  X2 CW///////////////////
+
+SoundStreamProperties()
+{
+    Name("hero_x2cw_spawn");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("x2cw_spawn1", 1.0); //  This is X2. We do loud and clear.
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_x2cw_AcquiredTarget");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("x2cw_target1", 1.0); //  Look out!
+		Segment("x2cw_target2", 1.0); //  Watch out!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_x2cw_KillingSpree4");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("x2cw_spree1", 1.0); //  You just murdered most of our...!
+        Segment("x2cw_spree2", 1.0); //  Hold your fire!
+    }
+}
+
+SoundStreamProperties()
+{
+    Name("hero_x2cw_exhausted");
+    Group("hero_vo");
+    Inherit("Hero_battle_chatter_template");
+	PlayProbability(1.0);
+	Gain(2.0);
+    Stream("cw_hero_vo_slow");
+    SegmentList()
+    {
+        Segment("x2cw_exhausted1", 1.0); //  All who gain power are afraid to lose it. Even the Jedi!
+    }
+}

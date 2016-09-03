@@ -6,9 +6,6 @@
 *** WARNING: Skin model segment 0 has too many/few vert weights?
 *** WARNING: Skin model segment 0 has too many/few UVs?
 *** WARNING: Skin model segment 0 has too many/few vert colors?
-.*** WARNING: Animation <fett_pistol_crouch_shoot_secondary2_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
-.*** WARNING: Animation <fett_pistol_stand_idle_emote_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
-.*** WARNING: Animation <fett_pistol_stand_reload_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
-.*** WARNING: Animation <fett_pistol_stand_shoot_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
-.*** WARNING: Animation <fett_pistol_stand_shoot_secondary2_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+...*** WARNING: Animation <fett_pistol_crouch_shoot_secondary2_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
+....*** WARNING: Animation <fett_pistol_stand_shoot_secondary2_full> has a framerate <29.970030> that isn't 30fps.  Framerate correction code has not been done yet
 

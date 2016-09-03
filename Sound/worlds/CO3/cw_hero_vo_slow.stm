@@ -35,3 +35,23 @@ streams\hero_vo\falon_target3.wav
 streams\hero_vo\falon_spree1.wav
 streams\hero_vo\falon_spree2.wav
 streams\hero_vo\falon_exhausted1.wav
+
+//Palpatine
+streams\hero_vo\palpatine_spawn1.wav
+streams\hero_vo\palpatine_target1.wav
+streams\hero_vo\palpatine_target2.wav
+streams\hero_vo\palpatine_spree1.wav
+streams\hero_vo\palpatine_spree2.wav
+streams\hero_vo\palpatine_spree3.wav
+streams\hero_vo\palpatine_exhausted1.wav
+
+//Durge
+streams\hero_vo\durge_laugh.wav
+
+//X2 CW
+streams\hero_vo\x2cw_spawn1.wav
+streams\hero_vo\x2cw_target1.wav
+streams\hero_vo\x2cw_target2.wav
+streams\hero_vo\x2cw_spree1.wav
+streams\hero_vo\x2cw_spree2.wav
+streams\hero_vo\x2cw_exhausted1.wav

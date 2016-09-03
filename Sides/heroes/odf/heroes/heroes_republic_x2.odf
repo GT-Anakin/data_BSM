@@ -31,5 +31,37 @@ WeaponName4         = "com_weap_inf_thermalimploder"
 WeaponAmmo4         = 2
 WeaponChannel4      = 1
 
-FoleyFXClass        = "rep_inf_soldier"
+//SOUND
+SndHeroSelectable           = ""
+SndHeroSpawned              = "hero_x2cw_spawn"
+SndHeroDefeated             = "hero_x2cw_exhausted"
+SndHeroKiller               = "hero_x2cw_exhausted"
+
+VOSound = "rep_off_response_hero_command      SC_Follow"
+VOSound = "rep_off_response_hero_command      SC_StopFollow"
+VOSound = "rep_off_response_hero_command     SC_VehicleWaitUp"
+VOSound = "rep_off_response_hero_command     SC_GetIn"
+VOSound = "rep_off_response_hero_command      SC_GetOut"
+
+VOSound = "hero_x2cw_AcquiredTarget      AcquiredTarget"
+VOSound = "hero_x2cw_KillingSpree4      KillingSpree4"
+
+VOUnitType              = 190
+//SoldierMusic            = "rep_hero_x2cw_lp"
+HurtSound                   = ""
+DeathSound                  = ""
+AcquiredTargetSound         = ""
+HidingSound                 = ""
+//ApproachingTargetSound    = ""
+FleeSound               = ""
+PreparingForDamageSound = ""
+HeardEnemySound         = ""
+ShockFadeOutTime        = ""
+ShockFadeInTime         = ""
+ShockFadeOutGain        = ""
+ShockSound              = ""
+ClothingRustleSound     = ""
+//LowHealthSound          = "com_inf_saber_ambient"
+LowHealthThreshold      = "1.1"
+FoleyFXClass            = "rep_inf_soldier"
 

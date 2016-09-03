@@ -2,6 +2,8 @@ ucft
 {
 	ANIM
 	{
+		"fett_pistol_crouch_reload_full"
+		"fett_pistol_crouch_shoot_full"
 		"fett_pistol_crouch_shoot_secondary2_full"
 		"fett_pistol_stand_idle_emote_full"
 		"fett_pistol_stand_reload_full"

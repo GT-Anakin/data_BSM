@@ -45,6 +45,10 @@ WeaponName3         = "heroes_weap_wrist_rocket"
 WeaponAmmo3         = 3
 WeaponChannel3         = 1
 
+WEAPONSECTION = 4
+WeaponName4         = "com_weap_inf_thermalimploder"
+WeaponAmmo4         = 2
+WeaponChannel4      = 1
 
 
 //SOUND

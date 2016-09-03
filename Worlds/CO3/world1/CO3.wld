@@ -3,8 +3,8 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.901, 0.432, -0.036, 0.017);
-	Position(175.642, -286.872, -96.400);
+	Rotation(0.855, 0.248, 0.437, -0.127);
+	Position(-68.999, -280.924, 41.197);
 	FieldOfView(55.400);
 	NearPlane(1.000);
 	FarPlane(1000.000);
@@ -156,6 +156,15 @@ Object("CO3_prop_metal_junk_99", "CO3_prop_metal_junk_01", 102465205)
 	ChildRotation(0.598, 0.000, 0.802, 0.000);
 	ChildPosition(-140.807, -282.685, 24.270);
 	SeqNo(102465205);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_adbox_16", "CO3_prop_adbox_01", 121762825)
+{
+	ChildRotation(0.710, 0.000, 0.704, 0.000);
+	ChildPosition(-139.449, -283.140, 14.774);
+	SeqNo(121762825);
 	Team(0);
 	NetworkId(-1);
 }
@@ -486,15 +495,6 @@ Object("CO3_prop_pole_20", "CO3_prop_pole_01", 322405712)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_11", "CO3_prop_bars_glass_02", 326140246)
-{
-	ChildRotation(0.401, 0.000, -0.916, 0.000);
-	ChildPosition(-65.321, -282.434, 47.846);
-	SeqNo(326140246);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_metal_junk_31", "CO3_prop_metal_junk_01", 328348861)
 {
 	ChildRotation(1.000, 0.000, -0.002, 0.000);
@@ -522,20 +522,20 @@ Object("CO3_prop_pole_17", "CO3_prop_pole_01", 364262546)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_16", "CO3_prop_bars_glass_03", 383567226)
-{
-	ChildRotation(0.306, 0.000, -0.952, 0.000);
-	ChildPosition(-69.800, -282.434, 44.196);
-	SeqNo(383567226);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_metal_junk_120", "CO3_prop_metal_junk_01", 393960525)
 {
 	ChildRotation(-0.061, -0.139, -0.988, 0.009);
 	ChildPosition(-8.797, -295.967, -14.651);
 	SeqNo(393960525);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_bars_glass_37", "CO3_prop_bars_glass_02", 394162532)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-70.011, -282.434, 46.607);
+	SeqNo(394162532);
 	Team(0);
 	NetworkId(-1);
 }
@@ -823,6 +823,15 @@ Object("CO3_bldg_building_12", "CO3_bldg_building_02", 595799700)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_40", "CO3_prop_bars_glass_02", 595815930)
+{
+	ChildRotation(0.658, 0.000, 0.753, 0.000);
+	ChildPosition(-64.417, -282.434, 46.346);
+	SeqNo(595815930);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_25", "CO3_prop_decal_05", 608186397)
 {
 	ChildRotation(0.902, 0.000, -0.432, 0.000);
@@ -994,15 +1003,6 @@ Object("CO3_prop_decal_54", "CO3_prop_decal_06", 775422504)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_7", "CO3_prop_bars_glass_02", 785275699)
-{
-	ChildRotation(0.786, 0.000, -0.619, 0.000);
-	ChildPosition(-66.087, -282.435, 42.696);
-	SeqNo(785275699);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_bldg_building_group_20", "CO3_bldg_building_group_01", 797602841)
 {
 	ChildRotation(0.826, 0.000, 0.564, 0.000);
@@ -1035,15 +1035,6 @@ Object("CO3_prop_props_27", "CO3_prop_props_01", 828379162)
 	ChildRotation(1.000, 0.000, 0.005, 0.000);
 	ChildPosition(-143.713, -283.160, 83.869);
 	SeqNo(828379162);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_22", "CO3_prop_bars_glass_02", 835620755)
-{
-	ChildRotation(-0.438, 0.000, -0.899, 0.000);
-	ChildPosition(-76.065, -282.249, 43.847);
-	SeqNo(835620755);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1246,15 +1237,6 @@ Object("CO3_bldg_building_27", "CO3_bldg_building_02", 990513920)
 	ChildRotation(0.896, 0.000, -0.443, 0.000);
 	ChildPosition(373.258, -382.451, 1007.973);
 	SeqNo(990513920);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_10", "CO3_prop_bars_glass_02", 1001562042)
-{
-	ChildRotation(0.453, 0.000, -0.892, 0.000);
-	ChildPosition(-67.995, -282.434, 48.267);
-	SeqNo(1001562042);
 	Team(0);
 	NetworkId(-1);
 }
@@ -1700,15 +1682,6 @@ Object("anti_air_turret_1", "turrets_anti_air", 1300820990)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_2", "CO3_prop_bars_glass_01", 1314070569)
-{
-	ChildRotation(-0.036, 0.000, -0.999, 0.000);
-	ChildPosition(-69.697, -282.435, 44.424);
-	SeqNo(1314070569);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_bldg_building_group_5", "CO3_bldg_building_group_02", 1318715399)
 {
 	ChildRotation(0.798, 0.000, 0.603, 0.000);
@@ -2080,15 +2053,6 @@ Object("CO3_prop_pole_28", "CO3_prop_pole_01", 1628397095)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_19", "CO3_prop_bars_glass_01", 1628417794)
-{
-	ChildRotation(0.738, 0.000, 0.675, 0.000);
-	ChildPosition(-68.708, -282.435, 47.947);
-	SeqNo(1628417794);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_bldg_building_26", "CO3_bldg_building_02", 1640407447)
 {
 	ChildRotation(0.936, 0.000, 0.352, 0.000);
@@ -2284,6 +2248,15 @@ Object("com_item_healthrecharge3", "com_item_healthrecharge", 1761037325)
 	Radius("5.0");
 }
 
+Object("CO3_prop_bars_glass_47", "CO3_prop_bars_glass_01", 1762526830)
+{
+	ChildRotation(1.000, 0.000, 0.007, 0.000);
+	ChildPosition(-67.472, -282.434, 42.388);
+	SeqNo(1762526830);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("ground_turret_1", "turrets_ground_turret", 1786738399)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -2381,15 +2354,6 @@ Object("CO3_prop_adbox_13", "CO3_prop_adbox_01", 1860963292)
 	ChildRotation(0.708, 0.000, 0.706, 0.000);
 	ChildPosition(-128.346, -291.962, 159.013);
 	SeqNo(1860963292);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_8", "CO3_prop_bars_glass_02", 1869874110)
-{
-	ChildRotation(0.452, 0.000, -0.892, 0.000);
-	ChildPosition(-68.214, -282.434, 42.792);
-	SeqNo(1869874110);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2502,29 +2466,11 @@ Object("CO3_bldg_greebles_5", "CO3_bldg_greebles_01", 1937197359)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_17", "CO3_prop_bars_glass_02", 1966549697)
-{
-	ChildRotation(0.683, 0.000, 0.730, 0.000);
-	ChildPosition(-69.588, -282.434, 44.180);
-	SeqNo(1966549697);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_props_33", "CO3_prop_props_01", 1975457668)
 {
 	ChildRotation(0.014, 0.000, -1.000, 0.000);
 	ChildPosition(-75.106, -283.160, 139.194);
 	SeqNo(1975457668);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_20", "CO3_prop_bars_glass_01", 1983695592)
-{
-	ChildRotation(0.738, 0.000, 0.675, 0.000);
-	ChildPosition(-66.091, -282.434, 48.436);
-	SeqNo(1983695592);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2817,15 +2763,6 @@ Object("CO3_prop_metal_junk_43", "CO3_prop_metal_junk_01", -2129081074)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_15", "CO3_prop_bars_glass_03", -2127023788)
-{
-	ChildRotation(0.306, 0.000, -0.952, 0.000);
-	ChildPosition(-66.601, -282.435, 42.691);
-	SeqNo(-2127023788);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_props_26", "CO3_prop_props_01", -2125036231)
 {
 	ChildRotation(1.000, 0.000, 0.005, 0.000);
@@ -2851,15 +2788,6 @@ Object("CO3_prop_explosive_barrel27", "CO3_prop_explosive_barrel", -2123346127)
 	ChildRotation(-0.389, 0.000, -0.921, 0.000);
 	ChildPosition(147.805, -292.100, -111.689);
 	SeqNo(-2123346127);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_02", "CO3_prop_bars_glass_02", -2114324300)
-{
-	ChildRotation(0.948, 0.000, -0.319, 0.000);
-	ChildPosition(-64.156, -282.434, 46.496);
-	SeqNo(-2114324300);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2896,15 +2824,6 @@ Object("CO3_prop_bars_chair3", "CO3_prop_bars_chair", -2064083364)
 	ChildRotation(0.829, 0.000, -0.559, 0.000);
 	ChildPosition(-63.850, -283.507, 47.241);
 	SeqNo(-2064083364);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_9", "CO3_prop_bars_glass_02", -2060311874)
-{
-	ChildRotation(0.452, 0.000, -0.892, 0.000);
-	ChildPosition(-67.183, -282.435, 42.450);
-	SeqNo(-2060311874);
 	Team(0);
 	NetworkId(-1);
 }
@@ -2950,24 +2869,6 @@ Object("CO3_bldg_block1_building2", "CO3_bldg_block1_building2", -2027966506)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(0.000, -257.000, 0.000);
 	SeqNo(-2027966506);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_03", "CO3_prop_bars_glass_03", -2024129248)
-{
-	ChildRotation(0.622, 0.000, -0.783, 0.000);
-	ChildPosition(-66.369, -282.434, 48.357);
-	SeqNo(-2024129248);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_14", "CO3_prop_bars_glass_03", -2023500731)
-{
-	ChildRotation(0.306, 0.000, -0.952, 0.000);
-	ChildPosition(-67.675, -282.434, 42.622);
-	SeqNo(-2023500731);
 	Team(0);
 	NetworkId(-1);
 }
@@ -3127,6 +3028,15 @@ Object("CO3_bldg_ground", "CO3_bldg_ground", -1967869968)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_46", "CO3_prop_bars_glass_01", -1963694358)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-69.825, -282.434, 44.086);
+	SeqNo(-1963694358);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_02", "CO3_bldg_building_02", -1939223153)
 {
 	ChildRotation(0.997, 0.000, -0.080, 0.000);
@@ -3172,15 +3082,6 @@ Object("CO3_prop_metal_junk_13", "CO3_prop_metal_junk_01", -1935625950)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_27", "CO3_prop_bars_glass_01", -1933839169)
-{
-	ChildRotation(0.721, 0.000, 0.693, 0.000);
-	ChildPosition(-58.250, -282.250, 44.146);
-	SeqNo(-1933839169);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_bars_table2", "CO3_prop_bars_table", -1933275786)
 {
 	ChildRotation(0.894, 0.000, 0.447, 0.000);
@@ -3204,15 +3105,6 @@ Object("CO3_prop_decal_05", "CO3_prop_decal_05", -1931577799)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(-125.324, -283.160, -15.516);
 	SeqNo(-1931577799);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_24", "CO3_prop_bars_glass_01", -1903008981)
-{
-	ChildRotation(0.998, 0.000, 0.059, 0.000);
-	ChildPosition(-75.296, -282.249, 48.812);
-	SeqNo(-1903008981);
 	Team(0);
 	NetworkId(-1);
 }
@@ -3507,15 +3399,6 @@ Object("com_item_weaponrecharge3", "com_item_weaponrecharge", -1720052071)
 	Radius("5.0");
 }
 
-Object("CO3_prop_bars_glass_01", "CO3_prop_bars_glass_01", -1714915682)
-{
-	ChildRotation(-0.264, 0.000, -0.965, 0.000);
-	ChildPosition(-69.997, -282.435, 44.419);
-	SeqNo(-1714915682);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_props_32", "CO3_prop_props_01", -1704262974)
 {
 	ChildRotation(1.000, 0.000, -0.006, 0.000);
@@ -3597,6 +3480,15 @@ Object("CO3_prop_props_58", "CO3_prop_props_02", -1671364818)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_38", "CO3_prop_bars_glass_02", -1655288640)
+{
+	ChildRotation(0.657, 0.000, 0.754, 0.000);
+	ChildPosition(-69.111, -282.434, 43.521);
+	SeqNo(-1655288640);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_pole_37", "CO3_prop_pole_01", -1654426293)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
@@ -3620,15 +3512,6 @@ Object("CO3_prop_pole_443", "CO3_prop_pole_01", -1646680681)
 	ChildRotation(0.908, 0.000, 0.418, 0.000);
 	ChildPosition(165.421, -300.000, -1.579);
 	SeqNo(-1646680681);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_34", "CO3_prop_bars_glass_01", -1639868378)
-{
-	ChildRotation(-0.305, 0.000, -0.952, 0.000);
-	ChildPosition(-58.375, -283.168, 49.007);
-	SeqNo(-1639868378);
 	Team(0);
 	NetworkId(-1);
 }
@@ -3777,6 +3660,15 @@ Object("CO3_prop_metal_junk_76", "CO3_prop_metal_junk_01", -1583760271)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_41", "CO3_prop_bars_glass_03", -1578108796)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-64.195, -282.435, 44.300);
+	SeqNo(-1578108796);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_box_4", "CO3_prop_box_01", -1566005077)
 {
 	ChildRotation(0.727, 0.000, -0.687, 0.000);
@@ -3836,15 +3728,6 @@ Object("CO3_bldg_building_31", "CO3_bldg_building_08", -1549001666)
 	ChildRotation(-0.019, 0.000, -1.000, 0.000);
 	ChildPosition(-2527.170, -434.614, -408.544);
 	SeqNo(-1549001666);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_18", "CO3_prop_bars_glass_02", -1546402847)
-{
-	ChildRotation(0.683, 0.000, 0.730, 0.000);
-	ChildPosition(-70.067, -282.434, 46.493);
-	SeqNo(-1546402847);
 	Team(0);
 	NetworkId(-1);
 }
@@ -3961,6 +3844,15 @@ Object("ad_ring7", "CO3_prop_advert_ring_02", -1461728489)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_45", "CO3_prop_bars_glass_01", -1453427994)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-68.407, -282.434, 48.253);
+	SeqNo(-1453427994);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_decal_7", "CO3_prop_decal_01", -1445024071)
 {
 	ChildRotation(0.563, 0.561, 0.430, 0.429);
@@ -4056,6 +3948,15 @@ Object("CO3_prop_props_01", "CO3_prop_props_01", -1382534055)
 	ChildRotation(0.911, 0.000, 0.412, 0.000);
 	ChildPosition(124.348, -300.000, -30.620);
 	SeqNo(-1382534055);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_bars_glass_44", "CO3_prop_bars_glass_03", -1379107738)
+{
+	ChildRotation(0.774, 0.000, -0.633, 0.000);
+	ChildPosition(-66.369, -282.434, 48.406);
+	SeqNo(-1379107738);
 	Team(0);
 	NetworkId(-1);
 }
@@ -4516,6 +4417,15 @@ Object("CO3_prop_metal_junk_60", "CO3_prop_metal_junk_01", -1072125770)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_39", "CO3_prop_bars_glass_02", -1069705209)
+{
+	ChildRotation(0.658, 0.000, 0.753, 0.000);
+	ChildPosition(-66.068, -282.434, 42.481);
+	SeqNo(-1069705209);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_prop_bars_chair1", "CO3_prop_bars_chair", -1062275920)
 {
 	ChildRotation(0.682, 0.000, 0.731, 0.000);
@@ -4611,15 +4521,6 @@ Object("CO3_prop_boulder3", "CO3_prop_boulder", -1007367669)
 	ChildRotation(0.858, 0.054, 0.505, -0.073);
 	ChildPosition(-12.899, -294.830, -15.432);
 	SeqNo(-1007367669);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_5", "CO3_prop_bars_glass_01", -1006417127)
-{
-	ChildRotation(0.991, 0.000, -0.137, 0.000);
-	ChildPosition(-64.460, -282.435, 46.667);
-	SeqNo(-1006417127);
 	Team(0);
 	NetworkId(-1);
 }
@@ -4759,15 +4660,6 @@ Object("CO3_prop_pole_441", "CO3_prop_pole_01", -940180188)
 	ChildRotation(0.881, 0.000, 0.473, 0.000);
 	ChildPosition(169.967, -300.000, -6.824);
 	SeqNo(-940180188);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_6", "CO3_prop_bars_glass_02", -939929905)
-{
-	ChildRotation(0.786, 0.000, -0.619, 0.000);
-	ChildPosition(-64.205, -282.434, 44.376);
-	SeqNo(-939929905);
 	Team(0);
 	NetworkId(-1);
 }
@@ -5224,6 +5116,15 @@ Object("CO3_prop_bars_table1", "CO3_prop_bars_table", -627050718)
 	NetworkId(-1);
 }
 
+Object("CO3_prop_bars_glass_43", "CO3_prop_bars_glass_03", -624799021)
+{
+	ChildRotation(0.774, 0.000, -0.633, 0.000);
+	ChildPosition(-68.863, -282.434, 47.739);
+	SeqNo(-624799021);
+	Team(0);
+	NetworkId(-1);
+}
+
 Object("CO3_bldg_building_group_11", "CO3_bldg_building_group_02", -624202295)
 {
 	ChildRotation(0.999, 0.000, -0.040, 0.000);
@@ -5265,15 +5166,6 @@ Object("CO3_prop_pole_420", "CO3_prop_pole_01", -608461976)
 	ChildRotation(0.711, 0.000, 0.703, 0.000);
 	ChildPosition(178.474, -294.732, -95.461);
 	SeqNo(-608461976);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_13", "CO3_prop_bars_glass_03", -602712434)
-{
-	ChildRotation(0.622, 0.000, -0.783, 0.000);
-	ChildPosition(-64.659, -282.435, 47.429);
-	SeqNo(-602712434);
 	Team(0);
 	NetworkId(-1);
 }
@@ -5364,15 +5256,6 @@ Object("CO3_lightmap50", "CO3_lightmap", -541310093)
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(10.676, -288.208, -19.186);
 	SeqNo(-541310093);
-	Team(0);
-	NetworkId(-1);
-}
-
-Object("CO3_prop_bars_glass_4", "CO3_prop_bars_glass_01", -536421094)
-{
-	ChildRotation(0.957, 0.000, 0.291, 0.000);
-	ChildPosition(-64.676, -282.435, 43.867);
-	SeqNo(-536421094);
 	Team(0);
 	NetworkId(-1);
 }
@@ -5835,15 +5718,6 @@ Object("Bridge_fix_1", "CO3_prop_COL_Fix_Bridge", -112620582)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_3", "CO3_prop_bars_glass_01", -102266305)
-{
-	ChildRotation(0.957, 0.000, 0.291, 0.000);
-	ChildPosition(-69.789, -282.435, 46.607);
-	SeqNo(-102266305);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_explosive_barrel10", "CO3_prop_explosive_barrel", -98482330)
 {
 	ChildRotation(0.232, 0.000, -0.973, 0.000);
@@ -5898,15 +5772,6 @@ Object("CO3_prop_bars_glass_29", "CO3_prop_bars_glass_03", -72594055)
 	NetworkId(-1);
 }
 
-Object("CO3_prop_bars_glass_12", "CO3_prop_bars_glass_03", -72182574)
-{
-	ChildRotation(0.622, 0.000, -0.783, 0.000);
-	ChildPosition(-64.923, -282.435, 47.507);
-	SeqNo(-72182574);
-	Team(0);
-	NetworkId(-1);
-}
-
 Object("CO3_prop_pole_31", "CO3_prop_pole_01", -69069030)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
@@ -5930,6 +5795,15 @@ Object("CO3_prop_explosive_barrel16", "CO3_prop_explosive_barrel", -65889177)
 	ChildRotation(0.761, 0.000, 0.649, 0.000);
 	ChildPosition(93.150, -300.000, 23.478);
 	SeqNo(-65889177);
+	Team(0);
+	NetworkId(-1);
+}
+
+Object("CO3_prop_bars_glass_42", "CO3_prop_bars_glass_03", -60474526)
+{
+	ChildRotation(0.774, 0.000, -0.633, 0.000);
+	ChildPosition(-66.434, -282.434, 42.464);
+	SeqNo(-60474526);
 	Team(0);
 	NetworkId(-1);
 }

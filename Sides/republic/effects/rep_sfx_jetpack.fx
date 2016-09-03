@@ -67,7 +67,7 @@ ParticleEmitter("JetExhaust")
 	{
 		BlendMode("ADDITIVE");
 		Type("PARTICLE");
-		Texture("jetpack");
+		Texture("jetpack_rep");
 	}
 	ParticleEmitter("Ring")
 	{
@@ -268,7 +268,7 @@ ParticleEmitter("JetExhaust")
 				{
 					BlendMode("ADDITIVE");
 					Type("PARTICLE");
-					Texture("jetpack");
+					Texture("jetpack_rep");
 				}
 				ParticleEmitter("Ring")
 				{
