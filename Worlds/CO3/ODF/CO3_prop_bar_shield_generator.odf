@@ -1,0 +1,38 @@
+[GameObjectClass]
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_bar_shield_generator.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_bar_shield_generator"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= "CO3_prop_bar_shield_generator_dest"
+ExplosionName		= "CO3_prop_bar_shield_generator_exp"
+
+AINoRepair      = "1"
+
+
+AutoBarrierEnable   = "1"
+AutoBarrierRemoveOnDeath = "0"
+AutoBarrierSize     = "1.0 1.0"
+
+FoleyFXGroup    = "metal_foley"
+
+DamageStartPercent = "50"
+DamageStopPercent = "0"
+DamageEffect = "sfx_fire"
+DamageEffectScale = "1.5"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage1"
+
+DamageStartPercent = "30"
+DamageStopPercent = "0"
+DamageEffect = "sfx_fire"
+DamageEffectScale = "1.5"
+DamageInheritVelocity = "0.0"
+DamageAttachPoint = "hp_damage2"

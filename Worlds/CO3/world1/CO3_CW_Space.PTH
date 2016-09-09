@@ -21,7 +21,7 @@ Path("entitypath team1_fly")
 		{
 			Position(248.656311, 972.308594, -410.222046);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -34,7 +34,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-166.515411, 1133.498657, -511.419220);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -47,7 +47,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-390.720978, 1141.553101, -281.842163);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -60,7 +60,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-670.828369, 1196.873657, -24.876587);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -73,7 +73,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-558.969238, 1145.727905, 583.307922);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -86,7 +86,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-41.620224, 1027.423950, 592.900696);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -99,7 +99,7 @@ Path("entitypath team1_fly")
 		{
 			Position(335.650452, 1027.423950, 60.218506);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -112,7 +112,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-99.187744, 1230.170410, -643.870056);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -125,7 +125,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-489.023804, 1027.423950, -347.124329);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -138,7 +138,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-229.155670, 1107.904907, 162.445007);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -151,7 +151,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-641.072754, 1086.706787, 823.225952);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -164,7 +164,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-951.117737, 1118.920044, 276.664551);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -177,7 +177,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-948.212769, 1092.151733, -500.898987);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -190,7 +190,7 @@ Path("entitypath team1_fly")
 		{
 			Position(256.118530, 972.059326, -570.526184);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -203,7 +203,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-561.132874, 979.946289, 407.880005);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -216,7 +216,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-105.669510, 1065.947144, 864.344910);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -229,7 +229,7 @@ Path("entitypath team1_fly")
 		{
 			Position(232.138733, 1165.491699, 326.406982);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -242,7 +242,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-756.041870, 1027.423950, -108.585815);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -255,7 +255,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-1070.883545, 1027.423950, 131.068726);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -268,7 +268,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-864.148254, 1027.423950, 531.329773);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -281,7 +281,7 @@ Path("entitypath team1_fly")
 		{
 			Position(-508.934509, 1027.423950, -87.514038);
 			Knot(0.000000);
-			Data(1);
+			Data(0);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -742,9 +742,9 @@ Path("cp_rep_frigate_space_spawn")
 	{
 		Node()
 		{
-			Position(1402.338501, 807.722534, -13.109168);
+			Position(1402.338501, 800.606140, -13.109168);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -755,9 +755,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1424.866821, 807.722534, -16.171978);
+			Position(1424.866821, 800.606140, -16.171978);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -768,9 +768,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1459.367188, 807.722534, -19.182026);
+			Position(1459.367188, 800.606140, -19.182026);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -781,9 +781,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1485.534180, 807.722534, -21.952679);
+			Position(1485.534180, 800.606140, -21.952679);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(1.000000, 0.000000, 0.000000, 0.000000);
@@ -794,9 +794,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1485.022583, 807.722534, -35.429951);
+			Position(1485.022583, 800.606140, -35.429951);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(-0.010738, 0.000000, -0.999942, 0.000000);
@@ -807,9 +807,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1456.788086, 807.722534, -30.388584);
+			Position(1456.788086, 800.606140, -30.388584);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(0.019174, 0.000000, -0.999816, 0.000000);
@@ -820,9 +820,9 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1424.150146, 807.722534, -28.303747);
+			Position(1424.150146, 800.606140, -28.303747);
 			Knot(0.000000);
-			Data(0);
+			Data(1);
 			Time(1.000000);
 			PauseTime(0.000000);
 			Rotation(-0.010738, 0.000000, -0.999942, 0.000000);
@@ -833,7 +833,7 @@ Path("cp_rep_frigate_space_spawn")
 
 		Node()
 		{
-			Position(1402.253906, 807.722534, -28.049120);
+			Position(1402.253906, 800.606140, -28.049120);
 			Knot(0.000000);
 			Data(1);
 			Time(1.000000);

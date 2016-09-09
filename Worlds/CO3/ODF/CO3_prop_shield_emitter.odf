@@ -1,0 +1,16 @@
+[GameObjectClass]
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_shield_emitter.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_shield_emitter"
+
+VehicleCollision = "CLEAR"
+SoldierCollision = "CLEAR"
+
+MaxShield	= "1e+37"
+AddShield	= "1e+37"
+
+FoleyFXGroup    = "metal_foley"

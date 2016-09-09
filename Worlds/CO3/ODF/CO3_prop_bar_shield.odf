@@ -1,0 +1,20 @@
+[GameObjectClass]		
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_bar_shield.msh"
+
+[Properties]	
+
+GeometryName	=	"CO3_prop_bar_shield"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37
+
+DestroyedGeometryName	= ""
+
+AINoRepair      = "1"
+HideHealthBar = "0"
+
+MaxShield	= "1e+37"
+AddShield	= "1e+37"

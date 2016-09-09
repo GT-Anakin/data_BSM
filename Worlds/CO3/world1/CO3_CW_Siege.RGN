@@ -1,0 +1,47 @@
+Version(1);
+RegionCount(5);
+
+Region("cp1_zone1_capture", 2)
+{
+	Layer(17);
+	Position(-73.678421, -289.284241, 157.711578);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(7.000000, 5.000000, 7.000000);
+	Name("cp1_zone1_capture");
+}
+
+Region("cp2_zone1_capture", 0)
+{
+	Layer(17);
+	Position(-149.558960, -277.525726, 69.496613);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 5.000000, 12.000000);
+	Name("cp2_zone1_capture");
+}
+
+Region("cis_landing_frigate_siege", 0)
+{
+	Layer(17);
+	Position(256.600769, 836.892639, -657.975281);
+	Rotation(-0.217158, 0.000000, -0.976137, 0.000000);
+	Size(112.000000, 20.000000, 100.000000);
+	Name("cis_landing_frigate_siege");
+}
+
+Region("landing_siege", 0)
+{
+	Layer(17);
+	Position(135.455627, -287.042847, -6.694736);
+	Rotation(0.932301, 0.000000, -0.361684, 0.000000);
+	Size(25.000000, 15.000000, 25.000000);
+	Name("landing_siege");
+}
+
+Region("cp3_zone2_capture", 2)
+{
+	Layer(17);
+	Position(-67.086700, -280.379150, 45.445938);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 5.000000, 6.000000);
+	Name("cp3_zone2_capture");
+}

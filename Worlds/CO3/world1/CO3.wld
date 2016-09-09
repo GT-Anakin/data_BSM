@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.855, 0.248, 0.437, -0.127);
-	Position(-68.999, -280.924, 41.197);
+	Rotation(0.726, 0.502, -0.387, 0.268);
+	Position(-103.115, -244.955, 107.530);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(1000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -153,7 +153,7 @@ Object("CO3_prop_metal_junk_81", "CO3_prop_metal_junk_01", 94083333)
 
 Object("CO3_prop_metal_junk_99", "CO3_prop_metal_junk_01", 102465205)
 {
-	ChildRotation(0.598, 0.000, 0.802, 0.000);
+	ChildRotation(0.598, 0.000, 0.801, 0.000);
 	ChildPosition(-140.807, -282.685, 24.270);
 	SeqNo(102465205);
 	Team(0);
@@ -625,8 +625,8 @@ Object("CO3_prop_props_22", "CO3_prop_props_01", 489286418)
 
 Object("CO3_prop_props_28", "CO3_prop_props_01", 490614897)
 {
-	ChildRotation(0.726, 0.000, 0.688, 0.000);
-	ChildPosition(-156.533, -283.160, 92.464);
+	ChildRotation(0.727, 0.000, 0.687, 0.000);
+	ChildPosition(-156.491, -283.160, 92.796);
 	SeqNo(490614897);
 	Team(0);
 	NetworkId(-1);
@@ -670,7 +670,7 @@ Object("CO3_bldg_building_05", "CO3_bldg_building_05", 513715446)
 
 Object("CO3_prop_metal_junk_55", "CO3_prop_metal_junk_01", 515757088)
 {
-	ChildRotation(0.573, 0.000, -0.820, 0.000);
+	ChildRotation(0.573, 0.000, -0.819, 0.000);
 	ChildPosition(-133.014, -283.160, 58.153);
 	SeqNo(515757088);
 	Team(0);
@@ -1252,7 +1252,7 @@ Object("CO3_prop_adsign_04", "CO3_prop_adsign_04", 1008288813)
 
 Object("CO3_prop_bars_glass_35", "CO3_prop_bars_glass_02", 1009970671)
 {
-	ChildRotation(0.711, -0.689, 0.097, 0.097);
+	ChildRotation(0.711, -0.690, 0.097, 0.097);
 	ChildPosition(-58.186, -283.119, 49.227);
 	SeqNo(1009970671);
 	Team(0);
@@ -1648,7 +1648,7 @@ Object("CO3_bldg_jedi_temple", "CO3_bldg_jedi_temple", 1287210522)
 
 Object("CO3_prop_bars_glass_33", "CO3_prop_bars_glass_03", 1290704684)
 {
-	ChildRotation(0.476, -0.160, -0.556, -0.663);
+	ChildRotation(0.476, -0.160, -0.556, -0.662);
 	ChildPosition(-76.187, -283.118, 44.074);
 	SeqNo(1290704684);
 	Team(0);
@@ -1992,7 +1992,7 @@ Object("CO3_prop_decal_8", "CO3_prop_decal_01", 1582275718)
 
 Object("CO3_prop_metal_junk_116", "CO3_prop_metal_junk_01", 1590429961)
 {
-	ChildRotation(0.501, 0.000, 0.865, 0.000);
+	ChildRotation(0.501, 0.000, 0.866, 0.000);
 	ChildPosition(7.934, -300.037, 2.961);
 	SeqNo(1590429961);
 	Team(0);
@@ -2747,7 +2747,7 @@ Object("ad_ring9", "CO3_prop_advert_ring_02", 2145037154)
 
 Object("CO3_prop_metal_junk_136", "CO3_prop_metal_junk_01", -2139342215)
 {
-	ChildRotation(0.513, 0.000, -0.859, 0.000);
+	ChildRotation(0.513, 0.000, -0.858, 0.000);
 	ChildPosition(-115.570, -283.160, -7.930);
 	SeqNo(-2139342215);
 	Team(0);
@@ -4109,7 +4109,7 @@ Object("com_item_healthrecharge1", "com_item_healthrecharge", -1286030674)
 
 Object("CO3_prop_props_57", "CO3_prop_props_02", -1285536950)
 {
-	ChildRotation(0.590, 0.000, 0.808, 0.000);
+	ChildRotation(0.590, 0.000, 0.807, 0.000);
 	ChildPosition(-88.088, -283.160, 72.959);
 	SeqNo(-1285536950);
 	Team(0);
@@ -4118,7 +4118,7 @@ Object("CO3_prop_props_57", "CO3_prop_props_02", -1285536950)
 
 Object("CO3_prop_metal_junk_56", "CO3_prop_metal_junk_01", -1285065716)
 {
-	ChildRotation(0.573, 0.000, -0.820, 0.000);
+	ChildRotation(0.573, 0.000, -0.819, 0.000);
 	ChildPosition(-98.040, -291.959, 85.390);
 	SeqNo(-1285065716);
 	Team(0);
@@ -4319,7 +4319,7 @@ Object("CO3_prop_metal_junk_105", "CO3_prop_metal_junk_01", -1119676813)
 Object("CO3_prop_metal_junk_32", "CO3_prop_metal_junk_01", -1117683247)
 {
 	ChildRotation(1.000, 0.000, -0.002, 0.000);
-	ChildPosition(-52.166, -283.189, 39.924);
+	ChildPosition(-52.462, -283.189, 36.401);
 	SeqNo(-1117683247);
 	Team(0);
 	NetworkId(-1);
@@ -4649,7 +4649,7 @@ Object("CO3_bldg_building_07", "CO3_bldg_building_07", -953682874)
 Object("CO3_prop_box_01", "CO3_prop_box_01", -948113842)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
-	ChildPosition(-52.400, -283.163, 42.423);
+	ChildPosition(-52.033, -283.163, 38.599);
 	SeqNo(-948113842);
 	Team(0);
 	NetworkId(-1);
@@ -5055,7 +5055,7 @@ Object("CO3_prop_metal_junk_70", "CO3_prop_metal_junk_01", -702916729)
 
 Object("CO3_prop_metal_junk_100", "CO3_prop_metal_junk_01", -699379759)
 {
-	ChildRotation(0.598, 0.000, 0.802, 0.000);
+	ChildRotation(0.598, 0.000, 0.801, 0.000);
 	ChildPosition(-133.608, -283.160, 15.287);
 	SeqNo(-699379759);
 	Team(0);

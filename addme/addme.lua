@@ -32,13 +32,15 @@ mode_ctf_x = 1,
 mode_1flag_x = 1, 
 mode_tdm_x = 1, 
 mode_space_x = 1,
-change = { mode_con = { name="Supremacy", about="Supremacy The ultimate battle between two powerful sides. Defend and capture command posts, eliminate your enemies reinforcements and destroy their fleet." },  
+mode_siege_x = 1,
+change = { 
+mode_con = { name="Supremacy", about="Supremacy The ultimate battle between two powerful sides. Defend and capture command posts, eliminate your enemie reinforcements and destroy their fleet." },  
 mode_space = { name="Fighter Squadron", about="Fighter Squadron The first team who first archives a certain number of points wins the battle in space." }, 
+mode_siege = { name="Turning Point", about="Turning Point One Team captures command posts to gain more zones. The other team has to defend their area from the attacking team." },
 era_x = { name="BF3: Clone Wars" },
 era_y = { name="BF3: Galactic Civil War" },
 }, 
 }
-
 
 
 mp_n = table.getn(mp_missionselect_listbox_contents)
@@ -51,6 +53,7 @@ AddDownloadableContent("CO3","CO3x_ctf",4)
 AddDownloadableContent("CO3","CO3x_1flag",4)
 AddDownloadableContent("CO3","CO3x_tdm",4)
 AddDownloadableContent("CO3","CO3x_space",4)
+AddDownloadableContent("CO3","CO3x_siege",4)
 
 -- all done
 newEntry = nil

@@ -86,6 +86,11 @@ Layer("SoundStreamsSpace", 16, 0)
 	Description("");
 }
 
+Layer("CW_Siege", 17, 0)
+{
+	Description("");
+}
+
 
 GameMode("Common")
 {
@@ -154,5 +159,10 @@ GameMode("Deathregions")
 GameMode("SoundStreamsSpace")
 {
 	Layer(16);
+}
+
+GameMode("CW_Siege")
+{
+	Layer(17);
 }
 

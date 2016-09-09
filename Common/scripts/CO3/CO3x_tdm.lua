@@ -64,6 +64,18 @@ end
 --	SetUberMode(1);
 --	end
 	SetAIDifficulty(2 , 2 )
+	
+	DisableBarriers("cw_bar1")
+	DisableBarriers("cw_bar2")
+	DisableBarriers("cw_bar3")
+	DisableBarriers("cw_bar4")
+	DisableBarriers("cw_bar5")
+	DisableBarriers("cw_bar6")
+	DisableBarriers("cw_bar7")
+	DisableBarriers("cw_bar8")
+	DisableBarriers("cw_bar9")
+	DisableBarriers("cw_bar10")
+	DisableBarriers("cw_bar11")
    
  end
  

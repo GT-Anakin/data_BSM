@@ -1,0 +1,13 @@
+ucft
+{
+	REQN
+	{
+		"congraph"
+		"CO3_CW_Siege"
+	}
+	REQN
+	{
+		"world"
+		"CO3_CW_Siege"
+	}
+}

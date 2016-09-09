@@ -71,7 +71,7 @@ SetAIDifficulty(10 , 10 )
     	AddAIGoal(ATT, "Deathmatch", 1000)
     	AddAIGoal(DEF, "Deathmatch", 1000)
     SetMapNorthAngle(180, 1)
-	--SetUberMode(1);
+	SetUberMode(1);
    
 
 	
@@ -522,17 +522,17 @@ function ScriptInit()
   SetupTeams{
 		rep = {
 			team = REP,
-			units = 25,
+			units = 30,
 			reinforcements = -1,
-			soldier  = { "republic_inf_engineer",5, 25},
+			soldier  = { "republic_inf_engineer",10, 30},
 	        
 		},
 		
 		cis = {
 			team = CIS,
-			units = 25,
+			units = 30,
 			reinforcements = -1,
-			soldier  = { "cis_inf_pilot",5, 25},
+			soldier  = { "cis_inf_pilot",10, 30},
 		}
 	}
            
@@ -565,7 +565,7 @@ function ScriptInit()
 	SetMemoryPoolSize("Weapon", weaponCnt)
 	SetMemoryPoolSize ("FLEffectObject::OffsetMatrix", 100)
 
-    SetSpawnDelay(10.0, 0.25)
+    SetSpawnDelay(10.0, 3.0)
 	
     ReadDataFile("dc:CO3\\CO3.lvl", "CO3_CW_Space", "CO3_SoundStreamsSpace")
     SetDenseEnvironment("false")

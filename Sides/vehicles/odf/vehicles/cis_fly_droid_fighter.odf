@@ -47,7 +47,7 @@ EjectResistance         = "0.01"
 TimeTilReboard          = "5.0"
 
 TakeoffTime             = 3.0
-TakeoffSpeed            = 4.5
+TakeoffSpeed            = 5.0
 LandingTime             = 2.5
 LandingSpeed            = 4.5
 TakeoffHeight           = 1.0

@@ -1,0 +1,12 @@
+[GameObjectClass]
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_prop_shield_emitter_column.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_shield_emitter_column"
+
+VehicleCollision = "p_-v-cube"
+
+FoleyFXGroup    = "metal_foley"

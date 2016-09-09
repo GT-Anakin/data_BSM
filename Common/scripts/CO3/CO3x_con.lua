@@ -732,6 +732,9 @@ SetProperty("rep_turret_console", "MaxHealth", "0")
 SetProperty("rep_bridge", "CurHealth", "0")
 SetProperty("rep_bridge", "MaxHealth", "0")
 
+SetProperty("rep_tube_cap", "CurHealth", "0")
+SetProperty("rep_tube_cap", "MaxHealth", "0")
+
 SetProperty("rep_engines", "CurHealth", "0")
 SetProperty("rep_engines", "MaxHealth", "0")
 
@@ -948,6 +951,9 @@ SetProperty("cis_turret_console", "MaxHealth", "0")
 SetProperty("cis_bridge", "CurHealth", "0")
 SetProperty("cis_bridge", "MaxHealth", "0")
 
+SetProperty("cis_tube_cap", "CurHealth", "0")
+SetProperty("cis_tube_cap", "MaxHealth", "0")
+
 SetProperty("cis_engines_1", "CurHealth", "0")
 SetProperty("cis_engines_1", "MaxHealth", "0")
 SetProperty("cis_engines_2", "CurHealth", "0")
@@ -1063,10 +1069,6 @@ ShowMessageText("level.co3.supremacy.events.frigates.capital.cis.destruction.rep
 AddReinforcements(DEF, -200)
 
 
-
---SetProperty("cis_fedcruiser_crashing", "IsVisible", 1)
---SetProperty("cis_fedcruiser_crashing", "MaxHealth", 1e+37)
---SetProperty("cis_fedcruiser_crashing", "CurHealth", 1e+37)
 
       DestroyTimer(timer)
                  end,
@@ -1193,10 +1195,6 @@ function ScriptInit()
     SetMemoryPoolSize ("Combo::DamageSample",6000)  -- should be ~8-12x #Combo::Attack
     SetMemoryPoolSize ("Combo::Deflect",100)     -- should be ~1x #combo  
 	
-	
-    	--ReadDataFile("dc:Sound\\co3.lvl;co3cwsup")
-
-
 		
 		ReadDataFile("dc:SIDE\\airspeeder.lvl",
 		"AirSpeeder_speeder_01",
@@ -1256,10 +1254,6 @@ function ScriptInit()
 		"tur_bldg_chaingun_roof_co3",
         "tur_bldg_chaingun_tripod_co3")
 	
-    ReadDataFile("SIDE\\cis.lvl",
-                "cis_inf_rocketeer")
-           
-
 
 	SetupTeams{
 		rep = {
@@ -1290,10 +1284,7 @@ function ScriptInit()
 	
 	AddUnitClass(CIS,"cis_inf_droideka",4,10)
 	
-     
-   -- SetHeroClass(CIS, "heroes_cis_grievous")
-   -- SetHeroClass(REP, "heroes_republic_x2")
-   
+
 
     --  Level Stats
     ClearWalkers()
@@ -1301,38 +1292,7 @@ function ScriptInit()
     AddWalkerType(1, 4) -- 1x2 (1 pair of legs)
     AddWalkerType(2, 0) -- 2x2 (2 pairs of legs)
     AddWalkerType(3, 0) -- 3x2 (3 pairs of legs)
-	
---[[    local weaponCnt = 1024
-    SetMemoryPoolSize("Aimer", 75)
-    SetMemoryPoolSize("AmmoCounter", weaponCnt)
-    SetMemoryPoolSize("BaseHint", 1024)
-    SetMemoryPoolSize("EnergyBar", weaponCnt)
-	SetMemoryPoolSize("EntityCloth", 32)
-	if not ScriptCB_InMultiplayer() then
-	SetMemoryPoolSize("EntityFlyer", 32)
-	else
-	SetMemoryPoolSize("EntityFlyer", 22)
-	end
-    SetMemoryPoolSize("EntityHover", 8)
-	--SetMemoryPoolSize("CommandWalker", 1)
-	SetMemoryPoolSize("CommandFlyer", 4)
-    SetMemoryPoolSize("EntityLight", 200)
-    SetMemoryPoolSize("EntitySoundStream", 16)
-    SetMemoryPoolSize("EntitySoundStatic", 32)
-    SetMemoryPoolSize("MountedTurret", 32)
-	SetMemoryPoolSize("Navigator", 128)
-    SetMemoryPoolSize("Obstacle", 1024)
-	SetMemoryPoolSize("PathNode", 1024)
-    SetMemoryPoolSize("SoundSpaceRegion", 64)
-    SetMemoryPoolSize("TreeGridStack", 1024)
-	SetMemoryPoolSize("UnitAgent", 128)
-	SetMemoryPoolSize("UnitController", 128)
-	SetMemoryPoolSize("FLEffectObject::OffsetMatrix", 120)
-	SetMemoryPoolSize("EntityRemoteTerminal",20)
-	SetMemoryPoolSize("ParticleEmitter", 512)
-    SetMemoryPoolSize("ParticleEmitterInfoData", 512)
-	SetMemoryPoolSize("Weapon", weaponCnt)
-    ]]
+
 	local weaponCnt = 1024 
     SetMemoryPoolSize("Aimer", 75)
     SetMemoryPoolSize("AmmoCounter", weaponCnt)
@@ -1430,6 +1390,7 @@ function ScriptInit()
 	AddLandingRegion("landing_3")
 	AddLandingRegion("landing_4")
 	AddLandingRegion("landing_5")
+	AddLandingRegion("landing_6")
 	AddLandingRegion("rep_landing")
 	AddLandingRegion("cis_landing")
 	AddLandingRegion("cis_landing_frigate")

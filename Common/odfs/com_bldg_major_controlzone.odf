@@ -10,8 +10,8 @@ BUILDINGSECTION = "BODY"
 
 Label = "Major Control Zone"
 
-NeutralizeTime 		= 36.0
-CaptureTime 		= 16.0
+NeutralizeTime 		= 40.0
+CaptureTime 		= 24.0
 
 MapTexture 		= "hud_flag_icon"
 MapScale 		= 2.8

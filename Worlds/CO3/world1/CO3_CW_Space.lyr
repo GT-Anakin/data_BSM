@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.855, 0.248, 0.437, -0.127);
-	Position(-68.999, -280.924, 41.197);
+	Rotation(0.726, 0.502, -0.387, 0.268);
+	Position(-103.115, -244.955, 107.530);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(1000.000);
+	FarPlane(5000.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -60,7 +60,7 @@ Object("cis_vehicle100", "com_item_vehicle_spawn", 36946677)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -79,6 +79,46 @@ Object("cis_vehicle100", "com_item_vehicle_spawn", 36946677)
 	ClassLocDEF("");
 	ClassHisDEF("");
 	ClassLocals("");
+}
+
+Object("CO3_prop_container9", "CO3_prop_container", 80713828)
+{
+	ChildRotation(1.000, 0.000, 0.025, 0.000);
+	ChildPosition(1358.882, 800.309, 26.236);
+	SeqNo(80713828);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container17", "CO3_prop_container", 158950749)
+{
+	ChildRotation(1.000, 0.000, 0.021, 0.000);
+	ChildPosition(1532.556, 800.309, -105.418);
+	SeqNo(158950749);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container16", "CO3_prop_container", 184009099)
+{
+	ChildRotation(1.000, 0.000, 0.021, 0.000);
+	ChildPosition(1533.612, 800.309, -82.431);
+	SeqNo(184009099);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar4", "CO3_prop_smallpillar", 325352792)
+{
+	ChildRotation(0.744, 0.000, 0.668, 0.000);
+	ChildPosition(-1534.116, 850.498, -48.595);
+	SeqNo(325352792);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
 }
 
 Object("rep_Frigate_ext_Shields0", "rep_Frigate_ext_Shields", 379856601)
@@ -101,12 +141,92 @@ Object("cis_frigate_space_closed2", "CIS_Frigate_ext_Hallways_closed", 384618375
 	Layer(13);
 }
 
+Object("CO3_bldg_hangar_bridge8", "CO3_bldg_hangar_bridge", 411889751)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(-1525.909, 850.498, 138.283);
+	SeqNo(411889751);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_space_tur_5", "rep_bldg_frigateturret", 419470166)
 {
 	ChildRotation(1.000, 0.000, 0.000, 0.000);
 	ChildPosition(1563.181, 907.197, 422.003);
 	SeqNo(419470166);
 	Team(1);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container28", "CO3_prop_container", 484115655)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1389.858, 800.309, 119.075);
+	SeqNo(484115655);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container41", "CO3_prop_container", 489088114)
+{
+	ChildRotation(0.715, 0.000, 0.699, 0.000);
+	ChildPosition(-1443.500, 850.498, 25.454);
+	SeqNo(489088114);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_bldg_hangar_bridge1", "CO3_bldg_hangar_bridge", 514295610)
+{
+	ChildRotation(0.687, 0.000, 0.727, 0.000);
+	ChildPosition(1441.294, 800.309, -27.139);
+	SeqNo(514295610);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container34", "CO3_prop_container", 525827324)
+{
+	ChildRotation(0.026, 0.000, -1.000, 0.000);
+	ChildPosition(1438.048, 800.309, -170.341);
+	SeqNo(525827324);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container37", "CO3_prop_container", 559769949)
+{
+	ChildRotation(0.013, 0.000, -1.000, 0.000);
+	ChildPosition(1448.471, 800.309, 46.943);
+	SeqNo(559769949);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_bldg_hangar_bridge2", "CO3_bldg_hangar_bridge", 600736896)
+{
+	ChildRotation(0.688, 0.000, 0.726, 0.000);
+	ChildPosition(1511.888, 800.309, -31.712);
+	SeqNo(600736896);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container", "CO3_prop_container", 609353762)
+{
+	ChildRotation(0.673, 0.000, 0.740, 0.000);
+	ChildPosition(1357.283, 800.309, -46.683);
+	SeqNo(609353762);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -121,6 +241,16 @@ Object("rep_space_tur_2", "rep_bldg_frigateturret", 620683083)
 	Layer(13);
 }
 
+Object("CO3_prop_tube1", "CO3_prop_tube", 656344389)
+{
+	ChildRotation(0.952, 0.000, 0.305, 0.000);
+	ChildPosition(1492.156, 800.309, -97.955);
+	SeqNo(656344389);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_vehicle120", "com_item_vehicle_spawn", 698222557)
 {
 	ChildRotation(1.000, 0.000, 0.004, 0.000);
@@ -130,7 +260,7 @@ Object("cis_vehicle120", "com_item_vehicle_spawn", 698222557)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -170,7 +300,7 @@ Object("rep_vehicle50", "com_item_vehicle_spawn", 767155132)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -191,12 +321,72 @@ Object("rep_vehicle50", "com_item_vehicle_spawn", 767155132)
 	ClassLocals("");
 }
 
+Object("CO3_prop_container13", "CO3_prop_container", 828536976)
+{
+	ChildRotation(0.743, 0.000, -0.669, 0.000);
+	ChildPosition(1528.731, 800.309, -40.828);
+	SeqNo(828536976);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container35", "CO3_prop_container", 848614255)
+{
+	ChildRotation(0.026, 0.000, -1.000, 0.000);
+	ChildPosition(1456.599, 800.309, -171.319);
+	SeqNo(848614255);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar8", "CO3_prop_smallpillar", 937063834)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1527.050, 850.498, 60.435);
+	SeqNo(937063834);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container43", "CO3_prop_container", 1000210505)
+{
+	ChildRotation(1.000, 0.000, -0.020, 0.000);
+	ChildPosition(-1502.978, 850.445, 48.670);
+	SeqNo(1000210505);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("CIS_Frigate_space", "CIS_Frigate_ext", 1022521979)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
 	ChildPosition(-1710.734, 808.488, 52.592);
 	SeqNo(1022521979);
 	Team(2);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar", "CO3_prop_largepillar", 1049546538)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1440.808, 850.498, -36.099);
+	SeqNo(1049546538);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container46", "CO3_prop_container", 1056806420)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1596.458, 850.498, 143.099);
+	SeqNo(1056806420);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -210,7 +400,7 @@ Object("cis_vehicle140", "com_item_vehicle_spawn", 1070270233)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -241,6 +431,36 @@ Object("rep_frigate_space_2", "rep_Frigate_ext", 1077165526)
 	Layer(13);
 }
 
+Object("CO3_prop_container8", "CO3_prop_container", 1077223359)
+{
+	ChildRotation(0.691, 0.000, 0.723, 0.000);
+	ChildPosition(1356.659, 800.309, 8.590);
+	SeqNo(1077223359);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_bldg_hangar_bridge7", "CO3_bldg_hangar_bridge", 1096385671)
+{
+	ChildRotation(1.000, 0.000, 0.010, 0.000);
+	ChildPosition(-1513.397, 850.498, -29.803);
+	SeqNo(1096385671);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar", "CO3_prop_smallpillar", 1108224078)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1611.321, 850.498, -38.050);
+	SeqNo(1108224078);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_space_tur_2", "cis_bldg_frigateturret", 1121755236)
 {
 	ChildRotation(0.710, 0.000, 0.704, 0.000);
@@ -260,7 +480,7 @@ Object("rep_vehicle70", "com_item_vehicle_spawn", 1143928855)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -291,6 +511,16 @@ Object("objectives_a_cis", "Dest_Cube", 1145474801)
 	Layer(13);
 }
 
+Object("CO3_prop_largepillar6", "CO3_prop_largepillar", 1154248104)
+{
+	ChildRotation(0.914, 0.000, -0.405, 0.000);
+	ChildPosition(-1506.585, 850.498, 55.058);
+	SeqNo(1154248104);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_vehicle110", "com_item_vehicle_spawn", 1168010454)
 {
 	ChildRotation(1.000, 0.000, 0.004, 0.000);
@@ -300,7 +530,7 @@ Object("cis_vehicle110", "com_item_vehicle_spawn", 1168010454)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -330,7 +560,7 @@ Object("rep_vehicle120", "com_item_vehicle_spawn", 1177387239)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -361,6 +591,26 @@ Object("rep_frigate_space_closed_an", "rep_Frigate_ext_Hallways_closed", 1250482
 	Layer(13);
 }
 
+Object("CO3_prop_container47", "CO3_prop_container", 1343720032)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1540.010, 850.498, 150.108);
+	SeqNo(1343720032);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container19", "CO3_prop_container", 1357584917)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1327.878, 800.309, -127.670);
+	SeqNo(1357584917);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_vehicle90", "com_item_vehicle_spawn", 1370469641)
 {
 	ChildRotation(-0.014, 0.000, -1.000, 0.000);
@@ -370,7 +620,7 @@ Object("cis_vehicle90", "com_item_vehicle_spawn", 1370469641)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -391,6 +641,76 @@ Object("cis_vehicle90", "com_item_vehicle_spawn", 1370469641)
 	ClassLocals("");
 }
 
+Object("CO3_prop_smallpillar10", "CO3_prop_smallpillar", 1382235892)
+{
+	ChildRotation(0.981, 0.000, -0.192, 0.000);
+	ChildPosition(-1593.883, 850.498, 41.151);
+	SeqNo(1382235892);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar1", "CO3_prop_largepillar", 1403119114)
+{
+	ChildRotation(0.630, 0.000, 0.777, 0.000);
+	ChildPosition(-1444.148, 850.498, -36.628);
+	SeqNo(1403119114);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube7", "CO3_prop_tube", 1451951480)
+{
+	ChildRotation(0.752, 0.000, 0.659, 0.000);
+	ChildPosition(-1541.968, 850.478, 110.950);
+	SeqNo(1451951480);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar14", "CO3_prop_largepillar", 1488557958)
+{
+	ChildRotation(-0.231, 0.000, -0.973, 0.000);
+	ChildPosition(-1611.156, 850.498, -45.439);
+	SeqNo(1488557958);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar5", "CO3_prop_smallpillar", 1542991444)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1443.091, 850.498, -40.416);
+	SeqNo(1542991444);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container49", "CO3_prop_container", 1561991665)
+{
+	ChildRotation(0.268, 0.000, -0.963, 0.000);
+	ChildPosition(-1456.563, 850.433, 131.285);
+	SeqNo(1561991665);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container31", "CO3_prop_container", 1577450743)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1456.953, 800.309, -164.147);
+	SeqNo(1577450743);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_space_tur_1", "rep_bldg_frigateturret", 1618379410)
 {
 	ChildRotation(0.737, 0.000, -0.676, 0.000);
@@ -401,10 +721,20 @@ Object("rep_space_tur_1", "rep_bldg_frigateturret", 1618379410)
 	Layer(13);
 }
 
+Object("CO3_prop_container7", "CO3_prop_container", 1625529305)
+{
+	ChildRotation(0.691, 0.000, 0.723, 0.000);
+	ChildPosition(1355.837, 800.309, -5.774);
+	SeqNo(1625529305);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cp_frigate_cis_space", "com_bldg_controlzone_CTF", 1645619956)
 {
 	ChildRotation(0.714, 0.000, -0.700, 0.000);
-	ChildPosition(-1597.917, 850.484, 48.361);
+	ChildPosition(-1531.648, 850.453, 46.845);
 	SeqNo(1645619956);
 	Team(2);
 	NetworkId(-1);
@@ -478,9 +808,39 @@ Object("cp_frigate_cis_space", "com_bldg_controlzone_CTF", 1645619956)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("5.0");
+	AISpawnWeight("100.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
+}
+
+Object("CO3_prop_container5", "CO3_prop_container", 1692637805)
+{
+	ChildRotation(0.691, 0.000, 0.723, 0.000);
+	ChildPosition(1361.648, 800.309, -28.609);
+	SeqNo(1692637805);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar4", "CO3_prop_largepillar", 1709501494)
+{
+	ChildRotation(0.689, 0.000, -0.725, 0.000);
+	ChildPosition(-1434.141, 850.498, 36.954);
+	SeqNo(1709501494);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar7", "CO3_prop_smallpillar", 1716165283)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1448.629, 850.498, 22.740);
+	SeqNo(1716165283);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
 }
 
 Object("cis_frigate_space_closed1", "CIS_Frigate_ext_Hallways_closed", 1742960847)
@@ -502,7 +862,7 @@ Object("rep_vehicle100", "com_item_vehicle_spawn", 1812645178)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -523,11 +883,61 @@ Object("rep_vehicle100", "com_item_vehicle_spawn", 1812645178)
 	ClassLocals("");
 }
 
+Object("CO3_prop_largepillar10", "CO3_prop_largepillar", 1831853726)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1611.337, 850.498, 24.187);
+	SeqNo(1831853726);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar2", "CO3_prop_largepillar", 1842490486)
+{
+	ChildRotation(0.689, 0.000, -0.725, 0.000);
+	ChildPosition(-1441.661, 850.498, -30.878);
+	SeqNo(1842490486);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container48", "CO3_prop_container", 1868400302)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1502.395, 850.498, 149.885);
+	SeqNo(1868400302);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container18", "CO3_prop_container", 1909926593)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1328.297, 800.309, -118.844);
+	SeqNo(1909926593);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("CIS_Frigate_ext_Hallways0", "CIS_Frigate_ext_Hallways", 1914541585)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
 	ChildPosition(-1710.734, 808.437, 52.591);
 	SeqNo(1914541585);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container20", "CO3_prop_container", 1918072811)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1326.741, 800.309, -136.494);
+	SeqNo(1918072811);
 	Team(0);
 	NetworkId(-1);
 	Layer(13);
@@ -543,6 +953,56 @@ Object("rep_frigate_space_closed1", "rep_Frigate_ext_Hallways_closed", 199241679
 	Layer(13);
 }
 
+Object("CO3_bldg_hangar_bridge4", "CO3_bldg_hangar_bridge", 2055953001)
+{
+	ChildRotation(0.039, 0.000, -0.999, 0.000);
+	ChildPosition(1402.953, 800.309, -101.708);
+	SeqNo(2055953001);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar1", "CO3_prop_smallpillar", 2091153843)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1613.259, 850.498, -35.141);
+	SeqNo(2091153843);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar11", "CO3_prop_largepillar", 2103868071)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1614.610, 850.498, 0.906);
+	SeqNo(2103868071);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar13", "CO3_prop_largepillar", 2107759112)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1614.913, 850.498, -39.385);
+	SeqNo(2107759112);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube3", "CO3_prop_tube", 2112838708)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1371.904, 800.309, 48.243);
+	SeqNo(2112838708);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_vehicle80", "com_item_vehicle_spawn", 2116516252)
 {
 	ChildRotation(-0.014, 0.000, -1.000, 0.000);
@@ -552,7 +1012,7 @@ Object("cis_vehicle80", "com_item_vehicle_spawn", 2116516252)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -583,6 +1043,16 @@ Object("cis_space_tur_3", "cis_bldg_frigateturret", 2144904148)
 	Layer(13);
 }
 
+Object("CO3_prop_container24", "CO3_prop_container", -2114875964)
+{
+	ChildRotation(0.687, 0.000, 0.727, 0.000);
+	ChildPosition(1521.370, 800.309, 82.920);
+	SeqNo(-2114875964);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_vehicle80", "com_item_vehicle_spawn", -2084204731)
 {
 	ChildRotation(0.000, 0.000, -1.000, 0.000);
@@ -592,7 +1062,7 @@ Object("rep_vehicle80", "com_item_vehicle_spawn", -2084204731)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -622,7 +1092,7 @@ Object("rep_vehicle60", "com_item_vehicle_spawn", -2048463842)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -643,10 +1113,30 @@ Object("rep_vehicle60", "com_item_vehicle_spawn", -2048463842)
 	ClassLocals("");
 }
 
+Object("CO3_prop_smallpillar2", "CO3_prop_smallpillar", -2025513650)
+{
+	ChildRotation(-0.470, 0.000, -0.883, 0.000);
+	ChildPosition(-1513.932, 850.482, -46.504);
+	SeqNo(-2025513650);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_bldg_hangar_bridge6", "CO3_bldg_hangar_bridge", -2003310202)
+{
+	ChildRotation(0.027, 0.000, -1.000, 0.000);
+	ChildPosition(1395.162, 800.309, 47.247);
+	SeqNo(-2003310202);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cp_frigate_rep_space", "com_bldg_controlzone_CTF", -1994435618)
 {
 	ChildRotation(0.732, 0.000, -0.681, 0.000);
-	ChildPosition(1476.886, 800.338, -25.177);
+	ChildPosition(1446.558, 800.338, -24.464);
 	SeqNo(-1994435618);
 	Team(1);
 	NetworkId(-1);
@@ -720,9 +1210,19 @@ Object("cp_frigate_rep_space", "com_bldg_controlzone_CTF", -1994435618)
 	MediumBan("");
 	HugeBan("");
 	FlyerBan("");
-	AISpawnWeight("5.0");
+	AISpawnWeight("100.0");
 	HUDIndex("");
 	HUDIndexDisplay("0");
+}
+
+Object("CO3_prop_container12", "CO3_prop_container", -1987961167)
+{
+	ChildRotation(0.714, 0.000, -0.700, 0.000);
+	ChildPosition(1524.632, 800.309, -15.896);
+	SeqNo(-1987961167);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
 }
 
 Object("rep_frigate_space_closed3", "rep_Frigate_ext_Hallways_closed", -1935355998)
@@ -730,6 +1230,16 @@ Object("rep_frigate_space_closed3", "rep_Frigate_ext_Hallways_closed", -19353559
 	ChildRotation(0.710, 0.002, 0.704, 0.028);
 	ChildPosition(-423.923, 1920.406, -512.141);
 	SeqNo(-1935355998);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube4", "CO3_prop_tube", -1917434721)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(1399.868, 800.309, -88.798);
+	SeqNo(-1917434721);
 	Team(0);
 	NetworkId(-1);
 	Layer(13);
@@ -745,12 +1255,52 @@ Object("rep_frigate_space_1", "rep_Frigate_ext", -1915052725)
 	Layer(13);
 }
 
+Object("CO3_prop_tube9", "CO3_prop_tube", -1852541885)
+{
+	ChildRotation(0.712, 0.000, 0.702, 0.000);
+	ChildPosition(-1580.570, 850.498, -9.862);
+	SeqNo(-1852541885);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container6", "CO3_prop_container", -1809769597)
+{
+	ChildRotation(0.691, 0.000, 0.723, 0.000);
+	ChildPosition(1362.473, 800.309, -14.259);
+	SeqNo(-1809769597);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_frigate_space", "rep_Frigate_ext", -1749159470)
 {
 	ChildRotation(0.728, 0.000, -0.686, 0.000);
 	ChildPosition(1264.309, 757.004, -9.668);
 	SeqNo(-1749159470);
 	Team(1);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container22", "CO3_prop_container", -1747903623)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1345.050, 800.309, -128.967);
+	SeqNo(-1747903623);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container39", "CO3_prop_container", -1738117967)
+{
+	ChildRotation(0.732, 0.000, -0.681, 0.000);
+	ChildPosition(1305.387, 800.309, -97.538);
+	SeqNo(-1738117967);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -765,12 +1315,32 @@ Object("cis_space_tur_6", "cis_bldg_frigateturret", -1736798829)
 	Layer(13);
 }
 
+Object("CO3_prop_container45", "CO3_prop_container", -1721481076)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1595.408, 850.498, 134.327);
+	SeqNo(-1721481076);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_frigate_space_3", "rep_Frigate_ext", -1720744714)
 {
 	ChildRotation(0.710, 0.002, 0.704, 0.028);
 	ChildPosition(-423.921, 1920.405, -512.143);
 	SeqNo(-1720744714);
 	Team(1);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container42", "CO3_prop_container", -1692367826)
+{
+	ChildRotation(0.670, 0.000, 0.742, 0.000);
+	ChildPosition(-1443.052, 850.459, 64.541);
+	SeqNo(-1692367826);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -795,12 +1365,72 @@ Object("rep_frigate_space_closed2", "rep_Frigate_ext_Hallways_closed", -16512839
 	Layer(13);
 }
 
+Object("CO3_bldg_hangar_bridge3", "CO3_bldg_hangar_bridge", -1649456503)
+{
+	ChildRotation(0.039, 0.000, -0.999, 0.000);
+	ChildPosition(1448.459, 800.309, -100.031);
+	SeqNo(-1649456503);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar3", "CO3_prop_smallpillar", -1649071225)
+{
+	ChildRotation(0.744, 0.000, 0.668, 0.000);
+	ChildPosition(-1541.944, 850.498, -49.712);
+	SeqNo(-1649071225);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container50", "CO3_prop_container", -1638040467)
+{
+	ChildRotation(0.268, 0.000, -0.963, 0.000);
+	ChildPosition(-1457.937, 850.395, 120.953);
+	SeqNo(-1638040467);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_space_tur_6", "rep_bldg_frigateturret", -1603232315)
 {
 	ChildRotation(0.023, 0.000, -1.000, 0.000);
 	ChildPosition(1514.061, 906.870, -474.347);
 	SeqNo(-1603232315);
 	Team(1);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container40", "CO3_prop_container", -1600514249)
+{
+	ChildRotation(0.715, 0.000, 0.699, 0.000);
+	ChildPosition(-1444.134, 850.498, 42.059);
+	SeqNo(-1600514249);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_bldg_hangar_bridge", "CO3_bldg_hangar_bridge", -1556157264)
+{
+	ChildRotation(0.687, 0.000, 0.727, 0.000);
+	ChildPosition(1341.365, 800.309, -35.272);
+	SeqNo(-1556157264);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container23", "CO3_prop_container", -1521855131)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1344.610, 800.309, -137.420);
+	SeqNo(-1521855131);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -815,6 +1445,16 @@ Object("cis_space_tur_5", "cis_bldg_frigateturret", -1512590316)
 	Layer(13);
 }
 
+Object("CO3_bldg_hangar_bridge5", "CO3_bldg_hangar_bridge", -1505858867)
+{
+	ChildRotation(0.027, 0.000, -1.000, 0.000);
+	ChildPosition(1472.450, 800.309, 118.988);
+	SeqNo(-1505858867);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_vehicle90", "com_item_vehicle_spawn", -1496743365)
 {
 	ChildRotation(0.000, 0.000, -1.000, 0.000);
@@ -824,7 +1464,7 @@ Object("rep_vehicle90", "com_item_vehicle_spawn", -1496743365)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -845,12 +1485,42 @@ Object("rep_vehicle90", "com_item_vehicle_spawn", -1496743365)
 	ClassLocals("");
 }
 
+Object("CO3_prop_container36", "CO3_prop_container", -1465820633)
+{
+	ChildRotation(0.026, 0.000, -1.000, 0.000);
+	ChildPosition(1420.417, 800.309, -169.470);
+	SeqNo(-1465820633);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("CIS_Frigate_space_2", "CIS_Frigate_ext", -1457540465)
 {
 	ChildRotation(-0.276, -0.005, -0.961, 0.021);
 	ChildPosition(443.636, 1043.789, -1453.559);
 	SeqNo(-1457540465);
 	Team(2);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_smallpillar9", "CO3_prop_smallpillar", -1382557675)
+{
+	ChildRotation(0.981, 0.000, -0.192, 0.000);
+	ChildPosition(-1524.173, 850.612, 20.587);
+	SeqNo(-1382557675);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar9", "CO3_prop_largepillar", -1373921676)
+{
+	ChildRotation(-0.311, 0.000, -0.950, 0.000);
+	ChildPosition(-1613.947, 850.498, 44.584);
+	SeqNo(-1373921676);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -865,6 +1535,16 @@ Object("objectives_a_rep", "Dest_Cube", -1364621832)
 	Layer(13);
 }
 
+Object("CO3_prop_container15", "CO3_prop_container", -1342505096)
+{
+	ChildRotation(0.918, 0.000, -0.397, 0.000);
+	ChildPosition(1514.493, 800.309, -69.162);
+	SeqNo(-1342505096);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_vehicle130", "com_item_vehicle_spawn", -1315100885)
 {
 	ChildRotation(1.000, 0.000, 0.004, 0.000);
@@ -874,7 +1554,7 @@ Object("cis_vehicle130", "com_item_vehicle_spawn", -1315100885)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -895,6 +1575,56 @@ Object("cis_vehicle130", "com_item_vehicle_spawn", -1315100885)
 	ClassLocals("");
 }
 
+Object("CO3_bldg_hangar_bridge10", "CO3_bldg_hangar_bridge", -1295222461)
+{
+	ChildRotation(0.708, 0.000, -0.706, 0.000);
+	ChildPosition(-1520.477, 850.498, 49.697);
+	SeqNo(-1295222461);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar8", "CO3_prop_largepillar", -1283934156)
+{
+	ChildRotation(-0.311, 0.000, -0.950, 0.000);
+	ChildPosition(-1554.196, 850.498, 38.323);
+	SeqNo(-1283934156);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container51", "CO3_prop_container", -1280876854)
+{
+	ChildRotation(0.269, 0.000, -0.963, 0.000);
+	ChildPosition(-1459.697, 850.415, 111.670);
+	SeqNo(-1280876854);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container26", "CO3_prop_container", -1249547483)
+{
+	ChildRotation(0.688, 0.000, 0.726, 0.000);
+	ChildPosition(1506.999, 800.309, 84.623);
+	SeqNo(-1249547483);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container38", "CO3_prop_container", -1243190718)
+{
+	ChildRotation(0.135, 0.000, -0.991, 0.000);
+	ChildPosition(1468.129, 800.309, 44.214);
+	SeqNo(-1243190718);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_vehicle110", "com_item_vehicle_spawn", -1230828887)
 {
 	ChildRotation(0.000, 0.000, -1.000, 0.000);
@@ -904,7 +1634,7 @@ Object("rep_vehicle110", "com_item_vehicle_spawn", -1230828887)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_rep_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -925,6 +1655,36 @@ Object("rep_vehicle110", "com_item_vehicle_spawn", -1230828887)
 	ClassLocals("");
 }
 
+Object("CO3_prop_smallpillar6", "CO3_prop_smallpillar", -1191083112)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1445.964, 850.498, -33.672);
+	SeqNo(-1191083112);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube6", "CO3_prop_tube", -1083171052)
+{
+	ChildRotation(0.966, 0.000, -0.257, 0.000);
+	ChildPosition(-1490.766, 850.483, 103.623);
+	SeqNo(-1083171052);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container33", "CO3_prop_container", -1057524536)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1421.117, 800.309, -161.775);
+	SeqNo(-1057524536);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_space_tur_7", "cis_bldg_frigateturret", -1030586448)
 {
 	ChildRotation(0.707, 0.000, 0.707, 0.000);
@@ -935,11 +1695,71 @@ Object("cis_space_tur_7", "cis_bldg_frigateturret", -1030586448)
 	Layer(13);
 }
 
+Object("CO3_bldg_hangar_bridge9", "CO3_bldg_hangar_bridge", -1020331556)
+{
+	ChildRotation(0.708, 0.000, 0.706, 0.000);
+	ChildPosition(-1454.554, 850.498, 48.988);
+	SeqNo(-1020331556);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container27", "CO3_prop_container", -898119106)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1390.658, 800.309, 135.928);
+	SeqNo(-898119106);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_frigate_space_closed_an", "CIS_Frigate_ext_Hallways_closed", -851053961)
 {
 	ChildRotation(1.000, 0.000, 0.017, 0.000);
 	ChildPosition(607.391, 1178.542, 98.331);
 	SeqNo(-851053961);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube8", "CO3_prop_tube", -826339216)
+{
+	ChildRotation(0.854, 0.000, -0.521, 0.000);
+	ChildPosition(-1482.071, 850.515, -9.798);
+	SeqNo(-826339216);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar15", "CO3_prop_largepillar", -778867612)
+{
+	ChildRotation(-0.231, 0.000, -0.973, 0.000);
+	ChildPosition(-1615.110, 850.498, -32.847);
+	SeqNo(-778867612);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube2", "CO3_prop_tube", -589761409)
+{
+	ChildRotation(0.958, 0.000, -0.286, 0.000);
+	ChildPosition(1486.991, 800.309, 38.174);
+	SeqNo(-589761409);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar12", "CO3_prop_largepillar", -586602161)
+{
+	ChildRotation(0.707, 0.000, -0.707, 0.000);
+	ChildPosition(-1609.087, 850.498, -3.628);
+	SeqNo(-586602161);
 	Team(0);
 	NetworkId(-1);
 	Layer(13);
@@ -955,12 +1775,62 @@ Object("CIS_Frigate_space_3", "CIS_Frigate_ext", -572521337)
 	Layer(13);
 }
 
+Object("CO3_prop_container29", "CO3_prop_container", -565599392)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1413.030, 800.309, 134.152);
+	SeqNo(-565599392);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_largepillar3", "CO3_prop_largepillar", -562408301)
+{
+	ChildRotation(0.689, 0.000, -0.725, 0.000);
+	ChildPosition(-1436.600, 850.498, 49.774);
+	SeqNo(-562408301);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container10", "CO3_prop_container", -552535791)
+{
+	ChildRotation(1.000, 0.000, 0.025, 0.000);
+	ChildPosition(1358.937, 804.122, 26.167);
+	SeqNo(-552535791);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube5", "CO3_prop_tube", -535372022)
+{
+	ChildRotation(0.808, 0.000, -0.589, 0.000);
+	ChildPosition(1422.038, 800.309, 76.724);
+	SeqNo(-535372022);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_space_tur_1", "cis_bldg_frigateturret", -456923596)
 {
 	ChildRotation(0.705, 0.000, 0.709, 0.000);
 	ChildPosition(-1775.065, 877.097, -227.045);
 	SeqNo(-456923596);
 	Team(2);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_tube", "CO3_prop_tube", -445132648)
+{
+	ChildRotation(0.993, 0.000, 0.120, 0.000);
+	ChildPosition(1380.687, 800.309, -22.797);
+	SeqNo(-445132648);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -974,7 +1844,7 @@ Object("cis_vehicle70", "com_item_vehicle_spawn", -416119040)
 	NetworkId(-1);
 	Layer(13);
 	ControlZone("cp_frigate_cis_space");
-	SpawnCount("4");
+	SpawnCount("5");
 	SpawnTime("5");
 	ExpireTimeEnemy("60");
 	ExpireTimeField("120");
@@ -995,12 +1865,62 @@ Object("cis_vehicle70", "com_item_vehicle_spawn", -416119040)
 	ClassLocals("");
 }
 
+Object("CO3_prop_container14", "CO3_prop_container", -404422657)
+{
+	ChildRotation(0.918, 0.000, -0.397, 0.000);
+	ChildPosition(1520.385, 800.309, -74.767);
+	SeqNo(-404422657);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container32", "CO3_prop_container", -403109179)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1438.598, 800.309, -162.959);
+	SeqNo(-403109179);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container11", "CO3_prop_container", -367967619)
+{
+	ChildRotation(1.000, 0.000, 0.026, 0.000);
+	ChildPosition(1529.258, 800.309, -2.815);
+	SeqNo(-367967619);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container44", "CO3_prop_container", -324657743)
+{
+	ChildRotation(1.000, 0.000, 0.000, 0.000);
+	ChildPosition(-1597.444, 850.498, 125.485);
+	SeqNo(-324657743);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("CIS_Frigate_space_1", "CIS_Frigate_ext", -210279787)
 {
 	ChildRotation(0.701, -0.037, 0.708, -0.076);
 	ChildPosition(-932.901, 836.715, 1433.427);
 	SeqNo(-210279787);
 	Team(2);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container21", "CO3_prop_container", -198421571)
+{
+	ChildRotation(0.035, 0.000, -0.999, 0.000);
+	ChildPosition(1345.592, 800.309, -120.091);
+	SeqNo(-198421571);
+	Team(0);
 	NetworkId(-1);
 	Layer(13);
 }
@@ -1025,6 +1945,16 @@ Object("cis_space_tur_4", "cis_bldg_frigateturret", -148763788)
 	Layer(13);
 }
 
+Object("CO3_prop_largepillar5", "CO3_prop_largepillar", -140130422)
+{
+	ChildRotation(0.914, 0.000, -0.405, 0.000);
+	ChildPosition(-1437.064, 850.498, 26.147);
+	SeqNo(-140130422);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("rep_Frigate_ext_Hallways0", "rep_Frigate_ext_Hallways", -137516847)
 {
 	ChildRotation(0.728, 0.000, -0.686, 0.000);
@@ -1035,11 +1965,41 @@ Object("rep_Frigate_ext_Hallways0", "rep_Frigate_ext_Hallways", -137516847)
 	Layer(13);
 }
 
+Object("CO3_prop_largepillar7", "CO3_prop_largepillar", -126082126)
+{
+	ChildRotation(-0.310, 0.000, -0.951, 0.000);
+	ChildPosition(-1501.246, 850.498, 57.921);
+	SeqNo(-126082126);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container25", "CO3_prop_container", -118160280)
+{
+	ChildRotation(0.688, 0.000, 0.726, 0.000);
+	ChildPosition(1514.314, 800.309, 83.854);
+	SeqNo(-118160280);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
 Object("cis_frigate_space_closed3", "CIS_Frigate_ext_Hallways_closed", -61159075)
 {
 	ChildRotation(0.688, 0.015, -0.726, 0.001);
 	ChildPosition(288.711, 1876.638, 775.786);
 	SeqNo(-61159075);
+	Team(0);
+	NetworkId(-1);
+	Layer(13);
+}
+
+Object("CO3_prop_container30", "CO3_prop_container", -50972374)
+{
+	ChildRotation(0.025, 0.000, -1.000, 0.000);
+	ChildPosition(1411.484, 800.309, 116.783);
+	SeqNo(-50972374);
 	Team(0);
 	NetworkId(-1);
 	Layer(13);

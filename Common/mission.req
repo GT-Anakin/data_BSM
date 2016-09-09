@@ -12,6 +12,7 @@ ucft
         "ObjectiveAssault"
         "ObjectiveSpaceAssault"
         "ObjectiveConquest" 
+		"ObjectiveConquestSiege" 
         "ObjectiveTDM"
         "ObjectiveOneFlagCTF"
 		"SoundEvent_ctf"
@@ -27,13 +28,14 @@ ucft
     REQN
     {
         "lvl"
-        "CO3x_con"
+    "CO3x_con"
 	"CO3y_eli"
 	"CO3x_eli"
 	"CO3x_ctf"
 	"CO3x_1flag"
 	"CO3x_tdm"
 	"CO3x_space"
+	"CO3x_siege"
 
     }
 }

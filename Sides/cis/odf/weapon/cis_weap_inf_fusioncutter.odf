@@ -7,6 +7,8 @@ GeometryName            = "cis_weap_hq_inf_fusioncutter"
 HighResGeometry         = "cis_weap_hq_inf_fusioncutter"
 
 TargetDroid             = "1"
+AITargetDroid             = "1"
+TargetFriendly      = "1"
 DroidHealth             = 150
 
 FireEmptySound      = "com_weap_pistol_empty"

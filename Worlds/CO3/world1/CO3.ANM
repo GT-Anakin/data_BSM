@@ -136,6 +136,14 @@ Animation("space_cw_frigate", 100.00, 1, 0)
 	AddRotationKey(100.00, 0.00, 360.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
+Animation("cis_lander_siege", 80.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(30.00, 0.00, 400.00, 1500.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(60.00, 0.00, 500.00, 3000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(80.00, 0.00, 550.00, 50000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
 AnimationGroup("ad_rings", 1, 0)
 {
 	Animation("ring_1", "ad_ring1");
@@ -365,5 +373,10 @@ AnimationGroup("space_cw_frigates", 1, 0)
 	Animation("space_cw_frigate", "CIS_Frigate_space_an");
 	Animation("space_cw_frigate", "rep_frigate_space_an");
 	Animation("space_cw_frigate", "rep_frigate_space_closed_an");
+}
+
+AnimationGroup("cis_lander_siege", 1, 0)
+{
+	Animation("cis_lander_siege", "cis_lander_siege");
 }
 

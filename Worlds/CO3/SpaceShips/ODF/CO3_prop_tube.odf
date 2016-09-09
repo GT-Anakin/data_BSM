@@ -1,0 +1,19 @@
+[GameObjectClass]
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_tube.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_tube"
+
+MapTexture = ""
+MapScale 		= "0.0"
+MaxHealth       	= "1e+37"
+
+DestroyedGeometryName	= ""
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"
