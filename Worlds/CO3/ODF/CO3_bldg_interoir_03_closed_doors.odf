@@ -1,0 +1,11 @@
+[GameObjectClass]		
+
+ClassLabel		=	"prop"
+GeometryName	=	"CO3_bldg_interoir_03_closed_doors.msh"
+
+[Properties]	
+Lighting        = "Dynamic"
+GeometryName	=	"CO3_bldg_interoir_03_closed_doors"
+
+FoleyFXGroup    = "metal_foley"
+

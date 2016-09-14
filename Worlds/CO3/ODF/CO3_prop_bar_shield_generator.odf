@@ -22,17 +22,3 @@ AutoBarrierRemoveOnDeath = "0"
 AutoBarrierSize     = "1.0 1.0"
 
 FoleyFXGroup    = "metal_foley"
-
-DamageStartPercent = "50"
-DamageStopPercent = "0"
-DamageEffect = "sfx_fire"
-DamageEffectScale = "1.5"
-DamageInheritVelocity = "0.0"
-DamageAttachPoint = "hp_damage1"
-
-DamageStartPercent = "30"
-DamageStopPercent = "0"
-DamageEffect = "sfx_fire"
-DamageEffectScale = "1.5"
-DamageInheritVelocity = "0.0"
-DamageAttachPoint = "hp_damage2"

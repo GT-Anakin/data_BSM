@@ -15,7 +15,7 @@ GeometryName            = "com_bldg_chaingun_roof"
 DestroyedGeometryName	= "com_bldg_chaingun_roof_dest"
 ExplosionName		= "com_inf_rechargedroid_exp"
 
-MaxHealth               = "50.0"
+MaxHealth               = "200.0"
 
 HealthTypeForLockOn = "Droid"
 

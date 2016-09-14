@@ -1,0 +1,19 @@
+[GameObjectClass]
+
+ClassLabel		=	"destructablebuilding"
+GeometryName	=	"CO3_prop_shield_emitter_red.msh"
+
+[Properties]
+
+GeometryName	=	"CO3_prop_shield_emitter_red"
+
+MapTexture = ""
+MapScale 		= "0.0"
+
+MaxShield	= "1e+37"
+AddShield	= "1e+37"
+
+AINoRepair      = "1"
+HideHealthBar = "1"
+
+FoleyFXGroup    = "metal_foley"

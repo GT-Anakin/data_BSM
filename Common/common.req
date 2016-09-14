@@ -1,4 +1,12 @@
 ucft
 {
-
+	REQN
+	{
+		"texture"
+		"hud_healthwarning"
+		"hud_visorcrack_md"
+		"hud_visorcrack_lg"
+		"hud_visorcrack_xl"
+		"hud_visorclean"
+	}
 }

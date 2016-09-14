@@ -1,5 +1,5 @@
 Version(1);
-RegionCount(5);
+RegionCount(12);
 
 Region("cp1_zone1_capture", 2)
 {
@@ -28,13 +28,13 @@ Region("cis_landing_frigate_siege", 0)
 	Name("cis_landing_frigate_siege");
 }
 
-Region("landing_siege", 0)
+Region("landing1_siege", 0)
 {
 	Layer(17);
 	Position(135.455627, -287.042847, -6.694736);
 	Rotation(0.932301, 0.000000, -0.361684, 0.000000);
 	Size(25.000000, 15.000000, 25.000000);
-	Name("landing_siege");
+	Name("landing1_siege");
 }
 
 Region("cp3_zone2_capture", 2)
@@ -44,4 +44,67 @@ Region("cp3_zone2_capture", 2)
 	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
 	Size(6.000000, 5.000000, 6.000000);
 	Name("cp3_zone2_capture");
+}
+
+Region("cp4_zone3_capture", 0)
+{
+	Layer(17);
+	Position(11.638457, -275.933838, -1.554238);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(7.000000, 4.000000, 9.000000);
+	Name("cp4_zone3_capture");
+}
+
+Region("cp4_zone2_control", 0)
+{
+	Layer(17);
+	Position(-97.353340, -281.929749, -2.393024);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("cp4_zone2_control");
+}
+
+Region("cp5_zone4_control", 0)
+{
+	Layer(17);
+	Position(136.825546, -297.123657, -11.553959);
+	Rotation(0.909008, 0.000000, 0.416778, 0.000000);
+	Size(10.000000, 10.000000, 10.000000);
+	Name("cp5_zone4_control");
+}
+
+Region("cp5_zone4_capture", 2)
+{
+	Layer(17);
+	Position(138.347122, -295.517151, 9.529877);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(8.000000, 5.000000, 8.000000);
+	Name("cp5_zone4_capture");
+}
+
+Region("cp7_zone4_capture", 0)
+{
+	Layer(17);
+	Position(150.833023, -297.607391, -85.119347);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(6.000000, 3.000000, 6.000000);
+	Name("cp7_zone4_capture");
+}
+
+Region("cp6_zone4_capture", 0)
+{
+	Layer(17);
+	Position(90.117836, -290.699249, -63.331139);
+	Rotation(0.929718, 0.000000, 0.368307, 0.000000);
+	Size(6.000000, 4.000000, 4.000000);
+	Name("cp6_zone4_capture");
+}
+
+Region("landing2_siege", 0)
+{
+	Layer(17);
+	Position(41.323841, -268.976868, -1.682457);
+	Rotation(1.000000, 0.000000, 0.000000, 0.000000);
+	Size(12.000000, 10.000000, 13.000000);
+	Name("landing2_siege");
 }

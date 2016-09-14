@@ -7,10 +7,16 @@ GeometryName	=	"CO3_prop_shield_emitter.msh"
 
 GeometryName	=	"CO3_prop_shield_emitter"
 
+MapTexture = ""
+MapScale 		= "0.0"
+
 VehicleCollision = "CLEAR"
 SoldierCollision = "CLEAR"
 
 MaxShield	= "1e+37"
 AddShield	= "1e+37"
+
+AINoRepair      = "1"
+HideHealthBar = "1"
 
 FoleyFXGroup    = "metal_foley"

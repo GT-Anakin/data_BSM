@@ -14,7 +14,7 @@ MaxHealth       	= "1e+37
 DestroyedGeometryName	= ""
 
 AINoRepair      = "1"
-HideHealthBar = "0"
+HideHealthBar = "1"
 
 MaxShield	= "1e+37"
 AddShield	= "1e+37"

@@ -3,11 +3,11 @@ SaveType(0);
 
 Camera("camera")
 {
-	Rotation(0.726, 0.502, -0.387, 0.268);
-	Position(-103.115, -244.955, 107.530);
+	Rotation(0.939, 0.208, -0.269, 0.060);
+	Position(192.614, 1455.510, -1052.776);
 	FieldOfView(55.400);
 	NearPlane(1.000);
-	FarPlane(5000.000);
+	FarPlane(3500.000);
 	ZoomFactor(1.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
 	Bookmark(0.000, 0.000, 0.000,  1.000, 0.000, 0.000, 0.000);
@@ -448,8 +448,8 @@ Object("cp2", "com_bldg_controlzone", 368707201)
 
 Object("cp8", "com_bldg_controlzone", 325108975)
 {
-	ChildRotation(1.000, 0.000, 0.010, 0.000);
-	ChildPosition(83.388, -291.728, -59.804);
+	ChildRotation(0.999, -0.030, 0.012, -0.020);
+	ChildPosition(83.388, -291.620, -59.804);
 	SeqNo(325108975);
 	Team(0);
 	NetworkId(-1);

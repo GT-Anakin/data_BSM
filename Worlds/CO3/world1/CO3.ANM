@@ -144,6 +144,12 @@ Animation("cis_lander_siege", 80.00, 0, 0)
 	AddPositionKey(80.00, 0.00, 550.00, 50000.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
 }
 
+Animation("int3_doors", 1.00, 0, 0)
+{
+	AddPositionKey(0.00, 0.00, 0.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+	AddPositionKey(1.00, 0.00, -90000.00, 0.00, 1, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00);
+}
+
 AnimationGroup("ad_rings", 1, 0)
 {
 	Animation("ring_1", "ad_ring1");
@@ -378,5 +384,11 @@ AnimationGroup("space_cw_frigates", 1, 0)
 AnimationGroup("cis_lander_siege", 1, 0)
 {
 	Animation("cis_lander_siege", "cis_lander_siege");
+}
+
+AnimationGroup("int3_doors", 0, 0)
+{
+	DisableHierarchies();
+	Animation("int3_doors", "house_doors");
 }
 

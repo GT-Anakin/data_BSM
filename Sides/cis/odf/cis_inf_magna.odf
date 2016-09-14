@@ -3,6 +3,7 @@ ClassParent         = "cis_inf_default"
 
 [Properties]
 GeometryName        = "cis_bf3_magnaguard"
+GeometryLowRes		= "cis_bf3_magnaguard_low"
 SkeletonName		= "bf3magna"
 AnimationName		= "bf3magna"
 FirstPerson         = "CIS\cis;cis_1st_magna"

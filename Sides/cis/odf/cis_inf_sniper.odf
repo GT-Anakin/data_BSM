@@ -20,7 +20,7 @@ WeaponAmmo         = 4
 
 WEAPONSECTION = 2
 WeaponName         = "cis_weap_inf_pistol"
-WeaponAmmo         = 0
+WeaponAmmo         = 8
 
 WEAPONSECTION = 3
 WeaponName         = "com_weap_inf_impactgrenade"
